@@ -137,7 +137,7 @@ export default function Trusted() {
     return (
         <div className='frame-1200 py-100 sm-py-50'>
             <motion.h2
-                className="text-center mb-20 sm-mb-10"
+                className="text-center mb-20 sm-mb-10 sm-text-start"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 50 }} // when leaving viewport
@@ -148,7 +148,7 @@ export default function Trusted() {
             </motion.h2>
 
             <motion.p
-                className="text-center mb-50 sm-mb-10 frame-600"
+                className="text-center mb-50 sm-mb-10 frame-600 sm-text-start"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 50 }}
@@ -184,7 +184,7 @@ export default function Trusted() {
                 </div>
 
                 <div className={`${styles.svgContainer}`} ref={svgRef}>
-                    <svg width={isMobile ? "400" : "1200"} height={isMobile ? "100%" : "700"} viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width={isMobile ? "800" : "1200"} height={isMobile ? "100%" : "700"} viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.2" d="M555 228L467.107 140.5H144" stroke="white" />
                         <path opacity="0.2" d="M546 228L464.5 146.5H424" stroke="white" />
                         <path opacity="0.1" d="M149 166L144 161H157L162 166H149Z" fill="white" />

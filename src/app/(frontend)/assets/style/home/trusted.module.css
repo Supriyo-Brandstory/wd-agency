@@ -39,6 +39,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .svgContainer{
+        overflow: hidden;
+    }
     .trustedWrapper {
     padding: 10px 0;
     display: block;
