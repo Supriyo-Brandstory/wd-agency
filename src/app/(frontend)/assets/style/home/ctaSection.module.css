@@ -1,0 +1,79 @@
+.ctaBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-gray);
+    /* Dark base */
+    border-radius: 20px;
+    padding: 80px 40px;
+    color: #fff;
+    gap: 30px;
+    /* so pseudo-element stays inside */
+}
+
+/* Add blurred gradient overlay */
+.ctaBox::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at left,
+            rgba(236, 72, 153, 0.25) 0%,
+            /* pink with low opacity */
+            transparent 70%),
+        radial-gradient(circle at right,
+            rgba(139, 92, 246, 0.25) 0%,
+            /* violet with low opacity */
+            transparent 70%);
+    filter: blur(80px);
+    /* controls softness */
+    z-index: 0;
+}
+
+.ctaBox>* {
+    position: relative;
+    z-index: 1;
+    /* keep content above glow */
+}
+
+
+
+.ctaContent {
+    flex: 0 0 70%;
+}
+
+
+
+
+
+.ctaButtons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+
+.ctaImage {
+    flex: 0 0 30%;
+     position: relative;
+}
+
+.ctaImage img {
+object-fit: contain;
+    max-width: none;
+    position: absolute;
+    bottom: -216px;
+    right: -25px;
+    width: 420px !important;
+    height: 502px !important;         /* prevent global resets */
+}
+
+@media screen and (max-width: 768px) {
+    .ctaImage img{
+        display: none;
+    }
+    .ctaContent{
+        flex: 0 0 100%;
+    }
+    }

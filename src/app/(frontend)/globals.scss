@@ -1,0 +1,477 @@
+@import "tailwindcss";
+
+/* ---------------- HK Grotesk ---------------- */
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/font/HKGrotesk-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ---------------- Hanken Grotesk ---------------- */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('/font/HankenGrotesk-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  /* Colors */
+  --color-black: #0A0B0F;
+  --color-pink: #E83E8C;
+  --color-violet: #AC5FEA;
+  --color-dark: #171717;
+  --color-white: #FFFFFF;
+  --color-blue: #2F2FB0;
+  --color-gray:#292929;
+
+  /* Font families */
+  --font-primary: 'HK Grotesk', sans-serif;
+  --font-secondary: 'Hanken Grotesk', sans-serif;
+
+  /* sizes */
+  @for $i from 1 through 2000 {
+    --size-#{$i}: #{$i}px;
+  }
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: var(--size-20);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: var(--size-52);
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: var(--size-38);
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+h3{
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: var(--size-28);
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+p {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: var(--size-20);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+ul {
+  font-family: var(--font-secondary);
+  list-style-type: disc;  
+  font-weight: 500;
+  padding: 0;
+  margin-left: var(--size-10) ;
+}
+
+ul li {
+  margin-bottom: var(--size-20);        /* spacing between items */
+}
+
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fs-20{
+  font-size: var(--size-20);
+}
+.fs-24{
+  font-size: var(--size-24);
+}
+.fs-22{
+  font-size: var(--size-22);
+}
+.fs-28{
+  font-size: var(--size-28);
+}
+.fs-52{
+  font-size: var(--size-52);
+}
+.fs-64{
+  font-size: var(--size-64);
+}
+
+
+/* frame  */
+.frame-600{
+  width: var(--size-600);
+  margin: 0 auto;
+}
+.frame-700{
+  width: var(--size-700);
+  margin: 0 auto;
+}
+
+.frame-800{
+  width: var(--size-800);
+  margin: 0 auto;
+}
+.frame-900{
+  width: var(--size-900);
+  margin: 0 auto;
+}
+
+.frame-1000{
+  width: var(--size-1000);
+  margin: 0 auto;
+}
+
+.frame-1100{
+  width: var(--size-1100);
+  margin: 0 auto;
+}
+
+
+.frame-1200{
+  width: var(--size-1200);
+  margin: 0 auto;
+}
+
+// Margin utilities
+@for $i from 1 through 2000 {
+  .m-#{$i}  { margin: var(--size-#{$i}); }
+  .mt-#{$i} { margin-top: var(--size-#{$i}); }
+  .mb-#{$i} { margin-bottom: var(--size-#{$i}); }
+  .ml-#{$i} { margin-left: var(--size-#{$i}); }
+  .mr-#{$i} { margin-right: var(--size-#{$i}); }
+  .mx-#{$i} { margin-left: var(--size-#{$i}); margin-right: var(--size-#{$i}); }
+  .my-#{$i} { margin-top: var(--size-#{$i}); margin-bottom: var(--size-#{$i}); }
+}
+
+// Padding utilities
+@for $i from 1 through 2000 {
+  .p-#{$i}  { padding: var(--size-#{$i}); }
+  .pt-#{$i} { padding-top: var(--size-#{$i}); }
+  .pb-#{$i} { padding-bottom: var(--size-#{$i}); }
+  .pl-#{$i} { padding-left: var(--size-#{$i}); }
+  .pr-#{$i} { padding-right: var(--size-#{$i}); }
+  .px-#{$i} { padding-left: var(--size-#{$i}); padding-right: var(--size-#{$i}); }
+  .py-#{$i} { padding-top: var(--size-#{$i}); padding-bottom: var(--size-#{$i}); }
+}
+// Gap utilities
+@for $i from 1 through 2000 {
+  .gap-#{$i}  { gap: var(--size-#{$i}); }
+  .gap-x-#{$i} { column-gap: var(--size-#{$i}); }
+  .gap-y-#{$i} { row-gap: var(--size-#{$i}); }
+}
+
+
+// button 
+.white-btn {
+    background: var(--color-white);
+    color: var(--color-black);
+    font-size: var(--size-22);
+    font-weight: 600;
+    border-radius: var(--size-8);
+    padding: var(--size-20) var(--size-30);
+}
+.blue-btn {
+    background: var(--color-blue);
+    color: var(--color-white);
+    font-size: var(--size-22);
+    font-weight: 600;
+    border-radius: var(--size-8);
+    padding: var(--size-20) var(--size-30);
+    display: inline-block;
+}
+
+
+
+
+
+/* styles/animations.module.css */
+/* global.css or module.css */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.fade-up.delay {
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+/* ---------------- Responsive Global Styles ---------------- */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  html, body {
+    font-size: var(--size-18);
+  }
+
+  h1 {
+    font-size: var(--size-40);
+  }
+
+  h2 {
+    font-size: var(--size-30);
+  }
+
+  h3 {
+    font-size: var(--size-24);
+  }
+
+  p, ul {
+    font-size: var(--size-18);
+  }
+
+  .frame-600, .frame-700, .frame-800, .frame-900, .frame-1000,
+  .frame-1100, .frame-1200 {
+    width: 95%;   /* shrink to fit screen */
+  }
+
+  .white-btn, .blue-btn {
+    font-size: var(--size-18);
+    padding: var(--size-16) var(--size-24);
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  html, body {
+    font-size: var(--size-16);
+  }
+
+  h1 {
+    font-size: var(--size-32);
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: var(--size-24);
+  }
+
+  h3 {
+    font-size: var(--size-20);
+  }
+
+  p, ul {
+    font-size: var(--size-16);
+    line-height: 1.5;
+  }
+
+  .frame-600, .frame-700, .frame-800, .frame-900, .frame-1000,
+  .frame-1100, .frame-1200 {
+    width: 100%;
+  }
+
+  .white-btn, .blue-btn {
+    font-size: var(--size-16);
+    padding: var(--size-14) var(--size-20);
+  }
+
+  ul {
+    margin-left: var(--size-20);
+  }
+
+  // Margin utilities
+@for $i from 1 through 2000 {
+  .sm-m-#{$i}  { margin: var(--size-#{$i}); }
+  .sm-mt-#{$i} { margin-top: var(--size-#{$i}); }
+  .sm-mb-#{$i} { margin-bottom: var(--size-#{$i}); }
+  .sm-ml-#{$i} { margin-left: var(--size-#{$i}); }
+  .sm-mr-#{$i} { margin-right: var(--size-#{$i}); }
+  .sm-mx-#{$i} { margin-left: var(--size-#{$i}); margin-right: var(--size-#{$i}); }
+  .sm-my-#{$i} { margin-top: var(--size-#{$i}); margin-bottom: var(--size-#{$i}); }
+}
+
+// Padding utilities
+@for $i from 0 through 2000 {
+  .sm-p-#{$i}  { padding: var(--size-#{$i}); }
+  .sm-pt-#{$i} { padding-top: var(--size-#{$i}); }
+  .sm-pb-#{$i} { padding-bottom: var(--size-#{$i}); }
+  .sm-pl-#{$i} { padding-left: var(--size-#{$i}); }
+  .sm-pr-#{$i} { padding-right: var(--size-#{$i}); }
+  .sm-px-#{$i} { padding-left: var(--size-#{$i}); padding-right: var(--size-#{$i}); }
+  .sm-py-#{$i} { padding-top: var(--size-#{$i}); padding-bottom: var(--size-#{$i}); }
+}
+// Gap utilities
+@for $i from 1 through 2000 {
+  .sm-gap-#{$i}  { gap: var(--size-#{$i}); }
+  .sm-gap-x-#{$i} { column-gap: var(--size-#{$i}); }
+  .sm-gap-y-#{$i} { row-gap: var(--size-#{$i}); }
+}
+ .col-reverse{
+        flex-direction: column-reverse !important;
+
+    }
+     .sm-col-reverse{
+        flex-direction: column-reverse !important;
+
+    }
+    .sm-text-center{
+        text-align: center !important;
+    }
+    .sm-text-start{
+        text-align: start !important;
+    }
+    .sm-text-end{
+        text-align: end !important;
+    }
+}
+

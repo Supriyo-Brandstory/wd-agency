@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.leftInnerContainer {
+  flex: 1;
+  max-width: 40%;
+}
+
+
+
+.rightInnerContainer {
+  flex: 2;
+  max-width: 60%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 600px; /* adjust scroll height */
+  padding-right: 15px;
+}
+
+.scrollWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.card h3 {
+  background:linear-gradient(180deg, #E83E8C 28.62%, #292929 95.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;
+  font-size: var(--size-52);
+
+}
+.card h3 span {
+    font-size: var(--size-64);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+}
+  .leftInnerContainer {
+    flex: 1;
+    max-width: 100%;
+}
+.rightInnerContainer {
+    flex: 2;
+    max-width: 100%;
+    padding: 0px;
+    border-radius: 20px;
+}
+.card h3{
+  font-size: var(--size-30);
+}
+.card h3 span {
+    font-size: var(--size-42);
+}
+
+
+  
+}

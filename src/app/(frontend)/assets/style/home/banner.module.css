@@ -1,0 +1,242 @@
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: url("../../../assets/images/home-banner.webp") no-repeat center bottom;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+
+  /* Animation */
+  opacity: 1;
+  animation: fadeUpBanner 4s ease-in-out forwards;
+}
+
+@keyframes fadeUpBanner {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+    /* নিচ থেকে শুরু */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    /* আসল পজিশনে আসবে */
+  }
+}
+
+.glowLineWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 50%;
+  z-index: 2;
+  overflow: visible;
+  animation: lineFadeIn 2s ease-out forwards;
+  /* একবারই হবে */
+
+}
+
+.glowLineWrapper::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 120px;
+  background: radial-gradient(ellipse at bottom,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.5) 40%,
+      rgba(255, 255, 255, 0) 100%);
+  filter: blur(35px);
+  opacity: 0;
+  animation: glowFadeIn 2.5s ease-out forwards;
+  /* একবার ধীরে fade-in হবে */
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Keyframes */
+@keyframes lineFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes glowFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: var(--frame-1200);
+  opacity: 1;
+  animation: fadeUpBanner 4s ease-in-out forwards;
+  padding-bottom: 90px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.primary {
+  background: var(--color-blue);
+  color: var(--color-white);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary:hover {
+  background: #1a35c9;
+}
+
+.secondary {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary:hover {
+  background: #e6e6e6;
+}
+
+
+
+/* ---------------- Responsive Banner ---------------- */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .banner {
+    min-height: 70vh;
+    background-position: center center;
+    padding: 40px 20px;
+  }
+
+  .content {
+    padding-bottom: 60px;
+  }
+
+  .content p {
+    font-size: var(--size-20);
+  }
+
+  .content h1 {
+    font-size: var(--size-38);
+    line-height: 1.2;
+  }
+
+  .buttons {
+    gap: 0.8rem;
+  }
+
+  .primary,
+  .secondary {
+    font-size: var(--size-18);
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .banner {
+    min-height: 60vh;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .content {
+    padding-bottom: 40px;
+  }
+
+  .content p {
+    font-size: var(--size-18);
+    margin-bottom: var(--size-16);
+  }
+
+  .content h1 {
+    font-size: var(--size-28);
+    line-height: 1.3;
+    margin-bottom: var(--size-16);
+  }
+
+  .content p.frame-800 {
+    width: 100%;
+    font-size: var(--size-16);
+    margin-bottom: var(--size-24);
+  }
+
+  .buttons {
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .primary,
+  .secondary {
+    width: 100%;
+    max-width: 280px;
+    font-size: var(--size-16);
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .banner {
+    min-height: 50vh;
+    padding: 20px 12px;
+  }
+
+  .content h1 {
+    font-size: var(--size-22);
+    line-height: 1.3;
+  }
+
+  .content p {
+    font-size: var(--size-16);
+  }
+
+  .buttons {
+    gap: 0.6rem;
+  }
+
+  .primary,
+  .secondary {
+    font-size: var(--size-14);
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+  }
+}

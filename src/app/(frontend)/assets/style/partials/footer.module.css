@@ -1,0 +1,169 @@
+.footer {
+    background: #29292973;
+    color: #fff;
+    padding: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #e83e8c, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.icon {
+    margin-right: 10px;
+}
+.about{
+    max-width: 370px;
+}
+.contact{
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cities{
+    display: flex;
+    align-items: end;
+    width: 320px;
+}
+.legal{
+     width: 280px;
+}
+.linksWrapper {
+    display: flex;
+    flex: 0 0 calc(33.33% - 20px);
+    gap: 40px;
+    flex: 2;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.linksWrapper2 {
+    display: flex;
+    flex: 0 0 40%;
+    gap: 40px;
+    flex: 2;
+    justify-content: space-between;
+}
+
+
+.bottom {
+    border-top: 1px solid #444;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer p,
+.footer a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    margin: 0px 0 5px;
+    font-weight: 400;
+}
+.footer ul {
+    margin: 0;
+
+}
+.footer h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px
+}
+.about img{
+    width: 221px;
+    height: auto;
+    margin-bottom: 30px;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .linksWrapper,
+  .linksWrapper2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .about img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .contact {
+    width: 100%;
+    gap: 12px;
+    text-align: left;
+  }
+
+  .contact a {
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+
+  .cities {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .cities h4 {
+    text-align: left;
+  }
+
+  .legal {
+    width: 100%;
+    text-align: left;
+  }
+
+  .footer h4 {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .footer ul li {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .bottom {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center; /* keep copyright centered */
+  }
+}

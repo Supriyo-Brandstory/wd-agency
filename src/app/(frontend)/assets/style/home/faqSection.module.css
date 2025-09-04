@@ -1,0 +1,46 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faqCard {
+  background: var(--color-gray);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faqHeader {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.faqCard.active .faqHeader {
+  /* color: #e0e0ff; */
+}
+
+.faqContent {
+  padding: 0 20px 20px 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+.faqHeader {
+    font-size: 20px;
+}
+.faqContent {
+  font-size: 16px;
+}
+}

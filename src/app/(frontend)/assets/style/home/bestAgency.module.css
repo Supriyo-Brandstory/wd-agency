@@ -1,0 +1,66 @@
+.bestAgencyContainerBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-25);
+    align-items: stretch;
+    /* all children same height */
+}
+
+.bestAgencyContainerBox>div {
+    flex: 1 1 calc(33.33% - var(--size-20));
+    box-sizing: border-box;
+    display: flex;
+}
+
+.innerBestAgencyBox {
+    padding: var(--size-20) 0;
+    border-radius: var(--size-8);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* ensures the ::before respects radius */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    gap: var(--size-20);
+}
+
+.innerBestAgencyBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--size-4);
+    /* border thickness */
+    background: linear-gradient(90deg, var(--color-pink) 0%, var(--color-white) 100%);
+    border-top-left-radius: var(--size-8);
+    /* match parent radius */
+    border-top-right-radius: var(--size-8);
+}
+
+.bestAgencynextContainer {
+    gap: var(--size-20);
+    display: flex;
+    background: var(--color-gray);
+    border-radius: var(--size-20);
+    overflow: hidden;
+    padding: var(--size-40);
+    margin-top: var(--size-30);
+}
+
+@media screen and (max-width: 768px) {
+    .bestAgencyContainerBox{
+        display: block;
+    }
+    .bestAgencynextContainer{
+        flex-direction: column;
+        padding: var(--size-20);
+        margin: 30px 0 var(--size-30);
+    }
+   
+
+    
+}

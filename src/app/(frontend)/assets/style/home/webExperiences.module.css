@@ -1,0 +1,48 @@
+
+.topSection,.bottomSection {
+  
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.textContent {
+  flex: 0 0 65%; /* don’t let it shrink, set fixed basis */
+}
+.imageContent {
+  flex: 0 0 35%;
+}
+
+
+.imageContent img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 480px;
+}
+
+.bottomimageContent{
+    flex: 0 0 40%;
+}
+.bottomTextContent{
+    flex: 0 0 60%;
+}
+.bottomSection img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 367px;
+}
+
+@media screen and (max-width: 768px) {
+  .topSection,.bottomSection {
+    flex-direction: column;
+  }
+  .textContent {
+    flex: 0 0 100%;
+  }
+  .imageContent {
+    flex: 0 0 100%;
+  }
+  
+}

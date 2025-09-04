@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.card {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.lottie {
+    width: 80px;
+    height: 80px;
+}
+
+
+.bottomBox {
+  margin-top: 60px;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 40px 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

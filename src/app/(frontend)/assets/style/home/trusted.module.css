@@ -1,0 +1,54 @@
+.trustedWrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.statBox{
+    background: #292929;
+    padding: 25px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    z-index: 999!important;
+    width: 350px;
+    
+}
+.statBox:hover {
+    background: linear-gradient(180deg, rgba(47, 47, 176, 0.35) 0%, rgba(232, 62, 140, 0.35) 100%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.svgContainer {
+     position: relative;
+ 
+}
+.svgContainer svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-56%, -53%);
+  z-index: 1;
+  pointer-events: none; /* <-- important */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .trustedWrapper {
+    padding: 10px 0;
+    display: block;
+}
+    .svgContainer svg {
+        position: relative;
+          transform: translate(-56%, -8%);
+
+    }
+    .statBox{
+        width: 100%;
+    }
+}
