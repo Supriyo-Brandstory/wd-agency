@@ -31,7 +31,26 @@
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  height: 367px;
+}
+.middleSection{
+  display: flex;
+  align-items: end;
+  gap: 40px;
+  background: #270D2C;
+  border-radius: 20px;
+}
+.middleSection img{
+  width: 64%;
+  object-fit: contain;
+}
+.middleSectionImg,.middleSectionImg_2{
+  flex: 1 1 40%;
+}
+.middleSectionText{
+  flex: 1 1 60%;
+}
+.middleSectionImg_2 img{
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -44,5 +63,10 @@
   .imageContent {
     flex: 0 0 100%;
   }
-  
+  .middleSection {
+    flex-direction: column;
+}
+  .middleSection img {
+    width: 80%;
+}
 }

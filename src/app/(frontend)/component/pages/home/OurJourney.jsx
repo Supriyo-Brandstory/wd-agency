@@ -43,9 +43,9 @@ const fadeUp = {
 
 const OurJourney = () => {
   return (
-    <div className='frame-1200 py-100 sm-pt-0 sm-pb-50'>
+    <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
       <motion.h2
-        className='text-center mb-20 sm-text-start sm-mb-10'
+        className='text-center mb-20 sm-text-start sm-mb-20'
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}

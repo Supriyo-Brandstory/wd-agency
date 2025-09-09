@@ -108,4 +108,10 @@
   .mobileToggle {
     display: block;
   }
+  .header{
+    padding: 20px;
+  }
+  .nav {
+  align-items: start;
+}
 }

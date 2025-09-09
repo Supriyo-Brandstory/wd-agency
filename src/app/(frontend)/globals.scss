@@ -225,6 +225,12 @@ ul li {
 .fw-700{
   font-weight: 700;
 }
+.fs-16{
+  font-size: var(--size-16);
+}
+.fs-18{
+  font-size: var(--size-18);
+}
 .fs-20{
   font-size: var(--size-20);
 }
@@ -418,6 +424,7 @@ ul li {
   .frame-600, .frame-700, .frame-800, .frame-900, .frame-1000,
   .frame-1100, .frame-1200 {
     width: 100%;
+    margin: 0 auto;
   }
 
   .white-btn, .blue-btn {
@@ -430,25 +437,25 @@ ul li {
   }
 
   // Margin utilities
-@for $i from 1 through 2000 {
-  .sm-m-#{$i}  { margin: var(--size-#{$i}); }
-  .sm-mt-#{$i} { margin-top: var(--size-#{$i}); }
-  .sm-mb-#{$i} { margin-bottom: var(--size-#{$i}); }
-  .sm-ml-#{$i} { margin-left: var(--size-#{$i}); }
-  .sm-mr-#{$i} { margin-right: var(--size-#{$i}); }
-  .sm-mx-#{$i} { margin-left: var(--size-#{$i}); margin-right: var(--size-#{$i}); }
-  .sm-my-#{$i} { margin-top: var(--size-#{$i}); margin-bottom: var(--size-#{$i}); }
+@for $i from 0 through 2000 {
+  .sm-m-#{$i}  { margin: var(--size-#{$i}) !important; }
+  .sm-mt-#{$i} { margin-top: var(--size-#{$i}) !important; }
+  .sm-mb-#{$i} { margin-bottom: var(--size-#{$i}) !important; }
+  .sm-ml-#{$i} { margin-left: var(--size-#{$i}) !important; }
+  .sm-mr-#{$i} { margin-right: var(--size-#{$i}) !important; }
+  .sm-mx-#{$i} { margin-left: var(--size-#{$i}) !important; margin-right: var(--size-#{$i}) !important; }
+  .sm-my-#{$i} { margin-top: var(--size-#{$i}) !important; margin-bottom: var(--size-#{$i}) !important; }
 }
 
 // Padding utilities
 @for $i from 0 through 2000 {
-  .sm-p-#{$i}  { padding: var(--size-#{$i}); }
-  .sm-pt-#{$i} { padding-top: var(--size-#{$i}); }
-  .sm-pb-#{$i} { padding-bottom: var(--size-#{$i}); }
-  .sm-pl-#{$i} { padding-left: var(--size-#{$i}); }
-  .sm-pr-#{$i} { padding-right: var(--size-#{$i}); }
-  .sm-px-#{$i} { padding-left: var(--size-#{$i}); padding-right: var(--size-#{$i}); }
-  .sm-py-#{$i} { padding-top: var(--size-#{$i}); padding-bottom: var(--size-#{$i}); }
+  .sm-p-#{$i}  { padding: var(--size-#{$i}) !important; }
+  .sm-pt-#{$i} { padding-top: var(--size-#{$i}) !important; }
+  .sm-pb-#{$i} { padding-bottom: var(--size-#{$i}) !important; }
+  .sm-pl-#{$i} { padding-left: var(--size-#{$i}) !important; }
+  .sm-pr-#{$i} { padding-right: var(--size-#{$i}) !important; }
+  .sm-px-#{$i} { padding-left: var(--size-#{$i}) !important; padding-right: var(--size-#{$i}) !important; }
+  .sm-py-#{$i} { padding-top: var(--size-#{$i}) !important; padding-bottom: var(--size-#{$i}) !important; }
 }
 // Gap utilities
 @for $i from 1 through 2000 {

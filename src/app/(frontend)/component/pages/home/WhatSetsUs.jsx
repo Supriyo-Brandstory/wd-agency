@@ -12,7 +12,7 @@ const slideUp = {
 const WhatSetsUs = () => {
   return (
     <div className={styles.whatSetsUsContainer}>
-      <div className="frame-1200 py-100 sm-py-50">
+      <div className="frame-1200 py-100 sm-p-20 ">
         <motion.div
           className={styles.innerContainer}
           variants={slideUp}
@@ -22,17 +22,16 @@ const WhatSetsUs = () => {
           viewport={{ once: true }}
         >
           <h2 className="mb-20">
-            What Sets Us Apart As The Best Web Development Agency in Dubai, UAE
+            Innovation, Performance, and Design
+            Redefining Web Development in the UAE
+
           </h2>
           <p>
-            Website Development Agency is the best web development agency in
-            Dubai with years of expertise in designing user-centric websites. We
-            are a highly reputed agency with cutting-edge design ability and
-            unmatched creative vision. We design websites that deliver
-            personalized browsing experiences and redefine excellence. We go
-            beyond the ordinary norms when it comes to the vibrant landscape of
-            Dubai.
+            True digital success is built on the pillars of innovation, performance, and design. With a decade of expertise, we craft user-centric websites that seamlessly blend creativity with functionality. Our cutting-edge design capabilities and true creative vision ensure every website we deliver provides a personalized browsing experience that resonates with your audience. In the vibrant and competitive landscape of Dubai, we don’t just build websites- we create digital experiences that inspire, engage, and set new benchmarks for excellence.
           </p>
+          <p className="my-20">WD Agency gives your brand a distinct edge in a fiercely competitive Dubai market. Backed by 50+ web design and development experts and deep industry knowledge, we are committed to delivering the best quality solutions aligned with your business objectives.
+</p>
+          
         </motion.div>
       </div>
     </div>

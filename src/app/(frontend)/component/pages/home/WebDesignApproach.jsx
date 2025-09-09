@@ -49,7 +49,7 @@ const fadeUp = {
 
 const WebDesignApproach = () => {
   return (
-    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50">
+    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
       <motion.h2
         className="frame-700 text-center sm-text-start"
         initial={{ opacity: 0, y: -30 }}
@@ -57,7 +57,7 @@ const WebDesignApproach = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        Designed Websites for All Businesses – Small, Medium, or Large
+        Transforming Ideas into Immersive Digital Experiences
       </motion.h2>
 
       <div className={`${styles.boxcontainer} mt-60`}>

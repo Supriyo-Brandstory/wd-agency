@@ -33,7 +33,7 @@ const techData = [
 
 const TechnologyStack = () => {
   return (
-    <div className="frame-1200 py-100 sm-py-50 sm-text-start">
+    <div className="frame-1200 py-100 sm-pb-50 sm-text-start sm-px-20 sm-pt-0">
       {/* Heading */}
       <motion.div
         className="frame-1000 text-center mb-50 sm-text-start sm-mb-20"
@@ -42,7 +42,7 @@ const TechnologyStack = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="mb-20 sm-mb-10">Our Website Development Technology Stack</h2>
+        <h2 className="mb-20 sm-mb-20">Our Website Development Technology Stack</h2>
         <p>
           We possess deep expertise in all frontend and backend website development technologies.
         </p>

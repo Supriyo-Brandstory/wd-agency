@@ -37,7 +37,7 @@ const OurCoreStrengths = () => {
   }, []);
 
   return (
-    <div className="frame-1200 py-100 sm-py-50 ">
+    <div className="frame-1200 py-100 sm-py-50  sm-px-20">
       {/* Heading Section */}
       <motion.div
         className="text-center sm-text-start frame-1000 mb-50 sm-mb-20"
@@ -46,7 +46,7 @@ const OurCoreStrengths = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="mb-20 sm-mb-10">
+        <h2 className="mb-20 sm-mb-20">
           What Sets Us Apart As The Best Web Development Agency in Dubai, UAE
         </h2>
         <p>
@@ -81,7 +81,7 @@ const OurCoreStrengths = () => {
 
       {/* Bottom Text */}
       <motion.div
-        className={`sm-text-start ${styles.bottomBox}`}
+        className={`sm-text-start sm-mt-30 ${styles.bottomBox}`}
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}

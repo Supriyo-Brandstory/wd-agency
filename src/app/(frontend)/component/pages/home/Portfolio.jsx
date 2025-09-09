@@ -25,7 +25,7 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <div className='frame-1200 py-100 sm-pt-0 sm-pb-50'>
+        <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
             {/* Section Heading */}
             <motion.div
                 className='frame-700 text-center sm-text-start'
@@ -34,7 +34,7 @@ const Portfolio = () => {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
             >
-                <h2 className="mb-20 sm-mb-10">Our Portfolio</h2>
+                <h2 className="mb-20 sm-mb-20">Our Portfolio</h2>
                 <p className="mb-40 sm-mb-20">
                     We have worked with 500+ clients across Dubai and the United Arab Emirates. 
                     See our extensive website design and development portfolio here
@@ -53,7 +53,7 @@ const Portfolio = () => {
                         viewport={{ once: true }}
                     >
                         <Image src={project.img} alt={project.title} />
-                        <h3 className='my-20 sm-mb-10'>{project.title}</h3>
+                        <h3 className='my-20 sm-mb-20'>{project.title}</h3>
                         <p>{project.desc}</p>
                         <a href={project.link}>View Project</a>
                     </motion.div>

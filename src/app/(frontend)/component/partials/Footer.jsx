@@ -22,9 +22,8 @@ const Footer = () => {
           <div className={styles.about}>
             <Image src={logo} alt="logo" />
             <p>
-              Leading web development agency in UAE, delivering innovative digital
-              solutions for businesses worldwide. We specialize in custom web
-              development, mobile apps, and digital transformation.
+             Established in 2013, WD Agency is a leading web design and development agency in the UAE, delivering innovative and custom web solutions that drive business growth.
+
             </p>
             
           </div>
@@ -64,14 +63,13 @@ const Footer = () => {
         <div className={styles.linksWrapper2}>
           <div className={`${styles.contact} mt-20`}>
               <Link href={"mailto:info@websitedevelopmentagency.ae"} className="flex gap-x-10 items-center">
-                <Image src={mailbox} alt="mailbox"/> info@websitedevelopmentagency.ae
+                <Image src={mailbox} alt="mailbox" width={30} height={30}/> info@websitedevelopmentagency.ae
               </Link>
-              <Link href={"tel:+971-XX-XXXXXXX"} className="flex gap-x-10 items-center">
-                <Image src={call} alt="call"/> +971-XX-XXXXXXX
+              <Link href={"tel:+971 52 283 1655"} className="flex gap-x-10 items-center">
+                <Image src={call} alt="call"  width={30} height={30}/> +971 52 283 165
               </Link>
-              <Link href='#' className="flex gap-x-10 items-center">
-               <Image src={location} alt="location"/> Dubai, United Arab
-                Emirates
+              <Link href='#' className="flex gap-x-10 items-start">
+               <Image src={location} alt="location"  width={30} height={30}/> G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai - 81577
               </Link>
             </div>
           <div className={styles.cities}>

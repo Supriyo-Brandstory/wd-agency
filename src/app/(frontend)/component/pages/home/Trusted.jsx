@@ -135,9 +135,9 @@ export default function Trusted() {
   }, []);
 
     return (
-        <div className='frame-1200 py-100 sm-py-50'>
+        <div className='frame-1200 py-100 sm-py-50 sm-px-20'>
             <motion.h2
-                className="text-center mb-20 sm-mb-10 sm-text-start"
+                className="text-center mb-20 sm-mb-20 sm-text-start"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 50 }} // when leaving viewport
@@ -148,15 +148,15 @@ export default function Trusted() {
             </motion.h2>
 
             <motion.p
-                className="text-center mb-50 sm-mb-10 frame-600 sm-text-start"
+                className="text-center mb-50 sm-mb-20 frame-700 sm-text-start"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 50 }}
                 transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
                 viewport={{ once: false, amount: 0.3 }}
             >
-                Our proven track record speaks for itself. We've helped hundreds of
-                businesses achieve their digital goals.
+                With a proven track record in website design and development, we have helped hundreds of businesses thrive and grow their online presence.
+
             </motion.p>
             <div className={`${styles.trustedWrapper}`}>
                 <div className={`${styles.leftstatBox}`}>
@@ -184,7 +184,7 @@ export default function Trusted() {
                 </div>
 
                 <div className={`${styles.svgContainer}`} ref={svgRef}>
-                    <svg width={isMobile ? "800" : "1200"} height={isMobile ? "100%" : "700"} viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width={isMobile ? "900" : "1200"} height={isMobile ? "400" : "700"} viewBox={isMobile ? "0 0  1200 700" : "0 0 1280 780"} fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.2" d="M555 228L467.107 140.5H144" stroke="white" />
                         <path opacity="0.2" d="M546 228L464.5 146.5H424" stroke="white" />
                         <path opacity="0.1" d="M149 166L144 161H157L162 166H149Z" fill="white" />
@@ -753,8 +753,8 @@ export default function Trusted() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
     >
-      <p className="my-20">Ready to join our success stories?</p>
-      <button className="white-btn">Start Your Project Today</button>
+      <p className="my-20">Need an incredible website built for impact?</p>
+      <button className="white-btn">Let’s Discuss Today</button>
     </motion.div>
 
         </div>

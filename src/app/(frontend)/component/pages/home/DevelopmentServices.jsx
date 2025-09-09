@@ -50,7 +50,7 @@ const cardVariants = {
 
 const DevelopmentServices = () => {
   return (
-    <div className="frame-1200 py-100 sm-pb-50 sm-pt-0 ">
+    <div className="frame-1200 py-100 sm-pb-50 sm-pt-0 sm-px-20 ">
       <motion.h2 
         className="text-center mb-50 sm-mb-20 sm-text-start"
         initial={{ opacity: 0, y: -30 }}

@@ -7,7 +7,7 @@ import womanLaptop from "@/app/(frontend)/assets/images/woman-laptop.webp";
 
 const CtaSection = () => {
   return (
-    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50">
+    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
       <motion.div
         className={styles.ctaBox}
         initial={{ opacity: 0, y: 50 }}
