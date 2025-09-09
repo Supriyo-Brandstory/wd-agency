@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
         `,
       }}
     />
+    <meta name="google-site-verification" content="suKFSXDWpXvnLlBzj_osoCgWVYGJEGilsS9xndMUs3I" />
       </head>
       <body className="antialiased">
         <noscript
