@@ -143,12 +143,12 @@ const BestAgency = () => {
           {isMobile && (
             <>
             <button
-              className="blue-btn mt-10 mr-10"
+              className="blue-btn mr-10 mb-10"
               onClick={() => handleClickOpen("1")}
             >
               {isOpen["1"] ? "Read Less" : "Read More"}
             </button>
-          <button className="white-btn mt-10">Contact Us</button>
+          <button className="white-btn mb-10">Contact Us</button>
 </>
           )}
         </ul>
@@ -194,12 +194,12 @@ const BestAgency = () => {
           {isMobile && (
             <>
             <button
-              className="blue-btn mt-10 mr-10"
+              className="blue-btn mb-10 mr-10"
               onClick={() => handleClickOpen("2")}
             >
               {isOpen["2"] ? "Read Less" : "Read More"}
             </button>
-          <button className="white-btn mt-10">Contact Us</button>
+          <button className="white-btn mb-10">Contact Us</button>
          </>
           )}
         </ul>
