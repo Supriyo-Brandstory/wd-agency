@@ -3,105 +3,116 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import styles from "@/app/(frontend)/assets/style/home/trusted.module.css";
 import { motion } from "framer-motion";
+import loding from "../../../assets/images/loading-gif.gif";
+import Image from "next/image";
 
 export default function Trusted() {
-  const svgRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(false);
+const [showsvg, setShowsvg] = useState(false);
+const [isMobile, setIsMobile] = useState(false);
+const svgRef = useRef(null);
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Ring animations
-      const rings = [
-        { id: "#innerDashed", rotate: -360, duration: 15 },
-        { id: "#anticlockwise", rotate: -360, duration: 13 },
-        { id: "#clockwise", rotate: 360, duration: 13 },
-        { id: "#pinkRings-1", rotate: 360, duration: 8 },
-        { id: "#pinkRings-2", rotate: -360, duration: 10 },
-        { id: "#pinkRings-3", rotate: 360, duration: 12 },
-      ];
+useEffect(() => {
+  const ctx = gsap.context(() => {
+    // Ring animations
+    const rings = [
+      { id: "#innerDashed", rotate: -360, duration: 15 },
+      { id: "#anticlockwise", rotate: -360, duration: 13 },
+      { id: "#clockwise", rotate: 360, duration: 13 },
+      { id: "#pinkRings-1", rotate: 360, duration: 8 },
+      { id: "#pinkRings-2", rotate: -360, duration: 10 },
+      { id: "#pinkRings-3", rotate: 360, duration: 12 },
+    ];
 
-      rings.forEach(({ id, rotate, duration }) => {
-        gsap.to(id, {
-          rotate,
-          transformOrigin: "50% 50%",
-          duration,
-          repeat: -1,
-          ease: "linear",
-        });
+    rings.forEach(({ id, rotate, duration }) => {
+      gsap.to(id, {
+        rotate,
+        transformOrigin: "50% 50%",
+        duration,
+        repeat: -1,
+        ease: "linear",
       });
+    });
 
-      // Box movements
-      const movements = [
-        { up: -50, down: 60, left: 0, right: 0 },
-        { up: -20, down: -50, left: 0, right: 10 },
-        { up: -50, down: 30, left: 50, right: 0 },
-        { up: 0, down: -10, left: 50, right: 50 },
-        { up: 90, down: 0, left: 90, right: 0 },
-        { up: 10, down: 50, left: 0, right: 20 },
-        { up: 50, down: -20, left: -10, right: 0 },
-        { up: -20, down: 40, left: 90, right: -90 },
-        { up: -10, down: 40, left: -60, right: -20 },
-        { up: -40, down: -50, left: -90, right: -90 },
-      ];
+    // Box movements
+    const movements = [
+      { up: -50, down: 60, left: 0, right: 0 },
+      { up: -20, down: -50, left: 0, right: 10 },
+      { up: -50, down: 30, left: 50, right: 0 },
+      { up: 0, down: -10, left: 50, right: 50 },
+      { up: 90, down: 0, left: 90, right: 0 },
+      { up: 10, down: 50, left: 0, right: 20 },
+      { up: 50, down: -20, left: -10, right: 0 },
+      { up: -20, down: 40, left: 90, right: -90 },
+      { up: -10, down: 40, left: -60, right: -20 },
+      { up: -40, down: -50, left: -90, right: -90 },
+    ];
 
-      const boxes = svgRef.current.querySelectorAll(".boxPath");
+    const boxes = svgRef.current.querySelectorAll(".boxPath");
 
-      boxes.forEach((box, i) => {
-        const move = movements[i % movements.length];
-        gsap.to(box, {
-          x: i % 2 === 0 ? move.left : move.right,
-          y: i % 2 === 0 ? move.up : move.down,
-          duration: 2,
-          repeat: -1,
-          yoyo: true,
-          ease: "power1.inOut",
-          delay: i * 0.5,
-          transformOrigin: "720px 405px",
-        });
+    boxes.forEach((box, i) => {
+      const move = movements[i % movements.length];
+      gsap.to(box, {
+        x: i % 2 === 0 ? move.left : move.right,
+        y: i % 2 === 0 ? move.up : move.down,
+        duration: 2,
+        repeat: -1,
+        yoyo: true,
+        ease: "power1.inOut",
+        delay: i * 0.5,
+        transformOrigin: "720px 405px",
       });
+    });
 
-      // Mouse move effect (optimized with RAF)
-      let ticking = false;
-      const handleMouseMove = (e) => {
-        if (!ticking) {
-          requestAnimationFrame(() => {
-            const { innerWidth, innerHeight } = window;
-            const x = (e.clientX / innerWidth - 0.5) * 10;
-            const y = (e.clientY / innerHeight - 0.5) * 10;
+    // Mouse move effect
+    let ticking = false;
+    const handleMouseMove = (e) => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const { innerWidth, innerHeight } = window;
+          const x = (e.clientX / innerWidth - 0.5) * 10;
+          const y = (e.clientY / innerHeight - 0.5) * 10;
 
-            gsap.to(svgRef.current, {
-              rotationY: x,
-              rotationX: -y,
-              transformPerspective: 800,
-              transformOrigin: "center",
-              ease: "power1.out",
-              duration: 0.6,
-            });
-
-            ticking = false;
+          gsap.to(svgRef.current, {
+            rotationY: x,
+            rotationX: -y,
+            transformPerspective: 800,
+            transformOrigin: "center",
+            ease: "power1.out",
+            duration: 0.6,
           });
-          ticking = true;
-        }
-      };
 
-      window.addEventListener("mousemove", handleMouseMove);
-
-      return () => {
-        window.removeEventListener("mousemove", handleMouseMove);
-      };
-    }, svgRef);
-
-    return () => ctx.revert();
-  }, []);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    handleResize(); // run once on mount
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [isMobile]);
+
+    window.addEventListener("mousemove", handleMouseMove);
+
+    // ✅ Mark SVG as loaded once GSAP context is ready
+    setShowsvg(true);
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, svgRef);
+
+  return () => ctx.revert();
+}, [showsvg]);
+
+useEffect(() => {
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+  handleResize(); // run once on mount
+  window.addEventListener("resize", handleResize);
+
+  // ✅ Mark SVG as loaded after resize listener setup
+  setShowsvg(true);
+
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
     return (
         <div className='frame-1200 py-100 sm-py-50 sm-px-20'>
             <motion.h2
@@ -152,6 +163,7 @@ export default function Trusted() {
                 </div>
 
                 <div className={`${styles.svgContainer}`} ref={svgRef}>
+                    {showsvg ? (
                     <svg width={isMobile ? "900" : "1200"} height={isMobile ? "400" : "700"} viewBox={isMobile ? "0 0  1200 700" : "0 0 1280 780"} fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.2" d="M555 228L467.107 140.5H144" stroke="white" />
                         <path opacity="0.2" d="M546 228L464.5 146.5H424" stroke="white" />
@@ -688,7 +700,10 @@ export default function Trusted() {
                             </linearGradient>
                         </defs>
                     </svg>
-
+                    ) : (
+      // Optional fallback
+                     <div className={styles.loadingsvg}></div>
+    )}
                 </div>
                 <div className={`${styles.leftstatBox}`}>
                     <motion.div

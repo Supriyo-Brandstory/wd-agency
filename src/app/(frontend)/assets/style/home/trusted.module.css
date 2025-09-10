@@ -26,6 +26,7 @@
 
 .svgContainer {
     position: relative;
+    text-align: center;
 
 }
 
@@ -40,6 +41,20 @@
 }
 
 
+.loadingsvg {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 8px solid #f3f3f3; /* Light gray background */
+  border-top: 8px solid #555; /* Dark gray for the spinning part */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 @media screen and (max-width: 768px) {
 
