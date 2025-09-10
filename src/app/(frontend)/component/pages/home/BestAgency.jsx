@@ -141,14 +141,16 @@ const BestAgency = () => {
             </>
           )}
           {isMobile && (
+            <>
             <button
               className="blue-btn mt-10 mr-10"
               onClick={() => handleClickOpen("1")}
             >
               {isOpen["1"] ? "Read Less" : "Read More"}
             </button>
-          )}
           <button className="white-btn mt-10">Contact Us</button>
+</>
+          )}
         </ul>
         <Image src={webSolutionBanner} alt="Web Solution Banner" />
       </motion.div>
@@ -190,14 +192,16 @@ const BestAgency = () => {
             </>
           )}
           {isMobile && (
+            <>
             <button
               className="blue-btn mt-10 mr-10"
               onClick={() => handleClickOpen("2")}
             >
               {isOpen["2"] ? "Read Less" : "Read More"}
             </button>
-          )}
           <button className="white-btn mt-10">Contact Us</button>
+         </>
+          )}
         </ul>
       </motion.div>
     </div>

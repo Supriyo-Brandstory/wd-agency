@@ -1,4 +1,5 @@
 import "./globals.scss";
+import"./globals.css";
 import Header from "./component/partials/Header";
 import Footer from "./component/partials/Footer";
 import Script from 'next/script'; // Import the Script component

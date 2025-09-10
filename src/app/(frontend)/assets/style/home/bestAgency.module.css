@@ -53,9 +53,7 @@
 .bestAgencynextContainer img{
     border-radius:15px ;
 }
-.bestAgencynextContainer ul li{
-    margin-bottom: 0;
-}
+
 
 @media screen and (max-width: 768px) {
     .bestAgencyContainerBox{
