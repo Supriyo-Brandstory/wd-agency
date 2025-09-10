@@ -6,7 +6,7 @@
   /* position: sticky; */
   top: 0;
   z-index: 1000;
-  padding: 35px 0px;
+  padding: 20px 0px;
   margin: 0 auto;
 }
 
@@ -109,9 +109,14 @@
     display: block;
   }
   .header{
-    padding: 20px;
+    padding: 30px 20px;
   }
   .nav {
   align-items: start;
 }
+.header img{
+  width: 165px;
+  object-fit: contain;
+}
+
 }

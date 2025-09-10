@@ -19,13 +19,11 @@
   0% {
     opacity: 0;
     transform: translateY(50px);
-    /* নিচ থেকে শুরু */
   }
 
   100% {
     opacity: 1;
     transform: translateY(0);
-    /* আসল পজিশনে আসবে */
   }
 }
 
