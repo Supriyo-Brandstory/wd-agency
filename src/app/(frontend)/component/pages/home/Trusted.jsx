@@ -3,8 +3,6 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import styles from "@/app/(frontend)/assets/style/home/trusted.module.css";
 import { motion } from "framer-motion";
-import loding from "../../../assets/images/loading-gif.gif";
-import Image from "next/image";
 
 export default function Trusted() {
 const [showsvg, setShowsvg] = useState(false);
