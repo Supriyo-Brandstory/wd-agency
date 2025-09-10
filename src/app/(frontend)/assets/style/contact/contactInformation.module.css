@@ -1,0 +1,21 @@
+.contactInformation{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.contactInformationBox{
+      color: #0a0b0f;
+    background: #fff;
+    width: 49%;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 256px;
+}
+.contactInformationBox h4 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0A0B0F8C;
+}

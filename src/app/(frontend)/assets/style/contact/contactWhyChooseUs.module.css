@@ -1,0 +1,35 @@
+.whyChooseUs{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.whyChooseUsBox{
+    flex: 1 1 70%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.innerBox{
+    flex: 0 0 48%;
+    background: #292929;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.innerBox .number{
+font-size: 64px;
+font-weight: 700;
+}
+.innerBox .footertext{
+    font-size: 20px;
+    color: #FFFFFFA6;
+}
+.whyChooseUsBox2{
+    flex: 1 1 30%;
+}

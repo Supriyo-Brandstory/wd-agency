@@ -1,0 +1,80 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.rowFull {
+  width: 100%;
+}
+
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-size: 20px;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.inputGroup input,
+.inputGroup select,
+.inputGroup textarea {
+  padding: 13px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.inputGroup input::placeholder,
+.inputGroup select::placeholder,
+.inputGroup textarea::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 16px;
+
+}
+
+.inputGroup textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn {
+  background: #4338ca;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background: #3730a3;
+}
