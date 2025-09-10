@@ -112,7 +112,7 @@ useEffect(() => {
 }, []);
 
     return (
-        <div className='frame-1200 py-100 sm-py-50 sm-px-20'>
+        <div className='frame-1200 py-100 sm-py-50 sm-px-20 over-flow-hidden'>
             <motion.h2
                 className="text-center mb-20 sm-mb-20 sm-text-start"
                 initial={{ opacity: 0, y: 50 }}
