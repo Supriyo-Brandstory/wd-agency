@@ -82,7 +82,7 @@ const BestAgency = () => {
             We are the most affordable and probably the best Dubai-based web design agency delivering cross-platform web solutions for enhancing the digital presence of your business. With our core expertise in web design and development, we strive to deliver personalized web design solutions considering your business that highlight your strengths and unique identity. With high-end coding expertise and industry-specific knowledge, WD Agency excels in complete web design and development services, ensuring smooth user experience, easy navigation, and cutting-edge features & functionality.
           </li>
           <li>
-           We don't only create websites, we help businesses generate higher revenue with a strong digital presence. Our experts employ smooth navigation, a user-centric interface, and the latest design technologies for fast loading speed, intuitive user experience, and SEO-friendliness. We know the most important component of a website is user experience, which makes your digital storefront stand out from others. Our approach to website development combines modern design standards along with robust functionality that brings your digital presence to life.
+           We don't only create websites, we help businesses generate higher revenue with a strong digital presence. Our experts employ smooth navigation, a user-centric interface, and the latest design technologies for fast loading speed, intuitive user experience, and SEO-friendliness. We know the most important component of a website is user experience, which makes your digital storefront stand out from others. 
 
           </li>
         </ul>

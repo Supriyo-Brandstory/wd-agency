@@ -76,4 +76,7 @@ object-fit: contain;
     .ctaContent{
         flex: 0 0 100%;
     }
+    .ctaBox{
+        padding: 20px;
+    }
     }

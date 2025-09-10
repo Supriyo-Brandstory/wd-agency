@@ -27,11 +27,12 @@
     .ourJourneyCard {
     height: 100px;
     padding: 10px;
-    flex: 0 0 35%; /* 1 per row */
-    max-width: 120px;
+    flex: 0 0 33%; /* 1 per row */
+    max-width: 103px;
     }
     .ourJourneyContainer{
         gap:10px;
         justify-content: space-between;
+        overflow: hidden;
     }
 }

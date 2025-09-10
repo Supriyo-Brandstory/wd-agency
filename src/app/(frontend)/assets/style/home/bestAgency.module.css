@@ -50,6 +50,12 @@
     padding: var(--size-40);
     margin-top: var(--size-30);
 }
+.bestAgencynextContainer img{
+    border-radius:15px ;
+}
+.bestAgencynextContainer ul li{
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 768px) {
     .bestAgencyContainerBox{
@@ -57,10 +63,10 @@
     }
     .bestAgencynextContainer{
         flex-direction: column;
-        padding: var(--size-20);
+        padding: var(--size-15) ;
         margin: 30px 0 var(--size-30);
     }
-   
+  
 
     
 }

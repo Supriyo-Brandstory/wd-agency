@@ -34,14 +34,14 @@ const CtaSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Start Your Project
+              Start Project
             </motion.button>
             <motion.button
               className="white-btn"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Learn About Us
+              About Us
             </motion.button>
           </div>
         </motion.div>

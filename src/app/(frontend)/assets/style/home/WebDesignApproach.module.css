@@ -38,12 +38,16 @@
 
   }
   .boxcontainer .box {
-    flex: 0 0 50%; /* 1 per row */
-    max-width: 48%;
+    flex: 0 0 100%; /* 1 per row */
+    max-width: 100%;
   }
  .boxcontainer .box img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+}
+.boxcontainer .box{
+  padding: 20px 20px 40px;
+  height: 140px;
 }
   
 }

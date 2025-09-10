@@ -62,7 +62,7 @@ Crafting Next-Gen Web Experiences
       {/* Middle Section 1 */}
       <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <motion.div
-          className={`${styles.middleSection} p-30 mb-50 sm-col-reverse`}
+          className={`${styles.middleSection} p-30 mb-50 sm-p-20 sm-col-reverse`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
@@ -106,7 +106,7 @@ Crafting Next-Gen Web Experiences
 
         {/* Middle Section 2 */}
         <motion.div
-          className={`${styles.middleSection} pb-0 px-30 pt-30 `}
+          className={`${styles.middleSection} pb-0 px-30 pt-30 sm-px-20 sm-pt-20`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}

@@ -36,7 +36,7 @@ const TechnologyStack = () => {
     <div className="frame-1200 py-100 sm-pb-50 sm-text-start sm-px-20 sm-pt-0">
       {/* Heading */}
       <motion.div
-        className="frame-1000 text-center mb-50 sm-text-start sm-mb-20"
+        className="frame-1000 text-center mb-50 sm-text-start sm-mb-30"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}

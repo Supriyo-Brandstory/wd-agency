@@ -38,3 +38,10 @@
 .innerContainer h2{
     padding: 0 80px 0 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .innerContainer{
+    padding: 20px;
+  }
+  
+}

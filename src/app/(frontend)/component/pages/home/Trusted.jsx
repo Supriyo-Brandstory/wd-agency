@@ -1,139 +1,107 @@
-
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import styles from "@/app/(frontend)/assets/style/home/trusted.module.css";
 import { motion } from "framer-motion";
+
 export default function Trusted() {
-    const svgRef = useRef(null);
+  const svgRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const ctx = gsap.context(() => {
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Ring animations
+      const rings = [
+        { id: "#innerDashed", rotate: -360, duration: 15 },
+        { id: "#anticlockwise", rotate: -360, duration: 13 },
+        { id: "#clockwise", rotate: 360, duration: 13 },
+        { id: "#pinkRings-1", rotate: 360, duration: 8 },
+        { id: "#pinkRings-2", rotate: -360, duration: 10 },
+        { id: "#pinkRings-3", rotate: 360, duration: 12 },
+      ];
 
+      rings.forEach(({ id, rotate, duration }) => {
+        gsap.to(id, {
+          rotate,
+          transformOrigin: "50% 50%",
+          duration,
+          repeat: -1,
+          ease: "linear",
+        });
+      });
 
+      // Box movements
+      const movements = [
+        { up: -50, down: 60, left: 0, right: 0 },
+        { up: -20, down: -50, left: 0, right: 10 },
+        { up: -50, down: 30, left: 50, right: 0 },
+        { up: 0, down: -10, left: 50, right: 50 },
+        { up: 90, down: 0, left: 90, right: 0 },
+        { up: 10, down: 50, left: 0, right: 20 },
+        { up: 50, down: -20, left: -10, right: 0 },
+        { up: -20, down: 40, left: 90, right: -90 },
+        { up: -10, down: 40, left: -60, right: -20 },
+        { up: -40, down: -50, left: -90, right: -90 },
+      ];
 
+      const boxes = svgRef.current.querySelectorAll(".boxPath");
 
-            // Animate the inner dashed circles
-            gsap.to("#innerDashed", {
-                rotate: -360,
-                transformOrigin: "50% 50%",
-                duration: 15,
-                repeat: -1,
-                ease: "linear",
+      boxes.forEach((box, i) => {
+        const move = movements[i % movements.length];
+        gsap.to(box, {
+          x: i % 2 === 0 ? move.left : move.right,
+          y: i % 2 === 0 ? move.up : move.down,
+          duration: 2,
+          repeat: -1,
+          yoyo: true,
+          ease: "power1.inOut",
+          delay: i * 0.5,
+          transformOrigin: "720px 405px",
+        });
+      });
+
+      // Mouse move effect (optimized with RAF)
+      let ticking = false;
+      const handleMouseMove = (e) => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            const { innerWidth, innerHeight } = window;
+            const x = (e.clientX / innerWidth - 0.5) * 10;
+            const y = (e.clientY / innerHeight - 0.5) * 10;
+
+            gsap.to(svgRef.current, {
+              rotationY: x,
+              rotationX: -y,
+              transformPerspective: 800,
+              transformOrigin: "center",
+              ease: "power1.out",
+              duration: 0.6,
             });
 
-            gsap.to("#anticlockwise", {
-                rotate: -360,               // anticlockwise
-                transformOrigin: "50% 50%", // rotate around center
-                duration: 13,
-                repeat: -1,
-                ease: "linear"
-            });
-            gsap.to("#clockwise", {
-                rotate: 360,                // clockwise
-                transformOrigin: "50% 50%",
-                duration: 13,
-                repeat: -1,
-                ease: "linear"
-            });
+            ticking = false;
+          });
+          ticking = true;
+        }
+      };
 
-            gsap.to("#pinkRings-1", {
-                rotate: 360,
-                transformOrigin: "50% 50%",
-                duration: 8,
-                repeat: -1,
-                ease: "linear",
-            });
+      window.addEventListener("mousemove", handleMouseMove);
 
-            // pinkRings-2 anticlockwise
-            gsap.to("#pinkRings-2", {
-                rotate: -360,
-                transformOrigin: "50% 50%",
-                duration: 10,
-                repeat: -1,
-                ease: "linear",
-            });
+      return () => {
+        window.removeEventListener("mousemove", handleMouseMove);
+      };
+    }, svgRef);
 
-            // pinkRings-3 clockwise faster
-            gsap.to("#pinkRings-3", {
-                rotate: 360,
-                transformOrigin: "50% 50%",
-                duration: 12,
-                repeat: -1,
-                ease: "linear",
-            });
-
-            // Call on page load or on click
-
-
-            const boxes = svgRef.current.querySelectorAll(".boxPath");
-
-
-            const movements = [
-                { up: -50, down: 60, left: 0, right: 0 },
-                { up: -20, down: -50, left: 0, right: 10 },
-                { up: -50, down: 30, left: 50, right: 0 },
-                { up: 0, down: -10, left: 50, right: 50 },
-                { up: 90, down: 0, left: 90, right: 0 },
-
-                { up: 10, down: 50, left: 0, right: 20 },
-
-                { up: 50, down: -20, left: -10, right: 0 },    // 216° (Bottom side)
-                { up: -20, down: 40, left: 90, right: -90 },   // 252° (Bottom-left)
-                { up: -10, down: 40, left: -60, right: -20 },   // 288° (Left side)
-                { up: -40, down: -50, left: -90, right: -90 },
-            ];
-
-            boxes.forEach((box, i) => {
-                const move = movements[i % movements.length];
-
-                gsap.to(box, {
-                    x: i % 2 === 0 ? move.left : move.right,  // Left/Right Control
-                    y: i % 2 === 0 ? move.up : move.down,     // Up/Down Control
-                    duration: 2,
-                    repeat: -1,
-                    yoyo: true,
-                    ease: "power1.inOut",
-                    delay: i * 0.5,
-                    transformOrigin: "720px 405px",
-                });
-            });
-
-            // Mouse move effect
-            const handleMouseMove = (e) => {
-                const { innerWidth, innerHeight } = window;
-                const x = (e.clientX / innerWidth - 0.5) * 10; // tilt range
-                const y = (e.clientY / innerHeight - 0.5) * 10;
-
-                gsap.to(svgRef.current, {
-                    rotationY: x,
-                    rotationX: -y,
-                    transformPerspective: 800,
-                    transformOrigin: "center",
-                    ease: "power1.out",
-                    duration: 0.6,
-                });
-            };
-
-            window.addEventListener("mousemove", handleMouseMove);
-            return () => window.removeEventListener("mousemove", handleMouseMove);
-
-        }, svgRef);
-
-
-        return () => ctx.revert();
-    }, []);
-     const [isMobile, setIsMobile] = useState(false);
+    return () => ctx.revert();
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-    handleResize();
+    handleResize(); // run once on mount
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
+  }, [isMobile]);
     return (
         <div className='frame-1200 py-100 sm-py-50 sm-px-20'>
             <motion.h2

@@ -61,10 +61,13 @@
     border-radius: 20px;
 }
 .card h3{
-  font-size: var(--size-30);
+  font-size: var(--size-28);
 }
 .card h3 span {
-    font-size: var(--size-42);
+    font-size: var(--size-32);
+}
+.card {
+  padding: 20px;
 }
 
 

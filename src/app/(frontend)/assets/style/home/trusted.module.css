@@ -45,11 +45,13 @@
 
     .svgContainer {
         overflow: hidden;
+        max-width: 100%;
     }
 
     .trustedWrapper {
         padding: 10px 0;
         display: block;
+
     }
 
     .svgContainer svg {
