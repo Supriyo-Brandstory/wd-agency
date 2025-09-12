@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import css from '../../../assets/style/about/mission.module.css';
 import LeftArrow from '../../../assets/images/about/left-arrow.png';
 import RightArrow from '../../../assets/images/about/right-arrow.png';
+import missionbg from '../../../assets/images/about/mission-bg.png';
 
 // position prop is mandatory: 'left' | 'right'
 const MissionBox = ({ title, description, position }) => {
@@ -45,6 +46,7 @@ const MissionBox = ({ title, description, position }) => {
 
             {/* Text Section */}
             <motion.div
+             style={{ '--image-mission-bg': `url(${missionbg.src})` }}
                 className={`w-1/2 ${css.blurBox} text-white`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

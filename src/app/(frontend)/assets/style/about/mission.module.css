@@ -1,10 +1,10 @@
 .missionVisionContainer {
-    background-image: url('../../images/about/mission.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  background-image: url('../../images/about/mission.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .leftArrow {
@@ -20,16 +20,18 @@
 .blurBox {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(100px);
-  background: rgba(255, 255, 255, 0.2);
   border-radius: 1rem;
   padding: 1.25rem;
+  background: var(--image-mission-bg);
+  background-size: cover;
 }
 
 @media only screen and (max-width: 720px) {
-  .image{
+  .image {
     width: 0;
-  } 
-  .blurBox{
+  }
+
+  .blurBox {
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
