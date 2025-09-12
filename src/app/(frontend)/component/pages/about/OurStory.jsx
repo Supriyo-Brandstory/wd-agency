@@ -1,9 +1,26 @@
+'use client'
 import Image from "next/image";
+import { motion } from "framer-motion";
 import OurStoryImage from '@/app/(frontend)/assets/images/about/our-story.jpg';
 
 const OurStory = () => {
+    const containerVariants = {
+        hidden: { opacity: 0, y: -40 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.6, ease: "easeOut" }
+        }
+    };
+
     return (
-        <div className="frame-1200 py-100 sm-pb-50 sm-px-20 sm-pt-0">
+        <motion.div
+            className="frame-1200 py-100 sm-pb-50 sm-px-20 sm-pt-0"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+        >
             <h2 className="my-40 text-center fs-38">Our Story</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                 {/* left section image */}
@@ -31,7 +48,7 @@ const OurStory = () => {
                     </button>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

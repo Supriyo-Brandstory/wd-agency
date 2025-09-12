@@ -6,8 +6,10 @@ import MissionAndVission from '../../component/pages/about/MissionAndVision.jsx'
 import CoreValues from '../../component/pages/about/CoreValues';
 import Team from '../../component/pages/about/Team';
 import Contact from '../../component/pages/about/Contact';
+import CommonCtaSection from '../../component/pages/common/CommonCtaSection';
+import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
 
-import bannerimages from '@/app/(frontend)/assets/images/about/about-banner.jpg';
+import bannerimages from '@/app/(frontend)/assets/images/about/about-banner.webp';
 
 const page = () => {
   return (
@@ -22,7 +24,12 @@ const page = () => {
         <MissionAndVission />
         <CoreValues />
         <Team />
-        <Contact />
+        {/* <Contact /> */}
+        <CommonCtaSection 
+            imageUrl={ContactImage}
+            title="Ready to Work With Us?"
+            subtitle="Let's discuss your project and see how our expertise can help you achieve your digital goals."
+        />
     </div>
   )
 }

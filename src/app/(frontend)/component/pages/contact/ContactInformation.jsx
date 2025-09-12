@@ -1,14 +1,32 @@
+'use client'
 import React from 'react'
+import { motion } from 'framer-motion'
 import styles from '@/app/(frontend)/assets/style/contact/contactInformation.module.css'
 import Image from 'next/image'
 import pinkmailbox from '@/app/(frontend)/assets/images/icons/mailbox-2.svg'
 
 const ContactInformation = () => {
+  const containerVariants = {
+    hidden: { opacity: 0, y: -40 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut" }
+    }
+  }
+
   return (
-    <div className='frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20'>
+    <motion.div
+      className='frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20'
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.4 }}
+    >
       <h2 className='mb-20 text-center'>Contact Information</h2>
       <p className='mb-40 sm-mb-30 text-center'>
-        Get in touch with us through any of these channels.</p>
+        Get in touch with us through any of these channels.
+      </p>
       <div className={styles.contactInformation}>
         <div className={styles.contactInformationBox}>
           <div className='flex items-start gap-20'>
@@ -24,7 +42,8 @@ const ContactInformation = () => {
             </h4>
           </div>
         </div>
-         <div className={styles.contactInformationBox}>
+
+        <div className={styles.contactInformationBox}>
           <div className='flex items-start gap-20'>
             <Image src={pinkmailbox} alt='mailbox' width={40} height={40} />
             <h4>Dubai, United Arab Emirates <br />
@@ -40,7 +59,7 @@ const ContactInformation = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
