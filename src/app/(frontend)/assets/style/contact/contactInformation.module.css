@@ -19,3 +19,48 @@
     font-weight: 400;
     color: #0A0B0F8C;
 }
+
+/* Tablet & below */
+@media (max-width: 768px) {
+    .contactInformation {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .contactInformationBox {
+      width: 100%;
+      padding: 20px;
+      gap: 25px;
+      min-height: auto;
+    }
+  
+    .contactInformationBox h4 {
+      font-size: 16px;
+    }
+  
+    .contactInformationBox h4 span {
+      font-size: 14px;
+    }
+  }
+  
+  /* Small devices */
+  @media (max-width: 480px) {
+    .contactInformation {
+      gap: 15px;
+    }
+  
+    .contactInformationBox {
+      padding: 15px;
+      border-radius: 12px;
+      gap: 20px;
+    }
+  
+    .contactInformationBox h4 {
+      font-size: 14px;
+    }
+  
+    .contactInformationBox h4 span {
+      font-size: 12px;
+    }
+  }
+  

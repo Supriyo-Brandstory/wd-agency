@@ -33,3 +33,58 @@ font-weight: 700;
 .whyChooseUsBox2{
     flex: 1 1 30%;
 }
+
+/* Tablet & below */
+@media (max-width: 992px) {
+    .whyChooseUs {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .whyChooseUsBox {
+      flex: 1 1 100%;
+      gap: 15px;
+    }
+  
+    .whyChooseUsBox2 {
+      flex: 1 1 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .innerBox {
+      flex: 0 0 48%;
+      padding: 20px;
+    }
+  
+    .innerBox .number {
+      font-size: 48px;
+    }
+  
+    .innerBox .footertext {
+      font-size: 16px;
+    }
+  }
+  
+  /* Small devices */
+  @media (max-width: 576px) {
+    .whyChooseUsBox {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .innerBox {
+      flex: 1 1 100%;
+      padding: 15px;
+      border-radius: 12px;
+    }
+  
+    .innerBox .number {
+      font-size: 36px;
+    }
+  
+    .innerBox .footertext {
+      font-size: 14px;
+    }
+  }
+  

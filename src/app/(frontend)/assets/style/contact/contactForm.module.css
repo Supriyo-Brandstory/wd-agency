@@ -78,3 +78,53 @@
 .submitBtn:hover {
   background: #3730a3;
 }
+
+/* Mobile & Small Devices */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .form {
+    gap: 10px;
+  }
+
+  .inputGroup label {
+    font-size: 16px;
+  }
+
+  .inputGroup input,
+  .inputGroup select,
+  .inputGroup textarea {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .inputGroup textarea {
+    min-height: 120px;
+  }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+  .formWrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .inputGroup label {
+    font-size: 14px;
+  }
+
+  .inputGroup input,
+  .inputGroup select,
+  .inputGroup textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .inputGroup textarea {
+    min-height: 100px;
+  }
+}
