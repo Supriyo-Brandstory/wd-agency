@@ -3,6 +3,7 @@ import img1 from "@/app/(frontend)/assets/images/about/team/1.jpg";
 import img2 from "@/app/(frontend)/assets/images/about/team/2.jpg";
 import img3 from "@/app/(frontend)/assets/images/about/team/3.jpg";
 import img4 from "@/app/(frontend)/assets/images/about/team/4.jpg";
+import css from "../../../assets/style/about/team.module.css";
 
 const Team = () => {
   const teamData = [
@@ -41,9 +42,9 @@ const Team = () => {
   ];
 
   return (
-    <div className="pb-60">
+    <div className={`pb-60 ${css.container}`}>
       <h1 className="text-center pt-50 pb-20">Our Expert Team</h1>
-      <p className="text-center mb-12">
+      <p className="text-center mb-30">
         A Diverse Group Of Talented Professionals Dedicated To Delivering Exceptional Results
       </p>
 

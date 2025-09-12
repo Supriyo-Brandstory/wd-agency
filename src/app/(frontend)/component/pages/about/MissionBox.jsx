@@ -10,7 +10,7 @@ const MissionBox = ({ title, description, position }) =>{
 
     return (
         <div className={`w-full frame-1200 flex ${isLeft ? 'flex-row-reverse' : 'flex-row'} items-center justify-between gap-6 md:gap-10`}>
-            <div className="w-1/2 my-100">
+            <div className={`w-1/2 my-100 ${css.image}`}>
                 <Image 
                     src={isLeft ? RightArrow : LeftArrow} 
                     alt={isLeft ? 'right arrow' : 'left arrow'} 

@@ -3,6 +3,8 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .leftArrow {
@@ -21,4 +23,17 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 1rem;
   padding: 1.25rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .image{
+    width: 0;
+  } 
+  .blurBox{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* margin: 20px, 10px, 10px, 20px; */
+  }
 }
