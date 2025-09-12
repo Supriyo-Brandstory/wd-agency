@@ -1,0 +1,48 @@
+
+/* team */
+
+.textCard {
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .number {
+    font-size: 4rem; /* adjust if needed */
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff; /* outline text */
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.125rem; /* ~18px */
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .tag {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.7rem; /* ~14px */
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 0.3rem;
+    border-radius: 9999px; /* pill shape */
+    display: inline-block;
+  }
+  
+  .imageCard {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  

@@ -1,0 +1,24 @@
+.missionVisionContainer {
+    background-image: url('../../images/about/mission.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.leftArrow {
+  width: 90%;
+  height: auto;
+}
+
+.rightArrow {
+  width: 90%;
+  height: auto;
+}
+
+.blurBox {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(100px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}

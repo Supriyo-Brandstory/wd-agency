@@ -1,0 +1,28 @@
+/* stats styles */
+.statBox {
+  background: #292929;
+  aspect-ratio: 302 / 259;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background 0.4s ease, transform 0.3s ease;
+}
+
+.statBox:hover {
+  background: linear-gradient(180deg, #2f2fb07c 0%, #e83e8d87 100%);
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 900; 
+  color: #fff;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  color: #9ca3af; /* gray-400 */
+}

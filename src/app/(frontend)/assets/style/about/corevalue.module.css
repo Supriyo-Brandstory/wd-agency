@@ -1,0 +1,52 @@
+
+/* Core Value Box */
+
+
+.coreValueWrapper {
+    /* keep space for 50% overlap of a 30% wide badge = 15% */
+    margin-top: 15%;
+  }
+  
+  .coreValueCard {
+    position: relative;
+    overflow: visible;
+    background: #2a2a2a;
+    border-radius: 0.75rem; /* rounded-xl */
+    padding: 5rem 3rem 2rem; /* spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem; /* gap-6 */
+    transition: background 200ms ease-in-out;
+  }
+  
+  .coreValueCard:hover {
+    background: #262626;
+  }
+  
+  .iconBadge {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 20%;
+    border-radius: 9999px;
+    background: #f64e9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }
+  
+  .iconImage {
+    object-fit: contain;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .coreValueWrapper{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }

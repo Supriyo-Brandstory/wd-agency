@@ -1,0 +1,47 @@
+
+/* contact */
+
+.buttonGroup {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  /* Base styles for both buttons */
+  .primaryButton,
+  .secondaryButton {
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    white-space: nowrap;
+  }
+  
+  /* Primary button with a solid background */
+  .primaryButton {
+    background-color: #2F2FB0; /* A lighter, complementary purple */
+    color: #ffffff;
+  }
+  
+  .secondaryButton{
+    background-color: white;
+    color: black;
+  }
+  
+  .image{
+  
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .image{
+      display: none;
+    }
+  
+    .contactbg{
+      height: 100%;
+    }
+  }
