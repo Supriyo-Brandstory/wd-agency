@@ -32,7 +32,7 @@ export default function Header() {
           </div>
         </div>
         <Link href="/portfolio">Portfolio</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/contact-us">Contact</Link>
         <Link href="/quote" className={styles.quoteBtn}>
           Get Quote
         </Link>

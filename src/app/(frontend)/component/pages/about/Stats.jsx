@@ -36,7 +36,7 @@ const Stats = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-30">
         {data.map((item) => (
           <motion.div key={item.id} className={css.statBox} variants={itemVariants}>
             <h1 className="fs-64">{item.title}</h1>

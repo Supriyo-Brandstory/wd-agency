@@ -34,7 +34,9 @@ const Contact = ({imageUrl, title, subtitle}) => {
           </p>
           {/* Buttons */}
           <div className={css.buttonGroup}>
-            <button className={css.primaryButton}>Contact Us Today</button>
+            <a href="/contact-us" className={css.primaryButton}>
+              Contact Us Today
+            </a>
             <button className={css.secondaryButton}>View Our Work</button>
           </div>
         </motion.div>

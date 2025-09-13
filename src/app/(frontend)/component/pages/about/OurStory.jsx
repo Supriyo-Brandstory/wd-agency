@@ -43,9 +43,9 @@ const OurStory = () => {
                     <p className="mb-10">
                         Today, we are proud to be recognized as industry leaders, with a team of 50+ experienced professionals who are passionate about creating exceptional digital experiences that drive real business results.
                     </p>
-                    <button className="blue-btn">
+                    <a href="/contact-us" className="blue-btn">
                         Enquiry Now
-                    </button>
+                    </a>
                 </div>
             </div>
         </motion.div>
