@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="suKFSXDWpXvnLlBzj_osoCgWVYGJEGilsS9xndMUs3I" />
+       <meta name="google-site-verification" content="Sqic4jq1KYYPLx4_l5xWdFBG3ormalt-u2eAb3BdSak" />
       </head>
       <body className="antialiased">
         {/* Google Tag Manager noscript fallback */}
