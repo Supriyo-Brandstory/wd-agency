@@ -5,15 +5,9 @@ export function middleware(req) {
   const url = req.nextUrl.clone();
   const host = req.headers.get("host");
 
-  // Force www
-  if (host && host.startsWith("websitedevelopmentagency.ae")) {
+  // Redirect non-www to www
+  if (host && !host.startsWith("www.")) {
     url.host = `www.${host}`;
-    return NextResponse.redirect(url, 301);
-  }
-
-  // OR force non-www
-  if (host && host.startsWith("www.websitedevelopmentagency.ae")) {
-    url.host = host.replace("www.", "");
     return NextResponse.redirect(url, 301);
   }
 
