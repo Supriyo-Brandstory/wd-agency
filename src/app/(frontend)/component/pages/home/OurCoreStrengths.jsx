@@ -2,23 +2,32 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "../../../assets/style/home/ourCoreStrengths.module.css";
+import forwardThinkingIdeation from "@/app/(frontend)/assets/images/Forward-Thinking.png";
+import seamlessNavigability from "@/app/(frontend)/assets/images/Seamless-Navigability.png";
+import strategicProblemSolving from "@/app/(frontend)/assets/images/Strategic-Problem.png";
+import holisticExpertise from "@/app/(frontend)/assets/images/Holistic-Expertise.png";
+import Image from "next/image";
 
 const strengths = [
   {
     title: "Forward-Thinking Ideation",
     desc: "We cultivate and transform fresh perspectives into compelling digital experiences that set your brand apart.",
+    image: forwardThinkingIdeation, 
   },
   {
     title: "Seamless Navigability",
     desc: "Our websites are architected for intuitive interaction, catering to diverse user journeys with effortless flow.",
+    image: seamlessNavigability,
   },
   {
     title: "Strategic Problem Solving",
     desc: "As adept digital troubleshooters, we decode complex challenges and deliver refined, results-driven solutions.",
+    image: strategicProblemSolving,
   },
   {
     title: "Holistic Expertise",
     desc: "From intricate builds to scalable platforms, our multidisciplinary capabilities empower your business to thrive in the digital realm.",
+    image: holisticExpertise,
   },
 ];
 
@@ -54,6 +63,7 @@ const OurCoreStrengths = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
+            <Image src={item.image} alt={item.title} width={80} height={80} />
             <h3 className="py-20 sm-py-10">{item.title}</h3>
             <p>{item.desc}</p>
           </motion.div>
