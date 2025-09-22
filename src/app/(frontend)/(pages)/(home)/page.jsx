@@ -18,10 +18,10 @@ const page = () => {
   return (
     <div>
         <Banner/>
-        {/* <Trusted/> */}
+        <Trusted/>
         <BestAgency/>
         <WhatSetsUs/>
-        {/* <OurCoreStrengths/> */}
+        <OurCoreStrengths/>
         <TechnologyStack/>
         <DevelopmentServices/>
         <DevelopmentProcess/>

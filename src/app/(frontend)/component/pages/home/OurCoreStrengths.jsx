@@ -1,5 +1,5 @@
-"use client"
-import React, { useEffect } from "react";
+"use client";
+import React from "react";
 import { motion } from "framer-motion";
 import styles from "../../../assets/style/home/ourCoreStrengths.module.css";
 
@@ -7,37 +7,24 @@ const strengths = [
   {
     title: "Forward-Thinking Ideation",
     desc: "We cultivate and transform fresh perspectives into compelling digital experiences that set your brand apart.",
-    lottie: "https://lottie.host/6945404d-2c00-4962-8850-7569dac9b819/r9AxixUNsK.lottie",
   },
   {
     title: "Seamless Navigability",
     desc: "Our websites are architected for intuitive interaction, catering to diverse user journeys with effortless flow.",
-    lottie: "https://lottie.host/f28ea47a-cbd2-482d-b6b9-f0e1ee5d7049/Z1KibwyXCV.lottie",
   },
   {
     title: "Strategic Problem Solving",
     desc: "As adept digital troubleshooters, we decode complex challenges and deliver refined, results-driven solutions.",
-    lottie: "https://lottie.host/f28ea47a-cbd2-482d-b6b9-f0e1ee5d7049/Z1KibwyXCV.lottie",
   },
   {
     title: "Holistic Expertise",
     desc: "From intricate builds to scalable platforms, our multidisciplinary capabilities empower your business to thrive in the digital realm.",
-    lottie: "https://lottie.host/f408e9c8-2f67-409f-814d-963ab4319cb5/2gFSjWpVif.lottie",
   },
 ];
 
 const OurCoreStrengths = () => {
-  // Load Lottie web component once
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src =
-      "https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js";
-    script.type = "module";
-    document.body.appendChild(script);
-  }, []);
-
   return (
-    <div className="frame-1200 py-100 sm-py-50  sm-px-20">
+    <div className="frame-1200 py-100 sm-py-50 sm-px-20">
       {/* Heading Section */}
       <motion.div
         className="text-center sm-text-start frame-1000 mb-50 sm-mb-20"
@@ -67,12 +54,6 @@ const OurCoreStrengths = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <dotlottie-wc
-              src={item.lottie}
-              className={styles.lottie}
-              autoplay
-              loop
-            ></dotlottie-wc>
             <h3 className="py-20 sm-py-10">{item.title}</h3>
             <p>{item.desc}</p>
           </motion.div>
