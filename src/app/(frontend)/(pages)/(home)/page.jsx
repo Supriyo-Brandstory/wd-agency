@@ -21,7 +21,7 @@ const page = () => {
         {/* <Trusted/> */}
         <BestAgency/>
         <WhatSetsUs/>
-        <OurCoreStrengths/>
+        {/* <OurCoreStrengths/> */}
         <TechnologyStack/>
         <DevelopmentServices/>
         <DevelopmentProcess/>
