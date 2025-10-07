@@ -17,7 +17,12 @@ import CtaSection from '../../component/pages/home/CtaSection'
 const page = () => {
   return (
     <div>
-        <Banner/>
+        <Banner 
+        text1={'Are you searching for'} 
+        text2={"Well Experienced <br/>Web Development Company In UAE?"}
+        text3={" We are WD Agency, the best website development agency in Dubai, UAE. Let’s create your website beyond the ordinary."}
+          
+          />
         <Trusted/>
         <BestAgency/>
         <WhatSetsUs/>

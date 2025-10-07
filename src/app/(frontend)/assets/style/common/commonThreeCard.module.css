@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    .card {
+        background: #2A2A2A;
+        border-radius: 20px;
+        padding: 20px;
+        .imgbox{
+            background: #E83E8C;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+    }
+    .card:hover {
+       background: linear-gradient(180deg, #E83E8C 0%, #82234E 100%);
+        color: white;
+    }
+    .card:hover .imgbox{
+        background: white;
+    }
+    .card:hover img{
+     filter: invert(34%) sepia(76%) saturate(4867%) hue-rotate(318deg) brightness(95%) contrast(91%);
+    }
+
+}
