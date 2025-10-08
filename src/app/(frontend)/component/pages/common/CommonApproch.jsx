@@ -10,10 +10,10 @@ const CommonApproch = (
 ) => {
     const bgUrl = typeof bannerimage === "string" ? bannerimage : bannerimage?.src;
   return (
-    <div style={{background:`url(${bgUrl}) no-repeat bottom center / cover`}}  className={styles.container}>
-    <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20' >
+    <div style={{background:`url(${bgUrl}) no-repeat bottom center / cover`}}  className={`sm-mb-50 ${styles.container}`}>
+    <div className='frame-1200 py-100 sm-pt-0  sm-px-20' >
         <h2>{text1}</h2>
-        <div dangerouslySetInnerHTML={{__html:text2}}></div>
+        <div dangerouslySetInnerHTML={{__html:text2}} className={styles.scroller}></div>
                
         <button className='white-btn'>Contact Us</button>
 

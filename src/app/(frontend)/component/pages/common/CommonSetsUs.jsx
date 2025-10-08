@@ -16,7 +16,7 @@ const CommonSetsUs = ({
 }) => {
       const bgUrl = typeof bg === "string" ? bg : bg?.src;
   return (
-    <div className={styles.whatSetsUsContainer} style={{background:`url(${bgUrl}) no-repeat center center / cover`}}>
+    <div className={`mb-20 ${styles.whatSetsUsContainer}`} style={{background:`url(${bgUrl}) no-repeat center center / cover`}}>
       <div className="frame-1200 py-100 sm-p-20 ">
         <motion.div
           className={styles.innerContainer}

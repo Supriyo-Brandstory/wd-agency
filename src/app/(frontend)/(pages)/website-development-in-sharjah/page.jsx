@@ -24,6 +24,10 @@ import CommonResult from '../../component/pages/common/CommonResult'
 
 
 
+import customdesign from '@/app/(frontend)/assets/images/website-development/custom-design.png'
+import SEOCentric from '@/app/(frontend)/assets/images/website-development/SEO-Centric.webp'
+import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobile-First.webp'
+import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 
 
 
@@ -78,8 +82,8 @@ const page = () => {
             />
             <CommonApproch
                 text1={"Our Approach to Web Design in Sharjah"}
-                text2={` <p  class='my-20'>We emphasize designing websites that are visually impressive, functional, and deliver the best user experience. A Good website adds credibility to your brand, improves customer trust, and acts as a premier sales channel for around the clock. We blend the most advanced technology with an SEO-based structure for a better browsing experience for every visitor. </p>
-                     <p class='mb-30'>We put our utmost attention to detail, starting from color palettes, images, layouts, and responsive design. We believe responsive web design stands firmly with your brand and business objectives. Whether designing websites for an e-commerce business, service provider, or healthcare business, we keep in mind your audience and business goals and audience network. Our designs are attractive and SEO optimized, which will surely help you leverage a better Google ranking, better visibility, and traffic.  </p>`}
+                text2={` <p  class='mb-20'>We emphasize designing websites that are visually impressive, functional, and deliver the best user experience. A Good website adds credibility to your brand, improves customer trust, and acts as a premier sales channel for around the clock. We blend the most advanced technology with an SEO-based structure for a better browsing experience for every visitor. </p>
+                     <p>We put our utmost attention to detail, starting from color palettes, images, layouts, and responsive design. We believe responsive web design stands firmly with your brand and business objectives. Whether designing websites for an e-commerce business, service provider, or healthcare business, we keep in mind your audience and business goals and audience network. Our designs are attractive and SEO optimized, which will surely help you leverage a better Google ranking, better visibility, and traffic.  </p>`}
                 bannerimage={approchbannerimage}
             />
             <CommonServices
@@ -98,21 +102,57 @@ const page = () => {
             </ul>
             `}
             />
-<CommonResult/>
+            <CommonResult 
+            heding={"Best Web Design Services that Drive Measurable Results"}
+            desc={"Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."}
+            subheding={"Our Core Strengths"}
+            resultdata={[
+                {
+                    id: 1,
+                    img: customdesign,
+                    title: "Custom Design",
+                    desc: "Fully responsive for smartphones, tablets, and desktops.",
+                    link: "#"
+                },
+                {
+                    id: 2,
+                    img: SEOCentric,
+                    title: "SEO-Centric",
+                    desc: "Organized with on-page SEO basics in mind.",
+                    link: "#"
+                },
+                {
+                    id: 3,
+                    img: MobileFirst,
+                    title: "Mobile-First Approach",
+                    desc: "Fully responsive for smartphones, tablets, and desktops.",
+                    link: "#"
+                },
+                {
+                    id: 4,
+                    img: Optimized,
+                    title: "Optimized for Performance",
+                    desc: "Fast, safe, and leveraged for conversions.",
+                    link: "#"
+                },
+            ]}
+            footertext={'We have worked with top-level businesses in Sharjah and USE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
+
+            />
 
 
-<CommonFaqSection
-  faqs={[
-    {
-      q: "Which is the best web development company in Dubai, UAE?",
-      a: "Choosing the best web development company in Dubai, UAE depends on finding a partner that is reliable and tech-savvy. ..."
-    },
-    {
-      q: "Why does WD Agency prioritize on custom website design?",
-      a: "Because no two businesses are the same, their websites shouldn’t be either. ..."
-    }
-  ]}
-/>
+            <CommonFaqSection
+                faqs={[
+                    {
+                        q: "Which is the best web development company in Dubai, UAE?",
+                        a: "Choosing the best web development company in Dubai, UAE depends on finding a partner that is reliable and tech-savvy. ..."
+                    },
+                    {
+                        q: "Why does WD Agency prioritize on custom website design?",
+                        a: "Because no two businesses are the same, their websites shouldn’t be either. ..."
+                    }
+                ]}
+            />
 
 
         </>

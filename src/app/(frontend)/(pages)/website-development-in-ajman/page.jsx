@@ -1,0 +1,208 @@
+import React from 'react'
+import Banner from '../../component/pages/home/Banner'
+import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
+import aboutimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah.jpg'
+import setusimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah-bg.webp'
+import sharjahAboutimg from '@/app/(frontend)/assets/images/website-development/sharjah-about.webp'
+import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
+import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
+import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
+
+import StrategicProblemSolvingimage from '@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png'
+import FocusedApproachimage from '@/app/(frontend)/assets/images/website-development/FocusedApproach.png'
+import PartnershipCommitmentimage from '@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png'
+import Transparencyimage from '@/app/(frontend)/assets/images/website-development/Transparency.png'
+import TechnologyAdoptionimage from '@/app/(frontend)/assets/images/website-development/Technology-Adoption.png'
+import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png'
+import CommonApproch from '../../component/pages/common/CommonApproch'
+
+
+import approchbannerimage from '@/app/(frontend)/assets/images/website-development/our-approch.webp'
+import CommonServices from '../../component/pages/common/CommonServices'
+import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
+import CommonResult from '../../component/pages/common/CommonResult'
+
+
+
+import customdesign from '@/app/(frontend)/assets/images/website-development/custom-design.png'
+import SEOCentric from '@/app/(frontend)/assets/images/website-development/SEO-Centric.webp'
+import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobile-First.webp'
+import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
+
+
+
+const page = () => {
+    return (
+        <>
+            <Banner
+                text1={"Elevate Your Online Presence"}
+                text2={"with Web Design Agency in <br>Ajman- WD Agency"}
+                text3={"We are WD Agency, the best website development agency in Ajman, UAE. Let’s create your website beyond the ordinary."}
+            />
+            <CommonAboutPage
+                text1={"Website Design Ajman – Build Your Digital Identity with Confidence"}
+                text2={"In today's ever-increasing digital universe, having a website is no longer just an online real estate, it is your business's very first impression, account of your brand, and best conversion tool. At Website Development Agency, we specialize in providing supreme website design in Ajman to help businesses stand out, attract customers, and grow sustainably."}
+                text3={"Roads such as Al Nuaimiya, Al Rashidiya, or Ajman Industrial Area are part of our turf, and we bring local expertise to bear to inspire trust and bring guaranteed measurable values into digital experiences."}
+                img={aboutimagesharjhat}
+            />
+            <CommonSetsUs
+                text1={'Elevating Digital Experiences in Ajman'}
+                text2={'Searching for a reliable website development company in Ajman? WD Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Ajman establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
+                bg={setusimagesharjhat}
+            /> 
+            {/* rest */}
+            <CommonAboutPage2
+                text1="Why Your Business in Ajman Needs a Professional Website"
+                text2={`
+                            <p class="mb-20">
+                           The Ajman market is loaded with small enterprises, well-established companies, and merchants fighting for publicity. Competing for visibility, it is inescapable to have a professional website. Here is why:
+                            </p>
+                            <ul class="ml-40">
+                            <li>Builds trust and credibility - Customers decide the worthiness of your business within seconds after landing on your website.</li>
+                            <li>Increases your reach - With a website, your services can go beyond local limits.</li>
+                            <li>Generates sales and conversions - Strategic layouts coupled with purposeful call-to-actions (CTAs) convince visitors to pay for what you are selling.</li>
+                            <li>Supports long-term growth – Your website is the cornerstone for digital marketing strategies and driving sustainable business growth.</li>
+                            </ul>
+                            <p>
+                            When you partner with a WD Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                            </p>
+                    `}
+                img={sharjahAboutimg}
+            />
+            <CommonThreeCard
+                text1={'Why choose WD Agency — local expertise, global engineering'}
+                text2={"Many agencies build websites; few combine a local Emirati understanding with modern engineering. Here’s what makes WD Agency the preferred partner for Abu Dhabi organisations:"}
+                boxdata={[
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Local market mastery', desc: 'We stabilize UAE cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
+                    { id: 2, img: FocusedApproachimage, title: 'End-to-end delivery', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready engineering', desc: 'We create flexible architectures, headless CMS alternatives, and progressive web app techniques that safeguard your investment.' },
+                    { id: 4, img: Transparencyimage, title: 'Conversion-first thinking', desc: 'We don’t just make sites look attractive — we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: '24/7 support & maintenance', desc: ' local SLA-based monitoring, security patching, and performance tuning so your site is always available.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: '', desc: 'We partner with startups, SMEs, corporations and government bodies — tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
+                ]}
+            />
+
+
+
+
+            <CommonApproch
+                text1={"Best Web Design Company in Ajman – Where Creativity Meets Technology"}
+                text2={` <p>Our suite of services is designed to meet the diverse needs of Abu Dhabi businesses. We provide bespoke solutions, that are designed to deliver results.</p>
+                    <ul class="my-20">
+                    <li>Attractive with highly engaging layouts, modern color schemes, and clear branding.</li>
+                    <li>User-friendly, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
+                    <li>Mobile-first, with designs being fully responsive and optimized for smartphones and tablets.</li>
+                    <li>SEO-optimized, with a structure that ensures higher ranking and increased visibility on search engines.</li>
+                  </ul>
+                  <p>Whether launching your first digital presence as a startup or the redesign of an established company, we make sure your website represents you well and supports your growth targets.</p>
+
+                    `}
+                bannerimage={approchbannerimage}
+            />
+            <CommonServices
+                theding={'Web Design in Ajman – More Than Just Aesthetics'}
+                tdesc={` <p>A successful website goes beyond visual appeal; it’s about delivering real value to users. At WD Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly while leaving a lasting impression of your brand.</p>
+                    <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
+                `}
+                bheding={'We proiritize our website design and development work with:'}
+                bdesc={`<ul class='ml-50'>
+                <li>User-centric Design – Fast-loading, glitch-free, and simple-to-use designs.</li>
+                <li>Strategy & information architecture — Content strategy, taxonomy, and conversion mapping.</li>
+                <li>Mobile Responsiveness – Leveraged for each screen size.</li>
+                <li>Strong Branding – Steadiness across visuals, tone, and messaging.</li>
+                <li>SEO Friendly – Built-in strategies to assist your business in ranking higher on Google.</li>
+                
+            </ul>
+            <p class='mt-20'>Your website becomes your digital storefront, and we make sure it keeps customers engaged from the initial click to the ultimate conversion.</p>
+            `}
+            />
+            <CommonResult
+                heding={"Best Web Design Services that Drive Measurable Results"}
+                desc={"Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."}
+                subheding={"Our Core Strengths"}
+                resultdata={[
+                    {
+                        id: 1,
+                        img: customdesign,
+                        title: "Custom Design",
+                        desc: "Fully responsive for smartphones, tablets, and desktops.",
+                        link: "#"
+                    },
+                    {
+                        id: 2,
+                        img: SEOCentric,
+                        title: "SEO-Centric",
+                        desc: "Organized with on-page SEO basics in mind.",
+                        link: "#"
+                    },
+                    {
+                        id: 3,
+                        img: MobileFirst,
+                        title: "Mobile-First Approach",
+                        desc: "Fully responsive for smartphones, tablets, and desktops.",
+                        link: "#"
+                    },
+                    {
+                        id: 4,
+                        img: Optimized,
+                        title: "Optimized for Performance",
+                        desc: "Fast, safe, and leveraged for conversions.",
+                        link: "#"
+                    },
+                ]}
+                footertext={'We have worked with top-level businesses in Sharjah and USE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
+
+            />
+
+
+            <CommonFaqSection
+                faqs={[
+                    {
+                        q: "Why should I hire a local Abu Dhabi agency like WD Agency instead of outsourcing overseas?",
+                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                    },
+                    {
+                        q: "Do you build Arabic (RTL) websites?",
+                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                    },
+                    {
+                        q:"How do you measure success?",
+                        a:"We establish KPIs before launch — conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics — and update monthly."
+                    },
+                    {
+                        q:"Will my website be secure?",
+                        a:"Yes. Security is built-in: HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                    },
+                    {
+                        q:"Can you move our current website to a new platform?",
+                        a:"Ofcourse. We manage content migration, URL mapping (301 redirects), SEO preservation, and staged rollouts to prohibit downtime."
+                    },
+                    {
+                        q:"What SEO work is included?",
+                        a:"We involve technical on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
+                    },
+                    {
+                        q:"How do you support post-launch?",
+                        a:"Support plans comprise monthly maintenance, uptime supervision, error and security alerts, regular backups, and agreed response times for incidents."
+                    },
+                    {
+                        q:"Which platforms do you recommend?",
+                        a:"Selection relies on requirements: WordPress for content-heavy sites; Shopify or Magento/WooCommerce for eCommerce; headless CMS + React/Vue for high-performance front-ends and intricate integrations."
+                    },
+                    {
+                        q:"How do you manage integrations (CRM, ERP, payment gateways)?",
+                        a:"We create safe API integrations, middleware where needed, and automated dataflows that sync leads, orders, or records with your internal systems."
+                    },
+                    {
+                        q:"What about accessibility?",
+                        a:"We abide by WCAG guidelines and guarantee keyboard navigation, screen-reader compatibility, and contrast ratios so your site is usable by all citizens."
+                    }
+                ]}
+            />
+
+
+        </>
+    )
+}
+
+export default page

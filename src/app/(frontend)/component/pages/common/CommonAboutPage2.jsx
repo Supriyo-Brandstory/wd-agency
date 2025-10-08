@@ -4,7 +4,7 @@ import Image from 'next/image'
 const CommonAboutPage2 = ({text1,text2,img}) => {
   return (
     <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
-        <h2 className='text-center mb-40' dangerouslySetInnerHTML={{__html:text1}}></h2>
+        <h2 className='text-center mb-40 sm-text-start' dangerouslySetInnerHTML={{__html:text1}}></h2>
         <div className={styles.flex}>
             <div className={styles.left} style={{'--width': '45%'}}>
                 <Image src={img} alt="sharjah" style={{'--height': '556px', '--width': '628px'}} />

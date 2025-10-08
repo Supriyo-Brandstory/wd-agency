@@ -17,3 +17,29 @@
         height: var(--height);
     }
 }
+
+@media (max-width: 768px) {
+    .flex{
+    display: block;
+    }
+    .left{
+    width: 100%;
+        margin-bottom: 20px;
+
+     img{
+       width: 100%;
+        height: 300px;
+        object-fit: contain;
+        
+    }
+}
+.right{
+       width: 100%;
+
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+}
+}

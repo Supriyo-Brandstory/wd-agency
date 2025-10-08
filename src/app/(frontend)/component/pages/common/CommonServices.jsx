@@ -13,7 +13,7 @@ const CommonServices = ({
     <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
         <div className={styles.topSection}>
             <div className={styles.left} style={{'--width': '40%'}}>
-                <h2>{theding}</h2>
+                <h2 className='mb-20 '>{theding}</h2>
             </div>
             <div className={styles.right} style={{'--width': '60%'}}>
                            <div dangerouslySetInnerHTML={{__html:tdesc}}></div>

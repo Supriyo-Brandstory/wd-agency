@@ -21,3 +21,16 @@
     border-radius: 20px;
     background-size: cover;
 }
+
+@media (max-width: 768px) {
+    .topSection{
+    display: block;
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+
+    }
+}
