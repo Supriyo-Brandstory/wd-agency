@@ -1,10 +1,10 @@
 'use client'
 import { motion } from "framer-motion";
 import SquareBox from "./SquareBox";
-import img1 from "@/app/(frontend)/assets/images/about/team/1.jpg";
-import img2 from "@/app/(frontend)/assets/images/about/team/2.jpg";
-import img3 from "@/app/(frontend)/assets/images/about/team/3.jpg";
-import img4 from "@/app/(frontend)/assets/images/about/team/4.jpg";
+import img1 from "@/app/(frontend)/assets/images/about/team/1.webp";
+import img2 from "@/app/(frontend)/assets/images/about/team/2.webp";
+import img3 from "@/app/(frontend)/assets/images/about/team/3.webp";
+import img4 from "@/app/(frontend)/assets/images/about/team/4.webp";
 import css from "../../../assets/style/about/team.module.css";
 
 const Team = () => {
