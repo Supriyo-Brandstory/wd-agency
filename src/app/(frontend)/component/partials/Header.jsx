@@ -20,8 +20,8 @@ export default function Header() {
         <div className={styles.dropdown}>
           <button>Services ▾</button>
           <div className={styles.dropdownMenu}>
-            <Link href="/services/web">Web Development</Link>
-            <Link href="/services/seo">SEO</Link>
+            {/* <Link href="/services/web">Web Development</Link>
+            <Link href="/services/seo">SEO</Link> */}
           </div>
         </div>
         <div className={styles.dropdown}>

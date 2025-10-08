@@ -77,9 +77,9 @@ const Footer = () => {
                <h4>CITIES WE SERVE</h4>
             <ul>
               <li><Link href="/dubai">Dubai</Link></li>
-              <li><Link href="/abu-dhabi">Abu Dhabi</Link></li>
-              <li><Link href="/sharjah">Sharjah</Link></li>
-              <li><Link href="/ajman">Ajman</Link></li>
+              <li><Link href="/website-development-in-abu-dhabi">Abu Dhabi</Link></li>
+              <li><Link href="/website-development-in-sharjah">Sharjah</Link></li>
+              <li><Link href="/website-development-in-ajman">Ajman</Link></li>
               <li><Link href="/ras-al-khaimah">Ras Al Khaimah</Link></li>
               </ul>
             </div>
