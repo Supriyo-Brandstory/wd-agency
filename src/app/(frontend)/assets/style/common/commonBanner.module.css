@@ -16,4 +16,16 @@
     .commonBanner{
         min-height: 40vh;
     }
+    .commonBanner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .commonBanner > * {
+    position: relative;
+    z-index: 2;
+  }
 }

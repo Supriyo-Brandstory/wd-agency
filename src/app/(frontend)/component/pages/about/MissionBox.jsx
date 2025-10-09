@@ -2,14 +2,30 @@
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import css from '../../../assets/style/about/mission.module.css';
 import LeftArrow from '../../../assets/images/about/left-arrow.png';
 import RightArrow from '../../../assets/images/about/right-arrow.png';
 import missionbg from '../../../assets/images/about/mission-bg.png';
 
+// Hook to detect mobile
+const useIsMobile = (breakpoint = 768) => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth < breakpoint);
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, [breakpoint]);
+
+    return isMobile;
+};
+
 // position prop is mandatory: 'left' | 'right'
 const MissionBox = ({ title, description, position }) => {
     const isLeft = position === 'left';
+    const isMobile = useIsMobile();
 
     // Motion variants for left/right animations
     const containerVariants = {
@@ -21,37 +37,30 @@ const MissionBox = ({ title, description, position }) => {
         },
     };
 
+    const Container = isMobile ? 'div' : motion.div;
+
     return (
-        <motion.div
+        <Container
             className={`w-full frame-1200 flex ${isLeft ? 'flex-row-reverse' : 'flex-row'} items-center justify-between gap-6 md:gap-10`}
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.9 }}
+            {...(!isMobile && { variants: containerVariants, initial: 'hidden', whileInView: 'visible', viewport: { once: true, amount: 0.9 } })}
         >
             {/* Image Section */}
-            <motion.div
+            <Container
                 className={`w-1/2 my-100 ${css.image}`}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-                viewport={{ once: true, amount: 0.4 }}
+                {...(!isMobile && { initial: { opacity: 0, scale: 0.9 }, whileInView: { opacity: 1, scale: 1 }, transition: { duration: 0.5, ease: 'easeOut', delay: 0.2 }, viewport: { once: true, amount: 0.4 } })}
             >
                 <Image
                     src={isLeft ? RightArrow : LeftArrow}
                     alt={isLeft ? 'right arrow' : 'left arrow'}
                     className={isLeft ? css.rightArrow : css.leftArrow}
                 />
-            </motion.div>
+            </Container>
 
             {/* Text Section */}
-            <motion.div
-             style={{ '--image-mission-bg': `url(${missionbg.src})` }}
+            <Container
+                style={{ '--image-mission-bg': `url(${missionbg.src})` }}
                 className={`w-1/2 ${css.blurBox} text-white`}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
-                viewport={{ once: true, amount: 0.4 }}
+                {...(!isMobile && { initial: { opacity: 0, y: 20 }, whileInView: { opacity: 1, y: 0 }, transition: { duration: 0.6, ease: 'easeOut', delay: 0.3 }, viewport: { once: true, amount: 0.4 } })}
             >
                 {title && (
                     <h3 className="fs-38 py-16 md:text-5xl font-extrabold mb-3 md:mb-4 leading-tight">
@@ -63,8 +72,8 @@ const MissionBox = ({ title, description, position }) => {
                         {description}
                     </p>
                 )}
-            </motion.div>
-        </motion.div>
+            </Container>
+        </Container>
     );
 };
 
