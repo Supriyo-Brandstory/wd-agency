@@ -11,7 +11,7 @@ const CommonProtfolio = ({
     return (
         <div className={styles.CommonProtfolio}>
             <h2 className='text-center sm-text-left mb-20'>{heding}</h2>
-            <p className='text-center sm-text-left frame-900'>{desc}</p>
+            <p className='text-center sm-text-left frame-900 mb-40'>{desc}</p>
             <div className={styles.Protfolio}>
                 {protfoliodata.map((protfolio, index) => (
                     <div className={styles.ProtfolioBox} key={index}>
