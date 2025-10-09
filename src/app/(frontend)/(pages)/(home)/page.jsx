@@ -38,10 +38,6 @@ const page = () => {
         <BestAgency/>
         <WhatSetsUs/>
         <OurCoreStrengths/>
-        <TechnologyStack/>
-        <DevelopmentServices/>
-        <DevelopmentProcess/>
-        {/* <Portfolio/> */}
          <CommonProtfolio
         heding={"Our Website Design Portfolio"}
         desc={'We have worked with 500+ clients across Dubai and the United Arab Emirates. See our extensive website design and development portfolio here'}
@@ -68,6 +64,11 @@ const page = () => {
             },
         ]}
         />
+        <TechnologyStack/>
+        <DevelopmentServices/>
+        <DevelopmentProcess/>
+        {/* <Portfolio/> */}
+        
         <Webexperiences/>
         <WebDesignApproach/>
         <OurJourney/>
