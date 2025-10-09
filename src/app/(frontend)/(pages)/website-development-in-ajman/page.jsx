@@ -35,14 +35,14 @@ const page = () => {
     return (
         <>
             <Banner
-                text1={"Elevate Your Online Presence"}
-                text2={"with Web Design Agency in <br>Ajman- WD Agency"}
+                text1={"Elevate your online presence with"}
+                text2={"Web Design Agency in Ajman"}
                 text3={"We are WD Agency, the best website development agency in Ajman, UAE. Let’s create your website beyond the ordinary."}
             />
             <CommonAboutPage
                 text1={"Website Design Ajman – Build Your Digital Identity with Confidence"}
-                text2={"In today's ever-increasing digital universe, having a website is no longer just an online real estate, it is your business's very first impression, account of your brand, and best conversion tool. At Website Development Agency, we specialize in providing supreme website design in Ajman to help businesses stand out, attract customers, and grow sustainably."}
-                text3={"Roads such as Al Nuaimiya, Al Rashidiya, or Ajman Industrial Area are part of our turf, and we bring local expertise to bear to inspire trust and bring guaranteed measurable values into digital experiences."}
+                text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website design services in Ajman to help businesses stand out, attract customers, and grow sustainably."}
+                text3={"We create and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
@@ -55,7 +55,7 @@ const page = () => {
                 text1="Why Your Business in Ajman Needs a Professional Website"
                 text2={`
                             <p class="mb-20">
-                           The Ajman market is loaded with small enterprises, well-established companies, and merchants fighting for publicity. Competing for visibility, it is inescapable to have a professional website. Here is why:
+                           The Ajman market is loaded with small enterprises, well-established companies, and local merchants. Competing for visibility, it is inescapable to have a professional website. Here is why:
                             </p>
                             <ul class="ml-40">
                             <li>Builds trust and credibility - Customers decide the worthiness of your business within seconds after landing on your website.</li>
@@ -70,15 +70,15 @@ const page = () => {
                 img={sharjahAboutimg}
             />
             <CommonThreeCard
-                text1={'Why choose WD Agency — local expertise, global engineering'}
-                text2={"Many agencies build websites; few combine a local Emirati understanding with modern engineering. Here’s what makes WD Agency the preferred partner for Abu Dhabi organisations:"}
+                text1={'Why choose WD Agency- Local Expertise, Global engineering'}
+                text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why WD Agency is the preferred partner for businesses in Abu Dhabi:"}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Local market mastery', desc: 'We stabilize UAE cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
-                    { id: 2, img: FocusedApproachimage, title: 'End-to-end delivery', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready engineering', desc: 'We create flexible architectures, headless CMS alternatives, and progressive web app techniques that safeguard your investment.' },
-                    { id: 4, img: Transparencyimage, title: 'Conversion-first thinking', desc: 'We don’t just make sites look attractive — we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: '24/7 support & maintenance', desc: ' local SLA-based monitoring, security patching, and performance tuning so your site is always available.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: '', desc: 'We partner with startups, SMEs, corporations and government bodies — tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAEs cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
+                    { id: 2, img: FocusedApproachimage, title: 'End-to-end Services', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready Engineering', desc: 'We develop adaptable architectures, utilize headless CMS solutions, and implement progressive web app technologies to ensure your website remains scalable for the future.' },
+                    { id: 4, img: Transparencyimage, title: 'Conversion-first Approach', desc: 'We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: '24/7 Support & Maintenance', desc: 'SLA-based monitoring, security patching, and performance tuning so your site is available 24*7.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Diverse Experience', desc: 'We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
                 ]}
             />
 
@@ -86,21 +86,21 @@ const page = () => {
 
 
             <CommonApproch
-                text1={"Best Web Design Company in Ajman – Where Creativity Meets Technology"}
-                text2={` <p>Our suite of services is designed to meet the diverse needs of Abu Dhabi businesses. We provide bespoke solutions, that are designed to deliver results.</p>
+                text1={"Web Design Company in Ajman- Where Creativity Meets Technology"}
+                text2={` <p>Our suite of web development services is tailored to meet the diverse needs of businesses in Ajman. We deliver custom website solutions designed to enhance online presence, improve user experience, and drive measurable results.</p>
                     <ul class="my-20">
-                    <li>Attractive with highly engaging layouts, modern color schemes, and clear branding.</li>
-                    <li>User-friendly, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
+                    <li>Attractive with highly engaging layouts, modern color schemes, and consistent branding.</li>
+                    <li>User-friendly design, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
                     <li>Mobile-first, with designs being fully responsive and optimized for smartphones and tablets.</li>
                     <li>SEO-optimized, with a structure that ensures higher ranking and increased visibility on search engines.</li>
                   </ul>
-                  <p>Whether launching your first digital presence as a startup or the redesign of an established company, we make sure your website represents you well and supports your growth targets.</p>
+                  <p>Whether launching your first digital presence as a startup or the redesigning website, we make sure your website represents you well and supports your growth ambitions.</p>
 
                     `}
                 bannerimage={approchbannerimage}
             />
             <CommonServices
-                theding={'Web Design in Ajman – More Than Just Aesthetics'}
+                theding={'Web Design in Ajman- More Than Just Aesthetics'}
                 tdesc={` <p>A successful website goes beyond visual appeal; it’s about delivering real value to users. At WD Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly while leaving a lasting impression of your brand.</p>
                     <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
                 `}
@@ -158,44 +158,40 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why should I hire a local Abu Dhabi agency like WD Agency instead of outsourcing overseas?",
-                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                        q: "What Types of Websites Do You Develop for Ajman Businesses?",
+                        a: "We create a wide range of websites, including corporate sites, eCommerce stores, portfolio sites, blogs, and custom web applications, all designed to meet the unique needs of Ajman businesses."
                     },
                     {
-                        q: "Do you build Arabic (RTL) websites?",
-                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                        q: "How Much Does Website Development in Ajman Cost?",
+                        a: "The cost depends on the type of website, complexity, features, and timeline. Our packages start from AED 5,000 and can be customized to suit different budgets and business requirements."
                     },
                     {
-                        q:"How do you measure success?",
-                        a:"We establish KPIs before launch — conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics — and update monthly."
+                        q:"Do You Provide Multilingual Websites in Ajman?",
+                        a:"Yes, we design websites that support both Arabic and English, ensuring a seamless experience for your local and international audience."
                     },
                     {
-                        q:"Will my website be secure?",
-                        a:"Yes. Security is built-in: HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q:"Do You Offer Post-launch Support?",
+                        a:"Yes, we provide free maintenance for the first three months and offer ongoing support plans, including uptime monitoring, security alerts, backups, and instant assistance for any issues."
                     },
                     {
-                        q:"Can you move our current website to a new platform?",
-                        a:"Ofcourse. We manage content migration, URL mapping (301 redirects), SEO preservation, and staged rollouts to prohibit downtime."
+                        q:"Which Web Development Platforms Do you Recommend?",
+                        a:"We recommend WordPress for content-rich websites, Shopify, Magento, or WooCommerce for eCommerce, and headless CMS with React or Vue for high-performance websites with complex integrations."
                     },
                     {
-                        q:"What SEO work is included?",
-                        a:"We involve technical on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
+                        q:"How Do You Handle Integrations with CRM, ERP, or Payment Gateways?",
+                        a:"We implement secure API integrations and middleware where necessary, ensuring automated data flows that synchronize leads, orders, and records with your internal systems."
                     },
                     {
-                        q:"How do you support post-launch?",
-                        a:"Support plans comprise monthly maintenance, uptime supervision, error and security alerts, regular backups, and agreed response times for incidents."
+                        q:"How Long Does It Take to Develop a Website in Ajman?",
+                        a:"Project timelines vary based on complexity, features, and revisions. On average, a standard website can be completed in 4–8 weeks, while more complex solutions may take longer."
                     },
                     {
-                        q:"Which platforms do you recommend?",
-                        a:"Selection relies on requirements: WordPress for content-heavy sites; Shopify or Magento/WooCommerce for eCommerce; headless CMS + React/Vue for high-performance front-ends and intricate integrations."
+                        q:"Do you Follow Security Best Practices in Web Development?",
+                        a:"Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
                     },
                     {
-                        q:"How do you manage integrations (CRM, ERP, payment gateways)?",
-                        a:"We create safe API integrations, middleware where needed, and automated dataflows that sync leads, orders, or records with your internal systems."
-                    },
-                    {
-                        q:"What about accessibility?",
-                        a:"We abide by WCAG guidelines and guarantee keyboard navigation, screen-reader compatibility, and contrast ratios so your site is usable by all citizens."
+                        q:"Why Choose WD Agency for Web Development in Ajman?",
+                        a:"We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
                     }
                 ]}
             />

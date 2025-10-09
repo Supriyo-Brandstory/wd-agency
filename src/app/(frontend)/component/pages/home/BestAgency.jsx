@@ -123,8 +123,7 @@ const BestAgency = () => {
             design solutions considering your business that highlight your
             strengths and unique identity. With high-end coding expertise and
             industry-specific knowledge, WD Agency excels in complete web design
-            and development services, ensuring smooth user experience, easy
-            navigation, and cutting-edge features & functionality.
+            and development services.
           </li>
 
           {isOpen["1"] && (
