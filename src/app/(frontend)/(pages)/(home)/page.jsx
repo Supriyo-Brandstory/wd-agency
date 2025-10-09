@@ -13,7 +13,18 @@ import WebDesignApproach from '../../component/pages/home/WebDesignApproach'
 import OurJourney from '../../component/pages/home/OurJourney'
 import FaqSection from '../../component/pages/home/FaqSection'
 import CtaSection from '../../component/pages/home/CtaSection'
+import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
+
+
+import protfolio1 from '@/app/(frontend)/assets/images/protfolio/1.webp'
+import protfoliologo1 from '@/app/(frontend)/assets/images/protfolio/varsha-logistics-pvt-ltd.webp'
+import protfolio2 from '@/app/(frontend)/assets/images/protfolio/2.webp'
+import protfoliologo2 from '@/app/(frontend)/assets/images/protfolio/ferns.webp'
+import protfolio3 from '@/app/(frontend)/assets/images/protfolio/3.webp'
+import protfoliologo3 from '@/app/(frontend)/assets/images/protfolio/kshemavan.webp'
+import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
+import protfoliologo4 from '@/app/(frontend)/assets/images/protfolio/equence.webp'
 const page = () => {
   return (
     <div>
@@ -30,10 +41,37 @@ const page = () => {
         <TechnologyStack/>
         <DevelopmentServices/>
         <DevelopmentProcess/>
-        <Portfolio/>
+        {/* <Portfolio/> */}
+         <CommonProtfolio
+        heding={"Our Website Design Portfolio"}
+        desc={'We have worked with 500+ clients across Dubai and the United Arab Emirates. See our extensive website design and development portfolio here'}
+          protfoliodata ={[
+            {
+              id: "01",
+              image: protfolio1,
+              logo: protfoliologo1,
+            },
+            {
+              id: "02",
+              image: protfolio2,
+              logo: protfoliologo2,
+            },
+            {
+              id: "03",
+              image: protfolio3,
+              logo: protfoliologo3,
+            },
+            {
+              id: "04",
+              image: protfolio4,
+              logo: protfoliologo4,
+            },
+        ]}
+        />
         <Webexperiences/>
         <WebDesignApproach/>
         <OurJourney/>
+       
         <FaqSection/>
         <CtaSection/>
     </div>

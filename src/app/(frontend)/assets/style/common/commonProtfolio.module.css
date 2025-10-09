@@ -1,0 +1,53 @@
+.Protfolio {
+  position: relative;
+  height: 400vh; /* enough scroll height for animation */
+}
+
+.ProtfolioBox {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.ProtfolioBox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+
+.ProtfolioBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4); /* black overlay, adjust opacity as needed */
+  transition: background 0.5s ease;
+  pointer-events: none; /* lets clicks pass through */
+}
+
+.ctabox{
+    position: absolute;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        margin-bottom: 20px;
+        width: 200px;
+        object-fit: contain;
+    }
+}
+
+/* Optional: hover effect to darken overlay */
+/* .ProtfolioBox:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+} */
