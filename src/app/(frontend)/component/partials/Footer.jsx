@@ -80,14 +80,14 @@ const Footer = () => {
               <li><Link href="/website-development-in-abu-dhabi">Abu Dhabi</Link></li>
               <li><Link href="/website-development-in-sharjah">Sharjah</Link></li>
               <li><Link href="/website-development-in-ajman">Ajman</Link></li>
-              <li><Link href="/ras-al-khaimah">Ras Al Khaimah</Link></li>
+              <li><Link href="/website-development-in-ras-al-khaimah">Ras Al Khaimah</Link></li>
               </ul>
             </div>
            
               <ul>
-              <li><Link href="/fujairah">Fujairah</Link></li>
-              <li><Link href="/umm-al-quwain">Umm Al Quwain</Link></li>
-              <li><Link href="/al-ain">Al Ain</Link></li>
+              <li><Link href="/website-development-in-fujairah">Fujairah</Link></li>
+              <li><Link href="/website-development-in-umm-al-quwain">Umm Al Quwain</Link></li>
+              <li><Link href="/website-development-in-al-ain">Al Ain</Link></li>
               <li><Link href="/khor-fakkan">Khor Fakkan</Link></li>
               <li><Link href="/dibba-al-fujairah">Dibba Al-Fujairah</Link></li>
             </ul>
