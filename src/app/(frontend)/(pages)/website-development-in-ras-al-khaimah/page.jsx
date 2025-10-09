@@ -37,8 +37,8 @@ const page = () => {
     return (
         <>
             <Banner
-                text1={"Website Development in Ras Al Khaimah"}
-                text2={"Custom-Built Websites for RAK Businesses – Designed to Impress, Engineered to Perform"}
+                text1={"Designed to impress, engineered to perform"}
+                text2={"Best Website Development Agency in Ras Al Khaimah"}
                 text3={"WD Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."}
             />
             <CommonAboutPage
