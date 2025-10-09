@@ -10,12 +10,12 @@ import css from "../../../assets/style/about/team.module.css";
 const Team = () => {
   const teamData = [
     { image: img1.src },
-    { number: "15+", title: "Senior Developers", tags: ["React", "Node.Js", "Laravel", "Python"] },
+    { number: "15+", title: "Web Developers", tags: ["React", "Node.Js", "Laravel", "Python"] },
     { image: img2.src },
     { number: "10+", title: "UI/UX Designers", tags: ["Figma", "Adobe Creative Suite", "Prototyping"] },
     { number: "8+", title: "Project Managers", tags: ["Agile", "Scrum", "Client Communication"] },
     { image: img4.src },
-    { number: "6+", title: "Quality Assurance", tags: ["Automated Testing", "Manual Testing", "Performance"] },
+    { number: "6+", title: "QA Engineers", tags: ["Automated Testing", "Manual Testing", "Performance"] },
     { image: img3.src },
   ];
 
