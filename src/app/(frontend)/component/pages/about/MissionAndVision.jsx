@@ -13,7 +13,7 @@ const MissionAndVision = () =>{
             <MissionBox 
                 position="left"
                 title="Our Vision" 
-                description="To be the most trusted and innovative web development partner in the Middle East, known for delivering world-class digital solutions that transform businesses and create lasting value for our clients." 
+                description="To empower businesses with next-level website and software solutions. We are known for creating world-class websites that transform businesses and create real business impact for our clients." 
             />
         </div>
     );

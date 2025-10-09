@@ -16,8 +16,8 @@ const page = () => {
     <div>
         <CommonBanner
             bannerImage={`url(${bannerimages.src})`}
-            title={`About\nWebsiteDevelopmentAgency.Ae`}
-            subtitle={"We are a leading web development agency based in the UAE, specializing in creating innovative digital solutions that drive business growth and success."}
+            title={`About WD Agency- Website Development Agency`}
+            subtitle={"We are a leading web development agency based in the Dubai, UAE, specializing in creating innovative digital solutions that drive business growth and success."}
         />
         <OurStory />
         <Stats />

@@ -35,7 +35,7 @@ const CoreValues = () =>{
     return (
         <div className="frame-1200 pb-60">
             <h1 className="text-center py-20 fs-38">Our Core Values</h1>
-            <p className="text-center">These values guide everything we do and shape our relationships with clients and team members</p>
+            <p className="text-center">Our commitment is deeply embedded with our core business value making us<br></br> a prominent leader in website development industry.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 mt-10">
                 {values.map((item) => (
                     <CoreValueBox
