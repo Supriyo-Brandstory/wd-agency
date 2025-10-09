@@ -28,6 +28,8 @@ import customdesign from '@/app/(frontend)/assets/images/website-development/cus
 import SEOCentric from '@/app/(frontend)/assets/images/website-development/SEO-Centric.webp'
 import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobile-First.webp'
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
+import CommonIndustries from '../../component/pages/common/CommonIndustries'
+import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 
@@ -68,6 +70,7 @@ const page = () => {
                     `}
                 img={sharjahAboutimg}
             />
+            <CommonProtfolio/>
             <CommonThreeCard
                 text1={'Why Choose WD Agency as Your Web Design<br/> Company in Sharjah'}
                 text2={"Among many other web design companies in Sharjah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We are not just a website design company, we are the transformation partner for businesses supporting their digital expansion."}
@@ -139,7 +142,7 @@ const page = () => {
 
             />
 
-
+            <CommonIndustries/>
             <CommonFaqSection
                 faqs={[
                     {

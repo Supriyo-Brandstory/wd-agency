@@ -29,8 +29,11 @@
   color: var(--color-pink); /* pinkish like in screenshot */
   font-weight: 500;
   margin-top: 10px;
-  display: inline-block;
+  display: flex;
   text-decoration: none;
+  align-items: center;
+  gap: 10px;
+
 }
 
 .learnMore:hover {

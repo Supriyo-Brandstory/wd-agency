@@ -28,6 +28,8 @@ import customdesign from '@/app/(frontend)/assets/images/website-development/cus
 import SEOCentric from '@/app/(frontend)/assets/images/website-development/SEO-Centric.webp'
 import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobile-First.webp'
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
+import CommonIndustries from '../../component/pages/common/CommonIndustries'
+import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 
@@ -49,7 +51,7 @@ const page = () => {
                 text1={'Elevating Digital Experiences in Ajman'}
                 text2={'Searching for a reliable website development company in Ajman? WD Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Ajman establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
                 bg={setusimagesharjhat}
-            /> 
+            />
             {/* rest */}
             <CommonAboutPage2
                 text1="Why Your Business in Ajman Needs a Professional Website"
@@ -69,6 +71,7 @@ const page = () => {
                     `}
                 img={sharjahAboutimg}
             />
+            <CommonProtfolio/>
             <CommonThreeCard
                 text1={'Why choose WD Agency- Local Expertise, Global engineering'}
                 text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why WD Agency is the preferred partner for businesses in Abu Dhabi:"}
@@ -154,7 +157,7 @@ const page = () => {
 
             />
 
-
+                <CommonIndustries/>
             <CommonFaqSection
                 faqs={[
                     {
@@ -166,32 +169,32 @@ const page = () => {
                         a: "The cost depends on the type of website, complexity, features, and timeline. Our packages start from AED 5,000 and can be customized to suit different budgets and business requirements."
                     },
                     {
-                        q:"Do You Provide Multilingual Websites in Ajman?",
-                        a:"Yes, we design websites that support both Arabic and English, ensuring a seamless experience for your local and international audience."
+                        q: "Do You Provide Multilingual Websites in Ajman?",
+                        a: "Yes, we design websites that support both Arabic and English, ensuring a seamless experience for your local and international audience."
                     },
                     {
-                        q:"Do You Offer Post-launch Support?",
-                        a:"Yes, we provide free maintenance for the first three months and offer ongoing support plans, including uptime monitoring, security alerts, backups, and instant assistance for any issues."
+                        q: "Do You Offer Post-launch Support?",
+                        a: "Yes, we provide free maintenance for the first three months and offer ongoing support plans, including uptime monitoring, security alerts, backups, and instant assistance for any issues."
                     },
                     {
-                        q:"Which Web Development Platforms Do you Recommend?",
-                        a:"We recommend WordPress for content-rich websites, Shopify, Magento, or WooCommerce for eCommerce, and headless CMS with React or Vue for high-performance websites with complex integrations."
+                        q: "Which Web Development Platforms Do you Recommend?",
+                        a: "We recommend WordPress for content-rich websites, Shopify, Magento, or WooCommerce for eCommerce, and headless CMS with React or Vue for high-performance websites with complex integrations."
                     },
                     {
-                        q:"How Do You Handle Integrations with CRM, ERP, or Payment Gateways?",
-                        a:"We implement secure API integrations and middleware where necessary, ensuring automated data flows that synchronize leads, orders, and records with your internal systems."
+                        q: "How Do You Handle Integrations with CRM, ERP, or Payment Gateways?",
+                        a: "We implement secure API integrations and middleware where necessary, ensuring automated data flows that synchronize leads, orders, and records with your internal systems."
                     },
                     {
-                        q:"How Long Does It Take to Develop a Website in Ajman?",
-                        a:"Project timelines vary based on complexity, features, and revisions. On average, a standard website can be completed in 4–8 weeks, while more complex solutions may take longer."
+                        q: "How Long Does It Take to Develop a Website in Ajman?",
+                        a: "Project timelines vary based on complexity, features, and revisions. On average, a standard website can be completed in 4–8 weeks, while more complex solutions may take longer."
                     },
                     {
-                        q:"Do you Follow Security Best Practices in Web Development?",
-                        a:"Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
+                        q: "Do you Follow Security Best Practices in Web Development?",
+                        a: "Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
                     },
                     {
-                        q:"Why Choose WD Agency for Web Development in Ajman?",
-                        a:"We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
+                        q: "Why Choose WD Agency for Web Development in Ajman?",
+                        a: "We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
                     }
                 ]}
             />

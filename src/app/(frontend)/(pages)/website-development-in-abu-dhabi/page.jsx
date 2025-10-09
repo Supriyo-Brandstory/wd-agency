@@ -28,6 +28,8 @@ import customdesign from '@/app/(frontend)/assets/images/website-development/cus
 import SEOCentric from '@/app/(frontend)/assets/images/website-development/SEO-Centric.webp'
 import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobile-First.webp'
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
+import CommonIndustries from '../../component/pages/common/CommonIndustries'
+import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 
@@ -49,7 +51,7 @@ const page = () => {
                 text1={'Transforming Digital Presence in Abu Dhabi'}
                 text2={'Looking for a website development company in Abu Dhabi that truly understands your business needs? WD Agency brings over a decade of experience in designing and developing websites that not only look stunning but also perform seamlessly. <br><br>We specialize in crafting intuitive websites that combine innovative design, advanced technology, and smooth functionality. Every website we build is crafted to strengthen your brand, engage your audience, and convert visitors into loyal customers- helping your business thrive in Abu Dhabi’s competitive digital landscape.'}
                 bg={setusimagesharjhat}
-            /> 
+            />
             {/* rest */}
             <CommonAboutPage2
                 text1="Why a World-class Website Matters in Abu Dhabi"
@@ -70,6 +72,7 @@ const page = () => {
                     `}
                 img={sharjahAboutimg}
             />
+            <CommonProtfolio/>
             <CommonThreeCard
                 text1={'Why Choose WD Agency- Local Expertise, Global Engineering'}
                 text2={"Many agencies build websites, few combine a local business with modern engineering. Here’s what makes WD Agency the preferred partner for businesses in Abu Dhabi:"}
@@ -154,7 +157,7 @@ const page = () => {
                 footertext={'We have worked with top-level businesses in Abu Dhabi across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
 
             />
-
+            <CommonIndustries />
 
             <CommonFaqSection
                 faqs={[
@@ -167,32 +170,32 @@ const page = () => {
                         a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
                     },
                     {
-                        q:"How Do You Measure Success?",
-                        a:"We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
+                        q: "How Do You Measure Success?",
+                        a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
                     },
                     {
-                        q:"Will My Website Be Secure?",
-                        a:"Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q: "Will My Website Be Secure?",
+                        a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
                     },
                     {
-                        q:"Can You Move Our Current Website To a New Platform?",
-                        a:"Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
+                        q: "Can You Move Our Current Website To a New Platform?",
+                        a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
                     },
                     {
-                        q:"Are Your Websites SEO-Friendly?",
-                        a:"Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
+                        q: "Are Your Websites SEO-Friendly?",
+                        a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
                     },
                     {
-                        q:"Do You Provide Post-launch Support?",
-                        a:"Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
+                        q: "Do You Provide Post-launch Support?",
+                        a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
                     },
                     {
-                        q:"Which We Development Platforms Do You Recommend?",
-                        a:"The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
+                        q: "Which We Development Platforms Do You Recommend?",
+                        a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
                     },
                     {
-                        q:"How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-                        a:"We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
+                        q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
+                        a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
                     }
                 ]}
             />
