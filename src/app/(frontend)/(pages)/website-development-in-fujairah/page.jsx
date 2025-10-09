@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../component/pages/home/Banner'
 import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
-import aboutimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah.jpg'
-import setusimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah-bg.webp'
-import sharjahAboutimg from '@/app/(frontend)/assets/images/website-development/sharjah-about.webp'
+import aboutimagesharjhat from '@/app/(frontend)/assets/images/ajman/about.webp'
+import setusimagesharjhat from '@/app/(frontend)/assets/images/ajman/setusbg.webp'
+import sharjahAboutimg from '@/app/(frontend)/assets/images/ajman/about-2.webp'
 import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
 import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
@@ -17,7 +17,7 @@ import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-d
 import CommonApproch from '../../component/pages/common/CommonApproch'
 
 
-import approchbannerimage from '@/app/(frontend)/assets/images/website-development/our-approch.webp'
+import approchbannerimage from '@/app/(frontend)/assets/images/ajman/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
@@ -30,179 +30,179 @@ import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobi
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
-
+import DevelopmentProcess from '@/app/(frontend)/assets/images/ajman/DevelopmentProcess.webp'
 
 
 const page = () => {
     return (
-        <>
-            <Banner
-                text1={"Website Development in Ras Al Khaimah"}
-                text2={"Custom-Built Websites for RAK Businesses – Designed to Impress, Engineered to Perform"}
-                text3={"WD Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."}
-            />
-            <CommonAboutPage
-                text1={"Best Website Design Agency Sharjah - WD Agency"}
-                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At WD Agency, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
-                text3={"As a prominent player in web design in Sharjah, we serve clients across all locations, starting from Al Majaz, AI Nahda, Muwailih, and the Sharjah Industrial Area. We create some of the most refined websites that exactly reflect your brand identity from top to bottom."}
-                img={aboutimagesharjhat}
-            />
-            <CommonSetsUs
-                text1={'Redefining Digital Experiences for a Decade'}
-                text2={'Your search for a professional website development company in Sharjah ends with WD Agency. We bring in a decade of experience, web design and development expertise, and our vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology stack, and operability- keeping your branding aligned. We ensure your website depicts professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
-                bg={setusimagesharjhat}
-            />
-            <CommonAboutPage2
-                text1="Why Website Development Matters in Ras Al Khaimah"
-                text2={`
-                            <p class="mb-20">
-                            Ras Al Khaimah is among the UAE's fastest-growing business destinations. Its prosperous industries, tourism, manufacturing, real estate, and trade have many businesses competing for your potential customers' attention. In today's world of commerce, potential customers are online, engaging and comparing services for providers in seconds. This is why you need to gather your thoughts regarding a professional website that is responsive and SEO friendly. It is a necessity, not an option.
-                            </p>
-                            <ul class="ml-40">
-                            <li>Ultimately, a well-constructed website in Ras Al Khaimah and across the UAE will help you to:</li>
-                            <li>Instill trust and confidence among potential clients.</li>
-                            <li>Display your products or services in an efficient and stimulating manner. </li>
-                            <li>Generate engaged and qualified leads with compelling design and content.</li>
-                            <li>Outpace your competitors in a growing digital landscape</li>
-                            </ul>
-                            <p>
-                            At Website Development Agency, our web design services are developed with attention to performance metrics while creating a visually appealing website that drives conversion and subsequent growth.
-                            </p>
-                    `}
-                img={sharjahAboutimg}
-            />
-            <CommonProtfolio/>
-            <CommonThreeCard
-                text1={'Why Choose WD Agency as Your Web Design<br/> Company in Sharjah'}
-                text2={"Among many other web design companies in Sharjah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We are not just a website design company, we are the transformation partner for businesses supporting their digital expansion."}
-                boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Strategic Problem Solving', desc: 'We are experts in creating visually stunning, functional, and conversion-focused websites tailored to your branding. Every design we create is to deliver a perfect blend of creativity and performance.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Focused Approach', desc: 'As the best web design experts, we focus on building a clear strategy, addressing unique needs, and delivering exceptional websites that resonate with your branding.  ' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We build long-term relationships with clients with a commitment to deliver excellence. We work as a partner for businesses rather than an agency and work hand-in-hand to ensure growth & success. ' },
-                    { id: 4, img: Transparencyimage, title: 'Transparency', desc: 'We maintain complete openness at every stage of a project, starting from pricing to the timeline of a website project. We keep you in the loop from design to deployment, no hidden charges, no hidden surprises.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Technology Adoption', desc: 'We leverage all the latest tools, technologies, and frameworks to deliver future-ready websites. Our web solutions are designed to keep your business ahead of the digital curve with the latest available technology. ' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. WD Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
-                ]}
-            />
-            <CommonApproch
-                text1={"Our Approach to Web Design in Sharjah"}
-                text2={` <p  class='mb-20'>We emphasize designing websites that are visually impressive, functional, and deliver the best user experience. A Good website adds credibility to your brand, improves customer trust, and acts as a premier sales channel for around the clock. We blend the most advanced technology with an SEO-based structure for a better browsing experience for every visitor. </p>
-                     <p>We put our utmost attention to detail, starting from color palettes, images, layouts, and responsive design. We believe responsive web design stands firmly with your brand and business objectives. Whether designing websites for an e-commerce business, service provider, or healthcare business, we keep in mind your audience and business goals and audience network. Our designs are attractive and SEO optimized, which will surely help you leverage a better Google ranking, better visibility, and traffic.  </p>`}
-                bannerimage={approchbannerimage}
-            />
-            <CommonServices
-                theding={'Best Web Design Services in Sharjah - WD Agency'}
-                tdesc={` <p>The business landscape of Sharjah is growing digital, and it has become mandatory for brands to make a perpetual impact. As more customers search, browse, and shop online, your website becomes the point of contact and brings the most valuable leads and conversions.   </p>
-                <p class='my-20'>As the pioneer web design agency in Sharjah, we deliver high-performance websites utilizing the latest technology upgrades. Every website we create comes with the most important core elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>
-                `}
-                bheding={'Key features of our web design services in Sharjah include:'}
-                bdesc={`<ul class='ml-50'>
-                <li>Custom website designs tailored to your industry and business-specific objectives.</li>
-                <li>Responsive web design and layout optimized for all screen sizes (Mobile, Desktop, Tablet)</li>
-                <li>Easy navigation and strategic Call-to-Action placements</li>
-                <li>State-of-the-art visuals with strong and consistent branding</li>
-                <li>Secure coding practices adhering to industry-standard security protocols</li>
-            </ul>
+    <>
+    <Banner
+        text1={"Elevate your online presence with"}
+        text2={"Website Development Company in Fujairah"}
+        text3={"We are Website Development Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
+    />
+    <CommonAboutPage
+        text1={"Website Development in Fujairah – Build Your Digital Identity with Confidence"}
+        text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At Website Development Agency, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
+        text3={"We create and develop websites tailored for businesses in Fujairah, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Fujairah’s digital development objectives."}
+        img={aboutimagesharjhat}
+    />
+    <CommonSetsUs
+        text1={'Elevating Digital Experiences in Fujairah'}
+        text2={'Searching for a reliable website development company in Fujairah? Website Development Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Fujairah establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
+        bg={setusimagesharjhat}
+    />
+    {/* rest */}
+    <CommonAboutPage2
+        text1="Why Your Business in Fujairah Needs a Professional Website"
+        text2={`
+                    <p class="mb-20">
+                   Fujairah is a developing hub of industries such as logistics, trade, tourism, and real estate. In a competitive landscape, your website is more than just a digital brochure; it is your always-on 24/7 representative. Here is why:
+                    </p>
+                    <ul class="ml-40">
+                    <li>Build trust and credibility with potential clients.</li>
+                    <li>Increase online presence and visibility on search engines.</li>
+                    <li>Attract customers from local, national, and international locations.</li>
+                    <li>Automate your business operations, including bookings, inquiries, and e-commerce.</li>
+                    <li>Stay ahead of your competitors in a rapidly changing digital world.</li>
+                    </ul>
+                    <p>
+                    When you partner with Website Development Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                    </p>
             `}
-            />
-            <CommonResult 
-            heding={"Best Web Design Services that Drive Measurable Results"}
-            desc={"Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."}
-            subheding={"Our Core Strengths"}
-            resultdata={[
-                {
-                    id: 1,
-                    img: customdesign,
-                    title: "Custom Design",
-                    desc: "Fully responsive for smartphones, tablets, and desktops.",
-                    link: "#"
-                },
-                {
-                    id: 2,
-                    img: SEOCentric,
-                    title: "SEO-Centric",
-                    desc: "Organized with on-page SEO basics in mind.",
-                    link: "#"
-                },
-                {
-                    id: 3,
-                    img: MobileFirst,
-                    title: "Mobile-First Approach",
-                    desc: "Fully responsive for smartphones, tablets, and desktops.",
-                    link: "#"
-                },
-                {
-                    id: 4,
-                    img: Optimized,
-                    title: "Optimized for Performance",
-                    desc: "Fast, safe, and leveraged for conversions.",
-                    link: "#"
-                },
-            ]}
-            footertext={'We have worked with top-level businesses in Sharjah and USE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
-
-            />
-
-            <CommonIndustries/>
-            <CommonFaqSection
-                faqs={[
-                    {
-                        q: "Why Should I Choose WD Agency for Website Design in Sharjah?",
-                        a: "WD Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Dubai, Sharjah, and the UAE."
-                    },
-                    {
-                        q: "What Industries Do You Design Websites for in Sharjah?",
-                        a: "Since 2014 have worked with a diverse range of industries. We provide web design and development services for retail, healthcare, education, real estate, hospitality, e-commerce, professional services, and more."
-                    },
-                    {
-                        q: "Do You Provide Custom Website Designs or Use Templates?",
-                        a: "Our focus is on custom website designs that reflect your unique brand identity, but we also offer template-based solutions for businesses seeking faster turnaround and budget-friendly options."
-                    },
-                    {
-                        q: "Do You Provide Custom Website Designs or Use Templates?",
-                        a: "Our focus is on custom website designs that reflect your unique brand identity, but we also offer template-based solutions for businesses seeking faster turnaround and budget-friendly options."
-                    },
-                    {
-                        q: "How Much Does Website Design in Sharjah Cost?",
-                        a: "The cost depends on the type of website, design complexity, features required, and timeline. WD Agency provides flexible packages that fit different business needs and budgets. Typically, website design in Sharjah starts from AED 5,000, with prices varying based on customization and functionality."
-                    },
-                    {
-                        q: "How Long Does It Take to Design a Website?",
-                        a: "Typically, a basic business website takes 3-4 weeks, while feature-rich or e-commerce websites may take 6-10 weeks, depending on complexity."
-                    },
-                    {
-                        q: "Will My Website be Optimized for Speed and Performance?",
-                        a: "Yes, we follow best practices to ensure your website loads quickly, offers smooth navigation, and provides an excellent user experience."
-                    },
-                    {
-                        q: "Will My Website Be Mobile-friendly?",
-                        a: "Yes, every website we design is fully responsive, ensuring seamless performance across desktops, tablets, and smartphones."
-                    },
-                    {
-                        q: "Can You Design an E-commerce Website for My Business?",
-                        a: "Yes, we create secure, scalable, and easy-to-manage eCommerce websites with product catalogs, shopping carts, and integrated payment gateways."
-                    },
-                    {
-                        q: "Do You Provide Website Redesign Services?",
-                        a: "Yes, if you already have a website that looks outdated or is not performing well, we can redesign it with modern layouts, improved user experience, and better functionality."
-                    },
-                    {
-                        q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
-                    },
-                    {
-                        q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
-                    },
-                    {
-                        q: "How Can I Get Started with WD Agency for Website Design in Sharjah?",
-                        a: "Simply reach out to us through our contact form or give us a call. Our team will discuss your requirements and create a tailored proposal for your website design project."
-                    }
-                ]}
-            />
+        img={sharjahAboutimg}
+    />
+    <CommonProtfolio/>
+    <CommonThreeCard
+        text1={'Why choose Website Development Agency- Local Expertise, Global Engineering'}
+        text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Fujairah:"}
+        boxdata={[
+            { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAE’s cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
+            { id: 2, img: FocusedApproachimage, title: 'End-to-end Services', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
+            { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready Engineering', desc: 'We develop adaptable architectures, utilize headless CMS solutions, and implement progressive web app technologies to ensure your website remains scalable for the future.' },
+            { id: 4, img: Transparencyimage, title: 'Conversion-first Approach', desc: 'We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
+            { id: 5, img: TechnologyAdoptionimage, title: '24/7 Support & Maintenance', desc: 'SLA-based monitoring, security patching, and performance tuning so your site is available 24*7.' },
+            { id: 6, img: ValueforMoneyServicesimage, title: 'Diverse Experience', desc: 'We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
+        ]}
+    />
 
 
-        </>
+
+
+    <CommonApproch
+        text1={"Web Development Company in Fujairah- Where Creativity Meets Technology"}
+        text2={` <p>Our suite of web development services is tailored to meet the diverse needs of businesses in Fujairah. We deliver custom website solutions designed to enhance online presence, improve user experience, and drive measurable results.</p>
+            <ul class="my-20">
+            <li>Attractive with highly engaging layouts, modern color schemes, and consistent branding.</li>
+            <li>User-friendly design, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
+            <li>Mobile-first, with designs being fully responsive and optimized for smartphones and tablets.</li>
+            <li>SEO-optimized, with a structure that ensures higher ranking and increased visibility on search engines.</li>
+          </ul>
+          <p>Whether launching your first digital presence as a startup or redesigning your website, we make sure your website represents you well and supports your growth ambitions.</p>
+
+            `}
+        bannerimage={approchbannerimage}
+    />
+    <CommonServices
+        theding={'Website Design in Fujairah- More Than Just Aesthetics'}
+        tdesc={` <p>An effective website is not just visually appealing; it also functions perfectly to turn visitors into paying customers. With our website design services in Fujairah, we place an emphasis not just on appearance, but on function by providing a beautiful, user-friendly, and business-focused website.</p>
+            <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
+        `}
+        bheding={'We prioritize our website design and development work with:'}
+        bdesc={`<ul class='ml-50'>
+        <li>Mobile First Design - Optimized on every screen size from smartphones to desktop computers.</li>
+        <li>SEO-Integrated Design Structures - Built with the roadmap for ranking higher on Google.</li>
+        <li>Fast Loading Speeds - Optimized for fast performance and a low bounce rate.</li>
+        <li>Engaging UI/UX - Seamless navigation and an intuitive interface for users.</li>
+        <li>Conversion-Focused – Pages designed with CTAs that guide users toward action.</li>
+        
+    </ul>
+    <p class='mt-20'>Your website becomes your digital storefront, and we make sure it keeps customers engaged from the initial click to the ultimate conversion.</p>
+    `}
+        bbg={DevelopmentProcess}
+        />
+    <CommonResult
+        heding={"Best Website Development Services that Drive Measurable Results"}
+        desc={"Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web development agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."}
+        subheding={"Our Core Strengths"}
+        resultdata={[
+            {
+                id: 1,
+                img: customdesign,
+                title: "Custom Design",
+                desc: "Fully responsive for smartphones, tablets, and desktops.",
+                link: "#"
+            },
+            {
+                id: 2,
+                img: SEOCentric,
+                title: "SEO-Centric",
+                desc: "Organized with on-page SEO basics in mind.",
+                link: "#"
+            },
+            {
+                id: 3,
+                img: MobileFirst,
+                title: "Mobile-First Approach",
+                desc: "Fully responsive for smartphones, tablets, and desktops.",
+                link: "#"
+            },
+            {
+                id: 4,
+                img: Optimized,
+                title: "Optimized for Performance",
+                desc: "Fast, safe, and leveraged for conversions.",
+                link: "#"
+            },
+        ]}
+        footertext={'We have worked with top-level businesses in Fujairah and UAE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
+
+    />
+
+        <CommonIndustries/>
+    <CommonFaqSection
+        faqs={[
+            {
+                q: "What Types of Websites Do You Develop for Fujairah Businesses?",
+                a: "We create a wide range of websites, including corporate sites, eCommerce stores, portfolio sites, blogs, and custom web applications, all designed to meet the unique needs of Fujairah businesses."
+            },
+            {
+                q: "How Much Does Website Development in Fujairah Cost?",
+                a: "The cost depends on the type of website, complexity, features, and timeline. Our packages start from AED 5,000 and can be customized to suit different budgets and business requirements."
+            },
+            {
+                q: "Do You Provide Multilingual Websites in Fujairah?",
+                a: "Yes, we design websites that support both Arabic and English, ensuring a seamless experience for your local and international audience."
+            },
+            {
+                q: "Do You Offer Post-launch Support?",
+                a: "Yes, we provide free maintenance for the first three months and offer ongoing support plans, including uptime monitoring, security alerts, backups, and instant assistance for any issues."
+            },
+            {
+                q: "Which Web Development Platforms Do you Recommend?",
+                a: "We recommend WordPress for content-rich websites, Shopify, Magento, or WooCommerce for eCommerce, and headless CMS with React or Vue for high-performance websites with complex integrations."
+            },
+            {
+                q: "How Do You Handle Integrations with CRM, ERP, or Payment Gateways?",
+                a: "We implement secure API integrations and middleware where necessary, ensuring automated data flows that synchronize leads, orders, and records with your internal systems."
+            },
+            {
+                q: "How Long Does It Take to Develop a Website in Fujairah?",
+                a: "Project timelines vary based on complexity, features, and revisions. On average, a standard website can be completed in 4–8 weeks, while more complex solutions may take longer."
+            },
+            {
+                q: "Do you Follow Security Best Practices in Web Development?",
+                a: "Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
+            },
+            {
+                q: "Why Choose Website Development Agency for Web Development in Fujairah?",
+                a: "We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
+            }
+        ]}
+    />
+
+
+</>
     )
 }
 
