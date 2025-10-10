@@ -37,71 +37,71 @@ const page = () => {
     return (
         <>
             <Banner
-                text1={"Designed to impress, engineered to perform"}
-                text2={"Best Website Development Agency in Ras Al Khaimah"}
-                text3={"WD Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."}
+                text1={"designed to impress, engineered to perform"}
+                text2={"Best Web Development Agency in Ras Al Khaimah"}
+                text3={"At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether designing for a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
             />
             <CommonAboutPage
-                text1={"Best Website Design Agency Sharjah - WD Agency"}
-                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At WD Agency, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
-                text3={"As a prominent player in web design in Sharjah, we serve clients across all locations, starting from Al Majaz, AI Nahda, Muwailih, and the Sharjah Industrial Area. We create some of the most refined websites that exactly reflect your brand identity from top to bottom."}
+                text1={"Web Design in Ras Al Khaimah- Engineered to Impress & Perform"}
+                text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
+                text3={"Our team combines creativity, technical expertise, and market insight to craft websites that not only look stunning but also perform seamlessly across all devices. We focus on building user-friendly interfaces, optimized loading speeds, and conversion-driven layouts that reflect your brand’s values."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
-                text1={'Redefining Digital Experiences for a Decade'}
-                text2={'Your search for a professional website development company in Sharjah ends with WD Agency. We bring in a decade of experience, web design and development expertise, and our vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology stack, and operability- keeping your branding aligned. We ensure your website depicts professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+                text1={'Building Digital Future of Ras Al Khaimah'}
+                text2={'Your search for a trusted website development company in Ras Al Khaimah ends with WD Agency. With over a decade of proven experience, we specialize in crafting websites that balance creativity, technology, and business purpose to help RAK-based brands grow online.<br><br>At WD Agency, we focus on creating websites that reflect your brand’s personality while ensuring smooth functionality and measurable performance. Our approach combines modern design principles, powerful development frameworks, and an understanding of Ras Al Khaimah’s evolving business landscape.'}
                 bg={setusimagesharjhat}
             />
             <CommonAboutPage2
-                text1="Why Website Development Matters in Ras Al Khaimah"
+                text1="Why A Professional Website Matters in Ras Al Khaimah"
                 text2={`
                             <p class="mb-20">
-                            Ras Al Khaimah is among the UAE's fastest-growing business destinations. Its prosperous industries, tourism, manufacturing, real estate, and trade have many businesses competing for your potential customers' attention. In today's world of commerce, potential customers are online, engaging and comparing services for providers in seconds. This is why you need to gather your thoughts regarding a professional website that is responsive and SEO friendly. It is a necessity, not an option.
+                            Ras Al Khaimah is among the UAE's fastest-growing business destinations. In today's world of commerce, potential customers are online, engaging and comparing services for providers in seconds. This is why you need to gather your thoughts regarding a professional website that is responsive and SEO friendly. 
                             </p>
                             <ul class="ml-40">
-                            <li>Ultimately, a well-constructed website in Ras Al Khaimah and across the UAE will help you to:</li>
+                            <li>Ultimately, a well-constructed website will help you to:</li>
                             <li>Instill trust and confidence among potential clients.</li>
                             <li>Display your products or services in an efficient and stimulating manner. </li>
                             <li>Generate engaged and qualified leads with compelling design and content.</li>
                             <li>Outpace your competitors in a growing digital landscape</li>
                             </ul>
                             <p>
-                            At Website Development Agency, our web design services are developed with attention to performance metrics while creating a visually appealing website that drives conversion and subsequent growth.
+                            At WD Agency, our web design services are developed with attention to performance metrics while creating a visually appealing website that drives conversion and growth.
                             </p>
                     `}
                 img={sharjahAboutimg}
             />
             <CommonProtfolio/>
             <CommonThreeCard
-                text1={'Why Choose WD Agency as Your Web Design<br/> Company in Sharjah'}
-                text2={"Among many other web design companies in Sharjah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We are not just a website design company, we are the transformation partner for businesses supporting their digital expansion."}
+                text1={'Why Choose WD Agency for Website <br/>Design Services'}
+                text2={"Among many other web design companies in Ras Al Khaimah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We’re more than just a website design company- we’re a digital transformation partner dedicated to helping businesses expand and thrive online."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Strategic Problem Solving', desc: 'We are experts in creating visually stunning, functional, and conversion-focused websites tailored to your branding. Every design we create is to deliver a perfect blend of creativity and performance.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Focused Approach', desc: 'As the best web design experts, we focus on building a clear strategy, addressing unique needs, and delivering exceptional websites that resonate with your branding.  ' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We build long-term relationships with clients with a commitment to deliver excellence. We work as a partner for businesses rather than an agency and work hand-in-hand to ensure growth & success. ' },
-                    { id: 4, img: Transparencyimage, title: 'Transparency', desc: 'We maintain complete openness at every stage of a project, starting from pricing to the timeline of a website project. We keep you in the loop from design to deployment, no hidden charges, no hidden surprises.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Technology Adoption', desc: 'We leverage all the latest tools, technologies, and frameworks to deliver future-ready websites. Our web solutions are designed to keep your business ahead of the digital curve with the latest available technology. ' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Proven Experience', desc: 'We have years of documented successful projects with numerous industries. Our extensive portfolio demonstrates our ability to adapt to different business needs and deliver impactful digital solutions.' },
+                    { id: 2, img: FocusedApproachimage, title: 'End-to-End Solutions', desc: 'We offer comprehensive services covering every stage of your website’s lifecycle, including design, development, SEO, and maintenance. From concept to launch, we ensure your website remains fully optimized and secure.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We foster long-term partnerships with our clients, driven by a commitment to excellence. Rather than just acting as a service provider, we collaborate closely with businesses, working hand-in-hand to support their growth.' },
+                    { id: 4, img: Transparencyimage, title: 'Full Transparency', desc: 'We ensure full transparency throughout every phase of your website project- from pricing to timelines. You’ll be informed at every step, from design to deployment, with no hidden costs or unexpected surprises.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'Scalable Technology', desc: 'We utilize the latest tools, technologies, and frameworks to create websites that are ready for the future. Our web solutions are crafted to keep your business at the forefront of the digital landscape.' },
                     { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. WD Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
                 ]}
             />
             <CommonApproch
-                text1={"Our Approach to Web Design in Sharjah"}
-                text2={` <p  class='mb-20'>We emphasize designing websites that are visually impressive, functional, and deliver the best user experience. A Good website adds credibility to your brand, improves customer trust, and acts as a premier sales channel for around the clock. We blend the most advanced technology with an SEO-based structure for a better browsing experience for every visitor. </p>
-                     <p>We put our utmost attention to detail, starting from color palettes, images, layouts, and responsive design. We believe responsive web design stands firmly with your brand and business objectives. Whether designing websites for an e-commerce business, service provider, or healthcare business, we keep in mind your audience and business goals and audience network. Our designs are attractive and SEO optimized, which will surely help you leverage a better Google ranking, better visibility, and traffic.  </p>`}
+                text1={"Web Design Agency Ras Al Khaimah- Your Partner in Growth"}
+                text2={` <p  class='mb-20'>Your website is the cornerstone of your online success. At WD Agency, we combine creativity, technology, and strategy to create a website that is not only unique but also scalable to grow alongside your business. We focus on delivering user-friendly interfaces, fast-loading pages, and seamless navigation to ensure an engaging digital experience for every visitor.</p>
+                     <p>From start-ups to established businesses, we are honored to help companies in Ras Al Khaimah embrace the digital future with confidence. Our goal is to ensure every website we build drives engagement, builds trust, and delivers measurable results. With a focus on responsive design, SEO optimization, and secure coding practices, we ensure your website not only looks professional but also performs flawlessly across devices.</p>`}
                 bannerimage={approchbannerimage}
             />
             <CommonServices
-                theding={'Best Web Design Services in Sharjah - WD Agency'}
-                tdesc={` <p>The business landscape of Sharjah is growing digital, and it has become mandatory for brands to make a perpetual impact. As more customers search, browse, and shop online, your website becomes the point of contact and brings the most valuable leads and conversions.   </p>
-                <p class='my-20'>As the pioneer web design agency in Sharjah, we deliver high-performance websites utilizing the latest technology upgrades. Every website we create comes with the most important core elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>
+                theding={'The Website Design & Development Process We Follow'}
+                tdesc={` <p>Our website development process begins with understanding your business, target audience, and goals. We conduct thorough research and analysis to define the project scope, create detailed wireframes, and plan the website’s structure. This ensures that every element, from navigation to content placement, is aligned with your objectives and provides a seamless experience.</p>
+                <p class='my-20'>Once the blueprint is ready, our design and development teams collaborate to bring the website to life. We focus on responsive design, intuitive interfaces, and optimized performance. After development, we conduct extensive testing for functionality, speed, and security before launching the site.</p>
                 `}
-                bheding={'Key features of our web design services in Sharjah include:'}
+                bheding={'Our detailed website development process include:'}
                 bdesc={`<ul class='ml-50'>
-                <li>Custom website designs tailored to your industry and business-specific objectives.</li>
-                <li>Responsive web design and layout optimized for all screen sizes (Mobile, Desktop, Tablet)</li>
-                <li>Easy navigation and strategic Call-to-Action placements</li>
-                <li>State-of-the-art visuals with strong and consistent branding</li>
-                <li>Secure coding practices adhering to industry-standard security protocols</li>
+                <li>Discovery & Research- Being acknowledged with your business, your competitors, and your goals.</li>
+                <li>Wireframing & Design- Outlining designs that weigh beauty with usability. </li>
+                <li>Development & Coding- Building working, responsive, and safe sites utilizing the latest technologies.</li>
+                <li>Testing & QA- Examining for speed, functions, and responsiveness throughout several devices.</li>
+                <li>Launch & Optimization- Introducing your website and leveraging it for search.</li>
             </ul>
             `}
             />
@@ -147,56 +147,44 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Choose WD Agency for Website Design in Sharjah?",
-                        a: "WD Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Dubai, Sharjah, and the UAE."
+                        q: "What Types of Websites Do You Develop for Businesses in Ras Al Khaimah?",
+                        a: "We develop a wide range of websites including corporate, eCommerce, portfolio, and service-based sites. Each project is customized to meet the specific needs and goals of businesses in Ras Al Khaimah."
                     },
                     {
-                        q: "What Industries Do You Design Websites for in Sharjah?",
-                        a: "Since 2014 have worked with a diverse range of industries. We provide web design and development services for retail, healthcare, education, real estate, hospitality, e-commerce, professional services, and more."
+                        q: "How Much Does Website Development in Ras Al Khaimah Cost?",
+                        a: "The cost depends on the website type, design complexity, features, and timeline. Typically, our web development packages start from AED 5,000, with flexible options to suit different business sizes and requirements."
                     },
                     {
-                        q: "Do You Provide Custom Website Designs or Use Templates?",
-                        a: "Our focus is on custom website designs that reflect your unique brand identity, but we also offer template-based solutions for businesses seeking faster turnaround and budget-friendly options."
+                        q: "How Long Does It Take to Build a Website in Ras Al Khaimah?",
+                        a: "A standard business website usually takes 4–6 weeks to complete, while advanced or custom projects with integrations may take longer depending on scope and feedback cycles."
                     },
                     {
-                        q: "Do You Provide Custom Website Designs or Use Templates?",
-                        a: "Our focus is on custom website designs that reflect your unique brand identity, but we also offer template-based solutions for businesses seeking faster turnaround and budget-friendly options."
+                        q: "Do You Design Websites in Both Arabic and English?",
+                        a: "Yes, we specialize in bilingual websites (Arabic and English) to help your brand connect effectively with local and international audiences in Ras Al Khaimah."
                     },
                     {
-                        q: "How Much Does Website Design in Sharjah Cost?",
-                        a: "The cost depends on the type of website, design complexity, features required, and timeline. WD Agency provides flexible packages that fit different business needs and budgets. Typically, website design in Sharjah starts from AED 5,000, with prices varying based on customization and functionality."
+                        q: "Can You Help Us Redesign Our Existing Website?",
+                        a: "Absolutely. We can revamp your existing website with a modern design, improved performance, and enhanced user experience while preserving your SEO and existing content."
                     },
                     {
-                        q: "How Long Does It Take to Design a Website?",
-                        a: "Typically, a basic business website takes 3-4 weeks, while feature-rich or e-commerce websites may take 6-10 weeks, depending on complexity."
+                        q: "Do You Offer SEO Services for Ras Al Khaimah Websites?",
+                        a: "Yes, we integrate SEO best practices into every website we build. We also provide dedicated SEO services to help your site rank higher and attract qualified traffic in Ras Al Khaimah."
                     },
                     {
-                        q: "Will My Website be Optimized for Speed and Performance?",
-                        a: "Yes, we follow best practices to ensure your website loads quickly, offers smooth navigation, and provides an excellent user experience."
+                        q: "How Do You Ensure Website Security and Performance?",
+                        a: "We follow secure coding practices, implement SSL certificates, conduct performance optimization, and run security audits to ensure your website is safe, fast, and reliable."
                     },
                     {
-                        q: "Will My Website Be Mobile-friendly?",
-                        a: "Yes, every website we design is fully responsive, ensuring seamless performance across desktops, tablets, and smartphones."
+                        q: "Do You Provide Post-launch Maintenance and Support?",
+                        a: "Yes, we offer 3 months of free maintenance after launch and ongoing support plans covering updates, security checks, backups, and performance monitoring."
                     },
                     {
-                        q: "Can You Design an E-commerce Website for My Business?",
-                        a: "Yes, we create secure, scalable, and easy-to-manage eCommerce websites with product catalogs, shopping carts, and integrated payment gateways."
+                        q: "Which Technologies and Platforms Do You Use for Web Development?",
+                        a: "We work with leading technologies such as WordPress, Shopify, Magento, React, and custom CMS solutions, depending on the project requirements and scalability goals."
                     },
                     {
-                        q: "Do You Provide Website Redesign Services?",
-                        a: "Yes, if you already have a website that looks outdated or is not performing well, we can redesign it with modern layouts, improved user experience, and better functionality."
-                    },
-                    {
-                        q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
-                    },
-                    {
-                        q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
-                    },
-                    {
-                        q: "How Can I Get Started with WD Agency for Website Design in Sharjah?",
-                        a: "Simply reach out to us through our contact form or give us a call. Our team will discuss your requirements and create a tailored proposal for your website design project."
+                        q: "Why Should Businesses in Ras Al Khaimah Choose WD Agency?",
+                        a: "WD Agency combines local market understanding, creative design, and technical expertise to deliver high-performing websites. Our team ensures every project reflects your brand identity, drives engagement, and supports long-term business growth."
                     }
                 ]}
             />

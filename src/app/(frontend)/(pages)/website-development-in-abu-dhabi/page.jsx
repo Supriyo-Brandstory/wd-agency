@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../component/pages/home/Banner'
 import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
-import aboutimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah.jpg'
-import setusimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah-bg.webp'
-import sharjahAboutimg from '@/app/(frontend)/assets/images/website-development/sharjah-about.webp'
+import aboutimagesabudhabi from '@/app/(frontend)/assets/images/abu-dhabi/about.webp'
+import setusimagesabudhabi from '@/app/(frontend)/assets/images/abu-dhabi/setusbg.webp'
+import abudhabiAboutimg from '@/app/(frontend)/assets/images/abu-dhabi/about-2.webp'
 import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
 import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
@@ -17,7 +17,7 @@ import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-d
 import CommonApproch from '../../component/pages/common/CommonApproch'
 
 
-import approchbannerimage from '@/app/(frontend)/assets/images/website-development/our-approch.webp'
+import approchbannerimage from '@/app/(frontend)/assets/images/abu-dhabi/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
@@ -30,6 +30,8 @@ import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobi
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
+
+import DevelopmentProcess from '@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp'
 
 
 
@@ -45,12 +47,12 @@ const page = () => {
                 text1={"Web Design Agency in Abu Dhabi"}
                 text2={" In Abu Dhabi’s competitive, high-expectation marketplace, a website is far more than a place on the web- it’s your brand’s front door, your lead generator, and often the very first impression customers have of your business. Whether you’re a startup, a multinational, a hospitality brand, or a government service, your site must be beautiful, fast, accessible, and secure."}
                 text3={"At Website Development Agency (WD Agency), we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s Vision of 2030 digital goals."}
-                img={aboutimagesharjhat}
+                img={aboutimagesabudhabi}
             />
             <CommonSetsUs
                 text1={'Transforming Digital Presence in Abu Dhabi'}
                 text2={'Looking for a website development company in Abu Dhabi that truly understands your business needs? WD Agency brings over a decade of experience in designing and developing websites that not only look stunning but also perform seamlessly. <br><br>We specialize in crafting intuitive websites that combine innovative design, advanced technology, and smooth functionality. Every website we build is crafted to strengthen your brand, engage your audience, and convert visitors into loyal customers- helping your business thrive in Abu Dhabi’s competitive digital landscape.'}
-                bg={setusimagesharjhat}
+                bg={setusimagesabudhabi}
             />
             {/* rest */}
             <CommonAboutPage2
@@ -70,7 +72,7 @@ const page = () => {
                             If you want to attract higher-value clients, reduce friction in service delivery, or grow online revenue, your website is the single most powerful lever.
                             </p>
                     `}
-                img={sharjahAboutimg}
+                img={abudhabiAboutimg}
             />
             <CommonProtfolio/>
             <CommonThreeCard
@@ -119,6 +121,7 @@ const page = () => {
             </ul>
             <p class='mt-20'>We provide project deadlines, milestones, utilize tools (project boards, regular demos) so you always know the progress.</p>
             `}
+            bbg={DevelopmentProcess}
             />
             <CommonResult
                 heding={"Best Web Design Services that Drive Measurable Results"}

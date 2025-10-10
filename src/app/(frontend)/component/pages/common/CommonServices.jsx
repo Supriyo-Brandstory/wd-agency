@@ -7,8 +7,9 @@ const CommonServices = ({
     tdesc,
     bheding,
     bdesc,
+    bbg=shaejahservicebg
 }) => {
-    const bgurl = typeof shaejahservicebg === "string" ? shaejahservicebg : shaejahservicebg?.src;
+    const bgurl = typeof bbg === "string" ? bbg : bbg?.src;
   return (
     <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
         <div className={styles.topSection}>
