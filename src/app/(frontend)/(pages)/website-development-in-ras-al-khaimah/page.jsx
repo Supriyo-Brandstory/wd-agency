@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../component/pages/home/Banner'
 import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
-import aboutimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah.jpg'
-import setusimagesharjhat from '@/app/(frontend)/assets/images/website-development/sharjah-bg.webp'
-import sharjahAboutimg from '@/app/(frontend)/assets/images/website-development/sharjah-about.webp'
+import aboutimagesharjhat from '@/app/(frontend)/assets/images/ai-khaimah/about.webp'
+import setusimagesharjhat from '@/app/(frontend)/assets/images/ai-khaimah/setusbg.webp'
+import sharjahAboutimg from '@/app/(frontend)/assets/images/ai-khaimah/about-2.webp'
 import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
 import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
@@ -17,10 +17,11 @@ import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-d
 import CommonApproch from '../../component/pages/common/CommonApproch'
 
 
-import approchbannerimage from '@/app/(frontend)/assets/images/website-development/our-approch.webp'
+import approchbannerimage from '@/app/(frontend)/assets/images/ai-khaimah/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
+import developmentprocess from '@/app/(frontend)/assets/images/ai-khaimah/developmentprocess.webp'
 
 
 
@@ -104,6 +105,7 @@ const page = () => {
                 <li>Launch & Optimization- Introducing your website and leveraging it for search.</li>
             </ul>
             `}
+            bbg={developmentprocess}
             />
             <CommonResult 
             heding={"Best Web Design Services that Drive Measurable Results"}

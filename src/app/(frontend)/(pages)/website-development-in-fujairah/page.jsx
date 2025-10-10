@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../component/pages/home/Banner'
 import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
-import aboutimagesharjhat from '@/app/(frontend)/assets/images/ajman/about.webp'
-import setusimagesharjhat from '@/app/(frontend)/assets/images/ajman/setusbg.webp'
-import sharjahAboutimg from '@/app/(frontend)/assets/images/ajman/about-2.webp'
+import aboutimagesharjhat from '@/app/(frontend)/assets/images/fujairah/about.webp'
+import setusimagesharjhat from '@/app/(frontend)/assets/images/fujairah/setusbg.webp'
+import sharjahAboutimg from '@/app/(frontend)/assets/images/fujairah/about-2.webp'
 import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
 import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
@@ -17,10 +17,11 @@ import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-d
 import CommonApproch from '../../component/pages/common/CommonApproch'
 
 
-import approchbannerimage from '@/app/(frontend)/assets/images/ajman/our-approch.webp'
+import approchbannerimage from '@/app/(frontend)/assets/images/fujairah/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
+import developmentprocess from '@/app/(frontend)/assets/images/fujairah/developmentprocess.webp'
 
 
 
@@ -30,7 +31,6 @@ import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobi
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
-import DevelopmentProcess from '@/app/(frontend)/assets/images/ajman/DevelopmentProcess.webp'
 
 
 const page = () => {
@@ -119,7 +119,7 @@ const page = () => {
     </ul>
     <p class='mt-20'>Your website becomes your digital storefront, and we make sure it keeps customers engaged from the initial click to the ultimate conversion.</p>
     `}
-        bbg={DevelopmentProcess}
+        bbg={developmentprocess}
         />
     <CommonResult
         heding={"Best Website Development Services that Drive Measurable Results"}
