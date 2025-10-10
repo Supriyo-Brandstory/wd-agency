@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../component/pages/home/Banner'
 import CommonAboutPage from '../../component/pages/common/CommonAboutPage'
-import aboutimagealain from '@/app/(frontend)/assets/images/website-development/sharjah.jpg'
-import setusimagealain from '@/app/(frontend)/assets/images/website-development/sharjah-bg.webp'
-import alainAboutimg from '@/app/(frontend)/assets/images/website-development/sharjah-about.webp'
+import aboutimagealain from '@/app/(frontend)/assets/images/al-ain/about.webp'
+import setusimagealain from '@/app/(frontend)/assets/images/al-ain/setusbg.webp'
+import alainAboutimg from '@/app/(frontend)/assets/images/al-ain/about-2.webp'
 import CommonSetsUs from '../../component/pages/common/CommonSetsUs'
 import CommonAboutPage2 from '../../component/pages/common/CommonAboutPage2'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
@@ -17,10 +17,11 @@ import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-d
 import CommonApproch from '../../component/pages/common/CommonApproch'
 
 
-import approchbannerimage from '@/app/(frontend)/assets/images/website-development/our-approch.webp'
+import approchbannerimage from '@/app/(frontend)/assets/images/al-ain/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
+import developmentprocess from '@/app/(frontend)/assets/images/al-ain/developmentprocess.webp'
 
 
 
@@ -107,6 +108,7 @@ const page = () => {
             <li>Secure coding practices adhering to industry-standard protocols.</li>
             </ul>
         `}
+        bbg={developmentprocess}
     />
     <CommonResult 
         heding={"Best Web Development Services that Drive Measurable Results"}
