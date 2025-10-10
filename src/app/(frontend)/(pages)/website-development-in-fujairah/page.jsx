@@ -39,17 +39,17 @@ const page = () => {
     <Banner
         text1={"Elevate your online presence with"}
         text2={"Website Development Company in Fujairah"}
-        text3={"We are Website Development Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
+        text3={"We are WD Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
     />
     <CommonAboutPage
-        text1={"Website Development in Fujairah – Build Your Digital Identity with Confidence"}
-        text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At Website Development Agency, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
+        text1={"Website Design in Fujairah- Building Digital Confidence"}
+        text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
         text3={"We create and develop websites tailored for businesses in Fujairah, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Fujairah’s digital development objectives."}
         img={aboutimagesharjhat}
     />
     <CommonSetsUs
-        text1={'Elevating Digital Experiences in Fujairah'}
-        text2={'Searching for a reliable website development company in Fujairah? Website Development Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Fujairah establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
+        text1={'Elevating Digital Experiences'}
+        text2={'Searching for a reliable website development company in Fujairah? WD Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Fujairah establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
         bg={setusimagesharjhat}
     />
     {/* rest */}
@@ -67,14 +67,14 @@ const page = () => {
                     <li>Stay ahead of your competitors in a rapidly changing digital world.</li>
                     </ul>
                     <p>
-                    When you partner with Website Development Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                    When you partner with WD Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand. We are a full-stack web design and development agency driving digital success for brands.
                     </p>
             `}
         img={sharjahAboutimg}
     />
     <CommonProtfolio/>
     <CommonThreeCard
-        text1={'Why choose Website Development Agency- Local Expertise, Global Engineering'}
+        text1={'Why Choose WDA Agency- Local Expertise, Global Engineering'}
         text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Fujairah:"}
         boxdata={[
             { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAE’s cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
@@ -90,7 +90,7 @@ const page = () => {
 
 
     <CommonApproch
-        text1={"Web Development Company in Fujairah- Where Creativity Meets Technology"}
+        text1={"Web Development Company- Where Creativity Meets Technology"}
         text2={` <p>Our suite of web development services is tailored to meet the diverse needs of businesses in Fujairah. We deliver custom website solutions designed to enhance online presence, improve user experience, and drive measurable results.</p>
             <ul class="my-20">
             <li>Attractive with highly engaging layouts, modern color schemes, and consistent branding.</li>
@@ -163,40 +163,40 @@ const page = () => {
     <CommonFaqSection
         faqs={[
             {
-                q: "What Types of Websites Do You Develop for Fujairah Businesses?",
-                a: "We create a wide range of websites, including corporate sites, eCommerce stores, portfolio sites, blogs, and custom web applications, all designed to meet the unique needs of Fujairah businesses."
+                q: "What Types of Websites Do You Develop for Businesses in Fujairah?",
+                a: "We design all types of websites ranging from corporate sites and eCommerce stores to portfolios and service-based platforms. Our website design and development solutions are customized to meet the unique needs of Fujairah businesses."
             },
             {
                 q: "How Much Does Website Development in Fujairah Cost?",
-                a: "The cost depends on the type of website, complexity, features, and timeline. Our packages start from AED 5,000 and can be customized to suit different budgets and business requirements."
-            },
-            {
-                q: "Do You Provide Multilingual Websites in Fujairah?",
-                a: "Yes, we design websites that support both Arabic and English, ensuring a seamless experience for your local and international audience."
-            },
-            {
-                q: "Do You Offer Post-launch Support?",
-                a: "Yes, we provide free maintenance for the first three months and offer ongoing support plans, including uptime monitoring, security alerts, backups, and instant assistance for any issues."
-            },
-            {
-                q: "Which Web Development Platforms Do you Recommend?",
-                a: "We recommend WordPress for content-rich websites, Shopify, Magento, or WooCommerce for eCommerce, and headless CMS with React or Vue for high-performance websites with complex integrations."
-            },
-            {
-                q: "How Do You Handle Integrations with CRM, ERP, or Payment Gateways?",
-                a: "We implement secure API integrations and middleware where necessary, ensuring automated data flows that synchronize leads, orders, and records with your internal systems."
+                a: "Website costs vary based on complexity, features, and timeline. Our packages start from AED 5,000, with flexible options to fit different business sizes and goals."
             },
             {
                 q: "How Long Does It Take to Develop a Website in Fujairah?",
-                a: "Project timelines vary based on complexity, features, and revisions. On average, a standard website can be completed in 4–8 weeks, while more complex solutions may take longer."
+                a: "A standard website can be completed in 4–6 weeks, while larger or custom projects with integrations may require additional time depending on scope."
             },
             {
-                q: "Do you Follow Security Best Practices in Web Development?",
-                a: "Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
+                q: "Can You Create Bilingual Websites in Fujairah?",
+                a: "Yes, we specialize in designing fully bilingual websites in Arabic and English. Our approach ensures that both languages are seamlessly integrated into the website’s layout, navigation, and content, providing a smooth and intuitive user experience."
             },
             {
-                q: "Why Choose Website Development Agency for Web Development in Fujairah?",
-                a: "We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
+                q: "Do You Provide Website Redesign Services?",
+                a: "Yes, We specialize in website redesign services to improve design, speed, functionality, and user experience while preserving SEO and content integrity."
+            },
+            {
+                q: "How Do You Ensure My Website Performs Well On All Devices?",
+                a: "We focus on responsive design, mobile optimization, and cross-browser testing to ensure your website looks and works perfectly on desktops, tablets, and smartphones."
+            },
+            {
+                q: "How Secure are The Websites You Develop?",
+                a: "We follow industry-standard security protocols, including secure coding, SSL integration, and regular updates to protect your site and user data."
+            },
+            {
+                q: "What Post-launch Support Do You Provide?",
+                a: "We offer free maintenance for three months after launch and ongoing support plans for updates, backups, security monitoring, and performance optimization."
+            },
+            {
+                q: "Why Choose WD Agency for Web Development in Fujairah?",
+                a: "WD Agency stands out as a trusted web development partner in Fujairah by combining deep local market understanding with creative design and advanced technical expertise. We focus on building websites that not only look visually appealing but also provide seamless functionality, intuitive navigation, and an engaging user experience."
             }
         ]}
     />
