@@ -1,50 +1,169 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import styles from "@/app/(frontend)/assets/style/partials/header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/app/(frontend)/assets/images/logo.png"; 
+import logo from "@/app/(frontend)/assets/images/logo.png";
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showMegaMenu, setShowMegaMenu] = useState(false);
+  const [megaTop, setMegaTop] = useState(null); // initially null (SSR safe)
+  const [isClient, setIsClient] = useState(false);
+  const headerRef = useRef(null);
+  const hoverTimeoutRef = useRef(null);
+
+  const servicesData = {
+    design: [
+      { title: "UI/UX Design", href: "/services/uiux" },
+      { title: "Wireframing", href: "/services/wireframing" },
+      { title: "Prototyping", href: "/services/prototyping" },
+      { title: "Branding", href: "/services/branding" }
+    ],
+    development: [
+      { title: "Web Development", href: "/services/web" },
+      { title: "Frontend Development", href: "/services/frontend" },
+      { title: "Full Stack Development", href: "/services/fullstack" },
+      { title: "PHP Web Development", href: "/services/php" }
+    ],
+    software: [
+      { title: "CRM Software", href: "/services/crm" },
+      { title: "Enterprise Software", href: "/services/enterprise" },
+      { title: "Cloud Applications", href: "/services/cloud" },
+      { title: "Legacy Modernization", href: "/services/legacy" }
+    ]
+  };
+
+  useEffect(() => {
+    setIsClient(true); // mark that we are on client
+    const updateTop = () => {
+      if (headerRef.current) {
+        const rect = headerRef.current.getBoundingClientRect();
+        setMegaTop(rect.bottom);
+      }
+    };
+    updateTop();
+    window.addEventListener("resize", updateTop);
+    window.addEventListener("scroll", updateTop, { passive: true });
+    return () => {
+      window.removeEventListener("resize", updateTop);
+      window.removeEventListener("scroll", updateTop);
+    };
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+    };
+  }, []);
+
+  const handleServicesClick = () => {
+    if (isClient && window.innerWidth <= 768) setShowMegaMenu((s) => !s);
+  };
+
+  const handleMouseEnter = () => {
+    if (isClient && window.innerWidth > 768) {
+      if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+      setShowMegaMenu(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (isClient && window.innerWidth > 768) {
+      hoverTimeoutRef.current = setTimeout(() => setShowMegaMenu(false), 300);
+    }
+  };
+
+  const closeMegaMenu = () => setShowMegaMenu(false);
 
   return (
-    <header className={`frame-1200 ${styles.header}`}>
-      <div className={styles.logo}>
-      <Image src={logo} alt="Logo" width={211} height={50} priority />
-      </div>
+    <>
+      <header ref={headerRef} className={`frame-1200 ${styles.header}`}>
+        <div className={styles.logo}>
+          <Image src={logo} alt="Logo" width={211} height={50} priority />
+        </div>
 
-      {/* Desktop Nav */}
-      <nav className={`${styles.nav} ${isOpen ? styles.open : ""}`}>
-        <Link href="/">Home</Link>
-        <Link href="/about">About Us</Link>
-        <div className={styles.dropdown}>
-          <button>Services ▾</button>
-          <div className={styles.dropdownMenu}>
-            {/* <Link href="/services/web">Web Development</Link>
-            <Link href="/services/seo">SEO</Link> */}
+        <nav className={`${styles.nav} ${isOpen ? styles.open : ""}`}>
+          <Link href="/">Home</Link>
+          <Link href="/about">About Us</Link>
+
+          <div
+            className={styles.dropdown}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <button
+              className={showMegaMenu ? styles.activeBtn : ""}
+              onClick={handleServicesClick}
+              aria-haspopup="true"
+              aria-expanded={showMegaMenu}
+            >
+              Services ▾
+            </button>
+          </div>
+
+          <div className={styles.dropdown}>
+            <button>Resources ▾</button>
+            <div className={styles.dropdownMenu}>
+              <Link href="/resources/blog">Blog</Link>
+              <Link href="/resources/case-studies">Case Studies</Link>
+            </div>
+          </div>
+
+          <Link href="/portfolio">Portfolio</Link>
+          <Link href="/contact-us">Contact</Link>
+          <Link href="/quote" className={styles.quoteBtn}>Get Quote</Link>
+        </nav>
+
+        <button
+          className={styles.mobileToggle}
+          onClick={() => setIsOpen((s) => !s)}
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+      </header>
+
+      {isClient && (
+        <div
+          className={styles.megaDropdown}
+          style={{
+            top: window.innerWidth > 768 && megaTop !== null ? `${megaTop}px` : "65px",
+            display: showMegaMenu ? "block" : "none",
+            position: window.innerWidth > 768 ? "absolute" : "fixed",
+            zIndex: window.innerWidth > 768 ? 999 : 1001,
+          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <button className={styles.megaCloseBtn} onClick={closeMegaMenu} aria-label="Close menu">
+            ✕
+          </button>
+
+          <div className={styles.megaDropdownContent}>
+            <div className={styles.column}>
+              <h3>Design & UX</h3>
+              {servicesData.design.map((item, idx) => (
+                <Link key={idx} href={item.href}>{item.title}</Link>
+              ))}
+            </div>
+
+            <div className={styles.column}>
+              <h3>Development</h3>
+              {servicesData.development.map((item, idx) => (
+                <Link key={idx} href={item.href}>{item.title}</Link>
+              ))}
+            </div>
+
+            <div className={styles.column}>
+              <h3>Software & Cloud</h3>
+              {servicesData.software.map((item, idx) => (
+                <Link key={idx} href={item.href}>{item.title}</Link>
+              ))}
+            </div>
           </div>
         </div>
-        <div className={styles.dropdown}>
-          <button>Resources ▾</button>
-          <div className={styles.dropdownMenu}>
-            <Link href="/resources/blog">Blog</Link>
-            <Link href="/resources/case-studies">Case Studies</Link>
-          </div>
-        </div>
-        <Link href="/portfolio">Portfolio</Link>
-        <Link href="/contact-us">Contact</Link>
-        <Link href="/quote" className={styles.quoteBtn}>
-          Get Quote
-        </Link>
-      </nav>
-
-      {/* Mobile Menu Toggle */}
-      <button
-        className={styles.mobileToggle}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        ☰
-      </button>
-    </header>
+      )}
+    </>
   );
 }
