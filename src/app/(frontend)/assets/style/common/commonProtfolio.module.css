@@ -44,10 +44,43 @@
         margin-bottom: 20px;
         width: 200px;
         object-fit: contain;
+        z-index: 1;
     }
 }
 
-/* Optional: hover effect to darken overlay */
-/* .ProtfolioBox:hover::after {
-  background: rgba(0, 0, 0, 0.6);
-} */
+@media (max-width: 768px) {
+
+  .Protfolio {
+    height: 230vh; /* reduce scroll area for smaller screens */
+  }
+
+  .ProtfolioBox {
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    justify-content: space-between;
+  }
+
+  .ProtfolioBox img {
+    width: 100%;
+    max-width: 350px; /* prevent oversized images on mobile */
+    height: auto;
+    
+  }
+
+  .ctabox {
+    bottom: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ctabox img {
+         width: 140px;
+        margin-bottom: 15px;
+        height: 100px;
+        object-fit: contain;
+  }
+
+
+}
