@@ -15,22 +15,22 @@ export default function Header() {
 
   const servicesData = {
     design: [
-      { title: "UI/UX Design", href: "/services/uiux" },
-      { title: "Wireframing", href: "/services/wireframing" },
-      { title: "Prototyping", href: "/services/prototyping" },
-      { title: "Branding", href: "/services/branding" }
+      { title: "UI/UX Design", href: "#" },
+      { title: "Wireframing", href: "#" },
+      { title: "Prototyping", href: "#" },
+      { title: "Branding", href: "#" }
     ],
     development: [
-      { title: "Web Development", href: "/services/web" },
-      { title: "Frontend Development", href: "/services/frontend" },
-      { title: "Full Stack Development", href: "/services/fullstack" },
-      { title: "PHP Web Development", href: "/services/php" }
+      { title: "Web Development", href: "#" },
+      { title: "Frontend Development", href: "#" },
+      { title: "Full Stack Development", href: "#" },
+      { title: "PHP Web Development", href: "#" }
     ],
     software: [
-      { title: "CRM Software", href: "/services/crm" },
-      { title: "Enterprise Software", href: "/services/enterprise" },
-      { title: "Cloud Applications", href: "/services/cloud" },
-      { title: "Legacy Modernization", href: "/services/legacy" }
+      { title: "CRM Software", href: "#" },
+      { title: "Enterprise Software", href: "#" },
+      { title: "Cloud Applications", href: "#" },
+      { title: "Legacy Modernization", href: "#" }
     ]
   };
 
@@ -105,14 +105,14 @@ export default function Header() {
           <div className={styles.dropdown}>
             <button>Resources ▾</button>
             <div className={styles.dropdownMenu}>
-              <Link href="/resources/blog">Blog</Link>
-              <Link href="/resources/case-studies">Case Studies</Link>
+              <Link href="#">Blog</Link>
+              <Link href="#">Case Studies</Link>
             </div>
           </div>
 
-          <Link href="/portfolio">Portfolio</Link>
+          <Link href="#">Portfolio</Link>
           <Link href="/contact-us">Contact</Link>
-          <Link href="/quote" className={styles.quoteBtn}>Get Quote</Link>
+          <Link href="/contact-us" className={styles.quoteBtn}>Get Quote</Link>
         </nav>
 
         <button

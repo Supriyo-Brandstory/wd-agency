@@ -22,7 +22,7 @@ const Footer = () => {
           <div className={styles.about}>
             <Image src={logo} alt="logo" />
             <p>
-             Established in 2013, WD Agency is a leading web design and development agency in the UAE, delivering innovative and custom web solutions that drive business growth.
+             Established in 2014, WD Agency is a leading web design and development agency in Dubai, UAE, delivering innovative and custom web design solutions for startups, SMEs, and Large-scale enterprises.
 
             </p>
             
@@ -30,21 +30,21 @@ const Footer = () => {
           <div>
             <h4>SERVICES</h4>
             <ul>
-              <li><Link href="/web-development">Web Development</Link></li>
-              <li><Link href="/frontend-development">Frontend Development</Link></li>
-              <li><Link href="/full-stack-development">Full Stack Development</Link></li>
-              <li><Link href="/e-commerce-web-development">E-commerce Web Development</Link></li>
-              <li><Link href="/php-web-development">PHP Web Development</Link></li>
+              <li><Link href="#">Web Development</Link></li>
+              <li><Link href="#">Frontend Development</Link></li>
+              <li><Link href="#">Full Stack Development</Link></li>
+              <li><Link href="#">E-commerce Web Development</Link></li>
+              <li><Link href="#">PHP Web Development</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4>COMPANY</h4>
+            <h4>ABOUT</h4>
             <ul>
               <li><Link href="/about-us">About Us</Link></li>
-              <li><Link href="/portfolio">Portfolio</Link></li>
-              <li><Link href="/case-studies">Case Studies</Link></li>
-              <li><Link href="/testimonials">Testimonials</Link></li>
+              <li><Link href="#">Portfolio</Link></li>
+              <li><Link href="#">Case Studies</Link></li>
+              <li><Link href="#">Testimonials</Link></li>
               <li><Link href="/contact-us">Contact Us</Link></li>
             </ul>
           </div>
@@ -52,9 +52,9 @@ const Footer = () => {
           <div>
             <h4>SOLUTIONS</h4>
             <ul>
-              <li> <Link href="/website-performance-optimization">Website Performance Optimization</Link></li>
-              <li><Link href="/website-migration-service">Website Migration Service</Link></li>
-              <li><Link href="/startup-solutions">Startup Solutions</Link></li>
+              <li> <Link href="#">Website Performance Optimization</Link></li>
+              <li><Link href="#">Website Migration Service</Link></li>
+              <li><Link href="#">Startup Solutions</Link></li>
             </ul>
           </div>
 
@@ -69,14 +69,14 @@ const Footer = () => {
                 <Image src={call} alt="call"  width={30} height={30}/> +971 52 283 165
               </Link>
               <Link href='#' className="flex gap-x-10 items-start">
-               <Image src={location} alt="location"  width={30} height={30}/> G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai - 81577
+               <Image src={location} alt="location"  width={30} height={30}/> G6, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai - 81577
               </Link>
             </div>
           <div className={styles.cities}>
             <div>
                <h4>CITIES WE SERVE</h4>
             <ul>
-              <li><Link href="/dubai">Dubai</Link></li>
+              <li><Link href="/">Dubai</Link></li>
               <li><Link href="/website-development-in-abu-dhabi">Abu Dhabi</Link></li>
               <li><Link href="/website-development-in-sharjah">Sharjah</Link></li>
               <li><Link href="/website-development-in-ajman">Ajman</Link></li>
@@ -96,8 +96,8 @@ const Footer = () => {
           <div className={styles.legal}>
             <h4>LEGAL</h4>
             <ul>
-              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link href="/terms-conditions">Terms & Conditions</Link></li>
+              <li><Link href="#">Privacy Policy</Link></li>
+              <li><Link href="#">Terms & Conditions</Link></li>
             </ul>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className={styles.bottom}>
-        <p>© 2025 WebsiteDevelopmentAgency.ae. All rights reserved.</p>
+        <p>© 2014-2025 WD Agency. All rights reserved.</p>
       </div>
       </div>
     </footer>
