@@ -7,6 +7,7 @@ import woman2 from "@/app/(frontend)/assets/images/woman-2.webp";
 import webexpbuttomimage from "@/app/(frontend)/assets/images/webexperience-3.webp";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 // Animation variants
 const fadeUp = {
@@ -179,9 +180,9 @@ Crafting Next-Gen Web Experiences
 
             </p>
             <div className="sm-text-center sm-mt-20">
-              <a href="#" className="blue-btn">
+              <Link href="/contact-us" className="blue-btn">
                 Start Your Project Today
-              </a>
+              </Link>
             </div>
           </motion.div>
         </motion.div>

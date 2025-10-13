@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+
+.left {
+  width: 52%;
+}
+
+.right {
+  width: 48%;
+}
+}
+
+.whymetterbg {
+    background: var(--bg);
+    background-size: 100% 60%;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-position: top;
+}
+.endalign{
+    align-items: end;
+    .background{
+        background: #E83E8C;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

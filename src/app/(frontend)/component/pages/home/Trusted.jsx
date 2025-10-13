@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import styles from "@/app/(frontend)/assets/style/home/trusted.module.css";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Trusted() {
 const [showsvg, setShowsvg] = useState(false);
@@ -735,7 +736,7 @@ useEffect(() => {
       viewport={{ once: true }}
     >
       <p className="my-20">Need an incredible website built for impact?</p>
-      <button className="white-btn">Let’s Discuss Today</button>
+      <Link href="/contact-us" className="white-btn">Let’s Discuss Today</Link>
     </motion.div>
 
         </div>

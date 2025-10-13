@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '@/app/(frontend)/assets/style/common/commonResult.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const CommonResult = ({
     heding,
@@ -34,7 +35,9 @@ const CommonResult = ({
             </div>
             <div className='text-center sm-text-start'>
             <p className='my-20'> {footertext}</p>
-            <button className='white-btn'>Contact Us</button>
+            <Link href="/contact-us" className="blue-btn">
+                Contact Us
+            </Link>
             </div>
         </div>
     )

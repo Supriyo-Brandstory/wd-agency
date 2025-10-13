@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '@/app/(frontend)/assets/style/common/commonApproch.module.css'
+import Link from 'next/link';
 
 const CommonApproch = (
     {
@@ -15,7 +16,7 @@ const CommonApproch = (
         <h2>{text1}</h2>
         <div dangerouslySetInnerHTML={{__html:text2}} className={styles.scroller}></div>
                
-        <button className='white-btn'>Contact Us</button>
+        <Link className="white-btn" href="/contact-us">Contact Us</Link>
 
     </div>
     </div>

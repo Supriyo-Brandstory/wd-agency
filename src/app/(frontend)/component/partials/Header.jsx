@@ -80,12 +80,15 @@ export default function Header() {
     <>
       <header ref={headerRef} className={`frame-1200 ${styles.header}`}>
         <div className={styles.logo}>
-          <Image src={logo} alt="Logo" width={211} height={50} priority />
+          <Link href="/">
+                      <Image src={logo} alt="Logo" width={211} height={50} priority />
+
+          </Link>
         </div>
 
         <nav className={`${styles.nav} ${isOpen ? styles.open : ""}`}>
           <Link href="/">Home</Link>
-          <Link href="/about">About Us</Link>
+          <Link href="/about-us">About Us</Link>
 
           <div
             className={styles.dropdown}

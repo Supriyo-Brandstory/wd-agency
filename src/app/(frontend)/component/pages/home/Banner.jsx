@@ -1,4 +1,5 @@
 import styles from "@/app/(frontend)/assets/style/home/banner.module.css";
+import Link from "next/link";
 
 export default function Banner({
   text1,
@@ -19,7 +20,7 @@ export default function Banner({
         {text3 || ''}
         </p>
         <div className={`mb-20 sm-mb-20 ${styles.buttons}`}>
-          <button className={`fw-600 fs-22 ${styles.primary}`}>Enquiry Now</button>
+          <Link  href="/contact-us" className={`fw-600 fs-22 ${styles.primary}`}>Enquiry Now</Link>
           <button className={`fw-600 fs-22 ${styles.secondary}`}>See Portfolio</button>
         </div>
         {/* <div className={styles.glowLineWrapper}></div> */}

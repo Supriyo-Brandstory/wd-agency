@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import styles from "@/app/(frontend)/assets/style/home/ctaSection.module.css";
 import Image from "next/image";
 import womanLaptop from "@/app/(frontend)/assets/images/woman-laptop.webp";
-
+import Link from "next/link";
 const CtaSection = () => {
+  const MotionLink = motion(Link);
   return (
     <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
       <motion.div
@@ -29,20 +30,20 @@ const CtaSection = () => {
             Our team of experts is ready to bring your vision to life.
           </p>
           <div className={styles.ctaButtons}>
-            <motion.button
+            <MotionLink href="/contact-us"
               className="blue-btn"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Start Project
-            </motion.button>
-            <motion.button
+            </MotionLink>
+            <MotionLink href="/about-us"
               className="white-btn"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               About Us
-            </motion.button>
+            </MotionLink>
           </div>
         </motion.div>
 
