@@ -18,3 +18,12 @@
 .content{
     z-index: 2;
 }
+
+@media (max-width: 768px) {
+    .commonbanner2 {
+        height: 40vh;
+    }
+    .commonbanner2::after{
+        height: 48%;
+    }
+}

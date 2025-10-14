@@ -31,3 +31,30 @@
         gap: 10px;
     }
 }
+
+@media (max-width: 768px) {
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:20px;
+
+.left {
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+}
+}
+.whymetterbg {
+    background-size: 100% 25%;
+    height: 120vh;
+}
+.endalign{
+    .background{
+      border-radius: 20px;
+    }
+}
+
+}

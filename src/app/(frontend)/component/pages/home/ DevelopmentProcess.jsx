@@ -1,8 +1,7 @@
 "use client";
 
 import React from 'react'
-import { motion } from 'framer-motion'
-import styles from '@/app/(frontend)/assets/style/home/developmentProcess.module.css'
+import CommonDevelopmentProcess from '../common/CommonDevelopmentProcess';
 
 const DevelopmentProcess = () => {
   const processData = [
@@ -10,6 +9,7 @@ const DevelopmentProcess = () => {
       id: "01",
       title: "Discovery",
       description: `As a top-level web development company in Dubai, we strongly consider the fact that each business idea has its unique principles and visions and hence requires the creation of out-of-the-box concepts. We offer web development services with a deep understanding of client’s needs and vision in detail. This is the most crucial stage that includes innovative strategies to design state-of-the-art websites that outperforms in the marketing. `,
+      pointsheding: "We invest our resources in:",
       points: [
         "Understanding the business strengths and weaknesses.",
         "Demands of the service/products in the market.",
@@ -24,7 +24,9 @@ const DevelopmentProcess = () => {
         "Grabbing customer attention and delivering a better user experience.",
         "Designing visually appealing interfaces that reflect brand identity.",
         "Device centric design that our true reflects professionalism."
-      ]
+      ],
+      pointsheding: "We invest our resources in:",
+
     },
     {
       id: "03",
@@ -34,7 +36,8 @@ const DevelopmentProcess = () => {
         "Designing intuitive interfaces that align with user behavior.",
         "Applying strategic use of color, typography, and spacing.",
         "Ensuring responsiveness and consistency across all devices and screen sizes."
-      ]
+      ],
+      pointsheding: "We invest our resources in:",
     },
     {
       id: "04",
@@ -44,7 +47,8 @@ const DevelopmentProcess = () => {
         "Building scalable, secure, and high-performance websites.",
         "Implementing secure, scalable back-end systems for long-term growth.",
         "Maintaining clean, modular code for easier future updates and scalability."
-      ]
+      ],
+      pointsheding: "We invest our resources in:",
     },
     {
       id: "05",
@@ -54,50 +58,13 @@ const DevelopmentProcess = () => {
         "Complete website deployment and hosting setup.",
         "Post-launch support for 24*7 and performance optimization.",
         "Regular updates and security maintenance."
-      ]
+      ],
+      pointsheding: "We invest our resources in:",
     }
   ]
 
   return (
-    <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
-      <div className={styles.container}>
-        {/* Left Side */}
-        <motion.div
-          className={styles.leftInnerContainer}
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <h2>Our Website Development Process Flow</h2>
-        </motion.div>
-
-        {/* Right Side Scrollable Content */}
-        <div className={styles.rightInnerContainer}>
-          <div className={styles.scrollWrapper}>
-            {processData.map((process, index) => (
-              <motion.div
-                key={index}
-                className={styles.card}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.15 }}
-                viewport={{ once: true }}
-              >
-                <h3 className='mb-20'><span>{process.id}</span> {process.title}</h3>
-                <p>{process.description}</p>
-                <h4 className='fs-22 fw-700 my-20'>We invest our resources in:</h4>
-                <ul className='ml-40'>
-                  {process.points.map((point, i) => (
-                    <li className='mb-10' key={i}>{point}</li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </div>
+  <CommonDevelopmentProcess processData={processData} heding={"Our Website Development Process Flow"}/>
   )
 }
 

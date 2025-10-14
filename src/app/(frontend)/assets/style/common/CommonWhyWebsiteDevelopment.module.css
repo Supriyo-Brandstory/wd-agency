@@ -1,0 +1,50 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  .left {
+    width: 52%;
+  }
+
+  .right {
+    width: 48%;
+  }
+}
+
+.bottom {
+  margin-top: 30px;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  img {
+    height: -webkit-fill-available;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    gap: 20px;
+
+    .left {
+      width: 100%;
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
+
+  .bottom {
+    flex-direction: column-reverse;
+  }
+}
