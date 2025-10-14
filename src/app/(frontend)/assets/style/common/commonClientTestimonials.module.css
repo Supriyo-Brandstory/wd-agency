@@ -1,0 +1,140 @@
+.testimonialsSection {
+  color: white;
+  min-height: 80vh;
+  background: linear-gradient(180deg, #0A0B0F -19.45%, #4E5675 132.57%);
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.navButton {
+  width: 70px;
+  height: 70px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.navButton:hover {
+  transform: scale(1.05);
+  background-color: #2F2FB0;
+}
+.navButton:hover img{
+    filter: invert(1);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #1d1d1d;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 845px;
+  max-width: 100%;
+}
+
+.imageContainer {
+  background: linear-gradient(180deg, #E83E8C 0%, #82234E 100%);
+  width: 302px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 40px 40px 0px;
+  
+}
+
+.image {
+  border-radius: 12px;
+  object-fit: cover;
+  height: 346px;
+}
+
+.textContainer {
+  padding: 50px 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      gap: 20px;
+}
+
+.quoteIcon {
+  font-size: 50px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .imageContainer,
+  .textContainer {
+    width: 100%;
+  }
+
+  .left {
+    align-items: left;
+    width: 100%;
+  }
+  .image {
+  border-radius: 12px;
+  object-fit: contain;
+  height: 300px;
+}
+.buttons {
+  display: flex;
+  gap: 25px;
+justify-content: end;
+
+}
+.navButton {
+  width: 50px;
+  height: 50px;
+  img{
+    width: 30px;
+  }
+}
+}
