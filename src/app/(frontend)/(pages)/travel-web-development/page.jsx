@@ -27,6 +27,12 @@ import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-developm
 import imagecommon9 from '@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png'    
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
+import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
+import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
+import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
+import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 
 const page = () => {
     return (
@@ -121,6 +127,7 @@ const page = () => {
 
                 ]}
             />
+
             <CommonThreeCard
                 text1={'Key Features of an Impactful Travel Website'}
                 text2={"An excellent travel website means so much more than looking beautiful-it builds an intuitive, trust-sensitive, and conversion-focused experience. At WD Agency, we prioritize features that define a successful travel platform:"}
@@ -178,7 +185,71 @@ const page = () => {
                     }
 
                     ]} />
-                    <CommonWhyWebsiteDevelopment/>
+
+                    <CommonWhyWebsiteDevelopment
+                    heding={"Why Choose WD Agency for Travel & Tourism Website Development"}
+                    subheding={"Choosing the right technology partner is critical to building a travel platform that not only looks impressive but also delivers measurable business results. At WD Agency, we pull in our technical experience and industry perspectives to ensure we create websites that are trustworthy for travelers and reliable for businesses."}
+                    lefttext={`<p><b>Proven Expertise –</b> We deliver secure, advanced travel websites and booking platforms that meet the needs of travel agencies, operators, and OTAs. Our structured approach ensures efficient development, reliable technology, and a seamless experience for both businesses and travelers.</p>
+                                <p><b>UAE-focused Solutions –</b> Our websites have the functionality for multiple languages and payment currencies, so your website is set up for the UAE's traveler base.  For either domestic travel explorers or international travelers, we build sites that feel like a local experience and position you for global scalability.</p>
+                                <p><b>Transparent Pricing & Support -</b>You are informed of the expenses beforehand; there are no undisclosed prices. After launch, our team will provide an update and work to ensure the site supports growth by updating seasonal content and optimizing the site as needed.</p>
+                            `}
+                    rightimage={imagewhydevelopment}
+
+                    />
+                    
+                    <CommonClientTestimonials
+                    testimonials={[
+                        {
+                            id: 1,
+                            name: "Daniel R",
+                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            image: imagetestimonial1,
+                        },
+                        {
+                            id: 2,
+                            name: "Sophia K",
+                            text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
+                            image: imagetestimonial2,
+                        },
+                                            {
+                            id: 3,
+                            name: "James P",
+                            text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
+                            image: imagetestimonial3,
+                        }
+                    ]}  
+                    />
+                    <CommonFaqSection
+                        faqs={[
+                            {
+                                q: "How Much Does It Cost to Build a Travel Website?",
+                                a: "The cost of a travel website depends on the scope and complexity of the project. A basic site with essential booking features typically starts around AED 8,000 to AED 18,000, while a full-featured portal with multi-vendor systems, API integrations, and multilingual support can range from AED 20,000 to AED 52,000 or more. At WD Agency, we tailor solutions to your goals and budget, ensuring complete transparency with no hidden fees."
+                            },
+                            {
+                                q: "Can You Integrate Flight, Hotel & Car Rental APIs?",
+                                a: "Yes, one of our specialties is the APIs integration for flights, hotels, car rentals, and tours. This means that you have a single platform that is updated in real-time and shows the correct prices and allows for a seamless booking of your clients."
+                            },
+                            {
+                                q: "Do You Develop Multilingual Travel Websites?",
+                                a: "Absolutely, multilingual and multi-currency functionality is essential for UAE’s diverse and global audience. We design multi-lingual websites designed to let users choose the language in which they wish to browse and to pay in their own currency."
+                            },
+                            {
+                                q: "Can I Manage Bookings Data Without Coding?",
+                                a: "Yes, You’ll get a dedicated dashboard that allows you to manage bookings, update packages, and track customer information easily, no coding or technical skills required."
+                            },
+                            {
+                                q: "Do You Offer Post-launch Support & Maintenance?",
+                                a: "Definitely, We are always there for you through tough times (or whenever you want) with our regular updates, security patches, seasonal scalability, and all-around maintenance to ensure that your website is always running smoothly."
+                            },
+                            {
+                                q: "Can You Optimize My Website for SEO?",
+                                a: "Yes, we create SEO-friendly websites that have well-structured optimizations, quick loading times, and content that is ready for keyword usage. In addition, we offer content marketing strategies that would help your website get a higher rank on Google."
+                            },
+                            {
+                                q: "How Long Does It Take to Build a Booking Portal?",
+                                a: "The amount of time it will take to get the job done varies depending on the complexity. For a basic website, 4-6 weeks may be enough, whereas a bigger portal with advanced integrations can take from 10 to 16 weeks. We always provide clear timelines before starting."
+                            }]}
+                        />
 
         </>
     )

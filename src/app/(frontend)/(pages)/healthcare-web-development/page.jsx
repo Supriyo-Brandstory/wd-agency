@@ -27,6 +27,12 @@ import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-developm
 import imagecommon9 from '@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png'    
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
+import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
+import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
+import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
+import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 
 const page = () => {
     return (
@@ -178,7 +184,77 @@ const page = () => {
                     }
 
                     ]} />
-                    <CommonWhyWebsiteDevelopment/>
+            
+            <CommonWhyWebsiteDevelopment
+                    heding={"Why Choose WD Agency for Healthcare Website"}
+                    subheding={"Choosing the right partner is crucial for building a secure and high-performing healthcare website. Here is why WD Agency stands out:"}
+                    lefttext={`<p><b>Healthcare Expertise–</b> We focus on medical and healthcare projects requiring an understanding of the distinct needs in that landscape.</p>
+                                <p>Compliance-Ready Solutions–</b> All sites we develop will comply with HIPAA, GDPR, and local regulations to safeguard the patient's data.</p>
+                                <p><b>Diverse Experience–</b> We have experience working in hospitals, specialty clinics, labs, pharmacies, and solo practices.</p>
+                                <p><b>Multi-Platform Proficiency–</b> We develop travel websites on platforms like WordPress, Drupal, and Joomla, or build custom enterprise solutions using PHP, Laravel, or Node.js, depending on your project requirements.</p>
+                                <p><b>Transparent Process & Support–</b> We will keep you informed throughout the design phase and offer you assistance once your website goes live.</p>
+                            `}
+                    rightimage={imagewhydevelopment}
+
+                    />
+                   
+                    <CommonClientTestimonials
+                    testimonials={[
+                        {
+                            id: 1,
+                            name: "Daniel R",
+                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            image: imagetestimonial1,
+                        },
+                        {
+                            id: 2,
+                            name: "Sophia K",
+                            text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
+                            image: imagetestimonial2,
+                        },
+                                            {
+                            id: 3,
+                            name: "James P",
+                            text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
+                            image: imagetestimonial3,
+                        }
+                    ]}  
+                    />
+                    <CommonFaqSection
+                        faqs={[
+                            {
+                                q: "How Much Does Healthcare Website Development Cost?",
+                                a: "Costs depend on features, integrations, and scale- a basic clinic website with scheduling will be less expensive than a hospital or telemedicine platform with advanced modules like patient portals, multilingual support, and payment gateways. We create tailored, flexible packages from AED 4,000 to AED 20,000 for your goals and budget."
+                            },
+                            {
+                                q: "Do You Provide Telemedicine Integration?",
+                                a: "Yes, video consultations, digital prescriptions, and secure patient messaging systems are part of the suite of features. These components facilitate connections between patients and doctors, improving access to care and saving time for both."
+                            },
+                            {
+                                q: "Can Patients Access Reports and Medical Records Securely?",
+                                a: "Absolutely, we build encrypted patient portals with secure login for reports, prescriptions, and records. Access is role-based, maintaining data privacy and compliance with healthcare regulations."
+                            },
+                            {
+                                q: "Can Patients Access Reports and Medical Records Securely?",
+                                a: "Absolutely, we build encrypted patient portals with secure login for reports, prescriptions, and records. Access is role-based, maintaining data privacy and compliance with healthcare regulations."
+                            },
+                            {
+                                q: "Do You Offer Ongoing Support After Launch?",
+                                a: "Yes, recurring maintenance, performance monitoring, Error and Bug fixes, and updates to features, are part of our services. We act as your long-term digital partner."
+                            },
+                            {
+                                q: "Do You Offer Ongoing Support After Launch?",
+                                a: "Yes, recurring maintenance, performance monitoring, Error and Bug fixes, and updates to features, are part of our services. We act as your long-term digital partner."
+                            },
+                            {
+                                q: "Will The Website Work on Mobile Devices?",
+                                a: "Of course, all of our healthcare websites are mobile responsive to better serve your patients with engagement through smartphones and tablets."
+                            },
+                            {
+                                q: "How Long Does It Take to Launch a Hospital Website?",
+                                a: "The timeline to build a website is variable, typically 6–10 weeks, depending on complexity and the integrations of your website. Larger projects that require multiple departments or connectivity to EHR may take a few weeks longer."
+                            }]}
+                        />                    
 
         </>
     )

@@ -31,6 +31,7 @@ import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-d
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
+import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 
 
@@ -209,6 +210,12 @@ const page = () => {
                             text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
                             image: imagetestimonial2,
                         },
+                                            {
+                            id: 3,
+                            name: "James P",
+                            text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
+                            image: imagetestimonial3,
+                        }
                     ]}  
                     />
                     <CommonFaqSection

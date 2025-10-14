@@ -28,7 +28,7 @@ const Footer = () => {
             
           </div>
           <div>
-            <h4>SERVICES</h4>
+            <h4>INDUSTRIES</h4>
             <ul>
               <li><Link href="/healthcare-web-development">Healthcare Websites</Link></li>
               <li><Link href="/travel-web-development">Travel Websites</Link></li>
