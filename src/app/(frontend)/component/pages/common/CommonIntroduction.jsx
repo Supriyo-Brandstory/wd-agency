@@ -14,7 +14,7 @@ const CommonIntroduction = ({imageintro1,imageintro2,text1,text2}) => {
             </div>
              <div className={styles.box}>
               <Image src={imageintro2} alt="introimg-1" />
-            <div className={styles.gapcontent} dangerouslySetInnerHTML={{__html:text1}}></div>
+            <div className={styles.gapcontent} dangerouslySetInnerHTML={{__html:text2}}></div>
 
              </div>
         </div>

@@ -30,10 +30,10 @@ const Footer = () => {
           <div>
             <h4>SERVICES</h4>
             <ul>
-              <li><Link href="#">Web Development</Link></li>
-              <li><Link href="#">Frontend Development</Link></li>
+              <li><Link href="/healthcare-web-development">Healthcare Websites</Link></li>
+              <li><Link href="/travel-web-development">Travel Websites</Link></li>
               <li><Link href="#">Full Stack Development</Link></li>
-              <li><Link href="/e-commerce-web-development">E-commerce Web Development</Link></li>
+              <li><Link href="/e-commerce-web-development">E-commerce Websites</Link></li>
               <li><Link href="#">PHP Web Development</Link></li>
             </ul>
           </div>
