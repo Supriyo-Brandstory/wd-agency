@@ -32,6 +32,7 @@ import CommonClientTestimonials from '../../component/pages/common/CommonClientT
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 
 
@@ -211,6 +212,7 @@ const page = () => {
                         },
                     ]}  
                     />
+                    <CommonServiceLocations/>
                     <CommonFaqSection
                         faqs={[
                             {
