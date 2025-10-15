@@ -1,9 +1,9 @@
 import React from 'react'
 import CommonBanner2 from '../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/travel-website/travel-image.webp'
 import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-1.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-2.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/travel-website/travel-agency-website.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/travel-website/travel-dubai.webp'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
 import imagewhymetter from '@/app/(frontend)/assets/images/e-commerce-web-development/whymetterbg.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
@@ -41,13 +41,13 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Professional Travel & Tourism Website <br/>Development Services in UAE"}
-                subtitle={"We create custom websites for UAE travel businesses that attract visitors and drive bookings."}
+                subtitle={"We create custom websites for UAE travel businesses that attract visitors and drive </br>bookings. With visually stunning designs and features, our websites turn casual browsers into loyal travelers."}
 
             />
             <CommonIntroduction
                 heding={'Travel & Tourism Website Development'}
                 text1={`<p>The travel and tourism industry in the UAE is rapidly becoming one of the top growth sectors, with millions of international visitors and a powerful local market. Today's travelers depend on digital technology to research, book, and enhance their travel experience. From luxurious vacations, desert excursions, and corporate travel to vacations and weekend escapes, travelers do travel planning, booking, pre-and post-travel engagement to be digitally enhanced.</p>
-                    <p>However, travelers can now access a myriad of travel planning and booking websites. Today’s travelers expect customized suggestions, availability, easy price comparison, adaptability across devices, and an easy booking experience.</p>
+                    <p>However, travelers can now access a myriad of travel planning and booking websites. Today’s travelers expect customized suggestions, availability, easy price comparison, adaptability across devices, and an easy booking experience for the end users.</p>
                     `}
                 text2={`<p>This is where the WD Agency can help. As a trusted brand in the UAE, we are a leader in travel and tourism website development. We develop websites that offer more than just a pretty site. With travel website solutions we’re providing advanced and seamless booking systems, multilingual, mobile-first experiences, and secure payment gateways with high intention and user engagement in the planning, booking, pre-and post-travel engagement.</p>
                 <p>Whether you're running a travel agency, tour operator, hotel group or destination management company, WD Agency will help you ensure that your digital presence conveys the value of your brand and meets the high expectations of the UAE's tourism sector. </p>
