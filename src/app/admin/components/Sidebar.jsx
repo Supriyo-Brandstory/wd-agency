@@ -9,6 +9,7 @@ const Sidebar = () => {
   const links = [
     { href: '/admin/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/admin/dashboard/seo', label: 'SEO', icon: '⚙️' },
+    { href: '/admin/dashboard/enquiry', label: 'Enquiry', icon: '📧' },
   ];
 
     const handleLogout = async () => {

@@ -15,6 +15,18 @@ model Admin {
   updatedAt DateTime @updatedAt
 }
 
+model Enquiry {
+  id              Int      @id @default(autoincrement())
+  fullName        String
+  emailAddress    String
+  phoneNumber     String?
+  companyName     String?
+  serviceInterestedIn String
+  projectBudget   String?
+  projectDetails  String   @db.Text
+  createdAt       DateTime @default(now())
+}
+
 model Seo {
   id          Int      @id @default(autoincrement())
   pageurl     String
