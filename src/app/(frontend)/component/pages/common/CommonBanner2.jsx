@@ -9,7 +9,7 @@ const CommonBanner2 = ({bg,heding,subtitle}) => {
     <div className={`sm-mb-50 ${styles.commonbanner2}`} style={{'--bg':`url(${bgUrl}) no-repeat center center / cover`}}>
         <div className={`frame-1200 py-100 sm-pt-0 sm-pb-10 sm-px-20 ${styles.content}`}>
             <h2 dangerouslySetInnerHTML={{__html:heding}}></h2>
-            <p className='my-30'>{subtitle}</p>
+            <p className='my-30' dangerouslySetInnerHTML={{__html:subtitle}}></p>
             <Link href="/contact-us" className="blue-btn">Get a Free Consultation</Link>
         </div>
     </div>

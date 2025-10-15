@@ -32,9 +32,11 @@ const Footer = () => {
             <ul>
               <li><Link href="/healthcare-web-development">Healthcare Websites</Link></li>
               <li><Link href="/travel-web-development">Travel Websites</Link></li>
-              <li><Link href="#">Full Stack Development</Link></li>
+              <li><Link href="/real-estate-web-development">Real Estate Websites</Link></li>
               <li><Link href="/e-commerce-web-development">E-commerce Websites</Link></li>
-              <li><Link href="#">PHP Web Development</Link></li>
+              <li><Link href="/corporate-web-development">Corporate Websites</Link></li>
+              <li><Link href="/portfolio-web-development">Portfolio Websites</Link></li>
+              <li><Link href="/technology-web-development">Tech Startup Websites</Link></li>
             </ul>
           </div>
 

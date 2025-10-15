@@ -33,6 +33,7 @@ import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
 import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 const page = () => {
     return (
@@ -44,6 +45,7 @@ const page = () => {
 
             />
             <CommonIntroduction
+                heding={'Healthcare Website Design UAE'}
                 text1={` <p>Healthcare in the UAE is rapidly embracing digital transformation. Now that online consultations, patient portals, and scheduling patient appointments have become common, patients expect the highest level of healthcare backed by impeccable digital experience from healthcare providers. Therefore, the need for a professionally made, secure, yet patient-friendly website seems to be less in the category of an extra amenity and more of a mere necessity for small clinics or multi-specialty hospitals.</p>
                     <p>A healthcare website is more than a simple online brochure, it is your virtual clinic. Patients will expect to find which doctors are accepting patients, book appointments, check their medical history, or even meet the doctor in their treatment room, living room, or at work via telemedicine. On the other hand, medical facilities have to safeguard their sensitive health information as per industry standards.</p>
                     `}
@@ -71,57 +73,57 @@ const page = () => {
                         title: 'Healthcare Website Design',
                         desc: 'We create modern, premium, easy-to-navigate designs that inspire trust and professionalism. Each design is mobile-first, easily accessible by smartphone, tablet and desktop interface.',
                         img: imageService1,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }, {
                         title: 'Doctor & Hospital Websites',
                         desc: 'From individual practitioner sites to complex multi-department hospital portals, we build fully custom websites. Every element from custom layout to functionality, is crafted to highlight specialties.',
                         img: imageService2,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Appointment Booking System',
                         desc: 'Streamline appointments with a booking system. Patients book online, receive reminders, and sync with their calendars, which reduces no-shows and time on administration tasks.',
                         img: imageService3,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Telemedicine Integration',
                         desc: 'Enable video consultations, secure messaging with doctors, and digital prescriptions. This is a must-have feature for modern-day healthcare providers who are catering patients remotely.',
                         img: imageService4,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Patient Portals',
                         desc: 'Give patients secure login access with medical history, lab work results, and prescriptions with an access to their health record. This promotes transparency and empowers patients to manage own care.',
                         img: imageService5,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Medical Ecommerce Integration',
                         desc: 'Extend any products/services through e-commerce. Sell medicines, healthcare products, and wellness packages directly from your website with secure order and delivery options.',
                         img: imageService6,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
 
                     },
                     {
                         title: 'Content Management Systems',
                         desc: 'Effortlessly manage doctor profiles, services, and medical blogs. We ensure your website stays organized, up to date, and optimized for both users and search engines.',
                         img: imageService7,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Payment Gateway Integration',
                         desc: 'We configure secure payments embodied with insurance billing, online consultations, and care packages, to have payment processes be seamless. Patients can pay bills online with confidence.',
                         img: imageService8,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }
 
 
@@ -220,6 +222,7 @@ const page = () => {
                         }
                     ]}  
                     />
+                    <CommonServiceLocations/>
                     <CommonFaqSection
                         faqs={[
                             {

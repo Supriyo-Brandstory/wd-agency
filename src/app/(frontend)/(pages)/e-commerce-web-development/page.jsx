@@ -47,6 +47,7 @@ const page = () => {
 
             />
             <CommonIntroduction
+                heding={'Ecommerce Web Development in Dubai'}                
                 text1={` <p>The online retail sector in the UAE is booming as recent reports indicate that online sales in the region will surpass $17 billion by 2025, and aided by a tech-savvy and convenience-driven population. The UAE has reached a mobile-first ecommerce economy, with 98% internet penetration and practically every adult possessing a smartphone. </p>
                     <p>The shopper experience in the UAE is more than simple online shopping—it demands smarter online shopping. Shoppers want fast-loading websites, secure methods of payment, and the option to choose different languages, currencies, and seamless product delivery. Companies that don’t provide these simple shopping experiences will quickly lose out to competitors offering these experiences. </p>
                     `}
@@ -68,63 +69,63 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Our Ecommerce Website Development Services'}
-                subheding='At WD Agency, we offer a complete range of ecommerce website development services, from initial design through to ongoing support, in the UAE, empowering your business with the full suite of ecommerce services you need to compete, connect, and grow online. We harness the best in modern technology, combined with in-depth market and industry-specific knowledge, to develop custom ecommerce solutions that deliver results you can measure. We do not just create websites; we build dedicated ecommerce websites that are conversion-driven to improve the customer experience, maximizing sales and growth as your business grows.'
+                subheding='At WD Agency, we offer a complete range of E-commerce website development services, from initial design through to ongoing support, in the UAE, empowering your business with the full suite of ecommerce services you need to compete, connect, and grow online. We harness the best in modern technology, combined with in-depth market and industry-specific knowledge, to develop custom ecommerce solutions that deliver results you can measure. We do not just create websites; we build dedicated ecommerce websites that are conversion-driven to improve the customer experience, maximizing sales and growth as your business grows.'
                 services={[
                     {
-                        title: 'Custom Ecommerce Website Design',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        title: 'Custom Website Design',
+                        desc: 'We want your e-commerce website to tell your brands unique story. Our design team creates custom mobile-first ecommerce websites that look visually stunning and resonate with your brand persona while delivering an intuitive and smooth customer experience.',
                         img: imageService1,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }, {
-                        title: 'Ecommerce Website Development',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        title: 'E-commerce Website Development',
+                        desc: 'We focus on creating websites that are scalable, secure, and optimized for performance, whether developing Shopify, Magento, or WooCommerce. For businesses with more complex needs, we offer custom ecommerce development services with features like multi-vendor shops and advanced integrations.',
                         img: imageService2,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Payment Gateway Integration',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        desc: 'We make payments easy and secure by building in all the major payment processors—such as PayPal, Stripe, and Apple Pay, and accepting UAE banks and digital wallet options. Every transaction is PCI DSS compliant, so you can be sure that every exchange is encrypted and trustworthy.',
                         img: imageService3,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Shopping Cart & Checkout Solutions',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        desc: 'Cart abandonment is a significant challenge for any ecommerce transaction, and our goal is to minimize cart abandonment. We build checkout flows and user-friendly carts that reduce friction and encourage purchases. Features like guest checkout, pre-filled forms, multiple payment call-outs, and real-time checkout status.',
                         img: imageService4,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Product Catalog Management',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        desc: 'Whether you are selling 50 products or managing a 50,000+ inventory, our systems will assist you in managing your catalog. We can quickly and easily upload products, categorize and sort them, and filter them for advanced utilization.',
                         img: imageService5,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
-                        title: 'Mobile Commerce (M-Commerce) Development',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel.  ',
+                        title: 'Mobile Commerce (M-Commerce)',
+                        desc: 'Since the UAE marketplace acts as a mobile-first audience, having a responsive ecommerce website is essential at this point, and no longer an option. We develop mobile-first ecommerce websites that provide an app-like experience with fast navigation, checkout and responsive on-the-go visuals.',
                         img: imageService6,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
 
                     },
                     {
                         title: 'Third-Party Integrations',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        desc: 'We assist in building a streamlined operation by integrating your ecommerce store with essential third-party systems. From CRM and ERP tools, to shipping APIs and logistics partners, to marketing automation services, we will ensure you are connected and you have less manual work.',
                         img: imageService7,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Maintenance & Support',
-                        desc: 'Lorem ipsum dolor sit amet consectetur. Sodales vulputate elementum non maecenas dui ipsum consequat porttitor. Imperdiet nullam varius eget adipiscing vel. ',
+                        desc: 'Your E-commerce journey does not end after launch and neither does our dedication to you.  We offer post-launch maintenance, performance monitoring, bug fixes, feature improvements, and regular updates to keep your site performing well and securely.',
                         img: imageService8,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }
 
 

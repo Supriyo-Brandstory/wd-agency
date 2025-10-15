@@ -33,6 +33,7 @@ import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
 import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 const page = () => {
     return (
@@ -44,6 +45,7 @@ const page = () => {
 
             />
             <CommonIntroduction
+                heding={'Travel & Tourism Website Development'}
                 text1={`<p>The travel and tourism industry in the UAE is rapidly becoming one of the top growth sectors, with millions of international visitors and a powerful local market. Today's travelers depend on digital technology to research, book, and enhance their travel experience. From luxurious vacations, desert excursions, and corporate travel to vacations and weekend escapes, travelers do travel planning, booking, pre-and post-travel engagement to be digitally enhanced.</p>
                     <p>However, travelers can now access a myriad of travel planning and booking websites. Today’s travelers expect customized suggestions, availability, easy price comparison, adaptability across devices, and an easy booking experience.</p>
                     `}
@@ -71,57 +73,57 @@ const page = () => {
                         title: 'Custom Website Design',
                         desc: 'We design custom, visually appealing websites that are intuitive and mobile-first to allow travelers complete easiness and simplicity in browsing and booking no matter what device they are using. Each design reflects your brand identity while prioritizing usability and conversions.',
                         img: imageService1,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }, {
                         title: 'Booking & Reservation Systems',
                         desc: 'We create booking systems for hotels, flights, tours, and packages provide real-time availability, confirmation, and no-frills navigation for planning. We also include advanced filtering options to simplify choices for travelers.',
                         img: imageService2,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Travel Planner Websites',
                         desc: 'We empower travel planners to manage multi-day itineraries, showcase packages, dynamic pricing, and interactive customization for travelers which not only can drive revenue but also decrease manual effort.',
                         img: imageService3,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Technology Integrations',
                         desc: 'We integrate fast and scalable APIs for flight, hotel, car rental, and tour booking systems to provide real-time and convenience for your customers. This allows your website platform to operate smoothly and remain competitive.',
                         img: imageService4,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Multi-language Support',
                         desc: 'Essential for UAE’s diverse market, our multilingual and multi-currency solutions expand your global reach and accessibility. Travelers feel at home with content and pricing in their language and currency.',
                         img: imageService5,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
-                        title: 'Mobile-Friendly Solutions',
+                        title: 'Mobile-Friendly Websites',
                         desc: 'Our responsive designs ensure smooth mobile bookings and an exceptional user experience on all devices. With features like push notifications and seamless integrations, you can engage modern travelers effectively.',
                         img: imageService6,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
 
                     },
                     {
                         title: 'Personalized Travel Recommendations',
                         desc: 'We deliver tailored travel suggestions based on user preferences, search history, and popular trends. By offering personalized experiences, you can increase engagement, inspire new trips, and encourage repeat visits.',
                         img: imageService7,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     },
                     {
                         title: 'Maintenance & Support',
                         desc: 'We provide ongoing support, seasonal updates, and performance scaling for peak travel times, ensuring uninterrupted service. From fixing bugs to enhancement of features, we are always there for you.',
                         img: imageService8,
-                        btnname: 'Learn more',
-                        link: '#',
+                        btnname: 'Contact Us',
+                        link: '/contact-us',
                     }
 
 
@@ -219,6 +221,7 @@ const page = () => {
                         }
                     ]}  
                     />
+                    <CommonServiceLocations/>
                     <CommonFaqSection
                         faqs={[
                             {
