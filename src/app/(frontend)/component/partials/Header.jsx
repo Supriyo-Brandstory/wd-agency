@@ -105,14 +105,14 @@ export default function Header() {
             </button>
           </div>
 
-          <div className={styles.dropdown}>
-            <button>Resources ▾</button>
+          {/* <div className={styles.dropdown}>
+            <button>Blog ▾</button>
             <div className={styles.dropdownMenu}>
               <Link href="#">Blog</Link>
               <Link href="#">Case Studies</Link>
             </div>
-          </div>
-
+          </div> */}
+          <Link href="/blog">Blog</Link>
           <Link href="#">Portfolio</Link>
           <Link href="/contact-us">Contact</Link>
           <Link href="/contact-us" className={styles.quoteBtn}>Get Quote</Link>
