@@ -198,28 +198,7 @@ const page = () => {
                     rightimage={imagewhydevelopment}
 
                     />
-                    <CommonClientTestimonials
-                    testimonials={[
-                        {
-                            id: 1,
-                            name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
-                            image: imagetestimonial1,
-                        },
-                        {
-                            id: 2,
-                            name: "Sophia K",
-                            text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
-                            image: imagetestimonial2,
-                        },
-                                            {
-                            id: 3,
-                            name: "James P",
-                            text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
-                            image: imagetestimonial3,
-                        }
-                    ]}  
-                    />
+                    <CommonClientTestimonials/>
                     <CommonServiceLocations/>
                     <CommonFaqSection
                         faqs={[

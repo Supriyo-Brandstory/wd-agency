@@ -9,6 +9,7 @@ import arrowright from '@/app/(frontend)/assets/images/icons/right-icon.svg'
 import quoteicon from '@/app/(frontend)/assets/images/icons/quote-icon.svg'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
+import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 
 
 export default function CommonClientTestimonials({
@@ -25,6 +26,12 @@ export default function CommonClientTestimonials({
             text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
             image: imagetestimonial2,
         },
+        {
+                                    id: 3,
+                                    name: "James P",
+                                    text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
+                                    image: imagetestimonial3,
+                                }
     ]
 }) {
   const [index, setIndex] = useState(0);
