@@ -37,8 +37,8 @@ const ContactInformation = () => {
           </div>
           <div className='flex items-start gap-20'>
             <Image src={pinkmailbox} alt='mailbox' width={40} height={40} />
-            <h4>+971 52 283 165 <br />
-              <span>Call us during business hours</span>
+            <h4><a href="tel:+971522831655">+971 52 283 1655</a><br />
+              <span>Call us 24/7 available services</span>
             </h4>
           </div>
         </div>
@@ -46,7 +46,7 @@ const ContactInformation = () => {
         <div className={styles.contactInformationBox}>
           <div className='flex items-start gap-20'>
             <Image src={pinkmailbox} alt='mailbox' width={40} height={40} />
-            <h4>Dubai, United Arab Emirates <br />
+            <h4><a href="https://goo.gl/maps/yourlocation" target="_blank"> Al Meheri Plaza, Dubai, UAE</a> <br />
               <span>Visit our office</span>
             </h4>
           </div>

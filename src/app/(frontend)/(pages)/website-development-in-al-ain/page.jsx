@@ -31,6 +31,8 @@ import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobi
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 
 
@@ -147,6 +149,9 @@ const page = () => {
         footertext={'We have worked with top businesses in Al Ain and the UAE across retail, healthcare, education, hospitality, e-commerce, and more. We know what it takes to build a digital platform that works for every niche.'}
     />
     <CommonIndustries/>
+    <CommonClientTestimonials/>
+    <CommonServiceLocations/>    
+
     <CommonFaqSection
         faqs={[
             {

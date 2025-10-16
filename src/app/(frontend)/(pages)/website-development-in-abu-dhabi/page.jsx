@@ -32,6 +32,8 @@ import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 import DevelopmentProcess from '@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 
 
@@ -161,6 +163,8 @@ const page = () => {
 
             />
             <CommonIndustries />
+            <CommonClientTestimonials/>
+            <CommonServiceLocations/>
 
             <CommonFaqSection
                 faqs={[

@@ -1,6 +1,6 @@
 import React from 'react'
 import CommonBanner2 from '../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/e-commerce-dev.webp'
 import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
 import imageintro1 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-1.webp'
 import imageintro2 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-2.webp'

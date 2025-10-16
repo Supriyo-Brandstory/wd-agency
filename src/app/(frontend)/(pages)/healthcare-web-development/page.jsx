@@ -5,7 +5,7 @@ import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
 import imageintro1 from '@/app/(frontend)/assets/images/healthcare-web-development/introimg-1.jpg'
 import imageintro2 from '@/app/(frontend)/assets/images/healthcare-web-development/introimg-2.jpg'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
-import imagewhymetter from '@/app/(frontend)/assets/images/healthcare-web-development/whymetterbg.webp'
+import imagewhymetter from '@/app/(frontend)/assets/images/healthcare-web-development/healthcare-website-design-services.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import imageService1 from '@/app/(frontend)/assets/images/healthcare-web-development/Healthcare-Website-Design.webp'
 import imageService2 from '@/app/(frontend)/assets/images/healthcare-web-development/Doctor-Hospital-Websites.webp'
@@ -60,9 +60,9 @@ const page = () => {
                 heding={'Why You Need a Professional Website for Healthcare Business'}
                 subheding={'In the UAE, the digital healthcare industry is growing at a rapid pace. Patients today prefer the convenience of being able to book a doctor appointment from their viewing device of choice, engage in health records remotely, and consult with specialists without taking tiresome travel or long waiting times. Because of this shift, healthcare websites are no longer considered optional, they are a necessity.'}
                 lefttext={`  <p>A modern healthcare website can be the first point of contact for patients. Patients use the website to assess your practice's credibility, obtain medical information, and ultimately trust your clinic or hospital. Consider features like online appointment booking, health blogs, telehealth integration, and patient portals. All of these features can improve user experience, but will also help to improve the trust between the doctor and patient.</p>
-                        <p>With that, security and compliance are just as important. Any healthcare website must abide by international standards to ensure sensitive patient information is secure and confidential. The other consideration is that with mobile usage being the dominant user experience in the UAE, your website must be mobile-first and responsive (allowing for usability on any device).</p>
+                        <p>With that, security and compliance are just as important. Any healthcare website must abide by international standards to ensure sensitive patient information is secure and confidential. The other consideration is that with mobile usage being the dominant user experience in the UAE, your website must be mobile-first and responsive (allowing for usability on any device.)</p>
                         `}
-                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. When collaborating with WD Agency, the best healthcare website development agency in UAE, you have a trusted partner that understands the nuances around healthcare needs in the UAE and delivers a website built for the expectations of the healthcare and digital world.</p>
+                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. When collaborating with WD Agency, the best healthcare website development agency in UAE, you have a trusted partner that understands the nuances around healthcare needs in the UAE.</p>
                             `}
             />
             <CommonIndustries

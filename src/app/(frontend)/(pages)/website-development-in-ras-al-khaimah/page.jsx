@@ -31,6 +31,8 @@ import MobileFirst from '@/app/(frontend)/assets/images/website-development/Mobi
 import Optimized from '@/app/(frontend)/assets/images/website-development/Optimized.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
 
 
@@ -146,6 +148,9 @@ const page = () => {
             />
 
             <CommonIndustries/>
+            <CommonClientTestimonials/>
+            <CommonServiceLocations/>
+
             <CommonFaqSection
                 faqs={[
                     {
