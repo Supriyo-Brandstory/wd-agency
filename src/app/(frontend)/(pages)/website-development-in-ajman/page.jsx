@@ -31,6 +31,7 @@ import Optimized from '@/app/(frontend)/assets/images/website-development/Optimi
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import DevelopmentProcess from '@/app/(frontend)/assets/images/ajman/DevelopmentProcess.webp'
+import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 
 
 const page = () => {
@@ -44,7 +45,7 @@ const page = () => {
             <CommonAboutPage
                 text1={"Website Design Ajman – Build Your Digital Identity with Confidence"}
                 text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website design services in Ajman to help businesses stand out, attract customers, and grow sustainably."}
-                text3={"We create and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
+                text3={"At Website Development Agency, we design and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
@@ -57,7 +58,7 @@ const page = () => {
                 text1="Why Your Business in Ajman Needs a Professional Website"
                 text2={`
                             <p class="mb-20">
-                           The Ajman market is loaded with small enterprises, well-established companies, and local merchants. Competing for visibility, it is inescapable to have a professional website. Here is why:
+                           Ajman is a competitive market packed with small enterprises, well-established companies, and local merchants. Competing for visibility, it is inescapable to have a professional website. Here is why:
                             </p>
                             <ul class="ml-40">
                             <li>Builds trust and credibility - Customers decide the worthiness of your business within seconds after landing on your website.</li>
@@ -66,7 +67,7 @@ const page = () => {
                             <li>Supports long-term growth – Your website is the cornerstone for digital marketing strategies and driving sustainable business growth.</li>
                             </ul>
                             <p>
-                            When you partner with a WD Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                            When you partner with a WD Agency for your website design in Ajman, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
                             </p>
                     `}
                 img={sharjahAboutimg}
@@ -159,6 +160,9 @@ const page = () => {
             />
 
                 <CommonIndustries/>
+                <CommonClientTestimonials/>
+                <CommonServiceLocations/>
+
             <CommonFaqSection
                 faqs={[
                     {
@@ -195,7 +199,7 @@ const page = () => {
                     },
                     {
                         q: "Why Choose WD Agency for Web Development in Ajman?",
-                        a: "We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
+                        a: "WD Agency is one of the most reputable and 5-star rated web design agency in Ajman. We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
                     }
                 ]}
             />
