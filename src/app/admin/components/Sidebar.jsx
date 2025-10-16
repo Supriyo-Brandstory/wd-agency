@@ -10,6 +10,8 @@ const Sidebar = () => {
     { href: '/admin/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/admin/dashboard/seo', label: 'SEO', icon: '⚙️' },
     { href: '/admin/dashboard/enquiry', label: 'Enquiry', icon: '📧' },
+    { href: '/admin/dashboard/blog-category', label: 'Blog Categories', icon: '📚' },
+    { href: '/admin/dashboard/blog', label: 'Blogs', icon: '📝' },
   ];
 
     const handleLogout = async () => {
