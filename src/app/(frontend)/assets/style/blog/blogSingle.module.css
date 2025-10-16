@@ -1,11 +1,11 @@
-html {
-  scroll-behavior: smooth;
-}
+
 
 .blogSection {
   background: #0d0d0d;
   color: #fff;
   min-height: 100vh;
+  scroll-behavior: smooth;
+
 }
 
 .header {
