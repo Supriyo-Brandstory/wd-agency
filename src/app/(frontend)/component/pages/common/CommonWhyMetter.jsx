@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '@/app/(frontend)/assets/style/common/commonWhyMetter.module.css'
+import Image from 'next/image';
 
 const CommonWhyMetter = ({heding,subheding,lefttext,righttext,imagewhymetter}) => {
     const bgUrl = typeof imagewhymetter === "string" ? imagewhymetter : imagewhymetter?.src;
@@ -12,8 +13,9 @@ const CommonWhyMetter = ({heding,subheding,lefttext,righttext,imagewhymetter}) =
         </div>
        
     </div>
-     <div className={styles.whymetterbg} style={{'--bg':`url(${bgUrl}) no-repeat center center / cover`}}>
-            <div className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
+     <div className={`pb-200 sm-pb-50 sm-px-20 ${styles.whymetterbg}`} >
+        <Image src={bgUrl} alt="Why Website Development"  width={1200} height={500} />
+            <div className={`${styles.absolute}`}>
                 <div className={`${styles.flex} ${styles.endalign}`}>
                     <div className={styles.left}>
                         <div className={styles.background} dangerouslySetInnerHTML={{__html:lefttext}}/>

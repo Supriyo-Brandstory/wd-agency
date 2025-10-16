@@ -21,7 +21,8 @@
 
 @media (max-width: 768px) {
     .commonbanner2 {
-        height: 40vh;
+        height: auto;
+        padding: 30px 0px;
     }
     .commonbanner2::after{
         height: 48%;
