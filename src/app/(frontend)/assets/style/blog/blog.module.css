@@ -1,0 +1,247 @@
+.banner {
+    position: relative; /* ensures overlay is positioned relative to banner */
+    background: var(--bg);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner h1,
+.banner p {
+    position: relative; /* stay above overlay */
+    z-index: 2;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* match banner height */
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.blogSection {
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 80px 0;
+  min-height: 80vh;
+}
+
+
+
+.heading {
+  background: linear-gradient(90deg, #E83E8C, #2F2FB0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  text-align: center;
+  color: #bbb;
+}
+
+/* FILTER BAR */
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  background: #181818;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+.filterGroup label {
+  margin-right: 10px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.selectBox {
+  background: #111;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.selectBox:focus {
+  border-color: #E83E8C;
+}
+
+.searchGroup {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchInput {
+  width: 250px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #2F2FB0;
+}
+
+/* BLOG GRID */
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.blogCard {
+  background: #181818;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(255, 0, 200, 0.2);
+}
+
+.imageWrapper {
+  overflow: hidden;
+}
+
+.blogImage {
+    width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+
+.blogContent {
+  padding: 20px;
+}
+
+.blogContent h2 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.date {
+  display: block;
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.blogContent p {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.readMore {
+  color: #E83E8C;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.readMore:hover {
+  color: #2F2FB0;
+}
+
+.categoryTag {
+  display: inline-block;
+  background: linear-gradient(90deg, #E83E8C, #2F2FB0);
+  padding: 3px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.noResults {
+  text-align: center;
+  color: #aaa;
+  font-size: 1.1rem;
+  grid-column: 1 / -1;
+}
+
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-family: inherit;
+}
+
+/* Page number buttons */
+.pagination button {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.pagination button:hover:not(:disabled) {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/* Disabled buttons */
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Active page */
+.activePage {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+  font-weight: bold;
+}
+
+/* Optional "End of Page" label */
+.pagination .endPage {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+    .banner {
+    padding: 20px;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+.filterBar {
+
+    flex-direction: column;
+}
+}
