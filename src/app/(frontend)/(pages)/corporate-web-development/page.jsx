@@ -1,33 +1,29 @@
 import React from 'react'
 import CommonBanner2 from '../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/corporate-website/corporate-website.webp'
 import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-1.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-2.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
-import imagewhymetter from '@/app/(frontend)/assets/images/e-commerce-web-development/whymetterbg.webp'
+import imagewhymetter from '@/app/(frontend)/assets/images/corporate-website/wbhy-corporate-need-website.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
-import imageService1 from '@/app/(frontend)/assets/images/e-commerce-web-development/Custom-Ecommerce-Website-Design.webp'
-import imageService2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Ecommerce-Website-Development.webp'
-import imageService3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp'
-import imageService4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Shopping-Cart-Checkout-Solutions.webp'
-import imageService5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Product-Catalog-Management.webp'
-import imageService6 from '@/app/(frontend)/assets/images/e-commerce-web-development/Mobile-Commerce-Development.webp'
-import imageService7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Third-Party-Integrations.webp'
-import imageService8 from '@/app/(frontend)/assets/images/e-commerce-web-development/Maintenance-Support.webp'
+import imageService1 from '@/app/(frontend)/assets/images/corporate-website/web-design.webp'
+import imageService2 from '@/app/(frontend)/assets/images/corporate-website/content-cms.webp'
+import imageService3 from '@/app/(frontend)/assets/images/corporate-website/multi-language-support.webp'
+import imageService4 from '@/app/(frontend)/assets/images/corporate-website/csr.webp'
+import imageService5 from '@/app/(frontend)/assets/images/corporate-website/crm-integration.webp'
+import imageService6 from '@/app/(frontend)/assets/images/corporate-website/mobile-optimize.webp'
+import imageService8 from '@/app/(frontend)/assets/images/corporate-website/support-maintenance.webp'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
 import imagecommon1 from '@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png'
 import imagecommon2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png'
 import imagecommon3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png'
 import imagecommon4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png'
 import imagecommon5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png'
-import imagecommon6 from '@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png'
-import imagecommon7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png'
-import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png'
-import imagecommon9 from '@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png'    
+import imagecommon7 from '@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png'  
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/corporate-website/why-choose-wd-agency.webp'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
@@ -42,8 +38,8 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Corporate Website Development for </br>Growing Businesses in UAE"}
-                subtitle={"Building professional, user-friendly corporate websites that drive growth </br>and enhance brand presence in the UAE."}
+                heding={"Corporate Website Development for </br>Growing Businesses in Dubai, UAE"}
+                subtitle={"At WD Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."}
 
             />
             <CommonIntroduction
@@ -59,12 +55,12 @@ const page = () => {
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
-                heding={'Why Corporates Need Professional Websites'}
+                heding={'Why Corporate Businesses Need Professional Websites'}
                 subheding={'Corporate websites in the UAE’s changing and vibrant business market serve as the first interfaces for customers, investors, and other people from the company’s network. A well-maintained online presence is more than just a good idea, it acts as the foundation of trust between the corporation and its customers. This will undoubtedly lead to future visits beyond the first.'}
                 lefttext={`  <p>A corporate website is not just about design; it’s about building trust. First of all, they represent the ones who might want to invest in the company, as well as the global partners. The way a company presents itself through the web is the first criterion on which decision-makers base their judgment.</p>
                         <p>The mobile-first websites are a must for the digitally active audience of the UAE. Common mobile habits, such as the use of small handheld devices to access corporate content, are directly linked to the importance of mobile-friendly design. When people are browsing in the same fashion, they are basically turning their mobile devices into their worldwide access point for business.</p>
                         `}
-                righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At WD Agency, we are the best corporate website development agency in UAE helping business build brand identity with high-end and professional website design services.</p>
+                righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At WD Agency, we are the best <strong><a href="https://websitedevelopmentagency.ae/">web development agency</a></strong> in Dubai and the UAE helping business build brand identity with high-end and professional website design services.</p>
                             `}
             />
             <CommonIndustries
@@ -134,7 +130,7 @@ const page = () => {
                     { id: 3, img: imagecommon3, title: 'Accessibility & Compliance', desc: 'Websites that are inclusive and also adhere to accessibility requirements make it possible for all visitors, no matter the level of their abilities. They can access and interact with the brand of yours without experiencing any difficulties.' },
                     { id: 4, img: imagecommon4, title: 'Fast Loading Speed', desc: 'Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.' },
                     { id: 5, img: imagecommon5, title: 'Professional Content Structure', desc: 'Corporate sections like About Us, Services, Leadership, Careers, CSR, and Contact are the best means of organizing information that companies want to share with the public and further establish brand trust.' },
-                    { id: 6, img: imagecommon6, title: 'Analytics & Performance Dashboards', desc: "Through visitor data collection and engagement tracking, large corporations can make profitable decisions based on the collected research. These dashboards provide insights into user behavior, property views, and conversion trends." },
+                    { id: 6, img: imagecommon7, title: 'Analytics & Performance Dashboards', desc: "Through visitor data collection and engagement tracking, large corporations can make profitable decisions based on the collected research. These dashboards provide insights into user behavior, property views, and conversion trends." },
                    
                 ]}
 

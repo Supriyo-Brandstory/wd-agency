@@ -1,33 +1,30 @@
 import React from 'react'
 import CommonBanner2 from '../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/startup-website-dev/startup-web-banner.webp'
 import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-1.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-2.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/startup-website-dev/intro-image-1.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/startup-website-dev/intro-image-2.webp'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
-import imagewhymetter from '@/app/(frontend)/assets/images/e-commerce-web-development/whymetterbg.webp'
+import imagewhymetter from '@/app/(frontend)/assets/images/startup-website-dev/startup-needs-website.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
-import imageService1 from '@/app/(frontend)/assets/images/e-commerce-web-development/Custom-Ecommerce-Website-Design.webp'
-import imageService2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Ecommerce-Website-Development.webp'
-import imageService3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp'
-import imageService4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Shopping-Cart-Checkout-Solutions.webp'
-import imageService5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Product-Catalog-Management.webp'
-import imageService6 from '@/app/(frontend)/assets/images/e-commerce-web-development/Mobile-Commerce-Development.webp'
-import imageService7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Third-Party-Integrations.webp'
-import imageService8 from '@/app/(frontend)/assets/images/e-commerce-web-development/Maintenance-Support.webp'
+import imageService1 from '@/app/(frontend)/assets/images/startup-website-dev/startup-web-design.webp'
+import imageService2 from '@/app/(frontend)/assets/images/startup-website-dev/landing-page-creation.webp'
+import imageService3 from '@/app/(frontend)/assets/images/startup-website-dev/prototyping-mvp.webp'
+import imageService4 from '@/app/(frontend)/assets/images/startup-website-dev/saas-integration.webp'
+import imageService5 from '@/app/(frontend)/assets/images/startup-website-dev/crom-inte.webp'
+import imageService6 from '@/app/(frontend)/assets/images/startup-website-dev/responsive-web-desi.webp'
+import imageService7 from '@/app/(frontend)/assets/images/startup-website-dev/analytics-tracking.webp'
+import imageService8 from '@/app/(frontend)/assets/images/startup-website-dev/support-maintenance-ser.webp'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
 import imagecommon1 from '@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png'
 import imagecommon2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png'
 import imagecommon3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png'
 import imagecommon4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png'
 import imagecommon5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png'
-import imagecommon6 from '@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png'
-import imagecommon7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png'
-import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png'
-import imagecommon9 from '@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png'    
+import imagecommon7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png' 
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/startup-website-dev/why-choose-wd-agency-2025.webp'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
@@ -43,7 +40,7 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Website Development Agency in UAE </br>for Technology Startups"}
-                subtitle={"Empowering tech startups in the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "}
+                subtitle={"Empowering tech startups in Dubai & the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "}
 
             />
             <CommonIntroduction
@@ -140,7 +137,7 @@ const page = () => {
                     { id: 3, img: imagecommon3, title: 'Demos and MVP Showcases', desc: 'Use videos, demos, or interactive MVP presentations to give users a hands-on experience of your product. This helps explain complex ideas simply and engages visitors effectively.' },
                     { id: 4, img: imagecommon4, title: 'Fast Loading Speed', desc: 'Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.' },
                     { id: 5, img: imagecommon5, title: 'Lead Capture and Engagement Tools', desc: 'Strategically placed forms, CTAs, and contact options help capture interest from investors, early adopters, and potential customers. They also enable nurturing long-term relationships and repeat engagement.' },
-                    { id: 6, img: imagecommon6, title: 'Analytics, Security, and Scalability', desc: "Integrated analytics dashboards allow monitoring of user behavior, engagement, and growth metrics in real time. Combined with secure and scalable infrastructure, your website can handle growth, feature updates, and traffic spikes without issues." },
+                    { id: 6, img: imagecommon7, title: 'Analytics, Security, and Scalability', desc: "Integrated analytics dashboards allow monitoring of user behavior, engagement, and growth metrics in real time. Combined with secure and scalable infrastructure, your website can handle growth, feature updates, and traffic spikes without issues." },
                 ]}
 
             />

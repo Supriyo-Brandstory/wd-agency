@@ -14,14 +14,14 @@ import imageservice7 from "@/app/(frontend)/assets/images/location/UmmAlQuwain.w
 import imageservice8 from "@/app/(frontend)/assets/images/location/AlAin.webp";
 
 const locations = [
-  { name: "Web Development Dubai", image: imageservice1, link: "/" },
-  { name: "Web Dev. Abu Dhabi", image: imageservice2, link: "/website-development-in-abu-dhabi" },
-  { name: "Web Development Sharjah", image: imageservice3, link: "/website-development-in-sharjah" },
-  { name: "Web Development Ajman", image: imageservice4, link: "/website-development-in-ajman" },
-  { name: "Web Dev. Ras Al Khaimah", image: imageservice5, link: "/website-development-in-ras-al-khaimah" },
-  { name: "Web Development Fujairah", image: imageservice6, link: "/website-development-in-fujairah" },
-  { name: "Web Dev. Umm Al Quwain", image: imageservice7, link: "/website-development-in-umm-al-quwain" },
-  { name: "Web Development Al Ain", image: imageservice8, link: "/website-development-in-al-ain" },
+  { name: "Web Design in Dubai", image: imageservice1, link: "/" },
+  { name: "Web Design Abu Dhabi", image: imageservice2, link: "/website-development-in-abu-dhabi" },
+  { name: "Web Design in Sharjah", image: imageservice3, link: "/website-development-in-sharjah" },
+  { name: "Web Design in Ajman", image: imageservice4, link: "/website-development-in-ajman" },
+  { name: "Web Design Ras Al Khaimah", image: imageservice5, link: "/website-development-in-ras-al-khaimah" },
+  { name: "Web Design in Fujairah", image: imageservice6, link: "/website-development-in-fujairah" },
+  { name: "Web Design Umm Al Quwain", image: imageservice7, link: "/website-development-in-umm-al-quwain" },
+  { name: "Web Design in Al Ain", image: imageservice8, link: "/website-development-in-al-ain" },
 
 
 ];

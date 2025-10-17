@@ -40,8 +40,8 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Healthcare Website Development in UAE <br/>for Clinics & Hospitals"}
-                subtitle={"Build secure, user-friendly, and patient-focused healthcare websites with WD Agency."}
+                heding={"Healthcare Website Development in Dubai, <br/> UAE for Clinics & Hospitals"}
+                subtitle={"Build secure, user-friendly, and patient-focused healthcare websites with WD Agency.</br> We are the best healthcare web design agency in Dubai & the UAE."}
 
             />
             <CommonIntroduction
@@ -62,7 +62,7 @@ const page = () => {
                 lefttext={`  <p>A modern healthcare website can be the first point of contact for patients. Patients use the website to assess your practice's credibility, obtain medical information, and ultimately trust your clinic or hospital. Consider features like online appointment booking, health blogs, telehealth integration, and patient portals. All of these features can improve user experience, but will also help to improve the trust between the doctor and patient.</p>
                         <p>With that, security and compliance are just as important. Any healthcare website must abide by international standards to ensure sensitive patient information is secure and confidential. The other consideration is that with mobile usage being the dominant user experience in the UAE, your website must be mobile-first and responsive (allowing for usability on any device.)</p>
                         `}
-                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. When collaborating with WD Agency, the best healthcare website development agency in UAE, you have a trusted partner that understands the nuances around healthcare needs in the UAE.</p>
+                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. WD Agency is the best healthcare website development agency in Dubai, UAE, your trusted partner, understanding the unique needs of the healthcare sector in the UAE.</p>
                             `}
             />
             <CommonIndustries
@@ -134,14 +134,14 @@ const page = () => {
                 text2={"A healthcare site cannot simply be a listing of services, it needs to provide trust, usability, and accessibility for patients, in compliance with applicable regulations. At WD Agency, we design with these essential features in mind:"}
                 boxdata={[
                     { id: 1, img: imagecommon1, title: 'Responsive Design', desc: 'Patients frequently search when on the go, we build responsive sites that allow patients to browse seamlessly in smartphones, tablets, and desktops.' },
-                    { id: 2, img: imagecommon2, title: 'Fast & Secure Access', desc: 'Speed and security matter. In order to protect sensitive patient information, we utilize SSL, encrypt patient data, and comply with HIPAA/GDPR.' },
-                    { id: 3, img: imagecommon3, title: 'Online Appointment Booking', desc: 'A streamlined online appointment booking system reduces patient wait times and makes scheduling easy 24*7.' },
-                    { id: 4, img: imagecommon4, title: 'Doctor Directory & Profiles', desc: 'Doctor profiles with an engaging photo, areas of expertise, and their schedule for patients to build trust and lead patients to book an appointment.' },
-                    { id: 5, img: imagecommon5, title: 'Patient Portal Access', desc: 'Patients can view their reports, prescriptions, and medical history in a secure platform to further enable continuity of care.' },
-                    { id: 6, img: imagecommon6, title: 'Chatbots for Initial Queries', desc: "AI-powered chatbots can respond to FAQ's, triage patients, and allow for responsive communication at any time." },
-                    { id: 7, img: imagecommon7, title: 'Multi-language Functionality', desc: "Essential for diverse regions like the UAE, this feature ensures inclusivity by allowing patients to access information in their preferred language." },
-                    { id: 8, img: imagecommon8, title: 'Emergency Contact & Quick Help', desc: 'Critical features that give patients immediate access to urgent support when every second counts. These buttons are strategically placed for high visibility, allowing users to quickly connect.' },
-                    { id: 9, img: imagecommon9, title: 'Digital Marketing Readiness', desc: "We build websites optimized with healthcare-specific SEO best practices, ensuring your medical practice ranks prominently in relevant searches." },
+                    { id: 2, img: imagecommon4, title: 'Fast & Secure Access', desc: 'Speed and security matter. In order to protect sensitive patient information, we utilize SSL, encrypt patient data, and comply with HIPAA/GDPR.' },
+                    { id: 3, img: imagecommon6, title: 'Online Appointment Booking', desc: 'A streamlined online appointment booking system reduces patient wait times and makes scheduling easy 24*7.' },
+                    { id: 4, img: imagecommon9, title: 'Doctor Directory & Profiles', desc: 'Doctor profiles with an engaging photo, areas of expertise, and their schedule for patients to build trust and lead patients to book an appointment.' },
+                    { id: 5, img: imagecommon2, title: 'Patient Portal Access', desc: 'Patients can view their reports, prescriptions, and medical history in a secure platform to further enable continuity of care.' },
+                    { id: 6, img: imagecommon7, title: 'Chatbots for Initial Queries', desc: "AI-powered chatbots can respond to FAQ's, triage patients, and allow for responsive communication at any time." },
+                    { id: 7, img: imagecommon3, title: 'Multi-language Functionality', desc: "Essential for diverse regions like the UAE, this feature ensures inclusivity by allowing patients to access information in their preferred language." },
+                    { id: 8, img: imagecommon5, title: 'Emergency Contact & Quick Help', desc: 'Critical features that give patients immediate access to urgent support when every second counts. These buttons are strategically placed for high visibility, allowing users to quickly connect.' },
+                    { id: 9, img: imagecommon8, title: 'Digital Marketing Readiness', desc: "We build websites optimized with healthcare-specific SEO best practices, ensuring your medical practice ranks prominently in relevant searches." },
                 ]}
 
             />

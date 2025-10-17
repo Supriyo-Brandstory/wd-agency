@@ -40,8 +40,8 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Professional Travel & Tourism Website <br/>Development Services in UAE"}
-                subtitle={"We create custom websites for UAE travel businesses that attract visitors and drive </br>bookings. With visually stunning designs and features, our websites turn casual browsers into loyal travelers."}
+                heding={"Professional Travel & Tourism Website <br/>Development Services in Dubai & The UAE"}
+                subtitle={"We create custom websites for Dubai and UAE travel businesses that attract visitors and drive </br>bookings. With visually stunning designs and features, our websites turn casual browsers into loyal travelers."}
 
             />
             <CommonIntroduction
@@ -49,7 +49,8 @@ const page = () => {
                 text1={`<p>The travel and tourism industry in the UAE is rapidly becoming one of the top growth sectors, with millions of international visitors and a powerful local market. Today's travelers depend on digital technology to research, book, and enhance their travel experience. From luxurious vacations, desert excursions, and corporate travel to vacations and weekend escapes, travelers do travel planning, booking, pre-and post-travel engagement to be digitally enhanced.</p>
                     <p>However, travelers can now access a myriad of travel planning and booking websites. Today’s travelers expect customized suggestions, availability, easy price comparison, adaptability across devices, and an easy booking experience for the end users.</p>
                     `}
-                text2={`<p>This is where the WD Agency can help. As a trusted brand in the UAE, we are a leader in travel and tourism website development. We develop websites that offer more than just a pretty site. With travel website solutions we’re providing advanced and seamless booking systems, multilingual, mobile-first experiences, and secure payment gateways with high intention and user engagement in the planning, booking, pre-and post-travel engagement.</p>
+                text2={`<p>This is where the WD Agency can help. As a trusted <strong><a href="https://websitedevelopmentagency.ae/">web development agency in Dubai</a></strong>
+ & the UAE, we are a leader in travel and tourism website development. We develop websites that offer more than just a pretty site. With travel website solutions we’re providing advanced and seamless booking systems, multilingual, mobile-first experiences, and secure payment gateways with high intention and user engagement in the planning, booking, pre-and post-travel engagement.</p>
                 <p>Whether you're running a travel agency, tour operator, hotel group or destination management company, WD Agency will help you ensure that your digital presence conveys the value of your brand and meets the high expectations of the UAE's tourism sector. </p>
                     `}
                 imageintro1={imageintro1}
@@ -134,12 +135,12 @@ const page = () => {
                 text1={'Key Features of an Impactful Travel Website'}
                 text2={"An excellent travel website means so much more than looking beautiful-it builds an intuitive, trust-sensitive, and conversion-focused experience. At WD Agency, we prioritize features that define a successful travel platform:"}
                 boxdata={[
-                    { id: 1, img: imagecommon1, title: 'Search with Filters', desc: 'Enable travelers to filter by budget, type, or duration, making it simple to find their dream trip. Advanced search tools save time and keep visitors engaged.' },
+                    { id: 1, img: imagecommon5, title: 'Search with Filters', desc: 'Enable travelers to filter by budget, type, or duration, making it simple to find their dream trip. Advanced search tools save time and keep visitors engaged.' },
                     { id: 2, img: imagecommon2, title: 'Real-Time Booking Confirmation', desc: 'Instant updates or confirmations enhance a seamless flow of booking that eliminates uncertainty and builds customer faith.' },
-                    { id: 3, img: imagecommon3, title: 'Planning & Package Customization', desc: 'Allow travelers to customize and plan their experiences, from trips to accommodations. Customizable packages garner greater satisfaction and repeat bookings.' },
+                    { id: 3, img: imagecommon6, title: 'Planning & Package Customization', desc: 'Allow travelers to customize and plan their experiences, from trips to accommodations. Customizable packages garner greater satisfaction and repeat bookings.' },
                     { id: 4, img: imagecommon4, title: 'Fast Loading Speed', desc: 'Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences.' },
-                    { id: 5, img: imagecommon5, title: 'Mobile-First Experience', desc: 'Check to ensure simple navigation and booking process on smartphones, the most commonly used device for travel planning and distinctly affects conversion rate onto bookings.' },
-                    { id: 6, img: imagecommon6, title: 'Multi-Language Support', desc: "You can offer a localized experience to international travelers- a familiar experience increases the likelihood of the global traveler completing their booking." },
+                    { id: 5, img: imagecommon1, title: 'Mobile-First Experience', desc: 'Check to ensure simple navigation and booking process on smartphones, the most commonly used device for travel planning and distinctly affects conversion rate onto bookings.' },
+                    { id: 6, img: imagecommon3, title: 'Multi-Language Support', desc: "You can offer a localized experience to international travelers- a familiar experience increases the likelihood of the global traveler completing their booking." },
                     { id: 7, img: imagecommon7, title: 'Secure Payments & Booking', desc: "Allowing travel customers peace of mind in safe payments and access to accustomed bookings gives repeat no-brainer bookings. Secure transactions." },
                     { id: 8, img: imagecommon8, title: 'SEO-Friendly Architecture', desc: 'As you will know, your travel agency website is only truly effective when it has structured URLs, optimized meta data and clean coding. These will all make a positive contribution to Google, giving your website a competitive edge in visibility.' },
                     { id: 9, img: imagecommon9, title: 'Interactive Map Highlights', desc: "Take engaging imagery to conceptually take customers to destinations. maps integration can indicate nearby attractions, activities, and travel tips." },

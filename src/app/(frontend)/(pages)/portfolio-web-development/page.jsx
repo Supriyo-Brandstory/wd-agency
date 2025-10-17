@@ -1,9 +1,9 @@
 import React from 'react'
 import CommonBanner2 from '../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/e-commerce-web-development/banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/portfolio-web-development/main-banner-portfolio-website.webp'
 import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-1.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/e-commerce-web-development/introimg-2.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-website-design.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-web-design-agency.webp'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
 import imagewhymetter from '@/app/(frontend)/assets/images/e-commerce-web-development/whymetterbg.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
@@ -20,11 +20,8 @@ import imagecommon1 from '@/app/(frontend)/assets/images/e-commerce-web-developm
 import imagecommon2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png'
 import imagecommon3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png'
 import imagecommon4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png'
-import imagecommon5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png'
 import imagecommon6 from '@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png'
-import imagecommon7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png'
-import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png'
-import imagecommon9 from '@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png'    
+import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png'  
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
 import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
@@ -42,8 +39,8 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Portfolio & Personal Branding Website</br> Development in UAE"}
-                subtitle={"Showcase your work, achievements, and personality with a professionally</br> designed portfolio and personal branding websites in UAE tailored for success."}
+                heding={"Portfolio & Personal Branding Website</br> Development in Dubai, UAE"}
+                subtitle={"Showcase your work, achievements, and personality with a professionally</br> designed portfolio and personal branding websites in Dubai tailored for success."}
 
             />
             <CommonIntroduction
@@ -136,11 +133,11 @@ const page = () => {
                 text2={"Creating a beautifully designed site is just the start. To be truly successful in the competitive UAE ecommerce market, your website must be more than just pretty - it has to be fast, secure, easy to use, and conversion-focused. At WD Agency, we implement the features that will define your successful, modern ecommerce website in the UAE so your business will draw in visitors and convert them to customers."}
                 boxdata={[
                     { id: 1, img: imagecommon1, title: 'Modern, Engaging Design', desc: 'Crafted with simplicity and sophistication, your website will feature a clean, contemporary design that highlights your individuality and creativity, keeping the spotlight on you and your work.' },
-                    { id: 2, img: imagecommon2, title: 'Compelling Personal Storytelling', desc: 'An engaging “About Me” section that captures your professional journey, values, and vision, helping audiences connect with your story on a deeper, more personal level.' },
-                    { id: 3, img: imagecommon3, title: 'Purpose-Driven Calls-to-Action', desc: 'Strategically placed CTAs guide visitors to take meaningful actions, from collaboration inquiries to project discussions, turning interest into real opportunities.' },
+                    { id: 2, img: imagecommon3, title: 'Compelling Personal Storytelling', desc: 'An engaging “About Me” section that captures your professional journey, values, and vision, helping audiences connect with your story on a deeper, more personal level.' },
+                    { id: 3, img: imagecommon2, title: 'Purpose-Driven Calls-to-Action', desc: 'Strategically placed CTAs guide visitors to take meaningful actions, from collaboration inquiries to project discussions, turning interest into real opportunities.' },
                     { id: 4, img: imagecommon4, title: 'Fast Loading Speed', desc: 'Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.' },
-                    { id: 5, img: imagecommon5, title: 'Thought Leadership', desc: 'A dedicated blog or article space allows you to share insights, expertise, and opinions, positioning you as a credible voice and thought leader in your field.' },
-                    { id: 6, img: imagecommon6, title: 'Optimized for Search and Visibility', desc: "Built with SEO best practices, your site will be structured for higher visibility on search engines, ensuring your portfolio reaches the right audience effortlessly." },
+                    { id: 5, img: imagecommon6, title: 'Thought Leadership', desc: 'A dedicated blog or article space allows you to share insights, expertise, and opinions, positioning you as a credible voice and thought leader in your field.' },
+                    { id: 6, img: imagecommon8, title: 'Optimized for Search and Visibility', desc: "Built with SEO best practices, your site will be structured for higher visibility on search engines, ensuring your portfolio reaches the right audience effortlessly." },
                 ]}
 
             />

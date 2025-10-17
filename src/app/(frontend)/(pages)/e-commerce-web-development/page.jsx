@@ -29,9 +29,6 @@ import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelop
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
 import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
-import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
-import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
-import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 
@@ -42,14 +39,15 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Ecommerce Website Development for <br/>Growing UAE Businesses"}
-                subtitle={"Build scalable, user-friendly, and revenue-driven online stores with WD Agency."}
+                heding={"Ecommerce Website Development for <br/>Growing Dubai & the UAE Businesses"}
+                subtitle={"Build scalable, user-friendly, and revenue-driven online stores with WD Agency.</br> We are the top-rated E-commerce web design & development agency in Dubai & the UAE."}
 
             />
             <CommonIntroduction
                 heding={'Ecommerce Web Development in Dubai'}                
-                text1={` <p>The online retail sector in the UAE is booming as recent reports indicate that online sales in the region will surpass $17 billion by 2025, and aided by a tech-savvy and convenience-driven population. The UAE has reached a mobile-first ecommerce economy, with 98% internet penetration and practically every adult possessing a smartphone. </p>
-                    <p>The shopper experience in the UAE is more than simple online shopping—it demands smarter online shopping. Shoppers want fast-loading websites, secure methods of payment, and the option to choose different languages, currencies, and seamless product delivery. Companies that don’t provide these simple shopping experiences will quickly lose out to competitors offering these experiences. </p>
+                text1={` <p>The online retail sector in the UAE is booming as recent reports indicate that online sales in the region will surpass <strong><a href="https://virtuzone.com/blog/ecommerce-industry-uae/" target="_blank" rel="nofollow noopener noreferrer">$17 billion by 2025</a></strong>
+, and aided by a tech-savvy and convenience-driven population. The UAE has reached a mobile-first ecommerce economy, with 98% internet penetration and practically every adult possessing a smartphone. </p>
+                    <p>The shopper experience in the UAE is more than simple online shopping- it demands smarter online shopping. Shoppers want fast-loading websites, secure methods of payment, and the option to choose different languages, currencies, and seamless product delivery. Companies that don’t provide these simple shopping experiences will quickly lose out to competitors offering these experiences. </p>
                     `}
                 text2={`  <p>While solutions such as Shopify, WooCommerce, or Magento provide easy-to-manage ecommerce set up, at the end of the day, the vast majority of DIY stores don’t provide the customization, scalability, or security that a business really needs. Stores using templates may look reasonable, they rarely represent a brand and fail when it gets complicated - managing thousands of SKUs, logistics development, or more complex multi-currency payments, for example, really needs a custom ecommerce development solution. </p>
                 <p>At WD Agency, we understand the unique needs of UAE businesses. From integrating local payment gateways to creating bilingual websites in Arabic and English, we build platforms designed for growth in one of the world’s most dynamic ecommerce landscapes.</p>
@@ -60,16 +58,16 @@ const page = () => {
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
                 heding={'Why Ecommerce Website Development Matters in UAE'}
-                subheding={'The online retail sector in the UAE is booming as recent reports indicate that online sales in the region will surpass $17 billion by 2025, and aided by a tech-savvy and convenience-driven population. The UAE has reached a mobile-first ecommerce economy, with 98% internet penetration and practically every adult possessing a smartphone.'}
-                lefttext={`  <p>The shopper experience in the UAE is more than simple online shopping—it demands smarter online shopping. Shoppers want fast-loading websites, secure methods of payment, and the option to choose different languages, currencies, and seamless product delivery. Companies that don’t provide these simple shopping experiences will quickly lose out to competitors offering these experiences.</p>
-                        <p>At WD Agency, we understand the unique needs of UAE businesses. From integrating local payment gateways to creating bilingual websites in Arabic and English, we build platforms designed for growth in one of the world’s most dynamic ecommerce landscapes.</p>
+                subheding={'In the UAE, Ecommerce has quickly changed from a luxury to a necessity in daily life. With an innovative population, one of the highest smartphone penetration rates worldwide, it is easy to see how the UAE has become a regional center of online business. Today, consumers are not just searching online, they are shopping online.'}
+                lefttext={`  <p>Having an e-commerce website is essential for any business in Dubai looking to grow in today’s digital age. It allows you to reach a wider audience beyond your physical store, enabling customers across the UAE and even globally to discover and purchase your products. With a professional online store, your business is open 24/7, letting customers shop at their convenience and boosting sales around the clock.</p>
+                        <p>But here’s the truth: not all ecommerce websites succeed. Many companies fall into the trap of cookie-cutter templates or DIY platforms because they believe that building an online store is as simple as that. The result? The result is an identical, slow-loading website that does not convert visitors to paying customers.</p>
                         `}
-                righttext={`<p>While solutions such as Shopify, WooCommerce, or Magento provide easy-to-manage ecommerce set up, at the end of the day, the vast majority of DIY stores don’t provide the customization, scalability, or security that a business really needs. Stores using templates may look reasonable, they rarely represent a brand and fail when it gets complicated - managing thousands of SKUs, logistics development, or more complex multi-currency payments, for example, really needs a custom ecommerce development solution.</p>
+                righttext={`<p>As many companies turn to quick fixes for their e-commerce store, this is where WD Agency steps in. We are your e-commerce website development agency in Dubai & the UAE. Our in-house team combines creative and technical skills with market needs to deliver ecommerce website builds that are visually engaging, mobile-first, and conversion-driven.</p>
                             `}
             />
             <CommonIndustries
                 heding={'Our Ecommerce Website Development Services'}
-                subheding='At WD Agency, we offer a complete range of E-commerce website development services, from initial design through to ongoing support, in the UAE, empowering your business with the full suite of ecommerce services you need to compete, connect, and grow online. We harness the best in modern technology, combined with in-depth market and industry-specific knowledge, to develop custom ecommerce solutions that deliver results you can measure. We do not just create websites; we build dedicated ecommerce websites that are conversion-driven to improve the customer experience, maximizing sales and growth as your business grows.'
+                subheding='At WD Agency, we are the best E-commerce web design & development agency in Dubai, offering a full-suite of E-commerce website development services, from initial design through to ongoing support, in the UAE. We harness the best in modern technology, combined with in-depth market and industry-specific knowledge, to develop custom ecommerce solutions that deliver results you can measure. We do not just create websites; we build dedicated ecommerce websites that are conversion-driven to improve the customer experience, maximizing sales and growth as your business grows.'
                 services={[
                     {
                         title: 'Custom Website Design',

@@ -42,17 +42,17 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Real Estate Website Development for <br/>Property Businesses in UAE"}
-                subtitle={"Empower your property business with a professionally crafted real estate website <br/>in the UAE designed to attract buyers, showcase listings, and generate qualified leads."}
+                heding={"Real Estate Website Development for <br/>Property Businesses in Dubai & UAE"}
+                subtitle={"Empower your property business in Dubai with a professionally crafted real estate website <br/>designed to attract buyers, showcase listings, and generate qualified leads."}
 
             />
             <CommonIntroduction
-                heding={'Real Estate Website Design UAE'}                
+                heding={'Real Estate Website Design Dubai'}                
                 text1={` <p>The real estate market in UAE is booming as new developments, global investments, and demand for residential and commercial space remains strong. Today, buyers, sellers, and agents depend on digital channels to make educated decisions about properties. For real estate businesses, it's no longer a matter of "if" you should have a website, it's the backbone of Trust, Credibility and Growth.</p>
                     <p>Your website is likely the first place buyers or investors will get to know you or your business. If properties are presented effectively as a developer, agency, or independent broker, you can easily differentiate yourself in a competitive market. A poorly designed website will cause you to lose leads, regardless of your amazing prospects.</p>
                     `}
                 text2={`  <p>Unlike a "normal business website", a real estate website will have distinct needs; advanced property search filters, property comparison tools, interactive maps or seamless booking systems. Each of these applications affect buyer engagement and conversions- which is why off-the-shelf templates fall short in an industry with such specific needs.</p>
-                <p>At WD Agency, we recognize these challenges, and we specialize in new, feature-rich real estate websites that are built for performance and conversion. From mobile-first responsive sites to advanced listing management systems, WD Agency is your reliable real estate website development agency in the UAE for building a digital platform.</p>
+                <p>At WD Agency, we recognize these challenges, and we specialize in feature-rich real estate websites that are built for performance and conversion. From mobile-first responsive sites to advanced listing management systems, WD Agency is your reliable real estate website development agency in Dubai for building a digital platform.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
@@ -135,14 +135,14 @@ const page = () => {
                 text1={'Features of a Successful Real Estate Website'}
                 text2={"A successful real estate website is not just visually appealing- it’s functional, intuitive, and designed to convert visitors into buyers. The following features are essential:"}
                 boxdata={[
-                    { id: 1, img: imagecommon1, title: 'Advanced Search Filters', desc: 'Allow users to filter by location, price, square foot, and what amenities they would like, so that they can make a faster and better-informed decision. Dynamic filters help take a large inventory and provide personalized results.' },
-                    { id: 2, img: imagecommon2, title: 'Interactive Maps for Information', desc: 'All nearby schools, hospitals, shopping malls, and modes of transportation are a must-have for any buyer. This will help buyers in their evaluations of communities of interest. Lifestyle-driven highlights give buyers a real in-depth look.' },
+                    { id: 1, img: imagecommon5, title: 'Advanced Search Filters', desc: 'Allow users to filter by location, price, square foot, and what amenities they would like, so that they can make a faster and better-informed decision. Dynamic filters help take a large inventory and provide personalized results.' },
+                    { id: 2, img: imagecommon8, title: 'Interactive Maps for Information', desc: 'All nearby schools, hospitals, shopping malls, and modes of transportation are a must-have for any buyer. This will help buyers in their evaluations of communities of interest. Lifestyle-driven highlights give buyers a real in-depth look.' },
                     { id: 3, img: imagecommon3, title: 'Virtual Tours & Videos', desc: 'Many prospective buyers appreciate being able to virtually explore properties (360° experiences) through interactive aerial videos, and/or video walk-throughs before considering visiting the property. Virtual tours help enhance transparency for buyers.' },
-                    { id: 4, img: imagecommon4, title: 'Agent Directories', desc: 'Build pages dedicated to your agents so that buyers can see the agents individual profiles, dedicated specialties of agency, and easily make contact to engage professionally. Buyers begin to build trust in the agency if they can connect with an actual professional.' },
-                    { id: 5, img: imagecommon5, title: 'Inquiry Forms & Chatbot', desc: 'Instantly capture lead details with simple lead forms, AI chat bots, and straightforward "contact us" buttons. Chat bots support your business with inquiries 24-7 which enhance speed of response time from agents.' },
-                    { id: 6, img: imagecommon6, title: 'Quick-loading Pages', desc: "Make your properties show up faster, rank higher in search results, and offer a smooth browsing experience. Faster speed and better visibility lead to more engagement and higher conversions." },
-                    { id: 7, img: imagecommon7, title: 'Secure Payment Transactions', desc: "Provide buyers with complete peace of mind by enabling safe and reliable online transactions for deposits and bookings. With robust security measures, encrypted payment gateways, and fraud protection, your clients can confidently complete payments." },
-                    { id: 8, img: imagecommon8, title: 'Analytics & Reporting Dashboards', desc: 'Keep track of inquiries, property views and conversions to make smarter business decisions. Analytics lead to insights that help agencies refine marketing strategy and simply maximize ROI.' },
+                    { id: 4, img: imagecommon6, title: 'Agent Directories', desc: 'Build pages dedicated to your agents so that buyers can see the agents individual profiles, dedicated specialties of agency, and easily make contact to engage professionally. Buyers begin to build trust in the agency if they can connect with an actual professional.' },
+                    { id: 5, img: imagecommon1, title: 'Inquiry Forms & Chatbot', desc: 'Instantly capture lead details with simple lead forms, AI chat bots, and straightforward "contact us" buttons. Chat bots support your business with inquiries 24-7 which enhance speed of response time from agents.' },
+                    { id: 6, img: imagecommon4, title: 'Quick-loading Pages', desc: "Make your properties show up faster, rank higher in search results, and offer a smooth browsing experience. Faster speed and better visibility lead to more engagement and higher conversions." },
+                    { id: 7, img: imagecommon2, title: 'Secure Payment Transactions', desc: "Provide buyers with complete peace of mind by enabling safe and reliable online transactions for deposits and bookings. With robust security measures, encrypted payment gateways, and fraud protection, your clients can confidently complete payments." },
+                    { id: 8, img: imagecommon7, title: 'Analytics & Reporting Dashboards', desc: 'Keep track of inquiries, property views and conversions to make smarter business decisions. Analytics lead to insights that help agencies refine marketing strategy and simply maximize ROI.' },
                     { id: 9, img: imagecommon9, title: 'Recommendations & Saved Searches', desc: "Enable users to save their favorite properties, set up alerts for new listings that match their preferences, and receive personalized property suggestions based on their browsing behavior. This keeps potential buyers engaged and encourages repeat visitors." },
                 ]}
 

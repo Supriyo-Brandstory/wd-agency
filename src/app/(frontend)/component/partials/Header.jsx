@@ -16,21 +16,24 @@ export default function Header() {
   const servicesData = {
     design: [
       { title: "UI/UX Design", href: "#" },
-      { title: "Wireframing", href: "#" },
-      { title: "Prototyping", href: "#" },
+      { title: "Wireframing & Pro.", href: "#" },
       { title: "Branding", href: "#" }
     ],
     development: [
-      { title: "Web Development", href: "#" },
       { title: "Frontend Development", href: "#" },
-      { title: "Full Stack Development", href: "#" },
-      { title: "PHP Web Development", href: "#" }
+      { title: "Full-Stack Development", href: "#" },
+      { title: "Static Website", href: "#" },
+      { title: "Dynamic Websites", href: "#" },
+      { title: "Website Migration", href: "#" },
+      { title: "Performance Optimization", href: "#" }
     ],
     software: [
       { title: "CRM Software", href: "#" },
       { title: "Enterprise Software", href: "#" },
       { title: "Cloud Applications", href: "#" },
-      { title: "Legacy Modernization", href: "#" }
+      { title: "Legacy Modernization", href: "#" },
+      { title: "Software Maintenance", href: "#" },
+      { title: "Software Consulting", href: "#" }
     ]
   };
 
@@ -113,7 +116,7 @@ export default function Header() {
             </div>
           </div> */}
           <Link href="/blog">Blog</Link>
-          <Link href="#">Portfolio</Link>
+          <Link href="/case-studies">Portfolio</Link>
           <Link href="/contact-us">Contact</Link>
           <Link href="/contact-us" className={styles.quoteBtn}>Get Quote</Link>
         </nav>
