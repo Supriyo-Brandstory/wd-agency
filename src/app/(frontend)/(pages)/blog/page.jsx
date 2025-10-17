@@ -103,7 +103,7 @@ export default function Blog() {
                         filteredPosts.map((post) => (
                             <div key={post.id} className={styles.blogCard} onClick={() => handleNavigation(post.slug)}>
                                 <div className={styles.imageWrapper}  >
-                                    <Image
+                                    <img
                                         src={post.image || "/images/default-blog.jpg"}
                                         alt={post.title}
                                         width={400}
@@ -114,14 +114,14 @@ export default function Blog() {
                                 <div className={styles.blogContent}>
                                     <span className={styles.categoryTag}>{post.categoryName}</span>
                                     <h3>{post.title}</h3>
-                                    <p
+                                    <div
                                         dangerouslySetInnerHTML={{
                                             __html: (() => {
                                                 const match = post.content.match(/<p>(.*?)<\/p>/i);
                                                 return match ? match[0] : post.content.substring(0, 80) + "...";
                                             })(),
                                         }}
-                                    ></p>
+                                    ></div>
 
                                     <Link href={`/blog/${post.slug}`} className={styles.readMore}>
                                         Read More →

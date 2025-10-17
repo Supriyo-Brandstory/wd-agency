@@ -93,7 +93,7 @@ export default function BlogDetail({ params }) {
      
       {/* ===== Banner Image ===== */}
       <div className={styles.imageWrapper}>
-        <Image
+        <img
           src={blog.image || "/images/default-blog.jpg"}
           alt={blog.title}
           width={1200}
