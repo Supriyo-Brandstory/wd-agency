@@ -6,36 +6,49 @@ import bannerbg from "@/app/(frontend)/assets/images/blog-bg.webp";
 import arrowleft from '@/app/(frontend)/assets/images/icons/left-icon.svg'
 import arrowright from '@/app/(frontend)/assets/images/icons/right-icon.svg'
 // import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import imageservice1 from "@/app/(frontend)/assets/images/location/dubai.webp";
-import imageservice2 from "@/app/(frontend)/assets/images/location/AbuDhabi.webp";
-import imageservice3 from "@/app/(frontend)/assets/images/location/Sharjah.webp";
-import imageservice4 from "@/app/(frontend)/assets/images/location/Ajman.webp";
-import imageservice5 from "@/app/(frontend)/assets/images/location/RasAlKhaimah.webp";
-import imageservice6 from "@/app/(frontend)/assets/images/location/Fujairah.webp";
-import imageservice7 from "@/app/(frontend)/assets/images/location/UmmAlQuwain.webp";
-import imageservice8 from "@/app/(frontend)/assets/images/location/AlAin.webp";
-const caseStudiesData = [
+import protfolio1 from '@/app/(frontend)/assets/images/protfolio/1.webp'
+import protfolio2 from '@/app/(frontend)/assets/images/protfolio/2.webp'
+import protfolio3 from '@/app/(frontend)/assets/images/protfolio/3.webp'
+import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
+const caseStudiesData = [ 
   {
     id: 1,
     title: "E-commerce Website Redesign",
     category: "E-commerce",
-    image: imageservice1,
+    image: protfolio1,
     modelimage: [
-      { img: imageservice2 },
-      { img: imageservice3 },
-      { img: imageservice4 },
+      { img: protfolio1 },
     ],
   },
   {
     id: 2,
-    title: "Healthcare Portal UI/UX",
-    category: "Healthcare",
-    image: imageservice5,
+    title: "E-commerce Website Redesign",
+    category: "E-commerce",
+    image: protfolio2,
     modelimage: [
-      { img: imageservice6 },
-      { img: imageservice7 },
+      { img: protfolio2 },
     ],
   },
+  {
+    id: 3,
+    title: "E-commerce Website Redesign",
+    category: "E-commerce",
+    image: protfolio3,
+    modelimage: [
+      { img: protfolio3 },
+    ],
+  },  
+  {
+    id: 4,
+    title: "E-commerce Website Redesign",
+    category: "E-commerce",
+    image: protfolio4,
+    modelimage: [
+      { img: protfolio4 },
+    ],
+  },
+  
+ 
 
 ];
 

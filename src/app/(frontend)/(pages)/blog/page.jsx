@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function Blog() {
+    
     const [blogs, setBlogs] = useState([]);
     const [loading, setLoading] = useState(true);
     const [search, setSearch] = useState("");
@@ -57,6 +58,23 @@ export default function Blog() {
     };
 
     const totalPages = blogs[0] ? Math.ceil(blogs[0].categoryTotal / blogsPerPage) : 1;
+function getPreview(content) {
+  if (!content) return "";
+
+  // Try to get the first <p>
+  const match = content.match(/<p>(.*?)<\/p>/i);
+  let text = match ? match[1] : content;
+
+  // Strip any remaining HTML tags
+  text = text.replace(/<[^>]*>/g, "");
+
+  // Limit to 80 characters
+  if (text.length > 100) {
+    text = text.slice(0,104) + "...";
+  }
+
+  return text;
+}
 
     if (loading) return <p className={styles.loading}>Loading blogs...</p>;
 
@@ -113,15 +131,8 @@ export default function Blog() {
                                 </div>
                                 <div className={styles.blogContent}>
                                     <span className={styles.categoryTag}>{post.categoryName}</span>
-                                    <h3>{post.title}</h3>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: (() => {
-                                                const match = post.content.match(/<p>(.*?)<\/p>/i);
-                                                return match ? match[0] : post.content.substring(0, 80) + "...";
-                                            })(),
-                                        }}
-                                    ></div>
+                                    <h3 className="mb-10">{post.title.substring(0, 50)}</h3>
+                                    <div dangerouslySetInnerHTML={{ __html: getPreview(post.content) }}></div>
 
                                     <Link href={`/blog/${post.slug}`} className={styles.readMore}>
                                         Read More →

@@ -5,24 +5,43 @@ import fs from "fs";
 import path from "path";
 import db from "../../../../../prisma/db";
 
-// ✅ Helper to save uploaded image
-async function saveImage(file) {
+// ✅ Helper to save uploaded image with sanitized name and avoid conflicts
+async function saveImage(file, folder = "blog") {
   if (!file) return null;
 
-  const uploadDir = path.join(process.cwd(), "public/images/blog");
-
+  const uploadDir = path.join(process.cwd(), `public/images/${folder}`);
   if (!fs.existsSync(uploadDir)) {
     fs.mkdirSync(uploadDir, { recursive: true });
   }
 
-  const buffer = Buffer.from(await file.arrayBuffer());
-  const fileName = `${Date.now()}-${file.name}`;
-  const filePath = path.join(uploadDir, fileName);
+  // Sanitize file name: replace spaces with '-' and remove special chars
+  const originalName = file.name;
+  const ext = path.extname(originalName);
+  let baseName = path.basename(originalName, ext)
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")         // replace spaces with '-'
+    .replace(/[^a-z0-9-]/g, "");  // remove special characters
 
-  fs.writeFileSync(filePath, buffer);
+  let fileName = baseName + ext.toLowerCase();
+  let filePath = path.join(uploadDir, fileName);
+  let counter = 1;
 
-  return `/images/blog/${fileName}`;
+  // Increment filename if it already exists
+  while (fs.existsSync(filePath)) {
+    fileName = `${baseName}-${counter}${ext.toLowerCase()}`;
+    filePath = path.join(uploadDir, fileName);
+    counter++;
+  }
+
+  // Save file to disk
+  const arrayBuffer = await file.arrayBuffer();
+  fs.writeFileSync(filePath, Buffer.from(arrayBuffer));
+
+  // Return relative path for DB
+  return `/images/${folder}/${fileName}`;
 }
+
 
 // ✅ Ensure slug uniqueness
 async function getUniqueSlug(baseSlug, excludeId = null) {
@@ -42,6 +61,8 @@ async function getUniqueSlug(baseSlug, excludeId = null) {
   return slug;
 }
 
+
+
 // ✅ Create blog
 export async function createBlog(formData) {
   try {
@@ -55,7 +76,7 @@ export async function createBlog(formData) {
     slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
     const uniqueSlug = await getUniqueSlug(slug);
 
-    const imagePath = await saveImage(imageFile);
+    const imagePath = await saveImage(imageFile, "blog");
 
     const blog = await db.blog.create({
       data: {
@@ -75,7 +96,7 @@ export async function createBlog(formData) {
   }
 }
 
-// ✅ Update blog
+// ✅ Update blog with previous image deletion
 export async function updateBlog(formData) {
   try {
     const id = parseInt(formData.get("id"));
@@ -89,11 +110,6 @@ export async function updateBlog(formData) {
     slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
     const uniqueSlug = await getUniqueSlug(slug, id);
 
-    let imagePath = null;
-    if (imageFile && typeof imageFile.name === "string") {
-      imagePath = await saveImage(imageFile);
-    }
-
     const updatedData = {
       title,
       slug: uniqueSlug,
@@ -101,7 +117,20 @@ export async function updateBlog(formData) {
       categoryId,
     };
 
-    if (imagePath) updatedData.image = imagePath;
+    if (imageFile && typeof imageFile.name === "string") {
+      // Fetch existing blog to get current image
+      const existingBlog = await db.blog.findUnique({ where: { id } });
+      if (existingBlog && existingBlog.image) {
+        const oldImagePath = path.join(process.cwd(), "public", existingBlog.image);
+        if (fs.existsSync(oldImagePath)) {
+          fs.unlinkSync(oldImagePath); // Delete old image
+        }
+      }
+
+      // Save new image
+      const newImagePath = await saveImage(imageFile, "blog");
+      updatedData.image = newImagePath;
+    }
 
     const blog = await db.blog.update({
       where: { id },
