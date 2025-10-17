@@ -1,0 +1,263 @@
+
+
+
+/* ================================
+   BANNER SECTION
+=================================== */
+.banner {
+  background: var(--bg);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  position: relative;
+  z-index: 2;
+}
+
+.banner p {
+  position: relative;
+  z-index: 2;
+  color: #ddd;
+  margin-top: 10px;
+}
+
+/* ================================
+   GRID SECTION
+=================================== */
+.gridSection {
+  padding: 60px 10%;
+  background: #111;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #222;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .imageWrapper img {
+  transform: scale(1.05);
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cardContent h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.cardContent p {
+  margin-top: 8px;
+  color: #aaa;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ================================
+   MODAL POPUP
+=================================== */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modalContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 85vh;
+  padding: 20px;
+}
+
+.modalImage {
+  text-align: center;
+  position: relative;
+}
+
+.modalImage img {
+  max-width: 85vw;
+  max-height: 70vh;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+  transition: opacity 0.4s ease;
+  object-fit: cover;
+}
+
+.modalImage h3 {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.modalImage p {
+  color: #bbb;
+  margin-top: 6px;
+  font-size: 1rem;
+}
+
+.counter {
+  color: #888;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* ================================
+   MODAL BUTTONS
+=================================== */
+.closeBtn,
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  background: #fff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+  z-index: 10;
+  border-radius: 50%;
+  padding: 15px;
+  img{
+    width: 20px;
+  }
+}
+
+.closeBtn:hover,
+.prevBtn:hover,
+.nextBtn:hover {
+  opacity: 1;
+}
+
+.closeBtn {
+  top: 0px;
+  right: 25px;
+  padding: 5px 14px;
+  border-radius: 10px;
+  border: solid 1px #000;
+  color:red;
+
+}
+
+.prevBtn {
+  left: -70px;
+}
+
+.nextBtn {
+  right: -70px;
+}
+
+/* ================================
+   RESPONSIVE
+=================================== */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .imageWrapper {
+    height: 220px;
+  }
+
+
+
+  .prevBtn {
+    left: 10px;
+  }
+
+  .nextBtn {
+    right: 10px;
+  }
+  .closeBtn {
+         top: 40px;
+        right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 35vh;
+  }
+
+  .gridSection {
+    padding: 40px 6%;
+  }
+
+  .modalImage img {
+    max-width: 95vw;
+  }
+
+  .prevBtn,
+  .nextBtn {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

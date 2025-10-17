@@ -82,10 +82,12 @@ export default function BlogDetail({ params }) {
   return (
     <>
      <div className={styles.header} style={{"--bg":`url(${bgurl}) no-repeat center center / cover`}}>
+     <div className="frame-1200">
         <h1 className={styles.title}>{blog.title}</h1>
         <p className={styles.meta}>
           {new Date(blog.createdAt).toLocaleDateString()} • {blog.category.name}
         </p>
+        </div>
       </div>
 
      <div className={`frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20 sm-pt-0 ${styles.blogSection}`}>
@@ -93,7 +95,7 @@ export default function BlogDetail({ params }) {
      
       {/* ===== Banner Image ===== */}
       <div className={styles.imageWrapper}>
-        <Image
+        <img
           src={blog.image || "/images/default-blog.jpg"}
           alt={blog.title}
           width={1200}

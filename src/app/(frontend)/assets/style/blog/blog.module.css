@@ -36,7 +36,7 @@
 
 
 .heading {
-  background: linear-gradient(90deg, #E83E8C, #2F2FB0);
+  background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -149,7 +149,7 @@
 }
 
 .blogContent p {
-  color: #ccc;
+  color: #fff;
   margin-bottom: 15px;
 }
 

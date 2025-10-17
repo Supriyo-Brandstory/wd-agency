@@ -5,7 +5,9 @@
   color: #fff;
   min-height: 100vh;
   scroll-behavior: smooth;
-
+ a{
+  text-decoration: underline;
+}
 }
 
 .header {
@@ -18,26 +20,33 @@
   background-size: cover;
   margin-bottom: 50px;
   position: relative;
-  h1,p{
-    z-index: 2;
-  }
+  color: white; /* ensure text is visible over overlay */
 }
+
+.header h1,
+.header p {
+  z-index: 2;
+  position: relative; /* needed to appear above overlay */
+}
+
 .header::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* match banner height */
+  height: 100%; /* matches header height */
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
+
 .title {
-  background: linear-gradient(90deg, #E83E8C, #2F2FB0);
+  background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+  z-index: 1;
 }
 
 .meta {
@@ -148,6 +157,7 @@
   margin-top: 100px;
 }
 
+
 /* Responsive */
 @media (max-width: 992px) {
   .contentContainer {
@@ -163,13 +173,12 @@
 @media (max-width: 768px) {
     .header {
     padding: 20px;
-    text-align: center;
-    height: 20vh;
+    text-align: start;
+    height: auto;
     margin-bottom: 30px;
 }
 .contentContainer {
     display: block;
-    flex-direction: column;
-;
+    flex-direction: column;;
 }
 }

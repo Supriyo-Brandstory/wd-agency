@@ -12,7 +12,7 @@ import { getBlogCategories } from "../blog-category/actions";
 import "react-quill-new/dist/quill.snow.css";
 
 // ✅ Dynamically import Quill (Next.js SSR-safe)
-const ReactQuill = dynamic(() => import("react-quill-new"), { ssr: false })
+const ReactQuill = dynamic(() => import("react-quill-new"), { ssr: false });
 
 export default function BlogPage() {
   const [blogs, setBlogs] = useState([]);
@@ -26,6 +26,7 @@ export default function BlogPage() {
   const [preview, setPreview] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
+  const [isCodeView, setIsCodeView] = useState(false); // ✅ Code view toggle
 
   useEffect(() => {
     const fetchData = async () => {
@@ -121,6 +122,7 @@ export default function BlogPage() {
     setPreview(null);
     setSelectedId(null);
     setShowForm(false);
+    setIsCodeView(false);
   };
 
   return (
@@ -190,24 +192,43 @@ export default function BlogPage() {
             />
           )}
 
-          {/* ✅ Replaced textarea with ReactQuill */}
-          <div className="mt-4">
-            <ReactQuill
-              theme="snow"
-              value={content}
-              onChange={setContent}
-              className="h-48 mb-10"
-              placeholder="Write your blog content here..."
-              modules={{
-                toolbar: [
-                  [{ header: [1, 2, 3, false] }],
-                  ["bold", "italic", "underline", "strike"],
-                  [{ list: "ordered" }, { list: "bullet" }],
-                  ["link", "image"],
-                  ["clean"],
-                ],
-              }}
-            />
+          {/* ✅ WYSIWYG / Code View Toggle */}
+          <div className="mt-4 flex justify-end">
+            <button
+              type="button"
+              onClick={() => setIsCodeView((prev) => !prev)}
+              className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded text-sm"
+            >
+              {isCodeView ? "WYSIWYG Mode" : "Code View"}
+            </button>
+          </div>
+
+          {/* Editor */}
+          <div className="mt-2">
+            {!isCodeView ? (
+              <ReactQuill
+                theme="snow"
+                value={content}
+                onChange={setContent}
+                className="h-48 mb-10"
+                placeholder="Write your blog content here..."
+                modules={{
+                  toolbar: [
+                    [{ header: [1, 2, 3, false] }],
+                    ["bold", "italic", "underline", "strike"],
+                    [{ list: "ordered" }, { list: "bullet" }],
+                    ["link", "image"],
+                    ["clean"],
+                  ],
+                }}
+              />
+            ) : (
+              <textarea
+                className="w-full h-48 border rounded p-2 font-mono text-sm"
+                value={content}
+                onChange={(e) => setContent(e.target.value)}
+              />
+            )}
           </div>
 
           <div className="mt-4 flex gap-3">
