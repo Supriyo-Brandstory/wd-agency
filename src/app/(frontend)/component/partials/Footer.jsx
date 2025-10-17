@@ -70,8 +70,8 @@ const Footer = () => {
               <Link href={"tel:+971 52 283 1655"} className="flex gap-x-10 items-center">
                 <Image src={call} alt="call"  width={30} height={30}/> +971 52 283 1655
               </Link>
-              <Link href='#' className="flex gap-x-10 items-start">
-               <Image src={location} alt="location"  width={30} height={30}/> <a href="https://share.google/AWkLxmvfaNUMoxK24" target="_blank">G6, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai - 81577</a>
+              <Link href='https://share.google/AWkLxmvfaNUMoxK24' className="flex gap-x-10 items-start">
+               <Image src={location} alt="location"  width={30} height={30}/> {`G6, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai - 81577`}
               </Link>
             </div>
           <div className={styles.cities}>
