@@ -44,9 +44,8 @@ const Footer = () => {
             <h4>ABOUT</h4>
             <ul>
               <li><Link href="/about-us">About Us</Link></li>
-              <li><Link href="#">Portfolio</Link></li>
-              <li><Link href="#">Case Studies</Link></li>
-              <li><Link href="#">Testimonials</Link></li>
+              <li><Link href="/case-studies">Portfolio</Link></li>
+              <li><Link href="/about-us">Testimonials</Link></li>
               <li><Link href="/contact-us">Contact Us</Link></li>
             </ul>
           </div>
@@ -56,7 +55,7 @@ const Footer = () => {
             <ul>
               <li> <Link href="#">Website Performance Optimization</Link></li>
               <li><Link href="#">Website Migration Service</Link></li>
-              <li><Link href="#">Startup Solutions</Link></li>
+              <li><Link href="/technology-web-development">Startup Solutions</Link></li>
             </ul>
           </div>
 
@@ -90,8 +89,7 @@ const Footer = () => {
               <li><Link href="/website-development-in-fujairah">Fujairah</Link></li>
               <li><Link href="/website-development-in-umm-al-quwain">Umm Al Quwain</Link></li>
               <li><Link href="/website-development-in-al-ain">Al Ain</Link></li>
-              <li><Link href="#">Khor Fakkan</Link></li>
-              <li><Link href="#">Dibba Al-Fujairah</Link></li>
+
             </ul>
           </div>
 

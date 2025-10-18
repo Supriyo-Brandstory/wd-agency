@@ -7,8 +7,8 @@ import logo from "@/app/(frontend)/assets/images/logo.png";
 
 const servicesData = [
   { category: "Design", items: [{ title: "UI/UX Design", href: "#" }, { title: "Wireframing & Pro.", href: "#" }, { title: "Branding", href: "#" }] },
-  { category: "Development", items: [{ title: "Frontend Development", href: "#" }, { title: "Full-Stack Development", href: "#" }, { title: "Static Website", href: "#" }, { title: "Dynamic Websites", href: "#" }, { title: "Website Migration", href: "#" }, { title: "Performance Optimization", href: "#" }] },
-  { category: "Software", items: [{ title: "CRM Software", href: "#" }, { title: "Enterprise Software", href: "#" }, { title: "Cloud Applications", href: "#" }, { title: "Legacy Modernization", href: "#" }, { title: "Software Maintenance", href: "#" }, { title: "Software Consulting", href: "#" }] }
+  { category: "Development", items: [{ title: "Frontend Development", href: "/services/frontend-development" }, { title: "Full-Stack Development", href: "/services/full-stack-development" }, { title: "Static Website", href: "/services/static-website-development" }, { title: "Dynamic Websites", href: "#" }, { title: "Website Migration", href: "#" }] },
+  { category: "Software", items: [{ title: "CRM Software", href: "#" }, { title: "Enterprise Software", href: "#" }, { title: "Cloud Applications", href: "#" }, { title: "Legacy Modernization", href: "#" }, { title: "Software Maintenance", href: "#" }] }
 ];
 
 export default function Header() {

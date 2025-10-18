@@ -19,6 +19,8 @@ import imageService2 from '@/app/(frontend)/assets/images/e-commerce-web-develop
 import imageService3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp'
 import imageService4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Shopping-Cart-Checkout-Solutions.webp'
 import imageService5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Product-Catalog-Management.webp'
+import imageService6 from '@/app/(frontend)/assets/images/e-commerce-web-development/Mobile-Commerce-Development.webp'
+import imageService7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Third-Party-Integrations.webp'
 import imageService8 from '@/app/(frontend)/assets/images/e-commerce-web-development/Maintenance-Support.webp'
 import CommonAboutPage2 from '@/app/(frontend)/component/pages/common/CommonAboutPage2'
 import Aboutimg from '@/app/(frontend)/assets/images/abu-dhabi/about-2.webp'
@@ -50,79 +52,79 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Frontend Web Design Services in Dubai </br>for Modern, Interactive Business Websites"}
-                subtitle={"Build visually stunning, responsive, and interactive websites with </br>frontend web design services at WD Agency."}
+                heding={"Full-Stack Development Services in Dubai </br>for Scalable, Robust Web Solutions"}
+                subtitle={"At WD Agency, we are a leading full-stack web development agency in Dubai, utilizing modern</br> frontend and backend technologies to build tech-savvy websites for businesses in the UAE."}
 
             />
             <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>The frontend design of your website is just not about the design- it is the online representation of your brand. It is the place where your users can engage, get an idea, and decide whether to stay or exit. A robust, easy-to-use frontend not only creates trust among users but also activates conversions.</p>
-                    <p>WD Agency delivers exactly what modern day businesses need- responsive, dynamic, and user-friendly website designs with interfaces that perform flawlessly across all browsers. Such interfaces attract visitors and deliver direct business results for a company. The front-end developers at our company mix the artistry with the latest technology to guarantee that your site will run smoothly on any device that you have.</p>
+                heding={'Full-Stack Web Development Agency in Dubai'}
+                text1={` <p>Full-stack development seamlessly combines frontend creativity with backend strength to build dynamic, high-performing digital experiences. At WD Agency, we deliver complete end-to-end web solutions that merge elegant interfaces with robust server-side systems, ensuring speed, reliability, and scalability for your business.</p>
+                    <p>Our effort is not just about writing code rather, it is the process of comprehending your business objectives, anticipating user requirements, and measuring the potential for growth. Whether it’s an elegant customer portal, a scalable online storefront, or an enterprise-grade application, we build solutions that perform seamlessly across all devices and environments without compromise.</p>
                     `}
-                text2={`  <p>We put serious effort into improving the usability, the aesthetics, and the loading speed so that the users of your website can navigate easily and the site can respond quickly. Every feature that is there, from buttons to animations has been totally optimized for performance and interactivity.</p>
-                <p>Our website designs work wonders in boosting user satisfaction, engagement, and conversion rates, whether it’s an e-commerce or startup website. With WD Agency, your digital presence becomes a powerful business tool- visually appealing, performance-driven, and deeply connected to your brand.</p>
+                text2={`  <p>By full-stack development, businesses will be able to innovate more rapidly, have lower costs, and keep the same style and vibe at every step of the customer journey. You are not required to multitask between several teams or deal with different technological requirements- we are the ones who do the hard work for you that is frontend design, backend logic, and database management.</p>
+                <p>WD Agency and our collective effort are essentially all about the creation of web solutions that are both functionally sound and future-proof. With the combination of designing, coding, and deployment in one location, we enable you to transform your applications into high-impact, efficiency-driven websites.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'Web Design for Startups, SMBs, and Enterprises'}
-                text2={'approach for each case: startups are our speed, scalability, and branding clients, thus we work with them to launch quickly with attractive and conversion-oriented interfaces. For SMBs, we create websites that are adaptable, and have great performance, thus they can grow alongside your growing audience. </br>Our team guarantees that the intuitive experiences, rapid speeds, and consistent designs that users enjoy across platforms are all present in each website or web app we create. We adapt to your business model- whether it’s B2B, B2C, or SaaS and deliver web design solutions that enhance your brand presence.'}
+                text1={'Full-Stack Solutions for Startups, SMBs, and Enterprises'}
+                text2={'At WD Agency, we understand that every organization is unique, operating in its own way and at its own stage of growth. Consequently, our full-stack development services are headed to a startup justifying its first product, small and medium businesses extending their activities, and enterprises that are digitally transforming their intricate ecosystems. </br>We build platforms that are scalable for SMBs, enabling them to automate their processes, customer engagement, and ROI to be enhanced. Our solutions are the driving force of growth and efficiency in your custom CRM, eCommerce stores, and internal management tools, bansed on your specific preferences.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
-                text1={'Website Design Services That Make a Difference'}
-                text2={"Working with WD Agency is equivalent to being granted entry to a team of professionals who creatively, strategically, and with the help of the latest technologies put together front-end solutions that are measurable in their results."}
+                text1={'Why Choose WD Agency for Full-Stack Development'}
+                text2={"Working with WD Agency implies engagement with a crew that is all about top-notch work, honesty, and progress. We don’t merely construct the online presence of your company- we architect scalable digital ecosystems for your company which facilitate your business to prosper in the new digital economy."}
                 boxdata={[
-                    { id: 1, img: commonimage2, title: 'User-Centric Design', desc: 'We make your users the point of focus in every step, building interfaces that are easy, intuitive, and engaging for end users.' },
-                    { id: 2, img: commonimage1, title: 'Modern Technologies', desc: 'In building React, Vue.js, Angular, HTML5, CSS3, and JavaScript, we create websites that are both robust and scalable and has great performance and functionality.' },
-                    { id: 3, img: commonimage3, title: 'Performance Focused', desc: 'Our development lifecycle from page speed to responsive layouts makes sure that users get fast, efficient, and smooth interactions.' },
-                    { id: 4, img: commonimage5, title: 'Conversion-first Approach', desc: 'We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
-                    { id: 5, img: commonimage4, title: 'SEO-Friendly Design', desc: 'Every website we design follows best SEO practices, ensuring higher visibility on search engines and better organic reach.' },
-                    { id: 6, img: commonimage6, title: 'Seamless Integration', desc: 'We ensure your website works smoothly with third-party tools, APIs, and other software systems for a truly connected digital experience.' },
+                    { id: 1, img: commonimage2, title: 'End-to-End Development', desc: 'From intuitive UI/UX design to robust backend architecture, we manage the entire development lifecycle. Our process ensures consistency, stability, and quality from concept to deployment.' },
+                    { id: 2, img: commonimage1, title: 'Future-Ready Technologies', desc: 'We leverage cutting-edge technologies like React, Node.js, Laravel, and Vue.js to create flexible, secure, and scalable applications. Your product stays relevant and performs seamlessly as technology evolves.' },
+                    { id: 3, img: commonimage3, title: 'User-Focused Design', desc: 'Every project begins with your users in mind. Our team designs intuitive interfaces and smooth navigation to deliver engaging, conversion-driven digital experiences.' },
+                    { id: 4, img: commonimage5, title: 'Proven Track Record', desc: 'Our portfolio includes successful web applications that have boosted traffic, improved conversions, and maximized ROI. We combine data-driven insights with creative strategies to help brands stand out.' },
+                    { id: 5, img: commonimage4, title: 'Scalable & Secure Solutions', desc: 'We build systems that grow with your business while maintaining top-notch security standards. Whether you’re scaling up traffic or adding new features, performance and safety remain uncompromised.' },
+                    { id: 6, img: commonimage6, title: 'Support & Optimization', desc: 'Our relationship doesn’t end at launch- we provide ongoing monitoring, updates, and performance optimization. This ensures your web solution stays fast, secure, and future-ready.' },
                 ]}
             />
             <CommonIndustries
-                heding={'Web Design Solutions That Engage and Convert'}
-                subheding='At WD Agency, we don’t just do website design- we craft visually appealing, functionally powerful, and conversion-oriented experiences that merge design brilliance with technical precision. The services we offer at the front end are not only pretty but also made from logic to really attract customers and make the brands stronger.'
+                heding={'Our Full-Stack Development Services in Dubai, UAE'}
+                subheding='WD Agency delivers full-stack web applications that perfectly balance technical excellence with aesthetic appeal. With every service we provide, clients can be confident that every element- from the user interface to the database.'
                 services={[
                     {
-                        title: 'Responsive Web Interfaces',
-                        desc: 'It is not just the mobile-first websites that we design, taking into account all screens perfectly- we design websites with easy navigation, accessibility, and user-friendliness that is intuitive across all devices.',
+                        title: 'Custom Web Applications',
+                        desc: 'Web applications developed by WD Agency are fully tailored to your business model, workflow, and user needs. Every line of code is crafted to deliver the functionality and results your business requires.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'Interactive UI/UX Design',
-                        desc: 'We not only put creative ideas into design, but we also turn them into interactive elements, attractive animations, and smooth transitions that are designed to increase user satisfaction and retention.',
+                        title: 'Responsive Web Design',
+                        desc: 'The frontend team at WD Agency develops the most engaging and user-friendly interfaces optimized for mobile devices. The mentioned are implemented via React.js, Vue.js, and Angular.',
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Single-Page Applications (SPAs)',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'Backend & API Integration',
+                        desc: 'Our backend developers design and code server-side applications with technologies like Node.js, Express, Laravel, and Django. Also, we take on API integrations, database management, and server optimization.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'We design and deliver progressive web apps, a native app-like experience to users with fast performance, offline access, and push notifications, all directly through their browsers.',
+                        title: 'Single-Page Applications (SPAs)',
+                        desc: 'Embedding app-like functionalities in the browser, SPAs enable users to get very rapid navigation and thus great engagement with dynamic platforms.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Performance Optimization',
-                        desc: 'We ensure that the site loading and performance are consistent and responsive across the different browsers (Chrome, Safari, Firefox, and Edge) to make sure every visitor gets a similar, standardized experience.',
+                        title: 'Progressive Web Apps (PWAs)',
+                        desc: 'Besides having all the features of the web, PWA has offline function, push notifications, and smooth running on low connectivity.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API & Third-Party Integrations',
-                        desc: 'We smoothly integrate CRMs, data analysis tools, payment systems, and other third-party APIs to improve the functionality of the site and attract more users.',
+                        title: 'Security & Compliance',
+                        desc: 'By secure coding practices, the use of SSL, the creation of encrypted databases, and also regular security audits, we keep you safe from attacks and data leaks.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -135,23 +137,27 @@ const page = () => {
                 text1="Expand Your Digital Capabilities with WD Agency"
                 text2={`
                             <p class="mb-20">
-                            At WD Agency, our specialized frontend web design services in Dubai & the UAE are the perfect way to extend the functionality and get more user engagement.
+                            WD Agency extends its full-stack capabilities beyond basic development to deliver comprehensive services that enable businesses to grow, streamline their processes, and progress digitally. 
                             </p>
-                            <ul class="ml-40">
-                            <li>Component Libraries & Design- We produce UI components that can be reused in continuous, efficient, and scalable development of the software.</li>
-                            <li>Animations & Motion UI- Let your brand get the personality it deserves with the skate transitions and captivating animations.</li>
-                            <li>Accessibility (WCAG) Compliance- We make sure that your website is an all-inclusive, accessible, and user-friendly platform for all.</li>
-                            <li>Security Best Practices- Along with input validation and secure coding, we keep your users and data integrity safe.</li>
-                            </ul>
+                                <ul>
+                                <li><strong>E-commerce platforms and web stores</strong>- Custom storefronts with secure payment integration and robust backend management.</li>
+                                
+                                <li><strong>Enterprise resource planning (ERP)</strong>- Centralized tools for managing operations, analytics, and workflow efficiency.</li>
+                                
+                                <li><strong>CMS and custom admin panels</strong>- Simplify content updates and system control with user-friendly, custom-built dashboards.</li>
+                                
+                                <li><strong>Migration & Legacy Apps</strong>- Modernize outdated systems, securely migrate data, and revamp platforms using the latest technologies.</li>
+                                </ul>
+
                             <p>
-                            Our services allow companies to keep brand consistency, enhance their performance, and guarantee reliability for the long term. It does not matter if you are merely doing an upgrade on your present website or creating a new, our advanced frontend capabilities are the ones that make your digital platforms stronger.
+                            Our knowledge of full-stack makes every digital layer scalable, secure, and high-performing. With WD Agency, you do not just get a website- it is a cutting-edge solution that stays ahead of markets and technology changes.
                             </p>
                     `}
                 img={Aboutimg}
             />
               <CommonTechnologyStack
-  heding={"Modern Frontend Web Design Tech Stack"}
-  subheding={"We bring in the market at a top-notch level, and the technologies we mainly rely upon are the new-age ones which are generally considered as cutting-edge and industry-proven."}
+  heding={"Modern Full-Stack Tech Stack"}
+  subheding={"Our stack of technology keeps your apps fast, reliable, and scalable. We blend the leading-edge tools for frontend and backend development to create extraordinary digital experiences that are customized to your business objectives."}
   techData={[
   { name: "React", image: react, gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)" },
   { name: "Node.js", image: nodejs, gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)" },
@@ -204,18 +210,18 @@ const page = () => {
 
                     ]} />
                                        <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Frontend Development"}
-                    subheding={"Frontend excellence is what you get with WD Agency, combined with a digital presence that elevates your brand and helps your business stand out in today’s competitive online market."}
+                    heding={"Benefits of Partnering with WD Agency"}
+                    subheding={"We focus on understanding your business objectives and transforming them into digital products that accelerate success. From startups to enterprises, our agile methodology ensures faster time-to-market, reduced costs, and long-term sustainability."}
                     lefttext={`<ul>
-                                <li><strong>Engaging User Experiences</strong> – We create simple, eye-catching, and helpful designs that deeply engage users and encourage them to return.</li>
+                                <li><End-to-end web design and development solutions from ideation to deployment.</li>
                                 
-                                <li><strong>Faster Loading Websites</strong> – Sites are optimized to load quickly, reducing bounce rates, increasing conversions, and enhancing overall user satisfaction.</li>
+                                <li>High-performance and scalable websites for businesses of all size.</li>
                                 
-                                <li><strong>Scalable and Future-Proof Interfaces</strong> – Interfaces that grow with your business and easily integrate new technologies without issues.</li>
+                                <li>Secure and future-ready websites ensuring stability and growth.</li>
                                 
-                                <li><strong>Cross-Device Compatibility</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
+                                <li>SEO and performance optimized for better visibility and speed.</li>
                                 </ul>
-                                <p>WD Agency doesn’t only create beautiful designs, we also commit to performance, reliability, and results. Your frontend with WD Agency becomes a growth mechanism that, through increased engagement, nurtures trust among users and leaves a lasting digital memory.</p>
+                                <p>With WD Agency, you’re not just hiring developers, you’re partnering with a team committed to innovation, transparency, and measurable results. We ensure every project reflects quality, reliability, and the forward-thinking mindset your business deserves in today’s evolving digital landscape.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -247,24 +253,24 @@ const page = () => {
                     <CommonFaqSection
                         faqs={[
                             {
-                                q: "What Frontend Technologies Do WD Agency Specialize In?",
-                                a: "We work with cutting-edge frontend technologies like React, Vue.js, Angular, HTML5, CSS3, and JavaScript to build fast, interactive, and scalable web applications."
+                                q: "What Technologies Do You Use for Full-stack Development?",
+                                a: "We use modern frontend and backend technologies including React, Vue.js, Angular, Node.js, Laravel, and PHP to build scalable, high-performance web applications."
                             },
                             {
-                                q: "How Do You Ensure Websites are User-friendly?",
-                                a: "Our expert web designers in Dubai follow user-centric principles, focusing on intuitive navigation, clear layouts, and engaging visuals that enhance the overall user experience."
+                                q: "What is The Advantage of Full-stack Development?",
+                                a: "Full-stack development ensures that your website or application works seamlessly from the user interface to the server and database, providing faster development and smoother performance."
                             },
                             {
-                                q: "Will My Website Look Good on Mobile Devices?",
-                                a: "Yes, all websites we create are responsive, providing seamless performance and consistent design across desktops, tablets, and smartphones."
+                                q: "Can You Create Custom Web Applications for My Business?",
+                                a: "Absolutely, we tailor every application to your business model, workflows, and user requirements, ensuring a solution that truly fits your needs."
                             },
                             {
-                                q: "Can You Optimize My Website for Speed and SEO?",
-                                a: "Yes. We follow best practices in coding, performance optimization, and SEO to ensure your website loads quickly and ranks well on search engines."
+                                q: "Do You Provide Ongoing Support After Launch?",
+                                a: "We offer continuous monitoring, updates, and performance optimization to ensure your web application remains fast, secure, and reliable."
                             },
                             {
-                                q: "Can My Website Grow with My Business?",
-                                a: "Definitely, we build scalable and future-proof interfaces that can easily accommodate new features, technologies, and increased traffic as your business expands."
+                                q: "Can You Upgrade or Migrate My Existing Legacy Systems?",
+                                a: "Yes, we modernize outdated systems, securely migrate data, and rebuild platforms using the latest technologies to ensure efficiency and future readiness."
                             }]}
                         />
 
