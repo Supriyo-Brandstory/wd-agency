@@ -17,11 +17,7 @@ import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
-<<<<<<< HEAD
 import CommonGame from '../../component/pages/common/CommonGame'
-=======
-import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
->>>>>>> tapas
 const page = () => {
   return (
     <div>
