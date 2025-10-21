@@ -67,7 +67,7 @@ const OurCoreStrengths = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <Image src={item.image} alt={item.title} width={80} height={80} />
+            <Image src={item.image} alt={item.alt} width={80} height={80} />
             <h3 className="py-20 sm-py-10">{item.title}</h3>
             <p>{item.desc}</p>
           </motion.div>

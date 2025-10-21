@@ -3,8 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "../../../assets/style/home/technologyStack.module.css";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const CommonTechnologyStack = ({heding,subheding,techData}) => {
+ const route = useRouter();
+ const handlelink = (link) => {
+   route.push(link);
+ };
   return (
     <div className="frame-1200 py-100 sm-pb-50 sm-text-start sm-px-20 sm-pt-0">
       {/* Heading */}
@@ -32,6 +37,7 @@ const CommonTechnologyStack = ({heding,subheding,techData}) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             viewport={{ once: true }}
+            onClick={() => handlelink(tech.Link)}
           >
             <Image src={tech.image} alt={tech.name} />
             <h3>{tech.name}</h3>

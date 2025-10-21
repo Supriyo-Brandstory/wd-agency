@@ -102,7 +102,7 @@ const BestAgency = () => {
             transition={{ delay: index * 0.15 }}
             viewport={{ once: true }}
           >
-            <Image src={item.img} alt="Icon" />
+            <Image src={item.img} alt={item.alt} />
             <p className="fw-500">{item.text}</p>
           </motion.div>
         ))}
