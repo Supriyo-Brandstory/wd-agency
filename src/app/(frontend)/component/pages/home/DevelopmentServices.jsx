@@ -11,32 +11,36 @@ import CommonIndustries from '../common/CommonIndustries';
 
 const services = [
   {
-    title: "UI/UX Design",
+    title: "UI/UX & Prototyping",
     desc: "User-centered design approaches that create intuitive and engaging digital experiences.",
     img: uiux,
+    alt:"UI/UX and Prototyping Services",
     btnname: "Learn More",
-    link: "#"
+    link: "/services/wireframing-prototyping"
   },
   {
-    title: "Web Development",
+    title: "Dynamic Web Development",
     desc: "Custom web applications built with modern technologies to deliver exceptional user experiences.",
     img: webdev,
+    alt:"Dynamic Web Development Services",
     btnname: "Learn More",
-    link: "#"
+    link: "/services/dynamic-website-development"
   },
   {
     title: "Frontend Development",
     desc: "Modern, responsive user interfaces built with cutting-edge frontend technologies.",
     img: frontend,
+    alt:"Frontend Development Services",
     btnname: "Learn More",
-    link: "#"
+    link: "/services/frontend-development"
   },
   {
     title: "Full Stack Development",
     desc: "End-to-end web solutions covering both frontend and backend development needs.",
     img: fullstack,
+    alt:"Full Stack Development Services",
     btnname: "Learn More",
-    link: "#"
+    link: "/services/full-stack-development"
   }
 ]
 
@@ -45,8 +49,8 @@ const services = [
 const DevelopmentServices = () => {
   return (
    <CommonIndustries
-   btnname="View All Services"
-   btnlink="#"
+   btnname="Contact for Quote"
+   btnlink="/contact-us"
    heding="Our Website Design & Development Services"
    services={services}
     />

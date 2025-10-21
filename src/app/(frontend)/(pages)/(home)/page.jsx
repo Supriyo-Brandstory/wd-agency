@@ -7,7 +7,6 @@ import OurCoreStrengths from '../../component/pages/home/OurCoreStrengths'
 import TechnologyStack from '../../component/pages/home/TechnologyStack'
 import DevelopmentServices from '../../component/pages/home/DevelopmentServices'
 import DevelopmentProcess from '../../component/pages/home/ DevelopmentProcess'
-import Portfolio from '../../component/pages/home/Portfolio'
 import Webexperiences from '../../component/pages/home/WebExperiences'
 import WebDesignApproach from '../../component/pages/home/WebDesignApproach'
 import OurJourney from '../../component/pages/home/OurJourney'
@@ -18,6 +17,7 @@ import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
+import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 const page = () => {
   return (
     <div>
@@ -40,6 +40,7 @@ const page = () => {
       <Webexperiences />
       <WebDesignApproach />
       <CommonIndustries />
+      <CommonServiceLocations/>
       <OurJourney />
       <FaqSection />
       <CtaSection />

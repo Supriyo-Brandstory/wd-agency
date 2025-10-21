@@ -12,22 +12,26 @@ const strengths = [
   {
     title: "Forward-Thinking Ideation",
     desc: "We cultivate and transform fresh perspectives into compelling digital experiences that set your brand apart.",
-    image: forwardThinkingIdeation, 
+    image: forwardThinkingIdeation,
+    alt:"We follow forward thinking ideation in website design", 
   },
   {
     title: "Seamless Navigability",
     desc: "Our websites are architected for intuitive interaction, catering to diverse user journeys with effortless flow.",
     image: seamlessNavigability,
+    alt:"We Design Websites with Seamless Navigability",
   },
   {
     title: "Strategic Problem Solving",
     desc: "As adept digital troubleshooters, we decode complex challenges and deliver refined, results-driven solutions.",
     image: strategicProblemSolving,
+    alt:"We provide Strategic Problem Solving in Website Development",
   },
   {
     title: "Holistic Expertise",
     desc: "From intricate builds to scalable platforms, our multidisciplinary capabilities empower your business to thrive in the digital realm.",
     image: holisticExpertise,
+    alt:"We have 12+ Years of Hands-on Expertise in Website Design",
   },
 ];
 
@@ -79,7 +83,7 @@ const OurCoreStrengths = () => {
         viewport={{ once: true }}
       >
         <p>
-          Website Development Agency harnesses visionary thinking to give your
+          Website Development Agency (WD Agency) harnesses visionary thinking to give your
           brand a distinct edge in a fiercely competitive market. Backed by a
           diverse pool of talent and deep industry knowledge, we are committed
           to delivering the best quality solutions aligned with your business

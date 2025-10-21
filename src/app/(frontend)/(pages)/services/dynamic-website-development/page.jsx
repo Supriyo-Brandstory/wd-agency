@@ -44,61 +44,61 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                heding={"Static Website Development Services for </br>Businesses in Dubai, UAE"}
-                subtitle={"At WD Agency, we build static websites that are fast, secure, and easy to use. Our </br>solutions deliver your information clearly, helping your business communicate effectively online."}
+                heding={"Dynamic Website Development Services for </br>Scalable Web Solutions"}
+                subtitle={"At WD Agency, we build feature-rich, responsive, and dynamic websites in Dubai,</br> UAE that adapt to your users and business needs."}
 
             />
             <CommonIntroduction
-                heding={'Simple, Fast, & Secure Websites for Every Business'}
-                text1={` <p>The success of a digital-first world is primarily determined by the trio of Speed, Security, and Simplicity. Static websites are a perfect solution for companies that want to have a powerful, reliable, and efficient digital presence without the problems typically associated with dynamic web systems. At WD Agency, our expertise lies in creating static websites that provide instant loading, offer a flawless experience on any device, and are generally safe for your visitors.</p>
-                    <p>Whether you are a startup that aims to introduce its brand, a small business wishing to proudly display the range of your services, or a big company that wants to provide the necessary information about it, our static sites are not only fast and functional but also visually attractive.</p>
+                heding={'Dynamic Websites that Captivate and Convert'}
+                text1={` <p>Dynamic websites enable your data to get updated depending on user behavior, inputs, and backend data, thus generating highly interactive experiences. At WD Agency, we build strong, scalable, and visually attractive dynamic websites which in turn lead to user engagement, conversions, and business growth.</p>
+                    <p>Dynamic websites offer personalized experiences that do not let the users disengage. Such sites also work with databases, APIs, and other applications, which means that your platform will always be relevant and remain updated. Whether it is through publishing fresh content, updating the shelves, or handling user interactions, our solutions make the process less tedious and more efficient.</p>
                     `}
-                text2={`  <p>It is our certainty and promise that every static website we create is fully optimized for search engines, is mobile-friendly, and is easy for the client to manage. With simple hosting and minimal maintenance, static sites are not only budget-friendly but also future-ready. Opting for a static website with WD Agency is equivalent to selecting performance and reliability.</p>
-                <p>Our development process relies on the use of clean code, security protocols of the highest level, and optimized assets which, collectively, facilitate the meeting of modern web standards for every project. We are the ones who make the digital experiences that are the exact and professional representation of your brand.</p>
+                text2={`  <p>We implement the latest technologies, including React, Angular, and Node.js, to design scalable, high-performance platforms. All websites are prepared to manage complicated data structures and large numbers of visitors without sacrificing their speed or stability. By availing our services, you don’t just get a website, you get a digital ecosystem that adapts to user interactions, grows with your audience, and delivers seamless, high-performance experiences.</p>
+                <p>We believe your website should be more than just an online presence, it should be an evolving platform that engages users, adapts to their needs, and continuously enhances their experience.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'Static Websites for Startups, SMBs, & Enterprises'}
-                text2={'WD Agency provides static website solutions that suit every business size and goal. We understand the needs of businesses and, therefore, we have the right solutions for you. It doesn’t matter whether you are a startup in need of a rapid launch, a small business wanting to build a trustworthy online presence, or a big enterprise presenting your corporate portfolios- we are here to help you. </br>Our team is responsible for the responsiveness, design, and the performance optimization of every site for all the browsers and devices. Moreover, our static website solutions are adaptable, scalable, and customized to your needs so that they bring you your desired results.'}
+                text1={'Dynamic Websites for Startups, SMBs, and Enterprises'}
+                text2={'If you are a startup creating your first digital product or an established enterprise that manages high-traffic portals, WD Agency offers dynamic website development that is suitable for your scale and objectives. We design & develop flexible architectures that are also compatible with changing requirements and encourage long-term growth. </br>We follow an agile website development approach for website development, which is the main advantage of our service for new businesses, as it allows them to start quickly and verify their ideas without sacrificing quality. Besides, for small and medium businesses, we create websites that are cost-effective and content-rich websites.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
-                text1={'We Expertise in Simple Yet Powerful Website Design'}
-                text2={"At WD Agency, we combine creative design and technical expertise to build static websites that are both visually appealing and highly functional."}
+                text1={'We Build Dynamic & Interactive Websites</br> That Adapt and Perform'}
+                text2={"When you engage with WD Agency, you essentially get a whole team of people whose work is to create websites that captivate, expand, and have great performance."}
                 boxdata={[
-                    { id: 1, img: commonimage2, title: 'Fast Loading', desc: 'Every page is optimized for speed, ensuring that visitors don’t have to wait. Faster load times improve engagement, reduce bounce rates, and enhance the overall user experience.' },
-                    { id: 2, img: commonimage1, title: 'Better Security', desc: 'Static websites have minimal backend operations, making them less vulnerable to hacking and other security threats. This ensures your site and visitor data remain safe and protected.' },
-                    { id: 3, img: commonimage3, title: 'SEO-Friendly', desc: 'Our developers carefully structure the code and implement best practices to make your website easily discoverable by search engines, improving your visibility online.' },
-                    { id: 4, img: commonimage5, title: 'More Reliability', desc: 'With fewer moving parts and minimal maintenance needs, static websites remain stable and consistent over time, offering high uptime and dependable performance.' },
-                    { id: 5, img: commonimage4, title: 'Cost-Effective', desc: 'Simpler architecture and lower server requirements make static websites more affordable to build, host, and maintain, providing excellent value for small and medium-sized businesses.' },
-                    { id: 6, img: commonimage6, title: 'Consistent User Experience', desc: 'With predictable performance across all devices and browsers, static websites deliver a seamless and uniform experience, keeping users engaged and satisfied.' },
+                    { id: 1, img: commonimage2, title: 'Value-packed Interaction', desc: 'Every page is optimized for speed, ensuring that visitors do not have to wait. Faster load times improve engagement, reduce bounce rates, and enhance the overall user experience.' },
+                    { id: 2, img: commonimage1, title: 'Expandable Organization', desc: 'A scalable plan that allows for more visitors, content, and data without changing the site’s core functionality. Whether your traffic spikes or your content library grows, your website remains fast without extra development costs.' },
+                    { id: 3, img: commonimage3, title: 'Safe and Trustworthy', desc: 'The latest technology and security routines are used to keep your data safe and reliable. Regular updates, secure protocols, and development best practices ensure your website and user data are always protected.' },
+                    { id: 4, img: commonimage5, title: 'Results, Time and Again', desc: 'Our service offerings are the leading factors of growth that can be measured, increasing engagement, conversions, and ROI. We focus on results that matter most to your business, translating website performance into real, tangible growth.' },
+                    { id: 5, img: commonimage4, title: 'Real-Time Data & Updates', desc: 'Dynamic websites automatically update content based on user interactions, backend data, or integrations, keeping your platform fresh and relevant. This ensures your visitors always see the latest information without delays.' },
+                    { id: 6, img: commonimage6, title: 'Personalized User Experiences', desc: 'Tailor content, recommendations, and interfaces for individual users, boosting engagement and satisfaction. By understanding user preferences and behavior, your website delivers experiences that feel custom-built for every visitor.' },
                 ]}
             />
             <CommonAboutPage2
                 text1="Expand Your Digital Capabilities with WD Agency"
                 text2={`
                             <p class="mb-20">
-                            We don't just create basic static websites, we offer additional services that improve your online presence: 
+                            At WD Agency, our work doesn’t stop at website launch- we continuously monitor, optimize, and enhance your website to ensure it remains competitive, examine core functionalities, and deliver the best user experience. 
                             </p>
                             <ul>
-                            <li><strong>SEO Optimization:</strong> Implementation of meta tags, structured data, and load-speed optimization to improve visibility and broaden your website's reach.</li>
+                            <li><strong>Continuous Data Adaptation:</strong> Your website can automatically update content based on user behavior, backend data, or real-time inputs, keeping your platform relevant and engaging.</li>
                             
-                            <li><strong>Hosting & Domain Setup:</strong> Fast and secure hosting, along with domain registration and configuration support for hassle-free deployment.</li>
+                            <li><strong>Interactive User Experiences:</strong> Provide visitors with personalized recommendations, adaptive layouts, and interactive tools that respond to their actions in real-time.</li>
                             
-                            <li><strong>Maintenance & Updates:</strong> Regular content updates and performance check-ups keep your site fresh, secure, and running smoothly.</li>
+                            <li><strong>Scalable Architecture:</strong> Dynamic websites can handle increasing traffic, large datasets, and complex functionalities without affecting performance or stability.</li>
                             
-                            <li><strong>Design Customization:</strong> Tailored design solutions, from pre-built templates to fully bespoke layouts, that reflect your brand’s unique identity.</li>
+                            <li><strong>API & Integration Ready:</strong> Easily connect with third-party services, CRMs, and databases to pull live data and enhance user experience.</li>
                             </ul>
                             <p>
-                            If you are looking for content refreshes from time to time or advanced SEO enhancements, WD Agency is there to support you with the performance of your static website at the highest level - far beyond the date of launch.
+                            With WD Agency, dynamic websites adapt content and functionality in real-time to deliver personalized, engaging experiences for every user.
                             </p>
                     `}
                 img={Aboutimg}
             />
               <CommonTechnologyStack
-  heding={"Modern Static Web Design Tech Stack"}
+  heding={"Modern Tools for Dynamic Web Development"}
   subheding={"Our stack of technology keeps your apps fast, reliable, and scalable. We blend the leading-edge tools for frontend and backend development to create extraordinary digital experiences that are customized to your business objectives."}
   techData={[
   { name: "React", image: react, gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)" },
@@ -152,19 +152,19 @@ const page = () => {
 
                     ]} />
                     <CommonWhyWebsiteDevelopment
-                    heding={"Benefits of Partnering with WD Agency"}
-                    subheding={"When you team up with WD Agency, you get a team that is all about offering performance-driven, future-ready solutions. That is what makes us different from the others:"}
+                    heding={"Why Our Dynamic Website Services Stand Out"}
+                    subheding={"If you choose to work with WD Agency, you will be collaborating with a team that creatively combines innovation, technology, and strategy to create dynamic websites that attract measurable results."}
                     lefttext={`<ul>
-                                <li><strong>Fast Loading Speeds:</strong> Our static websites are designed for near-instant loading, providing a seamless user experience that encourages visitor engagement.</li>
+                                <li><strong>Interactive User Experience:</strong> We make websites that can respond smartly to what users do with the help of the features such as real-time data updates, animations, and personalized recommendations.</li>
                                 
-                                <li><strong>Enhanced Security:</strong> With no databases or server-side scripting, static sites are less vulnerable to cyber threats and attacks, keeping your website safe.</li>
+                                <li><strong>Scalable for Growth and Traffic:</strong> With our evolving system, we can guarantee that your website will get more and more users without your having to do anything. No matter what the limits are, more users, data, or features, we plan for scalability and stability of the site in the long run.</li>
                                 
-                                <li><strong>Cost-Effective and Low-Maintenance:</strong> Enjoy high performance without recurring costs or complex maintenance requirements, making static sites an economical choice.</li>
+                                <li><strong>Data-Driven Functionality:</strong> We provide you a platform for real-time data tracking, complex analytics dashboards, and AI-powered insights from which you can take informed decisions with minimum effort.</li>
                                 
-                                <li><strong>Reliable and Scalable:</strong> Our static solutions are flexible and can be easily scaled to accommodate new sections or pages as your business grows.</li>
+                                <li><strong>Secure & Reliable Infrastructure:</strong> We use encryption, SSL, and secure APIs. Regular updates, vulnerability scanning, and maintenance combine with these measures to ensure your website is always secure and stable.</li>
                                 </ul>
 
-                                <p>We specialize in creating static websites that effectively communicate with your customers professionally. Each website that we design & develop is a true reflection of our commitment to design perfection, speed optimization, and longevity of service.</p>
+                                <p>WD Agency feels proud of not only building you a website but also creating digital living ecosystems that are geared to evolve, engage, and accomplish with the growth of your business.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -196,24 +196,28 @@ const page = () => {
                     <CommonFaqSection
                         faqs={[
                             {
-                                q: "What is a Static Website?",
-                                a: "A static website is made up of fixed web pages coded in HTML, CSS, and JavaScript. Each page is delivered to the user exactly as stored, offering fast performance and simplicity."
+                                q: "What is a Dynamic Website?",
+                                a: "A dynamic website is a site that can change what it shows based on who is visiting or what they do. For example, it can show personalized content, recommendations, or updates automatically."
                             },
                             {
-                                q: "Are Static Websites Secure?",
-                                a: "Yes, since static sites don’t rely on databases or server-side scripts, they are much less vulnerable to hacking and other security threats."
+                                q: "How Can a Dynamic Website Benefit My Business?",
+                                a: "Dynamic websites can enhance user engagement, provide personalized experiences, allow easy content updates, and scale seamlessly as your business grows."
                             },
                             {
-                                q: "How Easy is It to Maintain a Static Website?",
-                                a: "Static websites are low-maintenance because they don’t require frequent updates or server-side management. Updating content is simple and cost-effective."
+                                q: "Are Dynamic Websites Suitable for Startups or Only Large Enterprises?",
+                                a: "Dynamic websites are scalable and flexible, making them ideal for startups, growing businesses, and large enterprises alike, depending on your needs and traffic requirements."
                             },
                             {
-                                q: "Can a Static Website Handle High Traffic?",
-                                a: "Yes, static sites are highly scalable and can be served through CDNs (Content Delivery Networks) to handle large volumes of visitors efficiently."
+                                q: "Can a Dynamic Website Handle High Traffic and Large Amounts of Data?",
+                                a: "Yes, properly designed dynamic websites use scalable architecture and optimized code to manage large visitor volumes and complex data structures without compromising performance."
                             },
                             {
-                                q: "Are Static Websites Suitable for All Businesses?",
-                                a: "Static websites are ideal for businesses that need fast, secure, and reliable online presence. They work best for informational sites, portfolios, landing pages, and small to medium web projects."
+                                q: "Is a Dynamic Website Secure for Handling User Data?",
+                                a: "Absolutely, dynamic websites can implement advanced security measures, including SSL encryption, secure authentication, and regular updates to protect user data and maintain trust."
+                            },
+                            {
+                                q: "How is Content Updated on a Dynamic Website?",
+                                a: "Content on dynamic websites can be updated automatically through backend databases, APIs, or CMS platforms, allowing real-time changes without manual edits to the code."
                             }]}
                         />
 

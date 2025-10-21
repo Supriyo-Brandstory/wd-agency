@@ -148,7 +148,7 @@ const page = () => {
                         id: 3,
                         img: MobileFirst,
                         title: "Mobile-First Approach",
-                        desc: "Fully responsive for smartphones, tablets, and desktops.",
+                        desc: "Fully responsive web design for smartphones & tablets.",
                         link: "#"
                     },
                     {

@@ -54,7 +54,7 @@ const Footer = () => {
             <h4>SOLUTIONS</h4>
             <ul>
               <li> <Link href="#">Website Performance Optimization</Link></li>
-              <li><Link href="#">Website Migration Service</Link></li>
+              <li><Link href="/services/website-migration-service">Website Migration Service</Link></li>
               <li><Link href="/technology-web-development">Startup Solutions</Link></li>
             </ul>
           </div>

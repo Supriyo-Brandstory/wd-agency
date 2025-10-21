@@ -11,6 +11,7 @@ import protfolio3 from '@/app/(frontend)/assets/images/protfolio/3.webp'
 import protfoliologo3 from '@/app/(frontend)/assets/images/protfolio/kshemavan.webp'
 import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
 import protfoliologo4 from '@/app/(frontend)/assets/images/protfolio/equence.webp'
+import Link from 'next/link'
 const CommonProtfolio = ({
 heding = "Our Website Design Portfolio",
   desc = "We have worked with 500+ clients across Dubai and the United Arab Emirates. See our extensive website design and development portfolio here.",
@@ -18,22 +19,30 @@ heding = "Our Website Design Portfolio",
     {
       id: "01",
       image: protfolio1,
+      alt:"Our Website Design Portfolio - Varsha Logistics Pvt Ltd",
       logo: protfoliologo1,
+      alt:"Varsha Logistics Pvt Ltd Logo",
     },
     {
       id: "02",
       image: protfolio2,
+      alt:"Our Website Design Portfolio - Ferns Real Estate",
       logo: protfoliologo2,
+      alt:"Ferns Real Estate Logo",
     },
     {
       id: "03",
       image: protfolio3,
+      alt:"Our Website Design Portfolio - Kshema Vanitha",
       logo: protfoliologo3,
+      alt:"Kshema Vanitha Logo",
     },
     {
       id: "04",
       image: protfolio4,
+      alt:"Our Website Design Portfolio - Equence",
       logo: protfoliologo4,
+      alt:"Equence Logo",
     },
   ],
 }) => {
@@ -50,7 +59,7 @@ heding = "Our Website Design Portfolio",
                         <Image src={protfolio.image} alt="protfolio1" />
                         <div className={styles.ctabox}>
                             <Image src={protfolio.logo} alt="protfolio1" />
-                            <button className='white-btn'>Request Case Study</button>
+                            <Link href= "/case-studies" className='white-btn'>See Our Portfolio</Link>
                             
                         </div>
                     </div>
