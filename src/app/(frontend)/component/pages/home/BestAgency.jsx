@@ -7,7 +7,6 @@ import bestPractices from "@/app/(frontend)/assets/images/icons/best-practices.s
 import spectacular from "@/app/(frontend)/assets/images/icons/spectacular.svg";
 import brandIdentity from "@/app/(frontend)/assets/images/icons/brand-identity.svg";
 import deliverTheBestResults from "@/app/(frontend)/assets/images/icons/deliver-the-best-results.svg";
-import webSolutionBanner2 from "@/app/(frontend)/assets/images/web-solution-banner-2.webp";
 import webSolutionBanner from "@/app/(frontend)/assets/images/web-solution-banner.webp";
 import Image from "next/image";
 
@@ -70,22 +69,27 @@ const BestAgency = () => {
         {[
           {
             img: highEndAbility,
+            alt:"High End Ability in Website Design and Development",
             text: "Among the best website design companies in Dubai, WD Agency holds high-end ability in creating stunning, functional, and user-friendly websites.",
           },
           {
             img: bestPractices,
+            alt:"We Follow Website Design and Development Best Practices",
             text: "We adapt the best practices, latest web design frameworks, and technologies to align with the trends and deliver more than your expectations.",
           },
           {
             img: spectacular,
+            alt:"High End Ability in Website Design and Development",
             text: "We are the best web design company in Dubai, recognized and endorsed by trusted platforms for our spectacular work portfolio.",
           },
           {
             img: brandIdentity,
+            alt:"Top-level expertise in Website Design and Development",
             text: "We put our extra efforts to meet your needs and mirror your brand identity with qualified top-level expert web designers.",
           },
           {
             img: deliverTheBestResults,
+            alt:"We Deliver The Best Website Design and Development Services",
             text: "We are the best website development experts to undertake complex challenges, deliver the best website, and break the barrier of success for our beloved clients.",
           },
         ].map((item, index) => (
@@ -152,58 +156,10 @@ const BestAgency = () => {
 </>
           )}
         </ul>
-        <Image src={webSolutionBanner} alt="Web Solution Banner" />
+        <Image src={webSolutionBanner} alt="Web Design agency in Dubai, UAE - WD Agency" />
       </motion.div>
 
-      {/* Second Banner Section */}
-      <motion.div
-        className={style.bestAgencynextContainer}
-        initial="hidden"
-        whileInView="show"
-        variants={fadeUp}
-        transition={{ delay: 0.3 }}
-        viewport={{ once: true }}
-      >
-        <Image src={webSolutionBanner2} alt="Web Solution Banner" />
-        <ul>
-          <li>
-            We blend the power of branding with cutting-edge technology to
-            develop performance-driven websites. As a leading website design
-            company, our creative professionals design feature-rich websites
-            that go beyond normal and connect your customers to you directly.
-            We are well-renowned around the industry for our premium services
-            and guarantee your business growth with websites that speak for
-            your brand.
-          </li>
-
-          {isOpen["2"] && (
-            <>
-              <li>
-                We have a team of collective industry-specific experts, best
-                design professionals, and experienced tech geeks who do not fail
-                to deliver the best solutions. All aspects of your project are
-                future-proof with us, we put a strong focus on efficiency of a
-                website, user experience, features, and functionalities.
-                Operating as a professional website development agency, we
-                provide customized solutions for every project with fast,
-                reliable, and efficient coding practices.
-              </li>
-             
-            </>
-          )}
-          {isMobile && (
-            <>
-            <button
-              className="blue-btn mb-10 mr-10"
-              onClick={() => handleClickOpen("2")}
-            >
-              {isOpen["2"] ? "Read Less" : "Read More"}
-            </button>
-          <button className="white-btn mb-10">Contact Us</button>
-         </>
-          )}
-        </ul>
-      </motion.div>
+      
     </div>
   );
 };

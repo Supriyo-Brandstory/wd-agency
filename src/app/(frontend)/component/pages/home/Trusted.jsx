@@ -735,8 +735,8 @@ useEffect(() => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
     >
-      <p className="my-20">Need an incredible website built for impact?</p>
-      <Link href="/contact-us" className="white-btn">Let’s Discuss Today</Link>
+      <p className="my-20">Want to know more about Website Development Agency?</p>
+      <Link href="/about-us" className="white-btn">About WD Agency</Link>
     </motion.div>
 
         </div>

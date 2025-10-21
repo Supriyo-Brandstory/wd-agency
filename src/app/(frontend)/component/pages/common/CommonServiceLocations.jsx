@@ -46,7 +46,7 @@ export default function CommonServiceLocations() {
 
   return (
     <section className={`frame-1200 py-100 sm-pt-50 sm-pb-50 sm-px-20 ${styles.container}`}>
-      <h2 className="text-center sm-text-start mb-30">Our Service Locations</h2>
+      <h2 className="text-center sm-text-start mb-30">Our Service Locations Across The UAE</h2>
 
       <div className={styles.embla} ref={emblaRef}>
         <div className={styles.emblaContainer}>

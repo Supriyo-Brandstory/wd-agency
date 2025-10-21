@@ -55,7 +55,7 @@ Crafting Next-Gen Web Experiences
             variants={fadeUp}
             transition={{ delay: 0.3 }}
           >
-            <Image src={imgwebexprience} alt="Web Experiences" />
+            <Image src={imgwebexprience} alt="Best Website Development Agency - Crafting Next-Gen Web Experiences" />
           </motion.div>
         </motion.div>
       </div>
@@ -74,7 +74,7 @@ Crafting Next-Gen Web Experiences
             variants={fadeUp}
             transition={{ delay: 0.2 }}
           >
-            <Image src={woman} alt="woman" />
+            <Image src={woman} alt="We Stand as The Leading Web Design Company in Dubai" />
           </motion.div>
           <motion.div
             className={styles.middleSectionText}
@@ -143,7 +143,7 @@ Crafting Next-Gen Web Experiences
             variants={fadeUp}
             transition={{ delay: 0.3 }}
           >
-            <Image src={woman2} alt="woman" />
+            <Image src={woman2} alt="WD Agency is The Best Web Design Agency in Dubai, UAE" />
           </motion.div>
         </motion.div>
       </div>
@@ -162,7 +162,7 @@ Crafting Next-Gen Web Experiences
             variants={fadeUp}
             transition={{ delay: 0.2 }}
           >
-            <Image src={webexpbuttomimage} alt="Web Experiences" />
+            <Image src={webexpbuttomimage} alt="We master all types of web design and development services" />
           </motion.div>
 
           <motion.div
@@ -171,7 +171,7 @@ Crafting Next-Gen Web Experiences
             transition={{ delay: 0.3 }}
           >
             <h2>
-             We Build Websites of All Types-Expert Designers at Your Doorstep
+             We Build Websites of All Types- Expert Designers at Your Doorstep
 
             </h2>
             <p className="my-20 sm-my-10">

@@ -13,8 +13,8 @@ import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
 const caseStudiesData = [ 
   {
     id: 1,
-    title: "E-commerce Website Redesign",
-    category: "E-commerce",
+    title: "Varsha Logistics Pvt Ltd.",
+    category: "Business Website",
     image: protfolio1,
     modelimage: [
       { img: protfolio1 },
@@ -22,8 +22,8 @@ const caseStudiesData = [
   },
   {
     id: 2,
-    title: "E-commerce Website Redesign",
-    category: "E-commerce",
+    title: "Ferns Estates & Developers",
+    category: "Real Estate Website",
     image: protfolio2,
     modelimage: [
       { img: protfolio2 },
@@ -31,8 +31,8 @@ const caseStudiesData = [
   },
   {
     id: 3,
-    title: "E-commerce Website Redesign",
-    category: "E-commerce",
+    title: "Kshemavana",
+    category: "Healthcare & Wellness",
     image: protfolio3,
     modelimage: [
       { img: protfolio3 },
@@ -40,8 +40,8 @@ const caseStudiesData = [
   },  
   {
     id: 4,
-    title: "E-commerce Website Redesign",
-    category: "E-commerce",
+    title: "Equence",
+    category: "Tech Startup Website",
     image: protfolio4,
     modelimage: [
       { img: protfolio4 },

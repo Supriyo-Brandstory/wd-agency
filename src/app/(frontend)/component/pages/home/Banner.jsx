@@ -21,7 +21,7 @@ export default function Banner({
         </p>
         <div className={`mb-20 sm-mb-20 ${styles.buttons}`}>
           <Link  href="/contact-us" className={`fw-600 fs-22 ${styles.primary}`}>Enquiry Now</Link>
-          <button className={`fw-600 fs-22 ${styles.secondary}`}>See Portfolio</button>
+          <Link href="/case-studies" className={`fw-600 fs-22 ${styles.secondary}`}>See Portfolio</Link>
         </div>
         {/* <div className={styles.glowLineWrapper}></div> */}
 
