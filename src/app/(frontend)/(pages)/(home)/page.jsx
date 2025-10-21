@@ -18,6 +18,7 @@ import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 
 
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
+import CommonGame from '../../component/pages/common/CommonGame'
 const page = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const page = () => {
 
       />
       <Trusted />
+      <CommonGame/>
       <BestAgency />
       <WhatSetsUs />
       <OurCoreStrengths />

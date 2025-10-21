@@ -1,0 +1,54 @@
+.banner {
+    position: relative; /* ensures overlay is positioned relative to banner */
+    background: var(--bg);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner h1,
+.banner p {
+    position: relative; /* stay above overlay */
+    z-index: 2;
+}
+
+.content {
+  padding: 60px 0;
+  line-height: 1.7;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.content a {
+  color: #0078ff;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .banner {
+    padding: 20px;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+}

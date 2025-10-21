@@ -1,0 +1,12 @@
+.puzzleContainer {
+  background: #333;
+  border: 2px solid #000;
+}
+
+.puzzlePiece {
+  transition: transform 0.2s;
+}
+
+.puzzlePiece:hover {
+  transform: scale(1.05);
+}

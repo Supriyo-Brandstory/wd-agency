@@ -35,7 +35,7 @@ const CommonDevelopmentProcess = ({heding,subheding,processData}) => {
                 viewport={{ once: true }}
               >
                 <h3 className='mb-20'><span>{process.id}</span> {process.title}</h3>
-                <p>{process.description}</p>
+                <p dangerouslySetInnerHTML={{__html:process.description}}></p>
                 {process.pointsheding && <h4 className='fs-22 fw-700 mt-20'>{process.pointsheding}</h4>}
                 {process.points && 
                 <ul className='ml-40 mt-20'>
