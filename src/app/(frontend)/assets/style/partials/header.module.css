@@ -73,16 +73,19 @@
 
 /* Regular Dropdown */
 .dropdownMenu {
-  min-width: 160px;
-  padding: 10px 0;
-  transform: translateY(10px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  min-width: 490px;
+  gap: 0px; /* optional, spacing between items */
+  padding: 10px;
+  transform: translate(-10%,10px);
 }
 
 .dropdownMenu a {
   display: block;
   padding: 10px 15px;
   color: var(--color-white);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Mega Menu Dropdown */
@@ -90,14 +93,15 @@
   display: flex;
   gap: 40px;
   padding: 20px 30px;
-  transform: translateY(10px);
+  transform: translate(-26%, 10px);
+  
 }
 
 .dropdownCategory {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 150px;
+  min-width: 200px;
 }
 
 .dropdownCategory h4 {
@@ -117,12 +121,28 @@
   color: #a78bfa;
 }
 
+
 /* Hover effect for desktop */
-.dropdown:hover .dropdownMenu,
+.dropdown:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-8%,9px);
+}
+
 .dropdown:hover .dropdownMenu2 {
   opacity: 1;
   visibility: visible;
-  transform: translateY(3px);
+  transform: translate(-26%, 9px);
+
+}
+.iconhiden{
+  display: none;
+  transition: all 0.3s ease;
+}
+.dropdownMenu a:hover .iconhiden,.dropdownCategory a:hover .iconhiden {
+  display: inline-block;
+  transition: all 0.3s ease;
+
 }
 
 /* ============================= */

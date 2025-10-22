@@ -29,7 +29,7 @@ const page = () => {
 
       />
       <Trusted />
-      <CommonGame/>
+      {/* <CommonGame/> */}
       <BestAgency />
       <WhatSetsUs />
       <OurCoreStrengths />

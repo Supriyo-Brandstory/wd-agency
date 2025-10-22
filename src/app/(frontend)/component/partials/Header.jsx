@@ -71,7 +71,7 @@ export default function Header() {
                 <h4>{service.category}</h4>
                 {service.items.map((item, i) => (
                   <Link key={i} href={item.href}>
-                    {item.title}
+                    <span className={styles.iconhiden}>➤</span> {item.title}
                   </Link>
                 ))}
               </div>
@@ -89,16 +89,21 @@ export default function Header() {
               activeDropdown === "tech" ? styles.mobiledropdownActive : ""
             }`}
           >
-            <Link href="#">PHP</Link>
-            <Link href="#">Woocommerce</Link>
-            <Link href="#">WordPress</Link>
-            <Link href="#">Laravel</Link>
+            <Link href="/platforms/php-website-development"><span className={styles.iconhiden}>➤</span> PHP</Link>
+            <Link href="/platforms/woo-commerce-website-development"><span className={styles.iconhiden}>➤</span> Woocommerce</Link>
+            <Link href="/platforms/wordpress-website-development"><span className={styles.iconhiden}>➤</span> WordPress</Link>
+            <Link href="/platforms/react-js-website-development"><span className={styles.iconhiden}>➤</span> ReactJS</Link>
+            <Link href="/platforms/shopify-website-development"><span className={styles.iconhiden}>➤</span> Shopify</Link>
+            <Link href="/platforms/nodejs-website-development"><span className={styles.iconhiden}>➤</span> NodeJS</Link>
+            <Link href="/platforms/laravel-website-development"><span className={styles.iconhiden}>➤</span> Laravel</Link>
+            <Link href="/platforms/angular-website-development"><span className={styles.iconhiden}>➤</span> Angular</Link>
+            <Link href="/platforms/drupal-website-development"><span className={styles.iconhiden}>➤</span> Drupal</Link>
+
           </div>
         </div>
 
         <Link href="/blog">Blog</Link>
         <Link href="/case-studies">Portfolio</Link>
-        <Link href="/contact-us">Contact</Link>
 
         <Link href="/contact-us" className={styles.quoteBtn}>
           Get Quote

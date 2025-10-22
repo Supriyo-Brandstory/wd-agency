@@ -76,73 +76,105 @@ export default function BlogDetail({ params }) {
     };
   }, [blog]);
 
-  if (loading) return <p className={styles.loading}>Loading blog...</p>;
-  if (!blog) return <p className={styles.noResults}>Blog not found.</p>;
- const bgurl = typeof bannerbg === "string" ? bannerbg : bannerbg?.src;
+  const bgurl = typeof bannerbg === "string" ? bannerbg : bannerbg?.src;
+
   return (
     <>
-     <div className={styles.header} style={{"--bg":`url(${bgurl}) no-repeat center center / cover`}}>
-     <div className="frame-1200">
-        <h1 className={styles.title}>{blog.title}</h1>
-        <p className={styles.meta}>
-          {new Date(blog.createdAt).toLocaleDateString()} • {blog.category.name}
-        </p>
+      <div
+        className={styles.header}
+        style={{ "--bg": `url(${bgurl}) no-repeat center center / cover` }}
+      >
+        <div className="frame-1200">
+          {loading ? (
+            <>
+              <div className={styles.skeletonTitle}></div>
+              <div className={styles.skeletonMeta}></div>
+            </>
+          ) : (
+            <>
+              <h1 className={styles.title}>{blog.title}</h1>
+              <p className={styles.meta}>
+                {new Date(blog.createdAt).toLocaleDateString()} •{" "}
+                {blog.category.name}
+              </p>
+            </>
+          )}
         </div>
       </div>
 
-     <div className={`frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20 sm-pt-0 ${styles.blogSection}`}>
-      {/* ===== Header ===== */}
-     
-      {/* ===== Banner Image ===== */}
-      <div className={styles.imageWrapper}>
-        <img
-          src={blog.image || "/images/default-blog.jpg"}
-          alt={blog.title}
-          width={1200}
-          height={500}
-          className={styles.image}
-          priority
-        />
-      </div>
-
-      {/* ===== Content Section ===== */}
-      <div className={styles.contentContainer}>
-        {toc.length > 0 && (
-          <aside className={styles.toc}>
-            <h3>Table of Contents</h3>
-            <ul>
-              {toc.map((item) => (
-                <li key={item.id} className={styles[item.tagName]}>
-                  <a
-        href={`#${item.id}`}
-        className={activeId === item.id ? styles.active : ""}
-        onClick={(e) => {
-          e.preventDefault();
-          const element = document.getElementById(item.id);
-          if (element) {
-            // Smooth scroll to section
-            element.scrollIntoView({ behavior: "smooth", block: "start" });
-            // Manually update activeId
-            setActiveId(item.id);
-          }
-        }}
+      <div
+        className={`frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20 sm-pt-0 ${styles.blogSection}`}
       >
-                    {item.text}
-                    
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </aside>
-        )}
+        {loading ? (
+          <>
+            {/* ===== Skeleton Image ===== */}
+            <div className={styles.skeletonImage}></div>
 
-        <article
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: blog.content }}
-        />
+            {/* ===== Skeleton Content ===== */}
+            <div className={styles.skeletonContent}>
+              {Array.from({ length: 8 }).map((_, i) => (
+                <div
+                  key={i}
+                  className={`${styles.skeletonLine} ${
+                    i % 3 === 0 ? styles.wide : ""
+                  }`}
+                ></div>
+              ))}
+            </div>
+          </>
+        ) : (
+          <>
+            {/* ===== Banner Image ===== */}
+            <div className={styles.imageWrapper}>
+              <img
+                src={blog.image || "/images/default-blog.jpg"}
+                alt={blog.title}
+                width={1200}
+                height={500}
+                className={styles.image}
+                priority
+              />
+            </div>
+
+            {/* ===== Content Section ===== */}
+            <div className={styles.contentContainer}>
+              {toc.length > 0 && (
+                <aside className={styles.toc}>
+                  <h3>Table of Contents</h3>
+                  <ul>
+                    {toc.map((item) => (
+                      <li key={item.id} className={styles[item.tagName]}>
+                        <a
+                          href={`#${item.id}`}
+                          className={activeId === item.id ? styles.active : ""}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            const element = document.getElementById(item.id);
+                            if (element) {
+                              element.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                              });
+                              setActiveId(item.id);
+                            }
+                          }}
+                        >
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              )}
+
+              <article
+                className={styles.content}
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
+            </div>
+          </>
+        )}
       </div>
-    </div>
     </>
-   
   );
 }

@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function Blog() {
-    
+
     const [blogs, setBlogs] = useState([]);
     const [loading, setLoading] = useState(true);
     const [search, setSearch] = useState("");
@@ -47,7 +47,7 @@ export default function Blog() {
         (post) =>
             (category === "All" || post.categoryName === category) &&
             (post.title.toLowerCase().includes(search.toLowerCase()) ||
-    post.slug.toLowerCase().includes(search.toLowerCase()))
+                post.slug.toLowerCase().includes(search.toLowerCase()))
     );
 
     const bgurl = typeof bannerbg === "string" ? bannerbg : bannerbg?.src;
@@ -58,25 +58,24 @@ export default function Blog() {
     };
 
     const totalPages = blogs[0] ? Math.ceil(blogs[0].categoryTotal / blogsPerPage) : 1;
-function getPreview(content) {
-  if (!content) return "";
 
-  // Try to get the first <p>
-  const match = content.match(/<p>(.*?)<\/p>/i);
-  let text = match ? match[1] : content;
+    function getPreview(content) {
+        if (!content) return "";
 
-  // Strip any remaining HTML tags
-  text = text.replace(/<[^>]*>/g, "");
+        // Try to get the first <p>
+        const match = content.match(/<p>(.*?)<\/p>/i);
+        let text = match ? match[1] : content;
 
-  // Limit to 80 characters
-  if (text.length > 100) {
-    text = text.slice(0,104) + "...";
-  }
+        // Strip any remaining HTML tags
+        text = text.replace(/<[^>]*>/g, "");
 
-  return text;
-}
+        // Limit to 100 characters
+        if (text.length > 100) {
+            text = text.slice(0, 104) + "...";
+        }
 
-    if (loading) return <p className={styles.loading}>Loading blogs...</p>;
+        return text;
+    }
 
     return (
         <>
@@ -117,10 +116,18 @@ function getPreview(content) {
 
                 {/* BLOG GRID */}
                 <div className={styles.blogGrid}>
-                    {filteredPosts.length > 0 ? (
+                    {loading ? (
+                        Array.from({ length: 9 }).map((_, i) => (
+                            <div key={i} className={styles.skeletonCard}>
+                                <div className={styles.skeletonImage}></div>
+                                <div className={styles.skeletonText}></div>
+                                <div className={styles.skeletonTextSmall}></div>
+                            </div>
+                        ))
+                    ) : filteredPosts.length > 0 ? (
                         filteredPosts.map((post) => (
                             <div key={post.id} className={styles.blogCard} onClick={() => handleNavigation(post.slug)}>
-                                <div className={styles.imageWrapper}  >
+                                <div className={styles.imageWrapper}>
                                     <img
                                         src={post.image || "/images/default-blog.jpg"}
                                         alt={post.title}
@@ -146,7 +153,7 @@ function getPreview(content) {
                 </div>
 
                 {/* PAGINATION */}
-                {filteredPosts.length > 0 && totalPages > 1 && (
+                {!loading && filteredPosts.length > 0 && totalPages > 1 && (
                     <div className={styles.pagination}>
                         <button
                             onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
