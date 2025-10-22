@@ -8,7 +8,7 @@ const CommonAboutPage = ({text1,text2,text3,img}) => {
             <div className={styles.flex} style={{'--width': '55%'}}>
                 <div className={styles.left}>
                     <h2>{text1}</h2>
-                    <p className='my-20'>{text2}</p>
+                    <p className='my-20' dangerouslySetInnerHTML={{__html:text2}}></p>
                     <p dangerouslySetInnerHTML={{__html:text3}}></p>
                 </div>
                 <div className={styles.right} style={{'--width': '45%'}}>

@@ -1,108 +1,131 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "@/app/(frontend)/assets/style/common/commonGame.module.css";
 
-// Number of rows and columns for the puzzle
-const ROWS = 3;
-const COLS = 3;
-
 const CommonGame = () => {
-  const [pieces, setPieces] = useState([]);
-  const [draggedIndex, setDraggedIndex] = useState(null);
-  const [startTime, setStartTime] = useState(null);
-  const [timeTaken, setTimeTaken] = useState(null);
+  const [playerY, setPlayerY] = useState(0);
+  const [isJumping, setIsJumping] = useState(false);
+  const [obstacles, setObstacles] = useState([]);
+  const [score, setScore] = useState(0);
+  const [gameOver, setGameOver] = useState(false);
+  const gameRef = useRef(null);
+  const gravity = 0.5;
+  const jumpPower = 12;
 
-  const imageSrc = "/images/website-screenshot.jpg"; // replace with your screenshot
-
-  // Initialize pieces
+  // Spawn new obstacles endlessly
   useEffect(() => {
-    const tempPieces = [];
-    for (let i = 0; i < ROWS * COLS; i++) {
-      tempPieces.push(i);
-    }
-    shuffleArray(tempPieces);
-    setPieces(tempPieces);
-    setStartTime(Date.now());
-  }, []);
+    if (gameOver) return;
+    const interval = setInterval(() => {
+      setObstacles((prev) => [
+        ...prev,
+        { id: Date.now(), x: 1000, width: 30 + Math.random() * 30 },
+      ]);
+    }, 1500);
+    return () => clearInterval(interval);
+  }, [gameOver]);
 
-  // Shuffle array helper
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+  // Game loop: update positions
+  useEffect(() => {
+    if (gameOver) return;
+    let velocity = 0;
+    const loop = setInterval(() => {
+      // Player jump logic
+      if (isJumping) {
+        setPlayerY((y) => {
+          const newY = y + velocity;
+          velocity -= gravity;
+          if (newY <= 0) {
+            setIsJumping(false);
+            return 0;
+          }
+          return newY;
+        });
+      }
+
+      // Move obstacles
+      setObstacles((prev) =>
+        prev
+          .map((obs) => ({ ...obs, x: obs.x - 8 }))
+          .filter((obs) => obs.x > -50)
+      );
+
+      // Collision detection
+      setObstacles((prev) => {
+        for (let obs of prev) {
+          if (
+            obs.x < 100 &&
+            obs.x + obs.width > 60 &&
+            playerY < 50 // height of jump clearance
+          ) {
+            setGameOver(true);
+          }
+        }
+        return prev;
+      });
+
+      // Score
+      setScore((s) => s + 1);
+    }, 30);
+
+    return () => clearInterval(loop);
+  }, [isJumping, gameOver]);
+
+  // Handle jump
+  const handleJump = () => {
+    if (!isJumping && !gameOver) {
+      setIsJumping(true);
+    }
+    if (gameOver) {
+      // Reset game
+      setGameOver(false);
+      setPlayerY(0);
+      setObstacles([]);
+      setScore(0);
     }
   };
 
-  // Handle drag start
-  const handleDragStart = (index) => {
-    setDraggedIndex(index);
-  };
-
-  // Handle drop
-  const handleDrop = (index) => {
-    if (draggedIndex === null) return;
-    const newPieces = [...pieces];
-    [newPieces[draggedIndex], newPieces[index]] = [newPieces[index], newPieces[draggedIndex]];
-    setPieces(newPieces);
-    setDraggedIndex(null);
-
-    // Check if solved
-    if (isSolved(newPieces)) {
-      const endTime = Date.now();
-      setTimeTaken(((endTime - startTime) / 1000).toFixed(2));
-      alert(`🎉 Puzzle solved in ${((endTime - startTime) / 1000).toFixed(2)} seconds!`);
-    }
-  };
-
-  const isSolved = (arr) => {
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] !== i) return false;
-    }
-    return true;
-  };
+  // Listen to space key
+  useEffect(() => {
+    const handleKey = (e) => {
+      if (e.code === "Space") handleJump();
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  });
 
   return (
-    <div className={`frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20 ${styles.puzzleGame}`}>
-      <h1 className='text-center mb-50'>Play Games with Us</h1>
-      <div
-        className={styles.puzzleContainer}
-        style={{
-          display: "grid",
-          gridTemplateRows: `repeat(${ROWS}, 1fr)`,
-          gridTemplateColumns: `repeat(${COLS}, 1fr)`,
-          gap: "2px",
-          maxWidth: "600px",
-          margin: "0 auto",
-        }}
-      >
-        {pieces.map((piece, index) => {
-          const row = Math.floor(piece / COLS);
-          const col = piece % COLS;
-          const pieceSize = 100 / COLS;
+    <div
+      className={`frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20 ${styles.codeRunner}`}
+    >
+      <h1 className="text-center mb-50">💻 Code Runner</h1>
 
-          return (
-            <div
-              key={index}
-              draggable
-              onDragStart={() => handleDragStart(index)}
-              onDragOver={(e) => e.preventDefault()}
-              onDrop={() => handleDrop(index)}
-              className={styles.puzzlePiece}
-              style={{
-                width: "100%",
-                height: "0",
-                paddingBottom: `${100 / COLS}%`,
-                backgroundImage: `url(${imageSrc})`,
-                backgroundSize: `${COLS * 100}% ${ROWS * 100}%`,
-                backgroundPosition: `${(col * 100) / (COLS - 1)}% ${(row * 100) / (ROWS - 1)}%`,
-                border: "1px solid #fff",
-                cursor: "pointer",
-              }}
-            ></div>
-          );
-        })}
+      <div
+        className={styles.gameArea}
+        ref={gameRef}
+        onClick={handleJump}
+      >
+        {/* Player */}
+        <div
+          className={styles.player}
+          style={{ bottom: `${playerY}px` }}
+        ></div>
+
+        {/* Obstacles */}
+        {obstacles.map((obs) => (
+          <div
+            key={obs.id}
+            className={styles.obstacle}
+            style={{ left: `${obs.x}px`, width: `${obs.width}px` }}
+          ></div>
+        ))}
+
+        {/* Ground */}
+        <div className={styles.ground}></div>
+
+        {/* UI */}
+        <div className={styles.score}>Score: {score}</div>
+        {gameOver && <div className={styles.gameOver}>💀 Game Over! Click or press SPACE to restart</div>}
       </div>
-      {timeTaken && <p className='text-center mt-20'>Time taken: {timeTaken} seconds</p>}
     </div>
   );
 };

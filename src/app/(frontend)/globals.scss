@@ -339,6 +339,7 @@ ul li {
     border-radius: var(--size-8);
     padding: var(--size-20) var(--size-30);
         display: inline-block;
+        text-decoration: none;
 }
 .blue-btn {
     background: var(--color-blue);
@@ -348,6 +349,7 @@ ul li {
     border-radius: var(--size-8);
     padding: var(--size-20) var(--size-30);
     display: inline-block;
+    text-decoration: none;
 }
 
 
@@ -468,3 +470,9 @@ ul li {
     }
 }
 
+a {
+  text-decoration: underline;
+}
+ul li a {
+  text-decoration: none;
+}
