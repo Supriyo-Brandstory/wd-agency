@@ -5,8 +5,12 @@
   color: var(--color-white);
   top: 0;
   z-index: 1000;
-  padding: 20px 0px;
+  padding: 20px 0;
   margin: 0 auto;
+}
+
+.logo img {
+  display: block;
 }
 
 .nav {
@@ -50,16 +54,28 @@
   cursor: pointer;
 }
 
-.dropdownMenu {
-  display: none;
+/* ============================= */
+/* DESKTOP DROPDOWN BEHAVIOR */
+/* ============================= */
+.dropdownMenu,
+.dropdownMenu2 {
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
-  background: #111;
   top: 100%;
   left: 0;
-  min-width: 160px;
+  background: #111;
   border-radius: 6px;
-  padding: 10px 0;
   z-index: 100;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Regular Dropdown */
+.dropdownMenu {
+  min-width: 160px;
+  padding: 10px 0;
+  transform: translateY(10px);
 }
 
 .dropdownMenu a {
@@ -69,11 +85,49 @@
   font-size: 14px;
 }
 
-/* .dropdownMenu a:hover {
-  background: #222;
-} */
+/* Mega Menu Dropdown */
+.dropdownMenu2 {
+  display: flex;
+  gap: 40px;
+  padding: 20px 30px;
+  transform: translateY(10px);
+}
 
-/* Mobile Styles */
+.dropdownCategory {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 150px;
+}
+
+.dropdownCategory h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #a78bfa;
+}
+
+.dropdownCategory a {
+  color: var(--color-white);
+  padding: 5px 0;
+  transition: color 0.2s;
+}
+
+.dropdownCategory a:hover {
+  color: #a78bfa;
+}
+
+/* Hover effect for desktop */
+.dropdown:hover .dropdownMenu,
+.dropdown:hover .dropdownMenu2 {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(3px);
+}
+
+/* ============================= */
+/* MOBILE STYLES */
+/* ============================= */
 .mobileToggle {
   display: none;
   font-size: 26px;
@@ -93,6 +147,7 @@
     background: #000;
     padding: 20px;
     display: none;
+    align-items: flex-start;
   }
 
   .nav.open {
@@ -107,86 +162,46 @@
     padding: 30px 20px;
   }
 
-  .nav {
-    align-items: start;
-  }
-
   .header img {
     width: 165px;
     object-fit: contain;
   }
-}
 
-/* Mega Dropdown - full screen width outside nav */
-/* Mega Menu Styles */
-.dropdownMenu2 {
- 
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: max-content; /* adjust width automatically */
-  background: #111;
-  padding: 20px 30px;
-  border-radius: 6px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-  z-index: 100;
-  gap: 40px; /* spacing between categories */
-  transform: translate(-38%, 8%); /* center horizontally */
-  
-  opacity:0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-  display: flex;
-}
-
-.dropdown:hover  .dropdownMenu2 {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-38%, 3%); /* center horizontally */
-
-  
-}
-
-/* Each category column */
-.dropdownCategory {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-width: 150px;
-}
-
-/* Category heading */
-.dropdownCategory h4 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #a78bfa;
-}
-
-/* Category links */
-.dropdownCategory a {
-  color: var(--color-white);
-  padding: 5px 0;
-  transition: color 0.2s;
-}
-
-.dropdownCategory a:hover {
-  color: #a78bfa;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
+  /* Override hover dropdowns on mobile */
+  .dropdownMenu,
   .dropdownMenu2 {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        padding: 10px 0;
-        position: relative;
-        transform: translate(-36%, 1%) !important;
-        background: unset;
-        display: none;
+    position: relative;
+    background: none;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+    padding: 10px 0;
   }
-.mobiledropdown2active{
-  display: flex;
-}
+
+  .dropdownCategory {
+    min-width: 100%;
+  }
+
+  .mobiledropdownActive {
+    display: flex !important;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .dropdownCategory h4 {
+    color: #a78bfa;
+    margin-top: 10px;
+  }
+
+  .dropdownCategory a {
+    color: var(--color-white);
+    padding-left: 15px;
+  }
+
+  .dropdown button {
+    width: 100%;
+    text-align: left;
+  }
 }
