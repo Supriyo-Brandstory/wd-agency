@@ -39,6 +39,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
+                alt='Website Development for Technology Startups in UAE - WD Agency'
                 heding={"Website Development Agency in UAE </br>for Technology Startups"}
                 subtitle={"Empowering tech startups in Dubai & the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "}
 
@@ -52,10 +53,13 @@ const page = () => {
                 <p>At WD Agency, we are the best when it comes to building a custom-built website for a technology startup that is a hit with the market and which is innovative. We build engaging and efficient websites that help startups grow and get funding starting from MVP launches to full-scale SaaS platforms. Using our knowledge, the startup stage can turn into a brilliant online presence in no time.</p>
                     `}
                 imageintro1={imageintro1}
+                alt1='Technology Startup Website Development Services - WD Agency'
                 imageintro2={imageintro2}
+                alt2='Custom Technology Startup Website Development - WD Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
+                alt='Why Technology Startups Need Professional Websites - WD Agency'
                 heding={'Why Startups Need Professional Websites'}
                 subheding={'For a technology startup, your website is your virtual home base. Thats where you show off your credibility and make a great first impression to investors, partners, and early users. A website made by professionals conveys the idea of trust, the seriousness of the project, and a vision that is clear.'}
                 lefttext={`  <p>The website of a startup is not just presenting an idea, it is showing the company’s originality and market presence. In the website, you can visualize MVPs, upcoming features, and product roadmaps in a more appealing way. Besides, you can also indicate your technology stack, innovation journey, and unique differentiators that revolutionize your product.</p>
@@ -72,12 +76,14 @@ const page = () => {
                         title: 'Custom Website Design',
                         desc: 'Our aim is to bring about the clean, modern, and UX-driven layout designs that indicate your brand identity, where your website will not only look fresh but also trustworthy.',
                         img: imageService1,
+                        alt: 'Custom Startup Website Design Services for Startups- WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Landing Pages & Product Showcases',
                         desc: 'Powerful landing pages can create the right engagement for visitors, by which you can rush your features, pricing, and the availability of the product.',
                         img: imageService2,
+                        alt: 'Landing Page Creation Services for Startups - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -85,6 +91,7 @@ const page = () => {
                         title: 'Interactive Prototypes & MVP Sites',
                         desc: 'Be free to put the first versions to the test by involving the users and getting their feedback, thus making a solid ground for your business idea within a short period of time.',
                         img: imageService3,
+                        alt: 'MVP Website Development Services for Startups - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -92,6 +99,7 @@ const page = () => {
                         title: 'App & SaaS Integrations',
                         desc: 'Our services include connecting many necessary attributes like APIs, payment gateways, and other integrations that contribute to the smooth running of your SaaS or tech ecosystem with your website.',
                         img: imageService4,
+                        alt: 'SaaS Integration Services for Startup Websites - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -99,6 +107,7 @@ const page = () => {
                         title: 'Lead Capture & CRM Integration',
                         desc: 'Create a strong base of early adopters, investors, and partners through user-friendly lead forms and automatically connected CRMs.',
                         img: imageService5,
+                        alt: 'Lead Capture & CRM Integration Services for Startups - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -106,6 +115,7 @@ const page = () => {
                         title: 'Responsive Web Design',
                         desc: 'Give users the same outstanding experience on all devices, thereby increasing the time they spend on their mobile, tablet, or desktop.',
                         img: imageService6,
+                        alt: 'Responsive Web Design Services for Startups - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -114,6 +124,7 @@ const page = () => {
                         title: 'Analytics & Growth Tracking',
                         desc: 'Utilize the integrated analytics tools to track user behavior, conversion funnels, and engagement which in turn will be your scaling strategy.',
                         img: imageService7,
+                        alt: 'Analytics & Growth Tracking Services for Startup Websites - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -121,6 +132,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'We are always ensuring that your startup’s online face keeps up with your product’s face in the market - by giving continuous maintenance, performance optimization, and feature updates.',
                         img: imageService8,
+                        alt: 'Startup Website Maintenance & Support Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -190,6 +202,7 @@ const page = () => {
                                 <p>Our working methods are open and interactive - you can be part of every step from the initial stage to the moment after the launch, and even through the updates. Besides creating your web platform, we also offer long-term guidance for your startup’s digital path.</p>
                             `}
                     rightimage={imagewhydevelopment}
+                    alt='Why Choose WD Agency for Startup Website Development - WD Agency'
 
                     />
                     <CommonClientTestimonials

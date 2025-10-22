@@ -46,20 +46,20 @@ const page = () => {
     />
     <CommonAboutPage
         text1={"Best Website Development Agency Umm Al Quwain- WD Agency"}
-        text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At WD Agency, our portfolio includes top-performing websites that deliver high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
+        text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At <a href='/'>Website Development Agency</a>, our portfolio includes top-performing websites that deliver high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
         text3={"As a leading web development agency in Umm Al Quwain, we serve clients across all areas, from Al Salamah to Al Raas, and beyond. We create refined websites that perfectly reflect your brand identity from top to bottom."}
         img={aboutimageummalquwain}
     />
     <CommonSetsUs
         text1={'Redefining Digital Experiences for a Decade'}
-        text2={'Your search for a professional website development company in Umm Al Quwain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology, and seamless operability—keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+        text2={'Your search for a professional website development company in Umm Al Quwain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
         bg={setusimageummalquwain}
     />
     <CommonAboutPage2
         text1="Why a Professional Website Design Matters <br/>for Businesses?"
         text2={`
             <p class="mb-20">
-            Websites are more than just a digital brochure; they define your brand and act as an active sales channel 24/7. For local businesses in Umm Al Quwain looking to level up, a website is the perfect touchpoint to expand your reach. Your audience can quickly explore your business, offerings, and become loyal customers. A professional website design can help you:
+            Websites are more than just a digital brochure- they define your brand and act as an active sales channel 24/7. For local businesses in Umm Al Quwain looking to level up, a website is the perfect touchpoint to expand your reach. Your audience can quickly explore your business, offerings, and become loyal customers. A professional website design can help you:
             </p>
             <ul class="ml-40">
             <li>Build trust and credibility with a strong first impression</li>
@@ -122,28 +122,24 @@ const page = () => {
                 img: customdesign,
                 title: "Custom Design",
                 desc: "Fully responsive for smartphones, tablets, and desktops.",
-                link: "#"
             },
             {
                 id: 2,
                 img: SEOCentric,
                 title: "SEO-Centric",
                 desc: "Structured with on-page SEO basics for better visibility.",
-                link: "#"
             },
             {
                 id: 3,
                 img: MobileFirst,
                 title: "Mobile-First Approach",
                 desc: "Optimized for seamless performance across all devices.",
-                link: "#"
             },
             {
                 id: 4,
                 img: Optimized,
                 title: "Optimized for Performance",
                 desc: "Fast, secure, and designed for conversions.",
-                link: "#"
             },
         ]}
         footertext={'We have worked with top businesses in Umm Al Quwain and the UAE across retail, real estate, hospitality, e-commerce, and more. We know what it takes to build a digital platform that works for every niche.'}

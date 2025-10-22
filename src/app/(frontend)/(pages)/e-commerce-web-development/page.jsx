@@ -39,6 +39,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
+                alt='Ecommerce Website Development Services in Dubai & the UAE - WD Agency'
                 heding={"Ecommerce Website Development for <br/>Growing Dubai & the UAE Businesses"}
                 subtitle={"Build scalable, user-friendly, and revenue-driven online stores with WD Agency.</br> We are the top-rated E-commerce web design & development agency in Dubai & the UAE."}
 
@@ -53,7 +54,9 @@ const page = () => {
                 <p>At WD Agency, we understand the unique needs of UAE businesses. From integrating local payment gateways to creating bilingual websites in Arabic and English, we build platforms designed for growth in one of the world’s most dynamic ecommerce landscapes.</p>
                     `}
                 imageintro1={imageintro1}
+                alt1='Ecommerce Web Development Services in Dubai - WD Agency'
                 imageintro2={imageintro2}
+                alt2='Ecommerce Web Development Company in UAE - WD Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
@@ -73,12 +76,14 @@ const page = () => {
                         title: 'Custom Website Design',
                         desc: 'We want your e-commerce website to tell your brands unique story. Our design team creates custom mobile-first ecommerce websites that look visually stunning and resonate with your brand persona while delivering an intuitive and smooth customer experience.',
                         img: imageService1,
+                        alt: 'Custom Ecommerce Website Design Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'E-commerce Website Development',
                         desc: 'We focus on creating websites that are scalable, secure, and optimized for performance, whether developing Shopify, Magento, or WooCommerce. For businesses with more complex needs, we offer custom ecommerce development services with features like multi-vendor shops and advanced integrations.',
                         img: imageService2,
+                        alt: 'Ecommerce Website Development Services - WD Agency',  
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -86,6 +91,7 @@ const page = () => {
                         title: 'Payment Gateway Integration',
                         desc: 'We make payments easy and secure by building in all the major payment processors—such as PayPal, Stripe, and Apple Pay, and accepting UAE banks and digital wallet options. Every transaction is PCI DSS compliant, so you can be sure that every exchange is encrypted and trustworthy.',
                         img: imageService3,
+                        alt: 'Payment Gateway Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -93,6 +99,7 @@ const page = () => {
                         title: 'Shopping Cart & Checkout Solutions',
                         desc: 'Cart abandonment is a significant challenge for any ecommerce transaction, and our goal is to minimize cart abandonment. We build checkout flows and user-friendly carts that reduce friction and encourage purchases. Features like guest checkout, pre-filled forms, multiple payment call-outs, and real-time checkout status.',
                         img: imageService4,
+                        alt: 'Shopping Cart & Checkout Development Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -100,6 +107,7 @@ const page = () => {
                         title: 'Product Catalog Management',
                         desc: 'Whether you are selling 50 products or managing a 50,000+ inventory, our systems will assist you in managing your catalog. We can quickly and easily upload products, categorize and sort them, and filter them for advanced utilization.',
                         img: imageService5,
+                        alt: 'Product Catalog Design Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -107,6 +115,7 @@ const page = () => {
                         title: 'Mobile Commerce (M-Commerce)',
                         desc: 'Since the UAE marketplace acts as a mobile-first audience, having a responsive ecommerce website is essential at this point, and no longer an option. We develop mobile-first ecommerce websites that provide an app-like experience with fast navigation, checkout and responsive on-the-go visuals.',
                         img: imageService6,
+                        alt: 'Mobile Commerce Development Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -115,6 +124,7 @@ const page = () => {
                         title: 'Third-Party Integrations',
                         desc: 'We assist in building a streamlined operation by integrating your ecommerce store with essential third-party systems. From CRM and ERP tools, to shipping APIs and logistics partners, to marketing automation services, we will ensure you are connected and you have less manual work.',
                         img: imageService7,
+                        alt: 'Third-Party Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -122,6 +132,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'Your E-commerce journey does not end after launch and neither does our dedication to you.  We offer post-launch maintenance, performance monitoring, bug fixes, feature improvements, and regular updates to keep your site performing well and securely.',
                         img: imageService8,
+                        alt: 'Ecommerce Website Maintenance & Support Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -194,6 +205,7 @@ const page = () => {
                                 <p>Transparency is a key component of our process. We will share straightforward pricing, clear timelines and assign you a project manager to provide ongoing communication. This way, you will always be updated on the work on your website, and you can focus on scaling your business while we take care of the technical side.</p>
                             `}
                     rightimage={imagewhydevelopment}
+                    alt='Why Choose WD Agency for Ecommerce Website Development - WD Agency'
 
                     />
                     <CommonClientTestimonials/>

@@ -96,8 +96,8 @@ const Footer = () => {
           <div className={styles.legal}>
             <h4>LEGAL</h4>
             <ul>
-              <li><Link href="#">Privacy Policy</Link></li>
-              <li><Link href="#">Terms & Conditions</Link></li>
+              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
             </ul>
           </div>
         </div>

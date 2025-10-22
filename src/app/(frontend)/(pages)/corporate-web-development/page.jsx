@@ -38,6 +38,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
+                alt='Corporate Website Development Services - WD Agency'
                 heding={"Corporate Website Development for </br>Growing Businesses in Dubai, UAE"}
                 subtitle={"At WD Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."}
 
@@ -51,10 +52,13 @@ const page = () => {
                 <p>WD Agency, as a reliable and loyal website design partner, empowers corporate companies to morph their online visibility to hardly-acquirable competitive advantages. We don’t just build websites, we craft digital ecosystems that communicate brand excellence, inspire stakeholder confidence, and open doors to new opportunities.</p>
                     `}
                 imageintro1={imageintro1}
+                alt1='Corporate Website Design Services - WD Agency'
                 imageintro2={imageintro2}
+                alt2='Professional Corporate Website Development - WD Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
+                alt='Why Corporate Businesses Need Professional Websites - WD Agency'
                 heding={'Why Corporate Businesses Need Professional Websites'}
                 subheding={'Corporate websites in the UAE’s changing and vibrant business market serve as the first interfaces for customers, investors, and other people from the company’s network. A well-maintained online presence is more than just a good idea, it acts as the foundation of trust between the corporation and its customers. This will undoubtedly lead to future visits beyond the first.'}
                 lefttext={`  <p>A corporate website is not just about design; it’s about building trust. First of all, they represent the ones who might want to invest in the company, as well as the global partners. The way a company presents itself through the web is the first criterion on which decision-makers base their judgment.</p>
@@ -71,12 +75,14 @@ const page = () => {
                         title: 'Custom Website Design',
                         desc: 'We design modern websites with a focus on brand layouts that visually reflect your companys identity and professionalism. No two websites are the same, each is customized to suit your business while maintaining a professional and corporate look that resonates with your audience.',
                         img: imageService1,
+                        alt: 'Custom Corporate Website Design Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Content Management Systems (CMS)',
                         desc: 'Empower your team to manage and update content quickly and easily using CMS platforms such as WordPress, Joomla, and more. Our CMS websites simplify publishing, enabling greater efficiency, collaboration, and agility across your organization.',
                         img: imageService2,
+                        alt: 'Corporate Website CMS Development Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -84,6 +90,7 @@ const page = () => {
                         title: 'Multilingual & Multi-regional Websites',
                         desc: 'UAE businesses cater to global audiences. We design websites with multilingual and multi-regional features to expand reach and inclusivity, ensuring that your content resonates with diverse audiences across different languages and regions. ',
                         img: imageService3,
+                        alt: 'Multilingual Corporate Website Development Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -91,6 +98,7 @@ const page = () => {
                         title: 'Investor Relations & CSR',
                         desc: 'Present and socialize data, reports, and environmental conscious activities through well-organized and developed investors as well as CSR portals, in this way you will win over your customers and gain their loyalty.',
                         img: imageService4,
+                        alt: 'Investor Relations & CSR Website Development Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -98,6 +106,7 @@ const page = () => {
                         title: 'Lead Capture & CRM Integration',
                         desc: 'Just as easily as you could integrate forms, chat rooms, and CRMs in order to trace, handle, and cultivate your business leads adequately, ou can also automate follow-ups, segment your audience, and track interactions in real time. ',
                         img: imageService5,
+                        alt: 'Lead Capture & CRM Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -105,6 +114,7 @@ const page = () => {
                         title: 'Mobile & Tablet Optimization',
                         desc: 'Meet the needs of the highly mobile audience in the UAE by delivering identical results on every device. Our responsive designs ensure seamless navigation, fast loading times, and consistent functionality across smartphones, tablets, and desktops.',
                         img: imageService6,
+                        alt: 'Mobile & Tablet Optimization Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -114,6 +124,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'Through times of change, our supporting team makes sure that your corporate website is always up-to-date, secure, and flexible enough to meet challenging demands.',
                         img: imageService8,
+                        alt: 'Corporate Website Maintenance & Support Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -185,6 +196,7 @@ const page = () => {
                                 <p>The concept of transparency is the very essence of our method. We do things with honesty and clarity, giving you regular updates and we are not just your supplier but a member of your long-term digital partner.</p>
                             `}
                     rightimage={imagewhydevelopment}
+                    alt='Why Choose WD Agency for Corporate Website Development - WD Agency'
 
                     />
                     <CommonClientTestimonials

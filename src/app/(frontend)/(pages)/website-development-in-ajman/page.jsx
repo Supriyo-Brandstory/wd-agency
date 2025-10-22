@@ -46,7 +46,7 @@ const page = () => {
             <CommonAboutPage
                 text1={"Website Design Ajman – Build Your Digital Identity with Confidence"}
                 text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website design services in Ajman to help businesses stand out, attract customers, and grow sustainably."}
-                text3={"At Website Development Agency, we design and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
+                text3={"At <a href='/'>Website Development Agency</a>, we design and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
@@ -96,7 +96,7 @@ const page = () => {
                     <ul class="my-20">
                     <li>Attractive with highly engaging layouts, modern color schemes, and consistent branding.</li>
                     <li>User-friendly design, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
-                    <li>Mobile-first, with designs being fully responsive and optimized for smartphones and tablets.</li>
+                    <li>Mobile-first, with designs being fully responsive and <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>optimized for smartphones</a> and tablets.</li>
                     <li>SEO-optimized, with a structure that ensures higher ranking and increased visibility on search engines.</li>
                   </ul>
                   <p>Whether launching your first digital presence as a startup or the redesigning website, we make sure your website represents you well and supports your growth ambitions.</p>

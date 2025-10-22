@@ -42,6 +42,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
+                alt={'Real Estate Website Development Agency in Dubai - WD Agency'}
                 heding={"Real Estate Website Development for <br/>Property Businesses in Dubai & UAE"}
                 subtitle={"Empower your property business in Dubai with a professionally crafted real estate website <br/>designed to attract buyers, showcase listings, and generate qualified leads."}
 
@@ -51,14 +52,17 @@ const page = () => {
                 text1={` <p>The real estate market in UAE is booming as new developments, global investments, and demand for residential and commercial space remains strong. Today, buyers, sellers, and agents depend on digital channels to make educated decisions about properties. For real estate businesses, it's no longer a matter of "if" you should have a website, it's the backbone of Trust, Credibility and Growth.</p>
                     <p>Your website is likely the first place buyers or investors will get to know you or your business. If properties are presented effectively as a developer, agency, or independent broker, you can easily differentiate yourself in a competitive market. A poorly designed website will cause you to lose leads, regardless of your amazing prospects.</p>
                     `}
-                text2={`  <p>Unlike a "normal business website", a real estate website will have distinct needs; advanced property search filters, property comparison tools, interactive maps or seamless booking systems. Each of these applications affect buyer engagement and conversions- which is why off-the-shelf templates fall short in an industry with such specific needs.</p>
-                <p>At WD Agency, we recognize these challenges, and we specialize in feature-rich real estate websites that are built for performance and conversion. From mobile-first responsive sites to advanced listing management systems, WD Agency is your reliable real estate website development agency in Dubai for building a digital platform.</p>
+                text2={`  <p>Unlike a generic business website, a real estate website have distinct needs, advanced property search filters, property comparison tools, interactive maps or seamless booking systems. Each of these applications affect buyer engagement and conversions- which is why off-the-shelf templates fall short in an industry with such specific needs.</p>
+                <p>At <a href='/'>Website Development Agency</a>, we recognize these challenges, and we specialize in feature-rich real estate websites that are built for performance and conversion. From mobile-first responsive sites to advanced listing management systems, WD Agency is your reliable real estate website development agency in Dubai for building a digital platform.</p>
                     `}
                 imageintro1={imageintro1}
+                alt1={'Real Estate Website Design Services in Dubai - WD Agency'}
                 imageintro2={imageintro2}
+                alt2={'Real Estate Website Development Company in UAE - WD Agency'}
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
+                alt={'Why Real Estate Businesses Need Professional Websites - WD Agency'}
                 heding={'Why Real Estate Businesses Need Professional Websites'}
                 subheding={'Days have gone by when buyers found their property via a newspaper or local bulletin; the way users research properties in the UAE has shifted so quickly. The majority of buyers now start their property journey online, beginning with neighborhood and market research, virtual tours, comparative market analysis, and price comparison, and rarely reach out to an agent before using the \"Find a Property\" feature on your website.'}
                 lefttext={`  <p>Easy-to-use websites with advanced property listings, interactive maps, and virtual tour integration enable prospects to search for homes and offices in detail before visiting your property in person. This aspect of convenience helps build trust and prompt action. In fast-moving markets like Dubai or Abu Dhabi, fast action and clearly communicating advantages can lead to winning business vs. lost business.</p>
@@ -75,12 +79,14 @@ const page = () => {
                         title: 'Custom Website Design',
                         desc: 'We design sleek, modern layouts designed to align with your branding. As an agency or developer, your website will exude professionalism while maintaining ease of use and buyer-friendly access. All layouts are designed to showcase your properties in the most favorable way to give your business a leg up on the competition in the UAE.',
                         img: imageService1,
+                        alt: 'Custom Real Estate Website Design Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Property Listing & Management Systems',
                         desc: 'With enhanced tools, you can manage and display your properties effortlessly. Each listing includes features such as filters for location, pricing, and amenities, types, and are optimized  for quick browsing. This system is designed for function and ease of use, which means you can manage hundreds of listings with ease and little hassle.',
                         img: imageService2,
+                        alt: 'Property Listing and Management System - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -88,6 +94,7 @@ const page = () => {
                         title: 'IDX/MLS Integration',
                         desc: 'We seamlessly integrate IDX/MLS fees for live property data. We make listings automatically updated, so buyers can always access accurate, up-to-date information. This saves your time, eliminates inaccuracies, and generates client trust and a better user experience for your platform.',
                         img: imageService3,
+                        alt: 'IDX/MLS Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -95,6 +102,7 @@ const page = () => {
                         title: 'Virtual Tours & 3D Integration',
                         desc: 'Engage people to your properties with immersive tours of your property. Our websites can provide 360° views and 3D walk-throughs so buyers can visualize homes, without having to physically step inside. This builds buyer confidence and decreases unnecessary visits to the property for clients and agents.',
                         img: imageService4,
+                        alt: 'Virtual Tour and 3D Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -102,6 +110,7 @@ const page = () => {
                         title: 'Leads & CRM Connectivity',
                         desc: 'Maximize conversions from visitors by placing inquiry forms wherever possible, enabling them to reach you instantly, and by connecting your CRM to easily capture your leads. The process from 1st contact to closing the deal becomes more efficient and transparent.',
                         img: imageService5,
+                        alt: 'Leads and CRM Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -109,6 +118,7 @@ const page = () => {
                         title: 'Multi-Language & Multi-Currency Options',
                         desc: 'With the UAE’s diverse population and worldwide investors, our websites can support multiple languages and currencies, which allows your website to be available to the entire world. The transaction and contact process reflects a level of professionalism that your local and foreign clients will appreciate. ',
                         img: imageService6,
+                        alt: 'Multi-Language and Multi-Currency Real Estate Website Development - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -117,6 +127,7 @@ const page = () => {
                         title: 'Mobile & Tablet Optimized Designs',
                         desc: 'Every page has a responsive layout to ensure an error-free and enjoyable experience browsing with smartphones or tablets, which is critical for on-the-go buyers. Speed and readability are optimized on each page to decrease bounce rates and retain reader engagement.',
                         img: imageService7,
+                        alt: 'Mobile Optimized Real Estate Website Design - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -124,6 +135,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'Our commitment to your website is ongoing. We will continue to provide updates, bug fixes, and new features as needed to keep your website running wholly optimally with respect to performance and security. With our continual proactive monitoring, your online platform will be future-ready and market-ready.',
                         img: imageService8,
+                        alt: 'Real Estate Website Maintenance and Support Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -197,6 +209,7 @@ const page = () => {
                                 <p><b>Transparent Process & Support:</b> From initial planning to post-launch maintenance, we maintain clear communication at every step. Our ongoing support ensures your website remains up-to-date, secure, and optimized for long-term success.</p>
                             `}
                     rightimage={imagewhydevelopment}
+                    alt={'Why Choose WD Agency for Real Estate Website Development'}
 
                     />
                     <CommonClientTestimonials
