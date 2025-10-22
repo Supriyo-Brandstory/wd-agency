@@ -31,7 +31,7 @@ const DevelopmentProcess = () => {
     {
       id: "03",
       title: "Front-End Design",
-      description: `Our front-end design approach goes beyond aesthetics- we ensure that websites are responsive, functional, and technically sound. We use all modern frameworks to create intuitive interfaces that are visually appealing and deliver a flawless experience across all devices. Each element of a website is coded with precision to improve usability, loading, and overall performance. Starting from a responsive layout to each interactive component, we build websites that truly represent your brand value.`,
+      description: `Our front-end design approach goes beyond aesthetics- we ensure that websites are responsive, functional, and technically sound. We use all modern frameworks to create intuitive interfaces that are visually appealing and deliver a flawless experience across all devices. Each element of a website is coded with precision to improve usability, loading, and overall performance. Starting from a <a href ="/blog/mobile-first-web-design-for-businesses-key-elements--benefits"> mobile responsive</a> layout to each interactive component, we build websites that truly represent your brand value.`,
       points: [
         "Designing intuitive interfaces that align with user behavior.",
         "Applying strategic use of color, typography, and spacing.",

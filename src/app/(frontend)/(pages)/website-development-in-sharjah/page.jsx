@@ -45,7 +45,7 @@ const page = () => {
             />
             <CommonAboutPage
                 text1={"Best Website Design Agency Sharjah - WD Agency"}
-                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At WD Agency, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
+                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At <a href='/'> WD Agency</a>, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
                 text3={"As a prominent player in web design in Sharjah, we serve clients across all locations, starting from Al Majaz, AI Nahda, Muwailih, and the Sharjah Industrial Area. We create some of the most refined websites that exactly reflect your brand identity from top to bottom."}
                 img={aboutimagesharjhat}
             />
@@ -67,7 +67,7 @@ const page = () => {
                             <li>Enhance website performance through seamless navigation and speed</li>
                             </ul>
                             <p>
-                            Starting from responsive design, latest features, better navigation, and secure hosting, WD Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web design solutions in Sharjah are customized to suit your objectives and help you make a robust impact online.
+                            Starting from <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>mobile responsive design</a>, latest features, better navigation, and secure hosting, WD Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web design solutions in Sharjah are customized to suit your objectives and help you make a robust impact online.
                             </p>
                     `}
                 img={sharjahAboutimg}

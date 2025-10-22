@@ -48,7 +48,7 @@ const page = () => {
             <CommonAboutPage
                 text1={"Web Design Agency in Abu Dhabi"}
                 text2={" In Abu Dhabi’s competitive, high-expectation marketplace, a website is far more than a place on the web- it’s your brand’s front door, your lead generator, and often the very first impression customers have of your business. Whether you’re a startup, a multinational, a hospitality brand, or a government service, your site must be beautiful, fast, accessible, and secure."}
-                text3={"At Website Development Agency (WD Agency), we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s Vision of 2030 digital goals."}
+                text3={"At <a href='/'>Website Development Agency</a> (WD Agency), we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s digital goals."}
                 img={aboutimagesabudhabi}
             />
             <CommonSetsUs
@@ -97,7 +97,7 @@ const page = () => {
                 text1={"What We Build- Services That Cover Every Digital Need"}
                 text2={` 
                     <ul>
-                    <li>Website Design & Development : Custom websites built using modern frameworks and industry best practices. We begin with user journeys, then move to high-fidelity prototypes, iterative design, and powerful engineering. </li>
+                    <li>Website Design & Development : We build <a href="/services/full-stack-development">custom websites</a> using modern frameworks and industry best practices. We begin with user journeys, then move to high-fidelity prototypes, iterative design, and powerful engineering. </li>
                     <li>eCommerce & Marketplaces : From boutique retail to multi-vendor marketplaces, we create secure, scalable commerce platforms with secure payment gateway and shipping integration.</li>
                     <li>Content Management Systems (CMS) : WordPress, headless CMS (Strapi, Contentful), Drupal- we select the proper platform for your content strategy. </li>
                     <li>Web Applications & Portals : Complex booking platforms, client portals, dashboards, CRM integrations, custom web apps. We integrate APIs, authentication, role-based access, and performant database architecture.</li>
@@ -114,12 +114,12 @@ const page = () => {
                 `}
                 bheding={'Steps We Follow in Our Web Development Process:'}
                 bdesc={`<ul class='ml-50'>
-                <li>Discovery & Research — Understanding requirements, competitor analysis, and audience mapping.</li>
-                <li>Strategy & Architecture — Content strategy, branding strategy, and conversion mapping.</li>
-                <li>Design — Wireframes, interactive prototypes, brand-consistent UI.</li>
-                <li>Development — Agile development, unit & integration testing, API development.</li>
-                <li>Testing & Optimisation — Load testing, security scanning, cross-browser and device QA.</li>
-                <li> Launch & Maintenance — Structured rollout, continuous monitoring, and performance tracking.</li>
+                <li>Discovery & Research- Understanding requirements, competitor analysis, and audience mapping.</li>
+                <li>Strategy & Architecture- Content strategy, branding strategy, and conversion mapping.</li>
+                <li>Design- Wireframes, <a href="/services/wireframing-prototyping">interactive prototypes</a>, brand-consistent UI.</li>
+                <li>Development- Agile development, unit & integration testing, API development.</li>
+                <li>Testing & Optimisation- Load testing, security scanning, cross-browser and device QA.</li>
+                <li> Launch & Maintenance- Structured rollout, continuous monitoring, and performance tracking.</li>
             </ul>
             <p class='mt-20'>We provide project deadlines, milestones, utilize tools (project boards, regular demos) so you always know the progress.</p>
             `}
@@ -135,28 +135,24 @@ const page = () => {
                         img: customdesign,
                         title: "Custom Design",
                         desc: "Fully responsive for smartphones, tablets, and desktops.",
-                        link: "#"
                     },
                     {
                         id: 2,
                         img: SEOCentric,
                         title: "SEO-Centric",
                         desc: "Organized with on-page SEO basics in mind.",
-                        link: "#"
                     },
                     {
                         id: 3,
                         img: MobileFirst,
                         title: "Mobile-First Approach",
-                        desc: "Fully responsive web design for smartphones & tablets.",
-                        link: "#"
+                        desc: "Mobile responsive web design for smartphones & tablets.",
                     },
                     {
                         id: 4,
                         img: Optimized,
                         title: "Optimized for Performance",
                         desc: "Fast, safe, and leveraged for conversions.",
-                        link: "#"
                     },
                 ]}
                 footertext={'We have worked with top-level businesses in Abu Dhabi across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. '}
