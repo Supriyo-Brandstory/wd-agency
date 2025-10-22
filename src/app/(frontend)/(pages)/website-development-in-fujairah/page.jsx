@@ -45,7 +45,7 @@ const page = () => {
     />
     <CommonAboutPage
         text1={"Website Design in Fujairah- Building Digital Confidence"}
-        text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
+        text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At <a href='/'>Website Development Agency</a>, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
         text3={"We create and develop websites tailored for businesses in Fujairah, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Fujairah’s digital development objectives."}
         img={aboutimagesharjhat}
     />
@@ -108,7 +108,7 @@ const page = () => {
     <CommonServices
         theding={'Website Design in Fujairah- More Than Just Aesthetics'}
         tdesc={` <p>An effective website is not just visually appealing; it also functions perfectly to turn visitors into paying customers. With our website design services in Fujairah, we place an emphasis not just on appearance, but on function by providing a beautiful, user-friendly, and business-focused website.</p>
-            <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
+            <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>mobile responsiveness</a>, and clear calls-to-action work together to enhance usability and drive conversions. </p>
         `}
         bheding={'We prioritize our website design and development work with:'}
         bdesc={`<ul class='ml-50'>

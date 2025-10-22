@@ -5,16 +5,16 @@ import CommonIntroduction from '../../component/pages/common/CommonIntroduction'
 import imageintro1 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-website-design.webp'
 import imageintro2 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-web-design-agency.webp'
 import CommonWhyMetter from '../../component/pages/common/CommonWhyMetter'
-import imagewhymetter from '@/app/(frontend)/assets/images/e-commerce-web-development/whymetterbg.webp'
+import imagewhymetter from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-website-sample.webp'
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
-import imageService1 from '@/app/(frontend)/assets/images/e-commerce-web-development/Custom-Ecommerce-Website-Design.webp'
-import imageService2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Ecommerce-Website-Development.webp'
-import imageService3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp'
-import imageService4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Shopping-Cart-Checkout-Solutions.webp'
-import imageService5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Product-Catalog-Management.webp'
-import imageService6 from '@/app/(frontend)/assets/images/e-commerce-web-development/Mobile-Commerce-Development.webp'
-import imageService7 from '@/app/(frontend)/assets/images/e-commerce-web-development/Third-Party-Integrations.webp'
-import imageService8 from '@/app/(frontend)/assets/images/e-commerce-web-development/Maintenance-Support.webp'
+import imageService1 from '@/app/(frontend)/assets/images/portfolio-web-development/custom-web-ux-design.webp'
+import imageService2 from '@/app/(frontend)/assets/images/portfolio-web-development/showcase-galleries.webp'
+import imageService3 from '@/app/(frontend)/assets/images/portfolio-web-development/resume-websites.webp'
+import imageService4 from '@/app/(frontend)/assets/images/portfolio-web-development/video-media-integration.webp'
+import imageService5 from '@/app/(frontend)/assets/images/portfolio-web-development/brand-identity-development.webp'
+import imageService6 from '@/app/(frontend)/assets/images/portfolio-web-development/social-media-integration.webp'
+import imageService7 from '@/app/(frontend)/assets/images/portfolio-web-development/freelance-portfolio-tools.webp'
+import imageService8 from '@/app/(frontend)/assets/images/portfolio-web-development/mobile-friendly-websites.webp'
 import CommonThreeCard from '../../component/pages/common/CommonThreeCard'
 import imagecommon1 from '@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png'
 import imagecommon2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png'
@@ -24,7 +24,7 @@ import imagecommon6 from '@/app/(frontend)/assets/images/e-commerce-web-developm
 import imagecommon8 from '@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png'  
 import CommonDevelopmentProcess from '../../component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/portfolio-web-development/why-choose-wd-agency.webp'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
@@ -49,7 +49,7 @@ const page = () => {
                     <p>Gone are the days when a personal branding website just showcased a CV or a gallery. In the modern world, this type of website tells the user's story in both effective and natural ways. It not only generates loyalty but also attracts the right opportunities and places you as a leader in your field.</p>
                     `}
                 text2={`  <p>The professionals all over the UAE are swiftly turning to portfolio and personal websites in order to grab the attention of potential clients in highly competitive industries. The professionals in the fields of consulting, photography, as well as the founders and influencers, everybody is longing for a stage that unveils their personal features and the area they specialize in. It is becoming more and more popular to engage with others online, having your own platform makes you more visible, relevant, and memorable in a positive way.</p>
-                <p>WD Agency specializes in creating narrative-driven, eye-catching, and interactive personal branding websites. Our goal is to help you make a memorable digital impression, one that not only showcases your work but amplifies your personal narrative to the world.</p>
+                <p><a href='/'>Website Development Agency</a> specializes in creating eye-catching and interactive personal branding websites. Our goal is to help you make a memorable digital impression, one that not only showcases your work but amplifies your personal narrative to the world.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}

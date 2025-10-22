@@ -40,6 +40,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
+                alt='Healthcare Web Development Banner - WD Agency'
                 heding={"Healthcare Website Development in Dubai, <br/> UAE for Clinics & Hospitals"}
                 subtitle={"Build secure, user-friendly, and patient-focused healthcare websites with WD Agency.</br> We are the best healthcare web design agency in Dubai & the UAE."}
 
@@ -53,16 +54,19 @@ const page = () => {
                 <p>In creating websites, our innovative technologies, responsive designs, and heavy features oriented towards healthcare balance out with the intent to promote patient engagement-building trust-based relations-so that when a doctor comes knocking for growth, there is another institution involved. An appointment system, patient portal, or tele-health interface shall be added, make sure of it, for your website is a digital nexus where patients can connect with care-well-timed, all the time, and from anywhere.</p>
                     `}
                 imageintro1={imageintro1}
+                alt1='Healthcare Website Design UAE - WD Agency'
                 imageintro2={imageintro2}
+                alt2='Healthcare Website Development Company in Dubai - WD Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
+                alt='Healthcare Website Design Sample - WD Agency'
                 heding={'Why You Need a Professional Website for Healthcare Business'}
                 subheding={'In the UAE, the digital healthcare industry is growing at a rapid pace. Patients today prefer the convenience of being able to book a doctor appointment from their viewing device of choice, engage in health records remotely, and consult with specialists without taking tiresome travel or long waiting times. Because of this shift, healthcare websites are no longer considered optional, they are a necessity.'}
                 lefttext={`  <p>A modern healthcare website can be the first point of contact for patients. Patients use the website to assess your practice's credibility, obtain medical information, and ultimately trust your clinic or hospital. Consider features like online appointment booking, health blogs, telehealth integration, and patient portals. All of these features can improve user experience, but will also help to improve the trust between the doctor and patient.</p>
                         <p>With that, security and compliance are just as important. Any healthcare website must abide by international standards to ensure sensitive patient information is secure and confidential. The other consideration is that with mobile usage being the dominant user experience in the UAE, your website must be mobile-first and responsive (allowing for usability on any device.)</p>
                         `}
-                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. WD Agency is the best healthcare website development agency in Dubai, UAE, your trusted partner, understanding the unique needs of the healthcare sector in the UAE.</p>
+                righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. <a href='/'>WD Agency</a> is the best healthcare website development agency in Dubai, UAE, your trusted partner, understanding the unique needs of the healthcare sector in the UAE.</p>
                             `}
             />
             <CommonIndustries
@@ -73,12 +77,14 @@ const page = () => {
                         title: 'Healthcare Website Design',
                         desc: 'We create modern, premium, easy-to-navigate designs that inspire trust and professionalism. Each design is mobile-first, easily accessible by smartphone, tablet and desktop interface.',
                         img: imageService1,
+                        alt: 'Healthcare Website Design - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Doctor & Hospital Websites',
                         desc: 'From individual practitioner sites to complex multi-department hospital portals, we build fully custom websites. Every element from custom layout to functionality, is crafted to highlight specialties.',
                         img: imageService2,
+                        alt: 'Doctor & Hospital Websites - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -86,6 +92,7 @@ const page = () => {
                         title: 'Appointment Booking System',
                         desc: 'Streamline appointments with a booking system. Patients book online, receive reminders, and sync with their calendars, which reduces no-shows and time on administration tasks.',
                         img: imageService3,
+                        alt: 'Appointment Booking System - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -93,6 +100,7 @@ const page = () => {
                         title: 'Telemedicine Integration',
                         desc: 'Enable video consultations, secure messaging with doctors, and digital prescriptions. This is a must-have feature for modern-day healthcare providers who are catering patients remotely.',
                         img: imageService4,
+                        alt: 'Telemedicine Integration - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -100,6 +108,7 @@ const page = () => {
                         title: 'Patient Portals',
                         desc: 'Give patients secure login access with medical history, lab work results, and prescriptions with an access to their health record. This promotes transparency and empowers patients to manage own care.',
                         img: imageService5,
+                        alt: 'Patient Portal Development - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -107,6 +116,7 @@ const page = () => {
                         title: 'Medical Ecommerce Integration',
                         desc: 'Extend any products/services through e-commerce. Sell medicines, healthcare products, and wellness packages directly from your website with secure order and delivery options.',
                         img: imageService6,
+                        alt: 'Medical Ecommerce Integration Services - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -115,6 +125,7 @@ const page = () => {
                         title: 'Content Management Systems',
                         desc: 'Effortlessly manage doctor profiles, services, and medical blogs. We ensure your website stays organized, up to date, and optimized for both users and search engines.',
                         img: imageService7,
+                        alt: 'Content Management Systems for Healthcare - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -122,6 +133,7 @@ const page = () => {
                         title: 'Payment Gateway Integration',
                         desc: 'We configure secure payments embodied with insurance billing, online consultations, and care packages, to have payment processes be seamless. Patients can pay bills online with confidence.',
                         img: imageService8,
+                        alt: 'Payment Gateway Integration for Healthcare Websites - WD Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -193,10 +205,11 @@ const page = () => {
                     lefttext={`<p><b>Healthcare Expertise–</b> We focus on medical and healthcare projects requiring an understanding of the distinct needs in that landscape.</p>
                                 <p>Compliance-Ready Solutions–</b> All sites we develop will comply with HIPAA, GDPR, and local regulations to safeguard the patient's data.</p>
                                 <p><b>Diverse Experience–</b> We have experience working in hospitals, specialty clinics, labs, pharmacies, and solo practices.</p>
-                                <p><b>Multi-Platform Proficiency–</b> We develop travel websites on platforms like WordPress, Drupal, and Joomla, or build custom enterprise solutions using PHP, Laravel, or Node.js, depending on your project requirements.</p>
+                                <p><b>Multi-Platform Proficiency–</b> We develop travel websites on platforms like <a href='/platforms/wordpress-website-development'>WordPress</a>, <a href='/platforms/drupal-website-development'>Drupal</a>, and Joomla, or build custom enterprise solutions using <a href='/platforms/php-website-development'>PHP</a>, <a href='/platforms/laravel-website-development'>Laravel</a>, or <a href='/platforms/nodejs-website-development'>Node.js</a>, depending on your project requirements.</p>
                                 <p><b>Transparent Process & Support–</b> We will keep you informed throughout the design phase and offer you assistance once your website goes live.</p>
                             `}
                     rightimage={imagewhydevelopment}
+                    alt='Why Choose WD Agency for Healthcare Website Development - WD Agency'
 
                     />
                    
@@ -207,18 +220,21 @@ const page = () => {
                             name: "Daniel R",
                             text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
+                            alt: 'Client Testimonial - WD Agency',
                         },
                         {
                             id: 2,
                             name: "Sophia K",
                             text: "Professional, efficient, and creative—the best ecommerce development agency in UAE we’ve worked with.",
                             image: imagetestimonial2,
+                            alt: 'Client Testimonial - WD Agency',
                         },
-                                            {
+                        {
                             id: 3,
                             name: "James P",
                             text: "From design to launch, everything was seamless. Their team handled even complex Magento integrations with ease.",
                             image: imagetestimonial3,
+                            alt: 'Client Testimonial - WD Agency',
                         }
                     ]}  
                     />

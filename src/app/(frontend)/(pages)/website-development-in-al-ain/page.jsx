@@ -46,13 +46,13 @@ const page = () => {
     />
     <CommonAboutPage
         text1={"Best Website Development Agency Al Ain - WD Agency"}
-        text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At WD Agency, our portfolio includes high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
-        text3={"We transform ideas into dynamic, high-performing websites, helping businesses establish a strong digital presence. We reefine website development that perfectly reflect your brand identity and appeal from top to bottom."}
+        text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At <a href='/'>Website Development Agency</a>, our portfolio includes high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
+        text3={"We transform ideas into dynamic, high-performing websites, helping businesses establish a strong digital presence. We redefine website development services in Al Ain that perfectly reflect your brand identity and appeal from top to bottom."}
         img={aboutimagealain}
     />
     <CommonSetsUs
         text1={'Redefining Digital Experiences for a Decade'}
-        text2={'Your search for a professional website development company in Al Ain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+        text2={'Your search for a professional website development company in Al Ain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we are transforming digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
         bg={setusimagealain}
     />
     <CommonAboutPage2

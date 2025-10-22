@@ -42,12 +42,12 @@ const page = () => {
             <Banner
                 text1={"designed to impress, engineered to perform"}
                 text2={"Best Web Development Agency in Ras Al Khaimah"}
-                text3={"At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether designing for a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
+                text3={"At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
             />
             <CommonAboutPage
                 text1={"Web Design in Ras Al Khaimah- Engineered to Impress & Perform"}
-                text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
-                text3={"Our team combines creativity, technical expertise, and market insight to craft websites that not only look stunning but also perform seamlessly across all devices. We focus on building user-friendly interfaces, optimized loading speeds, and conversion-driven layouts that reflect your brand’s values."}
+                text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At <a href='/'>WD Agency</a>, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
+                text3={"Our team combines creativity, technical expertise, and market standards to craft websites that not only look stunning but also perform seamlessly. We focus on building user-friendly interfaces, optimized loading speeds, and conversion-driven layouts that reflect your brand’s values."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
