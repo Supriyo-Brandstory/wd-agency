@@ -33,26 +33,26 @@ const page = () => {
     <>
       <CommonBanner2
                 bg={imagebanner}
-                heding={"Custom PHP Web Development <br>Company in UAE"}
-                subtitle={"We build high-performing, secure, and scalable PHP <br>websites for businesses across Dubai, Abu Dhabi, <br>Sharjah, and beyond "}
+                heding={"Core PHP Web Development <br>Company in UAE"}
+                subtitle={"At WD Agency, we create powerful, secure, and scalable PHP websites </br>that combine performance with exceptional user experience."}
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'PHP Website Development Services'}
+                text1={` <p>At WD Agency, we are a reputable PHP web development agency in Dubai and the UAE. We enable businesses to build digital solutions that are fast, flexible, and future-ready. With 10+  years of experience and a team of skilled developers, we are proficient in designing websites and web applications based on PHP that are robust and specifically tailored to meet the specific requirements of our clients.</p>
+                    <p>We have extensive expertise in major PHP-based platforms- Laravel, CodeIgniter, and Symfony. This enables us to create dynamic, feature-rich websites and web apps to help your business grow and thrive. Our PHP website solutions are designed to impress not only with their functionality but also with their ability to give you long-term value, whether you require a website or a custom web application.</p>
                     `}
                 text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                <p>We make sure that our PHP project are responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'PHP Web Development: The Smart Choice for UAE Enterprises'}
+                text2={`PHP is a very strong and dependable technology that can be used to create websites that load fast and are efficient in a very nice way for businesses that are looking for flexibility, speed, and scalability. Hence, PHP remains the preferred web development solution for UAE businesses seeking reliable performance and growth.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    Any business can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready for the future.
 
 
                        `}
@@ -60,24 +60,24 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at Brandstory are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                subheding='At WD Agency (Website Development Agency), we provide fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the UAE. Our expert PHP developers create PHP projects that are highly efficient, secure, and scalable.'
                 services={[
                     {
                         title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        desc: 'We design full-feature custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of design and functionality.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        desc: `We build secure and feature-rich PHP-based e-commerce platforms. We make it possible for you to integrate seamless payment methods, accurate inventory management, and attractive yet simple designs, thus making the customer experience smooth and enjoyable.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
                         title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        desc: 'With Single Page Applications (SPAs) built using modern libraries like React, Vue, and Angular, we design websites with fast loading speed, seamless navigation, and provide users with an app-like browsing experience.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -91,7 +91,7 @@ const page = () => {
                     },
                     {
                         title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        desc: 'Connect your website with CRMs, ERPs, and other software systems using reliable and well-structured APIs for smooth data exchange and automation.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -147,22 +147,19 @@ const page = () => {
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At Brandstory we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text2={"At WD Agency, we upgrade your website with more comfortable, more expandable, and safer features that are usable directly from mobile and desktop devices and on different platforms of the web, making a standard PHP development."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP website features, including heavy and light computing, memory management, networking, and threading, that work seamlessly on desktops, tablets, and smartphones.' },
+                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'We prioritize mobile users by creating designs that deliver seamless experiences, intuitive navigation, and effective data visualization across all devices.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'We implement robust authentication systems to protect user data and ensure safe access through features like encrypted logins, multi-factor authentication, and role-based permissions.' },
+                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Beyond creating resources that allow consumers to access core functionalities, we also develop and integrate APIs to connect CRMs, ERPs, and other third-party applications, ensuring smooth operations.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'Online Store capabilities', desc: 'Comprehensive e-commerce solutions with advanced product management, order tracking, and seamless integration of UAE-specific payment gateways like PayTabs and Telr.' },
                     { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
                     heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing Brandstory means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
                     lefttext={`<ul>
                                 <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
                                 

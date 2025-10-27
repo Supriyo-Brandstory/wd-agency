@@ -33,8 +33,8 @@ const page = () => {
     <>
       <CommonBanner2
                 bg={imagebanner}
-                heding={"Custom WooCommerce <br>Development Company in UAE"}
-                subtitle={"We build high-performance, scalable, and conversion-driven <br>WooCommerce websites that empower your online business."}
+                heding={"Best WooCommerce Development </br>Company in UAE"}
+                subtitle={"Our WooCommerce websites are characterized by speed, scalability, and </br>performance, serving as the foundation of your online business success."}
 
             />
              <CommonIntroduction
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at Brandstory are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
                 services={[
                     {
                         title: 'Custom PHP Web Development',
@@ -147,7 +147,7 @@ const page = () => {
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At Brandstory we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
                     { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
@@ -162,7 +162,7 @@ const page = () => {
             />
             <CommonWhyWebsiteDevelopment
                     heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing Brandstory means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
                     lefttext={`<ul>
                                 <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
                                 
