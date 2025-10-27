@@ -38,67 +38,67 @@ const page = () => {
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'WordPress Website Development'}
+                text1={` <p>Your‍‌‍‍‌‍‌‍‍‌ website is the first impression of your business in a digitally-driven world. WD Agency is the company that can expert in custom WordPress website development in the UAE. We provide powerful, scalable, and aesthetically appealing website that really gets your business noticed. We have been up to this for more than ten years.</p>
+                    <p>So, we had no problem teaming up with the startups, SMEs, and big companies in the UAE to build a strong online presence through powerful WordPress solutions. Our team of certified WordPress developers and designers is passionate about creating websites that are creative and high-performing. </p>
                     `}
-                text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                text2={`  <p>Creating websites that are easy to use, fast, and compatible with any device helps attract visitors and keep them coming back. We offer a full range of WordPress CMS customization and maintenance services designed to deliver seamless functionality and user-friendly experiences.</p>
+                <p>At WD Agency, we ensure your website’s security, scalability, and performance for long-term success. When you choose us, you’re partnering with a UAE-based WordPress expert who understands your business, audience, and digital goals.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'WordPress Website Development Services'}
+                text2={`We provide scalable WordPress development services for various startups and large-scale enterprises. At WD Agency, we focus on creating high-performance and visually appealing websites that are easy to navigate, optimized for search engines, and future-ready. Beyond design and development, we provide ongoing support and performance optimization.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    We ensure your website can deliver the best performance and improve user engagement. Our WordPress development experts build solutions that combine creativity and functionality to help your brand grow and scale in the competitive marketplace. 
 
 
                        `}
                 bg={setusimagesabudhabi}
             />
             <CommonIndustries
-                heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                heding={'End-to-End WordPress Solutions for UAE Businesses'}
+                subheding='At‍‌‍‍‌‍‌‍‍‌ WD Agency, we provide full-fledged WordPress development solutions crafted to fit the exact needs of the market. Essentially, our team is your one-stop solution for strategy, design, development, optimization, and support services.'
                 services={[
                     {
-                        title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        title: 'Custom WordPress Development',
+                        desc: 'Our website designers bring you a tailored website that reflects the business goals, brand identity, and the customer journey of your company. This means that every feature and format has been designed with the conversion-driven design principle in mind.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        title: 'Theme Design & Customization',
+                        desc: `Our designers devise visually appealing, user-friendly, SEO-friendly WordPress themes that are also mobile-responsive. Additionally, we tailor the themes which are already built to reflect the brand aesthetics of your business.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'Plug-in Development & Integration',
+                        desc: 'Looking for a custom feature? The answer is yes. We create custom plugins and integrate third-party tools for payments, analytics, CRM, and others that you may need.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.',
+                        title: 'WordPress eCommerce Solutions',
+                        desc: 'Make the most out of your WooCommerce store with easy checkout, product filters, and payment integrations. We, as a team, are here to help UAE businesses to optimize their online sales experience.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        title: 'Website Migration & Upgradation',
+                        desc: 'Transition to WordPress, or simply upgrade your old website without compromising on data, SEO ranking, or functionality.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP Migration & Upgradation',
-                        desc: 'Switch to the latest PHP versions from old and tired ones or move to such frameworks as Laravel or CodeIgniter for improved speed and safety.',
+                        title: 'Maintenance & Support',
+                        desc: 'We take on your site’s regular care through ongoing maintenance - this includes the most recent updates, backups, smooth running, and security ‍‌‍‍‌‍‌‍‍‌monitoring.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -109,71 +109,70 @@ const page = () => {
             />
             
                <CommonDevelopmentProcess
-                heding={'Our PHP Development Process'}
-                subheding={'How We Build World-Class PHP Websites'}
+                heding={'From Concept to Launch- Our Proven Workflow'}
+                subheding={'How We Build WordPress Websites That Drive Results'}
                 processData={[
                     {
                         id: "01",
-                        title: "Discovery & Requirement Analysis",
-                        description: `Our approach is to first understand your business model, goals, and target audience. Technical experts of ours scrutinize your requirements, competitors, and user expectations to come up with the scope of the project.`,
+                        title: "Requirement Analysis & Planning",
+                        description: `We do it by understanding the business goals, target audience, and the functionality of the website that you want to create.`,
                     },
                     {
                         id: "02",
                         title: "Wireframing & UI/UX Design",
-                        description: `After that, we design the wireframes and the user interface in great detail. The layout, color scheme, and navigation elements are all designed to provide the users with an experience that is easy to use, and that increases engagement and conversions.`,
+                        description: `Our designers evolve to the next level user interface design concepts and brilliant user flow with the help of the latest design standards.`,
                     },
                     {
                         id: "03",
-                        title: "Custom PHP Development",
-                        description: `Our accredited PHP developers perform the development work in PHP by writing clean, scalable, and reusable codes that are compatible with the latest frameworks — Laravel, CodeIgniter, Symfony, and Yii. Our main focus is on modular architecture for the sake of easy upgrades and long-term flexibility.`,
+                        title: "Custom WordPress Development",
+                        description: `Our experts customize and configure WordPress to transform your design into a fully functional, high-performing website tailored to your business needs.`,
                     },
                     {
                         id: "04",
-                        title: "Quality Testing & Optimization",
-                        description: `On top of that, before the website is launched; QA engineers put the website through rigorous tests by checking the features, the user-friendliness, and the security level. We want to make sure that your website is fast, able to perform smoothly, and not susceptible to bugs or security loopholes.`,
+                        title: "Plugin & API Integration",
+                        description: `Along with plugins and APIs for the marketing, CRM, analytics, and payment gateways, we integrate the essential one only.`,
                     },
                     {
                         id: "05",
-                        title: "Deployment on UAE-based Hosting Servers",
-                        description: `Deployment is done by us in a hassle-free manner on hosting servers that are high-performing and based in the UAE thus, your website will not only have a fast loading time but also Dubai local SEO benefits.`,
+                        title: "Quality Testing & Launch",
+                        description: `Before the website launch, we perform a tough test for characteristics, speed, mobile-friendliness, and SEO readiness of a website.`,
                     },
                     {
                         id: "06",
                         title: "Ongoing Maintenance & Support",
-                        description: `Nevertheless, we are not done until after the website has been launched. To make sure the website is always performing well, we offer through-time and security updates, and technical support.<br><br>By adhering to this well-organized plan we are able to make sure that every single PHP project that we bring to fruition is of a world-class standard — the projects are a perfect blend of innovation, speed, and reliability which results in extraordinary digital experiences.
-`,
+                        description: `After the release, we keep an eye on, carry out changes, and upgrade the site for a continuous betterment.`,
                     }
 
                 ]} />
                  <CommonThreeCard
-                text1={'Key Features We Implement'}
-                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text1={'Powerful Features for Dynamic UAE Websites'}
+                text2={"We integrate advanced WordPress features to craft secure, fast, and high-performing websites designed to meet the needs of UAE businesses."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Responsive Design', desc: 'We design websites that automatically adjust to every screen size and browser. This ensures your visitors enjoy a seamless, engaging experience on mobile, tablet, or desktop.' },
+                    { id: 2, img: FocusedApproachimage, title: 'SEO-Friendly Structure', desc: 'Our WordPress builds follow SEO best practices from the start. With optimized code, meta tags, and site architecture, your website is ready to perform well in search rankings.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Interactive Media Management', desc: 'Keep your audience engaged with dynamic blogs, galleries, and portfolios. We make it easy to update and manage your content effortlessly.' },
+                    { id: 4, img: Transparencyimage, title: 'Custom Forms & CRM Integration', desc: 'Streamline your lead generation process with tailored contact forms and integrated CRM systems. This helps you capture, track, and nurture potential customers effectively.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'WooCommerce Integration', desc: 'We bring eCommerce to your website with WooCommerce- offering secure payments, smooth checkout, and intuitive product management. This gives your customers a hassle-free shopping experience.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Enhanced Security & Backups', desc: 'Your website is safeguarded with advanced security measures and automated backups. We ensure your data remains protected and easily recoverable at all times.' },
+                    { id: 7, img: ValueforMoneyServicesimage, title: 'Speed & Performance Optimization', desc: 'We optimize your website for speed and performance to enhance user satisfaction. Improved Core Web Vitals and faster load times help boost engagement and SEO rankings.' },
+                    { id: 8, img: ValueforMoneyServicesimage, title: 'Multi-Language & Currency Support', desc: 'Cater to the UAE’s diverse audience with multilingual websites and multiple currency options. This helps your business connect with local and international customers alike.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    heding={"Why Choose WD Agency for WordPress Website Development"}
+                    subheding={"The‍‌‍‍‌‍‌‍‍‌ right WordPress agency can be a major factor in your online success. So, here is why enterprises in the UAE rely on us:"}
                     lefttext={`<ul>
-                                <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
+                                <li><strong>Experienced WordPress Developers</strong> – Our developers are extensively skilled in creating themes, customizing plugins, and setting up e-commerce.</li>
                                 
-                                <li><strong>Local UAE expertise with a global development standard</strong> – Our deep knowledge of the business culture and the regulations in the UAE helps your website to be the best fit for local performance and compliance.</li>
+                                <li><strong>Local Market Expertise</strong> – We know the digital ecosystem of the UAE, consumer behavior, and market trends.</li>
                                 
-                                <li><strong>Agile methodology and transparent communication</strong> – We operate agile workflows, thus, you are updated and you can participate at every stage for total project openness.</li>
+                                <li><strong>Responsive & Optimized Websites</strong> – We create custom WordPress websites with optimal user experience, ensuring seamless performance, faster loading, and flawless functionality across all devices.</li>
                                 
-                                <li><strong>Dedicated team for front-end and back-end development</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
-                                <li><strong>Affordable pricing tailored for UAE businesses</strong> –  Enjoy top-notch PHP solutions at budget-friendly rates that are planned for startups, SMEs, and enterprises going across the UAE.</li>
+                                <li><strong>Custom-Tailored Solutions</strong> – We craft unique WordPress websites that align perfectly with your brand identity, business goals, and audience expectations for maximum impact.</li>
+
+                                <li><strong>Ongoing Support</strong> –  We provide continuous maintenance, updates, and performance optimization to ensure your website stays secure, fast, and effective long after launch.</li>
                                 </ul>
-                                <p>Our goal is to digitally grow the businesses of the UAE with web solutions that are dependable, scalable, and innovative, and built on PHP — one of the most reliable web technologies globally.</p>
+                                <p>By partnering with WD Agency, you are not merely creating a website, but rather, you are gaining a digital growth partner who is dedicated to your success in the long ‍‌‍‍‌‍‌‍‍‌run.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -185,40 +184,24 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
-                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                        q: "How Much Does WordPress Website Development Cost?",
+                        a: "The‍‌‍‍‌‍‌‍‍‌ price primarily depends on features, design intricacy, and business objectives. A simple site will cost you from AED 5,000, whereas the price for an advanced eCommerce or a custom website may go as high as AED 50,000+. We provide you with pricing that is clear and designed specifically for your needs."
                     },
                     {
-                        q: "Do You Build Websites in Arabic (RTL)?",
-                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                        q: "Can You Develop a Custom WordPress Design for My Business Website?",
+                        a: "Absolutely, our design team develops custom WordPress themes that are in line with your brand identity, thus resulting in unique layouts, responsive design, and SEO-friendly structure."
                     },
                     {
-                        q: "How Do You Measure Success?",
-                        a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
+                        q: "Do You Offer WooCommerce Integration for eCommerce Stores?",
+                        a: "Yes, we only deal in WooCommerce development that covers everything from setting up a store to integrating a payment gateway (such as PayTabs, Telur, and Stripe). We make it possible for you to have online stores that are not only secure but also attract conversions."
                     },
                     {
-                        q: "Will My Website Be Secure?",
-                        a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q: "How Long Does It Take to Develop a WordPress Website?",
+                        a: "Delivery timing depends on the volume of the work. The making of an average corporate website would take 2–4 weeks, whereas the time for custom or eCommerce sites might be 6–8 weeks. We are committed to delivering on time without giving up quality."
                     },
                     {
-                        q: "Can You Move Our Current Website To a New Platform?",
-                        a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
-                    },
-                    {
-                        q: "Are Your Websites SEO-Friendly?",
-                        a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
-                    },
-                    {
-                        q: "Do You Provide Post-launch Support?",
-                        a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
-                    },
-                    {
-                        q: "Which We Development Platforms Do You Recommend?",
-                        a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
-                    },
-                    {
-                        q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-                        a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
+                        q: "Will My Website Be Optimized for SEO and Mobile Devices?",
+                        a: "Definitely, any website we construct is equipped with full responsiveness and is SEO-friendly with the best speed, mobile usability, and search visibility from the very first ‍‌‍‍‌‍‌‍‍‌day."
                     }
                 ]}
             />

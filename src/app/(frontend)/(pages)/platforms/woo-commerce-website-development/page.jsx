@@ -38,67 +38,67 @@ const page = () => {
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'WooCommerce Website Development'}
+                text1={` <p>WD Agency has brought e-commerce to the doorstep of the business community by providing skilled professionals who create powerful WooCommerce solutions. Our WooCommerce developers build feature-rich and conversion-optimized online stores tailored to your brand and business objectives- whether you’re launching a new store or taking an existing one to the next level.</p>
+                    <p>As one of the most reliable WooCommerce development agencies in the UAE, we specialize in creating fully customized, responsive, and high-performing eCommerce stores powered by WordPress. Our goal is to help businesses deliver seamless shopping experiences that boost engagement, conversions, and customer loyalty.</p>
                     `}
-                text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                text2={`  <p>We have 10+ years of extensive experience in WordPress website development, and we know how to make scalable and fast-loading websites. We are experts in everything from UI/UX, plugin development, custom websites, and theme-based WordPress development. We craft websites that stand out and make your customers fall in love with your brand, no matter how many alternatives they find online.</p>
+                <p>At WD Agency, we provide services across all locations in the UAE, starting from Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, and Ajman. Our WooCommerce development solutions are tailored to your specific requirements and in line with your brand objectives.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'Why Choose WooCommerce for Your Online Store'}
+                text2={`When it comes to online stores, WooCommerce is the most adaptable, scalable, and at the same time the most economical choice among all platforms. You are a part of WordPress, thus you can design your store, add content, and change the functionality according to your needs, with no restrictions on your future growth.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    Powered by WordPress, WooCommerce is easy to manage, even for non-technical users. It’s budget-friendly with no licensing costs and allows seamless integration with UAE payment gateways, CRMs, and shipping APIs. Plus, its vast plugin ecosystem lets you enhance your store’s functionality effortlessly.
 
 
                        `}
                 bg={setusimagesabudhabi}
             />
             <CommonIndustries
-                heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                heding={'WooCommerce Development Services in the UAE- WD Agency'}
+                subheding='We provide full WooCommerce development solutions to empower your business to sell more, expand at a quicker pace, and deliver effortless customer experiences.'
                 services={[
                     {
-                        title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        title: 'Custom WooCommerce Development',
+                        desc: 'We do not just create WooCommerce stores, we build them in such a way that the end-users see your brand and your business objectives. Every single action user takes from design to checkout is not only functional but also efficient for user engagement and conversions.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        title: 'WooCommerce Design & Customization',
+                        desc: `The designers in our team are skilled to design templates that are not just appealing to the eyes but also mobile-friendly and SEO-optimized. Whether you need a new custom design or just a few changes in your current theme, we assure that your store will be very attractive on all devices.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'WooCommerce Plug-in Development',
+                        desc: 'Looking for a specific feature? Our developers build secure, scalable, and custom WooCommerce plugins that enhance your store’s functionality- from inventory management to detailed reporting.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.',
+                        title: 'Payment Gateway Integration',
+                        desc: 'The specialty we have is in the integration of the payment gateways specific to the UAE like PayTabs, Telr, Stripe, and Checkout, thus ensuring transactions that are not only smooth and secure but also in multiple currencies.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        title: 'WooCommerce Migration Services',
+                        desc: 'Are you moving from Shopify, Magento, or OpenCart? We take care of your switch smoothly, with a focus on saving your data, products, and SEO rankings while upgrading performance and ease of use.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP Migration & Upgradation',
-                        desc: 'Switch to the latest PHP versions from old and tired ones or move to such frameworks as Laravel or CodeIgniter for improved speed and safety.',
+                        title: 'Maintenance & Support',
+                        desc: 'We are not a team that just launches and leaves. In addition, we offer constant maintenance, security updates, and performance enhancements so that your WooCommerce store is always operating at its best.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -109,71 +109,67 @@ const page = () => {
             />
             
                <CommonDevelopmentProcess
-                heding={'Our PHP Development Process'}
-                subheding={'How We Build World-Class PHP Websites'}
+                heding={'Our WooCommerce Development Process'}
+                subheding={'How We Build World-Class WordPress Websites'}
                 processData={[
                     {
                         id: "01",
-                        title: "Discovery & Requirement Analysis",
-                        description: `Our approach is to first understand your business model, goals, and target audience. Technical experts of ours scrutinize your requirements, competitors, and user expectations to come up with the scope of the project.`,
+                        title: "Understanding Business Requirements",
+                        description: `Analyzing your products, target audience, and market goals, we start to draw up a clear roadmap.`,
                     },
                     {
                         id: "02",
-                        title: "Wireframing & UI/UX Design",
-                        description: `After that, we design the wireframes and the user interface in great detail. The layout, color scheme, and navigation elements are all designed to provide the users with an experience that is easy to use, and that increases engagement and conversions.`,
+                        title: "Store Architecture & Wireframing",
+                        description: `Our designers represent the structure of your eCommerce store, concentrating on the smooth navigation and user experience.`,
                     },
                     {
                         id: "03",
-                        title: "Custom PHP Development",
-                        description: `Our accredited PHP developers perform the development work in PHP by writing clean, scalable, and reusable codes that are compatible with the latest frameworks — Laravel, CodeIgniter, Symfony, and Yii. Our main focus is on modular architecture for the sake of easy upgrades and long-term flexibility.`,
+                        title: "WooCommerce Dev.",
+                        description: `By implementing custom coding, responsive design, and custom features that are in line with your brand, we make your store functional.`,
                     },
                     {
                         id: "04",
-                        title: "Quality Testing & Optimization",
-                        description: `On top of that, before the website is launched; QA engineers put the website through rigorous tests by checking the features, the user-friendliness, and the security level. We want to make sure that your website is fast, able to perform smoothly, and not susceptible to bugs or security loopholes.`,
+                        title: "Payment Gateway Integration",
+                        description: `To facilitate business operations without any hitches, our specialists have integrated the required APIs and local payment solutions.`,
                     },
                     {
                         id: "05",
-                        title: "Deployment on UAE-based Hosting Servers",
-                        description: `Deployment is done by us in a hassle-free manner on hosting servers that are high-performing and based in the UAE thus, your website will not only have a fast loading time but also Dubai local SEO benefits.`,
+                        title: "Testing & Launch",
+                        description: `After going through rigorous QA testing for speed, performance, and security, each store is ready for launching.`,
                     },
                     {
                         id: "06",
-                        title: "Ongoing Maintenance & Support",
-                        description: `Nevertheless, we are not done until after the website has been launched. To make sure the website is always performing well, we offer through-time and security updates, and technical support.<br><br>By adhering to this well-organized plan we are able to make sure that every single PHP project that we bring to fruition is of a world-class standard — the projects are a perfect blend of innovation, speed, and reliability which results in extraordinary digital experiences.
-`,
+                        title: "Post-launch Maintenance",
+                        description: `We keep on checking the performance of your store and also carry out the necessary optimization for conversions, thus, ensuring success over time.`,
                     }
 
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text2={"We enhance your eCommerce platform with robust features that improve usability, customer engagement, and conversions."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Product Catalog Management', desc: 'Easily organize and showcase your products with custom categories, filters, and attributes to ensure a seamless browsing experience.' },
+                    { id: 2, img: FocusedApproachimage, title: 'Inventory and Order Tracking', desc: 'Stay on top of stock levels and orders in real-time with automated alerts and streamlined fulfillment management.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Coupon & Discount Systems', desc: 'Create and manage promotional offers effortlessly to attract new customers and encourage repeat purchases.' },
+                    { id: 4, img: Transparencyimage, title: 'Shipping Integration', desc: 'Offer flexible shipping methods, real-time rate calculations, and tracking integrations to meet diverse customer needs.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'Multilingual Websites', desc: 'Reach a global audience by supporting multiple currencies and languages, ensuring a localized shopping experience for every customer.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Checkout & SSL Configuration', desc: 'Ensure a safe and trustworthy checkout process with encrypted payment gateways and SSL-enabled transactions.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    heding={"Why Choose Brandstory as Your Website Development Partner"}
+                    subheding={"Working with us is a buy of our services with a team that is tech-savvy and at the same time understands your vision of the business. Why we are the UAE businesses' first choice:"}
                     lefttext={`<ul>
-                                <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
+                                <li><strong>Certified Developers</strong> – Skilled experts who have been able to demonstrate their competencies in WordPress and WooCommerce.</li>
                                 
-                                <li><strong>Local UAE expertise with a global development standard</strong> – Our deep knowledge of the business culture and the regulations in the UAE helps your website to be the best fit for local performance and compliance.</li>
+                                <li><strong>Market Knowledge</strong> – We understand the UAE market inside out and develop solutions aligned with local payment gateways, logistics providers, and compliance standards.</li>
                                 
-                                <li><strong>Agile methodology and transparent communication</strong> – We operate agile workflows, thus, you are updated and you can participate at every stage for total project openness.</li>
+                                <li><strong>Responsive & SEO-Optimized Websites</strong> – Your store will perform seamlessly across all devices and be optimized to rank higher in search results, ensuring you never miss out on potential customers.</li>
                                 
-                                <li><strong>Dedicated team for front-end and back-end development</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
-                                <li><strong>Affordable pricing tailored for UAE businesses</strong> –  Enjoy top-notch PHP solutions at budget-friendly rates that are planned for startups, SMEs, and enterprises going across the UAE.</li>
+                                <li><strong>Custom Integrations</strong> – Link Customer Relationship Management (CRM), Enterprise Resource Planning (ERP), and accounting plus logistics software to keep your business operating smoothly.</li>
+                                <li><strong>Effortless Process & Timely Delivery</strong> –  There are no hidden costs or time, only a dependable implementation and measurable outcomes.</li>
                                 </ul>
-                                <p>Our goal is to digitally grow the businesses of the UAE with web solutions that are dependable, scalable, and innovative, and built on PHP — one of the most reliable web technologies globally.</p>
+                                <p>At WD Agency, we commit to mutual trust, better services, and growth as the foundations for our long-term partnerships.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -185,40 +181,24 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
-                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                        q: "What is The Cost of a WooCommerce Website Development in the UAE?",
+                        a: "The price depends on aspects, the intricacy of the design, and the degree of customization. Usually, WooCommerce websites in the UAE cost between AED 5,000 and AED 50,000+, as per the project extent. We have a flexible pricing system that is suitable for startups and big companies."
                     },
                     {
-                        q: "Do You Build Websites in Arabic (RTL)?",
-                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                        q: "Can You Transfer my Online Store to WooCommerce?",
+                        a: "We offer seamless migration support from platforms like Shopify, Magento, and OpenCart to WooCommerce- ensuring complete data integrity, top-notch security, and minimal downtime throughout the process."
                     },
                     {
-                        q: "How Do You Measure Success?",
-                        a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
+                        q: "Do You Integrate Local Payment Gateways?",
+                        a: "We integrate leading UAE payment gateways such as PayTabs, Telr, Stripe, Checkout, and Network International to ensure secure, smooth, and user-friendly payment experiences tailored to local consumer preferences."
                     },
                     {
-                        q: "Will My Website Be Secure?",
-                        a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q: "Can My WooCommerce Website Be SEO-friendly?",
+                        a: "Of course, we develop WooCommerce stores with built-in SEO optimization, mobile-friendliness, and are performance-focused, thus permitting the stores to rank higher in the search results and serving the pages faster for the user's convenience."
                     },
                     {
-                        q: "Can You Move Our Current Website To a New Platform?",
-                        a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
-                    },
-                    {
-                        q: "Are Your Websites SEO-Friendly?",
-                        a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
-                    },
-                    {
-                        q: "Do You Provide Post-launch Support?",
-                        a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
-                    },
-                    {
-                        q: "Which We Development Platforms Do You Recommend?",
-                        a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
-                    },
-                    {
-                        q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-                        a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
+                        q: "How Much Time Does It Take to Build a WooCommerce Store?",
+                        a: "The period varies as per the difficulty of the task and is usually somewhere between 3 and 8 weeks for a standard store. If your design is custom or you need plugin development, then it will be a little longer."
                     }
                 ]}
             />

@@ -90,7 +90,7 @@ export default function Header() {
             }`}
           >
             <Link href="/platforms/php-website-development"><span className={styles.iconhiden}>➤</span> PHP</Link>
-            <Link href="/platforms/woo-commerce-website-development"><span className={styles.iconhiden}>➤</span> Woocommerce</Link>
+            <Link href="/platforms/woo-commerce-website-development"><span className={styles.iconhiden}>➤</span> W-commerce</Link>
             <Link href="/platforms/wordpress-website-development"><span className={styles.iconhiden}>➤</span> WordPress</Link>
             <Link href="/platforms/react-js-website-development"><span className={styles.iconhiden}>➤</span> ReactJS</Link>
             <Link href="/platforms/shopify-website-development"><span className={styles.iconhiden}>➤</span> Shopify</Link>

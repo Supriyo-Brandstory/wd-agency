@@ -1,11 +1,11 @@
 import React from 'react'
-import imagebanner from '@/app/(frontend)/assets/images/portfolio-web-development/main-banner-portfolio-website.webp'
+import imagebanner from '@/app/(frontend)/assets/images/wireframing-prototyping/wireframing-banner.webp'
 import CommonBanner2 from '@/app/(frontend)/component/pages/common/CommonBanner2'
 import CommonIntroduction from '@/app/(frontend)/component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-website-design.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-web-design-agency.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/wireframing-prototyping/website-ux-design-1.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/wireframing-prototyping/website-ux-design-2.webp'
 import CommonSetsUs from '@/app/(frontend)/component/pages/common/CommonSetsUs'
-import setusimagesabudhabi from '@/app/(frontend)/assets/images/abu-dhabi/setusbg.webp'
+import setusimagesabudhabi from '@/app/(frontend)/assets/images/wireframing-prototyping/website-design-agency-wireframing.webp'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
 import commonimage1 from '@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png'
 import commonimage2 from '@/app/(frontend)/assets/images/website-development/FocusedApproach.png'
@@ -15,23 +15,10 @@ import commonimage5 from '@/app/(frontend)/assets/images/website-development/Tec
 import commonimage6 from '@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png'
 import CommonIndustries from '@/app/(frontend)/component/pages/common/CommonIndustries'
 import CommonAboutPage2 from '@/app/(frontend)/component/pages/common/CommonAboutPage2'
-import Aboutimg from '@/app/(frontend)/assets/images/abu-dhabi/about-2.webp'
-import CommonTechnologyStack from '@/app/(frontend)/component/pages/common/CommonTechnologyStack'
-import react from "@/app/(frontend)/assets/images/reacticon.svg";
-import nodejs from "@/app/(frontend)/assets/images/nodejsicon.svg";
-import laravel from "@/app/(frontend)/assets/images/laravelicon.svg";
-import wordpress from "@/app/(frontend)/assets/images/wordpressicon.svg";
-import magento from "@/app/(frontend)/assets/images/magentoicon.svg";
-import shopify from "@/app/(frontend)/assets/images/shopifyicon.svg";
-import flutter from "@/app/(frontend)/assets/images/fluttericon.svg";
-import reactnative from "@/app/(frontend)/assets/images/reactnativeicon.svg";
-import php from "@/app/(frontend)/assets/images/phpicon.svg";
-import python from "@/app/(frontend)/assets/images/pythonicon.svg";
-import aws from "@/app/(frontend)/assets/images/awsicon.svg";
-import mongo from "@/app/(frontend)/assets/images/mongodbicon.svg";
+import Aboutimg from '@/app/(frontend)/assets/images/wireframing-prototyping/wireframing-prototyping-design.webp'
 import CommonDevelopmentProcess from '@/app/(frontend)/component/pages/common/CommonDevelopmentProcess'
 import CommonWhyWebsiteDevelopment from '../../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/wireframing-prototyping/wireframing-protyping-process.webp'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
@@ -97,24 +84,6 @@ const page = () => {
                     `}
                 img={Aboutimg}
             />
-              <CommonTechnologyStack
-  heding={"Our Wireframing and Prototyping Tech Stack"}
-  subheding={"At WD Agency, we use cutting-edge design tools from the industry to make collaboration smooth, visualization high-fidelity, and interactivity of the top-notch throughout the design process. Our technology stack is a source of creative energy, a way to simplify workflows and a means to connect with the very closest precision the stage of the concept with that of the implementation."}
-  techData={[
-  { name: "React", image: react, gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)" },
-  { name: "Node.js", image: nodejs, gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)" },
-  { name: "Laravel", image: laravel, gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)" },
-  { name: "WordPress", image: wordpress, gradient: "linear-gradient(180deg, #4A87A3 16.44%, #21759B 60.27%)" },
-  { name: "Magento", image: magento, gradient: "linear-gradient(180deg, #FF7949 0%, #EC6737 118.42%)" },
-  { name: "Shopify", image: shopify, gradient: "linear-gradient(180deg, #CEF682 16.44%, #95BF46 60.27%)" },
-  { name: "Flutter", image: flutter, gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)" },
-  { name: "React Native", image: reactnative, gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)" },
-  { name: "PHP", image: php, gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)" },
-  { name: "Python", image: python, gradient: "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)" },
-  { name: "AWS", image: aws, gradient: "linear-gradient(180deg, #F7DCB4 17.91%, #FF9900 65.66%)" },
-  { name: "MongoDB", image: mongo, gradient: "linear-gradient(180deg, #6CAC48 17.91%, #599636 65.66%)" },
-]}
-  />
        <CommonDevelopmentProcess
                 heding={'From Concept to Interactive Prototype'}
                 subheding={'At WD Agency, our wireframing and prototyping workflow is organized, open, and cooperative. Each step is guided by clear communication and shared insights to ensure alignment among teams. From initial sketches to interactive mockups, we turn ideas into structured visual plans that set the foundation for flawless development:'}
