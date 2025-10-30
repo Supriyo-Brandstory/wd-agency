@@ -33,72 +33,72 @@ const page = () => {
     <>
       <CommonBanner2
                 bg={imagebanner}
-                heding={"WordPress Website <br>Development Company in UAE"}
-                subtitle={"We design and develop responsive, secure, and high-performing <br>WordPress websites that drive business growth in Dubai, <br>Abu Dhabi, and across the UAE."}
+                heding={"Shopify Website Development </br>Company in Dubai, UAE"}
+                subtitle={"We‍‌‍‍‌‍‌‍‍‌ create fully personalized, mobile-friendly, and performance-driven </br>Shopify website stores for e-commerce businesses in Dubai and the UAE."}
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'Shopify Website Development Services'}
+                text1={` <p>An online store is not just a website- it is your brand's digital storefront and the first impression your customers get. At WD Agency, we are experts in Shopify website development, assisting businesses in designing, developing, and optimizing robust e-commerce experiences that attract sales and brand loyalty.</p>
+                    <p>It does not matter if you are starting a new store or growing your existing business, our certified Shopify developers in Dubai create the perfect solution for you that is a great mix of creativity, functionality, and ‍‌‍‍‌‍‌‍‍‌performance. At WD Agency, we create intuitive Shopify stores for major brands as well as e-commerce startups across the region.</p>
                     `}
-                text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                text2={`  <p>By‍‌‍‍‌‍‌‍‍‌ harnessing a talented team well-versed in e-commerce trends and armed with technical know-how, WD Agency, a reputed Shopify development company in the UAE, delivering next-level e-commerce solutions. Our team riffs technical skills along with an inside knowledge of e-commerce trends to invent Shopify stores that change the traffic into loyal purchasers.</p>
+                <p>We are proficient in Shopify, Shopify Plus development, providing a wide range of scalable solutions to startups, SMEs, and large e-commerce businesses. Our stores are made to look great and function at a high level, through the elegant custom themes, smooth payment integration, and support, which we take care of.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'The Preferred E-commerce Platform for UAE-based Businesses'}
+                text2={`Shopify‍‌‍‍‌‍‌‍‍‌ has been the major change in the online selling world with the features of the platform that are user-friendly, flexible, and highly scalable. It is the preferred platform for thousands of businesses in the UAE- from small brands in Dubai to big retailers.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    The platform is very user-friendly, and it can be scaled up or down easily, plus it is very secure: You can handle your store without writing code. Moreover, the performance is always fast and the security level is high due to Shopify’s cloud infrastructure. Every store comes equipped with powerful SEO and marketing tools, making it easy to optimize for search engines and manage campaigns across email, Facebook Ads, and Google Shopping.
 
 
                        `}
                 bg={setusimagesabudhabi}
             />
             <CommonIndustries
-                heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                heding={'Comprehensive Shopify Solutions Tailored for Businesses'}
+                subheding='We‍‌‍‍‌‍‌‍‍‌ at WD Agency offer a complete range of Shopify services that are aimed at helping your brand to succeed online. Our solutions are made to be quick, adaptable, and technologically advanced.'
                 services={[
                     {
-                        title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        title: 'Custom Shopify Development',
+                        desc: 'We create Shopify stores that reflect your uniqueness- perfectly matching your brand, audience, and business objectives. To provide the best user experience, every layout, feature, and functionality of your store has been designed.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        title: 'Shopify Theme Design & Customization',
+                        desc: `Shopify themes developed by our designers are aesthetically attractive, responsive, and conversion-focused and at the same time creative and UX are of best quality. We can either customize a present Shopify theme or make a new one.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'Shopify Development & Integration',
+                        desc: 'Do you want a few custom features or integrations from third parties? We create effective Shopify websites and can also link your store with CRMs, ERPs, analytics, and marketing platforms.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.',
+                        title: 'Shopify Migration Services',
+                        desc: 'If you are moving from WooCommerce, Magento, or BigCommerce, we take care of the transition to Shopify smoothly and safely with no data loss, no downtime, and no SEO changes.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        title: 'Payment Gateway Integration',
+                        desc: 'We make it possible for your customers to have easy and safe transactions by integrating payment gateways that are trusted and UAE-friendly such as PayTabs, Telr, Stripe, and PayPal.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP Migration & Upgradation',
-                        desc: 'Switch to the latest PHP versions from old and tired ones or move to such frameworks as Laravel or CodeIgniter for improved speed and safety.',
+                        title: 'Maintenance & Support',
+                        desc: 'We always keep your Shopify shop in top condition with our team ongoing support, performance fine-tuning, and technical support, available 24/7.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -109,71 +109,70 @@ const page = () => {
             />
             
                <CommonDevelopmentProcess
-                heding={'Our PHP Development Process'}
-                subheding={'How We Build World-Class PHP Websites'}
+                heding={'Our Shopify Development Process'}
+                subheding={'From Concept to Launch- Our Agile Workflow'}
                 processData={[
                     {
                         id: "01",
-                        title: "Discovery & Requirement Analysis",
-                        description: `Our approach is to first understand your business model, goals, and target audience. Technical experts of ours scrutinize your requirements, competitors, and user expectations to come up with the scope of the project.`,
+                        title: "Requirement Analysis & Planning",
+                        description: `We begin with an extensive discovery session to comprehend your goals, products, target audience, and features that you would like to have.`,
                     },
                     {
                         id: "02",
                         title: "Wireframing & UI/UX Design",
-                        description: `After that, we design the wireframes and the user interface in great detail. The layout, color scheme, and navigation elements are all designed to provide the users with an experience that is easy to use, and that increases engagement and conversions.`,
+                        description: `Our UX/UI team develops user-friendly wireframes and captivating visuals that not only depict your brand identity but also facilitate user engagement.`,
                     },
                     {
                         id: "03",
-                        title: "Custom PHP Development",
-                        description: `Our accredited PHP developers perform the development work in PHP by writing clean, scalable, and reusable codes that are compatible with the latest frameworks — Laravel, CodeIgniter, Symfony, and Yii. Our main focus is on modular architecture for the sake of easy upgrades and long-term flexibility.`,
+                        title: "Customization & App Integration",
+                        description: `We customize Shopify themes and install the apps that give your store a wide range of new features- from analytics to payment and shipping.`,
                     },
                     {
                         id: "04",
-                        title: "Quality Testing & Optimization",
-                        description: `On top of that, before the website is launched; QA engineers put the website through rigorous tests by checking the features, the user-friendliness, and the security level. We want to make sure that your website is fast, able to perform smoothly, and not susceptible to bugs or security loopholes.`,
+                        title: "Product & Inventory Setup",
+                        description: `We collaborate with you to upload and organize products effectively, using optimized titles, detailed descriptions, and high-quality images to ensure a smooth and engaging shopping experience.`,
                     },
                     {
                         id: "05",
-                        title: "Deployment on UAE-based Hosting Servers",
-                        description: `Deployment is done by us in a hassle-free manner on hosting servers that are high-performing and based in the UAE thus, your website will not only have a fast loading time but also Dubai local SEO benefits.`,
+                        title: "Testing & Quality Assurance",
+                        description: `Our QA specialists implement detailed testing of your store on various devices and browsers in order to achieve design, speed, and functionality that are faultless down to the last pixel.`,
                     },
                     {
                         id: "06",
-                        title: "Ongoing Maintenance & Support",
-                        description: `Nevertheless, we are not done until after the website has been launched. To make sure the website is always performing well, we offer through-time and security updates, and technical support.<br><br>By adhering to this well-organized plan we are able to make sure that every single PHP project that we bring to fruition is of a world-class standard — the projects are a perfect blend of innovation, speed, and reliability which results in extraordinary digital experiences.
+                        title: "Store Launch & Ongoing Support",
+                        description: `Upon final approvals, we get your Shopify store up and operating and provide continuous support, maintenance, and optimization to keep conversions at their peak level.
 `,
                     }
 
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text2={"We‍‌‍‍‌‍‌‍‍‌ utilize Shopify's powerful ecosystem to create feature-rich stores that engage customers and increase sales."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device-Specific Performance', desc: 'We ensure your Shopify store loads fast and performs smoothly on desktops, tablets, and smartphones- providing a consistent and optimized user experience across all devices.' },
+                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Our designs prioritize mobile shoppers, offering seamless navigation, fast load times, and intuitive layouts that maximize engagement and conversions.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Checkout & Authentication', desc: 'With Shopify’s PCI-compliant infrastructure and multi-layered authentication, your store stays protected while customers enjoy safe, hassle-free transactions.' },
+                    { id: 4, img: Transparencyimage, title: 'App & API Integration', desc: 'Integrate powerful Shopify apps and third-party APIs, from CRMs and ERPs to payment gateways- ensuring smooth operations and data synchronization.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'Advanced E-Com Capabilities', desc: 'We build feature-rich stores with product management, inventory tracking, order management, and UAE-specific payment options like PayTabs and Telr.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database & Store Optimization', desc: 'Through liquid code optimization and image compression, we reduce load times and improve performance to enhance customer retention and sales.' },
+                    { id: 7, img: ValueforMoneyServicesimage, title: 'Speed & Performance Enhancements', desc: 'We implement caching, CDN integration, and optimized scripts to maintain peak site performance even during heavy traffic periods.' },
+                    { id: 8, img: ValueforMoneyServicesimage, title: 'Easy Content Management', desc: 'Shopify has intuitive dashboard that lets you update products, blogs, and collections in real-time- no technical expertise required.' },
+                    { id: 9, img: ValueforMoneyServicesimage, title: 'Multi-Language & Multi-Currency', desc: 'Reach UAE’s diverse customer base with stores that automatically adapt to regional languages, currencies, and customer preferences.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    heding={"Why Choose WD Agency for Shopify Website Development"}
+                    subheding={"The‍‌‍‍‌‍‌‍‍‌ right development partner might be a defining factor for your e-commerce success. Here reflect the reasons of UAE businesses to cooperate with WD Agency:"}
                     lefttext={`<ul>
-                                <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
+                                <li><strong>Experienced Shopify Developers</strong> – We are a certified team of experts who are fully knowledgeable about Shopify- from Liquid code to app integration.</li>
                                 
-                                <li><strong>Local UAE expertise with a global development standard</strong> – Our deep knowledge of the business culture and the regulations in the UAE helps your website to be the best fit for local performance and compliance.</li>
+                                <li><strong>Custom Design & Scalability</strong> – Your online store will be capable of following your business and will have the option of making further additions of products, categories, and features.</li>
                                 
-                                <li><strong>Agile methodology and transparent communication</strong> – We operate agile workflows, thus, you are updated and you can participate at every stage for total project openness.</li>
+                                <li><strong>Transparent Workflow & Delivery</strong> – We are a team that cherishes collaboration and communication, which is why we keep you in the loop at every stage of the process.</li>
                                 
-                                <li><strong>Dedicated team for front-end and back-end development</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
-                                <li><strong>Affordable pricing tailored for UAE businesses</strong> –  Enjoy top-notch PHP solutions at budget-friendly rates that are planned for startups, SMEs, and enterprises going across the UAE.</li>
+                                <li><strong>Post Launch Support</strong> – The website creation and launch mark only the start of our partnership. We offer continuous support, updates, and optimization.</li>
                                 </ul>
-                                <p>Our goal is to digitally grow the businesses of the UAE with web solutions that are dependable, scalable, and innovative, and built on PHP — one of the most reliable web technologies globally.</p>
+                                <p>Join hands with us and get the benefit of our Shopify development, which is the perfect mix of creativity, technology, and business growth that can be ‍‌‍‍‌‍‌‍‍‌measured.</p>
                             `}
                     rightimage={imagewhydevelopment}
 

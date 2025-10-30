@@ -33,72 +33,72 @@ const page = () => {
     <>
       <CommonBanner2
                 bg={imagebanner}
-                heding={"WordPress Website <br>Development Company in UAE"}
-                subtitle={"We design and develop responsive, secure, and high-performing <br>WordPress websites that drive business growth in Dubai, <br>Abu Dhabi, and across the UAE."}
+                heding={"NodeJS Website Development </br>Company in Dubai, UAE"}
+                subtitle={"At WD Agency, we are the creators of super-fast, high-performance, and scalable </br>NodeJS websites and web applications along with real-time features."}
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'Trusted NodeJS Web Development Partner'}
+                text1={` <p>WD Agency is an expert agency in creating high-performing, scalable, and real-time web applications that efficiently run on Node.js. As the best Node.js developer in Dubai and the UAE, we help startups, SMEs, and big companies to create server-side apps that deliver the following: fast, secure, visually appealing, and easy to use, thus turning the users into happy customers.</p>
+                    <p>Our devs know how to use Node.js, Express.js, NestJS, and all the other JavaScript frameworks. We are the Node.js team that supports you from start to end, realizing your business app needs, whether it is a custom web app, an API-driven architecture, or a microservices-based platform.</p>
                     `}
-                text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                text2={`  <p>We have been collecting and now we are really proud to have a huge amount of experience working with clients across the UAE for many years. We are aware of the UAE market trend and that is why we focus mainly on speed, scalability, and security. Hence, any app that is created can run smoothly even if it is subjected to heavy traffic or real-time data requests.</p>
+                <p>WD Agency is a website development powerhouse that goes beyond coding- we architect digital storefronts that empower your business to flourish in an interconnected world. Our focus is on creating seamless, high-performing websites that blend creativity, functionality, and technology to drive measurable growth.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'Preferred Server-Side Technology for Modern Businesses'}
+                text2={`NodeJS has revolutionized modern web development by offering unmatched flexibility and scalability. Built on Google’s powerful V8 engine, it operates on a non-blocking I/O model and event-driven architecture, enabling faster performance and seamless handling of concurrent requests. These features make it a preferred choice for developing high-performing, real-time web applications.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    NodeJS has become the go-to choice for UAE businesses thanks to its high performance, powered by an asynchronous event-driven architecture that efficiently handles multiple requests simultaneously. Its real-time capabilities make it ideal for chat apps, live tracking, and streaming platforms. 
 
 
                        `}
                 bg={setusimagesabudhabi}
             />
             <CommonIndustries
-                heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                heding={'NodeJS Website Solutions Tailored for UAE-based Businesses'}
+                subheding='At WD Agency, we‍‌‍‍‌‍‌‍‍‌ are an end-to-end NodeJS development company in Dubai offering all kinds of services that will enable you to change your ideas into strong digital platforms.'
                 services={[
                     {
-                        title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        title: 'Custom NodeJS Web Apps',
+                        desc: 'We create custom Node.js apps that harmonize scalability, speed, and security features, constructed specially to fit your business goals. In general, the applications we provide extend from enterprise dashboards to interactive portals and blend them with the most flawless functionality.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        title: 'Real-Time Application Development',
+                        desc: `Real-time interactions are the best way to give power to your users. Among them are live chat and instant notifications, collaborative tools, or even live tracking systems. Our developers utilize the WebSockets and Socket.io technologies to provide seamless and lag-free experience.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'API Development & Integration',
+                        desc: 'We build and deploy Restful and Graphql APIs that are friendly to the other systems and do not have any communication barriers. Besides such APIs as the inseparable part of your business ecosystem, they become more and more efficient and productive.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.',
+                        title: 'Microservices Architecture',
+                        desc: 'Our NodeJS professionals turn into the architects of microservices-based software that features the advantages of being flexible, scalable, and tolerant to errors, thus, it is perfect for companies on an upward trajectory.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        title: 'Migration & Upgradation',
+                        desc: 'Do not possess transitional troubles since it is an upgrade issue from obsolete technologies or older versions of NodeJS. Our team is experienced to conduct the full changeover, enhancement, and modernization of your devices in a non-disruptive manner.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP Migration & Upgradation',
-                        desc: 'Switch to the latest PHP versions from old and tired ones or move to such frameworks as Laravel or CodeIgniter for improved speed and safety.',
+                        title: 'Maintenance & Support',
+                        desc: 'After launching websites, we keep pace with regular checkups, updates, performance enhancement, and bug fixing operations that all account for our maintenance and support packages.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -109,71 +109,70 @@ const page = () => {
             />
             
                <CommonDevelopmentProcess
-                heding={'Our PHP Development Process'}
-                subheding={'How We Build World-Class PHP Websites'}
+                heding={'Our NodeJS Development Process'}
+                subheding={'From Concept to Deployment- Our Agile Workflow'}
                 processData={[
                     {
                         id: "01",
-                        title: "Discovery & Requirement Analysis",
-                        description: `Our approach is to first understand your business model, goals, and target audience. Technical experts of ours scrutinize your requirements, competitors, and user expectations to come up with the scope of the project.`,
+                        title: "Requirement Analysis & Planning",
+                        description: `Initially, we understand the objectives, the target audience, and the technical requirements of your business. Our team drafts the roadmap and the project strategy in detail.`,
                     },
                     {
                         id: "02",
-                        title: "Wireframing & UI/UX Design",
-                        description: `After that, we design the wireframes and the user interface in great detail. The layout, color scheme, and navigation elements are all designed to provide the users with an experience that is easy to use, and that increases engagement and conversions.`,
+                        title: "Wireframing & Architecture Design",
+                        description: `We come up with designs for user interaction models and the architectural structure of the app that can be scalable, thus ensuring a smooth user flow and efficient backend performance.`,
                     },
                     {
                         id: "03",
-                        title: "Custom PHP Development",
-                        description: `Our accredited PHP developers perform the development work in PHP by writing clean, scalable, and reusable codes that are compatible with the latest frameworks — Laravel, CodeIgniter, Symfony, and Yii. Our main focus is on modular architecture for the sake of easy upgrades and long-term flexibility.`,
+                        title: "NodeJS Development & Backend",
+                        description: `Our developers make use of Node.js, Express.js, and NestJS technologies and write the code in a clean, modular manner.`,
                     },
                     {
                         id: "04",
-                        title: "Quality Testing & Optimization",
-                        description: `On top of that, before the website is launched; QA engineers put the website through rigorous tests by checking the features, the user-friendliness, and the security level. We want to make sure that your website is fast, able to perform smoothly, and not susceptible to bugs or security loopholes.`,
+                        title: "API Integration & Coordination",
+                        description: `We interconnect the API and backend functions with front-end frameworks like React, Angular, or Vue.js, thus completing the integration.`,
                     },
                     {
                         id: "05",
-                        title: "Deployment on UAE-based Hosting Servers",
-                        description: `Deployment is done by us in a hassle-free manner on hosting servers that are high-performing and based in the UAE thus, your website will not only have a fast loading time but also Dubai local SEO benefits.`,
+                        title: "Testing & Quality Assurance",
+                        description: `An extensive amount of testing, such as performance, security, and load tests, is applied to the app's every inch, thus ensuring its stability and reliability.`,
                     },
                     {
                         id: "06",
-                        title: "Ongoing Maintenance & Support",
-                        description: `Nevertheless, we are not done until after the website has been launched. To make sure the website is always performing well, we offer through-time and security updates, and technical support.<br><br>By adhering to this well-organized plan we are able to make sure that every single PHP project that we bring to fruition is of a world-class standard — the projects are a perfect blend of innovation, speed, and reliability which results in extraordinary digital experiences.
-`,
+                        title: "Deployment & Ongoing Support",
+                        description: `After all tests have been successfully carried out, we launch your software on secure cloud platforms such as AWS or Azure and commit to the continuous maintenance of it.`,
                     }
 
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text2={"We‍‌‍‍‌‍‌‍‍‌ add the advanced features of Node.js that improve the functionality, scalability, and performance of the website:"}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'Node.js applications deliver fast, consistent performance across desktops, tablets, and smartphones, ensuring seamless interaction for every user.' },
+                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'We prioritize mobile experiences with responsive architectures and lightweight frameworks that guarantee speed, clarity, and smooth user journeys.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'Implementing JWT, OAuth, and role-based access controls, we ensure your applications are protected with advanced, industry-grade authentication.' },
+                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'We build and integrate RESTful and GraphQL APIs to connect your systems, CRMs, ERPs, and third-party services for uninterrupted data flow.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'E-Commerce Capabilities', desc: 'Our Node.js-based solutions support advanced eCommerce functions- from product management and order tracking to integration with UAE payment gateways like PayTabs and Telr.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'We enhance database performance using MongoDB, MySQL, or PostgreSQL, ensuring faster queries, reduced load times, and better scalability.' },
+                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Performance Boost', desc: 'With technologies like Redis, Nginx, and load balancing, we guarantee lightning-fast responses even under high traffic and heavy workloads.' },
+                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content Management Capabilities', desc: 'Through headless CMS integrations like Strapi or Sanity, non-technical users can easily update and manage content in real-time.' },
+                    { id: 9, img: ValueforMoneyServicesimage, title: 'Multiple-languages & Currency Support', desc: 'Reach UAE’s diverse audience effortlessly with locale-based translations and regional currency setups tailored for every user.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    heding={"Why Choose WD Agency for NodeJS Websites"}
+                    subheding={"By‍‌‍‍‌‍‌‍‍‌ choosing WD Agency, you will be working with a NodeJS development team that values innovation, speed, and consistency above all other things."}
                     lefttext={`<ul>
-                                <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
+                                <li><strong>Proficient Developers</strong> – We have the necessary skills to create complex, fast, and efficient web applications.</li>
                                 
-                                <li><strong>Local UAE expertise with a global development standard</strong> – Our deep knowledge of the business culture and the regulations in the UAE helps your website to be the best fit for local performance and compliance.</li>
+                                <li><strong>Secure and Advanced Backend</strong> – Our applications are built with enterprise-grade security and scalability, ensuring reliable performance even as your business grows.</li>
                                 
-                                <li><strong>Agile methodology and transparent communication</strong> – We operate agile workflows, thus, you are updated and you can participate at every stage for total project openness.</li>
+                                <li><strong>We are Specialists in API</strong> – We have relevant expertise in in cloud deployment, API integration, and building scalable multi-service architectures for seamless performance.</li>
                                 
-                                <li><strong>Dedicated team for front-end and back-end development</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
-                                <li><strong>Affordable pricing tailored for UAE businesses</strong> –  Enjoy top-notch PHP solutions at budget-friendly rates that are planned for startups, SMEs, and enterprises going across the UAE.</li>
+                                <li><strong>Enterprise & Startup Solutions</strong> – The right solutions that match the size of your business and the technical needs.</li>
+                                <li><strong>Agile Methodology</strong> –  There is clear communication, work is done in small increments, and the delivery is done on time.</li>
                                 </ul>
-                                <p>Our goal is to digitally grow the businesses of the UAE with web solutions that are dependable, scalable, and innovative, and built on PHP — one of the most reliable web technologies globally.</p>
+                                <p>Our mission at WD Agency is to be the instrument that businesses use in the backend transformation of their digital experiences.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -185,40 +184,28 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
-                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                        q: "How Much Does a NodeJS Web Application Cost in The UAE?",
+                        a: "The costs depend on the complexity of the project, its features, and scalability. Node.js web apps in the UAE usually range from 8,000 to 80,000+ AED, and this is largely influenced by custom integrations, APIs, and the database."
                     },
                     {
-                        q: "Do You Build Websites in Arabic (RTL)?",
-                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                        q: "Can You Develop Real-time Applications with NodeJS?",
+                        a: "Yes, absolutely. Node.js is highly suited for real-time applications. Using technologies like WebSockets and Socket.io, we build chat systems, live tracking platforms, and interactive dashboards that deliver instant, seamless user experiences."
                     },
                     {
-                        q: "How Do You Measure Success?",
-                        a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
+                        q: "Do You Provide API Development and Integration Services?",
+                        a: "Absolutely, our endeavor is to develop RESTful and GraphQL APIs that will facilitate the connectivity of your application with various third-party systems, mobile applications, or any other digital platforms."
                     },
                     {
-                        q: "Will My Website Be Secure?",
-                        a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q: "How Long Does It Take to Develop a NodeJS Web Application?",
+                        a: "The timeline varies from 4 to 12 weeks based on the complexity and requirements of the project. Our team's agile methodology is the secret to delivering on time without compromising quality."
                     },
                     {
                         q: "Can You Move Our Current Website To a New Platform?",
                         a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
                     },
                     {
-                        q: "Are Your Websites SEO-Friendly?",
-                        a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
-                    },
-                    {
-                        q: "Do You Provide Post-launch Support?",
-                        a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
-                    },
-                    {
-                        q: "Which We Development Platforms Do You Recommend?",
-                        a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
-                    },
-                    {
-                        q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-                        a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
+                        q: "Will My NodeJS Application Be Scalable and Secure?",
+                        a: "Without a doubt, we use modern architecture, apply encryption protocols, and employ invulnerable authentication methods to ensure that your app is scalable, efficient, and secure against attacks."
                     }
                 ]}
             />
