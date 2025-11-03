@@ -33,72 +33,72 @@ const page = () => {
     <>
       <CommonBanner2
                 bg={imagebanner}
-                heding={"WordPress Website <br>Development Company in UAE"}
-                subtitle={"We design and develop responsive, secure, and high-performing <br>WordPress websites that drive business growth in Dubai, <br>Abu Dhabi, and across the UAE."}
+                heding={"Drupal Website Development Company</br> in Dubai, UAE"}
+                subtitle={"We craft Drupal websites that combine security, scalability, and rich functionality, </br>helping businesses across Dubai and the UAE grow with confidence online."}
 
             />
              <CommonIntroduction
-                heding={'Impactful Website Design in Dubai'}
-                text1={` <p>WD Agency is a PHP web development company you can rely on in the UAE. We enable businesses to build digital solutions that are fast, flexible, and ready for the future. With the experience of several years and a team of developers skilled in their trade, we are proficient in designing websites and web applications based on PHP that are strong and specifically designed to satisfy the individual requirements of our clients.</p>
-                    <p>We have the expertise to work with Laravel, CodeIgniter, and Symfony to a great extent. This, in turn, enables us to create websites or platforms that are dynamic, rich in features, and driven by performance, and also scale without any issues as your business expands. The PHP solutions that we provide will impress you not only with their functionality but also with their ability to give you long-term value, whether you require a corporate website, an eCommerce platform, or a custom web application.</p>
+                heding={'Trusted Drupal Development Partner'}
+                text1={` <p>WD‍‌‍‍‌‍‌‍‍‌ agency is the most reliable Drupal website development company in Dubai and the UAE. We have extensive experience in working with Drupal website projects for almost a decade. Our seasoned website development experts are capable of delivering high-quality, secure, and scalable Drupal websites with a strong focus on performance and design.</p>
+                    <p>At WD Agency, our team of experienced Drupal developers is proficient across versions 8 through 10, ensuring compatibility, stability, and performance for every project. Whether it’s a simple business website or a complex enterprise-level platform, we deliver tailored Drupal solutions that are secure, scalable, and future-ready. </p>
                     `}
-                text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our every PHP project will be responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+                text2={`  <p>WD Agency is your go-to agency if you want a powerful and fast Drupal website that will give your business the required freedom, growth potential, and top-level functionality. No matter if you are a startup, SME, or enterprise in the UAE, our expert Drupal developers create personalized solutions that fit your distinct online ‍‌‍‍‌‍‌‍‍‌goals.</p>
+                <p>We have achieved significant milestones that set us apart from others. Our team consistently delivers cutting-edge Drupal solutions focused on security, scalability, and SEO optimization. With a proven track record in developing enterprise-grade web platforms, we emphasize transparency at every stage of the process and provide dedicated post-launch support.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
-                text1={'The Power of PHP for Modern UAE Businesses'}
-                text2={`In spite of the existence of new technologies, PHP is still a very strong and dependable technology which can be used to create websites that load fast and are efficient in a very nice way for businesses in the UAE that are looking for flexibility, speed, and scalability. So, PHP is the best web development solution for businesses in the UAE.
+                text1={'The Enterprise-Grade CMS for UAE Businesses'}
+                text2={`Drupal is a powerful and flexible content management system trusted by businesses that demand security, scalability, and high performance. It offers enterprise-grade protection against vulnerabilities and can efficiently manage large, complex websites with thousands of pages and heavy traffic.
                     <br><br>
-                    Any business from Dubai, Abu Dhabi, and Sharjah can build a high-quality website by the use of PHP, which is an open-source and cost-effective technology without spending a lot. Furthermore, its wide community support and frequent updates are the ways to keep your website secure, modern, and trend-ready in the future.
+                    With its modular design, Drupal allows easy customization and efficient content management while supporting SEO-friendly features, multi-language, and multi-site capabilities. Perfect for UAE businesses, it helps brands reach wider audiences and maintain strong digital performance across all platforms.
 
 
                        `}
                 bg={setusimagesabudhabi}
             />
             <CommonIndustries
-                heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='We at WD Agency are committed to providing fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the whole UAE, i.e. from Dubai to Abu Dhabi, Sharjah, and other cities. Our talented PHP developers turnaround PHP projects that are highly efficient, secure, and scalable and thus result in increased profits for our clients in the digital space.'
+                heding={'Comprehensive Drupal Solutions for UAE Businesses'}
+                subheding='WD Agency provides a full suite of Drupal web development services designed to meet the diverse needs of UAE’s businesses. From startups to large enterprises, our solutions cover every aspect of your Drupal journey.'
                 services={[
                     {
-                        title: 'Custom PHP Web Development',
-                        desc: 'We design single and fully featured custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of appearance and functionality.',
+                        title: 'Custom‍‌‍‍‌‍‌‍‍‌ Drupal Development',
+                        desc: 'We do not just make Drupal websites, we make tailor-made CMS websites that fit like a glove with your business objectives. Our team ensures that every website is optimized for performance, usability, and long-term scalability.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
-                        title: 'E-commerce PHP Development',
-                        desc: `Come aboard the thriving UAE online market through a secure, feature-rich PHP-based e-commerce platform. We make it possible for you to have seamless payment methods, accurate inventory management, and attractive yet simple designs thus making the customers' experience smooth and enjoyable.`,
+                        title: 'Drupal Theme Design & Customization',
+                        desc: `Our inventive UI/UX designers produce eye-catching, fully responsive, and SEO-optimized Drupal theme designs that help the brand become more recognizable and better user experience.`,
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP CMS Development',
-                        desc: 'With SPAs that are based on modern libraries like React, Vue, and Angular for fast and smooth navigation, you can enjoy the speed and smoothness of an app-like experience.',
+                        title: 'Drupal Module & Integration',
+                        desc: 'How about feature customization? We create feature-rich Drupal modules and, as a result, third-party APIs, payment gateways, and CRMs are seamlessly integrated for your convenience.',
                         img: imageService3,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'Progressive Web Apps (PWAs)',
-                        desc: 'With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.',
+                        title: 'Drupal Migration Services',
+                        desc: 'Move to Drupal from WordPress, Joomla, or any other CMS, with the complete functionality being preserved and no data loss. We render the migration process both easy and safe.',
                         img: imageService4,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'API Integration & Development',
-                        desc: 'Use your website to communicate with CRMs, ERPs, and other third-party software through well-constructed RESTful and SOAP APIs.',
+                        title: 'Enterprise Drupal Solutions',
+                        desc: 'As we have the capacity to deliver our solutions in such a variety of ways, be it multi-site setups, large-scale intranets, and web portals, our enterprise Drupal solutions.',
                         img: imageService5,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
                     {
-                        title: 'PHP Migration & Upgradation',
-                        desc: 'Switch to the latest PHP versions from old and tired ones or move to such frameworks as Laravel or CodeIgniter for improved speed and safety.',
+                        title: 'Maintenance & Support',
+                        desc: 'We keep up the website through regular maintenance, bug repairs, security updates, and performance tuning so that your Drupal website is always up to speed, safe, and ‍‌‍‍‌‍‌‍‍‌trustworthy.',
                         img: imageService8,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -109,71 +109,68 @@ const page = () => {
             />
             
                <CommonDevelopmentProcess
-                heding={'Our PHP Development Process'}
-                subheding={'How We Build World-Class PHP Websites'}
+                heding={'Our Drupal Development Process'}
+                subheding={'From Concept to Launch- Our Structured Workflow'}
                 processData={[
                     {
                         id: "01",
-                        title: "Discovery & Requirement Analysis",
-                        description: `Our approach is to first understand your business model, goals, and target audience. Technical experts of ours scrutinize your requirements, competitors, and user expectations to come up with the scope of the project.`,
+                        title: "Requirement Analysis & Planning",
+                        description: `By knowing your business objectives, target audience, and project scope, we create a detailed plan for design and development.`,
                     },
                     {
                         id: "02",
                         title: "Wireframing & UI/UX Design",
-                        description: `After that, we design the wireframes and the user interface in great detail. The layout, color scheme, and navigation elements are all designed to provide the users with an experience that is easy to use, and that increases engagement and conversions.`,
+                        description: `Our designers prepare wireframes and working models which represent the layout, content, and user flow of your Drupal site.`,
                     },
                     {
                         id: "03",
-                        title: "Custom PHP Development",
-                        description: `Our accredited PHP developers perform the development work in PHP by writing clean, scalable, and reusable codes that are compatible with the latest frameworks — Laravel, CodeIgniter, Symfony, and Yii. Our main focus is on modular architecture for the sake of easy upgrades and long-term flexibility.`,
+                        title: "Custom Drupal Development",
+                        description: `By sticking to the latest Drupal releases and using the correct coding standards, our developers create a web solution that is robust, safe, and can grow with you, and is specifically made for you.`,
                     },
                     {
                         id: "04",
-                        title: "Quality Testing & Optimization",
-                        description: `On top of that, before the website is launched; QA engineers put the website through rigorous tests by checking the features, the user-friendliness, and the security level. We want to make sure that your website is fast, able to perform smoothly, and not susceptible to bugs or security loopholes.`,
+                        title: "Module & API Integration",
+                        description: `We integrate essential Drupal modules and third-party APIs to extend website functionality, streamline backend operations, and enhance overall site performance.`,
                     },
                     {
                         id: "05",
-                        title: "Deployment on UAE-based Hosting Servers",
-                        description: `Deployment is done by us in a hassle-free manner on hosting servers that are high-performing and based in the UAE thus, your website will not only have a fast loading time but also Dubai local SEO benefits.`,
+                        title: "Testing & Quality Assurance",
+                        description: `We conduct comprehensive security, performance, and compatibility testing to ensure each website meets the highest quality standards before launch.`,
                     },
                     {
                         id: "06",
-                        title: "Ongoing Maintenance & Support",
-                        description: `Nevertheless, we are not done until after the website has been launched. To make sure the website is always performing well, we offer through-time and security updates, and technical support.<br><br>By adhering to this well-organized plan we are able to make sure that every single PHP project that we bring to fruition is of a world-class standard — the projects are a perfect blend of innovation, speed, and reliability which results in extraordinary digital experiences.
-`,
+                        title: "Deployment & Ongoing Maintenance",
+                        description: `We put your website online after you give the final go-ahead. We keep on providing support for the website to be at its best and to be ‍‌‍‍‌‍‌‍‍‌dependable.`,
                     }
 
                 ]} />
                  <CommonThreeCard
-                text1={'Key Features We Implement'}
-                text2={"At WD Agency we upgrade your website with more comfortable,more expandable and safe features that are usable directly from mobile and desktop devices and on the different platforms of the web making a standard PHP development."}
+                text1={'Advanced Features We Implement in Drupal Websites'}
+                text2={"Our Drupal developers integrate the latest features and best practices to ensure your website is future-proof and business-ready."}
                 boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP plus brand story features including heavy and light computing, memory management, networking, and threading that work seamlessly on desktops, tablets, and smartphones.' },
-                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'Strategies that prioritize users of handheld devices and deliver total satisfaction to them alongside good data visualization features.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'WordPress, Drupal, and custom CMS for flexible content management.' },
-                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'Besides creating resources that enable to-consumers-access functionalities,we also employ RESTful and SOAP services to link these abilities among CRMs, ERPs, and other third-party apps for uninterrupted business flows.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Online store capabilities', desc: 'Fully-featured e-commerce modules inclusive of product management, order tracking, and UAE-specific payment gateways such as PayTabs and Telr.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'Measures such as quicker search query invocation, shortened load times, and longer database health have been undertaken by us to set the stage for steady performance.' },
-                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Up Techniques', desc: 'High-speed answer, even if there is a flood of traffic, is guaranteed by Redis or Memcached caching.' },
-                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content managing capabilities', desc: 'Admin dashboards that are user-friendly and allow for non-technicians to update content in real time.' },
-                    { id: 9, img: ValueforMoneyServicesimage, title: 'Support for multiple languages and currencies ', desc: ' Lead the diverse audience of the UAE by applying locale-specific language and currency settings.' },
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'Drupal ensures seamless performance across desktops, tablets, and smartphones with responsive themes, optimized caching, and adaptive image handling.' },
+                    { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'We follow a mobile-first strategy to prioritize handheld users, ensuring intuitive navigation, fast loading times, and excellent visual presentation across devices.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Secure Authentication Systems', desc: 'With Drupal’s robust user management and permission system, we implement secure authentication, role-based access control, and advanced encryption standards.' },
+                    { id: 4, img: Transparencyimage, title: 'API Development and Integration', desc: 'We leverage Drupal’s core RESTful and JSON:API modules to connect with CRMs, ERPs, and other third-party applications for smooth data exchange and automated workflows.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'E-commerce Capabilities', desc: 'Using Drupal Commerce, we build feature-rich online stores with product catalogs, order tracking, and integration with UAE-specific payment gateways such as PayTabs and Telr.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Database Optimization', desc: 'We implement Drupal’s built-in caching layers, query optimization, and database indexing to ensure fast load times and long-term stability.' },
+                    { id: 7, img: ValueforMoneyServicesimage, title: 'Acceleration & Speed Optimization', desc: 'Redis, Memcached, and Drupal’s performance modules are configured to deliver high-speed responses even during heavy traffic surges.' },
+                    { id: 8, img: ValueforMoneyServicesimage, title: 'Content Management Capabilities', desc: 'Drupal’s intuitive admin dashboard allows content editors to create, edit, and publish content effortlessly- no coding required.' },
+                    { id: 9, img: ValueforMoneyServicesimage, title: 'Multilingual and Multicurrency Support ', desc: 'We configure Drupal’s multilingual modules and locale settings to serve diverse audiences with language-specific and currency-based content experiences.' },
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    heding={"Why Choose WD Agency for Drupal Development"}
+                    subheding={"Choosing‍‌‍‍‌‍‌‍‍‌ a WD Agency is basically a guarantee of getting a top-quality, innovative, and reliable service in the long run. Our team of technically skilled experts combines technical expertise with a deep understanding of the UAE market."}
                     lefttext={`<ul>
-                                <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
+                                <li><strong>Skilled Drupal Developers</strong> – Our developers incorporate the latest Drupal trends and design practices to engage local businesses, combining technical expertise with an understanding of UAE market expectations.</li>
                                 
-                                <li><strong>Local UAE expertise with a global development standard</strong> – Our deep knowledge of the business culture and the regulations in the UAE helps your website to be the best fit for local performance and compliance.</li>
+                                <li><strong>Enterprise-Grade Solutions</strong> – We deliver secure, high-performance Drupal solutions for businesses of all sizes, from small websites to complex enterprise platforms, built on robust architecture and advanced security protocols.</li>
                                 
-                                <li><strong>Agile methodology and transparent communication</strong> – We operate agile workflows, thus, you are updated and you can participate at every stage for total project openness.</li>
+                                <li><strong>Custom Integrations</strong> – We enhance Drupal’s functionality through custom module development and seamless third-party integrations to support unique business workflows.</li>
                                 
-                                <li><strong>Dedicated team for front-end and back-end development</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
-                                <li><strong>Affordable pricing tailored for UAE businesses</strong> –  Enjoy top-notch PHP solutions at budget-friendly rates that are planned for startups, SMEs, and enterprises going across the UAE.</li>
+                                <li><strong>Agile Workflow and Communication</strong> – Following agile methodology, we ensure timely delivery, clear communication, and complete project visibility throughout every development phase.</li>
                                 </ul>
-                                <p>Our goal is to digitally grow the businesses of the UAE with web solutions that are dependable, scalable, and innovative, and built on PHP — one of the most reliable web technologies globally.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -185,40 +182,28 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
-                        a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
+                        q: "How Much Does a Drupal Website Cost in The UAE?",
+                        a: "The price of a Drupal website depends on various factors like the intricacy of the design, the features, and the size of the project. At WD Agency, we offer you the price that matches your exact needs. Typically Drupal websites may range between AED 5,000 to AED 50,000 based on the complexity."
                     },
                     {
-                        q: "Do You Build Websites in Arabic (RTL)?",
-                        a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users."
+                        q: "Is Drupal Suitable for Multilingual and Multi-currency Websites in The UAE?",
+                        a: "Yes, Drupal’s core supports multilingual capabilities and can easily handle multiple currencies, making it ideal for UAE-based businesses that serve diverse audiences in Arabic, English, and other languages."
                     },
                     {
-                        q: "How Do You Measure Success?",
-                        a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly."
+                        q: "Can You Integrate UAE-specific Payment Gateways with Drupal?",
+                        a: "Definitely, we integrate local and global payment gateways such as PayTabs, Telr, Stripe, and PayPal within Drupal Commerce for secure and seamless online transactions."
                     },
                     {
-                        q: "Will My Website Be Secure?",
-                        a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects."
+                        q: "Do You Offer Drupal Maintenance and Support after Launch?",
+                        a: "Yes, we provide ongoing maintenance, security updates, performance optimization, and feature enhancements to keep your Drupal website stable and up to date."
                     },
                     {
-                        q: "Can You Move Our Current Website To a New Platform?",
-                        a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime."
+                        q: "How Do You Ensure The Security of Drupal Websites?",
+                        a: "We follow the best security practices, use the latest patches, implement role-based access control, enable HTTPS, and perform regular vulnerability scans to keep your site fully protected."
                     },
                     {
-                        q: "Are Your Websites SEO-Friendly?",
-                        a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on."
-                    },
-                    {
-                        q: "Do You Provide Post-launch Support?",
-                        a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues."
-                    },
-                    {
-                        q: "Which We Development Platforms Do You Recommend?",
-                        a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences."
-                    },
-                    {
-                        q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-                        a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations."
+                        q: "Can Drupal be Integrated with CRM or ERP Systems?",
+                        a: "Absolutely, Drupal’s robust API architecture allows smooth integration with leading CRMs and ERPs like Salesforce, HubSpot, and SAP to ensure automated and synchronized data management."
                     }
                 ]}
             />
