@@ -1,11 +1,11 @@
 import React from 'react'
 import CommonBanner2 from '../../../component/pages/common/CommonBanner2'
-import imagebanner from '@/app/(frontend)/assets/images/startup-website-dev/startup-web-banner.webp'
+import imagebanner from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-banner.webp'
 import CommonIntroduction from '../../../component/pages/common/CommonIntroduction'
-import imageintro1 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-website-design.webp'
-import imageintro2 from '@/app/(frontend)/assets/images/portfolio-web-development/portfolio-web-design-agency.webp'
+import imageintro1 from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-banner-1.webp'
+import imageintro2 from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-banner-2.webp'
 import CommonSetsUs from '../../../component/pages/common/CommonSetsUs'
-import setusimagesabudhabi from '@/app/(frontend)/assets/images/abu-dhabi/setusbg.webp'
+import setusimagesabudhabi from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-website.webp'
 import StrategicProblemSolvingimage from '@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png'
 import FocusedApproachimage from '@/app/(frontend)/assets/images/website-development/FocusedApproach.png'
 import PartnershipCommitmentimage from '@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png'
@@ -14,14 +14,14 @@ import TechnologyAdoptionimage from '@/app/(frontend)/assets/images/website-deve
 import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png'
 import CommonDevelopmentProcess from '../../../component/pages/common/CommonDevelopmentProcess'
 import CommonIndustries from '../../../component/pages/common/CommonIndustries'
-import imageService1 from '@/app/(frontend)/assets/images/e-commerce-web-development/Custom-Ecommerce-Website-Design.webp'
-import imageService2 from '@/app/(frontend)/assets/images/e-commerce-web-development/Ecommerce-Website-Development.webp'
-import imageService3 from '@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp'
-import imageService4 from '@/app/(frontend)/assets/images/e-commerce-web-development/Shopping-Cart-Checkout-Solutions.webp'
-import imageService5 from '@/app/(frontend)/assets/images/e-commerce-web-development/Product-Catalog-Management.webp'
-import imageService8 from '@/app/(frontend)/assets/images/e-commerce-web-development/Maintenance-Support.webp'
+import imageService1 from '@/app/(frontend)/assets/images/laravel-website-dev/custom-laravel.webp'
+import imageService2 from '@/app/(frontend)/assets/images/laravel-website-dev/enterprise-laravel.webp'
+import imageService3 from '@/app/(frontend)/assets/images/laravel-website-dev/api-integrations.webp'
+import imageService4 from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-migration.webp'
+import imageService5 from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-ecommerce.webp'
+import imageService8 from '@/app/(frontend)/assets/images/laravel-website-dev/laravel-support.webp'
 import CommonWhyWebsiteDevelopment from '../../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
+import imagewhydevelopment from '@/app/(frontend)/assets/images/laravel-website-dev/why-wd-agency-laravel.webp'
 import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
@@ -39,7 +39,7 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'Your Trusted Laravel Web Development Partner'}
-                text1={` <p>WD‍‌‍‍‌‍‌‍‍‌ Agency is fully equipped to deliver top-notch, dynamic, and enterprise-grade web applications with Laravel- the most cutting-edge PHP framework. After many years of hands-on experience with Laravel's MVC architecture, Eloquent ORM, and the ecosystem tools, our developers implement solutions that are not just scalable but attractive to the client.</p>
+                text1={` <p>WD‍‌‍‍‌‍‌‍‍‌ Agency is fully equipped to deliver top-notch, dynamic, and enterprise-grade web applications with Laravel- the most cutting-edge PHP framework. After many years of hands-on experience with Laravel's MVC architecture and the ecosystem tools, our developers implement solutions that are not just scalable but attractive to the client.</p>
                     <p>We have made it easy for a variety of business types, from startups, SMEs, to large enterprises, the entire UAE market to embrace changes in their digital presence through the timely and high-performing Laravel applications. Simply put, we’re the go-to team for building efficient, fast, and reliable web platforms- from custom business portals to enterprise automation and online stores.</p>
                     `}
                 text2={`  <p>Our Laravel solutions are built with a strong focus on security, ensuring deep authentication and protection against vulnerabilities; scalability, with a structured approach that supports your business growth; and speed, through optimized database queries, caching, and performance-enhancing techniques for faster load times and smoother user experiences.</p>
