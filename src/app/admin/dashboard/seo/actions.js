@@ -1,6 +1,7 @@
 "use server";
 import { PrismaClient } from '@prisma/client';
 import db from '../../../../../prisma/db';
+import { verifyAdmin } from "@/lib/auth";
 
 
 
@@ -28,6 +29,7 @@ export async function getSeoDataByPageUrl(pageurl) {
 }
 
 export async function createSeoData(data) {
+  await verifyAdmin();
   try {
     const seoData = await db.seo.create({ data });
     return seoData;
@@ -38,6 +40,7 @@ export async function createSeoData(data) {
 }
 
 export async function updateSeoData(id, data) {
+  await verifyAdmin();
   try {
     const seoData = await db.seo.update({
       where: { id: Number(id) },
@@ -51,6 +54,7 @@ export async function updateSeoData(id, data) {
 }
 
 export async function deleteSeoData(id) {
+  await verifyAdmin();
   try {
     const seoData = await db.seo.delete({
       where: { id: Number(id) },

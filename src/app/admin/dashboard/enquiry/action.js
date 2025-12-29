@@ -1,6 +1,7 @@
 "use server";
 
 import db from '../../../../../prisma/db';
+import { verifyAdmin } from "@/lib/auth";
 export async function createEnquiry(data) {
   try {
     // Optional: Validate required fields
@@ -28,6 +29,7 @@ export async function createEnquiry(data) {
 }
 
 export async function getEnquiries(page = 1, limit = 10) {
+  await verifyAdmin();
   try {
     const skip = (page - 1) * limit;
 
@@ -49,6 +51,7 @@ export async function getEnquiries(page = 1, limit = 10) {
 }
 
 export async function deleteEnquiry(id) {
+  await verifyAdmin();
   try {
     const enquiry = await db.enquiry.delete({
       where: { id: Number(id) },

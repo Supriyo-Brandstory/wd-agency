@@ -1,8 +1,10 @@
 "use server";
 import { revalidatePath } from "next/cache";
 import db from "../../../../../prisma/db";
+import { verifyAdmin } from "@/lib/auth";
 
 export async function createBlogCategory(name, slug, description) {
+  await verifyAdmin();
   if (!name || !slug || !description) throw new Error("All fields are required");
 
   // Ensure slug uniqueness
@@ -21,6 +23,7 @@ export async function createBlogCategory(name, slug, description) {
 }
 
 export async function updateBlogCategory(id, name, slug, description) {
+  await verifyAdmin();
   if (!id || !name || !slug || !description) throw new Error("All fields are required");
 
   // Ensure slug uniqueness (excluding current record)
@@ -40,6 +43,7 @@ export async function updateBlogCategory(id, name, slug, description) {
 }
 
 export async function deleteBlogCategory(id) {
+  await verifyAdmin();
   if (!id) throw new Error("ID is required");
   const blogCategory = await db.blogCategory.delete({ where: { id: Number(id) } });
   revalidatePath("/admin/dashboard/blog-category");

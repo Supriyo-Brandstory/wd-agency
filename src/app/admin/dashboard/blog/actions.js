@@ -4,10 +4,18 @@ import { revalidatePath } from "next/cache";
 import fs from "fs";
 import path from "path";
 import db from "../../../../../prisma/db";
+import { verifyAdmin } from "@/lib/auth";
 
 // ✅ Helper to save uploaded image with sanitized name and avoid conflicts
 async function saveImage(file, folder = "blog") {
   if (!file) return null;
+
+  // Validate file type
+  const allowedExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg'];
+  const ext = path.extname(file.name).toLowerCase();
+  if (!allowedExtensions.includes(ext)) {
+    throw new Error("Invalid file type. Only images are allowed.");
+  }
 
   const uploadDir = path.join(process.cwd(), `public/images/${folder}`);
   if (!fs.existsSync(uploadDir)) {
@@ -16,7 +24,6 @@ async function saveImage(file, folder = "blog") {
 
   // Sanitize file name: replace spaces with '-' and remove special chars
   const originalName = file.name;
-  const ext = path.extname(originalName);
   let baseName = path.basename(originalName, ext)
     .toLowerCase()
     .trim()
@@ -65,6 +72,7 @@ async function getUniqueSlug(baseSlug, excludeId = null) {
 
 // ✅ Create blog
 export async function createBlog(formData) {
+  await verifyAdmin();
   try {
     const title = formData.get("title");
     let slug = formData.get("slug");
@@ -98,6 +106,7 @@ export async function createBlog(formData) {
 
 // ✅ Update blog with previous image deletion
 export async function updateBlog(formData) {
+  await verifyAdmin();
   try {
     const id = parseInt(formData.get("id"));
     const title = formData.get("title");
@@ -147,6 +156,7 @@ export async function updateBlog(formData) {
 
 // ✅ Delete blog
 export async function deleteBlog(id) {
+  await verifyAdmin();
   try {
     const blog = await db.blog.findUnique({ where: { id: parseInt(id) } });
     if (blog?.image) {

@@ -17,7 +17,15 @@ app.prepare().then(() => {
 
     // Check if the request is for a file in the public folder
     if (pathname.startsWith('/images/')) {
-      const filePath = path.join(__dirname, 'public', pathname);
+      const publicDir = path.join(__dirname, 'public');
+      const filePath = path.join(publicDir, pathname);
+
+      // Prevent path traversal outside of public directory
+      if (!filePath.startsWith(publicDir)) {
+        res.statusCode = 403;
+        res.end('Forbidden');
+        return;
+      }
 
       // Serve the file if it exists
       fs.access(filePath, fs.constants.F_OK, (err) => {
@@ -35,8 +43,7 @@ app.prepare().then(() => {
     }
   }).listen(port, () => {
     console.log(
-      `> Server listening at http://localhost:${port} as ${
-        dev ? 'development' : process.env.NODE_ENV
+      `> Server listening at http://localhost:${port} as ${dev ? 'development' : process.env.NODE_ENV
       }`
     );
   });
