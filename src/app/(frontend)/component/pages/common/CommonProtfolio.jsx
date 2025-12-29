@@ -22,6 +22,7 @@ heding = "Our Website Design Portfolio",
       alt:"Our Website Design Portfolio - Varsha Logistics Pvt Ltd",
       logo: protfoliologo1,
       alt:"Varsha Logistics Pvt Ltd Logo",
+      slug: "varsha-logistics"
     },
     {
       id: "02",
@@ -29,6 +30,7 @@ heding = "Our Website Design Portfolio",
       alt:"Our Website Design Portfolio - Ferns Real Estate",
       logo: protfoliologo2,
       alt:"Ferns Real Estate Logo",
+      slug: "ferns-estates"
     },
     {
       id: "03",
@@ -36,6 +38,7 @@ heding = "Our Website Design Portfolio",
       alt:"Our Website Design Portfolio - Kshema Vanitha",
       logo: protfoliologo3,
       alt:"Kshema Vanitha Logo",
+      slug: "kshemavana"
     },
     {
       id: "04",
@@ -43,6 +46,7 @@ heding = "Our Website Design Portfolio",
       alt:"Our Website Design Portfolio - Equence",
       logo: protfoliologo4,
       alt:"Equence Logo",
+      slug: "equence"
     },
   ],
 }) => {
@@ -59,7 +63,7 @@ heding = "Our Website Design Portfolio",
                         <Image src={protfolio.image} alt="protfolio1" />
                         <div className={styles.ctabox}>
                             <Image src={protfolio.logo} alt="protfolio1" />
-                            <Link href= "/case-studies" className='white-btn'>See Our Portfolio</Link>
+                            <Link href={protfolio.slug ? `/case-studies/${protfolio.slug}` : "/case-studies"} className='white-btn'>See Case Study</Link>
                             
                         </div>
                     </div>

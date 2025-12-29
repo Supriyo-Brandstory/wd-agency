@@ -10,12 +10,15 @@ import protfolio1 from '@/app/(frontend)/assets/images/protfolio/1.webp'
 import protfolio2 from '@/app/(frontend)/assets/images/protfolio/2.webp'
 import protfolio3 from '@/app/(frontend)/assets/images/protfolio/3.webp'
 import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
+import { useRouter } from "next/navigation";
+
 const caseStudiesData = [ 
   {
     id: 1,
     title: "Varsha Logistics Pvt Ltd.",
     category: "Business Website",
     image: protfolio1,
+    slug: "varsha-logistics",
     modelimage: [
       { img: protfolio1 },
     ],
@@ -25,6 +28,7 @@ const caseStudiesData = [
     title: "Ferns Estates & Developers",
     category: "Real Estate Website",
     image: protfolio2,
+    slug: "ferns-estates",
     modelimage: [
       { img: protfolio2 },
     ],
@@ -34,6 +38,7 @@ const caseStudiesData = [
     title: "Kshemavana",
     category: "Healthcare & Wellness",
     image: protfolio3,
+    slug: "kshemavana",
     modelimage: [
       { img: protfolio3 },
     ],
@@ -43,22 +48,25 @@ const caseStudiesData = [
     title: "Equence",
     category: "Tech Startup Website",
     image: protfolio4,
+    slug: "equence",
     modelimage: [
       { img: protfolio4 },
     ],
   },
-  
- 
-
 ];
 
 export default function CaseStudiesPage() {
+  const router = useRouter();
   const bgurl = typeof bannerbg === "string" ? bannerbg : bannerbg?.src;
 
   const [selectedProject, setSelectedProject] = useState(null);
   const [imageIndex, setImageIndex] = useState(0);
 
   const handleOpen = (project) => {
+    if (project.slug) {
+      router.push(`/case-studies/${project.slug}`);
+      return;
+    }
     setSelectedProject(project);
     setImageIndex(0);
   };
