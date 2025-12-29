@@ -506,6 +506,16 @@
     .growthContent p {
         font-size: var(--size-16);
     }
+
+    .zText,
+    .zImage {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 /* Stats Animation */
