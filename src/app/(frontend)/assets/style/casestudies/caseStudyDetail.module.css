@@ -178,7 +178,7 @@
     border-radius: var(--size-20);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    text-align: center;
+    text-align: left;
     border: 1px solid #333;
 }
 
@@ -196,7 +196,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto var(--size-25);
+    margin: 0 0 var(--size-25);
     color: var(--color-pink);
     ;
 }
@@ -271,7 +271,7 @@
 /* Growth Section */
 .growth {
     padding: var(--size-100) 0;
-    text-align: center;
+    text-align: left;
     color: var(--color-white);
 }
 
@@ -291,7 +291,7 @@
     background: var(--color-pink);
     ;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -389,7 +389,8 @@
     .zSection.reverse {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
         gap: var(--size-40);
     }
 
@@ -417,7 +418,7 @@
     }
 
     .tags {
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
@@ -428,12 +429,17 @@
 
     .overview,
     .scope,
-    .challenge,
     .solution,
     .processTabs,
     .growth,
-    .cta {
+    .cta,
+    .finalResult {
+        padding: 0 0 var(--size-60);
+    }
+
+    .challenge {
         padding: var(--size-60) 0;
+        margin-bottom: var(--size-60);
     }
 
     .scopeGrid {
@@ -482,6 +488,10 @@
     .tabBtn {
         font-size: var(--size-14);
         padding: var(--size-8) var(--size-15);
+    }
+
+    .growthContent p {
+        font-size: var(--size-16);
     }
 }
 
