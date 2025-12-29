@@ -1,12 +1,12 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { use, useEffect, useState, useRef } from "react";
 import styles from "@/app/(frontend)/assets/style/blog/blogSingle.module.css";
 import Image from "next/image";
 import { getBlogBySlug } from "@/app/admin/dashboard/blog/actions";
 import bannerbg from "@/app/(frontend)/assets/images/blog-bg.webp";
 
 export default function BlogDetail({ params }) {
-  const slug = params.slug;
+  const { slug } = use(params);
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [toc, setToc] = useState([]);
