@@ -111,7 +111,7 @@
 
 /* Final Result Section */
 .finalResult {
-    padding: var(--size-100) 0;
+    padding: 0 0 var(--size-100);
     background: #0b0d17;
     color: var(--color-white);
 }
@@ -235,7 +235,7 @@
 
 /* Solution Section */
 .solution {
-    padding: var(--size-100) 0 0;
+    padding: 0 0;
     background: var(--color-black);
     color: var(--color-white);
 }
@@ -247,11 +247,19 @@
     margin-bottom: var(--size-100);
 }
 
-.zText h3 {
-    font-size: var(--size-38);
-    margin-bottom: var(--size-25);
-    color: var(--color-white);
-    font-family: var(--font-secondary);
+.zSection:last-child {
+    margin-bottom: 0;
+}
+
+.zText {
+    width: 80%;
+
+    h3 {
+        font-size: var(--size-38);
+        margin-bottom: var(--size-25);
+        color: var(--color-white);
+        font-family: var(--font-secondary);
+    }
 }
 
 .zText p {
@@ -261,16 +269,21 @@
     font-family: var(--font-secondary);
 }
 
-.zImage img {
-    width: 100%;
-    height: auto;
-    border-radius: var(--size-20);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+.zImage {
+    width: 20%;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: var(--size-20);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
 }
 
 /* Growth Section */
 .growth {
-    padding: var(--size-100) 0;
+    padding: 0 0;
     text-align: left;
     color: var(--color-white);
 }
