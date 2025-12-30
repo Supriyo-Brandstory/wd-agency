@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 import * as jose from 'jose';
 
-export async function middleware(request) {
+export async function proxy(request) {
   const adminCookie = request.cookies.get('admin_token');
   const adminToken = adminCookie?.value;
 
-  // console.log('--- Middleware Triggered ---');
+  // console.log('--- Proxy Triggered ---');
   // console.log('Requested Path:', request.nextUrl.pathname);
   // console.log('Admin Token from Cookies:', adminCookie);
 
