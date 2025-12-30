@@ -6,7 +6,7 @@ import Image from "next/image";
 import womanLaptop from "@/app/(frontend)/assets/images/woman-laptop.webp";
 import Link from "next/link";
 const CtaSection = () => {
-  const MotionLink = motion(Link);
+  const MotionLink = motion.create(Link);
   return (
     <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
       <motion.div

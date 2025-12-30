@@ -10,107 +10,107 @@ const [showsvg, setShowsvg] = useState(false);
 const [isMobile, setIsMobile] = useState(false);
 const svgRef = useRef(null);
 
-useEffect(() => {
-  const ctx = gsap.context(() => {
-    // Ring animations
-    const rings = [
-      { id: "#innerDashed", rotate: -360, duration: 15 },
-      { id: "#anticlockwise", rotate: -360, duration: 13 },
-      { id: "#clockwise", rotate: 360, duration: 13 },
-      { id: "#pinkRings-1", rotate: 360, duration: 8 },
-      { id: "#pinkRings-2", rotate: -360, duration: 10 },
-      { id: "#pinkRings-3", rotate: 360, duration: 12 },
-    ];
-
-    rings.forEach(({ id, rotate, duration }) => {
-      gsap.to(id, {
-        rotate,
-        transformOrigin: "50% 50%",
-        duration,
-        repeat: -1,
-        ease: "linear",
-      });
-    });
-
-    // Box movements
-    const movements = [
-      { up: -50, down: 60, left: 0, right: 0 },
-      { up: -20, down: -50, left: 0, right: 10 },
-      { up: -50, down: 30, left: 50, right: 0 },
-      { up: 0, down: -10, left: 50, right: 50 },
-      { up: 90, down: 0, left: 90, right: 0 },
-      { up: 10, down: 50, left: 0, right: 20 },
-      { up: 50, down: -20, left: -10, right: 0 },
-      { up: -20, down: 40, left: 90, right: -90 },
-      { up: -10, down: 40, left: -60, right: -20 },
-      { up: -40, down: -50, left: -90, right: -90 },
-    ];
-
-    const boxes = svgRef.current.querySelectorAll(".boxPath");
-
-    boxes.forEach((box, i) => {
-      const move = movements[i % movements.length];
-      gsap.to(box, {
-        x: i % 2 === 0 ? move.left : move.right,
-        y: i % 2 === 0 ? move.up : move.down,
-        duration: 2,
-        repeat: -1,
-        yoyo: true,
-        ease: "power1.inOut",
-        delay: i * 0.5,
-        transformOrigin: "720px 405px",
-      });
-    });
-
-    // Mouse move effect
-    let ticking = false;
-    const handleMouseMove = (e) => {
-      if (!ticking) {
-        requestAnimationFrame(() => {
-          const { innerWidth, innerHeight } = window;
-          const x = (e.clientX / innerWidth - 0.5) * 10;
-          const y = (e.clientY / innerHeight - 0.5) * 10;
-
-          gsap.to(svgRef.current, {
-            rotationY: x,
-            rotationX: -y,
-            transformPerspective: 800,
-            transformOrigin: "center",
-            ease: "power1.out",
-            duration: 0.6,
-          });
-
-          ticking = false;
-        });
-        ticking = true;
-      }
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
     };
-
-    window.addEventListener("mousemove", handleMouseMove);
-
-    // ✅ Mark SVG as loaded once GSAP context is ready
+    handleResize(); 
+    window.addEventListener("resize", handleResize);
     setShowsvg(true);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, svgRef);
+  useEffect(() => {
+    if (!showsvg || !svgRef.current) return;
 
-  return () => ctx.revert();
-}, [showsvg]);
+    const ctx = gsap.context(() => {
+      // Ring animations
+      const rings = [
+        { selector: ".innerDashed", rotate: -360, duration: 15 },
+        { selector: ".anticlockwise", rotate: -360, duration: 13 },
+        { selector: ".clockwise", rotate: 360, duration: 13 },
+        { selector: ".pinkRings-1", rotate: 360, duration: 8 },
+        { selector: ".pinkRings-2", rotate: -360, duration: 10 },
+        { selector: ".pinkRings-3", rotate: 360, duration: 12 },
+      ];
 
-useEffect(() => {
-  const handleResize = () => {
-    setIsMobile(window.innerWidth < 768);
-  };
-  handleResize(); // run once on mount
-  window.addEventListener("resize", handleResize);
+      rings.forEach(({ selector, rotate, duration }) => {
+        const elements = svgRef.current.querySelectorAll(selector);
+        if (elements.length > 0) {
+          gsap.to(elements, {
+            rotate,
+            transformOrigin: "50% 50%",
+            duration,
+            repeat: -1,
+            ease: "linear",
+          });
+        }
+      });
 
-  // ✅ Mark SVG as loaded after resize listener setup
-  setShowsvg(true);
+      // Box movements
+      const movements = [
+        { up: -50, down: 60, left: 0, right: 0 },
+        { up: -20, down: -50, left: 0, right: 10 },
+        { up: -50, down: 30, left: 50, right: 0 },
+        { up: 0, down: -10, left: 50, right: 50 },
+        { up: 90, down: 0, left: 90, right: 0 },
+        { up: 10, down: 50, left: 0, right: 20 },
+        { up: 50, down: -20, left: -10, right: 0 },
+        { up: -20, down: 40, left: 90, right: -90 },
+        { up: -10, down: 40, left: -60, right: -20 },
+        { up: -40, down: -50, left: -90, right: -90 },
+      ];
 
-  return () => window.removeEventListener("resize", handleResize);
-}, []);
+      const boxes = svgRef.current.querySelectorAll(".boxPath");
+
+      boxes.forEach((box, i) => {
+        const move = movements[i % movements.length];
+        gsap.to(box, {
+          x: i % 2 === 0 ? move.left : move.right,
+          y: i % 2 === 0 ? move.up : move.down,
+          duration: 2,
+          repeat: -1,
+          yoyo: true,
+          ease: "power1.inOut",
+          delay: i * 0.5,
+          transformOrigin: "720px 405px",
+        });
+      });
+
+      // Mouse move effect
+      let ticking = false;
+      const handleMouseMove = (e) => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            const { innerWidth, innerHeight } = window;
+            const x = (e.clientX / innerWidth - 0.5) * 10;
+            const y = (e.clientY / innerHeight - 0.5) * 10;
+
+            gsap.to(svgRef.current, {
+              rotationY: x,
+              rotationX: -y,
+              transformPerspective: 800,
+              transformOrigin: "center",
+              ease: "power1.out",
+              duration: 0.6,
+            });
+
+            ticking = false;
+          });
+          ticking = true;
+        }
+      };
+
+      window.addEventListener("mousemove", handleMouseMove);
+
+      return () => {
+        window.removeEventListener("mousemove", handleMouseMove);
+      };
+    }, svgRef);
+
+    return () => ctx.revert();
+  }, [showsvg]);
+
 
     return (
         <div className='frame-1200 py-100 sm-py-50 sm-px-20 over-flow-hidden'>
@@ -386,7 +386,7 @@ useEffect(() => {
                             <circle opacity="0.1" cx={720} cy={405} r="144.5" stroke="white" />
                             <circle opacity="0.08" cx={720} cy={405} r="159.5" stroke="white" />
                             <circle
-                                id="clockwise"
+                                className="clockwise"
                                 opacity="0.4"
                                 cx={720}
                                 cy={405}
@@ -396,7 +396,7 @@ useEffect(() => {
                                 strokeDasharray="1 300"
                             />
                             <circle
-                                id="anticlockwise"
+                                className="anticlockwise"
                                 opacity="0.4"
                                 cx={720}
                                 cy={405}
@@ -406,7 +406,7 @@ useEffect(() => {
                                 strokeDasharray="1 300"
                             />
                             <circle
-                                id="anticlockwise"
+                                className="anticlockwise"
                                 cx={720}
                                 cy={405}
                                 r={159}
@@ -415,9 +415,10 @@ useEffect(() => {
                                 strokeDasharray="1 300"
                             />
                         </g>
-                        <g filter="url(#filter1_d_96_997)" id="anticlockwise">
+                        <g filter="url(#filter1_d_96_997)" className="anticlockwise">
                             <circle opacity="0.3" cx={720} cy={405} r="117.5" stroke="white" />
                             <circle
+                                className="innerDashed"
                                 cx={720}
                                 cy={405}
                                 r={110}
@@ -453,14 +454,14 @@ useEffect(() => {
                             </linearGradient>
                         </defs>
 
-                        <g filter="url(#glowFilter)" id="pinkRingsGroup">
-                            <circle id="pinkRings-1" cx="721" cy="405" r="80" fill="none" stroke="url(#gradient1)" strokeWidth="4.5" />
-                            <circle id="pinkRings-2" cx="721" cy="405" r="90" fill="none" stroke="url(#gradient2)" strokeWidth="4.5" />
-                            <circle id="pinkRings-3" cx="721" cy="405" r="100" fill="none" stroke="url(#gradient3)" strokeWidth="4.5" />
+                        <g filter="url(#glowFilter)" className="pinkRingsGroup">
+                            <circle className="pinkRings-1" cx="721" cy="405" r="80" fill="none" stroke="url(#gradient1)" strokeWidth="4.5" />
+                            <circle className="pinkRings-2" cx="721" cy="405" r="90" fill="none" stroke="url(#gradient2)" strokeWidth="4.5" />
+                            <circle className="pinkRings-3" cx="721" cy="405" r="100" fill="none" stroke="url(#gradient3)" strokeWidth="4.5" />
                         </g>
 
                         <g filter="url(#filter3_d_96_997)" >
-                            <circle id="anticlockwise"
+                            <circle className="anticlockwise"
                                 cx={720}
                                 cy={405}
                                 r="64.1127"
@@ -468,7 +469,7 @@ useEffect(() => {
                                 strokeWidth={2}
                                 strokeDasharray="50 42"
                             />
-                            <circle id="clockwise"
+                            <circle className="clockwise"
                                 cx="720.001"
                                 cy={405}
                                 r="60.338"
@@ -484,7 +485,7 @@ useEffect(() => {
                                 stroke="white"
                                 strokeWidth={2}
                                 strokeDasharray="40 14"
-                                id="anticlockwise"
+                                className="anticlockwise"
                             />
                         </g>
                         <path

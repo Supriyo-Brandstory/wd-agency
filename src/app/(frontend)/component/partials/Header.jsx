@@ -48,7 +48,7 @@ export default function Header() {
     <header className={`frame-1200 ${styles.header}`}>
       <div className={styles.logo}>
         <Link href="/">
-          <Image src={logo} alt="Logo" width={211} height={50} priority />
+          <Image src={logo} alt="Logo" width={211} height={50} priority style={{ width: 'auto', height: 'auto' }} />
         </Link>
       </div>
 

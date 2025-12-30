@@ -1,5 +1,5 @@
 import "./globals.scss";
-import"./globals.css";
+import "./globals.css";
 import Header from "./component/partials/Header";
 import Footer from "./component/partials/Footer";
 import Script from 'next/script'; // Import the Script component
@@ -11,9 +11,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="Sqic4jq1KYYPLx4_l5xWdFBG3ormalt-u2eAb3BdSak" />
-        <SeoMetadata/>
+        <SeoMetadata />
       </head>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning={true}>
         {/* Google Tag Manager noscript fallback */}
         <noscript
           dangerouslySetInnerHTML={{
@@ -23,11 +23,11 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        
+
         <Header />
         <main style={{ flex: '1 0 auto' }} >{children}</main>
         <Footer />
-        
+
         {/* Google Tag Manager script using next/script */}
         <Script
           id="gtm-script"
