@@ -104,6 +104,7 @@ export default function Header() {
 
         <Link href="/blog">Blog</Link>
         <Link href="/case-studies">Portfolio</Link>
+        <Link href="/cost-calculator">Cost Calculator</Link>
 
         <Link href="/contact-us" className={styles.quoteBtn}>
           Get Quote
