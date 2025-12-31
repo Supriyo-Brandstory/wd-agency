@@ -200,8 +200,9 @@ const CostCalculator = () => {
             transition={{ duration: 0.5 }}
             className='text-center mb-20 sm-text-start sm-mb-20'
           >
-            Website Development Cost Calculator
+            What’s the Cost of Building Your Website?
           </motion.h2>
+          <p>Every website is unique, and pricing depends on what your business needs. Instead of guessing, use our free website cost calculator to get a tailored estimate for your project.</p>
         </div>
 
         <div className={styles.optionsList}>
