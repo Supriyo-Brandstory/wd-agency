@@ -385,6 +385,11 @@ ul li {
     width: $i * 1%;
   }
 }
+  @for $i from 1 through 100 {
+    .height-#{$i} {
+      height: $i * 1% !important;
+    }
+  }
 
 /* ---------------- Responsive Global Styles ---------------- */
 

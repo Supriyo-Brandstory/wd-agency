@@ -104,16 +104,16 @@ export default function CaseStudyDetailPage() {
               that empowers potential buyers to explore properties and schedule visits with unprecedented ease.
             </p>
             <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-29`}>
+              <div className={`${styles.resultItem} width-29 sm-width-100`}>
                 <Image src={result1} alt="Ferns Estates Dashboard" />
               </div>
-              <div className={`${styles.resultItem} width-70`}>
+              <div className={`${styles.resultItem} width-70 sm-width-100`}>
                 <Image src={result2} alt="Ferns Estates Form" />
               </div>
-              <div className={`${styles.resultItem} width-70`}>
+              <div className={`${styles.resultItem} width-70 sm-width-100`}>
                 <Image src={result3} alt="Ferns Estates Form" />
               </div>
-              <div className={`${styles.resultItem} width-29`}>
+              <div className={`${styles.resultItem} width-29 sm-width-100`}>
                 <Image src={result4} alt="Ferns Estates Form" />
               </div>
             </div>

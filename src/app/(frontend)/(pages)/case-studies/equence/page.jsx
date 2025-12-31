@@ -6,9 +6,8 @@ import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqS
 import heroMockup from "@/app/(frontend)/assets/images/protfolio/4.webp";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png"; 
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
-import result1 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-1.png";
-import result2 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-2.png";
-import result3 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-3.png";
+import result1 from "@/app/(frontend)/assets/images/casestudies/equence-result.webp";
+import result2 from "@/app/(frontend)/assets/images/casestudies/equence-result-1.webp";
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 export default function CaseStudyDetailPage() {
@@ -103,10 +102,10 @@ export default function CaseStudyDetailPage() {
               dashboard that empowers investors to analyze markets and manage portfolios with unprecedented ease.
             </p>
             <div className={styles.resultGrid}>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-68 height-100 sm-width-100`}>
                 <Image src={result1} alt="Equence Dashboard" />
               </div>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-29 height-50 sm-width-100`}>
                 <Image src={result2} alt="Equence Form" />
               </div>
             </div>

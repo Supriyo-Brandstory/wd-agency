@@ -6,9 +6,11 @@ import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqS
 import heroMockup from "@/app/(frontend)/assets/images/protfolio/3.webp";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png"; 
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
-import result1 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-1.png";
-import result2 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-2.png";
-import result3 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-3.png";
+import result1 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result.webp";
+import result2 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result-1.webp";
+import result3 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result-2.webp";
+import result4 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result-3.webp";
+import result5 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result-4.webp";
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 export default function CaseStudyDetailPage() {
@@ -103,11 +105,20 @@ export default function CaseStudyDetailPage() {
               that empowers patients to explore wellness programs and book retreats with unprecedented ease.
             </p>
             <div className={styles.resultGrid}>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-30 sm-width-100`}>
                 <Image src={result1} alt="Kshemavana Dashboard" />
               </div>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-38 sm-width-100`}>
                 <Image src={result2} alt="Kshemavana Form" />
+              </div>
+              <div className={`${styles.resultItem} width-30 sm-width-100`}>
+                <Image src={result3} alt="Kshemavana Form" />
+              </div>
+              <div className={`${styles.resultItem} width-64 sm-width-100`}>
+                <Image src={result4} alt="Kshemavana Form" />
+              </div>
+              <div className={`${styles.resultItem} width-34 sm-width-100`}>
+                <Image src={result5} alt="Kshemavana Form" />
               </div>
             </div>
           </div>

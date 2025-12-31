@@ -106,16 +106,16 @@ export default function CaseStudyDetailPage() {
               and optimize routes with unprecedented ease and speed.
             </p>
             <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-49`}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
                 <Image src={result1} alt="Varsha Logistics Dashboard" />
               </div>
-              <div className={`${styles.resultItem} width-49`}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
                 <Image src={result2} alt="Varsha Logistics Form" />
               </div>
-              <div className={`${styles.resultItem} width-49`}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
                 <Image src={result3} alt="Varsha Logistics Form" />
               </div>
-              <div className={`${styles.resultItem} width-49`}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
                 <Image src={result4} alt="Varsha Logistics Form" />
               </div>
             </div>
