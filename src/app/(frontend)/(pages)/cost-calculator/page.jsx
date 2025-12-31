@@ -17,12 +17,20 @@ const Page = () => {
 
   const webExperiencesContent = {
     topSection: {
-      title: "Accurate & Transparent Website Pricing",
-      descriptions: [
-        "In the digital age, budgeting for a new website shouldn't be a guessing game. Our cost calculator is designed to give you a clear, itemized estimate based on your specific needs, whether it's a simple corporate site or a full-fledged e-commerce platform.",
-        "We believe in complete transparency. No hidden fees, no surprise charges—just honest pricing that reflects the quality and effort we invest in your project. Our team analyzes every detail, from design complexity to functional requirements, ensuring you get the most value for your investment.",
-        "Use our interactive tool to explore different packages and features. By understanding the cost drivers, you can make informed decisions that align with your business goals and budget constraints."
-      ],
+      title: "Features of Our Website Cost Calculator",
+descriptions: [
+  "We’ve created this guide to help you understand the options included in our website cost estimate calculator. Website terms like responsive design, CMS, or database integration can be confusing if you’re not from a digital background. This guide explains each option in simple terms, so you can select what fits your needs and receive the most accurate project estimate. Factors that influence your website cost are: ",
+  "• Number of Pages: More pages require additional design, development, and content work, increasing the overall cost.",
+  "• Design Style: The complexity and level of custom design directly impact effort, timelines, and pricing.",
+  "• Copywriting (Number of Pages): Professional content creation costs vary based on page count and content depth.",
+  "• SEO Placement: SEO-ready structure and optimisation requirements affect planning and execution.",
+  "• Responsive Design: Ensuring seamless performance across desktops, tablets, and mobile devices adds development scope.",
+  "• Database Integration: Advanced data handling and third-party integrations increase technical complexity.",
+  "• E-commerce Functionality: Product listings, payment gateways, and checkout systems influence project cost.",
+  "• Content Management System (CMS): The type and level of CMS customisation required affects development time."
+],
+
+      
       image: introImg1,
       alt: "Transparent Website Pricing Calculator"
     },
