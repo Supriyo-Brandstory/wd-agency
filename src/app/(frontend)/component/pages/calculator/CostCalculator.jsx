@@ -117,13 +117,14 @@ const CostCalculator = () => {
   };
 
   return (
-    <section className={styles.calculatorSection}>
+    <section className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
       <div className={styles.calculatorContainer}>
         <div className={styles.calcHeader}>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
+            className='text-center mb-20 sm-text-start sm-mb-20'
           >
             Website Development Cost Calculator
           </motion.h2>

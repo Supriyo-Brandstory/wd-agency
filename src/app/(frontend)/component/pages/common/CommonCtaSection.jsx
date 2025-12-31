@@ -8,7 +8,7 @@ import css from "../../../assets/style/about/contact.module.css";
 const Contact = ({imageUrl, title, subtitle}) => {
   return (
     <motion.div
-      className="relative frame-1200 mb-50"
+      className={`relative frame-1200 mb-50 ${css.mobileMarginBox}`}
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -22,14 +22,14 @@ const Contact = ({imageUrl, title, subtitle}) => {
       <div className="relative flex flex-col md:flex-row items-center gap-8">
         {/* data section */}
         <motion.div
-          className="pl-20 w-full z-10 py-30"
+          className="pl-20 px-20 md:pl-20 w-full z-10 py-30 sm-text-center"
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.4 }}
         >
-          <h1 className="fs-38">{title}</h1>
-          <p className="fs-20 py-10">
+          <h1 className={`fs-38 sm-pt-30 ${css.title}`}>{title}</h1>
+          <p className={`fs-20 py-10 ${css.subtitle}`}>
             {subtitle}
           </p>
           {/* Buttons */}
