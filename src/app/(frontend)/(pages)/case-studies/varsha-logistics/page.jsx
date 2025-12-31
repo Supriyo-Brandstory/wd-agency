@@ -7,9 +7,10 @@ import heroMockup from "@/app/(frontend)/assets/images/protfolio/1.webp"; // Usi
 // Re-using common graphics or placeholders for now
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png"; 
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
-import result1 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-1.png";
-import result2 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-2.png";
-import result3 from "@/app/(frontend)/assets/images/casestudies/cover-b-result-3.png";
+import result1 from "@/app/(frontend)/assets/images/casestudies/varsha-logistics.webp";
+import result2 from "@/app/(frontend)/assets/images/casestudies/varsha-logistics-1.webp";
+import result3 from "@/app/(frontend)/assets/images/casestudies/varsha-logistics-2.webp";
+import result4 from "@/app/(frontend)/assets/images/casestudies/varsha-logistics-3.webp";
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 export default function CaseStudyDetailPage() {
@@ -105,11 +106,17 @@ export default function CaseStudyDetailPage() {
               and optimize routes with unprecedented ease and speed.
             </p>
             <div className={styles.resultGrid}>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-49`}>
                 <Image src={result1} alt="Varsha Logistics Dashboard" />
               </div>
-              <div className={styles.resultItem}>
+              <div className={`${styles.resultItem} width-49`}>
                 <Image src={result2} alt="Varsha Logistics Form" />
+              </div>
+              <div className={`${styles.resultItem} width-49`}>
+                <Image src={result3} alt="Varsha Logistics Form" />
+              </div>
+              <div className={`${styles.resultItem} width-49`}>
+                <Image src={result4} alt="Varsha Logistics Form" />
               </div>
             </div>
           </div>

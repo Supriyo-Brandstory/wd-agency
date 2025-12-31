@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import { createEnquiry } from "@/app/admin/dashboard/enquiry/action";
 
 const pricingData = {
   numPages: [
@@ -87,6 +88,18 @@ const CostCalculator = () => {
 
   const [totalMin, setTotalMin] = useState(0);
   const [totalMax, setTotalMax] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    fullName: "",
+    emailAddress: "",
+    phoneNumber: "",
+    companyName: "",
+    serviceInterestedIn: "Web Development",
+    projectBudget: "",
+    projectDetails: ""
+  });
 
   useEffect(() => {
     let min = 0;
@@ -100,6 +113,15 @@ const CostCalculator = () => {
     setTotalMin(min);
     setTotalMax(max);
   }, [selections]);
+
+  useEffect(() => {
+    if (isModalOpen) {
+      setFormData(prev => ({
+        ...prev,
+        projectBudget: `${totalMin.toLocaleString()} – ${totalMax.toLocaleString()} AED`
+      }));
+    }
+  }, [isModalOpen, totalMin, totalMax]);
 
   const handleSliderChange = (key, value) => {
     setSelections(prev => ({
@@ -116,8 +138,60 @@ const CostCalculator = () => {
     });
   };
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+    // Prepare data for server action
+    const submissionData = {
+        fullName: formData.fullName,
+        emailAddress: formData.emailAddress,
+        phoneNumber: formData.phoneNumber,
+        companyName: formData.companyName,
+        serviceInterestedIn: formData.serviceInterestedIn || "Web Development (Calculator)",
+        projectBudget: formData.projectBudget, // Use the calculated budget string
+        projectDetails: formData.projectDetails || "Enquiry from Cost Calculator",
+    };
+
+    try {
+        const result = await createEnquiry(submissionData);
+        if (result.success) {
+            setSuccessMessage("Thank you! Your estimate and enquiry have been sent.");
+            setFormData({
+                fullName: "",
+                emailAddress: "",
+                phoneNumber: "",
+                companyName: "",
+                serviceInterestedIn: "Web Development",
+                projectBudget: "",
+                projectDetails: ""
+            });
+            setTimeout(() => {
+                setSuccessMessage("");
+                setIsModalOpen(false);
+            }, 3000);
+        } else {
+            alert("Something went wrong. Please try again.");
+        }
+    } catch (error) {
+        console.error("Submission error:", error);
+        alert("An error occurred. Please try again later.");
+    } finally {
+        setIsSubmitting(false);
+    }
+  };
+
   return (
-    <section className='frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20'>
+    <>
+    <section className='frame-1200 pt-100 sm-pt-0 sm-pb-50 sm-px-20'>
       <div className={styles.calculatorContainer}>
         <div className={styles.calcHeader}>
           <motion.h2
@@ -207,7 +281,10 @@ const CostCalculator = () => {
               </div>
             </div>
 
-            <button className={styles.ctaButton}>
+            <button 
+                className={styles.ctaButton}
+                onClick={() => setIsModalOpen(true)}
+            >
               Get a Detailed Quote
             </button>
 
@@ -219,6 +296,120 @@ const CostCalculator = () => {
         </div>
       </div>
     </section>
+
+    <AnimatePresence>
+        {isModalOpen && (
+          <motion.div 
+            className={styles.modalOverlay}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsModalOpen(false)}
+          >
+            <motion.div 
+                className={styles.modalContent}
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0.9, opacity: 0 }}
+                onClick={(e) => e.stopPropagation()}
+            >
+                <button 
+                    className={styles.closeButton}
+                    onClick={() => setIsModalOpen(false)}
+                >
+                    ✕
+                </button>
+                
+                <h3 className={styles.modalTitle}>Request Detailed Quote</h3>
+                
+                {successMessage ? (
+                    <div className={styles.successMessage}>
+                        {successMessage}
+                    </div>
+                ) : (
+                    <form className={styles.enquiryForm} onSubmit={handleSubmit}>
+                        <div className={styles.inputGroup}>
+                            <label>Full Name *</label>
+                            <input 
+                                type="text" 
+                                name="fullName"
+                                required
+                                value={formData.fullName}
+                                onChange={handleInputChange}
+                                placeholder="John Doe"
+                            />
+                        </div>
+
+                        <div className={styles.inputGroup}>
+                            <label>Email Address *</label>
+                            <input 
+                                type="email" 
+                                name="emailAddress"
+                                required
+                                value={formData.emailAddress}
+                                onChange={handleInputChange}
+                                placeholder="john@example.com"
+                            />
+                        </div>
+
+                        <div className={styles.inputGroup}>
+                            <label>Phone Number</label>
+                            <input 
+                                type="tel" 
+                                name="phoneNumber"
+                                value={formData.phoneNumber}
+                                onChange={handleInputChange}
+                                placeholder="+971 50 123 4567"
+                            />
+                        </div>
+
+                        <div className={styles.inputGroup}>
+                            <label>Company Name</label>
+                            <input 
+                                type="text" 
+                                name="companyName"
+                                value={formData.companyName}
+                                onChange={handleInputChange}
+                                placeholder="Your Company Ltd."
+                            />
+                        </div>
+
+                        <div className={styles.inputGroup}>
+                            <label>Estimated Budget (AED)</label>
+                            <input 
+                                type="text" 
+                                name="projectBudget"
+                                value={formData.projectBudget}
+                                onChange={handleInputChange}
+                                readOnly
+                                style={{ opacity: 0.7, cursor: 'not-allowed' }}
+                            />
+                        </div>
+
+                        <div className={styles.inputGroup}>
+                            <label>Additional Details</label>
+                            <textarea 
+                                name="projectDetails"
+                                value={formData.projectDetails}
+                                onChange={handleInputChange}
+                                placeholder="Any specific requirements or questions?"
+                            />
+                        </div>
+
+                        <button 
+                            type="submit" 
+                            className={styles.submitButton}
+                            disabled={isSubmitting}
+                        >
+                            {isSubmitting ? "Sending..." : "Submit Quote Request"}
+                        </button>
+                    </form>
+                )}
+            </motion.div>
+          </motion.div>
+        )}
+    </AnimatePresence>
+    </>
   );
 };
 

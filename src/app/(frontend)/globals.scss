@@ -380,7 +380,11 @@ ul li {
 
 
 
-
+@for $i from 1 through 100 {
+  .width-#{$i} {
+    width: $i * 1%;
+  }
+}
 
 /* ---------------- Responsive Global Styles ---------------- */
 
@@ -423,6 +427,11 @@ ul li {
   ul {
     margin-left: var(--size-20);
   }
+@for $i from 1 through 100 {
+  .sm-width-#{$i} {
+    width: $i * 1% !important;
+  }
+}
 
   // Margin utilities
 @for $i from 0 through 2000 {

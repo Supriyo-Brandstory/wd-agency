@@ -126,10 +126,12 @@
 }
 
 .resultGrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--size-30);
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 2fr 1fr; */
     margin-top: var(--size-50);
+    justify-content: space-between;
+    gap: 20px 0;
 }
 
 .resultItem {
