@@ -1,0 +1,62 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.locationService a {
+    text-decoration: none;
+}
+
+.footerbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    a {
+        border: 0.5px solid #FFFFFF;
+        padding: 6px 15px;
+        border-radius: 6px;
+        width: max-content;
+        font-size: 16px;
+    }
+
+    a:hover,
+    a.active {
+        background-color: #E83E8C;
+        border-color: #E83E8C;
+    }
+}
+
+.locationimg {
+    background: #292929;
+    height: 483px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footerbox {
+        gap: 10px;
+    }
+
+    .locationimg {
+        height: auto;
+    }
+}
