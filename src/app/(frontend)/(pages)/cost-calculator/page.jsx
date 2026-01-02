@@ -1,5 +1,4 @@
 import React from "react";
-import CommonBanner from "../../component/pages/common/CommonBanner";
 import CostCalculator from "../../component/pages/calculator/CostCalculator";
 import CommonCtaSection from "../../component/pages/common/CommonCtaSection";
 import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
@@ -9,10 +8,10 @@ import CommonIntroduction from "../../component/pages/common/CommonIntroduction"
 
 import imageintro1 from "@/app/(frontend)/assets/images/php-website-dev/php-website-dev-1.webp";
 import imageintro2 from "@/app/(frontend)/assets/images/php-website-dev/php-website-dev-2.webp";
-import imageService1 from "@/app/(frontend)/assets/images/php-website-dev/custom-php.webp";
-import imageService2 from "@/app/(frontend)/assets/images/php-website-dev/e-commerce.webp";
-import imageService3 from "@/app/(frontend)/assets/images/php-website-dev/php-cms.webp";
-import imageService4 from "@/app/(frontend)/assets/images/php-website-dev/pwa.webp";
+import uiux from '@/app/(frontend)/assets/images/uiux.webp'
+import webdev from '@/app/(frontend)/assets/images/webdev.webp'
+import frontend from '@/app/(frontend)/assets/images/frontend.webp'
+import fullstack from '@/app/(frontend)/assets/images/fullstack.webp'
 import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 const Page = () => {
@@ -27,60 +26,30 @@ const Page = () => {
       <CostCalculator />
 
       <CommonIntroduction
-        heding={"PHP Website Development Services"}
-        text1={` <p>At WD Agency, we are a reputable PHP web development agency in Dubai and the UAE. We enable businesses to build digital solutions that are fast, flexible, and future-ready. With 10+  years of experience and a team of skilled developers, we are proficient in designing websites and web applications based on PHP that are robust and specifically tailored to meet the specific requirements of our clients.</p>
-                    <p>We have extensive expertise in major PHP-based platforms- Laravel, CodeIgniter, and Symfony. This enables us to create dynamic, feature-rich websites and web apps to help your business grow and thrive. Our PHP website solutions are designed to impress not only with their functionality but also with their ability to give you long-term value, whether you require a website or a custom web application.</p>
+        heding={"Calculate Website Development Costs"}
+        text1={` <p>Wondering what it really takes to build a website that fits your business goals and budget? Our interactive website cost calculator 
+          helps you understand pricing before you commit. By selecting your project needs, such as page count, visual design level, SEO readiness, eCommerce 
+          features, and custom functionality you receive a tailored cost estimate that reflects your exact requirements. No guesswork, just clarity before 
+          you start. The cost breakdown basics are:</p>
+          <p><b>Number of Pages:</b> This determines how many individual sections or pages your website will include. More pages typically require additional 
+          planning, design, development, and content structuring, which directly influences the overall project cost.</p>
                     `}
-        text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
-                <p>We make sure that our PHP project are responsive, SEO-friendly, and user engagement-optimized, thus guaranteeing that visibility and conversions are at their highest levels. Being committed to quality, scalability, and innovation is what makes us one of the most dependable PHP web development partners in the UAE.</p>
+        text2={`  <p><b>Design Complexity:</b> This refers to the visual depth and creativity involved in your website’s design. From simple layouts to custom visuals, animations, and branding elements, higher design complexity requires more time and resources.</p>
+                <p><b>Responsive Layout:</b> A responsive layout ensures your website adapts smoothly to desktops, mobiles, and tablets. As mobile usage continues to grow, this functionality is essential for usability, accessibility, and overall user experience.</p>
+                <p><b>Database Connectivity:</b> This feature allows your website to store, retrieve, and sync data dynamically. Depending on your needs, integration can range from simple data handling to advanced system connections, affecting development complexity.</p>
                     `}
         imageintro1={imageintro1}
         imageintro2={imageintro2}
       />
-      <CommonIndustries
-        heding={
-          "Comprehensive PHP Development Solutions Tailored for UAE Businesses"
-        }
-        subheding="At WD Agency (Website Development Agency), we provide fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the UAE. Our expert PHP developers create PHP projects that are highly efficient, secure, and scalable."
-        services={[
-          {
-            title: "Custom PHP Web Development",
-            desc: "We design full-feature custom websites that are in perfect harmony with both your brand’s vision and company goals. Be it a corporate website or a massive enterprise portal, our programming always results in a perfect combination of design and functionality.",
-            img: imageService1,
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "E-commerce PHP Development",
-            desc: `We build secure and feature-rich PHP-based e-commerce platforms. We make it possible for you to integrate seamless payment methods, accurate inventory management, and attractive yet simple designs, thus making the customer experience smooth and enjoyable.`,
-            img: imageService2,
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "PHP CMS Development",
-            desc: "With Single Page Applications (SPAs) built using modern libraries like React, Vue, and Angular, we design websites with fast loading speed, seamless navigation, and provide users with an app-like browsing experience.",
-            img: imageService3,
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Progressive Web Apps (PWAs)",
-            desc: "With PHP-based CMS platforms such as WordPress, Drupal, or even a tailor-made CMS solution, content management becomes a walk in the park since you have full freedom over the usage of the website’s text and media.",
-            img: imageService4,
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
-      />
+      
+      
       <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">
-            Who Can Build My Site and How Much Will it Cost?
+            Types of Website and Related Cost Breakdown
           </h2>
           <p>
-            Check out the graph below to learn how to calculate website cost or
-            visit our calculator to get a free, custom quote!
+            Select the right website package based on the features, performance, and growth level you need.
           </p>
         </div>
 
@@ -91,27 +60,65 @@ const Page = () => {
             <h3>Price Range Estimate</h3>
           </div>
           <div className={styles.grid}>
-            <p>Freelance designer</p>
+            <p>Basic</p>
             <p>Affordable, creative</p>
-            <p className={styles.price}>$8 - $85 / hour</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
           </div>
           <div className={styles.grid}>
-            <p>Freelance designer</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>$8 - $85 / hour</p>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
           </div>
           <div className={styles.grid}>
-            <p>Freelance designer</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>$8 - $85 / hour</p>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
           </div>
           <div className={styles.grid}>
-            <p>Freelance designer</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>$8 - $85 / hour</p>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
           </div>
         </div>
       </div>
+
+      <CommonIndustries
+        heding="Common Web Design & Development Services Include"
+        services={[
+          {
+            title: "UI/UX & Prototyping",
+            desc: "User-centered design approaches that create intuitive and engaging digital experiences.",
+            img: uiux,
+            alt:"UI/UX and Prototyping Services",
+            btnname: "Learn More",
+            link: "/services/wireframing-prototyping"
+          },
+          {
+            title: "Dynamic Web Development",
+            desc: "Custom web applications built with modern technologies to deliver exceptional user experiences.",
+            img: webdev,
+            alt:"Dynamic Web Development Services",
+            btnname: "Learn More",
+            link: "/services/dynamic-website-development"
+          },
+          {
+            title: "Frontend Development",
+            desc: "Modern, responsive user interfaces built with cutting-edge frontend technologies.",
+            img: frontend,
+            alt:"Frontend Development Services",
+            btnname: "Learn More",
+            link: "/services/frontend-development"
+          },
+          {
+            title: "Full Stack Development",
+            desc: "End-to-end web solutions covering both frontend and backend development needs.",
+            img: fullstack,
+            alt:"Full Stack Development Services",
+            btnname: "Learn More",
+            link: "/services/full-stack-development"
+          }
+        ]}
+      />
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Need a Custom Solution?"
