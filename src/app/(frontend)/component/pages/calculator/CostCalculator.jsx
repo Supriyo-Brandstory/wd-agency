@@ -7,11 +7,11 @@ import { createEnquiry } from "@/app/admin/dashboard/enquiry/action";
 
 const pricingData = {
   numPages: [
-    { id: 'starter', label: "1 – 10 Pages", min: 6000, max: 9000 },
-    { id: 'growth', label: "11 – 50 Pages", min: 12000, max: 20000 },
-    { id: 'professional', label: "51 – 100 Pages", min: 22000, max: 35000 },
-    { id: 'enterprise', label: "101 – 150 Pages", min: 38000, max: 55000 },
-    { id: 'large', label: "150+ Pages", min: 60000, max: 85000 },
+    { id: 'starter', label: "1 – 10 Pages", min: 3000, max: 6000 },
+    { id: 'growth', label: "11 – 50 Pages", min: 6000, max: 10000 },
+    { id: 'professional', label: "51 – 100 Pages", min: 10000, max: 20000 },
+    { id: 'enterprise', label: "101 – 150 Pages", min: 20000, max: 45000 },
+    { id: 'large', label: "150+ Pages", min: 45000, max: 75000 },
   ],
   designStyle: [
     { id: 'none', label: "No design needed", min: 0, max: 0 },

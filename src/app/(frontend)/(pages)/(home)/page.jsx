@@ -18,6 +18,7 @@ import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import CommonGame from "../../component/pages/common/CommonGame";
 import LocationService from "../../component/pages/common/LocationService";
+import CostCalculator from "../../component/pages/calculator/CostCalculator";
 const page = () => {
   return (
     <div>
@@ -37,6 +38,7 @@ const page = () => {
       <TechnologyStack />
       <DevelopmentServices />
       <DevelopmentProcess />
+      <CostCalculator />
       {/* <Portfolio/> */}
 
       <Webexperiences />

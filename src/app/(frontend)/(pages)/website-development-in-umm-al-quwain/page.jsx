@@ -34,6 +34,7 @@ import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
+import CostCalculator from '../../component/pages/calculator/CostCalculator'
 
 
 
@@ -42,7 +43,7 @@ const page = () => {
         <>
     <Banner
         text1={"Most Trusted Website Development Services"}
-        text2={"Web Development in Umm Al Quwain Tailored for<br>Your Business Growth"}
+        text2={"Web Development in Umm Al Quwain for<br>Your Business Growth"}
         text3={"WD Agency is your one-stop solution for web development in Umm Al Quwain, delivering cutting-edge web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Umm Al Quwain."}
     />
     <CommonAboutPage
@@ -146,6 +147,7 @@ const page = () => {
         footertext={'We have worked with top businesses in Umm Al Quwain and the UAE across retail, real estate, hospitality, e-commerce, and more. We know what it takes to build a digital platform that works for every niche.'}
     />
     <CommonIndustries/>
+    <CostCalculator />
     <CommonClientTestimonials/>
     <LocationService activeLocation="umm al quwain" />
     <CommonFaqSection

@@ -34,6 +34,7 @@ import DevelopmentProcess from '@/app/(frontend)/assets/images/ajman/Development
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
+import CostCalculator from '../../component/pages/calculator/CostCalculator'
 
 
 const page = () => {
@@ -162,6 +163,7 @@ const page = () => {
             />
 
                 <CommonIndustries/>
+                <CostCalculator />
                 <CommonClientTestimonials/>
                 <LocationService activeLocation="ajman" />
 

@@ -34,6 +34,7 @@ import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
+import CostCalculator from '../../component/pages/calculator/CostCalculator'
 
 
 
@@ -150,6 +151,7 @@ const page = () => {
         footertext={'We have worked with top businesses in Al Ain and the UAE across retail, healthcare, education, hospitality, e-commerce, and more. We know what it takes to build a digital platform that works for every niche.'}
     />
     <CommonIndustries/>
+    <CostCalculator />
     <CommonClientTestimonials/>
     <LocationService activeLocation="al ain" />  
 
