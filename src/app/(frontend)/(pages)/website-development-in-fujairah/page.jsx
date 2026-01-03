@@ -33,6 +33,7 @@ import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
+import LocationService from '../../component/pages/common/LocationService'
 
 
 const page = () => {
@@ -163,7 +164,7 @@ const page = () => {
 
     <CommonIndustries/>
     <CommonClientTestimonials/>
-    <CommonServiceLocations/>
+    <LocationService activeLocation="fujairah" />
 
 
     <CommonFaqSection

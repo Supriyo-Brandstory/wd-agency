@@ -15,72 +15,72 @@ import ummalquwainLocationimg from "@/app/(frontend)/assets/images/locationservi
 const defaultLocationsList = [
   {
     label: "Dubai",
-    officeTitle: "Website Development Company in Dubai",
+    officeTitle: "Website Development in Dubai",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: dubailocationimg,
   },
   {
     label: "Abu Dhabi",
-    officeTitle: "Website Development Company in Abu Dhabi",
+    officeTitle: "Website Development in Abu Dhabi",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: abudhabiLocationimg,
   },
   {
     label: "Sharjah",
-    officeTitle: "Website Development Company in Sharjah",
+    officeTitle: "Website Development in Sharjah",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: sharjahLocationimg,
   },
   {
     label: "Ajman",
-    officeTitle: "Website Development Company in Ajman",
+    officeTitle: "Website Development in Ajman",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: ajmanLocationimg,
   },
   {
     label: "Ras Al Khaimah",
-    officeTitle: "Website Development Company in Ras Al Khaimah",
+    officeTitle: "Web Development in Ras Al Khaimah",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: rasalkhaimahLocationimg,
   },
   {
     label: "Fujairah",
-    officeTitle: "Website Development Company in Fujairah",
+    officeTitle: "Website Development in Fujairah",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: fujairahLocationimg,
   },
   {
     label: "Al Ain",
-    officeTitle: "Website Development Company in Al Ain",
+    officeTitle: "Website Development in Al Ain",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: alainLocationimg,
   },
   {
     label: "Umm Al Quwain",
-    officeTitle: "Website Development Company in Umm Al Quwain",
+    officeTitle: "Website Development in Umm Al Quwain",
     address:
-      "G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
+      "Location: G6, Al Meheri Plaza, opp DBC Building, <br /> Al Khabaisi Area, Deira Dubai - 81577",
     phone: "+971 52 283 1655",
     email: "info@websitedevelopmentagency.ae",
     image: ummalquwainLocationimg,
@@ -88,8 +88,8 @@ const defaultLocationsList = [
 ];
 
 const LocationService = ({
-  title = "Location Service",
-  description = "Looking for the best web development agency in Dubai? WD Agency offers expert web design and development services. We create websites that drive results.",
+  title = "Our Service Locations Across UAE",
+  description = "Looking for the best web development agency in UAE? WD Agency offers expert web design and development services across all locations. We create websites that drive results.",
   locations = defaultLocationsList,
   activeLocation = "Dubai",
 }) => {

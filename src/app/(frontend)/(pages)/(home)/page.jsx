@@ -42,11 +42,11 @@ const page = () => {
       <Webexperiences />
       <WebDesignApproach />
       <CommonIndustries />
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
       <OurJourney />
       <FaqSection />
       <CtaSection />
-      <LocationService activeLocation="dubai" />
+  
     </div>
   );
 };
