@@ -1,11 +1,11 @@
-'use client'
+"use client";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 // import ContactImg from "@/app/(frontend)/assets/images/about/contact.png";
 import css from "../../../assets/style/about/contact.module.css";
 
-const Contact = ({imageUrl, title, subtitle}) => {
+const Contact = ({ imageUrl, title, subtitle }) => {
   return (
     <motion.div
       className={`relative frame-1200 mb-50 ${css.mobileMarginBox}`}
@@ -19,19 +19,17 @@ const Contact = ({imageUrl, title, subtitle}) => {
         className={`absolute bottom-0 left-0 w-full h-18/20 bg-gradient-to-r from-[#5C405C] to-[#292929] rounded-2xl ${css.contactbg}`}
       />
 
-      <div className="relative flex flex-col md:flex-row items-center gap-8">
+      <div className="relative flex flex-col md:flex-row items-end gap-8 md:pt-14">
         {/* data section */}
         <motion.div
-          className="pl-20 px-20 md:pl-20 w-full z-10 py-30 sm-text-center"
+          className="pl-20 px-20 md:pl-20 w-full z-10 pt-40 pb-30 sm-text-center"
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.4 }}
         >
-          <h1 className={`fs-38 sm-pt-30 ${css.title}`}>{title}</h1>
-          <p className={`fs-20 py-10 ${css.subtitle}`}>
-            {subtitle}
-          </p>
+          <h1 className={`fs-38 sm-pt-30 md:pt-0 ${css.title}`}>{title}</h1>
+          <p className={`fs-20 py-10 ${css.subtitle}`}>{subtitle}</p>
           {/* Buttons */}
           <div className={css.buttonGroup}>
             <a href="/contact-us" className={css.primaryButton}>

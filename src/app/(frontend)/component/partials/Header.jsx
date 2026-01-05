@@ -9,8 +9,11 @@ const servicesData = [
   {
     category: "Web Design",
     items: [
-      { title: "UI/UX Design", href: "#" },
-      { title: "Wireframing & Pro.", href: "/services/wireframing-prototyping" },
+      { title: "UI/UX Design", href: "/services/ui-ux-design" },
+      {
+        title: "Wireframing & Pro.",
+        href: "/services/wireframing-prototyping",
+      },
       { title: "Branding", href: "#" },
     ],
   },
@@ -18,10 +21,19 @@ const servicesData = [
     category: "Web Development",
     items: [
       { title: "Frontend Development", href: "/services/frontend-development" },
-      { title: "Full-Stack Development", href: "/services/full-stack-development" },
+      {
+        title: "Full-Stack Development",
+        href: "/services/full-stack-development",
+      },
       { title: "Static Website", href: "/services/static-website-development" },
-      { title: "Dynamic Websites", href: "/services/dynamic-website-development" },
-      { title: "Website Migration", href: "/services/website-migration-service" },
+      {
+        title: "Dynamic Websites",
+        href: "/services/dynamic-website-development",
+      },
+      {
+        title: "Website Migration",
+        href: "/services/website-migration-service",
+      },
     ],
   },
   {
@@ -48,7 +60,14 @@ export default function Header() {
     <header className={`frame-1200 ${styles.header}`}>
       <div className={styles.logo}>
         <Link href="/">
-          <Image src={logo} alt="Logo" width={211} height={50} priority style={{ width: 'auto', height: 'auto' }} />
+          <Image
+            src={logo}
+            alt="Logo"
+            width={211}
+            height={50}
+            priority
+            style={{ width: "auto", height: "auto" }}
+          />
         </Link>
       </div>
 
@@ -89,16 +108,33 @@ export default function Header() {
               activeDropdown === "tech" ? styles.mobiledropdownActive : ""
             }`}
           >
-            <Link href="/platforms/php-website-development"><span className={styles.iconhiden}>➤</span> PHP</Link>
-            <Link href="/platforms/woo-commerce-website-development"><span className={styles.iconhiden}>➤</span> W-commerce</Link>
-            <Link href="/platforms/wordpress-website-development"><span className={styles.iconhiden}>➤</span> WordPress</Link>
-            <Link href="/platforms/react-js-website-development"><span className={styles.iconhiden}>➤</span> ReactJS</Link>
-            <Link href="/platforms/shopify-website-development"><span className={styles.iconhiden}>➤</span> Shopify</Link>
-            <Link href="/platforms/nodejs-website-development"><span className={styles.iconhiden}>➤</span> NodeJS</Link>
-            <Link href="/platforms/laravel-website-development"><span className={styles.iconhiden}>➤</span> Laravel</Link>
-            <Link href="/platforms/angular-website-development"><span className={styles.iconhiden}>➤</span> Angular</Link>
-            <Link href="/platforms/drupal-website-development"><span className={styles.iconhiden}>➤</span> Drupal</Link>
-
+            <Link href="/platforms/php-website-development">
+              <span className={styles.iconhiden}>➤</span> PHP
+            </Link>
+            <Link href="/platforms/woo-commerce-website-development">
+              <span className={styles.iconhiden}>➤</span> W-commerce
+            </Link>
+            <Link href="/platforms/wordpress-website-development">
+              <span className={styles.iconhiden}>➤</span> WordPress
+            </Link>
+            <Link href="/platforms/react-js-website-development">
+              <span className={styles.iconhiden}>➤</span> ReactJS
+            </Link>
+            <Link href="/platforms/shopify-website-development">
+              <span className={styles.iconhiden}>➤</span> Shopify
+            </Link>
+            <Link href="/platforms/nodejs-website-development">
+              <span className={styles.iconhiden}>➤</span> NodeJS
+            </Link>
+            <Link href="/platforms/laravel-website-development">
+              <span className={styles.iconhiden}>➤</span> Laravel
+            </Link>
+            <Link href="/platforms/angular-website-development">
+              <span className={styles.iconhiden}>➤</span> Angular
+            </Link>
+            <Link href="/platforms/drupal-website-development">
+              <span className={styles.iconhiden}>➤</span> Drupal
+            </Link>
           </div>
         </div>
 

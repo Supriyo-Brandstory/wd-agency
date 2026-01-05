@@ -7,7 +7,8 @@
         background: #2A2A2A;
         border-radius: 20px;
         padding: 20px;
-        .imgbox{
+
+        .imgbox {
             background: #E83E8C;
             border-radius: 50%;
             width: 70px;
@@ -16,28 +17,47 @@
             align-items: center;
             justify-content: center;
         }
+
         img {
             width: 40px;
             height: 40px;
             object-fit: contain;
         }
+
+        .linkBox {
+
+
+            .link {
+                color: #E83E8C;
+                text-decoration: unset;
+                background: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-top: 20px;
+            }
+        }
+
     }
+
     .card:hover {
-       background: linear-gradient(180deg, #E83E8C 0%, #82234E 100%);
+        background: linear-gradient(180deg, #E83E8C 0%, #82234E 100%);
         color: white;
     }
-    .card:hover .imgbox{
+
+    .card:hover .imgbox {
         background: white;
     }
-    .card:hover img{
-     filter: invert(34%) sepia(76%) saturate(4867%) hue-rotate(318deg) brightness(95%) contrast(91%);
+
+    .card:hover img {
+        filter: invert(34%) sepia(76%) saturate(4867%) hue-rotate(318deg) brightness(95%) contrast(91%);
     }
 
 }
 
 @media (max-width: 768px) {
-    .grid{
-    grid-template-columns: repeat(1, 1fr);
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
 
     }
 }
