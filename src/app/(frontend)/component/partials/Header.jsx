@@ -39,7 +39,7 @@ const servicesData = [
   {
     category: "Software",
     items: [
-      { title: "CRM Software", href: "#" },
+      { title: "CRM Software", href: "/services/crm-software" },
       { title: "Enterprise Software", href: "#" },
       { title: "Cloud Applications", href: "#" },
       { title: "Legacy Modernization", href: "#" },
