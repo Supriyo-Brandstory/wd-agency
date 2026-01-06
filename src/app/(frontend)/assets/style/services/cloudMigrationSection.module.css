@@ -1,0 +1,145 @@
+.section {
+    padding: 100px 0;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+.header h2 {
+    margin-bottom: 20px;
+}
+
+.intro {
+    line-height: 1.8;
+}
+
+.flowContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.flowContainer::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(232, 62, 140, 0.3), transparent);
+    transform: translateX(-50%);
+}
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.step:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.stepContent {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 50px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.step:hover .stepContent {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary-color, #e83e8c);
+    transform: translateY(-10px);
+}
+
+.node {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border: 2px solid var(--primary-color, #e83e8c);
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color, #e83e8c);
+    box-shadow: 0 0 20px rgba(232, 62, 140, 0.2);
+    transition: all 0.5s ease;
+}
+
+.step:hover .node {
+    background: var(--primary-color, #e83e8c);
+    color: #fff;
+    box-shadow: 0 0 40px rgba(232, 62, 140, 0.5);
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.iconBox {
+    width: 100px;
+    height: 100px;
+    background: rgba(232, 62, 140, 0.05);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--primary-color, #e83e8c);
+    padding: 20px;
+}
+
+.stepContent h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.stepContent p {
+    line-height: 1.7;
+}
+
+.visual {
+    width: 45%;
+    height: 300px;
+    background: radial-gradient(circle at center, rgba(232, 62, 140, 0.1), transparent 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+@media (max-width: 991px) {
+
+    .flowContainer::before,
+    .node {
+        display: none;
+    }
+
+    .step,
+    .step:nth-child(even) {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .stepContent,
+    .visual {
+        width: 100%;
+    }
+
+    .visual {
+        height: 100px;
+    }
+}

@@ -1,0 +1,222 @@
+.section {
+    padding: 100px 0;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+.header h2 {
+    margin-bottom: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.7));
+}
+
+.description {
+    line-height: 1.8;
+}
+
+.accordionContainer {
+    display: flex;
+    height: 500px;
+    gap: 20px;
+    width: 100%;
+}
+
+.panel {
+    position: relative;
+    flex: 1;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.panel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.panel.active {
+    flex: 3;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary-color, #e83e8c);
+}
+
+.panel.active::before {
+    opacity: 0.8;
+}
+
+/* Background Gradients for distinct look per panel */
+.panel:nth-child(1) {
+    background-image: radial-gradient(circle at top right, rgba(232, 62, 140, 0.1), transparent);
+}
+
+.panel:nth-child(2) {
+    background-image: radial-gradient(circle at top right, rgba(62, 140, 232, 0.1), transparent);
+}
+
+.panel:nth-child(3) {
+    background-image: radial-gradient(circle at top right, rgba(140, 62, 232, 0.1), transparent);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: hidden;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+}
+
+.panel.active .content {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.iconWrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+
+.panel.active .iconWrapper {
+    background: var(--primary-color, #e83e8c);
+    transform: scale(1.1);
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.titleWrapper h3 {
+    color: #fff;
+    white-space: normal;
+    transition: all 0.3s ease;
+}
+
+/* Vertical text for collapsed state */
+.verticalTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    white-space: normal;
+    width: 460px;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.panel.active .verticalTitle {
+    opacity: 0;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.number {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.05);
+    z-index: 1;
+}
+
+@media (max-width: 991px) {
+    .accordionContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panel {
+        height: 100px;
+        flex: none;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .panel:hover {
+        flex: none;
+        height: auto;
+        padding: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .verticalTitle {
+        display: none;
+    }
+
+    .content {
+        opacity: 1;
+        transform: none;
+    }
+
+    .panel .content {
+        display: none;
+    }
+
+    .panel:hover .content {
+        display: block;
+    }
+
+    .titleWrapper h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Mobile tweak: show title normally when collapsed */
+    .panel:not(:hover) .titleWrapper {
+        margin-bottom: 0;
+    }
+
+    .panel:not(:hover) .titleWrapper h3 {
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
