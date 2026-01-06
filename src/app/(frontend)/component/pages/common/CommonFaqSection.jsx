@@ -6,9 +6,7 @@ import downarrow from "@/app/(frontend)/assets/images/icons/faqdownarrow.svg";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-const CommonFaqSection = ({faqs}) => {
- 
-
+const CommonFaqSection = ({ faqs }) => {
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggleFAQ = (index) => {
@@ -60,7 +58,7 @@ const CommonFaqSection = ({faqs}) => {
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0, ease: "easeOut" }}
                 >
-                  <p>{faq.a}</p>
+                  <div dangerouslySetInnerHTML={{ __html: faq.a }}></div>
                 </motion.div>
               )}
             </AnimatePresence>
