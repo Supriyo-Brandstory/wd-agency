@@ -63,6 +63,7 @@
     position: relative;
     z-index: 2;
     box-shadow: 0 10px 20px rgba(232, 62, 140, 0.2);
+    padding: 10px;
 }
 
 .content {
@@ -71,16 +72,12 @@
 }
 
 .content h3 {
-    font-size: 24px;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #ffffff;
 }
 
 .content p {
-    font-size: 16px;
     line-height: 1.6;
-    color: #a0a0a0;
 }
 
 .cardBg {
