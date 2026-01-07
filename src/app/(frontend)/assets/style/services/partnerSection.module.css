@@ -175,19 +175,15 @@
     }
 
     .panel {
-        height: 100px;
+        height: auto;
         flex: none;
         padding: 20px;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .panel:hover {
-        flex: none;
-        height: auto;
-        padding: 40px;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .panel.active {
+        flex: none;
     }
 
     .verticalTitle {
@@ -196,27 +192,22 @@
 
     .content {
         opacity: 1;
+        visibility: visible;
         transform: none;
+        display: block;
     }
 
     .panel .content {
-        display: none;
-    }
-
-    .panel:hover .content {
         display: block;
     }
 
     .titleWrapper h3 {
         font-size: 1.2rem;
     }
+}
 
-    /* Mobile tweak: show title normally when collapsed */
-    .panel:not(:hover) .titleWrapper {
-        margin-bottom: 0;
-    }
-
-    .panel:not(:hover) .titleWrapper h3 {
-        color: rgba(255, 255, 255, 0.8);
+@media (max-width: 767px) {
+    .section {
+        padding: 0px 0 50px;
     }
 }

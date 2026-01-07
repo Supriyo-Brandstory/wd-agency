@@ -125,7 +125,6 @@
     .techRow {
         grid-template-columns: 1fr;
         gap: 40px;
-        text-align: center;
     }
 
     .techRow:nth-child(even) {
@@ -137,6 +136,13 @@
     }
 
     .techStack {
-        gap: 80px;
+        gap: 50px;
     }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 0px 0 50px;
+    }
+
 }

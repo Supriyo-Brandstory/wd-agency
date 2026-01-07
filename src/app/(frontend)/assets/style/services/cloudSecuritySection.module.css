@@ -182,10 +182,10 @@
 
 @media (max-width: 768px) {
     .card {
-        padding: 40px;
+        padding: 20px 20px 50px;
     }
 
-    .header h2 {
-        font-size: 2rem;
+    .section {
+        padding: 0px 0 50px;
     }
 }

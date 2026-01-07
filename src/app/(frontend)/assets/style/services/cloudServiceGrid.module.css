@@ -108,4 +108,8 @@
     .card {
         padding: 30px;
     }
+
+    .header {
+        margin-bottom: 40px;
+    }
 }

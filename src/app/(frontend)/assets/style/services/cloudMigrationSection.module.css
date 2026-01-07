@@ -140,6 +140,25 @@
     }
 
     .visual {
-        height: 100px;
+        height: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 0px 0 50px;
+    }
+
+    .stepContent {
+        padding: 20px;
+    }
+
+    .iconBox {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header {
+        margin-bottom: 40px;
     }
 }

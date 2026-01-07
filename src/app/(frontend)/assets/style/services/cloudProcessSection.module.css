@@ -1,12 +1,11 @@
 .section {
-    padding: 120px 0;
+    padding: 100px 0;
     background: transparent;
     position: relative;
     overflow: hidden;
 }
 
 .header {
-    text-align: center;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +26,14 @@
 .timelineContainer {
     position: relative;
     margin-top: 60px;
+}
+
+.desktopContent {
+    display: block;
+}
+
+.mobileContent {
+    display: none;
 }
 
 .progressBar {
@@ -155,40 +162,57 @@
 }
 
 @media (max-width: 991px) {
-    .progressBar {
+    .desktopContent {
+        display: none !important;
+    }
+
+    .mobileContent {
+        display: flex;
         flex-direction: column;
-        height: auto;
-        width: 4px;
-        margin: 0 0 40px 20px;
-        gap: 40px;
-        align-items: flex-start;
+        gap: 20px;
     }
 
-    .progressFill {
-        width: 4px;
-        height: 0;
-        /* JS would handle this if needed, but easy CSS fix is hard here for height calc without JS. Simpler to just hide bar on mobile or change design */
-        display: none;
+    .mobileCard {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        padding: 20px;
+        position: relative;
     }
 
-    .stepNode {
-        margin-left: -8px;
+    .mobileNumber {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 3rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.05);
     }
 
-    .stepLabel {
-        left: 40px;
-        top: 0;
-        transform: translateY(-2px);
+    .mobileIconWrapper {
+        display: inline-flex;
+        padding: 12px;
+        background: rgba(232, 62, 140, 0.1);
+        border-radius: 12px;
+        color: var(--primary-color, #e83e8c);
+        margin-bottom: 20px;
     }
 
-    .contentCard {
-        padding: 30px;
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
+    .mobileTitle {
+        color: #fff;
+        font-size: 1.3rem;
+        margin-bottom: 10px;
     }
 
-    .stepNode.active .stepLabel {
-        top: 0;
+    .mobileDesc {
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.6;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        padding: 0px 0 50px;
     }
 }
