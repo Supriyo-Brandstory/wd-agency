@@ -41,9 +41,9 @@ const servicesData = [
     items: [
       { title: "CRM Software", href: "/services/crm-software" },
       { title: "Enterprise Software", href: "#" },
-      { title: "Cloud Applications", href: "#" },
-      { title: "Legacy Modernization", href: "#" },
-      { title: "Software Maintenance", href: "#" },
+      { title: "Cloud Applications", href: "/services/cloud-applications" },
+      { title: "Legacy Modernization", href: "/services/legacy-modernization" },
+      { title: "Software Maintenance", href: "/services/software-maintenance" },
     ],
   },
 ];
