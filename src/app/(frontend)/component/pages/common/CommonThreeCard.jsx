@@ -15,7 +15,11 @@ const CommonThreeCard = ({ text1, text2, boxdata }) => {
         {boxdata.map((item, index) => (
           <div className={styles.card} key={index}>
             <div className={styles.imgbox}>
-              <Image src={item.img} alt="Icon" />
+              {item.img ? (
+                <Image src={item.img} alt="Icon" />
+              ) : (
+                <div className={styles.iconWrapper}>{item.icon}</div>
+              )}
             </div>
             <h4 className="my-15">{item.title}</h4>
             <p>{item.desc}</p>
