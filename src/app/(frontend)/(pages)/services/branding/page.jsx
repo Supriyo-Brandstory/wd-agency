@@ -7,12 +7,12 @@ import imageintro2 from "@/app/(frontend)/assets/images/branding/intro-2.webp"; 
 import CommonSetsUs from "@/app/(frontend)/component/pages/common/CommonSetsUs";
 import setusimagesabudhabi from "@/app/(frontend)/assets/images/branding/setusbg.webp"; // Update if needed
 import CommonThreeCard from "@/app/(frontend)/component/pages/common/CommonThreeCard";
-import commonimage1 from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
-import commonimage2 from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
-import commonimage3 from "@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png";
-import commonimage4 from "@/app/(frontend)/assets/images/website-development/Transparency.png";
-import commonimage5 from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
-import commonimage6 from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
+import commonimage1 from "@/app/(frontend)/assets/images/branding/ico-1.webp"
+import commonimage2 from "@/app/(frontend)/assets/images/branding/ico-2.webp"
+import commonimage3 from "@/app/(frontend)/assets/images/branding/ico-3.webp"
+import commonimage4 from "@/app/(frontend)/assets/images/branding/ico-4.webp"
+import commonimage5 from "@/app/(frontend)/assets/images/branding/ico-5.webp"
+import commonimage6 from "@/app/(frontend)/assets/images/branding/ico-6.webp"
 import CommonIndustries from "@/app/(frontend)/component/pages/common/CommonIndustries";
 import imageService1 from "@/app/(frontend)/assets/images/branding/is-1.webp";
 import imageService2 from "@/app/(frontend)/assets/images/branding/is-2.webp";

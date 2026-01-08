@@ -7,12 +7,12 @@ import imageintro2 from "@/app/(frontend)/assets/images/ui-ux/intro-1.webp";
 import CommonSetsUs from "@/app/(frontend)/component/pages/common/CommonSetsUs";
 import setusimagesabudhabi from "@/app/(frontend)/assets/images/ui-ux/ststusimage.webp";
 import CommonThreeCard from "@/app/(frontend)/component/pages/common/CommonThreeCard";
-import commonimage1 from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
-import commonimage2 from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
-import commonimage3 from "@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png";
-import commonimage4 from "@/app/(frontend)/assets/images/website-development/Transparency.png";
-import commonimage5 from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
-import commonimage6 from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
+import commonimage1 from "@/app/(frontend)/assets/images/ui-ux/ico-1.webp";
+import commonimage2 from "@/app/(frontend)/assets/images/ui-ux/ico-2.webp";
+import commonimage3 from "@/app/(frontend)/assets/images/ui-ux/ico-3.webp";
+import commonimage4 from "@/app/(frontend)/assets/images/ui-ux/ico-4.webp";
+import commonimage5 from "@/app/(frontend)/assets/images/ui-ux/ico-5.webp";
+import commonimage6 from "@/app/(frontend)/assets/images/ui-ux/ico-6.webp";
 import CommonIndustries from "@/app/(frontend)/component/pages/common/CommonIndustries";
 import imageService1 from "@/app/(frontend)/assets/images/ui-ux/s1.webp";
 import imageService2 from "@/app/(frontend)/assets/images/ui-ux/s2.webp";
@@ -90,13 +90,13 @@ const page = () => {
         boxdata={[
           {
             id: 1,
-            img: commonimage2,
+            img: commonimage1,
             title: "User Interface (UI) Design Dubai",
             desc: "Our UI design services in Dubai focus on creating visually engaging, intuitive interfaces that reflect your brand’s identity and values. From refined visual design and consistent brand identity in Dubai to interactive elements that enhance engagement, we craft interface designs that are both functional and visually impactful.",
           },
           {
             id: 2,
-            img: commonimage1,
+            img: commonimage2,
             title: "User Experience (UX) Design Dubai",
             desc: "We deliver strategic UX design in Dubai grounded in deep user research and behavioral insights. By applying a clear UX strategy and human-centered design principles, we optimize user journeys to ensure seamless navigation, improved usability, and meaningful interactions across all digital touchpoints.",
           },
@@ -115,13 +115,13 @@ const page = () => {
           },
           {
             id: 5,
-            img: commonimage6,
+            img: commonimage5,
             title: "Digital Product Design Services Dubai",
             desc: "WD Agency offers end-to-end digital product design services in Dubai, covering product strategy, MVP development, and scalable software design. From concept to launch, we help businesses transform ideas into well-designed digital products built for growth in the UAE market.",
           },
           {
             id: 6,
-            img: commonimage5,
+            img: commonimage6,
             title: "Conversion-first Approach",
             desc: "We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.",
             link: "/contact-us",
