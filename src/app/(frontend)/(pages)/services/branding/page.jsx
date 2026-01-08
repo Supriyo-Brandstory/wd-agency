@@ -1,11 +1,11 @@
 import React from "react";
-import imagebanner from "@/app/(frontend)/assets/images/frontend-development/main-banner.webp"; // Update path if you have a branding-specific banner
+import imagebanner from "@/app/(frontend)/assets/images/branding/main-banner.webp"; // Update path if you have a branding-specific banner
 import CommonBanner2 from "@/app/(frontend)/component/pages/common/CommonBanner2";
 import CommonIntroduction from "@/app/(frontend)/component/pages/common/CommonIntroduction";
-import imageintro1 from "@/app/(frontend)/assets/images/frontend-development/intro.webp"; // Update if needed
-import imageintro2 from "@/app/(frontend)/assets/images/frontend-development/intro-2.webp"; // Update if needed
+import imageintro1 from "@/app/(frontend)/assets/images/branding/intro-1.webp"; // Update if needed
+import imageintro2 from "@/app/(frontend)/assets/images/branding/intro-2.webp"; // Update if needed
 import CommonSetsUs from "@/app/(frontend)/component/pages/common/CommonSetsUs";
-import setusimagesabudhabi from "@/app/(frontend)/assets/images/frontend-development/setusbg.webp"; // Update if needed
+import setusimagesabudhabi from "@/app/(frontend)/assets/images/branding/setusbg.webp"; // Update if needed
 import CommonThreeCard from "@/app/(frontend)/component/pages/common/CommonThreeCard";
 import commonimage1 from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
 import commonimage2 from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
@@ -14,14 +14,14 @@ import commonimage4 from "@/app/(frontend)/assets/images/website-development/Tra
 import commonimage5 from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
 import commonimage6 from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
 import CommonIndustries from "@/app/(frontend)/component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/frontend-development/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/frontend-development/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/frontend-development/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/frontend-development/service-4.webp";
+import imageService1 from "@/app/(frontend)/assets/images/branding/is-1.webp";
+import imageService2 from "@/app/(frontend)/assets/images/branding/is-2.webp";
+import imageService3 from "@/app/(frontend)/assets/images/branding/is-3.webp";
+import imageService4 from "@/app/(frontend)/assets/images/branding/is-4.webp";
 import imageService5 from "@/app/(frontend)/assets/images/frontend-development/service-5.webp";
 import imageService8 from "@/app/(frontend)/assets/images/frontend-development/service-6.webp";
 import CommonAboutPage2 from "@/app/(frontend)/component/pages/common/CommonAboutPage2";
-import Aboutimg from "@/app/(frontend)/assets/images/frontend-development/about-2.webp"; // Update if needed
+import Aboutimg from "@/app/(frontend)/assets/images/branding/about-2.webp"; // Update if needed
 import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
 import CommonCtaSection from "@/app/(frontend)/component/pages/common/CommonCtaSection";
 

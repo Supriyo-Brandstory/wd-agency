@@ -1,24 +1,12 @@
 import React from "react";
-import imagebanner from "@/app/(frontend)/assets/images/frontend-development/main-banner.webp";
+import imagebanner from "@/app/(frontend)/assets/images/cloud-applications/main-banner.webp";
+import imagebanner2 from "@/app/(frontend)/assets/images/cloud-applications/main-banner-2.webp";
 import CommonBanner2 from "@/app/(frontend)/component/pages/common/CommonBanner2";
 import CommonIntroduction from "@/app/(frontend)/component/pages/common/CommonIntroduction";
-import imageintro1 from "@/app/(frontend)/assets/images/frontend-development/intro.webp";
-import imageintro2 from "@/app/(frontend)/assets/images/frontend-development/intro-2.webp";
-import CommonThreeCard from "@/app/(frontend)/component/pages/common/CommonThreeCard";
-import commonimage1 from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
-import commonimage2 from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
-import commonimage3 from "@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png";
-import CommonIndustries from "@/app/(frontend)/component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/frontend-development/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/frontend-development/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/frontend-development/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/frontend-development/service-4.webp";
+import imageintro1 from "@/app/(frontend)/assets/images/cloud-applications/intro-1.webp";
+import imageintro2 from "@/app/(frontend)/assets/images/cloud-applications/intro-2.webp";
 import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
 import CommonCtaSection from "@/app/(frontend)/component/pages/common/CommonCtaSection";
-import CommonDevelopmentProcess from "@/app/(frontend)/component/pages/common/CommonDevelopmentProcess";
-import CommonGrowthSection from "@/app/(frontend)/component/pages/common/CommonGrowthSection";
-import CommonFinancialImpact from "@/app/(frontend)/component/pages/common/CommonFinancialImpact";
-import CommonWhyChoose from "@/app/(frontend)/component/pages/common/CommonWhyChoose";
 import CommonSetsUs from "@/app/(frontend)/component/pages/common/CommonSetsUs";
 import CloudServiceGrid from "@/app/(frontend)/component/pages/services/CloudServiceGrid";
 import CloudPlatformSection from "@/app/(frontend)/component/pages/services/CloudPlatformSection";
@@ -66,7 +54,7 @@ Cloud application development also enhances operational efficiency by automating
       <CommonSetsUs
         text1="Our Approach to Digital Transformation with Cloud"
         text2="<p>At WD Agency, we take a strategic and business-first approach to cloud application development. We begin by understanding your goals, workflows, and growth plans, then design cloud architectures that align with your digital transformation vision. Our team focuses on building secure, high-performance cloud applications that improve efficiency, support innovation, and deliver real business outcomes for companies across Dubai and the UAE.</p>"
-        bg={imagebanner}
+        bg={imagebanner2}
       />
 
       <CloudServiceGrid
