@@ -39,32 +39,24 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Leading Branding Agency in Dubai: Your Partner for Brand Success"
+          "Leading Branding Agency in Dubai- WD Agency"
         }
         subtitle={
           "WD Agency is a leading branding agency in Dubai, helping businesses build strong, memorable brands <br>that stand out in the competitive UAE market. We combine strategy, creativity, and local market <br>expertise to drive long-term brand success."
         }
       />
       <CommonIntroduction
-        heding={"Why Choose WD Agency as Your Top Branding Partner in Dubai?"}
+        heding={"Why Choose WD Agency for Branding in Dubai"}
         text1={`
           <h3>Proven Track Record & Client Success Stories</h3>
           <p>Our work speaks through the success of the brands we’ve helped shape. WD Agency has a proven track record of delivering impactful branding solutions across diverse industries, from startups to established enterprises.<br><br>
 We focus on understanding business challenges and translating them into strategic brand outcomes. Our client success stories highlight measurable improvements in brand visibility, customer engagement, and market positioning. By delivering consistent results, we’ve earned long-term partnerships built on trust, transparency, and performance.
 </p>
-          <h3>Local Market Expertise & Global Perspective</h3>
-          <p>Dubai is a unique business environment with multicultural audiences, regional regulations, and fast-evolving trends. Our local market expertise allows us to create branding strategies that resonate with UAE consumers while respecting cultural and commercial nuances.<br><br>
-At the same time, we bring a global perspective to our branding approach. By integrating international design standards and global brand thinking, we help businesses compete not only locally but also on a regional and global scale. This balance ensures your brand feels relevant, modern, and scalable.
-</p>
         `}
         text2={`
-          <h3>Award-Winning Creative Team</h3>
-          <p>Creativity is at the heart of everything we do. Our award-winning creative team blends strategic insight with bold design to deliver visually striking and emotionally engaging brand experiences.<br><br>
-From brand identity and packaging to digital and experiential branding, our creatives are driven by innovation and precision. Every concept is crafted with purpose, ensuring it supports your brand strategy and strengthens your market presence. This commitment to creative excellence sets us apart as a top branding agency in Dubai.
-</p>
-          <h3>Measurable ROI & Long-Term Growth Partnership</h3>
-          <p>Branding should deliver real business value. At WD Agency, we focus on measurable ROI by aligning branding efforts with your business objectives. Our process includes performance tracking, brand consistency audits, and ongoing optimization to ensure sustained impact.<br><br>
-We view every project as the beginning of a long-term growth partnership. By evolving your brand alongside market trends and business goals, we help you achieve continuous growth, stronger brand equity, and lasting competitive advantage in the UAE marketplace.
+                    <h3>Local Market Expertise & Global Perspective</h3>
+          <p>Dubai is a unique business environment with multicultural audiences, regional regulations, and fast-evolving trends. Our local market expertise allows us to create branding strategies that resonate with UAE consumers while respecting cultural and commercial nuances.<br><br>
+At the same time, we bring a global perspective to our branding approach. By integrating international design standards and global brand thinking, we help businesses compete not only locally but also on a regional and global scale. This balance ensures your brand feels relevant, modern, and scalable.
 </p>
         `}
         imageintro1={imageintro1}
@@ -72,20 +64,20 @@ We view every project as the beginning of a long-term growth partnership. By evo
       />
       <CommonSetsUs
         text1={
-          "Understanding Branding Service Costs & Maximizing Your ROI in Dubai"
+          "Branding Costs & ROI in Dubai"
         }
         text2={`
-          <h3>Factors Influencing Branding Project Costs</h3>
-          <p>Branding project costs vary based on scope of work, business size, level of customization, number of touchpoints, and timeline. Our team evaluates these to recommend the most effective solution for your goals and budget.</p> 
-          <h3>Our Transparent Pricing Approach & Packages</h3>
-          <p>We follow a clear cost breakdown with scalable packages for startups, SMEs, and enterprises. No hidden costs—only value-driven solutions aligned with your growth stage.</p>
-          <h3>The Long-Term Return on Brand Investment</h3>
+          <h3>Factors Influencing Project Costs</h3>
+          <p>Branding project costs vary based on scope of work, business size, level of customization, number of touchpoints, and timeline. Our team evaluates these to recommend the most effective solution.</p> 
+          <h3>Our Transparent Pricing Packages</h3>
+          <p>We follow a clear cost breakdown with scalable packages for startups, SMEs, and enterprises. No hidden costs, only value-driven solutions aligned with your growth stage.</p>
+          <h3>Long-Term Return on Investment</h3>
           <p>Strong branding delivers higher trust, loyalty, marketing efficiency, and increased business valuation. We ensure your investment generates sustained value in the dynamic Dubai market.</p>
         `}
         bg={setusimagesabudhabi}
       />
       <CommonThreeCard
-        text1={"Comprehensive Branding Services Tailored for Dubai Businesses"}
+        text1={"Branding Services Tailored for Dubai Businesses"}
         text2={
           "At WD Agency, we provide full-service branding solutions designed specifically for businesses operating in Dubai and across the UAE. In a fast-growing, highly competitive market like Dubai, branding is not just about visuals-it’s about building trust, recognition, and long-term value. Our end-to-end branding services help businesses create a strong identity, connect with their audience, and stand out in crowded industries."
         }
@@ -130,7 +122,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
       />
       <CommonIndustries
         heding={
-          "Specialized Branding Solutions for Diverse Industries & Startups"
+          "Branding Solutions for Diverse Industries & Startups"
         }
         subheding="At WD Agency, we understand that no two industries are the same. Our industry-specific branding approach ensures that every brand solution is strategically aligned with the unique demands of your market. From agile startups to large enterprises, we deliver bespoke branding solutions that drive relevance, differentiation, and sustainable growth across Dubai and the UAE.
 "
@@ -166,7 +158,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
         ]}
       />
       <CommonAboutPage2
-        text1="How to Select the Right Branding Agency in Dubai: A Client's Guide"
+        text1="Select the Right Branding Agency in Dubai"
         text2={`
           <p class="mb-20">
            Choosing the right branding partner is a critical decision that can shape your business’s long-term success. With many agencies in the market, this agency selection guide is designed to help Dubai and UAE businesses make informed, confident choices. By focusing on strategy, experience, and measurable outcomes, you can identify a branding agency that truly aligns with your goals.
@@ -214,7 +206,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
         processData={[
           {
             id: "01.",
-            title: "Discovery & Research: Unearthing Your Brand's Essence",
+            title: "Discovery & Research",
             description: `
             <p class="mb-20">Every successful brand begins with understanding. In the discovery phase, we immerse ourselves in your business, industry, and audience to uncover the core essence of your brand. This stage lays the groundwork for all strategic and creative decisions that follow.</p>
             <strong>Our discovery process includes:</strong>
@@ -230,7 +222,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
           },
           {
             id: "02.",
-            title: "Strategy Development: Crafting a Roadmap for Growth",
+            title: "Strategy Development",
             description: `
             <p class="mb-20">Once insights are gathered, we translate them into a clear and actionable branding strategy. This phase defines how your brand will communicate, compete, and grow in the market.</p>
             <strong>Our strategic development covers:</strong>
@@ -245,7 +237,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
           },
           {
             id: "03.",
-            title: "Creative Execution & Design: Bringing Your Brand to Life",
+            title: "Creative Design Execution",
             description: `
             <p class="mb-20">With strategy in place, our creative team brings your brand to life through compelling design and storytelling. This is where insight meets innovation.</p>
             <strong>Our creative execution includes:</strong>
@@ -261,7 +253,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
           },
           {
             id: "04.",
-            title: "Launch & Brand Management: Sustaining Impact",
+            title: "Launch & Brand Management",
             description: `
             <p class="mb-20">A strong brand doesn’t end at launch-it grows with time. We support businesses through brand rollout and ongoing management to ensure sustained impact and consistency.</p>
             <strong>This phase focuses on:</strong>
@@ -277,7 +269,7 @@ We view every project as the beginning of a long-term growth partnership. By evo
           },
           {
             id: "05.",
-            title: "Ongoing Brand Support & Consultation",
+            title: "Brand Support & Consultation",
             description: `
             Branding is an ongoing process, not a one-time task. WD Agency provides continuous brand support, consultation, and performance evaluation to ensure your brand stays relevant and competitive in Dubai’s dynamic business environment. From campaign branding to new product launches, we act as your long-term branding partner.<br><br>
 With a deep understanding of the Dubai and UAE business landscape, WD Agency delivers full-service branding solutions that drive recognition, credibility, and sustainable growth. Our tailored approach ensures every brand we build is strategic, creative, and designed for long-term success.

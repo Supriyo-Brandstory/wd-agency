@@ -18,35 +18,16 @@ import imageService1 from "@/app/(frontend)/assets/images/ui-ux/s1.webp";
 import imageService2 from "@/app/(frontend)/assets/images/ui-ux/s2.webp";
 import imageService3 from "@/app/(frontend)/assets/images/ui-ux/s3.webp";
 import imageService4 from "@/app/(frontend)/assets/images/ui-ux/s4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/frontend-development/service-5.webp";
-import imageService8 from "@/app/(frontend)/assets/images/frontend-development/service-6.webp";
 import CommonAboutPage2 from "@/app/(frontend)/component/pages/common/CommonAboutPage2";
 import Aboutimg from "@/app/(frontend)/assets/images/ui-ux/about-img.webp";
 import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
 import CommonCtaSection from "@/app/(frontend)/component/pages/common/CommonCtaSection";
-
-import CommonTechnologyStack from "@/app/(frontend)/component/pages/common/CommonTechnologyStack";
-import react from "@/app/(frontend)/assets/images/reacticon.svg";
-import nodejs from "@/app/(frontend)/assets/images/nodejsicon.svg";
-import laravel from "@/app/(frontend)/assets/images/laravelicon.svg";
-import wordpress from "@/app/(frontend)/assets/images/wordpressicon.svg";
-import magento from "@/app/(frontend)/assets/images/magentoicon.svg";
-import shopify from "@/app/(frontend)/assets/images/shopifyicon.svg";
-import flutter from "@/app/(frontend)/assets/images/fluttericon.svg";
-import reactnative from "@/app/(frontend)/assets/images/reactnativeicon.svg";
-import php from "@/app/(frontend)/assets/images/phpicon.svg";
-import python from "@/app/(frontend)/assets/images/pythonicon.svg";
-import aws from "@/app/(frontend)/assets/images/awsicon.svg";
-import mongo from "@/app/(frontend)/assets/images/mongodbicon.svg";
 import CommonDevelopmentProcess from "@/app/(frontend)/component/pages/common/CommonDevelopmentProcess";
-import CommonWhyWebsiteDevelopment from "../../../assets/style/common/CommonWhyWebsiteDevelopment";
-import imagewhydevelopment from "@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp";
 import CommonClientTestimonials from "../../../component/pages/common/CommonClientTestimonials";
 import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../../component/pages/common/CommonServiceLocations";
 import LocationService from "@/app/(frontend)/component/pages/common/LocationService";
 
 const page = () => {

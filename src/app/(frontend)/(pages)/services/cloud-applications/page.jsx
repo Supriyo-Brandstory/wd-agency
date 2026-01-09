@@ -24,19 +24,19 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Leading Cloud Application Development Company in Dubai & UAE | Expert Cloud Solutions"
+          "Cloud App Development Company in Dubai"
         }
         subtitle={
-          "WD Agency is a leading cloud application development company in Dubai and the UAE, delivering secure, scalable, and high-performance cloud solutions tailored to modern business needs. We help startups and enterprises accelerate digital transformation with expert cloud architecture, development, and deployment services."
+          "WD Agency is a leading cloud application development company in Dubai and the UAE, <br>delivering secure, scalable, and high-performance cloud solutions tailored to modern<br> business needs." 
         }
       />
 
       <CommonIntroduction
-        heding="What is Cloud Application Development and Why Does Your Business Need It?"
+        heding="Cloud Application: Why Your Business Needs It"
         imageintro1={imageintro1}
         imageintro2={imageintro2}
         text1={`<p>Cloud application development refers to building and deploying software applications that run on cloud infrastructure rather than traditional on-premise servers. These applications are designed to be scalable, secure, and accessible from anywhere, making them ideal for today’s fast-moving digital economy. For businesses in Dubai and across the UAE, cloud application development plays a critical role in supporting digital transformation strategies, enabling organizations to innovate faster while reducing operational complexity and costs.<br><br>
-Cloud application development also enhances operational efficiency by automating infrastructure management, minimizing downtime, and improving system performance. Whether you are a startup looking for agility or an enterprise aiming for large-scale transformation, cloud solutions provide the flexibility and reliability needed to drive sustainable growth in Dubai’s dynamic business landscape.</p>
+Cloud application development also enhances operational efficiency by automating infrastructure management, minimizing downtime, and improving system performance. Whether you are a startup looking for agility or an enterprise aiming for large-scale transformation, cloud solutions provide the flexibility and reliability needed to drive sustainable growth.</p>
 `}
         text2={`
           <h3>Key Benefits of Cloud Adoption for Dubai Businesses</h3>

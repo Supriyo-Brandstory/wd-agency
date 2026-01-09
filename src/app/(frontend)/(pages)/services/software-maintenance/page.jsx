@@ -20,29 +20,29 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Software Maintenance Services in Dubai: Expert Support & Application Upkeep"
+          "Software Maintenance Services in Dubai"
         }
         subtitle={
-          "Our Software Maintenance Services in Dubai provide expert support to ensure your applications remain secure, high-performing, and up to date. WD Agency delivers proactive application upkeep, issue resolution, and continuous optimization to support business continuity across the UAE."
+          "Our Software Maintenance Services in Dubai provide expert support to ensure your<br> applications remain secure, high-performing, and up to date. WD Agency delivers <br>proactive application upkeep, issue resolution, and continuous optimization to <br>support business continuity across the UAE."
         }
       />
 
       <CommonIntroduction
-        heding="Understanding Software Maintenance for Your Dubai Business"
+        heding="Ensuring Optimal Application Performance"
         imageintro1={imageintro1}
         imageintro2={imageintro2}
         text1={`<p>
-            <h3>Why is Software Maintenance Crucial for Businesses in Dubai?</h3>
-          <p>For Dubai businesses, regular maintenance reduces downtime, strengthens cybersecurity, ensures regulatory compliance, and improves operational efficiency, helping organizations stay competitive in a rapidly growing digital economy.</p>
-</p>`}
+
+          <p>Software maintenance is a critical process that ensures applications remain reliable, secure, and efficient after deployment. It involves regular updates, performance optimization, bug fixes, security patches, and compatibility enhancements to keep software functioning smoothly as business needs and technologies evolve.</p>
+          <p>Effective software maintenance helps organizations minimize downtime, extend the lifespan of their applications, and protect systems from emerging security threats. By proactively monitoring and improving software, businesses can maintain optimal performance, adapt to changing user requirements, and ensure long-term operational stability.</p>`}
         text2={`
-          <h3>What is Software Maintenance?</h3>
-          <p>Software maintenance involves bug fixing, security updates, performance tuning, system enhancements, and adaptive changes to keep applications aligned with evolving business, technology, and compliance requirements.</p>
-                  `}
+          <p>WD Agency provides reliable software maintenance services to ensure applications remain secure, stable, and high-performing throughout their lifecycle. We handle regular updates, bug fixes, performance optimization, and security enhancements, helping businesses keep their software running smoothly while adapting to evolving technologies and user expectations.</p>
+          <p>WD Agency’s software maintenance services help organizations extend the lifespan of their applications, maintain compliance, and achieve consistent performance that supports long-term business continuity and growth.</p>
+          `}
       />
 
       <CloudServiceGrid
-        title="Comprehensive Types of Software Maintenance We Offer"
+        title="Types of Software Maintenance We Offer"
         description="WD Agency delivers end-to-end software maintenance services in Dubai, covering proactive and reactive support to keep applications secure, stable, and high-performing across changing business and technology environments."
         services={[
           {
@@ -123,7 +123,7 @@ const page = () => {
       />
 
       <CloudPlatformSection
-        title="Our Expert Software Maintenance Solutions for Dubai Businesses"
+        title="Our Expert Software Maintenance Solutions"
         description="WD Agency provides expert software maintenance solutions in Dubai designed to support mission-critical systems, enhance security, and ensure uninterrupted business operations across the UAE."
         platforms={[
           {
@@ -245,7 +245,7 @@ const page = () => {
       />
 
       <CommonWhyChoose
-        heading="The Tangible Benefits of Our Software Maintenance for Dubai Businesses"
+        heading="Benefits of Our Software Maintenance for Businesses"
         subheading="WD Agency’s software maintenance services in Dubai deliver measurable business value by improving system reliability, reducing costs, and protecting critical applications across the UAE."
         reasons={[
           {
@@ -324,7 +324,7 @@ const page = () => {
       />
 
       <CloudPartnerSection
-        title="Why Choose Our Team for Software Maintenance in Dubai?"
+        title="Why Choose Us for Software Maintenance in Dubai"
         description="WD Agency is a trusted partner for software maintenance in Dubai, combining technical expertise, transparent processes, and local market knowledge to deliver reliable, long-term application support."
         reasons={[
           {
@@ -386,7 +386,7 @@ const page = () => {
       />
 
       <CommonFinancialImpact
-        heading="Software Maintenance Contracts & Transparent Pricing in Dubai"
+        heading="Software Maintenance Costs in Dubai"
         subheading="WD Agency offers transparent, scalable software maintenance pricing in Dubai, designed to align with your business size, application complexity, and long-term technology goals."
         costFactors={{
           title: "Factors Influencing Software Maintenance Costs",

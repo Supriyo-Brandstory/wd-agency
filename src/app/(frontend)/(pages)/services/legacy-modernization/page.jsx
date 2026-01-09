@@ -18,26 +18,28 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Legacy Modernization Services Dubai: Transform Your Business with Future-Proof IT"
+          "Legacy Modernization Services Dubai"
         }
         subtitle={
-          "Our Legacy Modernization Services in Dubai help businesses upgrade outdated systems into scalable, secure, and high-performance digital platforms. We enable future-ready IT transformation by integrating modern technologies that improve agility, efficiency, and long-term growth."
+          "Our Legacy Modernization Services in Dubai help businesses upgrade outdated <br>systems into scalable, secure, and high-performance digital platforms. We enable <br>future-ready IT transformation by integrating modern technologies."
         }
       />
 
       <CommonIntroduction
-        heding="Unlocking Business Potential: What is Legacy Modernization in Dubai?"
+        heding="Unlocking Business Potential with Legacy Modernization"
         imageintro1={imageintro1}
         imageintro2={imageintro2}
-        text1={`<p>Legacy modernization in Dubai refers to the process of upgrading outdated IT systems, applications, and infrastructure to align with modern business demands. It enables organizations to improve system performance, enhance security compliance, reduce operational costs, and support digital transformation initiatives. In Dubai’s fast-evolving digital economy, modernization helps businesses stay competitive, scalable, and future-ready while ensuring seamless integration with cloud technologies, APIs, and advanced platforms.</p>`}
+        text1={`<p>Modernizing outdated IT systems, applications, and infrastructure is essential to align technology with today’s evolving business demands. IT modernization enables organizations to enhance system performance, strengthen security and compliance, and reduce long-term operational costs while improving overall efficiency.</p>
+          <p>In Dubai’s fast-paced digital economy, legacy modernization is critical for businesses to stay competitive, agile, and innovative. By adopting modern architectures, cloud technologies, and automation, organizations can unlock new growth opportunities, improve customer experiences, and ensure long-term business continuity in a rapidly changing market.</p>
+          `}
         text2={`
-          <h3>What Exactly is Legacy System Modernization?</h3>
-          <p>Legacy system modernization involves transforming old software, databases, and infrastructure into modern, efficient, and flexible systems without disrupting business operations. This includes application re-architecture, cloud migration, code refactoring, and technology upgrades that improve performance, maintainability, and user experience, ensuring long-term business continuity and IT agility.</p>
+          <p>WD Agency offers a comprehensive range of services designed to support businesses at every stage of their digital journey. We specialize in custom software development, enterprise solutions, cloud application development, CRM systems, and IT modernization, delivering scalable and secure technologies tailored to unique business needs.</p>
+          <p>By combining industry expertise, modern technology stacks, and a commitment to quality, we ensure solutions that are future-ready, seamlessly integrated, and aligned with long-term business growth.</p>
           `}
       />
 
       <CommonWhyChoose
-        heading="Why Modernize Your Legacy Systems? Addressing Key Challenges in Dubai"
+        heading="Why Modernize Your Legacy Systems"
         subheading="Modernizing legacy systems helps Dubai businesses overcome technology limitations, strengthen cybersecurity, and support regulatory compliance. It improves operational efficiency, reduces maintenance costs, and enables seamless adoption of cloud, automation, and digital-first solutions, ensuring long-term business scalability and competitiveness."
         reasons={[
           {
@@ -98,7 +100,7 @@ const page = () => {
       />
 
       <CloudPlatformSection
-        title="Our Tailored Legacy Modernization Services & Solutions in Dubai"
+        title="Our Legacy Modernization Services & Solutions in Dubai"
         description="WD Agency delivers custom legacy modernization services in Dubai designed to transform outdated systems into secure, scalable, and high-performance digital platforms. Our solutions support cloud adoption, improve system agility, and ensure seamless integration while aligning technology with your business growth goals."
         platforms={[
           {

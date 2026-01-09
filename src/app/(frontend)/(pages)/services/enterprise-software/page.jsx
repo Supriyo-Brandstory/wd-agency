@@ -22,24 +22,25 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Leading Enterprise Software Development Company in Dubai: Custom Solutions & Digital Transformation"
+          "Enterprise Software Company in Dubai"
         }
         subtitle={
-          "WD Agency is a leading enterprise software development company in Dubai, delivering tailor-made digital solutions that drive business efficiency, innovation, and transformation. Our expert team crafts scalable, secure, and cutting-edge software designed to meet the unique needs of UAE enterprises, empowering them to stay competitive in a rapidly evolving market."
+          "WD Agency is a leading enterprise software development company in Dubai, delivering<br> tailor-made digital solutions that drive business efficiency, innovation, and transformation. <br>Our expert team crafts scalable, secure, and cutting-edge software designed to meet<br> the unique needs of UAE enterprises, empowering them to stay competitive."
         }
       />
 
       <CommonIntroduction
-        heding="Understanding Enterprise Software for Your Dubai Business"
+        heding="Enterprise Software for Your Dubai Business"
         imageintro1={imageintro1}
         imageintro2={imageintro2}
         text1={`
-          <h3>What is Enterprise Software Development?</h3>
           <p>Enterprise software development focuses on building large-scale, secure, and scalable software solutions designed to meet the complex needs of organizations rather than individual users. These solutions support operations across departments, improve decision-making, and enable long-term business growth for enterprises, government bodies, and institutions.</p>
+          <p>Such solutions help streamline operations across departments, enhance data-driven decision-making, and ensure compliance and security. By enabling efficiency, flexibility, and long-term scalability, enterprise software supports sustainable business growth for enterprises, government bodies, and large institutions o adapt quickly to evolving business demands and drive sustainable growth.</p>
         `}
         text2={`
           <h3>Defining Enterprise Software Solutions</h3>
-          <p>Enterprise software refers to applications developed to manage core business functions such as operations, finance, human resources, customer relationships, and data analytics. In Dubai’s fast-evolving digital economy, enterprise software plays a critical role in ensuring efficiency, compliance, and innovation.</p>
+          <p>WD Agency specializes in enterprise software development, delivering robust, secure, and scalable solutions tailored to the unique requirements of large organizations. With a deep understanding of complex business ecosystems, we build custom enterprise systems that seamlessly integrate with existing infrastructure, support high-volume operations, and ensure long-term reliability.</p>
+          <p>By combining strategic planning, modern technologies, and a user-centric approach, WD Agency helps enterprises streamline workflows, enhance operational efficiency, and gain actionable insights from data. </p>
         `}
       />
 
@@ -538,46 +539,6 @@ const page = () => {
             ),
             title: "Our Vision for Enterprise Innovation in the UAE",
             desc: "To build intelligent, scalable, and secure enterprise solutions that power the UAE's digital future and support its vision for excellence.",
-          },
-        ]}
-      />
-
-      <CloudSecuritySection
-        title="Client Success Stories & Case Studies in Dubai"
-        description="See how our enterprise software solutions have transformed organizations across the UAE, delivering measurable business value and operational excellence."
-        cards={[
-          {
-            icon: (
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                <polyline points="22 4 12 14.01 9 11.01" />
-              </svg>
-            ),
-            title: "Featured Enterprise Software Projects",
-            desc: "Explore real-world enterprise solutions delivered for Dubai-based businesses, ranging from ERP implementations to custom AI product engineering.",
-          },
-          {
-            icon: (
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-              </svg>
-            ),
-            title: "Testimonials from Our Valued Dubai Clients",
-            desc: "Hear from organizations that achieved measurable growth, improved efficiency, and digital transformation through our bespoke enterprise software solutions.",
           },
         ]}
       />
