@@ -19,7 +19,6 @@
 }
 
 .rightWrapper {
-    width: var(--width);
     position: relative;
     background: #ffffff;
     border-radius: 30px;
@@ -35,6 +34,8 @@
     padding-right: 15px;
     scrollbar-width: thin;
     scrollbar-color: #e0e0e0 transparent;
+    width: var(--width);
+
 }
 
 .right::-webkit-scrollbar {
