@@ -21,7 +21,7 @@ const OurStory = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
         >
-            <h2 className="my-40 text-center fs-38">Our Success Story- WD Agency</h2>
+            <h2 className="my-40 text-center fs-38">Our Success Story- Website Development Agency</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                 {/* left section image */}
                 <div className="relative h-[300px] md:h-auto">
@@ -35,7 +35,7 @@ const OurStory = () => {
                 {/* right section text */}
                 <div>
                     <p className="mb-10">
-                        Founded in 2014, WD Agency has grown from a small startup to one of the most trusted web development companies in Dubai & the UAE. Our journey began with a simple mission: to help businesses establish a powerful online presence through innovative web solutions.
+                        Founded in 2014, <a href="/">Website Development Agency</a> has grown from a small startup to one of the most trusted web development companies in Dubai & the UAE. Our journey began with a simple mission: to help businesses establish a powerful online presence through innovative web solutions.
                     </p>
                     <p className="mb-10">
                         Over the years, we have evolved alongside the digital landscape, continuously adapting our skills and technologies to meet the changing needs of the industry. From small local businesses to large enterprises, we have successfully implemented and delivered hundreds of website and software projects across various industries.

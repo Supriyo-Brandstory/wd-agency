@@ -31,6 +31,8 @@ import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
+import DevelopmentServices from '../../component/pages/home/DevelopmentServices'
+import Team from '../../component/pages/about/Team'
 
 
 
@@ -39,7 +41,7 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                alt='Website Development for Technology Startups in UAE - WD Agency'
+                alt='Website Development for Technology Startups in UAE - Website Development Agency'
                 heding={"Website Development Agency in UAE </br>for Technology Startups"}
                 subtitle={"Empowering tech startups in Dubai & the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "}
 
@@ -50,40 +52,40 @@ const page = () => {
                     <p>The first direct contact with your website is usually the investors, early adopters, and customers. It is the place where they evaluate your vision, innovation, and credibility. A well-designed website defines the personality of your brand, communicates your unique selling point, and instills trust. Investing in a professional website ensures your startup makes a powerful first impression and stands out in the competitive UAE market.</p>
                     `}
                 text2={`  <p>Pre-built templates fail to reflect the special features of your startup. These have restricted flexibility, scalability, and performance characteristics which are not even suitable for a growing tech business. The most suitable is a website that is deeply connected with your product, technology, and audience.</p>
-                <p>At WD Agency, we are the best when it comes to building a custom-built website for a technology startup that is a hit with the market and which is innovative. We build engaging and efficient websites that help startups grow and get funding starting from MVP launches to full-scale SaaS platforms. Using our knowledge, the startup stage can turn into a brilliant online presence in no time.</p>
+                <p>At <a href='/'>Website Development Agency</a>, we are the best when it comes to building a custom-built website for a technology startup that is a hit with the market and which is innovative. We build engaging and efficient websites that help startups grow and get funding starting from MVP launches to full-scale SaaS platforms. Using our knowledge, the startup stage can turn into a brilliant online presence in no time.</p>
                     `}
                 imageintro1={imageintro1}
-                alt1='Technology Startup Website Development Services - WD Agency'
+                alt1='Technology Startup Website Development Services - Website Development Agency'
                 imageintro2={imageintro2}
-                alt2='Custom Technology Startup Website Development - WD Agency'
+                alt2='Custom Technology Startup Website Development - Website Development Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
-                alt='Why Technology Startups Need Professional Websites - WD Agency'
+                alt='Why Technology Startups Need Professional Websites - Website Development Agency'
                 heding={'Why Startups Need Professional Websites'}
                 subheding={'For a technology startup, your website is your virtual home base. Thats where you show off your credibility and make a great first impression to investors, partners, and early users. A website made by professionals conveys the idea of trust, the seriousness of the project, and a vision that is clear.'}
                 lefttext={`  <p>The website of a startup is not just presenting an idea, it is showing the company’s originality and market presence. In the website, you can visualize MVPs, upcoming features, and product roadmaps in a more appealing way. Besides, you can also indicate your technology stack, innovation journey, and unique differentiators that revolutionize your product.</p>
                         <p>Using the mobile-first design concept your startup can target the people who are always on the move and who use mobile devices, and also you can integrate your startup with your apps or SaaS tools. Every detail, from UI design to the functionality, is specially designed for you to be able to scale at a high rate and do your real-world testing.</p>
                         `}
-                righttext={`<p>WD Agency provides technology startups in the UAE with expertly crafted websites that combine sleek design, robust functionality, and scalable architecture. We understand the unique needs of startups and build platforms that not only showcase your innovation but also support growth, user engagement, and investor confidence.</p>
+                righttext={`<p>Website Development Agency provides technology startups in the UAE with expertly crafted websites that combine sleek design, robust functionality, and scalable architecture. We understand the unique needs of startups and build platforms that not only showcase your innovation but also support growth, user engagement, and investor confidence.</p>
                             `}
             />
             <CommonIndustries
                 heding={'Our Technology Startup Website Services'}
-                subheding='WD Agency appreciates the ordeal that the startups are going through, from the limited time span to the rapid changes in direction. Our tailored website development services form the backbone of your growth journey at every stage.'
+                subheding='Website Development Agency appreciates the ordeal that the startups are going through, from the limited time span to the rapid changes in direction. Our tailored website development services form the backbone of your growth journey at every stage.'
                 services={[
                     {
                         title: 'Custom Website Design',
                         desc: 'Our aim is to bring about the clean, modern, and UX-driven layout designs that indicate your brand identity, where your website will not only look fresh but also trustworthy.',
                         img: imageService1,
-                        alt: 'Custom Startup Website Design Services for Startups- WD Agency',
+                        alt: 'Custom Startup Website Design Services for Startups- Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Landing Pages & Product Showcases',
                         desc: 'Powerful landing pages can create the right engagement for visitors, by which you can rush your features, pricing, and the availability of the product.',
                         img: imageService2,
-                        alt: 'Landing Page Creation Services for Startups - WD Agency',
+                        alt: 'Landing Page Creation Services for Startups - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -91,7 +93,7 @@ const page = () => {
                         title: 'Interactive Prototypes & MVP Sites',
                         desc: 'Be free to put the first versions to the test by involving the users and getting their feedback, thus making a solid ground for your business idea within a short period of time.',
                         img: imageService3,
-                        alt: 'MVP Website Development Services for Startups - WD Agency',
+                        alt: 'MVP Website Development Services for Startups - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -99,7 +101,7 @@ const page = () => {
                         title: 'App & SaaS Integrations',
                         desc: 'Our services include connecting many necessary attributes like APIs, payment gateways, and other integrations that contribute to the smooth running of your SaaS or tech ecosystem with your website.',
                         img: imageService4,
-                        alt: 'SaaS Integration Services for Startup Websites - WD Agency',
+                        alt: 'SaaS Integration Services for Startup Websites - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -107,7 +109,7 @@ const page = () => {
                         title: 'Lead Capture & CRM Integration',
                         desc: 'Create a strong base of early adopters, investors, and partners through user-friendly lead forms and automatically connected CRMs.',
                         img: imageService5,
-                        alt: 'Lead Capture & CRM Integration Services for Startups - WD Agency',
+                        alt: 'Lead Capture & CRM Integration Services for Startups - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -115,7 +117,7 @@ const page = () => {
                         title: 'Responsive Web Design',
                         desc: 'Give users the same outstanding experience on all devices, thereby increasing the time they spend on their mobile, tablet, or desktop.',
                         img: imageService6,
-                        alt: 'Responsive Web Design Services for Startups - WD Agency',
+                        alt: 'Responsive Web Design Services for Startups - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -124,7 +126,7 @@ const page = () => {
                         title: 'Analytics & Growth Tracking',
                         desc: 'Utilize the integrated analytics tools to track user behavior, conversion funnels, and engagement which in turn will be your scaling strategy.',
                         img: imageService7,
-                        alt: 'Analytics & Growth Tracking Services for Startup Websites - WD Agency',
+                        alt: 'Analytics & Growth Tracking Services for Startup Websites - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -132,7 +134,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'We are always ensuring that your startup’s online face keeps up with your product’s face in the market - by giving continuous maintenance, performance optimization, and feature updates.',
                         img: imageService8,
-                        alt: 'Startup Website Maintenance & Support Services - WD Agency',
+                        alt: 'Startup Website Maintenance & Support Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -140,6 +142,8 @@ const page = () => {
 
                 ]}
             />
+
+            <DevelopmentServices />
             <CommonThreeCard
                 text1={'Key Features of a Successful Startup Website'}
                 text2={"A startup website is about so much more than just interactive visuals. It's about serving the needs of the customers, displaying great performance, and winning their confidence. The core elements of a tech startup website are those which make the site function at its maximum capacity:"}
@@ -155,7 +159,7 @@ const page = () => {
             />
             <CommonDevelopmentProcess
                 heding={'Our Website Development Process '}
-                subheding={'At WD Agency, we use a tried-and-true eCommerce website development process to deliver every project on time, on budget, and to consistently measure success. Our formula combines creativity, technical detail, and market intelligence to give UAE businesses a competitive edge.'}
+                subheding={'At Website Development Agency, we use a tried-and-true eCommerce website development process to deliver every project on time, on budget, and to consistently measure success. Our formula combines creativity, technical detail, and market intelligence to give UAE businesses a competitive edge.'}
                 processData={[
                     {
                         id: "01",
@@ -195,22 +199,24 @@ const page = () => {
 
                     ]} />
                     <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Startup Website Development"}
-                    subheding={"WD Agency isn’t just a web design company,  we’re your digital growth partner. We have the knowledge and skills to create websites tailored to the needs of tech startups and SaaS platforms. We understand that speed, scalability, and the overall user experience are essential factors that cannot be compromised."}
+                    heding={"Why Choose Website Development Agency for Startup Website Development"}
+                    subheding={"Website Development Agency isn’t just a web design company,  we’re your digital growth partner. We have the knowledge and skills to create websites tailored to the needs of tech startups and SaaS platforms. We understand that speed, scalability, and the overall user experience are essential factors that cannot be compromised."}
                     lefttext={`<p>We build websites that not only load quickly but also are efficient in conversion and can scale up with your product. The extensive work experience of our team with startups in the UAE has given us insight into the local market - from what the investors expect to how the users behave - which is the key to your brand being able to connect with your target audience effectively.</p>
                                 <p>We have in-depth experience on numerous platforms such as Shopify, Magento, WooCommerce, and bespoke ecommerce solutions to recommend and deliver the ideal platform for your company’s needs. Our main focus is on writing clean code, optimizing for performance, and using growth-driven design that makes visitors to your site turn into potential clients.</p>
                                 <p>Our working methods are open and interactive - you can be part of every step from the initial stage to the moment after the launch, and even through the updates. Besides creating your web platform, we also offer long-term guidance for your startup’s digital path.</p>
                             `}
                     rightimage={imagewhydevelopment}
-                    alt='Why Choose WD Agency for Startup Website Development - WD Agency'
+                    alt='Why Choose Website Development Agency for Startup Website Development - Website Development Agency'
 
                     />
+
+                    <Team/>
                     <CommonClientTestimonials
                     testimonials={[
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

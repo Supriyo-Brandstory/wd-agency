@@ -39,17 +39,17 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         heding={
-          "Leading Branding Agency in Dubai- WD Agency"
+          "Leading Branding Agency in Dubai"
         }
         subtitle={
-          "WD Agency is a leading branding agency in Dubai, helping businesses build strong, memorable brands <br>that stand out in the competitive UAE market. We combine strategy, creativity, and local market <br>expertise to drive long-term brand success."
+          "Website Development Agency is a leading branding agency in Dubai, helping businesses build strong, memorable brands <br>that stand out in the competitive UAE market. We combine strategy, creativity, and local market <br>expertise to drive long-term brand success."
         }
       />
       <CommonIntroduction
-        heding={"Why Choose WD Agency for Branding in Dubai"}
+        heding={"Why Choose Us for Branding Services in Dubai"}
         text1={`
           <h3>Proven Track Record & Client Success Stories</h3>
-          <p>Our work speaks through the success of the brands we’ve helped shape. WD Agency has a proven track record of delivering impactful branding solutions across diverse industries, from startups to established enterprises.<br><br>
+          <p>Our work speaks through the success of the brands we’ve helped shape. <a href="/">Website Development Agency</a> has a proven track record of delivering impactful branding solutions across diverse industries, from startups to established enterprises.<br><br>
 We focus on understanding business challenges and translating them into strategic brand outcomes. Our client success stories highlight measurable improvements in brand visibility, customer engagement, and market positioning. By delivering consistent results, we’ve earned long-term partnerships built on trust, transparency, and performance.
 </p>
         `}
@@ -79,7 +79,7 @@ At the same time, we bring a global perspective to our branding approach. By int
       <CommonThreeCard
         text1={"Branding Services Tailored for Dubai Businesses"}
         text2={
-          "At WD Agency, we provide full-service branding solutions designed specifically for businesses operating in Dubai and across the UAE. In a fast-growing, highly competitive market like Dubai, branding is not just about visuals-it’s about building trust, recognition, and long-term value. Our end-to-end branding services help businesses create a strong identity, connect with their audience, and stand out in crowded industries."
+          "At Website Development Agency, we provide full-service branding solutions designed specifically for businesses operating in Dubai and across the UAE. In a fast-growing, highly competitive market like Dubai, branding is not just about visuals-it’s about building trust, recognition, and long-term value. Our end-to-end branding services help businesses create a strong identity, connect with their audience, and stand out in crowded industries."
         }
         boxdata={[
           {
@@ -124,7 +124,7 @@ At the same time, we bring a global perspective to our branding approach. By int
         heding={
           "Branding Solutions for Diverse Industries & Startups"
         }
-        subheding="At WD Agency, we understand that no two industries are the same. Our industry-specific branding approach ensures that every brand solution is strategically aligned with the unique demands of your market. From agile startups to large enterprises, we deliver bespoke branding solutions that drive relevance, differentiation, and sustainable growth across Dubai and the UAE.
+        subheding="At Website Development Agency, we understand that no two industries are the same. Our industry-specific branding approach ensures that every brand solution is strategically aligned with the unique demands of your market. From agile startups to large enterprises, we deliver bespoke branding solutions that drive relevance, differentiation, and sustainable growth across Dubai and the UAE.
 "
         services={[
           {
@@ -201,7 +201,7 @@ At the same time, we bring a global perspective to our branding approach. By int
       <CommonDevelopmentProcess
         heding={"Our Unique Branding Process: From Vision to Market Impact"}
         subheding={
-          "At WD Agency, our branding methodology is built on clarity, creativity, and consistency. We follow a structured yet flexible creative process that transforms brand vision into measurable market impact. Designed for Dubai and UAE businesses, our approach ensures every brand we build is strategically sound, visually compelling, and ready to perform in competitive markets."
+          "At Website Development Agency, our branding methodology is built on clarity, creativity, and consistency. We follow a structured yet flexible creative process that transforms brand vision into measurable market impact. Designed for Dubai and UAE businesses, our approach ensures every brand we build is strategically sound, visually compelling, and ready to perform in competitive markets."
         }
         processData={[
           {
@@ -271,8 +271,8 @@ At the same time, we bring a global perspective to our branding approach. By int
             id: "05.",
             title: "Brand Support & Consultation",
             description: `
-            Branding is an ongoing process, not a one-time task. WD Agency provides continuous brand support, consultation, and performance evaluation to ensure your brand stays relevant and competitive in Dubai’s dynamic business environment. From campaign branding to new product launches, we act as your long-term branding partner.<br><br>
-With a deep understanding of the Dubai and UAE business landscape, WD Agency delivers full-service branding solutions that drive recognition, credibility, and sustainable growth. Our tailored approach ensures every brand we build is strategic, creative, and designed for long-term success.
+            Branding is an ongoing process, not a one-time task. Website Development Agency provides continuous brand support, consultation, and performance evaluation to ensure your brand stays relevant and competitive in Dubai’s dynamic business environment. From campaign branding to new product launches, we act as your long-term branding partner.<br><br>
+With a deep understanding of the Dubai and UAE business landscape, Website Development Agency delivers full-service branding solutions that drive recognition, credibility, and sustainable growth. Our tailored approach ensures every brand we build is strategic, creative, and designed for long-term success.
 
             `,
           },
@@ -284,7 +284,7 @@ With a deep understanding of the Dubai and UAE business landscape, WD Agency del
           {
             id: 1,
             name: "Ahmed Al Maktoum",
-            text: "WD Agency completely transformed our brand identity. Our recognition and customer trust have grown significantly since the rebranding.",
+            text: "Website Development Agency completely transformed our brand identity. Our recognition and customer trust have grown significantly since the rebranding.",
             image: imagetestimonial1,
           },
           {
@@ -337,7 +337,7 @@ With a deep understanding of the Dubai and UAE business landscape, WD Agency del
             `,
           },
           {
-            q: "How do I start a branding project with WD Agency in Dubai?",
+            q: "How do I start a branding project with Website Development Agency in Dubai?",
             a: "Simply begin with a complimentary consultation. We’ll discuss your business needs, objectives, and timelines to recommend the most effective branding approach.",
           },
         ]}
@@ -345,7 +345,7 @@ With a deep understanding of the Dubai and UAE business landscape, WD Agency del
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Get a Free Branding Consultation"
-        subtitle="Take the first step toward building a powerful brand with WD Agency. Contact us today to request a quote or schedule a consultation, and discover how our branding expertise can help your business thrive in Dubai and across the UAE."
+        subtitle="Take the first step toward building a powerful brand with Website Development Agency. Contact us today to request a quote or schedule a consultation, and discover how our branding expertise can help your business thrive in Dubai and across the UAE."
       />
     </>
   );

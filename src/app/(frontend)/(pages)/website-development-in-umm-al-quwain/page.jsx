@@ -44,17 +44,17 @@ const page = () => {
     <Banner
         text1={"Most Trusted Website Development Services"}
         text2={"Web Development in Umm Al Quwain for<br>Your Business Growth"}
-        text3={"WD Agency is your one-stop solution for web development in Umm Al Quwain, delivering cutting-edge web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Umm Al Quwain."}
+        text3={"Website Development Agency is your one-stop solution for web development in Umm Al Quwain, delivering cutting-edge web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Umm Al Quwain."}
     />
     <CommonAboutPage
-        text1={"Best Website Development Agency Umm Al Quwain- WD Agency"}
+        text1={"Best Website Development Agency Umm Al Quwain- Website Development Agency"}
         text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At <a href='/'>Website Development Agency</a>, our portfolio includes top-performing websites that deliver high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
         text3={"As a leading web development agency in Umm Al Quwain, we serve clients across all areas, from Al Salamah to Al Raas, and beyond. We create refined websites that perfectly reflect your brand identity from top to bottom."}
         img={aboutimageummalquwain}
     />
     <CommonSetsUs
         text1={'Redefining Digital Experiences for a Decade'}
-        text2={'Your search for a professional website development company in Umm Al Quwain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+        text2={'Your search for a professional website development company in Umm Al Quwain ends with Website Development Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At Website Development Agency, we redefine digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
         bg={setusimageummalquwain}
     />
     <CommonAboutPage2
@@ -77,7 +77,7 @@ const page = () => {
     />
     <CommonProtfolio/>
     <CommonThreeCard
-        text1={'Why Choose WD Agency as Your Web Partner<br/> in Umm Al Quwain'}
+        text1={'Why Choose Website Development Agency as Your Web Partner<br/> in Umm Al Quwain'}
         text2={"Among many web development companies in Umm Al Quwain, we stand out with a deep understanding of local business needs, audience demographics, and the latest digital trends. We are not just a website development company; we are your transformation partner, supporting your digital expansion."}
         boxdata={[
             { id: 1, img: StrategicProblemSolvingimage, title: 'Strategic Problem Solving', desc: 'We excel in creating visually stunning, functional, and conversion-focused websites tailored to your brand. Every design we craft delivers a perfect blend of creativity and performance.' },
@@ -97,7 +97,7 @@ const page = () => {
         bannerimage={approchbannerimage}
     />
     <CommonServices
-        theding={'Best Web Development Services in Umm Al Quwain - WD Agency'}
+        theding={'Best Web Development Services in Umm Al Quwain - Website Development Agency'}
         tdesc={`
             <p>The business landscape of Umm Al Quwain is rapidly going digital, making it essential for brands to create a lasting impact. As customers increasingly search, browse, and shop online, your website becomes the key touchpoint for generating valuable leads and conversions.</p>
             <p class='my-20'>As a pioneer web development agency in Umm Al Quwain, we deliver high-performance websites using the latest technology. Every website we create includes critical elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>

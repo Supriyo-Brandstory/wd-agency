@@ -39,18 +39,18 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'WordPress Website Development'}
-                text1={` <p>Your‍‌‍‍‌‍‌‍‍‌ website is the first impression of your business in a digitally-driven world. WD Agency is the company that can expert in custom WordPress website development in the UAE. We provide powerful, scalable, and aesthetically appealing website that really gets your business noticed. We have been up to this for more than ten years.</p>
+                text1={` <p>Your‍‌‍‍‌‍‌‍‍‌ website is the first impression of your business in a digitally-driven world. <a href="/">Website Development Agency</a> is the company that can expert in custom WordPress website development in the UAE. We provide powerful, scalable, and aesthetically appealing website that really gets your business noticed. We have been up to this for more than ten years.</p>
                     <p>So, we had no problem teaming up with the startups, SMEs, and big companies in the UAE to build a strong online presence through powerful WordPress solutions. Our team of certified WordPress developers and designers is passionate about creating websites that are creative and high-performing. </p>
                     `}
                 text2={`  <p>Creating websites that are easy to use, fast, and compatible with any device helps attract visitors and keep them coming back. We offer a full range of WordPress CMS customization and maintenance services designed to deliver seamless functionality and user-friendly experiences.</p>
-                <p>At WD Agency, we ensure your website’s security, scalability, and performance for long-term success. When you choose us, you’re partnering with a UAE-based WordPress expert who understands your business, audience, and digital goals.</p>
+                <p>At Website Development Agency, we ensure your website’s security, scalability, and performance for long-term success. When you choose us, you’re partnering with a UAE-based WordPress expert who understands your business, audience, and digital goals.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
                 text1={'WordPress Website Development Services'}
-                text2={`We provide scalable WordPress development services for various startups and large-scale enterprises. At WD Agency, we focus on creating high-performance and visually appealing websites that are easy to navigate, optimized for search engines, and future-ready. Beyond design and development, we provide ongoing support and performance optimization.
+                text2={`We provide scalable WordPress development services for various startups and large-scale enterprises. At Website Development Agency, we focus on creating high-performance and visually appealing websites that are easy to navigate, optimized for search engines, and future-ready. Beyond design and development, we provide ongoing support and performance optimization.
                     <br><br>
                     We ensure your website can deliver the best performance and improve user engagement. Our WordPress development experts build solutions that combine creativity and functionality to help your brand grow and scale in the competitive marketplace. 
 
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'End-to-End WordPress Solutions for UAE Businesses'}
-                subheding='At‍‌‍‍‌‍‌‍‍‌ WD Agency, we provide full-fledged WordPress development solutions crafted to fit the exact needs of the market. Essentially, our team is your one-stop solution for strategy, design, development, optimization, and support services.'
+                subheding='At Website Development Agency, we provide full-fledged WordPress development solutions crafted to fit the exact needs of the market. Essentially, our team is your one-stop solution for strategy, design, development, optimization, and support services.'
                 services={[
                     {
                         title: 'Custom WordPress Development',
@@ -159,7 +159,7 @@ const page = () => {
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for WordPress Website Development"}
+                    heding={"Why Choose Website Development Agency for WordPress Website Development"}
                     subheding={"The‍‌‍‍‌‍‌‍‍‌ right WordPress agency can be a major factor in your online success. So, here is why enterprises in the UAE rely on us:"}
                     lefttext={`<ul>
                                 <li><strong>Experienced WordPress Developers</strong> – Our developers are extensively skilled in creating themes, customizing plugins, and setting up e-commerce.</li>
@@ -172,7 +172,7 @@ const page = () => {
 
                                 <li><strong>Ongoing Support</strong> –  We provide continuous maintenance, updates, and performance optimization to ensure your website stays secure, fast, and effective long after launch.</li>
                                 </ul>
-                                <p>By partnering with WD Agency, you are not merely creating a website, but rather, you are gaining a digital growth partner who is dedicated to your success in the long ‍‌‍‍‌‍‌‍‍‌run.</p>
+                                <p>By partnering with Website Development Agency, you are not merely creating a website, but rather, you are gaining a digital growth partner who is dedicated to your success in the long ‍‌‍‍‌‍‌‍‍‌run.</p>
                             `}
                     rightimage={imagewhydevelopment}
 

@@ -31,7 +31,7 @@ const page = () => {
           "CRM Software Company in Dubai"
         }
         subtitle={
-          "WD Agency is a leading CRM software development company in Dubai, delivering <br>custom-built CRM solutions tailored to your business processes and growth goals.<br> Our expert team designs scalable, secure, and user-friendly CRM systems that <br>help UAE businesses improve customer relationships and operational efficiency."
+          "Website Development Agency is a leading CRM software development company in Dubai, delivering <br>custom-built CRM solutions tailored to your business processes and growth goals.<br> Our expert team designs scalable, secure, and user-friendly CRM systems that <br>help UAE businesses improve customer relationships and operational efficiency."
         }
       />
       <CommonIntroduction
@@ -63,7 +63,7 @@ const page = () => {
       <CommonThreeCard
         text1={"Our CRM Development Services in Dubai"}
         text2={
-          "At WD Agency, we deliver end-to-end CRM software development services in Dubai, helping businesses build, deploy, and scale intelligent customer relationship management systems. As a trusted CRM development company in Dubai, we offer full-cycle CRM development designed to meet the operational, technological, and growth needs of startups & SMEs across the UAE."
+          "At Website Development Agency, we deliver end-to-end CRM software development services in Dubai, helping businesses build, deploy, and scale intelligent customer relationship management systems. As a trusted CRM development company in Dubai, we offer full-cycle CRM development designed to meet the operational, technological, and growth needs of startups & SMEs across the UAE."
         }
         boxdata={[
           {
@@ -159,7 +159,7 @@ const page = () => {
       <CommonIndustries
         heding={"Industry-Specific Custom CRM Development for Dubai Businesses"}
         subheding={
-          "At WD Agency, we specialize in developing industry-specific CRM in Dubai, providing tailored solutions that address the distinct workflows, compliance requirements, and customer engagement patterns of each sector."
+          "At Website Development Agency, we specialize in developing industry-specific CRM in Dubai, providing tailored solutions that address the distinct workflows, compliance requirements, and customer engagement patterns of each sector."
         }
         services={[
           {
@@ -247,16 +247,16 @@ const page = () => {
 
       <CommonWhyChoose
         heading={
-          "Why Choose WD Agency for CRM Development in Dubai?"
+          "Why Choose Us for CRM Development in Dubai?"
         }
         subheading={
-          "Selecting the right CRM development partner is critical for business growth, efficiency, and customer satisfaction. WD Agency stands out among the best CRM companies in Dubai by offering a combination of local market expertise, proven technical excellence, and client-focused service. As one of the leading companies offering custom CRM solutions in Dubai, we deliver tailored, scalable, and secure CRM platforms that align with your unique business objectives."
+          "Selecting the right CRM development partner is critical for business growth, efficiency, and customer satisfaction. Website Development Agency stands out among the best CRM companies in Dubai by offering a combination of local market expertise, proven technical excellence, and client-focused service. As one of the leading companies offering custom CRM solutions in Dubai, we deliver tailored, scalable, and secure CRM platforms that align with your unique business objectives."
         }
         reasons={[
           {
             title: "Local Expertise & Understanding of Dubai's Market",
             description:
-              "Our deep knowledge of the Dubai business environment gives WD Agency a unique advantage in developing CRM solutions that truly meet local needs. Understanding the cultural, regulatory, and operational nuances of UAE businesses allows us to create CRM systems that are not only functional but also compliant with local regulations and sensitive to market expectations. Our Dubai market insights guide feature prioritization, workflow customization, and integration with region-specific tools, ensuring that every CRM we develop aligns with business goals and customer behavior patterns.",
+              "Our deep knowledge of the Dubai business environment gives Website Development Agency a unique advantage in developing CRM solutions that truly meet local needs. Understanding the cultural, regulatory, and operational nuances of UAE businesses allows us to create CRM systems that are not only functional but also compliant with local regulations and sensitive to market expectations. Our Dubai market insights guide feature prioritization, workflow customization, and integration with region-specific tools, ensuring that every CRM we develop aligns with business goals and customer behavior patterns.",
             icon: (
               <svg
                 width="32"
@@ -306,7 +306,7 @@ const page = () => {
           {
             title: "Proven Track Record & Client Success Stories",
             description:
-              "A strong portfolio demonstrates credibility and capability. WD Agency has successfully delivered numerous CRM implementations for businesses of all sizes in Dubai, from startups to large enterprises. Our CRM development portfolio Dubai showcases projects with measurable outcomes, such as increased sales efficiency, improved customer retention, and streamlined operations. Client testimonials and success stories reinforce our reputation as a reputable CRM company. Businesses that have partnered with us consistently highlight our ability to deliver projects on time and within budget.",
+              "A strong portfolio demonstrates credibility and capability. Website Development Agency has successfully delivered numerous CRM implementations for businesses of all sizes in Dubai, from startups to large enterprises. Our CRM development portfolio Dubai showcases projects with measurable outcomes, such as increased sales efficiency, improved customer retention, and streamlined operations. Client testimonials and success stories reinforce our reputation as a reputable CRM company. Businesses that have partnered with us consistently highlight our ability to deliver projects on time and within budget.",
             icon: (
               <svg
                 width="32"
@@ -335,7 +335,7 @@ const page = () => {
           {
             title: "Expert Team & Cutting-Edge Technology",
             description:
-              "At WD Agency, our strength lies in our people and the technologies we employ. Our CRM developers in Dubai are skilled software engineers with experience in modern tech stacks, cloud platforms, mobile CRM development, and AI-powered analytics. We combine technical expertise with strategic insight to design, build, and implement custom CRM solutions that enhance productivity, scalability, and user experience. By leveraging the latest CRM technologies, our team ensures systems are secure, efficient, and adaptable to evolving business needs.",
+              "At Website Development Agency, our strength lies in our people and the technologies we employ. Our CRM developers in Dubai are skilled software engineers with experience in modern tech stacks, cloud platforms, mobile CRM development, and AI-powered analytics. We combine technical expertise with strategic insight to design, build, and implement custom CRM solutions that enhance productivity, scalability, and user experience. By leveraging the latest CRM technologies, our team ensures systems are secure, efficient, and adaptable to evolving business needs.",
             icon: (
               <svg
                 width="32"
@@ -378,7 +378,7 @@ const page = () => {
           {
             title: "Dedicated Support & Long-Term Partnership",
             description:
-              "Our commitment extends beyond deployment. WD Agency provides post-launch CRM support to ensure smooth adoption, ongoing optimization, and continuous performance improvement. We believe in building long-term CRM partnerships, offering ongoing consultation, system upgrades, and technical assistance whenever needed. This client-centric approach ensures that your CRM system remains aligned with evolving business processes and market demands. By choosing WD Agency, businesses in Dubai gain a partner dedicated to their success.",
+              "Our commitment extends beyond deployment. Website Development Agency provides post-launch CRM support to ensure smooth adoption, ongoing optimization, and continuous performance improvement. We believe in building long-term CRM partnerships, offering ongoing consultation, system upgrades, and technical assistance whenever needed. This client-centric approach ensures that your CRM system remains aligned with evolving business processes and market demands. By choosing Website Development Agency, businesses in Dubai gain a partner dedicated to their success.",
             icon: (
               <svg
                 width="32"
@@ -470,31 +470,31 @@ const page = () => {
 
       <CommonFaqSection
         title="Frequently Asked Questions (FAQs) About CRM Software in Dubai"
-        subtitle="Here are answers to some of the most common questions businesses in Dubai have about custom CRM software development and how WD Agency can help deliver tailored solutions."
+        subtitle="Here are answers to some of the most common questions businesses in Dubai have about custom CRM software development and how Website Development Agency can help deliver tailored solutions."
         faqs={[
           {
             q: "What is customer relationship management (CRM) software?",
-            a: "Customer relationship management (CRM) software is a technology solution designed to manage all your company's relationships and interactions with customers and potential customers. WD Agency’s CRM systems help improve business relationships, focusing on sales, marketing, and customer service activities to drive growth.",
+            a: "Customer relationship management (CRM) software is a technology solution designed to manage all your company's relationships and interactions with customers and potential customers. Website Development Agency’s CRM systems help improve business relationships, focusing on sales, marketing, and customer service activities to drive growth.",
           },
           {
             q: "Why is custom CRM important for businesses in Dubai?",
-            a: "Custom CRM is crucial because it allows for a system perfectly tailored to local market nuances, specific business processes, and unique customer behaviors. WD Agency develops bespoke solutions that give Dubai businesses a competitive edge over generic, off-the-shelf CRM systems.",
+            a: "Custom CRM is crucial because it allows for a system perfectly tailored to local market nuances, specific business processes, and unique customer behaviors. Website Development Agency develops bespoke solutions that give Dubai businesses a competitive edge over generic, off-the-shelf CRM systems.",
           },
           {
             q: "How does CRM specifically benefit customer interaction management in Dubai?",
-            a: "A custom CRM from WD Agency centralizes customer data, interaction history, and communication preferences, enabling businesses in Dubai to provide highly personalized service, anticipate needs, and manage customer interactions across all touchpoints.",
+            a: "A custom CRM from Website Development Agency centralizes customer data, interaction history, and communication preferences, enabling businesses in Dubai to provide highly personalized service, anticipate needs, and manage customer interactions across all touchpoints.",
           },
           {
             q: "What custom CRM development services do you offer in Dubai?",
-            a: "WD Agency offers a full suite of services, including bespoke CRM design and development, seamless CRM implementation and integration with existing systems, data migration, system upgrades, and ongoing maintenance and support.",
+            a: "Website Development Agency offers a full suite of services, including bespoke CRM design and development, seamless CRM implementation and integration with existing systems, data migration, system upgrades, and ongoing maintenance and support.",
           },
           {
             q: "Can you integrate a new CRM system with our existing software in Dubai?",
-            a: "Yes. WD Agency provides comprehensive CRM integration services, ensuring your new custom CRM connects seamlessly with ERP systems, accounting software, marketing platforms, and local payment gateways used in Dubai.",
+            a: "Yes. Website Development Agency provides comprehensive CRM integration services, ensuring your new custom CRM connects seamlessly with ERP systems, accounting software, marketing platforms, and local payment gateways used in Dubai.",
           },
           {
             q: "Do you provide ongoing maintenance and support for CRM systems in Dubai?",
-            a: "Absolutely. WD Agency offers dedicated post-launch support and maintenance services to ensure your CRM system remains secure, optimized, and scalable to meet evolving business needs.",
+            a: "Absolutely. Website Development Agency offers dedicated post-launch support and maintenance services to ensure your CRM system remains secure, optimized, and scalable to meet evolving business needs.",
           },
           {
             q: "How can custom CRM software improve sales efficiency for my Dubai business?",
@@ -502,7 +502,7 @@ const page = () => {
           },
           {
             q: "What is the impact of CRM on operational efficiency and productivity in Dubai?",
-            a: "By centralizing data, automating repetitive tasks, and improving inter-departmental communication, WD Agency’s custom CRM solutions reduce manual effort and increase overall productivity across your Dubai operations.",
+            a: "By centralizing data, automating repetitive tasks, and improving inter-departmental communication, Website Development Agency’s custom CRM solutions reduce manual effort and increase overall productivity across your Dubai operations.",
           },
           {
             q: "How does CRM help improve customer retention and loyalty in Dubai?",
@@ -510,11 +510,11 @@ const page = () => {
           },
           {
             q: "Can custom CRM solutions in Dubai provide better data for business decisions?",
-            a: "Yes. WD Agency’s CRM systems provide robust analytics and reporting tools, offering actionable insights on customer behavior, sales trends, and operational performance, supporting data-driven strategic decisions.",
+            a: "Yes. Website Development Agency’s CRM systems provide robust analytics and reporting tools, offering actionable insights on customer behavior, sales trends, and operational performance, supporting data-driven strategic decisions.",
           },
           {
             q: "Do you offer custom CRM solutions tailored for the real estate sector in Dubai?",
-            a: "Yes. WD Agency specializes in industry-specific CRM development, including real estate-focused solutions for managing property listings, client inquiries, broker interactions, and transaction workflows.",
+            a: "Yes. Website Development Agency specializes in industry-specific CRM development, including real estate-focused solutions for managing property listings, client inquiries, broker interactions, and transaction workflows.",
           },
           {
             q: "Can you develop an affordable custom CRM for small businesses in Dubai?",
@@ -526,7 +526,7 @@ const page = () => {
           },
           {
             q: "What is your typical process for custom CRM software development in Dubai?",
-            a: "WD Agency’s process includes discovery and requirements gathering, design and prototyping, agile development cycles, rigorous quality assurance, deployment, user training, and ongoing support.",
+            a: "Website Development Agency’s process includes discovery and requirements gathering, design and prototyping, agile development cycles, rigorous quality assurance, deployment, user training, and ongoing support.",
           },
           {
             q: "How do you ensure the quality and user-friendliness of the CRM system?",
@@ -534,27 +534,27 @@ const page = () => {
           },
           {
             q: "Is training provided for our team after CRM deployment in Dubai?",
-            a: "Yes. WD Agency provides comprehensive training sessions to ensure smooth adoption and maximum proficiency with your new CRM system.",
+            a: "Yes. Website Development Agency provides comprehensive training sessions to ensure smooth adoption and maximum proficiency with your new CRM system.",
           },
           {
             q: "What is the estimated cost of custom CRM software development in Dubai?",
-            a: "Costs vary based on complexity, features, integrations, and support requirements. WD Agency provides transparent pricing and detailed quotes after a thorough needs assessment.",
+            a: "Costs vary based on complexity, features, integrations, and support requirements. Website Development Agency provides transparent pricing and detailed quotes after a thorough needs assessment.",
           },
           {
             q: "How can I calculate the potential ROI for a custom CRM system?",
-            a: "ROI can be calculated by measuring improvements in sales, customer retention, operational efficiency, and reduced manual labor against the total investment. WD Agency helps identify metrics to estimate potential ROI.",
+            a: "ROI can be calculated by measuring improvements in sales, customer retention, operational efficiency, and reduced manual labor against the total investment. Website Development Agency helps identify metrics to estimate potential ROI.",
           },
           {
             q: "What factors primarily influence the pricing of a tailored CRM solution in Dubai?",
             a: "Pricing depends on feature scope, level of customization, number of integrations, business process complexity, and ongoing maintenance needs.",
           },
           {
-            q: "What makes WD Agency the best choice for CRM development in Dubai?",
-            a: "With deep local market expertise, a proven track record, a skilled technical team, cutting-edge technologies, and a client-centric approach, WD Agency is a trusted long-term CRM partner in Dubai.",
+            q: "What makes Website Development Agency the best choice for CRM development in Dubai?",
+            a: "With deep local market expertise, a proven track record, a skilled technical team, cutting-edge technologies, and a client-centric approach, Website Development Agency is a trusted long-term CRM partner in Dubai.",
           },
           {
             q: "Can you share examples or case studies of custom CRM projects completed in Dubai?",
-            a: "Yes. WD Agency has a portfolio of successful CRM projects across various sectors and can provide relevant case studies and client testimonials upon request.",
+            a: "Yes. Website Development Agency has a portfolio of successful CRM projects across various sectors and can provide relevant case studies and client testimonials upon request.",
           },
           {
             q: "How do you ensure CRM solutions are aligned with Dubai market needs?",
@@ -565,7 +565,7 @@ const page = () => {
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Get a Free CRM Development Consultation"
-        subtitle="Take the first step toward optimizing your business processes and driving growth with WD Agency. Contact us today to request a quote or schedule a CRM consultation, and discover how our custom software solutions can help your business stand out in Dubai."
+        subtitle="Take the first step toward optimizing your business processes and driving growth with Website Development Agency. Contact us today to request a quote or schedule a CRM consultation, and discover how our custom software solutions can help your business stand out in Dubai."
       />
     </>
   );

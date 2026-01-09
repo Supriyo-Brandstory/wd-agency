@@ -45,17 +45,17 @@ const page = () => {
             <Banner
                 text1={"Build Your Digital Presence with"}
                 text2={"Best Website Design Agency in Abu Dhabi"}
-                text3={"At WD Agency, we are the best website design agency in Abu Dhabi, UAE. Let’s create your website beyond the ordinary."}
+                text3={"At Website Development Agency, we are the best website design agency in Abu Dhabi, UAE. Let’s create your website beyond the ordinary."}
             />
             <CommonAboutPage
                 text1={"Web Design Agency in Abu Dhabi"}
                 text2={" In Abu Dhabi’s competitive, high-expectation marketplace, a website is far more than a place on the web- it’s your brand’s front door, your lead generator, and often the very first impression customers have of your business. Whether you’re a startup, a multinational, a hospitality brand, or a government service, your site must be beautiful, fast, accessible, and secure."}
-                text3={"At <a href='/'>Website Development Agency</a> (WD Agency), we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s digital goals."}
+                text3={"At <a href='/'>Website Development Agency</a>, we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s digital goals."}
                 img={aboutimagesabudhabi}
             />
             <CommonSetsUs
                 text1={'Transforming Digital Presence in Abu Dhabi'}
-                text2={'Looking for a website development company in Abu Dhabi that truly understands your business needs? WD Agency brings over a decade of experience in designing and developing websites that not only look stunning but also perform seamlessly. <br><br>We specialize in crafting intuitive websites that combine innovative design, advanced technology, and smooth functionality. Every website we build is crafted to strengthen your brand, engage your audience, and convert visitors into loyal customers- helping your business thrive in Abu Dhabi’s competitive digital landscape.'}
+                text2={'Looking for a website development company in Abu Dhabi that truly understands your business needs? Website Development Agency brings over a decade of experience in designing and developing websites that not only look stunning but also perform seamlessly. <br><br>We specialize in crafting intuitive websites that combine innovative design, advanced technology, and smooth functionality. Every website we build is crafted to strengthen your brand, engage your audience, and convert visitors into loyal customers- helping your business thrive in Abu Dhabi’s competitive digital landscape.'}
                 bg={setusimagesabudhabi}
             />
             {/* rest */}
@@ -80,8 +80,8 @@ const page = () => {
             />
             <CommonProtfolio/>
             <CommonThreeCard
-                text1={'Why Choose WD Agency- Local Expertise, Global Engineering'}
-                text2={"Many agencies build websites, few combine a local business with modern engineering. Here’s what makes WD Agency the preferred partner for businesses in Abu Dhabi:"}
+                text1={'Why Choose Website Development Agency- Local Expertise, Global Engineering'}
+                text2={"Many agencies build websites, few combine a local business with modern engineering. Here’s what makes Website Development Agency the preferred partner for businesses in Abu Dhabi:"}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAE cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
                     { id: 2, img: FocusedApproachimage, title: 'End-to-end Delivery', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
@@ -110,8 +110,8 @@ const page = () => {
                 bannerimage={approchbannerimage}
             />
             <CommonServices
-                theding={'The WD Agency Method - Collaborative, Transparent, & Measurable'}
-                tdesc={` <p>At WD Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
+                theding={'The Website Development Agency Method - Collaborative, Transparent, & Measurable'}
+                tdesc={` <p>At Website Development Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
                     <p class='mt-20'>Our structured and forward-thinking web development process not only drives measurable outcomes but also encourages creative solutions that set your business apart and deliver lasting commercial success.</p>
                 `}
                 bheding={'Steps We Follow in Our Web Development Process:'}
@@ -168,7 +168,7 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
+                        q: "Why Should I Hire a Local Abu Dhabi Agency Like Website Development Agency Instead of Outsourcing Overseas?",
                         a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
                     },
                     {

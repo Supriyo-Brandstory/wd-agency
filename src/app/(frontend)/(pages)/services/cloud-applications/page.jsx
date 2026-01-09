@@ -27,7 +27,7 @@ const page = () => {
           "Cloud App Development Company in Dubai"
         }
         subtitle={
-          "WD Agency is a leading cloud application development company in Dubai and the UAE, <br>delivering secure, scalable, and high-performance cloud solutions tailored to modern<br> business needs." 
+          "Website Development Agency is a leading cloud application development company in Dubai and the UAE, <br>delivering secure, scalable, and high-performance cloud solutions tailored to modern<br> business needs." 
         }
       />
 
@@ -53,13 +53,13 @@ Cloud application development also enhances operational efficiency by automating
 
       <CommonSetsUs
         text1="Our Approach to Digital Transformation with Cloud"
-        text2="<p>At WD Agency, we take a strategic and business-first approach to cloud application development. We begin by understanding your goals, workflows, and growth plans, then design cloud architectures that align with your digital transformation vision. Our team focuses on building secure, high-performance cloud applications that improve efficiency, support innovation, and deliver real business outcomes for companies across Dubai and the UAE.</p>"
+        text2="<p>At Website Development Agency, we take a strategic and business-first approach to cloud application development. We begin by understanding your goals, workflows, and growth plans, then design cloud architectures that align with your digital transformation vision. Our team focuses on building secure, high-performance cloud applications that improve efficiency, support innovation, and deliver real business outcomes for companies across Dubai and the UAE.</p>"
         bg={imagebanner2}
       />
 
       <CloudServiceGrid
         title="Comprehensive Cloud Application Development Services in Dubai"
-        description="At WD Agency, we deliver end-to-end cloud application development services in Dubai and across the UAE, helping businesses build secure, scalable, and high-performance digital solutions. Our expertise spans full-stack cloud development, modern architectures, and application lifecycle management—ensuring your cloud applications are designed to support growth, innovation, and long-term success.<br/><br/>We work closely with startups, SMEs, and enterprises to create bespoke software development solutions in Dubai that align with business objectives and industry requirements. From ideation and architecture to deployment and optimization, our team leverages cutting-edge cloud technologies and leading cloud platforms to deliver reliable, future-ready applications. Whether you need a customer-facing app, a SaaS platform, or an internal business system, WD Agency provides tailored cloud platform services that maximize agility and operational efficiency."
+        description="At Website Development Agency, we deliver end-to-end cloud application development services in Dubai and across the UAE, helping businesses build secure, scalable, and high-performance digital solutions. Our expertise spans full-stack cloud development, modern architectures, and application lifecycle management—ensuring your cloud applications are designed to support growth, innovation, and long-term success.<br/><br/>We work closely with startups, SMEs, and enterprises to create bespoke software development solutions in Dubai that align with business objectives and industry requirements. From ideation and architecture to deployment and optimization, our team leverages cutting-edge cloud technologies and leading cloud platforms to deliver reliable, future-ready applications. Whether you need a customer-facing app, a SaaS platform, or an internal business system, Website Development Agency provides tailored cloud platform services that maximize agility and operational efficiency."
         services={[
           {
             icon: (
@@ -76,7 +76,7 @@ Cloud application development also enhances operational efficiency by automating
               </svg>
             ),
             title: "Custom Cloud Application Development",
-            desc: "We design and develop custom cloud applications tailored to your unique business processes and goals. Our solutions are built using modern cloud-native architectures that ensure scalability, security, and performance. From enterprise systems to specialized business tools, WD Agency delivers flexible cloud applications that adapt as your organization grows.",
+            desc: "We design and develop custom cloud applications tailored to your unique business processes and goals. Our solutions are built using modern cloud-native architectures that ensure scalability, security, and performance. From enterprise systems to specialized business tools, Website Development Agency delivers flexible cloud applications that adapt as your organization grows.",
           },
           {
             icon: (
@@ -111,7 +111,7 @@ Cloud application development also enhances operational efficiency by automating
               </svg>
             ),
             title: "Cloud-Based Mobile Application Development",
-            desc: "WD Agency builds cloud-powered mobile applications that offer seamless performance across devices. By integrating mobile apps with cloud backends, we ensure real-time data access, high availability, and secure user experiences—ideal for businesses targeting digital-first customers in the UAE.",
+            desc: "Website Development Agency builds cloud-powered mobile applications that offer seamless performance across devices. By integrating mobile apps with cloud backends, we ensure real-time data access, high availability, and secure user experiences—ideal for businesses targeting digital-first customers in the UAE.",
           },
           {
             icon: (
@@ -136,7 +136,7 @@ Cloud application development also enhances operational efficiency by automating
 
       <CloudPlatformSection
         title="Expert Cloud Platform Development: AWS, Azure & Google Cloud"
-        description="At WD Agency, we provide expert cloud platform development services in Dubai and across the UAE, leveraging the strengths of AWS, Microsoft Azure, and Google Cloud Platform (GCP). Our team helps businesses design, build, and manage secure cloud environments tailored to their operational needs and growth plans. With deep public cloud expertise, we enable organizations to adopt the right platform—or a multi-cloud strategy in Dubai—that maximizes performance, resilience, and cost efficiency.<br/><br/>We focus on intelligent cloud architecture design, ensuring scalability, high availability, and strong security from day one. Whether you are migrating existing applications, developing cloud-native solutions, or modernizing legacy systems, WD Agency delivers platform-specific cloud solutions that align with business objectives. Our vendor-neutral approach also supports informed cloud vendor selection, helping you choose the best-fit platform based on workload, compliance, and budget considerations.<br/><br/>By combining strategic planning with hands-on engineering, we help enterprises and SMEs in Dubai unlock the full potential of leading cloud technologies while maintaining flexibility and control."
+        description="At Website Development Agency, we provide expert cloud platform development services in Dubai and across the UAE, leveraging the strengths of AWS, Microsoft Azure, and Google Cloud Platform (GCP). Our team helps businesses design, build, and manage secure cloud environments tailored to their operational needs and growth plans. With deep public cloud expertise, we enable organizations to adopt the right platform—or a multi-cloud strategy in Dubai—that maximizes performance, resilience, and cost efficiency.<br/><br/>We focus on intelligent cloud architecture design, ensuring scalability, high availability, and strong security from day one. Whether you are migrating existing applications, developing cloud-native solutions, or modernizing legacy systems, Website Development Agency delivers platform-specific cloud solutions that align with business objectives. Our vendor-neutral approach also supports informed cloud vendor selection, helping you choose the best-fit platform based on workload, compliance, and budget considerations.<br/><br/>By combining strategic planning with hands-on engineering, we help enterprises and SMEs in Dubai unlock the full potential of leading cloud technologies while maintaining flexibility and control."
         platforms={[
           {
             icon: (
@@ -176,7 +176,7 @@ Cloud application development also enhances operational efficiency by automating
               </svg>
             ),
             title: "Microsoft Azure Development in Dubai",
-            desc: "WD Agency offers Microsoft Azure development services in Dubai for organizations seeking strong integration with enterprise systems and Microsoft technologies. We design and deploy Azure-based solutions that support hybrid cloud models and advanced analytics.",
+            desc: "Website Development Agency offers Microsoft Azure development services in Dubai for organizations seeking strong integration with enterprise systems and Microsoft technologies. We design and deploy Azure-based solutions that support hybrid cloud models and advanced analytics.",
             benefits: [
               "Hybrid Cloud Models",
               "Enterprise Integration",
@@ -212,7 +212,7 @@ Cloud application development also enhances operational efficiency by automating
 
       <CloudMigrationSection
         title="Cloud Migration and Modernization Services"
-        description="At WD Agency, we provide end-to-end cloud migration and modernization services in Dubai and across the UAE, helping businesses transition from traditional IT environments to agile, future-ready cloud infrastructures. As organizations embrace digital transformation, outdated systems often limit scalability, innovation, and operational efficiency. Our structured cloud adoption framework ensures a smooth, secure, and cost-effective journey to the cloud while minimizing downtime and business disruption.<br/><br/>Our approach to cloud migration services in Dubai begins with a detailed assessment of your existing infrastructure, applications, and business goals. Based on this analysis, we define the most suitable migration strategy—rehosting, replatforming, refactoring, or full re-architecting—to align with your performance, compliance, and scalability requirements. Whether you are moving a single application or an entire enterprise ecosystem, we ensure data integrity, security, and optimized cloud performance at every stage.<br/><br/>Beyond migration, our cloud modernization services in Dubai focus on transforming legacy systems into flexible, cloud-native solutions. By modernizing applications, businesses gain faster time-to-market, improved resilience, and the ability to scale on demand. WD Agency helps organizations unlock the full value of cloud technology while preparing their IT landscape for long-term growth and innovation."
+        description="At Website Development Agency, we provide end-to-end cloud migration and modernization services in Dubai and across the UAE, helping businesses transition from traditional IT environments to agile, future-ready cloud infrastructures. As organizations embrace digital transformation, outdated systems often limit scalability, innovation, and operational efficiency. Our structured cloud adoption framework ensures a smooth, secure, and cost-effective journey to the cloud while minimizing downtime and business disruption.<br/><br/>Our approach to cloud migration services in Dubai begins with a detailed assessment of your existing infrastructure, applications, and business goals. Based on this analysis, we define the most suitable migration strategy—rehosting, replatforming, refactoring, or full re-architecting—to align with your performance, compliance, and scalability requirements. Whether you are moving a single application or an entire enterprise ecosystem, we ensure data integrity, security, and optimized cloud performance at every stage.<br/><br/>Beyond migration, our cloud modernization services in Dubai focus on transforming legacy systems into flexible, cloud-native solutions. By modernizing applications, businesses gain faster time-to-market, improved resilience, and the ability to scale on demand. Website Development Agency helps organizations unlock the full value of cloud technology while preparing their IT landscape for long-term growth and innovation."
         services={[
           {
             icon: (
@@ -245,14 +245,14 @@ Cloud application development also enhances operational efficiency by automating
               </svg>
             ),
             title: "Cloud-Native Application Modernization",
-            desc: "With cloud-native application modernization, WD Agency redesigns and refactors applications to fully leverage cloud capabilities. This includes microservices architecture, containerization, and API-driven development. By refactoring or re-architecting applications, businesses achieve greater agility, better scalability, and continuous innovation in a rapidly evolving digital landscape.",
+            desc: "With cloud-native application modernization, Website Development Agency redesigns and refactors applications to fully leverage cloud capabilities. This includes microservices architecture, containerization, and API-driven development. By refactoring or re-architecting applications, businesses achieve greater agility, better scalability, and continuous innovation in a rapidly evolving digital landscape.",
           },
         ]}
       />
 
       <AdvancedTechSection
         title="Integrating Advanced Technologies: AI, ML, IoT & DevOps"
-        description="At WD Agency, we go beyond traditional cloud development by integrating advanced technologies such as AI, Machine Learning, IoT, and DevOps into cloud applications for businesses in Dubai and across the UAE. These emerging technologies play a critical role in driving digital innovation, enabling organizations to build intelligent, data-driven, and highly automated systems. By embedding advanced capabilities into cloud platforms, we help enterprises gain deeper insights, improve operational efficiency, and deliver smarter user experiences.<br/><br/>Our expertise in AI, ML, and IoT cloud integration in Dubai allows businesses to transform raw data into actionable intelligence. Cloud-based advanced analytics, combined with intelligent automation, empower organizations to predict trends, optimize processes, and make faster, more informed decisions. From real-time data processing to scalable automation frameworks, our solutions are designed to support continuous growth and adaptability in competitive markets.<br/><br/>To ensure seamless development and deployment, we incorporate DevOps best practices throughout the application lifecycle. This enables faster releases, improved collaboration between development and operations teams, and higher system reliability. With a strong focus on security, scalability, and performance, WD Agency delivers smart cloud solutions that align with modern business demands and future technology advancements."
+        description="At Website Development Agency, we go beyond traditional cloud development by integrating advanced technologies such as AI, Machine Learning, IoT, and DevOps into cloud applications for businesses in Dubai and across the UAE. These emerging technologies play a critical role in driving digital innovation, enabling organizations to build intelligent, data-driven, and highly automated systems. By embedding advanced capabilities into cloud platforms, we help enterprises gain deeper insights, improve operational efficiency, and deliver smarter user experiences.<br/><br/>Our expertise in AI, ML, and IoT cloud integration in Dubai allows businesses to transform raw data into actionable intelligence. Cloud-based advanced analytics, combined with intelligent automation, empower organizations to predict trends, optimize processes, and make faster, more informed decisions. From real-time data processing to scalable automation frameworks, our solutions are designed to support continuous growth and adaptability in competitive markets.<br/><br/>To ensure seamless development and deployment, we incorporate DevOps best practices throughout the application lifecycle. This enables faster releases, improved collaboration between development and operations teams, and higher system reliability. With a strong focus on security, scalability, and performance, Website Development Agency delivers smart cloud solutions that align with modern business demands and future technology advancements."
         technologies={[
           {
             tag: "AI & ML",
@@ -312,7 +312,7 @@ Cloud application development also enhances operational efficiency by automating
 
       <CloudSecuritySection
         title="Cloud Application Security & Compliance in Dubai"
-        description="At WD Agency, cloud security and regulatory compliance are core pillars of every solution we deliver in Dubai and across the UAE. As businesses increasingly rely on cloud applications to manage critical data and operations, ensuring secure cloud infrastructure, robust threat management, and strict adherence to data protection standards becomes essential. We design cloud applications with security built in from the ground up, not added as an afterthought, helping organizations confidently adopt cloud technology while minimizing risk.<br/><br/>Our approach to cloud application security best practices in Dubai combines advanced security frameworks, continuous monitoring, and proactive risk management. From protecting sensitive business data to safeguarding customer information, we implement multilayered defenses that address modern cyber threats. At the same time, we ensure compliance with both local UAE regulations and internationally recognized standards, enabling businesses to operate seamlessly across borders without regulatory concerns. By aligning security strategies with business objectives, WD Agency helps enterprises maintain trust, protect their brand reputation, and achieve long-term resilience. Whether you are launching a new cloud application or modernizing existing systems, our security-first mindset ensures your digital assets remain protected in an evolving threat landscape."
+        description="At Website Development Agency, cloud security and regulatory compliance are core pillars of every solution we deliver in Dubai and across the UAE. As businesses increasingly rely on cloud applications to manage critical data and operations, ensuring secure cloud infrastructure, robust threat management, and strict adherence to data protection standards becomes essential. We design cloud applications with security built in from the ground up, not added as an afterthought, helping organizations confidently adopt cloud technology while minimizing risk.<br/><br/>Our approach to cloud application security best practices in Dubai combines advanced security frameworks, continuous monitoring, and proactive risk management. From protecting sensitive business data to safeguarding customer information, we implement multilayered defenses that address modern cyber threats. At the same time, we ensure compliance with both local UAE regulations and internationally recognized standards, enabling businesses to operate seamlessly across borders without regulatory concerns. By aligning security strategies with business objectives, Website Development Agency helps enterprises maintain trust, protect their brand reputation, and achieve long-term resilience. Whether you are launching a new cloud application or modernizing existing systems, our security-first mindset ensures your digital assets remain protected in an evolving threat landscape."
         cards={[
           {
             icon: (
@@ -349,14 +349,14 @@ Cloud application development also enhances operational efficiency by automating
             ),
             title:
               "Ensuring Data Privacy & Regulatory Compliance (UAE Specific)",
-            desc: "Compliance is critical for businesses operating in Dubai and the wider UAE. We ensure cloud applications adhere to UAE data protection laws, sector-specific regulations, and relevant international compliance standards. Our solutions focus on data privacy, secure storage, controlled access, and audit-ready processes to meet regulatory requirements. By aligning cloud strategies with local compliance frameworks, WD Agency enables businesses to confidently leverage cloud technology while maintaining full regulatory compliance and customer trust.",
+            desc: "Compliance is critical for businesses operating in Dubai and the wider UAE. We ensure cloud applications adhere to UAE data protection laws, sector-specific regulations, and relevant international compliance standards. Our solutions focus on data privacy, secure storage, controlled access, and audit-ready processes to meet regulatory requirements. By aligning cloud strategies with local compliance frameworks, Website Development Agency enables businesses to confidently leverage cloud technology while maintaining full regulatory compliance and customer trust.",
           },
         ]}
       />
 
       <CloudPartnerSection
         title="Why Partner with Our Cloud Development Company in Dubai?"
-        description="Choosing the right cloud development partner in Dubai is a strategic decision that directly impacts your business agility, scalability, and long-term digital success. At WD Agency, we combine deep technical expertise with a strong understanding of regional business needs to deliver secure, scalable, and future-ready cloud applications. Our focus goes beyond development—we work as a trusted cloud provider committed to your growth, innovation, and operational efficiency.<br/><br/>As one of the best cloud development companies in Dubai, we follow a client-centric approach, ensuring every cloud solution aligns with your business goals, industry requirements, and budget. From cloud strategy and architecture design to development, migration, and ongoing optimization, we offer end-to-end cloud application development services. Our transparent processes, agile delivery models, and emphasis on quality help businesses reduce risk while accelerating digital transformation.<br/><br/>Whether you are a startup, SME, or enterprise, WD Agency helps you confidently find a reliable cloud application development company in Dubai that delivers measurable results, long-term value, and continuous innovation."
+        description="Choosing the right cloud development partner in Dubai is a strategic decision that directly impacts your business agility, scalability, and long-term digital success. At Website Development Agency, we combine deep technical expertise with a strong understanding of regional business needs to deliver secure, scalable, and future-ready cloud applications. Our focus goes beyond development—we work as a trusted cloud provider committed to your growth, innovation, and operational efficiency.<br/><br/>As one of the best cloud development companies in Dubai, we follow a client-centric approach, ensuring every cloud solution aligns with your business goals, industry requirements, and budget. From cloud strategy and architecture design to development, migration, and ongoing optimization, we offer end-to-end cloud application development services. Our transparent processes, agile delivery models, and emphasis on quality help businesses reduce risk while accelerating digital transformation.<br/><br/>Whether you are a startup, SME, or enterprise, Website Development Agency helps you confidently find a reliable cloud application development company in Dubai that delivers measurable results, long-term value, and continuous innovation."
         reasons={[
           {
             icon: (
@@ -416,7 +416,7 @@ Cloud application development also enhances operational efficiency by automating
 
       <CloudProcessSection
         title="Our Cloud Application Development Process"
-        description="At WD Agency, we follow a structured yet flexible cloud development lifecycle designed to deliver high-quality, scalable, and secure cloud applications for businesses in Dubai and the UAE. Our process is rooted in agile principles, ensuring transparency, faster delivery, and continuous improvement at every stage of the project."
+        description="At Website Development Agency, we follow a structured yet flexible cloud development lifecycle designed to deliver high-quality, scalable, and secure cloud applications for businesses in Dubai and the UAE. Our process is rooted in agile principles, ensuring transparency, faster delivery, and continuous improvement at every stage of the project."
         steps={[
           {
             label: "Discovery",
@@ -546,11 +546,11 @@ Cloud application development also enhances operational efficiency by automating
           },
           {
             q: "Can your company develop a SaaS product tailored for the Dubai market?",
-            a: "Yes, WD Agency specializes in building custom SaaS products designed around Dubai market needs, local regulations, and regional user behavior.",
+            a: "Yes, Website Development Agency specializes in building custom SaaS products designed around Dubai market needs, local regulations, and regional user behavior.",
           },
           {
             q: "Which cloud platform (AWS, Azure, or Google Cloud) is best for my business in Dubai?",
-            a: "The best platform depends on your business goals, workload, budget, and compliance needs; WD Agency helps you choose and implement the most suitable cloud platform.",
+            a: "The best platform depends on your business goals, workload, budget, and compliance needs; Website Development Agency helps you choose and implement the most suitable cloud platform.",
           },
           {
             q: "What is the typical process for migrating legacy applications to the cloud?",
@@ -566,7 +566,7 @@ Cloud application development also enhances operational efficiency by automating
           },
           {
             q: "How do you ensure data privacy and compliance with UAE regulations for cloud applications?",
-            a: "WD Agency follows UAE data protection laws and global standards, ensuring secure data handling, compliance-ready architecture, and controlled data access.",
+            a: "Website Development Agency follows UAE data protection laws and global standards, ensuring secure data handling, compliance-ready architecture, and controlled data access.",
           },
           {
             q: "What is your typical cloud application development process from start to finish?",
@@ -581,7 +581,7 @@ Cloud application development also enhances operational efficiency by automating
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Get a Free Cloud Consultation for Your Dubai Business"
-        subtitle="Transform your business with scalable, secure, and high-performance cloud solutions. Contact WD Agency today to discuss your cloud strategy, request a quote, or schedule a consultation, and see how we can drive your digital growth in the UAE."
+        subtitle="Transform your business with scalable, secure, and high-performance cloud solutions. Contact Website Development Agency today to discuss your cloud strategy, request a quote, or schedule a consultation, and see how we can drive your digital growth in the UAE."
       />
     </>
   );

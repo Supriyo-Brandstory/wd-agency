@@ -70,7 +70,7 @@ const BestAgency = () => {
           {
             img: highEndAbility,
             alt:"High End Ability in Website Design and Development",
-            text: "Among the best website design companies in Dubai, WD Agency holds high-end ability in creating stunning, functional, and user-friendly websites.",
+            text: "Among the best website design companies in Dubai, Website Development Agency holds high-end ability in creating stunning, functional, and user-friendly websites.",
           },
           {
             img: bestPractices,
@@ -126,7 +126,7 @@ const BestAgency = () => {
             web design and development, we strive to deliver personalized web
             design solutions considering your business that highlight your
             strengths and unique identity. With high-end coding expertise and
-            industry-specific knowledge, WD Agency excels in complete web design
+            industry-specific knowledge, Website Development Agency excels in complete web design
             and development services.
           </li>
 
@@ -156,7 +156,7 @@ const BestAgency = () => {
 </>
           )}
         </ul>
-        <Image src={webSolutionBanner} alt="Web Design agency in Dubai, UAE - WD Agency" />
+        <Image src={webSolutionBanner} alt="Web Design agency in Dubai, UAE - Website Development Agency" />
       </motion.div>
 
       

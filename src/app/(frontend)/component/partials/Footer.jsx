@@ -22,7 +22,7 @@ const Footer = () => {
           <div className={styles.about}>
             <Image src={logo} alt="logo" />
             <p>
-             Established in 2014, WD Agency is a leading web design and development agency in Dubai, UAE, delivering innovative and custom web design solutions for startups, SMEs, and Large-scale enterprises.
+             Established in 2014, Website Development Agency is a leading web design and development agency in Dubai, UAE, delivering innovative and custom web design solutions for startups, SMEs, and Large-scale enterprises.
 
             </p>
             
@@ -105,7 +105,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className={styles.bottom}>
-        <p>© 2014-2025 WD Agency. All rights reserved.</p>
+        <p>© 2014-2025 Website Development Agency. All rights reserved.</p>
       </div>
       </div>
     </footer>

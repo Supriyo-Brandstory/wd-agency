@@ -34,12 +34,12 @@ const page = () => {
       <CommonBanner2
                 bg={imagebanner}
                 heding={"Core PHP Web Development <br>Company in UAE"}
-                subtitle={"At WD Agency, we create powerful, secure, and scalable PHP websites </br>that combine performance with exceptional user experience."}
+                subtitle={"At Website Development Agency, we create powerful, secure, and scalable PHP websites </br>that combine performance with exceptional user experience."}
 
             />
              <CommonIntroduction
                 heding={'PHP Website Development Services'}
-                text1={` <p>At WD Agency, we are a reputable PHP web development agency in Dubai and the UAE. We enable businesses to build digital solutions that are fast, flexible, and future-ready. With 10+  years of experience and a team of skilled developers, we are proficient in designing websites and web applications based on PHP that are robust and specifically tailored to meet the specific requirements of our clients.</p>
+                text1={` <p>At <a href="/">Website Development Agency in Dubai</a>, we are a reputable PHP web development agency in Dubai and the UAE. We enable businesses to build digital solutions that are fast, flexible, and future-ready. With 10+  years of experience and a team of skilled developers, we are proficient in designing websites and web applications based on PHP that are robust and specifically tailored to meet the specific requirements of our clients.</p>
                     <p>We have extensive expertise in major PHP-based platforms- Laravel, CodeIgniter, and Symfony. This enables us to create dynamic, feature-rich websites and web apps to help your business grow and thrive. Our PHP website solutions are designed to impress not only with their functionality but also with their ability to give you long-term value, whether you require a website or a custom web application.</p>
                     `}
                 text2={`  <p>We are the ones whom leading brands in the UAE and ambitious startups trust. And we have helped them achieve success that can be measured in a very straightforward manner by means of digital transformation that is both easy and smooth. We deliver it by focusing on thorough coding, creating an intuitive UI/UX design, and providing a strong back-end functionality for websites that are not only visually appealing but are also flawless in their execution.</p>
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive PHP Development Solutions Tailored for UAE Businesses'}
-                subheding='At WD Agency (Website Development Agency), we provide fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the UAE. Our expert PHP developers create PHP projects that are highly efficient, secure, and scalable.'
+                subheding='At Website Development Agency (Website Development Agency), we provide fully integrated PHP web development solutions that are specifically tailored to the needs of businesses in the UAE. Our expert PHP developers create PHP projects that are highly efficient, secure, and scalable.'
                 services={[
                     {
                         title: 'Custom PHP Web Development',
@@ -147,7 +147,7 @@ const page = () => {
                 ]} />
                  <CommonThreeCard
                 text1={'Key Features We Implement'}
-                text2={"At WD Agency, we upgrade your website with more comfortable, more expandable, and safer features that are usable directly from mobile and desktop devices and on different platforms of the web, making a standard PHP development."}
+                text2={"At Website Development Agency, we upgrade your website with more comfortable, more expandable, and safer features that are usable directly from mobile and desktop devices and on different platforms of the web, making a standard PHP development."}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Device independent Website Performance', desc: 'PHP website features, including heavy and light computing, memory management, networking, and threading, that work seamlessly on desktops, tablets, and smartphones.' },
                     { id: 2, img: FocusedApproachimage, title: 'Mobile First Design Approach', desc: 'We prioritize mobile users by creating designs that deliver seamless experiences, intuitive navigation, and effective data visualization across all devices.' },
@@ -159,7 +159,7 @@ const page = () => {
             />
             <CommonWhyWebsiteDevelopment
                     heding={"Your Trusted PHP Web Development Agency in UAE"}
-                    subheding={"Choosing WD Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
+                    subheding={"Choosing Website Development Agency means partnering with a PHP development team that understands the UAE market while delivering global standards of excellence."}
                     lefttext={`<ul>
                                 <li><strong>Decade-long experience in PHP website development</strong> – With over ten years of experience, we’ve helped hundreds of UAE businesses establish robust and dynamic online platforms.</li>
                                 
@@ -182,7 +182,7 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
+                        q: "Why Should I Hire a Local Abu Dhabi Agency Like Website Development Agency Instead of Outsourcing Overseas?",
                         a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
                     },
                     {

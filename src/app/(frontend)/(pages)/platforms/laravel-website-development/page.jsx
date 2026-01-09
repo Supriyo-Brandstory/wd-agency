@@ -39,11 +39,11 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'Your Trusted Laravel Web Development Partner'}
-                text1={` <p>WD‍‌‍‍‌‍‌‍‍‌ Agency is fully equipped to deliver top-notch, dynamic, and enterprise-grade web applications with Laravel- the most cutting-edge PHP framework. After many years of hands-on experience with Laravel's MVC architecture and the ecosystem tools, our developers implement solutions that are not just scalable but attractive to the client.</p>
+                text1={` <p>Website Development Agency is fully equipped to deliver top-notch, dynamic, and enterprise-grade web applications with Laravel- the most cutting-edge PHP framework. After many years of hands-on experience with Laravel's MVC architecture and the ecosystem tools, our developers implement solutions that are not just scalable but attractive to the client.</p>
                     <p>We have made it easy for a variety of business types, from startups, SMEs, to large enterprises, the entire UAE market to embrace changes in their digital presence through the timely and high-performing Laravel applications. Simply put, we’re the go-to team for building efficient, fast, and reliable web platforms- from custom business portals to enterprise automation and online stores.</p>
                     `}
                 text2={`  <p>Our Laravel solutions are built with a strong focus on security, ensuring deep authentication and protection against vulnerabilities; scalability, with a structured approach that supports your business growth; and speed, through optimized database queries, caching, and performance-enhancing techniques for faster load times and smoother user experiences.</p>
-                <p>Partnering with WD Agency means that you are entitled to an exclusive team of Laravel experts whose deliverables are the results that make the UAE business face the competitive digital landscape ‍‌‍‍‌‍‌‍‍‌successfully.</p>
+                <p>Partnering with <a href="/">Website Development Agency</a> means that you are entitled to an exclusive team of Laravel experts whose deliverables are the results that make the UAE business face the competitive digital landscape ‍‌‍‍‌‍‌‍‍‌successfully.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive Laravel Solutions for Businesses'}
-                subheding='WD Agency provides end-to-end Laravel development services to meet every business requirement- from startups to large enterprises.'
+                subheding='Website Development Agency provides end-to-end Laravel development services to meet every business requirement- from startups to large enterprises.'
                 services={[
                     {
                         title: 'Custom Laravel Development',
@@ -146,7 +146,7 @@ const page = () => {
                 ]} />
                  <CommonThreeCard
                 text1={'Advanced Features We Implement'}
-                text2={"At WD Agency, we enhance your web presence with Laravel-powered solutions that are more scalable, secure, and performance-driven, accessible seamlessly across mobile, desktop, and various web platforms, ensuring a modern standard for PHP development."}
+                text2={"At Website Development Agency, we enhance your web presence with Laravel-powered solutions that are more scalable, secure, and performance-driven, accessible seamlessly across mobile, desktop, and various web platforms, ensuring a modern standard for PHP development."}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Device Independent Performance', desc: 'Optimized architecture of Laravel ensures smooth performance across desktops, tablets, and smartphones with efficient memory management and processing capabilities.' },
                     { id: 2, img: FocusedApproachimage, title: 'Mobile First Approach', desc: 'We follow a mobile-first strategy to deliver a seamless experience for handheld users while maintaining strong UI/UX and engaging data visualization.' },
@@ -160,8 +160,8 @@ const page = () => {
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Laravel Development"}
-                    subheding={"WD Agency is more than just the hiring of a Laravel development agency. With us, you become a partner with a UAE-based digital team that is committed to innovation, trust, and your business ‍‌‍‍‌‍‌‍‍‌success."}
+                    heding={"Why Choose US for Laravel Development"}
+                    subheding={"Website Development Agency is more than just the hiring of a Laravel development agency. With us, you become a partner with a UAE-based digital team that is committed to innovation, trust, and your business ‍‌‍‍‌‍‌‍‍‌success."}
                     lefttext={`<ul>
                                 <li><strong>Skilled Laravel Developers</strong> – Our certified Laravel delegation possesses extensive experience across the board for clients based in the UAE.</li>
                                 

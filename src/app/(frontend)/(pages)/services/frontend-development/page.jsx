@@ -51,16 +51,16 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Frontend Web Design Services in Dubai </br>for Modern, Interactive Business Websites"}
-                subtitle={"Build visually stunning, responsive, and interactive websites with </br>frontend web design services at WD Agency."}
+                subtitle={"Build visually stunning, responsive, and interactive websites with </br>frontend web design services at Website Development Agency."}
 
             />
             <CommonIntroduction
                 heding={'Impactful Website Design in Dubai'}
                 text1={` <p>The frontend design of your website is just not about the design- it is the online representation of your brand. It is the place where your users can engage, get an idea, and decide whether to stay or exit. A robust, easy-to-use frontend not only creates trust among users but also activates conversions.</p>
-                    <p>WD Agency delivers exactly what modern day businesses need- responsive, dynamic, and user-friendly website designs with interfaces that perform flawlessly across all browsers. Such interfaces attract visitors and deliver direct business results for a company. The front-end developers at our company mix the artistry with the latest technology to guarantee that your site will run smoothly on any device that you have.</p>
+                    <p>Website Development Agency delivers exactly what modern day businesses need- responsive, dynamic, and user-friendly website designs with interfaces that perform flawlessly across all browsers. Such interfaces attract visitors and deliver direct business results for a company. The front-end developers at our company mix the artistry with the latest technology to guarantee that your site will run smoothly on any device that you have.</p>
                     `}
                 text2={`  <p>We put serious effort into improving the usability, the aesthetics, and the loading speed so that the users of your website can navigate easily and the site can respond quickly. Every feature that is there, from buttons to animations has been totally optimized for performance and interactivity.</p>
-                <p>Our website designs work wonders in boosting user satisfaction, engagement, and conversion rates, whether it’s an e-commerce or startup website. With WD Agency, your digital presence becomes a powerful business tool- visually appealing, performance-driven, and deeply connected to your brand.</p>
+                <p>Our website designs work wonders in boosting user satisfaction, engagement, and conversion rates, whether it’s an e-commerce or startup website. With <a href="/">Website Development Agency</a>, your digital presence becomes a powerful business tool- visually appealing, performance-driven, and deeply connected to your brand.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
@@ -72,7 +72,7 @@ const page = () => {
             />
             <CommonThreeCard
                 text1={'Website Design Services That Make a Difference'}
-                text2={"Working with WD Agency is equivalent to being granted entry to a team of professionals who creatively, strategically, and with the help of the latest technologies put together front-end solutions that are measurable in their results."}
+                text2={"Working with Website Development Agency is equivalent to being granted entry to a team of professionals who creatively, strategically, and with the help of the latest technologies put together front-end solutions that are measurable in their results."}
                 boxdata={[
                     { id: 1, img: commonimage2, title: 'User-Centric Design', desc: 'We make your users the point of focus in every step, building interfaces that are easy, intuitive, and engaging for end users.' },
                     { id: 2, img: commonimage1, title: 'Modern Technologies', desc: 'In building React, Vue.js, Angular, HTML5, CSS3, and JavaScript, we create websites that are both robust and scalable and has great performance and functionality.' },
@@ -84,7 +84,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Web Design Solutions That Engage and Convert'}
-                subheding='At WD Agency, we don’t just do website design- we craft visually appealing, functionally powerful, and conversion-oriented experiences that merge design brilliance with technical precision. The services we offer at the front end are not only pretty but also made from logic to really attract customers and make the brands stronger.'
+                subheding='At Website Development Agency, we don’t just do website design- we craft visually appealing, functionally powerful, and conversion-oriented experiences that merge design brilliance with technical precision. The services we offer at the front end are not only pretty but also made from logic to really attract customers and make the brands stronger.'
                 services={[
                     {
                         title: 'Responsive Web Interfaces',
@@ -132,10 +132,10 @@ const page = () => {
                 ]}
             />
             <CommonAboutPage2
-                text1="Expand Your Digital Capabilities with WD Agency"
+                text1="Expand Your Digital Capabilities with Website Development Agency"
                 text2={`
                             <p class="mb-20">
-                            At WD Agency, our specialized frontend web design services in Dubai & the UAE are the perfect way to extend the functionality and get more user engagement.
+                            At Website Development Agency, our specialized frontend web design services in Dubai & the UAE are the perfect way to extend the functionality and get more user engagement.
                             </p>
                             <ul class="ml-40">
                             <li>Component Libraries & Design- We produce UI components that can be reused in continuous, efficient, and scalable development of the software.</li>
@@ -169,7 +169,7 @@ const page = () => {
   />
        <CommonDevelopmentProcess
                 heding={'From Concept to Interactive Experience'}
-                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At WD Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
+                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At Website Development Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
                 processData={[
                     {
                         id: "01",
@@ -194,7 +194,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -204,8 +204,8 @@ const page = () => {
 
                     ]} />
                                        <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Frontend Development"}
-                    subheding={"Frontend excellence is what you get with WD Agency, combined with a digital presence that elevates your brand and helps your business stand out in today’s competitive online market."}
+                    heding={"Why Choose Website Development Agency for Frontend Development"}
+                    subheding={"Frontend excellence is what you get with Website Development Agency, combined with a digital presence that elevates your brand and helps your business stand out in today’s competitive online market."}
                     lefttext={`<ul>
                                 <li><strong>Engaging User Experiences</strong> – We create simple, eye-catching, and helpful designs that deeply engage users and encourage them to return.</li>
                                 
@@ -215,7 +215,7 @@ const page = () => {
                                 
                                 <li><strong>Cross-Device Compatibility</strong> – Responsive designs ensure a seamless and user-friendly experience across all devices.</li>
                                 </ul>
-                                <p>WD Agency doesn’t only create beautiful designs, we also commit to performance, reliability, and results. Your frontend with WD Agency becomes a growth mechanism that, through increased engagement, nurtures trust among users and leaves a lasting digital memory.</p>
+                                <p>Website Development Agency doesn’t only create beautiful designs, we also commit to performance, reliability, and results. Your frontend with Website Development Agency becomes a growth mechanism that, through increased engagement, nurtures trust among users and leaves a lasting digital memory.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -226,7 +226,7 @@ const page = () => {
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {
@@ -247,7 +247,7 @@ const page = () => {
                     <CommonFaqSection
                         faqs={[
                             {
-                                q: "What Frontend Technologies Do WD Agency Specialize In?",
+                                q: "What Frontend Technologies Do Website Development Agency Specialize In?",
                                 a: "We work with cutting-edge frontend technologies like React, Vue.js, Angular, HTML5, CSS3, and JavaScript to build fast, interactive, and scalable web applications."
                             },
                             {

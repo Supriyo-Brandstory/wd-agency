@@ -39,10 +39,10 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'Trusted Drupal Development Partner'}
-                text1={` <p>WD‍‌‍‍‌‍‌‍‍‌ agency is the most reliable Drupal website development company in Dubai and the UAE. We have extensive experience in working with Drupal website projects for almost a decade. Our seasoned website development experts are capable of delivering high-quality, secure, and scalable Drupal websites with a strong focus on performance and design.</p>
-                    <p>At WD Agency, our team of experienced Drupal developers is proficient across versions 8 through 10, ensuring compatibility, stability, and performance for every project. Whether it’s a simple business website or a complex enterprise-level platform, we deliver tailored Drupal solutions that are secure, scalable, and future-ready. </p>
+                text1={` <p>Website Development Agency is the most reliable Drupal website development company in Dubai and the UAE. We have extensive experience in working with Drupal website projects for almost a decade. Our seasoned website development experts are capable of delivering high-quality, secure, and scalable Drupal websites with a strong focus on performance and design.</p>
+                    <p>At Website Development Agency, our team of experienced Drupal developers is proficient across versions 8 through 10, ensuring compatibility, stability, and performance for every project. Whether it’s a simple business website or a complex enterprise-level platform, we deliver tailored Drupal solutions that are secure, scalable, and future-ready. </p>
                     `}
-                text2={`  <p>WD Agency is your go-to agency if you want a powerful and fast Drupal website that will give your business the required freedom, growth potential, and top-level functionality. No matter if you are a startup, SME, or enterprise in the UAE, our expert Drupal developers create personalized solutions that fit your distinct online ‍‌‍‍‌‍‌‍‍‌goals.</p>
+                text2={`  <p><a href="/">Website Development Agency</a> is your go-to agency if you want a powerful and fast Drupal website that will give your business the required freedom, growth potential, and top-level functionality. No matter if you are a startup, SME, or enterprise in the UAE, our expert Drupal developers create personalized solutions that fit your distinct online goals.</p>
                 <p>We have achieved significant milestones that set us apart from others. Our team consistently delivers cutting-edge Drupal solutions focused on security, scalability, and SEO optimization. With a proven track record in developing enterprise-grade web platforms, we emphasize transparency at every stage of the process and provide dedicated post-launch support.</p>
                     `}
                 imageintro1={imageintro1}
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive Drupal Solutions for UAE Businesses'}
-                subheding='WD Agency provides a full suite of Drupal web development services designed to meet the diverse needs of UAE’s businesses. From startups to large enterprises, our solutions cover every aspect of your Drupal journey.'
+                subheding='Website Development Agency provides a full suite of Drupal web development services designed to meet the diverse needs of UAE’s businesses. From startups to large enterprises, our solutions cover every aspect of your Drupal journey.'
                 services={[
                     {
                         title: 'Custom‍‌‍‍‌‍‌‍‍‌ Drupal Development',
@@ -160,8 +160,8 @@ const page = () => {
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Drupal Development"}
-                    subheding={"Choosing‍‌‍‍‌‍‌‍‍‌ a WD Agency is basically a guarantee of getting a top-quality, innovative, and reliable service in the long run. Our team of technically skilled experts combines technical expertise with a deep understanding of the UAE market."}
+                    heding={"Why Choose Us for Drupal Development"}
+                    subheding={"Choosing Website Development Agency is basically a guarantee of getting a top-quality, innovative, and reliable service in the long run. Our team of technically skilled experts combines technical expertise with a deep understanding of the UAE market."}
                     lefttext={`<ul>
                                 <li><strong>Skilled Drupal Developers</strong> – Our developers incorporate the latest Drupal trends and design practices to engage local businesses, combining technical expertise with an understanding of UAE market expectations.</li>
                                 
@@ -183,7 +183,7 @@ const page = () => {
                 faqs={[
                     {
                         q: "How Much Does a Drupal Website Cost in The UAE?",
-                        a: "The price of a Drupal website depends on various factors like the intricacy of the design, the features, and the size of the project. At WD Agency, we offer you the price that matches your exact needs. Typically Drupal websites may range between AED 5,000 to AED 50,000 based on the complexity."
+                        a: "The price of a Drupal website depends on various factors like the intricacy of the design, the features, and the size of the project. At Website Development Agency, we offer you the price that matches your exact needs. Typically Drupal websites may range between AED 5,000 to AED 50,000 based on the complexity."
                     },
                     {
                         q: "Is Drupal Suitable for Multilingual and Multi-currency Websites in The UAE?",

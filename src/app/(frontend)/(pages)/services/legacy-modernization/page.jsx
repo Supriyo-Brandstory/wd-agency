@@ -8,7 +8,6 @@ import ContactImage from "@/app/(frontend)/assets/images/about/contact.png";
 import CommonCtaSection from "@/app/(frontend)/component/pages/common/CommonCtaSection";
 import LocationService from "@/app/(frontend)/component/pages/common/LocationService";
 import CommonWhyChoose from "@/app/(frontend)/component/pages/common/CommonWhyChoose";
-import CloudMigrationSection from "@/app/(frontend)/component/pages/services/CloudMigrationSection";
 import CloudPlatformSection from "@/app/(frontend)/component/pages/services/CloudPlatformSection";
 import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqSection";
 
@@ -33,7 +32,7 @@ const page = () => {
           <p>In Dubai’s fast-paced digital economy, legacy modernization is critical for businesses to stay competitive, agile, and innovative. By adopting modern architectures, cloud technologies, and automation, organizations can unlock new growth opportunities, improve customer experiences, and ensure long-term business continuity in a rapidly changing market.</p>
           `}
         text2={`
-          <p>WD Agency offers a comprehensive range of services designed to support businesses at every stage of their digital journey. We specialize in custom software development, enterprise solutions, cloud application development, CRM systems, and IT modernization, delivering scalable and secure technologies tailored to unique business needs.</p>
+          <p><a href="/">Website Development Agency</a> offers a comprehensive range of services designed to support businesses at every stage of their digital journey. We specialize in custom software development, enterprise solutions, cloud application development, CRM systems, and IT modernization, delivering scalable and secure technologies tailored to unique business needs.</p>
           <p>By combining industry expertise, modern technology stacks, and a commitment to quality, we ensure solutions that are future-ready, seamlessly integrated, and aligned with long-term business growth.</p>
           `}
       />
@@ -101,7 +100,7 @@ const page = () => {
 
       <CloudPlatformSection
         title="Our Legacy Modernization Services & Solutions in Dubai"
-        description="WD Agency delivers custom legacy modernization services in Dubai designed to transform outdated systems into secure, scalable, and high-performance digital platforms. Our solutions support cloud adoption, improve system agility, and ensure seamless integration while aligning technology with your business growth goals."
+        description="Website Development Agency delivers custom legacy modernization services in Dubai designed to transform outdated systems into secure, scalable, and high-performance digital platforms. Our solutions support cloud adoption, improve system agility, and ensure seamless integration while aligning technology with your business growth goals."
         platforms={[
           {
             icon: (

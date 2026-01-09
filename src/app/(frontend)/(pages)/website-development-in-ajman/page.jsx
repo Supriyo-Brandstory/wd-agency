@@ -43,17 +43,17 @@ const page = () => {
             <Banner
                 text1={"Elevate your online presence with"}
                 text2={"Web Design Agency in Ajman"}
-                text3={"We are WD Agency, the best website development agency in Ajman, UAE. Let’s create your website beyond the ordinary."}
+                text3={"We are Website Development Agency, the best website development agency in Ajman, UAE. Let’s create your website beyond the ordinary."}
             />
             <CommonAboutPage
                 text1={"Website Design Ajman – Build Your Digital Identity with Confidence"}
-                text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At WD Agency, we specialize in providing supreme website design services in Ajman to help businesses stand out, attract customers, and grow sustainably."}
+                text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At Website Development Agency, we specialize in providing supreme website design services in Ajman to help businesses stand out, attract customers, and grow sustainably."}
                 text3={"At <a href='/'>Website Development Agency</a>, we design and develop websites tailored for businesses in Ajman, blending thoughtful strategy, user-centric design, and reliable engineering. We ensure our solutions reflect the local culture and align with Ajman’s digital development objectives."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
                 text1={'Elevating Digital Experiences in Ajman'}
-                text2={'Searching for a reliable website development company in Ajman? WD Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Ajman establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
+                text2={'Searching for a reliable website development company in Ajman? Website Development Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Ajman establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
                 bg={setusimagesharjhat}
             />
             {/* rest */}
@@ -70,15 +70,15 @@ const page = () => {
                             <li>Supports long-term growth – Your website is the cornerstone for digital marketing strategies and driving sustainable business growth.</li>
                             </ul>
                             <p>
-                            When you partner with a WD Agency for your website design in Ajman, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                            When you partner with a Website Development Agency for your website design in Ajman, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
                             </p>
                     `}
                 img={sharjahAboutimg}
             />
             <CommonProtfolio/>
             <CommonThreeCard
-                text1={'Why choose WD Agency- Local Expertise, Global engineering'}
-                text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why WD Agency is the preferred partner for businesses in Abu Dhabi:"}
+                text1={'Why choose Website Development Agency- Local Expertise, Global engineering'}
+                text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Abu Dhabi:"}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAEs cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
                     { id: 2, img: FocusedApproachimage, title: 'End-to-end Services', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
@@ -108,7 +108,7 @@ const page = () => {
             />
             <CommonServices
                 theding={'Web Design in Ajman- More Than Just Aesthetics'}
-                tdesc={` <p>A successful website goes beyond visual appeal; it’s about delivering real value to users. At WD Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly while leaving a lasting impression of your brand.</p>
+                tdesc={` <p>A successful website goes beyond visual appeal; it’s about delivering real value to users. At Website Development Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly while leaving a lasting impression of your brand.</p>
                     <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
                 `}
                 bheding={'We proiritize our website design and development work with:'}
@@ -202,8 +202,8 @@ const page = () => {
                         a: "Yes, we follow secure coding practices and adhere to industry-standard security protocols to protect your website and user data."
                     },
                     {
-                        q: "Why Choose WD Agency for Web Development in Ajman?",
-                        a: "WD Agency is one of the most reputable and 5-star rated web design agency in Ajman. We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
+                        q: "Why Choose Website Development Agency for Web Development in Ajman?",
+                        a: "Website Development Agency is one of the most reputable and 5-star rated web design agency in Ajman. We combine local market understanding with modern web technologies to deliver websites that are visually appealing, functional, and aligned with your business goals and digital growth initiatives."
                     }
                 ]}
             />

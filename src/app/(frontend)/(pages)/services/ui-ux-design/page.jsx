@@ -41,17 +41,17 @@ const page = () => {
         }
       />
       <CommonIntroduction
-        heding={"Why Choose WD Agency as Your UI UX Partner in Dubai?"}
+        heding={"Why Choose Us as Your UI UX Partner in Dubai?"}
         text1={` 
           <h3>Deep Understanding of the Dubai Market</h3>
-          <p>At WD Agency, our UI UX strategies are shaped by in-depth insights into UAE user behavior, cultural sensitivity, and local market trends. We design digital experiences that align with the Dubai business ecosystem, industry expectations, and regulatory considerations ensuring relevance, trust, and usability for local audiences.</p>
+          <p>At Website Development Agency, our UI UX strategies are shaped by in-depth insights into UAE user behavior, cultural sensitivity, and local market trends. We design digital experiences that align with the Dubai business ecosystem, industry expectations, and regulatory considerations ensuring relevance, trust, and usability for local audiences.</p>
           <h3>Current Trends & Future Vision in Dubai</h3>
           <p>We stay ahead of Dubai design trends by blending global best practices with regional innovation. From the future of UI UX in the UAE to emerging technologies and interaction patterns, our team focuses on forward-thinking solutions that support long-term digital growth and innovation in digital design across Dubai.</p>
           `}
         text2={`  <h3>Our Award-Winning UI/UX Design Approach</h3>
           <p>Our user-centered design methodology is built on research, strategy, and continuous improvement. Through an iterative process and data-driven design decisions, we craft interfaces that not only look exceptional but also deliver measurable performance and user satisfaction.</p>
           <h3>Proven Track Record with Dubai Businesses</h3>
-          <p>WD Agency has partnered with businesses across Dubai and the UAE, delivering impactful UI UX solutions tailored to diverse industries. Our experience with local brands, supported by Dubai client testimonials, local success stories, and collaborations with industry leaders in the UAE, reflects our ability to create designs that drive real business outcomes.</p>
+          <p><a href="/">Website Development Agency</a> has partnered with businesses across Dubai and the UAE, delivering impactful UI UX solutions tailored to diverse industries. Our experience with local brands, supported by Dubai client testimonials, local success stories, and collaborations with industry leaders in the UAE, reflects our ability to create designs that drive real business outcomes.</p>
 
           `}
         imageintro1={imageintro1}
@@ -62,7 +62,7 @@ const page = () => {
         text2={`<h3>Factors Influencing UI UX Project Costs</h3>
           <p>UI UX design costs in Dubai vary based on multiple factors, including project scope, product complexity, and the required feature set. The level of customization, platforms involved, and the depth of research also play a role, along with the design expertise and experience needed to deliver high-quality, scalable results.</p> 
           <h3>Our Transparent Pricing Models</h3>
-          <p>At WD Agency, we follow clear and flexible pricing structures to suit different business needs. Whether it’s fixed-price projects, hourly engagement, or long-term retainers, our approach to cost estimation ensures accurate project quotes with flexible pricing so you know exactly what you’re investing in and why.</p> `}
+          <p>At Website Development Agency, we follow clear and flexible pricing structures to suit different business needs. Whether it’s fixed-price projects, hourly engagement, or long-term retainers, our approach to cost estimation ensures accurate project quotes with flexible pricing so you know exactly what you’re investing in and why.</p> `}
         bg={setusimagesabudhabi}
       />
       <CommonThreeCard
@@ -98,7 +98,7 @@ const page = () => {
             id: 5,
             img: commonimage5,
             title: "Digital Product Design Services Dubai",
-            desc: "WD Agency offers end-to-end digital product design services in Dubai, covering product strategy, MVP development, and scalable software design. From concept to launch, we help businesses transform ideas into well-designed digital products built for growth in the UAE market.",
+            desc: "Website Development Agency offers end-to-end digital product design services in Dubai, covering product strategy, MVP development, and scalable software design. From concept to launch, we help businesses transform ideas into well-designed digital products built for growth in the UAE market.",
           },
           {
             id: 6,
@@ -130,7 +130,7 @@ const page = () => {
           },
           {
             title: "Branding Agency Dubai UI UX Integration",
-            desc: "WD Agency ensures seamless integration between UI/UX and brand identity. By aligning brand consistency, digital branding, and corporate identity in Dubai, we create cohesive digital experiences that reinforce brand recognition and trust across all user touchpoints.",
+            desc: "Website Development Agency ensures seamless integration between UI/UX and brand identity. By aligning brand consistency, digital branding, and corporate identity in Dubai, we create cohesive digital experiences that reinforce brand recognition and trust across all user touchpoints.",
             img: imageService3,
             btnname: "Contact Us",
             link: "/contact-us",
@@ -206,7 +206,7 @@ const page = () => {
           {
             id: "05.",
             title: "Implementation & Launch Support",
-            description: `WD Agency works closely with development teams during development handover to ensure accurate execution. With thorough quality control and structured launch strategy, we support smooth deployment and post-launch monitoring for long-term success.`,
+            description: `Website Development Agency works closely with development teams during development handover to ensure accurate execution. With thorough quality control and structured launch strategy, we support smooth deployment and post-launch monitoring for long-term success.`,
           },
         ]}
       />
@@ -216,7 +216,7 @@ const page = () => {
           {
             id: 1,
             name: "Daniel R",
-            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
             image: imagetestimonial1,
           },
           {
@@ -239,8 +239,8 @@ const page = () => {
       <CommonFaqSection
         faqs={[
           {
-            q: "What makes WD Agency a leading UI UX design agency in Dubai?",
-            a: "WD Agency combines deep local market knowledge with a user-centered, data-driven design approach. Our understanding of Dubai’s business ecosystem, UAE user behavior, and industry-specific needs allows us to create UI UX solutions that are visually refined, culturally relevant, and aligned with measurable business outcomes.",
+            q: "What makes Website Development Agency a leading UI UX design agency in Dubai?",
+            a: "Website Development Agency combines deep local market knowledge with a user-centered, data-driven design approach. Our understanding of Dubai’s business ecosystem, UAE user behavior, and industry-specific needs allows us to create UI UX solutions that are visually refined, culturally relevant, and aligned with measurable business outcomes.",
           },
           {
             q: "How does UI UX design benefit businesses specifically in the Dubai market?",
@@ -248,7 +248,7 @@ const page = () => {
           },
           {
             q: "Do you offer mobile app UI UX design services for iOS and Android in Dubai?",
-            a: "Yes, WD Agency provides dedicated mobile app UI UX design services for both iOS and Android platforms in Dubai. Our designs follow platform-specific guidelines, consider local user behavior, and ensure smooth, intuitive experiences across devices commonly used in the UAE.",
+            a: "Yes, Website Development Agency provides dedicated mobile app UI UX design services for both iOS and Android platforms in Dubai. Our designs follow platform-specific guidelines, consider local user behavior, and ensure smooth, intuitive experiences across devices commonly used in the UAE.",
           },
           {
             q: "What is the typical cost of UI UX design services in Dubai?",
@@ -264,18 +264,18 @@ const page = () => {
           },
           {
             q: "Do you provide UI UX audit services for existing digital products in Dubai?",
-            a: "Yes, WD Agency offers comprehensive UI UX audit services for existing websites, apps, and digital platforms in Dubai. Our audits identify usability issues, conversion barriers, and improvement opportunities, supported by actionable recommendations.",
+            a: "Yes, Website Development Agency offers comprehensive UI UX audit services for existing websites, apps, and digital platforms in Dubai. Our audits identify usability issues, conversion barriers, and improvement opportunities, supported by actionable recommendations.",
           },
           {
-            q: "How does WD Agency ensure that designs are culturally relevant for users in Dubai?",
-            a: "We incorporate cultural sensitivity by researching local user expectations, language preferences, visual norms, and interaction patterns. By aligning design choices with Dubai’s diverse audience and business environment, WD Agency delivers UI UX solutions that feel familiar, trustworthy, and effective for UAE users.",
+            q: "How does Website Development Agency ensure that designs are culturally relevant for users in Dubai?",
+            a: "We incorporate cultural sensitivity by researching local user expectations, language preferences, visual norms, and interaction patterns. By aligning design choices with Dubai’s diverse audience and business environment, Website Development Agency delivers UI UX solutions that feel familiar, trustworthy, and effective for UAE users.",
           },
         ]}
       />
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Get a Free UI UX Design Consultation"
-        subtitle="Take the first step toward creating impactful digital experiences with WD Agency. Contact us today to request a quote or schedule a consultation, and discover how our UI UX expertise can help your business stand out and grow in Dubai and across the UAE."
+        subtitle="Take the first step toward creating impactful digital experiences with Website Development Agency. Contact us today to request a quote or schedule a consultation, and discover how our UI UX expertise can help your business stand out and grow in Dubai and across the UAE."
       />
     </>
   );

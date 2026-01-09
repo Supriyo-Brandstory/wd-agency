@@ -40,9 +40,9 @@ const page = () => {
              <CommonIntroduction
                 heding={'Your Trusted ReactJS Development Partner'}
                 text1={` <p>ReactJS website is the perfect way to revolutionize your online presence. We focus on creating performant, up-to-date, and interactive web applications that attract users and produce tangible business outcomes. You can count on us to deliver an innovative digital product driven with ReactJS, be it a visually appealing simple app (SPA) for your business, a complex enterprise dashboard, or a stylish website for a corporate ‍‌‍‍‌‍‌‍‍‌brand.</p>
-                    <p>At‍‌‍‍‌‍‌‍‍‌ WD Agency, we harness the power of the latest technologies along with innovation to build dynamic web applications powered by ReactJS, the most widely used front-end JavaScript library. Our pool of seasoned developers crafts user-friendly, scalable, and fast web solutions that are a perfect fit for the varied business landscape of the UAE.</p>
+                    <p>At Website Development Agency, we harness the power of the latest technologies along with innovation to build dynamic web applications powered by ReactJS, the most widely used front-end JavaScript library. Our pool of seasoned developers crafts user-friendly, scalable, and fast web solutions that are a perfect fit for the varied business landscape of the UAE.</p>
                     `}
-                text2={`  <p>We have been the digital partners of startups, SMEs, and large corporations in various sectors by facilitating the execution of their digital plans. Our developers possess in-depth knowledge of ReactJS, Redux, Next.js, TypeScript, and modern front-end frameworks, enabling them to design and build a wide range of solutions, from simple UI components to full-featured web platforms.</p>
+                text2={`  <p>At <a href="/">Website Development Agency</a>, we have been the digital partners of startups, SMEs, and large corporations in various sectors by facilitating the execution of their digital plans. Our developers possess in-depth knowledge of ReactJS, Redux, Next.js, TypeScript, and modern front-end frameworks, enabling them to design and build a wide range of solutions, from simple UI components to full-featured web platforms.</p>
                 <p>Being experienced in doing business with UAE enterprises for a long time we are confident that every project not only meets worldwide quality criteria but is also in line with your local business objectives and customer ‍‌‍‍‌‍‌‍‍‌needs.</p>
                     `}
                 imageintro1={imageintro1}
@@ -162,7 +162,7 @@ const page = () => {
             />
             <CommonWhyWebsiteDevelopment
                     heding={"Your Trusted ReactJS Development Partner in UAE"}
-                    subheding={"The‍‌‍‍‌‍‌‍‍‌ choice of a technology partner that matches your business most is the pivotal factor of business success for you. At WD Agency, we blend technical mastery, creativity, and strategic thinking to create ReactJS solutions that captivate."}
+                    subheding={"The‍‌‍‍‌‍‌‍‍‌ choice of a technology partner that matches your business most is the pivotal factor of business success for you. At Website Development Agency, we blend technical mastery, creativity, and strategic thinking to create ReactJS solutions that captivate."}
                     lefttext={`<ul>
                                 <li><strong>Proficient ReactJS Developers</strong> – Our skilled team specializes in ReactJS, Redux, Next.js, and JavaScript ES6+, building dynamic and scalable web applications that perform seamlessly across platforms.</li>
                                 

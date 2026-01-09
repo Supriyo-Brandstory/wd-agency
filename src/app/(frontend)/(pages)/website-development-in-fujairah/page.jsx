@@ -43,7 +43,7 @@ const page = () => {
     <Banner
         text1={"Elevate your online presence with"}
         text2={"Website Development Company in Fujairah"}
-        text3={"We are WD Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
+        text3={"We are Website Development Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
     />
     <CommonAboutPage
         text1={"Website Design in Fujairah- Building Digital Confidence"}
@@ -53,7 +53,7 @@ const page = () => {
     />
     <CommonSetsUs
         text1={'Elevating Digital Experiences'}
-        text2={'Searching for a reliable website development company in Fujairah? WD Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Fujairah establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
+        text2={'Searching for a reliable website development company in Fujairah? Website Development Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Fujairah establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape.'}
         bg={setusimagesharjhat}
     />
     {/* rest */}
@@ -71,7 +71,7 @@ const page = () => {
                     <li>Stay ahead of your competitors in a rapidly changing digital world.</li>
                     </ul>
                     <p>
-                    When you partner with WD Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand. We are a full-stack web design and development agency driving digital success for brands.
+                    When you partner with Website Development Agency, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand. We are a full-stack web design and development agency driving digital success for brands.
                     </p>
             `}
         img={sharjahAboutimg}
@@ -204,8 +204,8 @@ const page = () => {
                 a: "We offer free maintenance for three months after launch and ongoing support plans for updates, backups, security monitoring, and performance optimization."
             },
             {
-                q: "Why Choose WD Agency for Web Development in Fujairah?",
-                a: "WD Agency stands out as a trusted web development partner in Fujairah by combining deep local market understanding with creative design and advanced technical expertise. We focus on building websites that not only look visually appealing but also provide seamless functionality, intuitive navigation, and an engaging user experience."
+                q: "Why Choose Website Development Agency for Web Development in Fujairah?",
+                a: "Website Development Agency stands out as a trusted web development partner in Fujairah by combining deep local market understanding with creative design and advanced technical expertise. We focus on building websites that not only look visually appealing but also provide seamless functionality, intuitive navigation, and an engaging user experience."
             }
         ]}
     />

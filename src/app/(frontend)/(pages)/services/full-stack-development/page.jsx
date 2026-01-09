@@ -36,8 +36,6 @@ import python from "@/app/(frontend)/assets/images/pythonicon.svg";
 import aws from "@/app/(frontend)/assets/images/awsicon.svg";
 import mongo from "@/app/(frontend)/assets/images/mongodbicon.svg";
 import CommonDevelopmentProcess from '@/app/(frontend)/component/pages/common/CommonDevelopmentProcess'
-import CommonWhyWebsiteDevelopment from '../../../assets/style/common/CommonWhyWebsiteDevelopment'
-import imagewhydevelopment from '@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import imagetestimonial1 from '@/app/(frontend)/assets/images/testimonial/testimonial-1.webp'
 import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testimonial-2.webp'
@@ -51,28 +49,28 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Full-Stack Development Services in Dubai </br>for Scalable, Robust Web Solutions"}
-                subtitle={"At WD Agency, we are a leading full-stack web development agency in Dubai, utilizing modern</br> frontend and backend technologies to build tech-savvy websites for businesses in the UAE."}
+                subtitle={"At Website Development Agency, we are a leading full-stack web development agency in Dubai, utilizing modern</br> frontend and backend technologies to build tech-savvy websites for businesses in the UAE."}
 
             />
             <CommonIntroduction
                 heding={'Full-Stack Web Development Agency in Dubai'}
-                text1={` <p>Full-stack development seamlessly combines frontend creativity with backend strength to build dynamic, high-performing digital experiences. At WD Agency, we deliver complete end-to-end web solutions that merge elegant interfaces with robust server-side systems, ensuring speed, reliability, and scalability for your business.</p>
+                text1={` <p>Full-stack development seamlessly combines frontend creativity with backend strength to build dynamic, high-performing digital experiences. At Website Development Agency, we deliver complete end-to-end web solutions that merge elegant interfaces with robust server-side systems, ensuring speed, reliability, and scalability for your business.</p>
                     <p>Our effort is not just about writing code rather, it is the process of comprehending your business objectives, anticipating user requirements, and measuring the potential for growth. Whether it’s an elegant customer portal, a scalable online storefront, or an enterprise-grade application, we build solutions that perform seamlessly across all devices and environments without compromise.</p>
                     `}
                 text2={`  <p>By full-stack development, businesses will be able to innovate more rapidly, have lower costs, and keep the same style and vibe at every step of the customer journey. You are not required to multitask between several teams or deal with different technological requirements- we are the ones who do the hard work for you that is frontend design, backend logic, and database management.</p>
-                <p>WD Agency and our collective effort are essentially all about the creation of web solutions that are both functionally sound and future-proof. With the combination of designing, coding, and deployment in one location, we enable you to transform your applications into high-impact, efficiency-driven websites.</p>
+                <p><a href="/">Website Development Agency</a> and our collective effort are essentially all about the creation of web solutions that are both functionally sound and future-proof. With the combination of designing, coding, and deployment in one location, we enable you to transform your applications into high-impact, efficiency-driven websites.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
                 text1={'Full-Stack Solutions for Startups, SMBs, and Enterprises'}
-                text2={'At WD Agency, we understand that every organization is unique, operating in its own way and at its own stage of growth. Consequently, our full-stack development services are headed to a startup justifying its first product, small and medium businesses extending their activities, and enterprises that are digitally transforming their intricate ecosystems. </br>We build platforms that are scalable for SMBs, enabling them to automate their processes, customer engagement, and ROI to be enhanced. Our solutions are the driving force of growth and efficiency in your custom CRM, eCommerce stores, and internal management tools, bansed on your specific preferences.'}
+                text2={'At Website Development Agency, we understand that every organization is unique, operating in its own way and at its own stage of growth. Consequently, our full-stack development services are headed to a startup justifying its first product, small and medium businesses extending their activities, and enterprises that are digitally transforming their intricate ecosystems. </br>We build platforms that are scalable for SMBs, enabling them to automate their processes, customer engagement, and ROI to be enhanced. Our solutions are the driving force of growth and efficiency in your custom CRM, eCommerce stores, and internal management tools, bansed on your specific preferences.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
-                text1={'Why Choose WD Agency for Full-Stack Development'}
-                text2={"Working with WD Agency implies engagement with a crew that is all about top-notch work, honesty, and progress. We don’t merely construct the online presence of your company- we architect scalable digital ecosystems for your company which facilitate your business to prosper in the new digital economy."}
+                text1={'Why Choose Us for Full-Stack Development'}
+                text2={"Working with Website Development Agency implies engagement with a crew that is all about top-notch work, honesty, and progress. We don’t merely construct the online presence of your company- we architect scalable digital ecosystems for your company which facilitate your business to prosper in the new digital economy."}
                 boxdata={[
                     { id: 1, img: commonimage2, title: 'End-to-End Development', desc: 'From intuitive UI/UX design to robust backend architecture, we manage the entire development lifecycle. Our process ensures consistency, stability, and quality from concept to deployment.' },
                     { id: 2, img: commonimage1, title: 'Future-Ready Technologies', desc: 'We leverage cutting-edge technologies like React, Node.js, Laravel, and Vue.js to create flexible, secure, and scalable applications. Your product stays relevant and performs seamlessly as technology evolves.' },
@@ -84,17 +82,17 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Our Full-Stack Development Services in Dubai, UAE'}
-                subheding='WD Agency delivers full-stack web applications that perfectly balance technical excellence with aesthetic appeal. With every service we provide, clients can be confident that every element- from the user interface to the database.'
+                subheding='Website Development Agency delivers full-stack web applications that perfectly balance technical excellence with aesthetic appeal. With every service we provide, clients can be confident that every element- from the user interface to the database.'
                 services={[
                     {
                         title: 'Custom Web Applications',
-                        desc: 'Web applications developed by WD Agency are fully tailored to your business model, workflow, and user needs. Every line of code is crafted to deliver the functionality and results your business requires.',
+                        desc: 'Web applications developed by Website Development Agency are fully tailored to your business model, workflow, and user needs. Every line of code is crafted to deliver the functionality and results your business requires.',
                         img: imageService1,
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Responsive Web Design',
-                        desc: 'The frontend team at WD Agency develops the most engaging and user-friendly interfaces optimized for mobile devices. The mentioned are implemented via React.js, Vue.js, and Angular.',
+                        desc: 'The frontend team at Website Development Agency develops the most engaging and user-friendly interfaces optimized for mobile devices. The mentioned are implemented via React.js, Vue.js, and Angular.',
                         img: imageService2,
                         btnname: 'Contact Us',
                         link: '/contact-us',
@@ -132,10 +130,10 @@ const page = () => {
                 ]}
             />
             <CommonAboutPage2
-                text1="Expand Your Digital Capabilities with WD Agency"
+                text1="Expand Your Digital Capabilities with Website Development Agency"
                 text2={`
                             <p class="mb-20">
-                            WD Agency extends its full-stack capabilities beyond basic development to deliver comprehensive services that enable businesses to grow, streamline their processes, and progress digitally. 
+                            Website Development Agency extends its full-stack capabilities beyond basic development to deliver comprehensive services that enable businesses to grow, streamline their processes, and progress digitally. 
                             </p>
                                 <ul>
                                 <li><strong>E-commerce platforms and web stores</strong>- Custom storefronts with secure payment integration and robust backend management.</li>
@@ -148,7 +146,7 @@ const page = () => {
                                 </ul>
 
                             <p>
-                            Our knowledge of full-stack makes every digital layer scalable, secure, and high-performing. With WD Agency, you do not just get a website- it is a cutting-edge solution that stays ahead of markets and technology changes.
+                            Our knowledge of full-stack makes every digital layer scalable, secure, and high-performing. With Website Development Agency, you do not just get a website- it is a cutting-edge solution that stays ahead of markets and technology changes.
                             </p>
                     `}
                 img={Aboutimg}
@@ -173,7 +171,7 @@ const page = () => {
   />
        <CommonDevelopmentProcess
                 heding={'From Concept to Interactive Experience'}
-                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At WD Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
+                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At Website Development Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
                 processData={[
                     {
                         id: "01",
@@ -198,7 +196,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -207,30 +205,14 @@ const page = () => {
                     }
 
                     ]} />
-                                       <CommonWhyWebsiteDevelopment
-                    heding={"Benefits of Partnering with WD Agency"}
-                    subheding={"We focus on understanding your business objectives and transforming them into digital products that accelerate success. From startups to enterprises, our agile methodology ensures faster time-to-market, reduced costs, and long-term sustainability."}
-                    lefttext={`<ul>
-                                <li><End-to-end web design and development solutions from ideation to deployment.</li>
-                                
-                                <li>High-performance and scalable websites for businesses of all size.</li>
-                                
-                                <li>Secure and future-ready websites ensuring stability and growth.</li>
-                                
-                                <li>SEO and performance optimized for better visibility and speed.</li>
-                                </ul>
-                                <p>With WD Agency, you’re not just hiring developers, you’re partnering with a team committed to innovation, transparency, and measurable results. We ensure every project reflects quality, reliability, and the forward-thinking mindset your business deserves in today’s evolving digital landscape.</p>
-                            `}
-                    rightimage={imagewhydevelopment}
-
-                    />
+ 
                     <CommonIndustries />
                     <CommonClientTestimonials
                     testimonials={[
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

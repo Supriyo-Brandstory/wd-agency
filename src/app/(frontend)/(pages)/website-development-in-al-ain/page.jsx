@@ -44,17 +44,17 @@ const page = () => {
     <Banner
         text1={"Elevate your business growth with the"}
         text2={"Best Web Development Agency in Al Ain"}
-        text3={"WD Agency is your one-stop solution for web development in Al Ain, providing cutting-edge web design and development services. Since 2014, we have worked on 100+ website projects for local businesses in Al Ain, UAE."}
+        text3={"Website Development Agency is your one-stop solution for web development in Al Ain, providing cutting-edge web design and development services. Since 2014, we have worked on 100+ website projects for local businesses in Al Ain, UAE."}
     />
     <CommonAboutPage
-        text1={"Best Website Development Agency Al Ain - WD Agency"}
+        text1={"Best Website Development Agency Al Ain - Website Development Agency"}
         text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At <a href='/'>Website Development Agency</a>, our portfolio includes high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
         text3={"We transform ideas into dynamic, high-performing websites, helping businesses establish a strong digital presence. We redefine website development services in Al Ain that perfectly reflect your brand identity and appeal from top to bottom."}
         img={aboutimagealain}
     />
     <CommonSetsUs
         text1={'Redefining Digital Experiences for a Decade'}
-        text2={'Your search for a professional website development company in Al Ain ends with WD Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At WD Agency, we are transforming digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+        text2={'Your search for a professional website development company in Al Ain ends with Website Development Agency. We bring a decade of experience, web design and development expertise, and a vision to empower businesses with the best possible services.<br><br>At Website Development Agency, we are transforming digital experiences with creative web design, next-gen technology, and seamless operability- keeping your branding aligned. We ensure your website exudes professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
         bg={setusimagealain}
     />
     <CommonAboutPage2
@@ -70,14 +70,14 @@ const page = () => {
             <li>Make your business visible to potential customers looking for similar products and services</li>
             </ul>
             <p>
-            From responsive design and modern features to seamless navigation and secure hosting, WD Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web development solutions in Al Ain are tailored to meet your objectives and create a robust online impact.
+            From responsive design and modern features to seamless navigation and secure hosting, Website Development Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web development solutions in Al Ain are tailored to meet your objectives and create a robust online impact.
             </p>
         `}
         img={alainAboutimg}
     />
     <CommonProtfolio/>
     <CommonThreeCard
-        text1={'Why Choose WD Agency as Your Web Development<br/> Company in Al Ain'}
+        text1={'Why Choose Website Development Agency as Your Web Development<br/> Company in Al Ain'}
         text2={"Among many web development companies in Al Ain, we stand out with a deep understanding of local business needs, audience demographics, and the latest digital trends. When you partner with us, you get more than a website – you gain a dedicated digital partner. Here’s why businesses across Al Ain trust us:"}
         boxdata={[
             { id: 1, img: StrategicProblemSolvingimage, title: 'Visually Stunning Design', desc: 'We excel in creating visually stunning, functional, and conversion-focused websites tailored to your brand. Every design we craft delivers a perfect blend of creativity and performance.' },
@@ -91,13 +91,13 @@ const page = () => {
     <CommonApproch
         text1={"Our Approach to Web Development in Al Ain"}
         text2={`
-            <p class='mb-20'>At WD Agency, we build websites that go beyond aesthetics- combining innovation, functionality, and strategy to create digital experiences that truly engage users. Every project is designed to strengthen your brand, instill trust, and provide a seamless journey that converts visitors into loyal customers. Our website design solutions are crafted with the latest technologies and structured to perform optimally, ensuring your business stands out online.</p>
+            <p class='mb-20'>At Website Development Agency, we build websites that go beyond aesthetics- combining innovation, functionality, and strategy to create digital experiences that truly engage users. Every project is designed to strengthen your brand, instill trust, and provide a seamless journey that converts visitors into loyal customers. Our website design solutions are crafted with the latest technologies and structured to perform optimally, ensuring your business stands out online.</p>
             <p>We focus on precision in every detail, from intuitive navigation and responsive layouts to interactive elements and visually appealing designs. Whether you need an eCommerce platform, a corporate website, or an industry-specific portal, we tailor each project to your goals and audience. The result is a website that not only looks exceptional but also drives meaningful engagement, increases visibility, and supports long-term business growth.</p>
         `}
         bannerimage={approchbannerimage}
     />
     <CommonServices
-        theding={'Best Web Development Services in Al Ain - WD Agency'}
+        theding={'Best Web Development Services in Al Ain - Website Development Agency'}
         tdesc={`
             <p>The business landscape of Al Ain is rapidly going digital, making it essential for brands to create a lasting impact. As customers increasingly search, browse, and shop online, your website becomes the key touchpoint for generating valuable leads and conversions.</p>
             <p class='my-20'>As a pioneer web development agency in Al Ain, we deliver high-performance websites using the latest technology. Every website we create includes critical elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>
@@ -158,8 +158,8 @@ const page = () => {
     <CommonFaqSection
         faqs={[
             {
-                q: "Why Should I Choose WD Agency for Website Development in Al Ain?",
-                a: "WD Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Al Ain, Dubai, and the UAE."
+                q: "Why Should I Choose Website Development Agency for Website Development in Al Ain?",
+                a: "Website Development Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Al Ain, Dubai, and the UAE."
             },
             {
                 q: "What Industries Do You Design Websites for in Al Ain?",
@@ -171,7 +171,7 @@ const page = () => {
             },
             {
                 q: "How Much Does Website Development in Al Ain Cost?",
-                a: "The cost depends on the website type, design complexity, features, and timeline. WD Agency offers flexible packages to suit various business needs and budgets. Typically, website development in Al Ain starts from AED 5,000, with prices varying based on customization and functionality."
+                a: "The cost depends on the website type, design complexity, features, and timeline. Website Development Agency offers flexible packages to suit various business needs and budgets. Typically, website development in Al Ain starts from AED 5,000, with prices varying based on customization and functionality."
             },
             {
                 q: "How Long Does It Take to Develop a Website?",
@@ -195,10 +195,10 @@ const page = () => {
             },
             {
                 q: "Do You Provide Ongoing Support After The Website is Launched?",
-                a: "Yes, WD Agency offers website maintenance and support services in Al Ain to keep your website updated, secure, and running smoothly."
+                a: "Yes, Website Development Agency offers website maintenance and support services in Al Ain to keep your website updated, secure, and running smoothly."
             },
             {
-                q: "How Can I Get Started with WD Agency for Website Development in Al Ain?",
+                q: "How Can I Get Started with Website Development Agency for Website Development in Al Ain?",
                 a: "Simply reach out through our contact form or give us a call. Our team will discuss your requirements and create a tailored proposal for your website development project."
             }
         ]}

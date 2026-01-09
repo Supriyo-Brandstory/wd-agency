@@ -31,6 +31,8 @@ import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
+import DevelopmentServices from '../../component/pages/home/DevelopmentServices'
+import Team from '../../component/pages/about/Team'
 
 
 
@@ -61,12 +63,12 @@ const page = () => {
                 lefttext={`  <p>In this highly interconnected world, people have stopped buying products or services and started believing in people and their stories. You become the thought leader who forges emotional links and builds authority within your niche, by showing your path, field of knowledge, and sharing your thoughts.</p>
                         <p>Carefully designed portfolio websites are also a stepping stone to collaborations, networking, and getting paid to speak in public. It is a way for visitors to effortlessly speak about your work, get in touch with you, or schedule your events, all on one platform. Besides visibility, it serves as a seal of your consistency and reliability, showing that you are passionate about your brand.</p>
                         `}
-                righttext={`<p>WD Agency boasts of a mobile-first approach, and we make sure that your online portfolio is flawless on any and all mobile devices. Whether someone’s discovering you through their phone or laptop, your personal brand remains consistent, powerful, and polished, leaving a lasting impression that drives real opportunities.</p>
+                righttext={`<p>Website Development Agency boasts of a mobile-first approach, and we make sure that your online portfolio is flawless on any and all mobile devices. Whether someone’s discovering you through their phone or laptop, your personal brand remains consistent, powerful, and polished, leaving a lasting impression that drives real opportunities.</p>
                             `}
             />
             <CommonIndustries
                 heding={'Our Portfolio & Personal Branding Website Services'}
-                subheding='At WD Agency, we design digital identities that speak for you. Our portfolio and personal branding website services are crafted to bring your story to life through design, content, and technology, creating an immersive experience that reflects your individuality and professional journey.'
+                subheding='At Website Development Agency, we design digital identities that speak for you. Our portfolio and personal branding website services are crafted to bring your story to life through design, content, and technology, creating an immersive experience that reflects your individuality and professional journey.'
                 services={[
                     {
                         title: 'Custom Website Design',
@@ -130,7 +132,7 @@ const page = () => {
             />
             <CommonThreeCard
                 text1={'Key Features of a Strong Portfolio Website'}
-                text2={"Creating a beautifully designed site is just the start. To be truly successful in the competitive UAE ecommerce market, your website must be more than just pretty - it has to be fast, secure, easy to use, and conversion-focused. At WD Agency, we implement the features that will define your successful, modern ecommerce website in the UAE so your business will draw in visitors and convert them to customers."}
+                text2={"Creating a beautifully designed site is just the start. To be truly successful in the competitive UAE ecommerce market, your website must be more than just pretty - it has to be fast, secure, easy to use, and conversion-focused. At Website Development Agency, we implement the features that will define your successful, modern ecommerce website in the UAE so your business will draw in visitors and convert them to customers."}
                 boxdata={[
                     { id: 1, img: imagecommon1, title: 'Modern, Engaging Design', desc: 'Crafted with simplicity and sophistication, your website will feature a clean, contemporary design that highlights your individuality and creativity, keeping the spotlight on you and your work.' },
                     { id: 2, img: imagecommon3, title: 'Compelling Personal Storytelling', desc: 'An engaging “About Me” section that captures your professional journey, values, and vision, helping audiences connect with your story on a deeper, more personal level.' },
@@ -141,9 +143,10 @@ const page = () => {
                 ]}
 
             />
+            <DevelopmentServices />
             <CommonDevelopmentProcess
                 heding={'Our Website Development Process'}
-                subheding={'Every personal branding journey is unique, and so is our process. WD Agency, we apply the mix of creativity, technology, and strategy to forge a website that shows your uniqueness and delivers your worth exactly.'}
+                subheding={'Every personal branding journey is unique, and so is our process. Website Development Agency, we apply the mix of creativity, technology, and strategy to forge a website that shows your uniqueness and delivers your worth exactly.'}
                 processData={[
                     {
                         id: "01",
@@ -168,7 +171,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -183,8 +186,8 @@ const page = () => {
 
                     ]} />
                     <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Ecommerce Website Development"}
-                    subheding={"Picking the right partner to work on your personal website is undoubtedly an essential decision. WD Agency is where we integrate imagination, strategies, and technology into the layouts that are not only your own but also work at a high level. Our ambition is not simply to construct a website, but to forge a digital journey that is your signature and extends your reach."}
+                    heding={"Why Choose Website Development Agency for Ecommerce Website Development"}
+                    subheding={"Picking the right partner to work on your personal website is undoubtedly an essential decision. Website Development Agency is where we integrate imagination, strategies, and technology into the layouts that are not only your own but also work at a high level. Our ambition is not simply to construct a website, but to forge a digital journey that is your signature and extends your reach."}
                     lefttext={`<p>We don't just build tech-savvy websites but also, and most importantly, the visual storytelling, the user experience, and the lasting impact of your site. Every feature of your website represents you authentically, from the character of the voice to the visual design of it, everything is tweaked carefully to fit you. In this manner, our expertise includes consultants, artists, public speakers, authors, and entrepreneurs, which enables us to draw from a wide pool of creative thoughts for every new idea.</p>
                                 <p>From portfolio integration and media showcases to SEO-driven architecture and responsive design, every detail is optimized to elevate your visibility and influence online. We don’t just help you create a personal brand; we help you build a digital legacy that continues to grow with you.</p>
                                 <p>Transparency is a key component of our process. We will share straightforward pricing, clear timelines and assign you a project manager to provide ongoing communication. This way, you will always be updated on the work on your website, and you can focus on scaling your business while we take care of the technical side.</p>
@@ -192,12 +195,13 @@ const page = () => {
                     rightimage={imagewhydevelopment}
 
                     />
+                    <Team/>
                     <CommonClientTestimonials
                     testimonials={[
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

@@ -43,7 +43,7 @@ const page = () => {
                     <p>Our pool of certified Angular developers is well-versed in Angular, RxJS, TypeScript, and Angular CLI, which empowers us to create fast and scalable Single Page Applications (SPAs), real-time dashboards, and web portals of the highest standards for enterprises. With a focus on performance, maintainability, and seamless user experience, we ensure every application meets the evolving needs of modern businesses.</p>
                     `}
                 text2={`  <p>If you are in Dubai, Abu Dhabi, Sharjah, or anywhere in the UAE, and MNC, or a startup, we bring your web solution to life so that it performs seamlessly and has user-friendly interfaces that enhance the experience of users. Your Angular-based website will be equipped to carry out intricate business operations and increased user demands, thanks to our emphasis on speed, security, responsiveness, and scalability during development.</p>
-                <p>At WD Agency (Website Development Agency), our team is not just about Angular website development, rather, we are about fashioning digital experiences that connect people and ‍‌‍‍‌‍‌‍‍‌possibilities.</p>
+                <p>At Website Development Agency, our team is not just about Angular website development, rather, we are about fashioning digital experiences that connect people and ‍‌‍‍‌‍‌‍‍‌possibilities.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive Angular Solutions Tailored for UAE Businesses'}
-                subheding='We offer end-to-end Angular development services to help businesses in the UAE drive digital transformation with efficiency and innovation. WD Agency serves as your one-stop solution for all types of web development projects from building dynamic single-page applications to creating high-performance enterprise-grade web platforms.'
+                subheding='We offer end-to-end Angular development services to help businesses in the UAE drive digital transformation with efficiency and innovation. Website Development Agency serves as your one-stop solution for all types of web development projects from building dynamic single-page applications to creating high-performance enterprise-grade web platforms.'
                 services={[
                     {
                         title: 'Custom Angular Web Application',
@@ -160,8 +160,8 @@ const page = () => {
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Angular Website Development"}
-                    subheding={"If‍‌‍‍‌‍‌‍‍‌ you partner with WD Agency, you receive a lot more than just a website, a development partner that you can trust and who is committed to your expansion."}
+                    heding={"Why Choose Us for Angular Website Development"}
+                    subheding={"If‍‌‍‍‌‍‌‍‍‌ you partner with Website Development Agency, you receive a lot more than just a website, a development partner that you can trust and who is committed to your expansion."}
                     lefttext={`<ul>
                                 <li><strong>Proven Expertise in Angular Ecosystem</strong> – Our developers specialize in the full Angular stack, from component-based architecture and RxJS integration to advanced state management, ensuring applications that are fast, maintainable, and built to scale.</li>
                                 
@@ -183,7 +183,7 @@ const page = () => {
                 faqs={[
                     {
                         q: "How Much Does an Angular Web Application Cost in The UAE?",
-                        a: "The price varies depending on the project’s scope, features, and complexity. Typically, Angular web app development in the UAE ranges between AED 10,000 - AED 100,000. WD Agency offers flexible pricing with tailored solutions to match your specific requirements."
+                        a: "The price varies depending on the project’s scope, features, and complexity. Typically, Angular web app development in the UAE ranges between AED 10,000 - AED 100,000. Website Development Agency offers flexible pricing with tailored solutions to match your specific requirements."
                     },
                     {
                         q: "Can You Develop SPAs and Dynamic Dashboards Using Angular?",

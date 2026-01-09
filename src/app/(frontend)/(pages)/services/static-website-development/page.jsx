@@ -45,15 +45,15 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Static Website Development Services for </br>Businesses in Dubai, UAE"}
-                subtitle={"At WD Agency, we build static websites that are fast, secure, and easy to use. Our </br>solutions deliver your information clearly, helping your business communicate effectively online."}
+                subtitle={"At Website Development Agency, we build static websites that are fast, secure, and easy to use. Our </br>solutions deliver your information clearly, helping your business communicate effectively online."}
 
             />
             <CommonIntroduction
                 heding={'Simple, Fast, & Secure Websites for Every Business'}
-                text1={` <p>The success of a digital-first world is primarily determined by the trio of Speed, Security, and Simplicity. Static websites are a perfect solution for companies that want to have a powerful, reliable, and efficient digital presence without the problems typically associated with dynamic web systems. At WD Agency, our expertise lies in creating static websites that provide instant loading, offer a flawless experience on any device, and are generally safe for your visitors.</p>
+                text1={` <p>The success of a digital-first world is primarily determined by the trio of Speed, Security, and Simplicity. Static websites are a perfect solution for companies that want to have a powerful, reliable, and efficient digital presence without the problems typically associated with dynamic web systems. At Website Development Agency, our expertise lies in creating static websites that provide instant loading, offer a flawless experience on any device, and are generally safe for your visitors.</p>
                     <p>Whether you are a startup that aims to introduce its brand, a small business wishing to proudly display the range of your services, or a big company that wants to provide the necessary information about it, our static sites are not only fast and functional but also visually attractive.</p>
                     `}
-                text2={`  <p>It is our certainty and promise that every static website we create is fully optimized for search engines, is mobile-friendly, and is easy for the client to manage. With simple hosting and minimal maintenance, static sites are not only budget-friendly but also future-ready. Opting for a static website with WD Agency is equivalent to selecting performance and reliability.</p>
+                text2={`  <p>It is our certainty and promise that every static website we create is fully optimized for search engines, is mobile-friendly, and is easy for the client to manage. With simple hosting and minimal maintenance, static sites are not only budget-friendly but also future-ready. Opting for a static website with <a href="/about">Website Development Agency</a> is equivalent to selecting performance and reliability.</p>
                 <p>Our development process relies on the use of clean code, security protocols of the highest level, and optimized assets which, collectively, facilitate the meeting of modern web standards for every project. We are the ones who make the digital experiences that are the exact and professional representation of your brand.</p>
                     `}
                 imageintro1={imageintro1}
@@ -61,12 +61,12 @@ const page = () => {
             />
             <CommonSetsUs
                 text1={'Static Websites for Startups, SMBs, & Enterprises'}
-                text2={'WD Agency provides static website solutions that suit every business size and goal. We understand the needs of businesses and, therefore, we have the right solutions for you. It doesn’t matter whether you are a startup in need of a rapid launch, a small business wanting to build a trustworthy online presence, or a big enterprise presenting your corporate portfolios- we are here to help you. </br>Our team is responsible for the responsiveness, design, and the performance optimization of every site for all the browsers and devices. Moreover, our static website solutions are adaptable, scalable, and customized to your needs so that they bring you your desired results.'}
+                text2={'Website Development Agency provides static website solutions that suit every business size and goal. We understand the needs of businesses and, therefore, we have the right solutions for you. It doesn’t matter whether you are a startup in need of a rapid launch, a small business wanting to build a trustworthy online presence, or a big enterprise presenting your corporate portfolios- we are here to help you. </br>Our team is responsible for the responsiveness, design, and the performance optimization of every site for all the browsers and devices. Moreover, our static website solutions are adaptable, scalable, and customized to your needs so that they bring you your desired results.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
                 text1={'We Expertise in Simple Yet Powerful Website Design'}
-                text2={"At WD Agency, we combine creative design and technical expertise to build static websites that are both visually appealing and highly functional."}
+                text2={"At Website Development Agency, we combine creative design and technical expertise to build static websites that are both visually appealing and highly functional."}
                 boxdata={[
                     { id: 1, img: commonimage2, title: 'Fast Loading', desc: 'Every page is optimized for speed, ensuring that visitors don’t have to wait. Faster load times improve engagement, reduce bounce rates, and enhance the overall user experience.' },
                     { id: 2, img: commonimage1, title: 'Better Security', desc: 'Static websites have minimal backend operations, making them less vulnerable to hacking and other security threats. This ensures your site and visitor data remain safe and protected.' },
@@ -77,7 +77,7 @@ const page = () => {
                 ]}
             />
             <CommonAboutPage2
-                text1="Expand Your Digital Capabilities with WD Agency"
+                text1="Expand Your Digital Capabilities with Website Development Agency"
                 text2={`
                             <p class="mb-20">
                             We don't just create basic static websites, we offer additional services that improve your online presence: 
@@ -92,7 +92,7 @@ const page = () => {
                             <li><strong>Design Customization:</strong> Tailored design solutions, from pre-built templates to fully bespoke layouts, that reflect your brand’s unique identity.</li>
                             </ul>
                             <p>
-                            If you are looking for content refreshes from time to time or advanced SEO enhancements, WD Agency is there to support you with the performance of your static website at the highest level - far beyond the date of launch.
+                            If you are looking for content refreshes from time to time or advanced SEO enhancements, Website Development Agency is there to support you with the performance of your static website at the highest level - far beyond the date of launch.
                             </p>
                     `}
                 img={Aboutimg}
@@ -117,7 +117,7 @@ const page = () => {
   />
        <CommonDevelopmentProcess
                 heding={'From Concept to Interactive Experience'}
-                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At WD Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
+                subheding={'We follow agile web design methodology from idea to implementation- the treatment of accuracy and openness. At Website Development Agency, we don’t just deliver code, we deliver experiences engineered for success.'}
                 processData={[
                     {
                         id: "01",
@@ -142,7 +142,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -152,8 +152,8 @@ const page = () => {
 
                     ]} />
                     <CommonWhyWebsiteDevelopment
-                    heding={"Benefits of Partnering with WD Agency"}
-                    subheding={"When you team up with WD Agency, you get a team that is all about offering performance-driven, future-ready solutions. That is what makes us different from the others:"}
+                    heding={"Benefits of Partnering with Us"}
+                    subheding={"When you team up with Website Development Agency, you get a team that is all about offering performance-driven, future-ready solutions. That is what makes us different from the others:"}
                     lefttext={`<ul>
                                 <li><strong>Fast Loading Speeds:</strong> Our static websites are designed for near-instant loading, providing a seamless user experience that encourages visitor engagement.</li>
                                 
@@ -175,7 +175,7 @@ const page = () => {
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

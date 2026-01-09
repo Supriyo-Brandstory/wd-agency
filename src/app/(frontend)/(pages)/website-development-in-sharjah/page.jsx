@@ -42,17 +42,17 @@ const page = () => {
             <Banner
                 text1={"Most Trusted Website Design Services"}
                 text2={"Web Design in Sharjah Tailored for <br>Your Business Growth"}
-                text3={"WD Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."}
+                text3={"Website Development Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."}
             />
             <CommonAboutPage
-                text1={"Best Website Design Agency Sharjah - WD Agency"}
-                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At <a href='/'> WD Agency</a>, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
+                text1={"Best Website Design Agency Sharjah - Website Development Agency"}
+                text2={" Is your business ready for a digital transformation? We create sleek, modern, and brand-focused websites that drive real impact. At <a href='/'> Website Development Agency</a>, we have some of the top-performing websites in our portfolio that deliver high-performance, visually appealing, and SEO friendly digital powerhouses for businesses. "}
                 text3={"As a prominent player in web design in Sharjah, we serve clients across all locations, starting from Al Majaz, AI Nahda, Muwailih, and the Sharjah Industrial Area. We create some of the most refined websites that exactly reflect your brand identity from top to bottom."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
                 text1={'Redefining Digital Experiences for a Decade'}
-                text2={'Your search for a professional website development company in Sharjah ends with WD Agency. We bring in a decade of experience, web design and development expertise, and our vision to empower businesses with the best possible services.<br><br>At WD Agency, we redefine digital experiences with creative web design, next-gen technology stack, and operability- keeping your branding aligned. We ensure your website depicts professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
+                text2={'Your search for a professional website development company in Sharjah ends with Website Development Agency. We bring in a decade of experience, web design and development expertise, and our vision to empower businesses with the best possible services.<br><br>At Website Development Agency, we redefine digital experiences with creative web design, next-gen technology stack, and operability- keeping your branding aligned. We ensure your website depicts professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions.'}
                 bg={setusimagesharjhat}
             />
             <CommonAboutPage2
@@ -68,14 +68,14 @@ const page = () => {
                             <li>Enhance website performance through seamless navigation and speed</li>
                             </ul>
                             <p>
-                            Starting from <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>mobile responsive design</a>, latest features, better navigation, and secure hosting, WD Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web design solutions in Sharjah are customized to suit your objectives and help you make a robust impact online.
+                            Starting from <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>mobile responsive design</a>, latest features, better navigation, and secure hosting, Website Development Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web design solutions in Sharjah are customized to suit your objectives and help you make a robust impact online.
                             </p>
                     `}
                 img={sharjahAboutimg}
             />
             <CommonProtfolio/>
             <CommonThreeCard
-                text1={'Why Choose WD Agency as Your Web Design<br/> Company in Sharjah'}
+                text1={'Why Choose Website Development Agency as Your Web Design<br/> Company in Sharjah'}
                 text2={"Among many other web design companies in Sharjah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We are not just a website design company, we are the transformation partner for businesses supporting their digital expansion."}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Strategic Problem Solving', desc: 'We are experts in creating visually stunning, functional, and conversion-focused websites tailored to your branding. Every design we create is to deliver a perfect blend of creativity and performance.' },
@@ -83,7 +83,7 @@ const page = () => {
                     { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We build long-term relationships with clients with a commitment to deliver excellence. We work as a partner for businesses rather than an agency and work hand-in-hand to ensure growth & success. ' },
                     { id: 4, img: Transparencyimage, title: 'Transparency', desc: 'We maintain complete openness at every stage of a project, starting from pricing to the timeline of a website project. We keep you in the loop from design to deployment, no hidden charges, no hidden surprises.' },
                     { id: 5, img: TechnologyAdoptionimage, title: 'Technology Adoption', desc: 'We leverage all the latest tools, technologies, and frameworks to deliver future-ready websites. Our web solutions are designed to keep your business ahead of the digital curve with the latest available technology. ' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. WD Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. Website Development Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
                 ]}
             />
             <CommonApproch
@@ -93,7 +93,7 @@ const page = () => {
                 bannerimage={approchbannerimage}
             />
             <CommonServices
-                theding={'Best Web Design Services in Sharjah - WD Agency'}
+                theding={'Best Web Design Services in Sharjah - Website Development Agency'}
                 tdesc={` <p>The business landscape of Sharjah is growing digital, and it has become mandatory for brands to make a perpetual impact. As more customers search, browse, and shop online, your website becomes the point of contact and brings the most valuable leads and conversions.   </p>
                 <p class='my-20'>As the pioneer web design agency in Sharjah, we deliver high-performance websites utilizing the latest technology upgrades. Every website we create comes with the most important core elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>
                 `}
@@ -152,8 +152,8 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Choose WD Agency for Website Design in Sharjah?",
-                        a: "WD Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Dubai, Sharjah, and the UAE."
+                        q: "Why Should I Choose Website Development Agency for Website Design in Sharjah?",
+                        a: "Website Development Agency specializes in creating custom, user-friendly, and visually appealing websites tailored to your business goals, ensuring a strong online presence and functionality. We have 12+ years of experience working with 500+ clients across Dubai, Sharjah, and the UAE."
                     },
                     {
                         q: "What Industries Do You Design Websites for in Sharjah?",
@@ -169,7 +169,7 @@ const page = () => {
                     },
                     {
                         q: "How Much Does Website Design in Sharjah Cost?",
-                        a: "The cost depends on the type of website, design complexity, features required, and timeline. WD Agency provides flexible packages that fit different business needs and budgets. Typically, website design in Sharjah starts from AED 5,000, with prices varying based on customization and functionality."
+                        a: "The cost depends on the type of website, design complexity, features required, and timeline. Website Development Agency provides flexible packages that fit different business needs and budgets. Typically, website design in Sharjah starts from AED 5,000, with prices varying based on customization and functionality."
                     },
                     {
                         q: "How Long Does It Take to Design a Website?",
@@ -193,14 +193,14 @@ const page = () => {
                     },
                     {
                         q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
+                        a: "Yes, Website Development Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
                     },
                     {
                         q: "Do You Provide Ongoing Support After The Website is Launched?",
-                        a: "Yes, WD Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
+                        a: "Yes, Website Development Agency offers website maintenance and support services in Sharjah to keep your website updated, secure, and running smoothly."
                     },
                     {
-                        q: "How Can I Get Started with WD Agency for Website Design in Sharjah?",
+                        q: "How Can I Get Started with Website Development Agency for Website Design in Sharjah?",
                         a: "Simply reach out to us through our contact form or give us a call. Our team will discuss your requirements and create a tailored proposal for your website design project."
                     }
                 ]}

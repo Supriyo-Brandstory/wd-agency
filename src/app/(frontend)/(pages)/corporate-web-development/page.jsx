@@ -30,6 +30,8 @@ import imagetestimonial2 from '@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial3 from '@/app/(frontend)/assets/images/testimonial/testimonial-3.webp'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
+import DevelopmentServices from '../../component/pages/home/DevelopmentServices'
+import Team from '../../component/pages/about/Team'
 
 
 
@@ -38,9 +40,9 @@ const page = () => {
         <>
             <CommonBanner2
                 bg={imagebanner}
-                alt='Corporate Website Development Services - WD Agency'
+                alt='Corporate Website Development Services in Dubai Website Development Agency'
                 heding={"Corporate Website Development for </br>Growing Businesses in Dubai, UAE"}
-                subtitle={"At WD Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."}
+                subtitle={"At Website Development Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."}
 
             />
             <CommonIntroduction
@@ -49,40 +51,40 @@ const page = () => {
                     <p>The initial methods to visit the site and see the company through its website are usual when clients, investors, or business partners are about to judge it. It would be the representation of the company through a sleek, scalable, and professional website that would be the best way to let the enterprise be understood.</p>
                     `}
                 text2={`  <p>Though generic website templates may be easy to use, they seldom reflect the unique vision, the professional manner, or the procedural needs of the company's internal. They are inefficient in complex requirements of businesses, which have multiple stakeholders living in different geographical areas or industries. From multilingual customer support to high-tech security, every aspect of corporate websites demands custom-built features, which only dedicated platforms can provide.</p>
-                <p>WD Agency, as a reliable and loyal website design partner, empowers corporate companies to morph their online visibility to hardly-acquirable competitive advantages. We don’t just build websites, we craft digital ecosystems that communicate brand excellence, inspire stakeholder confidence, and open doors to new opportunities.</p>
+                <p><a href="/">Website Development Agency</a>, as a reliable and loyal website design partner, empowers corporate companies to morph their online visibility to hardly-acquirable competitive advantages. We don’t just build websites, we craft digital ecosystems that communicate brand excellence, inspire stakeholder confidence, and open doors to new opportunities.</p>
                     `}
                 imageintro1={imageintro1}
-                alt1='Corporate Website Design Services - WD Agency'
+                alt1='Corporate Website Design Services - Website Development Agency'
                 imageintro2={imageintro2}
-                alt2='Professional Corporate Website Development - WD Agency'
+                alt2='Professional Corporate Website Development - Website Development Agency'
             />
             <CommonWhyMetter
                 imagewhymetter={imagewhymetter}
-                alt='Why Corporate Businesses Need Professional Websites - WD Agency'
+                alt='Why Corporate Businesses Need Professional Websites - Website Development Agency'
                 heding={'Why Corporate Businesses Need Professional Websites'}
                 subheding={'Corporate websites in the UAE’s changing and vibrant business market serve as the first interfaces for customers, investors, and other people from the company’s network. A well-maintained online presence is more than just a good idea, it acts as the foundation of trust between the corporation and its customers. This will undoubtedly lead to future visits beyond the first.'}
                 lefttext={`  <p>A corporate website is not just about design; it’s about building trust. First of all, they represent the ones who might want to invest in the company, as well as the global partners. The way a company presents itself through the web is the first criterion on which decision-makers base their judgment.</p>
                         <p>The mobile-first websites are a must for the digitally active audience of the UAE. Common mobile habits, such as the use of small handheld devices to access corporate content, are directly linked to the importance of mobile-friendly design. When people are browsing in the same fashion, they are basically turning their mobile devices into their worldwide access point for business.</p>
                         `}
-                righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At WD Agency, we are the best <strong><a href="https://websitedevelopmentagency.ae/">web development agency</a></strong> in Dubai and the UAE helping business build brand identity with high-end and professional website design services.</p>
+                righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At Website Development Agency, we are the best <strong><a href="https://websitedevelopmentagency.ae/">web development agency</a></strong> in Dubai and the UAE helping business build brand identity with high-end and professional website design services.</p>
                             `}
             />
             <CommonIndustries
                 heding={'Our Corporate Website Development Services'}
-                subheding='At WD Agency, we understand that corporate websites must serve multiple purposes: brand building, stakeholder communication, and business growth. Our services are designed to address every aspect of corporate digital presence.'
+                subheding='At Website Development Agency, we understand that corporate websites must serve multiple purposes: brand building, stakeholder communication, and business growth. Our services are designed to address every aspect of corporate digital presence.'
                 services={[
                     {
                         title: 'Custom Website Design',
                         desc: 'We design modern websites with a focus on brand layouts that visually reflect your companys identity and professionalism. No two websites are the same, each is customized to suit your business while maintaining a professional and corporate look that resonates with your audience.',
                         img: imageService1,
-                        alt: 'Custom Corporate Website Design Services - WD Agency',
+                        alt: 'Custom Corporate Website Design Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }, {
                         title: 'Content Management Systems (CMS)',
                         desc: 'Empower your team to manage and update content quickly and easily using CMS platforms such as WordPress, Joomla, and more. Our CMS websites simplify publishing, enabling greater efficiency, collaboration, and agility across your organization.',
                         img: imageService2,
-                        alt: 'Corporate Website CMS Development Services - WD Agency',
+                        alt: 'Corporate Website CMS Development Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -90,7 +92,7 @@ const page = () => {
                         title: 'Multilingual & Multi-regional Websites',
                         desc: 'UAE businesses cater to global audiences. We design websites with multilingual and multi-regional features to expand reach and inclusivity, ensuring that your content resonates with diverse audiences across different languages and regions. ',
                         img: imageService3,
-                        alt: 'Multilingual Corporate Website Development Services - WD Agency',
+                        alt: 'Multilingual Corporate Website Development Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -98,7 +100,7 @@ const page = () => {
                         title: 'Investor Relations & CSR',
                         desc: 'Present and socialize data, reports, and environmental conscious activities through well-organized and developed investors as well as CSR portals, in this way you will win over your customers and gain their loyalty.',
                         img: imageService4,
-                        alt: 'Investor Relations & CSR Website Development Services - WD Agency',
+                        alt: 'Investor Relations & CSR Website Development Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -106,7 +108,7 @@ const page = () => {
                         title: 'Lead Capture & CRM Integration',
                         desc: 'Just as easily as you could integrate forms, chat rooms, and CRMs in order to trace, handle, and cultivate your business leads adequately, ou can also automate follow-ups, segment your audience, and track interactions in real time. ',
                         img: imageService5,
-                        alt: 'Lead Capture & CRM Integration Services - WD Agency',
+                        alt: 'Lead Capture & CRM Integration Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     },
@@ -114,7 +116,7 @@ const page = () => {
                         title: 'Mobile & Tablet Optimization',
                         desc: 'Meet the needs of the highly mobile audience in the UAE by delivering identical results on every device. Our responsive designs ensure seamless navigation, fast loading times, and consistent functionality across smartphones, tablets, and desktops.',
                         img: imageService6,
-                        alt: 'Mobile & Tablet Optimization Services - WD Agency',
+                        alt: 'Mobile & Tablet Optimization Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
 
@@ -124,7 +126,7 @@ const page = () => {
                         title: 'Maintenance & Support',
                         desc: 'Through times of change, our supporting team makes sure that your corporate website is always up-to-date, secure, and flexible enough to meet challenging demands.',
                         img: imageService8,
-                        alt: 'Corporate Website Maintenance & Support Services - WD Agency',
+                        alt: 'Corporate Website Maintenance & Support Services - Website Development Agency',
                         btnname: 'Contact Us',
                         link: '/contact-us',
                     }
@@ -134,7 +136,7 @@ const page = () => {
             />
             <CommonThreeCard
                 text1={'Key Features of a Successful Corporate Website'}
-                text2={"The foundation on which a corporate website is successful, is trust, usability, and performance. At WD Agency, we ensure every website embodies features that drive results."}
+                text2={"The foundation on which a corporate website is successful, is trust, usability, and performance. At Website Development Agency, we ensure every website embodies features that drive results."}
                 boxdata={[
                     { id: 1, img: imagecommon1, title: 'Strong Brand Identity & Consistency', desc: 'The consistency with which branding elements such as colors, typography, and layouts have been implemented, communicates professionalism and the ability to lead.' },
                     { id: 2, img: imagecommon2, title: 'Secure Hosting & Data Protection', desc: 'Given the trend of attacks on cyberspace, the use of both secure hosting and compliance with the security standards of the industry will be the key to prevention of corporate data from being compromised.' },
@@ -146,6 +148,8 @@ const page = () => {
                 ]}
 
             />
+            <DevelopmentServices />
+
             <CommonDevelopmentProcess
                 heding={'Our Corporate Website Development Process'}
                 subheding={'We apply a well-structured and client-focused strategy to achieve the desired results from corporate websites. Our process ensures that every project is carefully planned, designed, and executed to align with your business goals, target audience, and brand identity, resulting in a professional, high-performing website:'}
@@ -173,7 +177,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -188,23 +192,26 @@ const page = () => {
 
                     ]} />
                     <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Corporate Websites"}
-                    subheding={"At WD Agency, we specialize in creating corporate websites that make a lasting impact. With great knowledge of the United Arab Emirates (UAE) corporate sector, we know very well the details of creating websites that are the face of professionalism, credibility, and innovation."}
+                    heding={"Why Choose Website Development Agency for Corporate Websites"}
+                    subheding={"At Website Development Agency, we specialize in creating corporate websites that make a lasting impact. With great knowledge of the United Arab Emirates (UAE) corporate sector, we know very well the details of creating websites that are the face of professionalism, credibility, and innovation."}
                     lefttext={`<p>Our expertise spans across big businesses, medium-sized companies, and well-known international brands, thus giving us the vision to develop solutions that are not only adaptable but also capable of making it possible to increase the business progressively. </p>
                                 <p>The security of an enterprise level website is the first and foremost priority in every website security we build, thereby assuring that your online presence is protected, trustworthy, and in line with industry standards. </p>
                                 <p>Besides that, we put our emphasis on the design that adjust well to any device and that can be accessed by any device without any hiccups. This is because we always think about the various visitors to the site and want them all to have the same great experience as they access the site.</p>
                                 <p>The concept of transparency is the very essence of our method. We do things with honesty and clarity, giving you regular updates and we are not just your supplier but a member of your long-term digital partner.</p>
                             `}
                     rightimage={imagewhydevelopment}
-                    alt='Why Choose WD Agency for Corporate Website Development - WD Agency'
+                    alt='Why Choose Website Development Agency for Corporate Website Development - Website Development Agency'
 
                     />
+
+                    <Team/>
+
                     <CommonClientTestimonials
                     testimonials={[
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {
@@ -226,7 +233,7 @@ const page = () => {
                         faqs={[
                             {
                                 q: "How Much Does Corporate Website Development Cost?",
-                                a: "The cost of corporate website development depends on what features it will have (AED 5000 to AED 30000), how complicated the design is, what kind of integrations the website has, and the number of pages. The WD Agency estimates provide you with personalized quotes based on your detailed needs, which not only guarantees the return of your investment but also ensures a high-quality, scalable solution is delivered."
+                                a: "The cost of corporate website development depends on what features it will have (AED 5000 to AED 30000), how complicated the design is, what kind of integrations the website has, and the number of pages. The Website Development Agency estimates provide you with personalized quotes based on your detailed needs, which not only guarantees the return of your investment but also ensures a high-quality, scalable solution is delivered."
                             },
                             {
                                 q: "Can You Build Multilingual Websites for Global Audiences?",

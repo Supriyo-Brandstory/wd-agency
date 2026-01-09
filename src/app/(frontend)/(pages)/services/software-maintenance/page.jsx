@@ -36,14 +36,14 @@ const page = () => {
           <p>Software maintenance is a critical process that ensures applications remain reliable, secure, and efficient after deployment. It involves regular updates, performance optimization, bug fixes, security patches, and compatibility enhancements to keep software functioning smoothly as business needs and technologies evolve.</p>
           <p>Effective software maintenance helps organizations minimize downtime, extend the lifespan of their applications, and protect systems from emerging security threats. By proactively monitoring and improving software, businesses can maintain optimal performance, adapt to changing user requirements, and ensure long-term operational stability.</p>`}
         text2={`
-          <p>WD Agency provides reliable software maintenance services to ensure applications remain secure, stable, and high-performing throughout their lifecycle. We handle regular updates, bug fixes, performance optimization, and security enhancements, helping businesses keep their software running smoothly while adapting to evolving technologies and user expectations.</p>
-          <p>WD Agency’s software maintenance services help organizations extend the lifespan of their applications, maintain compliance, and achieve consistent performance that supports long-term business continuity and growth.</p>
+          <p><a href="/">Website Development Agency</a> provides reliable software maintenance services to ensure applications remain secure, stable, and high-performing throughout their lifecycle. We handle regular updates, bug fixes, performance optimization, and security enhancements, helping businesses keep their software running smoothly while adapting to evolving technologies and user expectations.</p>
+          <p>Website Development Agency’s software maintenance services help organizations extend the lifespan of their applications, maintain compliance, and achieve consistent performance that supports long-term business continuity and growth.</p>
           `}
       />
 
       <CloudServiceGrid
         title="Types of Software Maintenance We Offer"
-        description="WD Agency delivers end-to-end software maintenance services in Dubai, covering proactive and reactive support to keep applications secure, stable, and high-performing across changing business and technology environments."
+        description="Website Development Agency delivers end-to-end software maintenance services in Dubai, covering proactive and reactive support to keep applications secure, stable, and high-performing across changing business and technology environments."
         services={[
           {
             icon: (
@@ -124,7 +124,7 @@ const page = () => {
 
       <CloudPlatformSection
         title="Our Expert Software Maintenance Solutions"
-        description="WD Agency provides expert software maintenance solutions in Dubai designed to support mission-critical systems, enhance security, and ensure uninterrupted business operations across the UAE."
+        description="Website Development Agency provides expert software maintenance solutions in Dubai designed to support mission-critical systems, enhance security, and ensure uninterrupted business operations across the UAE."
         platforms={[
           {
             icon: (
@@ -246,7 +246,7 @@ const page = () => {
 
       <CommonWhyChoose
         heading="Benefits of Our Software Maintenance for Businesses"
-        subheading="WD Agency’s software maintenance services in Dubai deliver measurable business value by improving system reliability, reducing costs, and protecting critical applications across the UAE."
+        subheading="Website Development Agency’s software maintenance services in Dubai deliver measurable business value by improving system reliability, reducing costs, and protecting critical applications across the UAE."
         reasons={[
           {
             title: "Enhanced Performance & Reliability",
@@ -325,7 +325,7 @@ const page = () => {
 
       <CloudPartnerSection
         title="Why Choose Us for Software Maintenance in Dubai"
-        description="WD Agency is a trusted partner for software maintenance in Dubai, combining technical expertise, transparent processes, and local market knowledge to deliver reliable, long-term application support."
+        description="Website Development Agency is a trusted partner for software maintenance in Dubai, combining technical expertise, transparent processes, and local market knowledge to deliver reliable, long-term application support."
         reasons={[
           {
             icon: (
@@ -387,7 +387,7 @@ const page = () => {
 
       <CommonFinancialImpact
         heading="Software Maintenance Costs in Dubai"
-        subheading="WD Agency offers transparent, scalable software maintenance pricing in Dubai, designed to align with your business size, application complexity, and long-term technology goals."
+        subheading="Website Development Agency offers transparent, scalable software maintenance pricing in Dubai, designed to align with your business size, application complexity, and long-term technology goals."
         costFactors={{
           title: "Factors Influencing Software Maintenance Costs",
           description:

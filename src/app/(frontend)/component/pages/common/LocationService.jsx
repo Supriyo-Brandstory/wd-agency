@@ -89,7 +89,7 @@ const defaultLocationsList = [
 
 const LocationService = ({
   title = "Our Service Locations Across UAE",
-  description = "Looking for the best web development agency in UAE? WD Agency offers expert web design and development services across all locations. We create websites that drive results.",
+  description = "Looking for the best web development company in UAE? Website Development Agency offers expert web design and development services across all locations. We create websites that drive results.",
   locations = defaultLocationsList,
   activeLocation = "Dubai",
 }) => {

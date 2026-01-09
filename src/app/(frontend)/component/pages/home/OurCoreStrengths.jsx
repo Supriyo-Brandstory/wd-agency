@@ -83,7 +83,7 @@ const OurCoreStrengths = () => {
         viewport={{ once: true }}
       >
         <p>
-          Website Development Agency (WD Agency) harnesses visionary thinking to give your
+          Website Development Agency harnesses visionary thinking to give your
           brand a distinct edge in a fiercely competitive market. Backed by a
           diverse pool of talent and deep industry knowledge, we are committed
           to delivering the best quality solutions aligned with your business

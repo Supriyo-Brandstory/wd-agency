@@ -9,7 +9,6 @@ import CloudPlatformSection from "@/app/(frontend)/component/pages/services/Clou
 import CloudProcessSection from "@/app/(frontend)/component/pages/services/CloudProcessSection";
 import AdvancedTechSection from "@/app/(frontend)/component/pages/services/AdvancedTechSection";
 import CloudPartnerSection from "@/app/(frontend)/component/pages/services/CloudPartnerSection";
-import CloudSecuritySection from "@/app/(frontend)/component/pages/services/CloudSecuritySection";
 import LocationService from "@/app/(frontend)/component/pages/common/LocationService";
 import CommonCtaSection from "@/app/(frontend)/component/pages/common/CommonCtaSection";
 import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqSection";
@@ -25,7 +24,7 @@ const page = () => {
           "Enterprise Software Company in Dubai"
         }
         subtitle={
-          "WD Agency is a leading enterprise software development company in Dubai, delivering<br> tailor-made digital solutions that drive business efficiency, innovation, and transformation. <br>Our expert team crafts scalable, secure, and cutting-edge software designed to meet<br> the unique needs of UAE enterprises, empowering them to stay competitive."
+          "Website Development Agency is a leading enterprise software development company in Dubai, delivering<br> tailor-made digital solutions that drive business efficiency, innovation, and transformation. <br>Our expert team crafts scalable, secure, and cutting-edge software designed to meet<br> the unique needs of UAE enterprises, empowering them to stay competitive."
         }
       />
 
@@ -39,8 +38,8 @@ const page = () => {
         `}
         text2={`
           <h3>Defining Enterprise Software Solutions</h3>
-          <p>WD Agency specializes in enterprise software development, delivering robust, secure, and scalable solutions tailored to the unique requirements of large organizations. With a deep understanding of complex business ecosystems, we build custom enterprise systems that seamlessly integrate with existing infrastructure, support high-volume operations, and ensure long-term reliability.</p>
-          <p>By combining strategic planning, modern technologies, and a user-centric approach, WD Agency helps enterprises streamline workflows, enhance operational efficiency, and gain actionable insights from data. </p>
+          <p>Website Development Agency specializes in enterprise software development, delivering robust, secure, and scalable solutions tailored to the unique requirements of large organizations. With a deep understanding of complex business ecosystems, we build custom enterprise systems that seamlessly integrate with existing infrastructure, support high-volume operations, and ensure long-term reliability.</p>
+          <p>By combining strategic planning, modern technologies, and a user-centric approach, <a href="/">Website Development Agency</a> helps enterprises streamline workflows, enhance operational efficiency, and gain actionable insights from data. </p>
         `}
       />
 
@@ -127,7 +126,7 @@ const page = () => {
 
       <CloudPlatformSection
         title="Our Comprehensive Enterprise Software Development Services in Dubai"
-        description="At WD Agency, we provide a full spectrum of enterprise software solutions designed to streamline operations, enhance productivity, and foster innovation."
+        description="At Website Development Agency, we provide a full spectrum of enterprise software solutions designed to streamline operations, enhance productivity, and foster innovation."
         platforms={[
           {
             icon: (
@@ -350,7 +349,7 @@ const page = () => {
 
       <AdvancedTechSection
         title="Driving Digital Transformation & Systems Adoption in the UAE"
-        description="At WD Agency, we help Dubai organizations navigate the complexities of digital change, ensuring that new systems are not just implemented, but fully adopted and optimized for long-term growth."
+        description="At Website Development Agency, we help Dubai organizations navigate the complexities of digital change, ensuring that new systems are not just implemented, but fully adopted and optimized for long-term growth."
         technologies={[
           {
             tag: "Roadmap",
@@ -413,7 +412,7 @@ const page = () => {
 
       <CloudPartnerSection
         title="Why Choose Us as Your Leading Dubai Enterprise Software Partner?"
-        description="Selecting the right development partner is crucial for the success of your digital initiatives. WD Agency brings a unique blend of local expertise and global technical standards to every project."
+        description="Selecting the right development partner is crucial for the success of your digital initiatives. Website Development Agency brings a unique blend of local expertise and global technical standards to every project."
         reasons={[
           {
             icon: (
@@ -555,7 +554,7 @@ const page = () => {
           },
           {
             q: "How do you ensure the security and scalability of enterprise software developed for the Dubai market?",
-            a: "WD Agency implements industry-standard security protocols, encrypted data storage, and role-based access controls, while designing scalable architectures that grow with your business, ensuring reliable performance as operations expand.",
+            a: "Website Development Agency implements industry-standard security protocols, encrypted data storage, and role-based access controls, while designing scalable architectures that grow with your business, ensuring reliable performance as operations expand.",
           },
           {
             q: "What industries in Dubai benefit most from custom enterprise software solutions?",
@@ -563,7 +562,7 @@ const page = () => {
           },
           {
             q: "What are the unique regulatory challenges for enterprise software in Dubai?",
-            a: "Dubai enterprises must comply with data privacy laws, cybersecurity standards, and sector-specific regulations. WD Agency ensures all software solutions adhere to local compliance requirements while maintaining operational efficiency.",
+            a: "Dubai enterprises must comply with data privacy laws, cybersecurity standards, and sector-specific regulations. Website Development Agency ensures all software solutions adhere to local compliance requirements while maintaining operational efficiency.",
           },
           {
             q: "Can you develop custom software for the logistics and supply chain sector in Dubai?",
@@ -571,7 +570,7 @@ const page = () => {
           },
           {
             q: "What types of ERP solutions do you offer for businesses in Dubai?",
-            a: "WD Agency provides full-suite ERP systems, including finance, HR, inventory, CRM, procurement, and operations management modules, all customized to the specific needs of Dubai enterprises.",
+            a: "Website Development Agency provides full-suite ERP systems, including finance, HR, inventory, CRM, procurement, and operations management modules, all customized to the specific needs of Dubai enterprises.",
           },
           {
             q: "Why is legacy system modernization important for Dubai enterprises?",
@@ -603,11 +602,11 @@ const page = () => {
           },
           {
             q: "Do you specialize in enterprise mobile app development for the banking sector in Dubai?",
-            a: "Yes. WD Agency develops secure, compliant mobile banking applications for Dubai’s financial institutions, with features such as mobile payments, account management, and real-time analytics.",
+            a: "Yes. Website Development Agency develops secure, compliant mobile banking applications for Dubai’s financial institutions, with features such as mobile payments, account management, and real-time analytics.",
           },
           {
             q: "What is the average cost of enterprise software development in Dubai?",
-            a: "Costs vary based on project complexity, features, integrations, and support requirements. WD Agency provides transparent pricing with detailed proposals after thorough requirement analysis.",
+            a: "Costs vary based on project complexity, features, integrations, and support requirements. Website Development Agency provides transparent pricing with detailed proposals after thorough requirement analysis.",
           },
           {
             q: "How do Smart Dubai initiatives influence enterprise software demand?",
@@ -623,7 +622,7 @@ const page = () => {
       <CommonCtaSection
         imageUrl={ContactImage}
         title="Elevate Your Enterprise with Custom Software Solutions"
-        subtitle="Ready to transform your business operations with scalable, secure, and cutting-edge enterprise software? Contact WD Agency today for a free consultation and let's build the future of your organization together in Dubai."
+        subtitle="Ready to transform your business operations with scalable, secure, and cutting-edge enterprise software? Contact Website Development Agency today for a free consultation and let's build the future of your organization together in Dubai."
       />
     </>
   );

@@ -45,28 +45,28 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Dynamic Website Development Services for </br>Scalable Web Solutions"}
-                subtitle={"At WD Agency, we build feature-rich, responsive, and dynamic websites in Dubai,</br> UAE that adapt to your users and business needs."}
+                subtitle={"At Website Development Agency, we build feature-rich, responsive, and dynamic websites in Dubai,</br> UAE that adapt to your users and business needs."}
 
             />
             <CommonIntroduction
                 heding={'Dynamic Websites that Captivate and Convert'}
-                text1={` <p>Dynamic websites enable your data to get updated depending on user behavior, inputs, and backend data, thus generating highly interactive experiences. At WD Agency, we build strong, scalable, and visually attractive dynamic websites which in turn lead to user engagement, conversions, and business growth.</p>
+                text1={` <p>Dynamic websites enable your data to get updated depending on user behavior, inputs, and backend data, thus generating highly interactive experiences. At Website Development Agency, we build strong, scalable, and visually attractive dynamic websites which in turn lead to user engagement, conversions, and business growth.</p>
                     <p>Dynamic websites offer personalized experiences that do not let the users disengage. Such sites also work with databases, APIs, and other applications, which means that your platform will always be relevant and remain updated. Whether it is through publishing fresh content, updating the shelves, or handling user interactions, our solutions make the process less tedious and more efficient.</p>
                     `}
                 text2={`  <p>We implement the latest technologies, including React, Angular, and Node.js, to design scalable, high-performance platforms. All websites are prepared to manage complicated data structures and large numbers of visitors without sacrificing their speed or stability. By availing our services, you don’t just get a website, you get a digital ecosystem that adapts to user interactions, grows with your audience, and delivers seamless, high-performance experiences.</p>
-                <p>We believe your website should be more than just an online presence, it should be an evolving platform that engages users, adapts to their needs, and continuously enhances their experience.</p>
+                <p>At <a href="/">Website Development Agency</a>, we believe your website should be more than just an online presence, it should be an evolving platform that engages users, adapts to their needs, and continuously enhances their experience.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
                 text1={'Dynamic Websites for Startups, SMBs, and Enterprises'}
-                text2={'If you are a startup creating your first digital product or an established enterprise that manages high-traffic portals, WD Agency offers dynamic website development that is suitable for your scale and objectives. We design & develop flexible architectures that are also compatible with changing requirements and encourage long-term growth. </br>We follow an agile website development approach for website development, which is the main advantage of our service for new businesses, as it allows them to start quickly and verify their ideas without sacrificing quality. Besides, for small and medium businesses, we create websites that are cost-effective and content-rich websites.'}
+                text2={'If you are a startup creating your first digital product or an established enterprise that manages high-traffic portals, Website Development Agency offers dynamic website development that is suitable for your scale and objectives. We design & develop flexible architectures that are also compatible with changing requirements and encourage long-term growth. </br>We follow an agile website development approach for website development, which is the main advantage of our service for new businesses, as it allows them to start quickly and verify their ideas without sacrificing quality. Besides, for small and medium businesses, we create websites that are cost-effective and content-rich websites.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
                 text1={'We Build Dynamic & Interactive Websites</br> That Adapt and Perform'}
-                text2={"When you engage with WD Agency, you essentially get a whole team of people whose work is to create websites that captivate, expand, and have great performance."}
+                text2={"When you engage with Website Development Agency, you essentially get a whole team of people whose work is to create websites that captivate, expand, and have great performance."}
                 boxdata={[
                     { id: 1, img: commonimage2, title: 'Value-packed Interaction', desc: 'Every page is optimized for speed, ensuring that visitors do not have to wait. Faster load times improve engagement, reduce bounce rates, and enhance the overall user experience.' },
                     { id: 2, img: commonimage1, title: 'Expandable Organization', desc: 'A scalable plan that allows for more visitors, content, and data without changing the site’s core functionality. Whether your traffic spikes or your content library grows, your website remains fast without extra development costs.' },
@@ -77,10 +77,10 @@ const page = () => {
                 ]}
             />
             <CommonAboutPage2
-                text1="Expand Your Digital Capabilities with WD Agency"
+                text1="Expand Your Digital Capabilities with Us"
                 text2={`
                             <p class="mb-20">
-                            At WD Agency, our work doesn’t stop at website launch- we continuously monitor, optimize, and enhance your website to ensure it remains competitive, examine core functionalities, and deliver the best user experience. 
+                            At Website Development Agency, our work doesn’t stop at website launch- we continuously monitor, optimize, and enhance your website to ensure it remains competitive, examine core functionalities, and deliver the best user experience. 
                             </p>
                             <ul>
                             <li><strong>Continuous Data Adaptation:</strong> Your website can automatically update content based on user behavior, backend data, or real-time inputs, keeping your platform relevant and engaging.</li>
@@ -92,7 +92,7 @@ const page = () => {
                             <li><strong>API & Integration Ready:</strong> Easily connect with third-party services, CRMs, and databases to pull live data and enhance user experience.</li>
                             </ul>
                             <p>
-                            With WD Agency, dynamic websites adapt content and functionality in real-time to deliver personalized, engaging experiences for every user.
+                            With Website Development Agency, dynamic websites adapt content and functionality in real-time to deliver personalized, engaging experiences for every user.
                             </p>
                     `}
                 img={Aboutimg}
@@ -142,7 +142,7 @@ const page = () => {
                     {
                         id: "05",
                         title: "Testing & QA",
-                        description: `Prior to launch, the WD Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+                        description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
                     },
                     {
                         id: "06",
@@ -153,7 +153,7 @@ const page = () => {
                     ]} />
                     <CommonWhyWebsiteDevelopment
                     heding={"Why Our Dynamic Website Services Stand Out"}
-                    subheding={"If you choose to work with WD Agency, you will be collaborating with a team that creatively combines innovation, technology, and strategy to create dynamic websites that attract measurable results."}
+                    subheding={"If you choose to work with Website Development Agency, you will be collaborating with a team that creatively combines innovation, technology, and strategy to create dynamic websites that attract measurable results."}
                     lefttext={`<ul>
                                 <li><strong>Interactive User Experience:</strong> We make websites that can respond smartly to what users do with the help of the features such as real-time data updates, animations, and personalized recommendations.</li>
                                 
@@ -164,7 +164,7 @@ const page = () => {
                                 <li><strong>Secure & Reliable Infrastructure:</strong> We use encryption, SSL, and secure APIs. Regular updates, vulnerability scanning, and maintenance combine with these measures to ensure your website is always secure and stable.</li>
                                 </ul>
 
-                                <p>WD Agency feels proud of not only building you a website but also creating digital living ecosystems that are geared to evolve, engage, and accomplish with the growth of your business.</p>
+                                <p>Website Development Agency feels proud of not only building you a website but also creating digital living ecosystems that are geared to evolve, engage, and accomplish with the growth of your business.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -175,7 +175,7 @@ const page = () => {
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

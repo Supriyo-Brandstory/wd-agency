@@ -43,17 +43,17 @@ const page = () => {
             <Banner
                 text1={"designed to impress, engineered to perform"}
                 text2={"Best Web Development Agency in Ras Al Khaimah"}
-                text3={"At WD Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
+                text3={"At Website Development Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
             />
             <CommonAboutPage
                 text1={"Web Design in Ras Al Khaimah- Engineered to Impress & Perform"}
-                text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At <a href='/'>WD Agency</a>, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
+                text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At <a href='/'>Website Development Agency</a>, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
                 text3={"Our team combines creativity, technical expertise, and market standards to craft websites that not only look stunning but also perform seamlessly. We focus on building user-friendly interfaces, optimized loading speeds, and conversion-driven layouts that reflect your brand’s values."}
                 img={aboutimagesharjhat}
             />
             <CommonSetsUs
                 text1={'Building Digital Future of Ras Al Khaimah'}
-                text2={'Your search for a trusted website development company in Ras Al Khaimah ends with WD Agency. With over a decade of proven experience, we specialize in crafting websites that balance creativity, technology, and business purpose to help RAK-based brands grow online.<br><br>At WD Agency, we focus on creating websites that reflect your brand’s personality while ensuring smooth functionality and measurable performance. Our approach combines modern design principles, powerful development frameworks, and an understanding of Ras Al Khaimah’s evolving business landscape.'}
+                text2={'Your search for a trusted website development company in Ras Al Khaimah ends with Website Development Agency. With over a decade of proven experience, we specialize in crafting websites that balance creativity, technology, and business purpose to help RAK-based brands grow online.<br><br>At Website Development Agency, we focus on creating websites that reflect your brand’s personality while ensuring smooth functionality and measurable performance. Our approach combines modern design principles, powerful development frameworks, and an understanding of Ras Al Khaimah’s evolving business landscape.'}
                 bg={setusimagesharjhat}
             />
             <CommonAboutPage2
@@ -70,14 +70,14 @@ const page = () => {
                             <li>Outpace your competitors in a growing digital landscape</li>
                             </ul>
                             <p>
-                            At WD Agency, our web design services are developed with attention to performance metrics while creating a visually appealing website that drives conversion and growth.
+                            At Website Development Agency, our web design services are developed with attention to performance metrics while creating a visually appealing website that drives conversion and growth.
                             </p>
                     `}
                 img={sharjahAboutimg}
             />
             <CommonProtfolio/>
             <CommonThreeCard
-                text1={'Why Choose WD Agency for Website <br/>Design Services'}
+                text1={'Why Choose Website Development Agency for Website <br/>Design Services'}
                 text2={"Among many other web design companies in Ras Al Khaimah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We’re more than just a website design company- we’re a digital transformation partner dedicated to helping businesses expand and thrive online."}
                 boxdata={[
                     { id: 1, img: StrategicProblemSolvingimage, title: 'Proven Experience', desc: 'We have years of documented successful projects with numerous industries. Our extensive portfolio demonstrates our ability to adapt to different business needs and deliver impactful digital solutions.' },
@@ -85,12 +85,12 @@ const page = () => {
                     { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We foster long-term partnerships with our clients, driven by a commitment to excellence. Rather than just acting as a service provider, we collaborate closely with businesses, working hand-in-hand to support their growth.' },
                     { id: 4, img: Transparencyimage, title: 'Full Transparency', desc: 'We ensure full transparency throughout every phase of your website project- from pricing to timelines. You’ll be informed at every step, from design to deployment, with no hidden costs or unexpected surprises.' },
                     { id: 5, img: TechnologyAdoptionimage, title: 'Scalable Technology', desc: 'We utilize the latest tools, technologies, and frameworks to create websites that are ready for the future. Our web solutions are crafted to keep your business at the forefront of the digital landscape.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. WD Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. Website Development Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
                 ]}
             />
             <CommonApproch
                 text1={"Web Design Agency Ras Al Khaimah- Your Partner in Growth"}
-                text2={` <p  class='mb-20'>Your website is the cornerstone of your online success. At WD Agency, we combine creativity, technology, and strategy to create a website that is not only unique but also scalable to grow alongside your business. We focus on delivering user-friendly interfaces, fast-loading pages, and seamless navigation to ensure an engaging digital experience for every visitor.</p>
+                text2={` <p  class='mb-20'>Your website is the cornerstone of your online success. At Website Development Agency, we combine creativity, technology, and strategy to create a website that is not only unique but also scalable to grow alongside your business. We focus on delivering user-friendly interfaces, fast-loading pages, and seamless navigation to ensure an engaging digital experience for every visitor.</p>
                      <p>From start-ups to established businesses, we are honored to help companies in Ras Al Khaimah embrace the digital future with confidence. Our goal is to ensure every website we build drives engagement, builds trust, and delivers measurable results. With a focus on responsive design, SEO optimization, and secure coding practices, we ensure your website not only looks professional but also performs flawlessly across devices.</p>`}
                 bannerimage={approchbannerimage}
             />
@@ -191,8 +191,8 @@ const page = () => {
                         a: "We work with leading technologies such as WordPress, Shopify, Magento, React, and custom CMS solutions, depending on the project requirements and scalability goals."
                     },
                     {
-                        q: "Why Should Businesses in Ras Al Khaimah Choose WD Agency?",
-                        a: "WD Agency combines local market understanding, creative design, and technical expertise to deliver high-performing websites. Our team ensures every project reflects your brand identity, drives engagement, and supports long-term business growth."
+                        q: "Why Should Businesses in Ras Al Khaimah Choose Website Development Agency?",
+                        a: "Website Development Agency combines local market understanding, creative design, and technical expertise to deliver high-performing websites. Our team ensures every project reflects your brand identity, drives engagement, and supports long-term business growth."
                     }
                 ]}
             />

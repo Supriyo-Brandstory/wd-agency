@@ -39,10 +39,10 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'Shopify Website Development Services'}
-                text1={` <p>An online store is not just a website- it is your brand's digital storefront and the first impression your customers get. At WD Agency, we are experts in Shopify website development, assisting businesses in designing, developing, and optimizing robust e-commerce experiences that attract sales and brand loyalty.</p>
-                    <p>It does not matter if you are starting a new store or growing your existing business, our certified Shopify developers in Dubai create the perfect solution for you that is a great mix of creativity, functionality, and ‍‌‍‍‌‍‌‍‍‌performance. At WD Agency, we create intuitive Shopify stores for major brands as well as e-commerce startups across the region.</p>
+                text1={` <p>An online store is not just a website- it is your brand's digital storefront and the first impression your customers get. At Website Development Agency, we are experts in Shopify website development, assisting businesses in designing, developing, and optimizing robust e-commerce experiences that attract sales and brand loyalty.</p>
+                    <p>It does not matter if you are starting a new store or growing your existing business, our certified Shopify developers in Dubai create the perfect solution for you that is a great mix of creativity, functionality, and ‍‌‍‍‌‍‌‍‍‌performance. At Website Development Agency, we create intuitive Shopify stores for major brands as well as e-commerce startups across the region.</p>
                     `}
-                text2={`  <p>By‍‌‍‍‌‍‌‍‍‌ harnessing a talented team well-versed in e-commerce trends and armed with technical know-how, WD Agency, a reputed Shopify development company in the UAE, delivering next-level e-commerce solutions. Our team riffs technical skills along with an inside knowledge of e-commerce trends to invent Shopify stores that change the traffic into loyal purchasers.</p>
+                text2={`  <p>By‍‌‍‍‌‍‌‍‍‌ harnessing a talented team well-versed in e-commerce trends and armed with technical know-how, Website Development Agency, a reputed Shopify development company in the UAE, delivering next-level e-commerce solutions. Our team riffs technical skills along with an inside knowledge of e-commerce trends to invent Shopify stores that change the traffic into loyal purchasers.</p>
                 <p>We are proficient in Shopify, Shopify Plus development, providing a wide range of scalable solutions to startups, SMEs, and large e-commerce businesses. Our stores are made to look great and function at a high level, through the elegant custom themes, smooth payment integration, and support, which we take care of.</p>
                     `}
                 imageintro1={imageintro1}
@@ -60,7 +60,7 @@ const page = () => {
             />
             <CommonIndustries
                 heding={'Comprehensive Shopify Solutions Tailored for Businesses'}
-                subheding='We‍‌‍‍‌‍‌‍‍‌ at WD Agency offer a complete range of Shopify services that are aimed at helping your brand to succeed online. Our solutions are made to be quick, adaptable, and technologically advanced.'
+                subheding='We at Website Development Agency offer a complete range of Shopify services that are aimed at helping your brand to succeed online. Our solutions are made to be quick, adaptable, and technologically advanced.'
                 services={[
                     {
                         title: 'Custom Shopify Development',
@@ -161,8 +161,8 @@ const page = () => {
                 ]}
             />
             <CommonWhyWebsiteDevelopment
-                    heding={"Why Choose WD Agency for Shopify Website Development"}
-                    subheding={"The‍‌‍‍‌‍‌‍‍‌ right development partner might be a defining factor for your e-commerce success. Here reflect the reasons of UAE businesses to cooperate with WD Agency:"}
+                    heding={"Why Choose Us for Shopify Website Development"}
+                    subheding={"The‍‌‍‍‌‍‌‍‍‌ right development partner might be a defining factor for your e-commerce success. Here reflect the reasons of UAE businesses to cooperate with Website Development Agency:"}
                     lefttext={`<ul>
                                 <li><strong>Experienced Shopify Developers</strong> – We are a certified team of experts who are fully knowledgeable about Shopify- from Liquid code to app integration.</li>
                                 
@@ -184,7 +184,7 @@ const page = () => {
             <CommonFaqSection
                 faqs={[
                     {
-                        q: "Why Should I Hire a Local Abu Dhabi Agency Like WD Agency Instead of Outsourcing Overseas?",
+                        q: "Why Should I Hire a Local Abu Dhabi Agency Like Website Development Agency Instead of Outsourcing Overseas?",
                         a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound."
                     },
                     {

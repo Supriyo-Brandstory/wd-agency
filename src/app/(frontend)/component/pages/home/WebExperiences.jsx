@@ -21,9 +21,9 @@ const Webexperiences = ({ content }) => {
     topSection: {
       title: "Best Website Development Agency - Crafting Next-Gen Web Experiences",
       descriptions: [
-        "At WD Agency, we don’t just create websites, we are here to shape your digital identity that defines your brand. From artistic precision to innovation, our team creates custom websites that stand out in today’s cluttered digital landscape. We take each project as a fresh canvas where we blend flair, clarity, responsiveness, and cross-platform adaptability.",
+        "At Website Development Agency, we don’t just create websites, we are here to shape your digital identity that defines your brand. From artistic precision to innovation, our team creates custom websites that stand out in today’s cluttered digital landscape. We take each project as a fresh canvas where we blend flair, clarity, responsiveness, and cross-platform adaptability.",
         "We have expert designers and developers who bring unmatched web design and development skills. We engineer the best websites that serve a purpose, guiding users effortlessly with quick and easy navigation.",
-        "We believe a website is more than just a digital platform, it is your brand’s voice and the foundation of your business. From wireframing and design to development and launch, we handle every phase with precision and attention to detail. At WD Agency, our approach is future-focused, ensuring your brand stays relevant while staying aligned with customer expectations."
+        "We believe a website is more than just a digital platform, it is your brand’s voice and the foundation of your business. From wireframing and design to development and launch, we handle every phase with precision and attention to detail. At Website Development Agency, our approach is future-focused, ensuring your brand stays relevant while staying aligned with customer expectations."
       ],
       image: imgwebexprience,
       alt: "Best Website Development Agency - Crafting Next-Gen Web Experiences"
@@ -43,7 +43,7 @@ const Webexperiences = ({ content }) => {
     middleSection2: {
       title: "Our Web Design & Development Services Include",
       image: woman2,
-      alt: "WD Agency is The Best Web Design Agency in Dubai, UAE",
+      alt: "Website Development Agency is The Best Web Design Agency in Dubai, UAE",
       points: [
         { title: "Uncompromised Creativity:", desc: "Pages that reflect your brand while offering smooth navigation and responsive layouts." },
         { title: "Prototyping & Wireframes:", desc: "Visuals that preview the user journey and encourage creative iterations." },

@@ -51,7 +51,7 @@ const DevelopmentServices = () => {
    <CommonIndustries
    btnname="Contact for Quote"
    btnlink="/contact-us"
-   heding="Our Website Design & Development Services"
+   heding="Our Website Design & Development Types"
    services={services}
     />
   )

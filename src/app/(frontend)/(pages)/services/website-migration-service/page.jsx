@@ -32,23 +32,23 @@ const page = () => {
             <CommonBanner2
                 bg={imagebanner}
                 heding={"Website Migration Services in Dubai for </br>Smooth, Secure Transitions"}
-                subtitle={"Experience hassle-free website migration in Dubai with WD Agency. We ensure your website </br>moves seamlessly to a new platform or server, keeping your data safe, & performance intact."}
+                subtitle={"Experience hassle-free website migration in Dubai with Website Development Agency. We ensure your website </br>moves seamlessly to a new platform or server, keeping your data safe, & performance intact."}
 
             />
             <CommonIntroduction
                 heding={'Website Migration for Uninterrupted Online Success'}
                 text1={` <p>Website migration is an essential move for online businesses that want to raise their digital profile, improve performance, or adopt modern platforms. If you’re transferring to a new CMS, changing your domain, or moving to a different hosting environment, a migration that is done right will keep your business operations running without any downtime and your SEO efforts safe.</p>
-                    <p>At WD Agency, we realize that a migration is not only about relocating files, but it is also about keeping the brand and the digital identity the same. Our professionals don’t leave anything to chance and they plan down to the smallest detail the entire process, they check the structure, data, and the content of your site to make sure that everything is going to be transferred perfectly.</p>
+                    <p>At Website Development Agency, we realize that a migration is not only about relocating files, but it is also about keeping the brand and the digital identity the same. Our professionals don’t leave anything to chance and they plan down to the smallest detail the entire process, they check the structure, data, and the content of your site to make sure that everything is going to be transferred perfectly.</p>
                     `}
                 text2={`  <p>We do not forget to keep SEO at the center point by doing proper redirects, changing metadata, and protecting rankings. Our strategy is that organic traffic does not reduce, and users get the same experience.</p>
-                <p>If you were scaling your business, changing the website structure, or modernizing your digital ecosystem, the flawless migration we perform would be the guarantee that your growth is not stopped. With WD Agency, it is not just a move that you do with your website, it is a lift to make it perform better, be more reliable, and have success that lasts.</p>
+                <p>If you were scaling your business, changing the website structure, or modernizing your digital ecosystem, the flawless migration we perform would be the guarantee that your growth is not stopped. With Website Development Agency, it is not just a move that you do with your website, it is a lift to make it perform better, be more reliable, and have success that lasts.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}
             />
             <CommonSetsUs
                 text1={'Website Migration Services for Startups, SMBs, & Enterprises'}
-                text2={'WD Agency is customer-centric and uses the most suitable techniques for a website migration, irrespective of the business size. Our team ensures a smooth, fast, and secure website migration, handling all aspects of the process so your site remains fully functional and uninterrupted.<br> </br>We cut out unnecessary steps and get you directly to your goals if you are a startup upgrading your platform or need to transfer your domain. Thus, you get to focus on the growth of your business, while we take care of the technical aspects.'}
+                text2={'Website Development Agency is customer-centric and uses the most suitable techniques for a website migration, irrespective of the business size. Our team ensures a smooth, fast, and secure website migration, handling all aspects of the process so your site remains fully functional and uninterrupted.<br> </br>We cut out unnecessary steps and get you directly to your goals if you are a startup upgrading your platform or need to transfer your domain. Thus, you get to focus on the growth of your business, while we take care of the technical aspects.'}
                 bg={setusimagesabudhabi}
             />
             <CommonThreeCard
@@ -65,7 +65,7 @@ const page = () => {
             />
              <CommonDevelopmentProcess
                 heding={'Website Migration Services for Businesses'}
-                subheding={'WD Agency provides the full spectrum of website migration services in Dubai to meet the specific needs of your business. Our method is a combination of careful planning, cutting-edge technologies, and technical accuracy to guarantee a hand-off that is smooth and without any loss of data or drop in ranking in search results.'}
+                subheding={'Website Development Agency provides the full spectrum of website migration services in Dubai to meet the specific needs of your business. Our method is a combination of careful planning, cutting-edge technologies, and technical accuracy to guarantee a hand-off that is smooth and without any loss of data or drop in ranking in search results.'}
                 processData={[
                     {
                         id: "01",
@@ -101,10 +101,10 @@ const page = () => {
                     ]} />
 
             <CommonAboutPage2
-                text1="Best Website Migration Agency in Dubai </br>WD Agency"
+                text1="Best Website Migration Agency in Dubai"
                 text2={`
                             <p class="mb-20">
-                            Moving data is only one part of a successful migration- the main goal is to ensure long-term stability and peak performance. WD Agency picks up from where the basics leave off by offering a suite of additional services that make your website migration process better. 
+                            Moving data is only one part of a successful migration- the main goal is to ensure long-term stability and peak performance. Website Development Agency picks up from where the basics leave off by offering a suite of additional services that make your website migration process better. 
                             </p>
                             <ul>
                             <li><strong>Pre-Migration Analysis:</strong> Our team evaluates site architecture which helps in spotting potential problems and drafting a tailor-made migration plan.</li>
@@ -116,7 +116,7 @@ const page = () => {
                             <li><strong>Maintenance & Support:</strong> We provide uninterrupted monitoring, bug fixes, and optimization services to keep your website running smoothly.</li>
                             </ul>
                             <p>
-                            WD Agency is your go-to website migration service provider in the UAE, taking you beyond the finish line of your migration process to the point where it’s flawless.
+                            Website Development Agency is your go-to website migration service provider in the UAE, taking you beyond the finish line of your migration process to the point where it’s flawless.
                             </p>
                     `}
                 img={Aboutimg}
@@ -124,7 +124,7 @@ const page = () => {
       
                     <CommonWhyWebsiteDevelopment
                     heding={"Why Choose Our Website Migration Services"}
-                    subheding={"Migrating your website is more than just transferring data, it’s about preserving your digital identity, performance, and search visibility. WD Agency ensures every aspect of your migration is handled with precision, security, and strategy. Here’s why businesses trust us for their website transitions:"}
+                    subheding={"Migrating your website is more than just transferring data, it’s about preserving your digital identity, performance, and search visibility. Website Development Agency ensures every aspect of your migration is handled with precision, security, and strategy. Here’s why businesses trust us for their website transitions:"}
                     lefttext={`<ul>
                                 <li><strong>Minimal Downtime:</strong> We know that a standstill may cost you the traffic, sales, and the trust you have built over time. Hence, our migration specialists are always on the move with their well-planned strategy, which greatly reduces the risk of any interruption.</li>
                                 
@@ -133,7 +133,7 @@ const page = () => {
                                 <li><strong>Expert Support:</strong> Even after the launch of your site, we keep in touch through our communication, provide you with detailed reports, and give continuous support. </li>
                                 </ul>
 
-                                <p>Partnering with WD Agency, you get an expert team that blends the technical know-how, the SEO knowledge, and the performance optimization skills- hence your brand-new online setting will be more powerful, quicker, and prepared for the future.</p>
+                                <p>Partnering with Website Development Agency, you get an expert team that blends the technical know-how, the SEO knowledge, and the performance optimization skills- hence your brand-new online setting will be more powerful, quicker, and prepared for the future.</p>
                             `}
                     rightimage={imagewhydevelopment}
 
@@ -144,7 +144,7 @@ const page = () => {
                         {
                             id: 1,
                             name: "Daniel R",
-                            text: "WD Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
+                            text: "Website Development Agency transformed our online presence. Within 3 months, our sales doubled thanks to their Shopify development expertise.",
                             image: imagetestimonial1,
                         },
                         {

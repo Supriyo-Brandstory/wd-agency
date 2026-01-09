@@ -39,11 +39,11 @@ const page = () => {
             />
              <CommonIntroduction
                 heding={'WooCommerce Website Development'}
-                text1={` <p>WD Agency has brought e-commerce to the doorstep of the business community by providing skilled professionals who create powerful WooCommerce solutions. Our WooCommerce developers build feature-rich and conversion-optimized online stores tailored to your brand and business objectives- whether you’re launching a new store or taking an existing one to the next level.</p>
+                text1={` <p><a href="/">Website Development Agency</a> has brought e-commerce to the doorstep of the business community by providing skilled professionals who create powerful WooCommerce solutions. Our WooCommerce developers build feature-rich and conversion-optimized online stores tailored to your brand and business objectives- whether you’re launching a new store or taking an existing one to the next level.</p>
                     <p>As one of the most reliable WooCommerce development agencies in the UAE, we specialize in creating fully customized, responsive, and high-performing eCommerce stores powered by WordPress. Our goal is to help businesses deliver seamless shopping experiences that boost engagement, conversions, and customer loyalty.</p>
                     `}
-                text2={`  <p>We have 10+ years of extensive experience in WordPress website development, and we know how to make scalable and fast-loading websites. We are experts in everything from UI/UX, plugin development, custom websites, and theme-based WordPress development. We craft websites that stand out and make your customers fall in love with your brand, no matter how many alternatives they find online.</p>
-                <p>At WD Agency, we provide services across all locations in the UAE, starting from Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, and Ajman. Our WooCommerce development solutions are tailored to your specific requirements and in line with your brand objectives.</p>
+                text2={`  <p>We have 10+ years of extensive experience in <a href="/platforms/wordpress-website-development">WordPress website development</a>, and we know how to make scalable and fast-loading websites. We are experts in everything from UI/UX, plugin development, custom websites, and theme-based WordPress development. We craft websites that stand out and make your customers fall in love with your brand, no matter how many alternatives they find online.</p>
+                <p>At Website Development Agency, we provide services across all locations in the UAE, starting from Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, and Ajman. Our WooCommerce development solutions are tailored to your specific requirements and in line with your brand objectives.</p>
                     `}
                 imageintro1={imageintro1}
                 imageintro2={imageintro2}

@@ -737,7 +737,7 @@ const svgRef = useRef(null);
       viewport={{ once: true }}
     >
       <p className="my-20">Want to know more about Website Development Agency?</p>
-      <Link href="/about-us" className="white-btn">About WD Agency</Link>
+      <Link href="/about-us" className="white-btn">Know About Us</Link>
     </motion.div>
 
         </div>
