@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const CommonThreeCard = ({ text1, text2, boxdata }) => {
   return (
-    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+    <div className="frame-1200 pt-100 sm-pt-0 sm-pb-50 sm-px-20">
       <h2
         className="text-center sm-text-start mb-20"
         dangerouslySetInnerHTML={{ __html: text1 }}

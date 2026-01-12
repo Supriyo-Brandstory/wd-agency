@@ -36,6 +36,12 @@ import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
+import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
+import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/realestate-2.webp";
+import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/realestate-3.webp";
+import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/realestate-4.webp";
+import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/realestate-5.webp";
+import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/realestate-6.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 
 const page = () => {
@@ -83,6 +89,48 @@ const page = () => {
                         `}
         righttext={`<p>For UAE real estate businesses, a professional website isn’t just an aesthetic choice- it’s a functional, trustworthy, and convertible one. Investing in a well-functioning site and a reliable real estate web design agency in the UAE will yield rewards in the long run in one of the most competitive real estate markets in the world.</p>
                             `}
+      />
+      <RealEstatePortfolio
+        heading="Real Estate Website Design & Development Portfolio"
+        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
+        portfolioData={[
+          {
+            title: "Abu Alnaga Development",
+            subtitle: "Real Estate Develper",
+            image: Portfolioimage1,
+            link: "/contact-us",
+          },
+          {
+            title: "Offplan Project Landing Page 1",
+            subtitle: "Campaign Landing Page",
+            image: Portfolioimage2,
+            link: "/contact-us",
+          },
+          {
+            title: "Offplan Project Landing Page 2",
+            subtitle: "Offplan Project Landing Page",
+            image: Portfolioimage3,
+            link: "/contact-us",
+          },
+          {
+            title: "Val By Kasco",
+            subtitle: "Ad campaign landing page",
+            image: Portfolioimage4,
+            link: "/contact-us",
+          },
+          {
+            title: "Manshion Edition Real Estate",
+            subtitle: "Luxury Real Estate - Offplan Projects",
+            image: Portfolioimage5,
+            link: "/contact-us",
+          },
+          {
+            title: "Sankari Properties",
+            subtitle: "Real Estate Developer Website",
+            image: Portfolioimage6,
+            link: "/contact-us",
+          },
+        ]}
       />
       <CommonIndustries
         heding={"Our Real Estate Website Development Services"}
@@ -304,48 +352,7 @@ const page = () => {
         ]}
       />
       <CommonServiceLocations />
-      <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
-        portfolioData={[
-          {
-            title: "Abu Alnaga Development",
-            subtitle: "Real Estate Develper",
-            image: imageintro1,
-            link: "#",
-          },
-          {
-            title: "Offplan Project Landing Page 1",
-            subtitle: "Campaign Landing Page",
-            image: imageintro2,
-            link: "#",
-          },
-          {
-            title: "Offplan Project Landing Page 2",
-            subtitle: "Offplan Project Landing Page",
-            image: imagewhymetter,
-            link: "#",
-          },
-          {
-            title: "Val By Kasco",
-            subtitle: "Ad campaign landing page",
-            image: imagebanner,
-            link: "#",
-          },
-          {
-            title: "Manshion Edition Real Estate",
-            subtitle: "Luxury Real Estate - Offplan Projects",
-            image: imageService1,
-            link: "#",
-          },
-          {
-            title: "Sankari Properties",
-            subtitle: "Real Estate Developer Website",
-            image: imageService2,
-            link: "#",
-          },
-        ]}
-      />
+
       <CommonFaqSection
         faqs={[
           {

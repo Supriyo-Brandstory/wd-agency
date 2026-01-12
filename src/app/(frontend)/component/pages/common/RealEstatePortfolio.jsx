@@ -27,7 +27,7 @@ const RealEstatePortfolio = ({ heading, description, portfolioData }) => {
   };
 
   return (
-    <section className={styles.portfolioSection}>
+    <div className={styles.portfolioSection}>
       <div className={styles.container}>
         <motion.div
           className={styles.header}
@@ -73,14 +73,14 @@ const RealEstatePortfolio = ({ heading, description, portfolioData }) => {
                     priority={index < 3}
                   />
                   <div className={styles.overlay}></div>
-                  <div className={styles.discoverBtn}>View Project</div>
+                  <div className={styles.discoverBtn}>Get a Quote</div>
                 </div>
               </Link>
             </motion.div>
           ))}
         </motion.div>
       </div>
-    </section>
+    </div>
   );
 };
 
