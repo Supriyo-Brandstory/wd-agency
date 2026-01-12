@@ -25,6 +25,8 @@
     padding: 40px;
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.03);
+    width: var(--width);
+
 }
 
 .right {
@@ -34,7 +36,6 @@
     padding-right: 15px;
     scrollbar-width: thin;
     scrollbar-color: #e0e0e0 transparent;
-    width: var(--width);
 
 }
 
