@@ -80,42 +80,42 @@ const page = () => {
                             `}
       />
       <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
+        heading="E-commerce Website Design & Development Portfolio"
+        description="Discover our high-performing e-commerce solutions, from fashion boutiques to electronics marketplaces, built for maximize sales and user engagement."
         portfolioData={[
           {
-            title: "Abu Alnaga Development",
-            subtitle: "Real Estate Develper",
+            title: "Urban Trends Fashion",
+            subtitle: "Fashion & Apparel Store",
             image: Portfolioimage1,
             link: "/contact-us",
           },
           {
-            title: "Offplan Project Landing Page 1",
-            subtitle: "Campaign Landing Page",
+            title: "TechGear Pro",
+            subtitle: "Electronics E-commerce",
             image: Portfolioimage2,
             link: "/contact-us",
           },
           {
-            title: "Offplan Project Landing Page 2",
-            subtitle: "Offplan Project Landing Page",
+            title: "Organic Harvest",
+            subtitle: "Grocery & Organic Food",
             image: Portfolioimage3,
             link: "/contact-us",
           },
           {
-            title: "Val By Kasco",
-            subtitle: "Ad campaign landing page",
+            title: "Luxe Interiors",
+            subtitle: "Furniture & Home Decor",
             image: Portfolioimage4,
             link: "/contact-us",
           },
           {
-            title: "Manshion Edition Real Estate",
-            subtitle: "Luxury Real Estate - Offplan Projects",
+            title: "Glow Beauty Shop",
+            subtitle: "Cosmetics & Skincare",
             image: Portfolioimage5,
             link: "/contact-us",
           },
           {
-            title: "Sankari Properties",
-            subtitle: "Real Estate Developer Website",
+            title: "FitFanatics Sportswear",
+            subtitle: "Sports & Fitness Gear",
             image: Portfolioimage6,
             link: "/contact-us",
           },

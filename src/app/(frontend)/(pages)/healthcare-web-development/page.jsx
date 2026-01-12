@@ -86,42 +86,42 @@ const page = () => {
       />
 
       <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
+        heading="Healthcare Website Design & Development Portfolio"
+        description="Explore our portfolio of healthcare websites, featuring secure patient portals, medical practice sites, and hospital platforms designed for trust and accessibility."
         portfolioData={[
           {
-            title: "Abu Alnaga Development",
-            subtitle: "Real Estate Develper",
+            title: "Al Amal Medical Center",
+            subtitle: "Multi-Specialty Clinic Website",
             image: Portfolioimage1,
             link: "/contact-us",
           },
           {
-            title: "Offplan Project Landing Page 1",
-            subtitle: "Campaign Landing Page",
+            title: "Care Plus Home Healthcare",
+            subtitle: "Home Nursing Services",
             image: Portfolioimage2,
             link: "/contact-us",
           },
           {
-            title: "Offplan Project Landing Page 2",
-            subtitle: "Offplan Project Landing Page",
+            title: "Dr. Sarah Aesthetic Clinic",
+            subtitle: "Cosmetic Surgery Portfolio",
             image: Portfolioimage3,
             link: "/contact-us",
           },
           {
-            title: "Val By Kasco",
-            subtitle: "Ad campaign landing page",
+            title: "MedLife Pharmacy",
+            subtitle: "E-commerce Pharmacy",
             image: Portfolioimage4,
             link: "/contact-us",
           },
           {
-            title: "Manshion Edition Real Estate",
-            subtitle: "Luxury Real Estate - Offplan Projects",
+            title: "Elite Dental Studio",
+            subtitle: "Dental Practice Website",
             image: Portfolioimage5,
             link: "/contact-us",
           },
           {
-            title: "Sankari Properties",
-            subtitle: "Real Estate Developer Website",
+            title: "Wellness Pros",
+            subtitle: "Health & Wellness Blog",
             image: Portfolioimage6,
             link: "/contact-us",
           },

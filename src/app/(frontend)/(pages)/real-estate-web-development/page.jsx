@@ -96,7 +96,7 @@ const page = () => {
         portfolioData={[
           {
             title: "Abu Alnaga Development",
-            subtitle: "Real Estate Develper",
+            subtitle: "Real Estate Developer",
             image: Portfolioimage1,
             link: "/contact-us",
           },
@@ -119,7 +119,7 @@ const page = () => {
             link: "/contact-us",
           },
           {
-            title: "Manshion Edition Real Estate",
+            title: "Mansion Edition Real Estate",
             subtitle: "Luxury Real Estate - Offplan Projects",
             image: Portfolioimage5,
             link: "/contact-us",
