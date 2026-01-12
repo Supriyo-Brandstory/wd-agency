@@ -2,17 +2,10 @@
 
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import {
-  createBlog,
-  updateBlog,
-  deleteBlog,
-  getBlogs,
-} from "./actions";
+import { createBlog, updateBlog, deleteBlog, getBlogs } from "./actions";
 import { getBlogCategories } from "../blog-category/actions";
-import "react-quill-new/dist/quill.snow.css";
-
-// ✅ Dynamically import Quill (Next.js SSR-safe)
-const ReactQuill = dynamic(() => import("react-quill-new"), { ssr: false });
+// ✅ Dynamically import JoditEditor (Next.js SSR-safe)
+const JoditEditor = dynamic(() => import("jodit-react"), { ssr: false });
 
 export default function BlogPage() {
   const [blogs, setBlogs] = useState([]);
@@ -206,21 +199,10 @@ export default function BlogPage() {
           {/* Editor */}
           <div className="mt-2">
             {!isCodeView ? (
-              <ReactQuill
-                theme="snow"
+              <JoditEditor
                 value={content}
-                onChange={setContent}
-                className="h-48 mb-10"
-                placeholder="Write your blog content here..."
-                modules={{
-                  toolbar: [
-                    [{ header: [1, 2, 3, false] }],
-                    ["bold", "italic", "underline", "strike"],
-                    [{ list: "ordered" }, { list: "bullet" }],
-                    ["link", "image"],
-                    ["clean"],
-                  ],
-                }}
+                onChange={(newContent) => setContent(newContent)}
+                className="mb-10"
               />
             ) : (
               <textarea
