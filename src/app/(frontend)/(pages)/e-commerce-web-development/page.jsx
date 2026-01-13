@@ -88,36 +88,42 @@ const page = () => {
             subtitle: "Fashion & Apparel Store",
             image: Portfolioimage1,
             link: "/contact-us",
+            price: "AED 18,000",
           },
           {
             title: "TechGear Pro",
             subtitle: "Electronics E-commerce",
             image: Portfolioimage2,
             link: "/contact-us",
+            price: "AED 22,000",
           },
           {
             title: "Organic Harvest",
             subtitle: "Grocery & Organic Food",
             image: Portfolioimage3,
             link: "/contact-us",
+            price: "AED 15,000",
           },
           {
             title: "Luxe Interiors",
             subtitle: "Furniture & Home Decor",
             image: Portfolioimage4,
             link: "/contact-us",
+            price: "AED 20,000",
           },
           {
             title: "Glow Beauty Shop",
             subtitle: "Cosmetics & Skincare",
             image: Portfolioimage5,
             link: "/contact-us",
+            price: "AED 16,000",
           },
           {
             title: "FitFanatics Sportswear",
             subtitle: "Sports & Fitness Gear",
             image: Portfolioimage6,
             link: "/contact-us",
+            price: "AED 19,000",
           },
         ]}
       />

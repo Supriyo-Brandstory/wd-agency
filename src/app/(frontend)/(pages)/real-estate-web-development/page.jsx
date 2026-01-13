@@ -99,36 +99,42 @@ const page = () => {
             subtitle: "Real Estate Developer",
             image: Portfolioimage1,
             link: "/contact-us",
+            price: "AED 20,000",
           },
           {
             title: "Offplan Project Landing Page 1",
             subtitle: "Campaign Landing Page",
             image: Portfolioimage2,
             link: "/contact-us",
+            price: "AED 8,000",
           },
           {
             title: "Offplan Project Landing Page 2",
             subtitle: "Offplan Project Landing Page",
             image: Portfolioimage3,
             link: "/contact-us",
+            price: "AED 8,000",
           },
           {
             title: "Val By Kasco",
             subtitle: "Ad campaign landing page",
             image: Portfolioimage4,
             link: "/contact-us",
+            price: "AED 6,000",
           },
           {
             title: "Mansion Edition Real Estate",
             subtitle: "Luxury Real Estate - Offplan Projects",
             image: Portfolioimage5,
             link: "/contact-us",
+            price: "AED 25,000",
           },
           {
             title: "Sankari Properties",
             subtitle: "Real Estate Developer Website",
             image: Portfolioimage6,
             link: "/contact-us",
+            price: "AED 22,000",
           },
         ]}
       />

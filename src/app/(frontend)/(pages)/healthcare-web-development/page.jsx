@@ -94,36 +94,42 @@ const page = () => {
             subtitle: "Multi-Specialty Clinic Website",
             image: Portfolioimage1,
             link: "/contact-us",
+            price: "AED 15,000",
           },
           {
             title: "Care Plus Home Healthcare",
             subtitle: "Home Nursing Services",
             image: Portfolioimage2,
             link: "/contact-us",
+            price: "AED 12,000",
           },
           {
             title: "Dr. Sarah Aesthetic Clinic",
             subtitle: "Cosmetic Surgery Portfolio",
             image: Portfolioimage3,
             link: "/contact-us",
+            price: "AED 18,000",
           },
           {
             title: "MedLife Pharmacy",
             subtitle: "E-commerce Pharmacy",
             image: Portfolioimage4,
             link: "/contact-us",
+            price: "AED 25,000",
           },
           {
             title: "Elite Dental Studio",
             subtitle: "Dental Practice Website",
             image: Portfolioimage5,
             link: "/contact-us",
+            price: "AED 14,000",
           },
           {
             title: "Wellness Pros",
             subtitle: "Health & Wellness Blog",
             image: Portfolioimage6,
             link: "/contact-us",
+            price: "AED 8,000",
           },
         ]}
       />
