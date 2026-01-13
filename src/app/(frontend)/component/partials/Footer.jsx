@@ -67,6 +67,32 @@ const Footer = () => {
             </div>
 
             <div>
+              <h4>Industries</h4>
+              <ul>
+                <li>
+                  <Link href="/accountant-website-development">
+                    Accountant Websites
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/automotive-website-development">
+                    Automotive Websites
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/construction-website-design">
+                    Construction Websites
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/expert-dentist-website-development">
+                    Dental Websites
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
               <h4>ABOUT</h4>
               <ul>
                 <li>
@@ -80,23 +106,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="/contact-us">Contact Us</Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4>SOLUTIONS</h4>
-              <ul>
-                {/* <li> <Link href="#">Website Performance Optimization</Link></li> */}
-                <li>
-                  <Link href="/services/website-migration-service">
-                    Website Migration Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/technology-web-development">
-                    Startup Solutions
-                  </Link>
                 </li>
               </ul>
             </div>
