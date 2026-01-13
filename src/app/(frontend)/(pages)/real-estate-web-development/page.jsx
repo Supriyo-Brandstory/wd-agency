@@ -33,16 +33,17 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
 import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/realestate-2.webp";
 import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/realestate-3.webp";
-import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/realestate-4.webp";
+import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/real-estate-6.webp";
 import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/realestate-5.webp";
 import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/realestate-6.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import LocationService from "../../component/pages/common/LocationService";
 
 const page = () => {
   return (
@@ -91,50 +92,44 @@ const page = () => {
                             `}
       />
       <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
+        heading="Real Estate Website Templates & Custom Design"
+        description="Explore the best real-estate website design templates for your business in Dubai or start with custom design. Contact our real-estate website development agency in Dubai, UAE for state-of-the-art website design and development services."
         portfolioData={[
           {
-            title: "Abu Alnaga Development",
-            subtitle: "Real Estate Developer",
+            subtitle: "Real Estate Website Design",
             image: Portfolioimage1,
             link: "/contact-us",
-            price: "AED 20,000",
+            price: "AED 6,000",
           },
           {
-            title: "Offplan Project Landing Page 1",
-            subtitle: "Campaign Landing Page",
+            subtitle: "Real Estate Landing Page",
             image: Portfolioimage2,
             link: "/contact-us",
-            price: "AED 8,000",
+            price: "AED 6,000",
           },
           {
-            title: "Offplan Project Landing Page 2",
-            subtitle: "Offplan Project Landing Page",
+            subtitle: "Real Estate Agency Website",
             image: Portfolioimage3,
             link: "/contact-us",
-            price: "AED 8,000",
+            price: "AED 6,000",
           },
           {
-            title: "Val By Kasco",
-            subtitle: "Ad campaign landing page",
+            subtitle: "Real Estate Broker Website",
             image: Portfolioimage4,
             link: "/contact-us",
             price: "AED 6,000",
           },
           {
-            title: "Mansion Edition Real Estate",
-            subtitle: "Luxury Real Estate - Offplan Projects",
+            subtitle: "Luxury Real Estate Website",
             image: Portfolioimage5,
             link: "/contact-us",
-            price: "AED 25,000",
+            price: "AED 6,000",
           },
           {
-            title: "Sankari Properties",
-            subtitle: "Real Estate Developer Website",
+            subtitle: "Property Listing Website",
             image: Portfolioimage6,
             link: "/contact-us",
-            price: "AED 22,000",
+            price: "AED 6,000",
           },
         ]}
       />
@@ -273,6 +268,44 @@ const page = () => {
 
       <DevelopmentServices />
 
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Real Estate Website Cost Breakdown</h2>
+          <p>
+            Select the best real estate website design and Development package based on the <br></br>features, performance,
+            and growth level you need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
       <CommonDevelopmentProcess
         heding={"Our Real Estate Website Development Process"}
         subheding={
@@ -357,7 +390,7 @@ const page = () => {
           },
         ]}
       />
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[

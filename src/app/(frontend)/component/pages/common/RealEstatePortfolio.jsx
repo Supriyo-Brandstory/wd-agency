@@ -109,7 +109,7 @@ const RealEstatePortfolio = ({ heading, description, portfolioData }) => {
                         className={styles.customBtn}
                         onClick={handleCustomizationClick}
                       >
-                        Get Customization
+                        Get Custom Design
                       </div>
                     </div>
                   </div>
