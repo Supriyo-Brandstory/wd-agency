@@ -30,7 +30,6 @@ import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebs
 import imagewhydevelopment from "@/app/(frontend)/assets/images/e-commerce-web-development/Why-Website-Development.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/e-com-1.webp";
@@ -40,6 +39,8 @@ import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/e-com-4.we
 import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/e-com-5.webp";
 import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/e-com-6.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import LocationService from "../../component/pages/common/LocationService";
 
 const page = () => {
   return (
@@ -48,7 +49,7 @@ const page = () => {
         bg={imagebanner}
         alt="Ecommerce Website Development Services in Dubai & the UAE"
         heding={
-          "Ecommerce Website Development for <br/>Growing Dubai & the UAE Businesses"
+          "Ecommerce Website Development for <br/> Businesses in Dubai & the UAE"
         }
         subtitle={
           "Build scalable, user-friendly, and revenue-driven online stores with Website Development Agency.</br> We are the top-rated E-commerce web design & development agency in Dubai & the UAE."
@@ -80,57 +81,51 @@ const page = () => {
                             `}
       />
       <RealEstatePortfolio
-        heading="E-commerce Website Design & Development Portfolio"
-        description="Discover our high-performing e-commerce solutions, from fashion boutiques to electronics marketplaces, built for maximize sales and user engagement."
+        heading="E-commerce Website Templates & Custom Designs"
+        description="Discover our high-performing e-commerce templated solutions or start with custom design. From fashion boutiques to electronics marketplaces, we build e-commerce websites for maximize sales and user engagement."
         portfolioData={[
           {
-            title: "Urban Trends Fashion",
-            subtitle: "Fashion & Apparel Store",
+            subtitle: "All-Purpose E-commerce",
             image: Portfolioimage1,
             link: "/contact-us",
-            price: "AED 18,000",
+            price: "AED 8,000",
           },
           {
-            title: "TechGear Pro",
-            subtitle: "Electronics E-commerce",
+            subtitle: "Grocery & Organic Food",
             image: Portfolioimage2,
             link: "/contact-us",
-            price: "AED 22,000",
+            price: "AED 8,000",
           },
           {
-            title: "Organic Harvest",
-            subtitle: "Grocery & Organic Food",
+            subtitle: "Fashion & Apparel Store",
             image: Portfolioimage3,
             link: "/contact-us",
-            price: "AED 15,000",
+            price: "AED 8,000",
           },
           {
-            title: "Luxe Interiors",
-            subtitle: "Furniture & Home Decor",
+            subtitle: "Electronics E-commerce",
             image: Portfolioimage4,
             link: "/contact-us",
-            price: "AED 20,000",
+            price: "AED 8,000",
           },
           {
-            title: "Glow Beauty Shop",
-            subtitle: "Cosmetics & Skincare",
+            subtitle: "Electronics E-commerce",
             image: Portfolioimage5,
             link: "/contact-us",
-            price: "AED 16,000",
+            price: "AED 8,000",
           },
           {
-            title: "FitFanatics Sportswear",
-            subtitle: "Sports & Fitness Gear",
+            subtitle: "All-Purpose E-commerce",
             image: Portfolioimage6,
             link: "/contact-us",
-            price: "AED 19,000",
+            price: "AED 8,000",
           },
         ]}
       />
 
       <CommonIndustries
         heding={"Our Ecommerce Website Development Services"}
-        subheding="At Website Development Agency, we are the best E-commerce web design & development agency in Dubai, offering a full-suite of E-commerce website development services, from initial design through to ongoing support, in the UAE. We harness the best in modern technology, combined with in-depth market and industry-specific knowledge, to develop custom ecommerce solutions that deliver results you can measure. We do not just create websites; we build dedicated ecommerce websites that are conversion-driven to improve the customer experience, maximizing sales and growth as your business grows."
+        subheding="At Website Development Agency, we are the best E-commerce web design & development agency in Dubai, offering a full-suite of E-commerce website development services, from initial design through to ongoing support, in the UAE."
         services={[
           {
             title: "Custom Website Design",
@@ -263,6 +258,44 @@ const page = () => {
 
       <DevelopmentServices />
 
+            <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">E-commerce Website Design Cost Breakdown</h2>
+          <p>
+            Select the best e-commerce website design and Development package based on the <br></br>features, performance,
+            and growth level you need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
       <CommonDevelopmentProcess
         heding={"Our Ecommerce Development Process"}
         subheding={
@@ -323,7 +356,9 @@ const page = () => {
       <Team />
 
       <CommonClientTestimonials />
-      <CommonServiceLocations />
+      
+      <LocationService activeLocation="dubai" />
+
       <CommonFaqSection
         faqs={[
           {

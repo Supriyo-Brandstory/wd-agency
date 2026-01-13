@@ -33,16 +33,17 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Stats from "../../component/pages/about/Stats";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/healthcare-1.webp";
+import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/healthcare-doctor-website.webp";
 import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/healthcare-2.jpg";
 import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/healthcare-3.webp";
-import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/healthcare-4.webp";
-import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/healthcare-5.webp";
-import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/healthcare-6.webp";
+import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/clinic-website.webp";
+import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/hospital-website.webp";
+import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/dentail-website.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import LocationService from "../../component/pages/common/LocationService";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 
 const page = () => {
   return (
@@ -90,46 +91,40 @@ const page = () => {
         description="Explore our portfolio of healthcare websites, featuring secure patient portals, medical practice sites, and hospital platforms designed for trust and accessibility."
         portfolioData={[
           {
-            title: "Al Amal Medical Center",
             subtitle: "Multi-Specialty Clinic Website",
             image: Portfolioimage1,
             link: "/contact-us",
-            price: "AED 15,000",
+            price: "AED 6,000",
           },
           {
-            title: "Care Plus Home Healthcare",
-            subtitle: "Home Nursing Services",
+            subtitle: "Hospital Services",
             image: Portfolioimage2,
             link: "/contact-us",
-            price: "AED 12,000",
+            price: "AED 6,000",
           },
           {
-            title: "Dr. Sarah Aesthetic Clinic",
-            subtitle: "Cosmetic Surgery Portfolio",
+            subtitle: "E-commerce Medical Supplies",
             image: Portfolioimage3,
             link: "/contact-us",
-            price: "AED 18,000",
+            price: "AED 6,000",
           },
           {
-            title: "MedLife Pharmacy",
-            subtitle: "E-commerce Pharmacy",
+            subtitle: "Clinic Website Design",
             image: Portfolioimage4,
             link: "/contact-us",
-            price: "AED 25,000",
+            price: "AED 6,000",
           },
           {
-            title: "Elite Dental Studio",
-            subtitle: "Dental Practice Website",
+            subtitle: "Hospital Website",
             image: Portfolioimage5,
             link: "/contact-us",
-            price: "AED 14,000",
+            price: "AED 6,000",
           },
           {
-            title: "Wellness Pros",
-            subtitle: "Health & Wellness Blog",
+            subtitle: "Dental Clinic Website",
             image: Portfolioimage6,
             link: "/contact-us",
-            price: "AED 8,000",
+            price: "AED 6,000",
           },
         ]}
       />
@@ -266,6 +261,44 @@ const page = () => {
         ]}
       />
       <DevelopmentServices />
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Healthcare Website Design Cost Breakdown</h2>
+          <p>
+            Select the best healthcare website design and Development package based on the <br></br>features, performance,
+            and growth level you need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
 
       <CommonDevelopmentProcess
         heding={"Our Healthcare Website Development Process"}
@@ -351,7 +384,8 @@ const page = () => {
           },
         ]}
       />
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
+
       <CommonFaqSection
         faqs={[
           {

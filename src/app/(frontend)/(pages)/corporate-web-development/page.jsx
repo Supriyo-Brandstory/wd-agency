@@ -39,6 +39,8 @@ import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/corporate-
 import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/corporate-5.webp";
 import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/corporate-6.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import LocationService from "../../component/pages/common/LocationService";
 
 const page = () => {
   return (
@@ -80,50 +82,44 @@ const page = () => {
                             `}
       />
       <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
+        heading="Corporate Website Templates & Custom Design Solutions"
+        description="Discover professionally crafted corporate website design template solutions in Dubai, or opt for a custom website built to reflect your brand identity. Partner with our corporate website development agency in Dubai, UAE for future-ready web solutions."
         portfolioData={[
           {
-            title: "Abu Alnaga Development",
-            subtitle: "Real Estate Developer",
+            subtitle: "Law Firm Website Template",
             image: Portfolioimage1,
             link: "/contact-us",
-            price: "AED 20,000",
+            price: "AED 6,000",
           },
           {
-            title: "Offplan Project Landing Page 1",
-            subtitle: "Campaign Landing Page",
+            subtitle: "Corporate Business Website",
             image: Portfolioimage2,
             link: "/contact-us",
-            price: "AED 8,000",
+            price: "AED 6,000",
           },
           {
-            title: "Offplan Project Landing Page 2",
-            subtitle: "Offplan Project Landing Page",
+            subtitle: "Manufacturing Company Website",
             image: Portfolioimage3,
             link: "/contact-us",
-            price: "AED 8,000",
+            price: "AED 6,000",
           },
           {
-            title: "Val By Kasco",
-            subtitle: "Ad campaign landing page",
+            subtitle: "HR Consultancy Website",
             image: Portfolioimage4,
             link: "/contact-us",
             price: "AED 6,000",
           },
           {
-            title: "Mansion Edition Real Estate",
-            subtitle: "Luxury Real Estate - Offplan Projects",
+            subtitle: "Consulting Firm Website",
             image: Portfolioimage5,
             link: "/contact-us",
-            price: "AED 25,000",
+            price: "AED 6,000",
           },
           {
-            title: "Sankari Properties",
-            subtitle: "Real Estate Developer Website",
+            subtitle: "Tech Startup Website",
             image: Portfolioimage6,
             link: "/contact-us",
-            price: "AED 22,000",
+            price: "AED 6,000",
           },
         ]}
       />
@@ -168,14 +164,6 @@ const page = () => {
             desc: "Just as easily as you could integrate forms, chat rooms, and CRMs in order to trace, handle, and cultivate your business leads adequately, ou can also automate follow-ups, segment your audience, and track interactions in real time. ",
             img: imageService5,
             alt: "Lead Capture & CRM Integration Services - Website Development Agency",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Mobile & Tablet Optimization",
-            desc: "Meet the needs of the highly mobile audience in the UAE by delivering identical results on every device. Our responsive designs ensure seamless navigation, fast loading times, and consistent functionality across smartphones, tablets, and desktops.",
-            img: imageService6,
-            alt: "Mobile & Tablet Optimization Services - Website Development Agency",
             btnname: "Contact Us",
             link: "/contact-us",
           },
@@ -235,6 +223,44 @@ const page = () => {
         ]}
       />
       <DevelopmentServices />
+
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Corporate Website Cost Breakdown</h2>
+          <p>
+            Select the right corporate website design and Development package based on the <br></br>features, performance,
+            and growth level you need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
 
       <CommonDevelopmentProcess
         heding={"Our Corporate Website Development Process"}
@@ -317,7 +343,8 @@ const page = () => {
           },
         ]}
       />
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
+
       <CommonFaqSection
         faqs={[
           {

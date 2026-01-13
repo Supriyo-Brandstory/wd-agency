@@ -36,6 +36,15 @@ import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
+import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/travel-agency-1.webp";
+import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/travel-agency-2.webp";
+import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/travel-agency-3.webp";
+import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/travel-agency-4.webp";
+import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/travel-agency-5.webp";
+import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/travel-6.webp";
+import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import LocationService from "../../component/pages/common/LocationService";
 
 const page = () => {
   return (
@@ -83,6 +92,50 @@ const page = () => {
         righttext={`<p>Investing in a professional website can drive growth, eliminate bottlenecks, and position travel businesses in the UAE ahead of the competition. Website Development Agency has the know-how to make this happen and help you create an integrated digital presence that serves as an engine for bookings, loyalty, and long-term success.</p>
                             `}
       />
+
+      <RealEstatePortfolio
+        heading="Travel Agency Website Templates & Custom Designs"
+        description="Explore flexible website solutions for travel agencies or opt for a custom-built experience. Our travel websites are designed to attract travelers, improve user experience, and maximize bookings."
+        portfolioData={[
+          {
+            subtitle: "Travel Agency Website",
+            image: Portfolioimage1,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+          {
+            subtitle: "Tour Operator Website Design",
+            image: Portfolioimage2,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+          {
+            subtitle: "Hotel Booking Website",
+            image: Portfolioimage3,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+          {
+            subtitle: "Travel Agency Website Redesign",
+            image: Portfolioimage4,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+          {
+            subtitle: "Travel Agency Landing Page",
+            image: Portfolioimage5,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+          {
+            subtitle: "Travel Agency Portal",
+            image: Portfolioimage6,
+            link: "/contact-us",
+            price: "AED 6,000",
+          },
+        ]}
+      />
+      
       <CommonIndustries
         heding={"Our Travel & Tourism Website Development Services"}
         subheding="In the travel and tourism sector, a website is not simply an online presence, it is the infrastructure of your customer journey. At Website Development Agency, we create travel platforms designed for speed, engagement, and scalability. Every feature we build is focused on enhancing traveler satisfaction while driving more bookings for your business. Here is what we offer:"
@@ -218,6 +271,44 @@ const page = () => {
       />
       <DevelopmentServices />
 
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Travel Agency Website Design Cost Breakdown</h2>
+          <p>
+            Select the best travel business design and Development package based on the <br></br>features, performance,
+            and growth level you need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
       <CommonDevelopmentProcess
         heding={"Our Travel Website Development Process"}
         subheding={
@@ -303,7 +394,9 @@ const page = () => {
           },
         ]}
       />
-      <CommonServiceLocations />
+      
+      <LocationService activeLocation="dubai" />
+
       <CommonFaqSection
         faqs={[
           {
