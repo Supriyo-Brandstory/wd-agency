@@ -172,7 +172,7 @@ export default function BlogDetail({ params }) {
                   <div className={styles.authorInfo}>
                     <div className={styles.authorAvatar}>
                       <img
-                        src={`https://ui-avatars.com/api/?name=Shantanu+Pandey&background=0D8ABC&color=fff`}
+                        src={`https://ui-avatars.com/api/?name=Tapas+Pal&background=0D8ABC&color=fff`}
                         alt="Author"
                       />
                     </div>
@@ -274,7 +274,7 @@ export default function BlogDetail({ params }) {
       </div>
 
       <div
-        className={`frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-20 sm-pt-0 ${styles.blogSection}`}
+        className={`frame-1200 pb-100 sm-pt-0 sm-pb-50 sm-px-15 sm-pt-0 ${styles.blogSection}`}
       >
         {loading ? (
           <>
