@@ -77,6 +77,8 @@ export async function createBlog(formData) {
     const title = formData.get("title");
     let slug = formData.get("slug");
     const content = formData.get("content");
+    const checklistTitle = formData.get("checklistTitle");
+    const checklistItems = formData.get("checklistItems");
     const categoryId = parseInt(formData.get("categoryId"));
     const imageFile = formData.get("image");
 
@@ -91,6 +93,8 @@ export async function createBlog(formData) {
         title,
         slug: uniqueSlug,
         content,
+        checklistTitle,
+        checklistItems,
         categoryId,
         image: imagePath,
       },
@@ -112,6 +116,8 @@ export async function updateBlog(formData) {
     const title = formData.get("title");
     let slug = formData.get("slug");
     const content = formData.get("content");
+    const checklistTitle = formData.get("checklistTitle");
+    const checklistItems = formData.get("checklistItems");
     const categoryId = parseInt(formData.get("categoryId"));
     const imageFile = formData.get("image");
 
@@ -123,6 +129,8 @@ export async function updateBlog(formData) {
       title,
       slug: uniqueSlug,
       content,
+      checklistTitle,
+      checklistItems,
       categoryId,
     };
 
@@ -242,6 +250,8 @@ export async function getBlogBySlug(slug) {
         id: true,
         title: true,
         content: true, // HTML or markdown content
+        checklistTitle: true,
+        checklistItems: true,
         image: true,
         createdAt: true,
         category: { select: { name: true, slug: true } },
@@ -250,6 +260,6 @@ export async function getBlogBySlug(slug) {
     return blog;
   } catch (error) {
     console.error("❌ Error fetching blog by slug:", error);
-    throw new Error("Failed to fetch blog by slug");
+    throw new Error(`Failed to fetch blog by slug: ${error.message}`);
   }
 }

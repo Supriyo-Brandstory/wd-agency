@@ -52,6 +52,8 @@ model Blog {
   image       String
   slug        String   @unique
   content     String   @db.LongText
+  checklistTitle String?
+  checklistItems String? @db.Text
   categoryId  Int
   category    BlogCategory @relation(fields: [categoryId], references: [id])
   createdAt   DateTime @default(now())

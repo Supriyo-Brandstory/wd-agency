@@ -4,8 +4,9 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { createBlog, updateBlog, deleteBlog, getBlogs } from "./actions";
 import { getBlogCategories } from "../blog-category/actions";
-// ✅ Dynamically import JoditEditor (Next.js SSR-safe)
-const JoditEditor = dynamic(() => import("jodit-react"), { ssr: false });
+// ✅ Dynamically import SunEditor (Next.js SSR-safe)
+const SunEditor = dynamic(() => import("suneditor-react"), { ssr: false });
+import "suneditor/dist/css/suneditor.min.css";
 
 export default function BlogPage() {
   const [blogs, setBlogs] = useState([]);
@@ -14,6 +15,8 @@ export default function BlogPage() {
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
   const [content, setContent] = useState("");
+  const [checklistTitle, setChecklistTitle] = useState("");
+  const [checklistItems, setChecklistItems] = useState("");
   const [categoryId, setCategoryId] = useState("");
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState(null);
@@ -63,6 +66,8 @@ export default function BlogPage() {
     formData.append("title", title);
     formData.append("slug", newSlug);
     formData.append("content", content);
+    formData.append("checklistTitle", checklistTitle);
+    formData.append("checklistItems", checklistItems);
     formData.append("categoryId", categoryId);
     formData.append("image", image);
 
@@ -89,6 +94,8 @@ export default function BlogPage() {
     formData.append("title", title);
     formData.append("slug", newSlug);
     formData.append("content", content);
+    formData.append("checklistTitle", checklistTitle);
+    formData.append("checklistItems", checklistItems);
     formData.append("categoryId", categoryId);
     if (image) formData.append("image", image);
 
@@ -110,6 +117,8 @@ export default function BlogPage() {
     setTitle("");
     setSlug("");
     setContent("");
+    setChecklistTitle("");
+    setChecklistItems("");
     setCategoryId("");
     setImage(null);
     setPreview(null);
@@ -177,6 +186,28 @@ export default function BlogPage() {
             />
           </div>
 
+          {/* Checklist Section */}
+          <div className="mt-6 border-t pt-4">
+            <h3 className="text-lg font-medium text-gray-700 mb-2">
+              Checklist Section (Optional)
+            </h3>
+            <div className="grid grid-cols-1 gap-4">
+              <input
+                type="text"
+                placeholder="Checklist Title (e.g. Website design cost checklist - Dubai)"
+                value={checklistTitle}
+                onChange={(e) => setChecklistTitle(e.target.value)}
+                className="border border-gray-300 rounded px-4 py-2 w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+              <textarea
+                placeholder="Checklist Items (One per line)"
+                value={checklistItems}
+                onChange={(e) => setChecklistItems(e.target.value)}
+                className="border border-gray-300 rounded px-4 py-2 w-full h-32 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+          </div>
+
           {preview && (
             <img
               src={preview}
@@ -199,10 +230,33 @@ export default function BlogPage() {
           {/* Editor */}
           <div className="mt-2">
             {!isCodeView ? (
-              <JoditEditor
-                value={content}
-                onChange={(newContent) => setContent(newContent)}
-                className="mb-10"
+              <SunEditor
+                setContents={content}
+                onChange={setContent}
+                setOptions={{
+                  buttonList: [
+                    ["undo", "redo"],
+                    ["font", "fontSize", "formatBlock"],
+                    [
+                      "bold",
+                      "underline",
+                      "italic",
+                      "strike",
+                      "subscript",
+                      "superscript",
+                    ],
+                    ["removeFormat"],
+                    ["fontColor", "hiliteColor"],
+                    ["outdent", "indent"],
+                    ["align", "horizontalRule", "list", "table"],
+                    ["link", "image", "video"],
+                    ["fullScreen", "showBlocks", "codeView"],
+                    ["preview", "print"],
+                  ],
+                  minHeight: "400px",
+                  height: "auto",
+                  width: "100%",
+                }}
               />
             ) : (
               <textarea
@@ -282,6 +336,8 @@ export default function BlogPage() {
                         setTitle(blog.title);
                         setSlug(blog.slug);
                         setContent(blog.content);
+                        setChecklistTitle(blog.checklistTitle || "");
+                        setChecklistItems(blog.checklistItems || "");
                         setCategoryId(blog.categoryId);
                         setPreview(blog.image);
                         setShowForm(true);
