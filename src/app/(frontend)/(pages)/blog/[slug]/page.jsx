@@ -176,7 +176,7 @@ export default function BlogDetail({ params }) {
                         alt="Author"
                       />
                     </div>
-                    <span>By Shantanu Pandey</span>
+                    <span>By Tapas Pal</span>
                   </div>
 
                   <div className={styles.headerFooter}>
