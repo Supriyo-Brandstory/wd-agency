@@ -20,7 +20,7 @@ const CommonAboutPage2 = ({ text1, text2, img }) => {
           Math.abs(
             scrollRef.current.scrollHeight -
               scrollRef.current.clientHeight -
-              scrollRef.current.scrollTop
+              scrollRef.current.scrollTop,
           ) < 5;
         setScrolledToEnd(isAtEnd);
       }
@@ -51,7 +51,7 @@ const CommonAboutPage2 = ({ text1, text2, img }) => {
         Math.abs(
           scrollRef.current.scrollHeight -
             scrollRef.current.clientHeight -
-            scrollRef.current.scrollTop
+            scrollRef.current.scrollTop,
         ) < 5;
       setScrolledToEnd(isAtEnd);
     }
@@ -80,6 +80,7 @@ const CommonAboutPage2 = ({ text1, text2, img }) => {
             }`}
             ref={scrollRef}
             onScroll={handleScroll}
+            style={{ "--width": "100%" }}
           >
             <div
               dangerouslySetInnerHTML={{ __html: text2 }}

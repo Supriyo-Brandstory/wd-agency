@@ -5,25 +5,23 @@ import styles from "../../../assets/style/home/technologyStack.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-const CommonTechnologyStack = ({heding,subheding,techData}) => {
- const route = useRouter();
- const handlelink = (link) => {
-   route.push(link);
- };
+const CommonTechnologyStack = ({ heding, subheding, techData }) => {
+  const route = useRouter();
+  const handlelink = (link) => {
+    route.push(link);
+  };
   return (
     <div className="frame-1200 py-100 sm-pb-50 sm-text-start sm-px-20 sm-pt-0">
       {/* Heading */}
       <motion.div
-        className="frame-1000 text-center mb-50 sm-text-start sm-mb-30"
+        className="frame-1000 text-center mb-50 sm-text-start sm-mb-30 sm-mt-70"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
         <h2 className="mb-20 sm-mb-20">{heding}</h2>
-        <p>
-            {subheding}
-        </p>
+        <p>{subheding}</p>
       </motion.div>
 
       {/* Tech Cards */}

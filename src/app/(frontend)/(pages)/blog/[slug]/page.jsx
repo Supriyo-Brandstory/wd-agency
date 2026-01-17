@@ -27,17 +27,17 @@ export default function BlogDetail({ params }) {
     switch (platform) {
       case "linkedin":
         shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-          url
+          url,
         )}`;
         break;
       case "facebook":
         shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-          url
+          url,
         )}`;
         break;
       case "twitter":
         shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
-          url
+          url,
         )}&text=${encodeURIComponent(title)}`;
         break;
       case "copy":
@@ -66,7 +66,7 @@ export default function BlogDetail({ params }) {
         break;
       case "perplexity":
         aiUrl = `https://www.perplexity.ai/search?q=${encodeURIComponent(
-          prompt
+          prompt,
         )}`;
         break;
       case "claude":
@@ -125,29 +125,34 @@ export default function BlogDetail({ params }) {
     fetchBlog();
   }, [slug]);
 
-  // 🟣 Observe headings and update active TOC
+  // 🟣 Accurate scroll listener for TOC active state
   useEffect(() => {
-    if (!blog?.content) return;
+    if (!blog?.content || toc.length === 0) return;
 
-    const headings = document.querySelectorAll(
-      "h1[id], h2[id], h3[id], h4[id]"
-    );
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) setActiveId(entry.target.id);
-        });
-      },
-      { rootMargin: "0px 0px -60% 0px", threshold: 0.3 }
-    );
+    const handleScroll = () => {
+      const headings = toc
+        .map((t) => document.getElementById(t.id))
+        .filter(Boolean);
+      const scrollPosition = window.scrollY + 130; // 130px offset for header spacing
 
-    headings.forEach((el) => observer.observe(el));
-    observerRef.current = observer;
+      let currentId = toc[0]?.id; // Default to first heading
+      for (let i = 0; i < headings.length; i++) {
+        if (scrollPosition >= headings[i].offsetTop) {
+          currentId = headings[i].id;
+        } else {
+          break; // Stop once we find the first heading below the scroll position
+        }
+      }
+      setActiveId(currentId);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll(); // Initial active state check
 
     return () => {
-      if (observerRef.current) observerRef.current.disconnect();
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, [blog]);
+  }, [blog, toc]);
 
   const bgurl = typeof bannerbg === "string" ? bannerbg : bannerbg?.src;
 
@@ -381,7 +386,7 @@ export default function BlogDetail({ params }) {
                               onClick={(e) => {
                                 e.preventDefault();
                                 const element = document.getElementById(
-                                  item.id
+                                  item.id,
                                 );
                                 if (element) {
                                   element.scrollIntoView({
@@ -413,13 +418,14 @@ export default function BlogDetail({ params }) {
                       <span className={styles.checklistIcon}>📋</span>
                       <h2 className={styles.checklistTitle}>
                         {blog.checklistTitle ||
-                          "Website design cost checklist – Dubai"}
+                          "Website Project Requirement Checklist"}
                       </h2>
                     </div>
                     <p className={styles.checklistDesc}>
-                      Check the boxes below to identify which factors apply to
-                      your project. The more boxes you check, the more tailored
-                      (and possibly more costly) your website will be:
+                      Select the requirements that align with your project
+                      goals. Our team at Website Development Agency will use
+                      these details to create a custom-tailored solution for
+                      your business.
                     </p>
                     <ul className={styles.checklistList}>
                       {blog.checklistItems
@@ -440,7 +446,7 @@ export default function BlogDetail({ params }) {
                                     ]);
                                   } else {
                                     setSelectedItems((prev) =>
-                                      prev.filter((i) => i !== itemText)
+                                      prev.filter((i) => i !== itemText),
                                     );
                                   }
                                 }}
@@ -457,7 +463,7 @@ export default function BlogDetail({ params }) {
                       <p>
                         <strong>Tip:</strong> Share your selections with us for
                         a faster, more accurate proposal tailored to your
-                        Dubai-based business.
+                        specific needs.
                       </p>
                     </div>
                     <button
@@ -514,7 +520,7 @@ export default function BlogDetail({ params }) {
                               onClick={(e) => {
                                 e.preventDefault();
                                 const element = document.getElementById(
-                                  item.id
+                                  item.id,
                                 );
                                 if (element) {
                                   element.scrollIntoView({
@@ -535,7 +541,7 @@ export default function BlogDetail({ params }) {
                 )}
                 <div className={styles.stickyForm}>
                   <h3>
-                    Claim your web design proposal and a free consultation call
+                    Get Your Free Project Roadmap & Expert Design Consultation
                   </h3>
                   <form
                     onSubmit={async (e) => {
@@ -548,9 +554,8 @@ export default function BlogDetail({ params }) {
                         projectDetails: `Inquiry from Blog: ${blog.title}`,
                         serviceInterestedIn: "Web Design",
                       };
-                      const { createEnquiry } = await import(
-                        "@/app/admin/dashboard/enquiry/action"
-                      );
+                      const { createEnquiry } =
+                        await import("@/app/admin/dashboard/enquiry/action");
                       const result = await createEnquiry(data);
                       if (result.success) {
                         setSidebarMessage({
@@ -560,7 +565,7 @@ export default function BlogDetail({ params }) {
                         e.target.reset();
                         setTimeout(
                           () => setSidebarMessage({ type: "", text: "" }),
-                          5000
+                          5000,
                         );
                       } else {
                         setSidebarMessage({

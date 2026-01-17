@@ -363,6 +363,14 @@
 
 
 
+.tocBody li.h3 {
+  padding-left: 15px;
+}
+
+.tocBody li.h4 {
+  padding-left: 30px;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -371,6 +379,8 @@
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: 600;
+  scroll-margin-top: 100px;
+  /* Crucial for both clicking and scroll-detection accuracy */
 }
 
 .content h2 {

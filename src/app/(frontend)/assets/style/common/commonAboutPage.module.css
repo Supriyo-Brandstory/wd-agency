@@ -36,6 +36,8 @@
     padding-right: 15px;
     scrollbar-width: thin;
     scrollbar-color: #e0e0e0 transparent;
+    width: var(--width);
+
 
 }
 
