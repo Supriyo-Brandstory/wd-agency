@@ -1,0 +1,349 @@
+.container {
+    min-height: 100vh;
+    background: #050505;
+    color: #fff;
+    padding-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* We'll handle the case where the user removed the banner style by ensuring container spacing */
+.container {
+    padding-top: 60px;
+}
+
+/* ==================
+   Profile Card
+   ================== */
+.profileWrapper {
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    padding: 0 40px;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0f0f0f;
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 40px;
+}
+
+.avatarWrapper {
+    width: 220px;
+    height: 220px;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.avatarWrapper:hover .avatar {
+    transform: scale(1.08);
+}
+
+.info h1 {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #fff 0%, #888 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.02em;
+}
+
+.role {
+    display: inline-block;
+    color: var(--color-pink);
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.bio {
+    color: #a0a0a0;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+
+/* ==================
+   Social Links
+   ================== */
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.socialLink {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialLink:hover {
+    background: var(--color-blue);
+    ;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 119, 181, 0.2);
+    border-color: var(--color-blue);
+    ;
+}
+
+/* ==================
+   Articles Section
+   ================== */
+.articlesSection {
+    max-width: 1240px;
+    margin: 80px auto 0;
+    padding: 0 20px;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sectionTitle::before,
+.sectionTitle::after {
+    content: '';
+    height: 1px;
+    flex-grow: 0.1;
+    background: linear-gradient(90deg, transparent, #333, transparent);
+}
+
+.articlesGrid {
+    display: grid;
+    /* Force 3 columns on desktop as requested */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.articleCard {
+    background: #0f0f0f;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.articleCard:hover {
+    transform: translateY(-10px);
+    border-color: rgba(74, 144, 226, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    background: #141414;
+}
+
+.articleImageWrapper {
+    height: 220px;
+    overflow: hidden;
+}
+
+.articleImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.articleCard:hover .articleImage {
+    transform: scale(1.1);
+}
+
+.articleContent {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.articleDate {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.articleTitle {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 700;
+}
+
+.articleExcerpt {
+    font-size: 1rem;
+    color: #999;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.readMore {
+    color: var(--color-pink);
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.readMore:hover {
+    gap: 12px;
+    color: #fff;
+}
+
+/* ==================
+   Responsive Design
+   ================== */
+@media (max-width: 1200px) {
+    .articlesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .profileWrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 30px;
+    }
+
+    .leftColumn {
+        position: relative;
+        top: 0;
+        flex-direction: row;
+        gap: 30px;
+        text-align: left;
+        padding: 30px;
+    }
+
+    .avatarWrapper {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 0;
+        flex-shrink: 0;
+    }
+
+    .socialLinks {
+        justify-content: flex-start;
+    }
+
+    .info h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 40px;
+    }
+
+    .leftColumn {
+        text-align: center;
+        align-items: center;
+        padding: 30px 20px;
+        justify-content: center;
+    }
+
+    .avatarWrapper {
+        width: 150px;
+        height: 150px;
+        border-radius: 16px;
+    }
+
+    .socialLinks {
+        justify-content: flex-start;
+        flex-direction: column;
+        width: max-content;
+    }
+
+    .info h1 {
+        font-size: 2.2rem;
+        text-align: left;
+    }
+
+    .role {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .bio {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .articlesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .sectionTitle::after {
+        flex-grow: 1;
+    }
+
+    .sectionTitle::before {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .profileWrapper {
+        padding: 0 20px;
+    }
+
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .articleImageWrapper {
+        height: 180px;
+    }
+}

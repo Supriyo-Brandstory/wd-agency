@@ -2,6 +2,8 @@
 import { use, useEffect, useState, useRef } from "react";
 import styles from "@/app/(frontend)/assets/style/blog/blogSingle.module.css";
 import Image from "next/image";
+import Link from "next/link";
+import authorImage from "@/app/(frontend)/assets/images/1719401017176.jpeg";
 import { getBlogBySlug } from "@/app/admin/dashboard/blog/actions";
 import bannerbg from "@/app/(frontend)/assets/images/blog-bg.webp";
 import ChecklistPopup from "@/app/(frontend)/component/pages/blog/ChecklistPopup";
@@ -173,17 +175,12 @@ export default function BlogDetail({ params }) {
               <>
                 <div className={styles.headerLeft}>
                   <h1 className={styles.title}>{blog.title}</h1>
-
-                  <div className={styles.authorInfo}>
+                  <Link href="/author/madhavan-a" className={styles.authorInfo}>
                     <div className={styles.authorAvatar}>
-                      <img
-                        src={`https://ui-avatars.com/api/?name=Tapas+Pal&background=0D8ABC&color=fff`}
-                        alt="Author"
-                      />
+                      <img src={authorImage.src} alt="Madhavan A" />
                     </div>
-                    <span>By Tapas Pal</span>
-                  </div>
-
+                    <span>By Madhavan A</span>
+                  </Link>
                   <div className={styles.headerFooter}>
                     <p className={styles.date}>
                       {new Date(blog.createdAt).toLocaleDateString("en-GB", {
