@@ -1,0 +1,35 @@
+{
+  "node": {
+    "4029eafa88d82f2ebecd944389ad3336611d03f219": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "6049d4535727cb1ad7a17eca878538ae6b6924c4dd": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getPaginatedBlogsByCategory",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/page": "action-browser"
+      },
+      "exportedName": "getPaginatedBlogsByCategory",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    }
+  },
+  "edge": {}
+}

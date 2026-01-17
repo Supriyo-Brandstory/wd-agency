@@ -1,0 +1,6 @@
+{
+  "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
+  "/(frontend)/(pages)/author/madhavan-a/page": "app/(frontend)/(pages)/author/madhavan-a/page.js",
+  "/(frontend)/(pages)/blog/[slug]/page": "app/(frontend)/(pages)/blog/[slug]/page.js",
+  "/(frontend)/(pages)/blog/page": "app/(frontend)/(pages)/blog/page.js"
+}

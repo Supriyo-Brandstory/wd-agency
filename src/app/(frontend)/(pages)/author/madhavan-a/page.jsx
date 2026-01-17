@@ -1,19 +1,30 @@
+"use client";
+import { useState, useEffect } from "react";
 import { getBlogs } from "@/app/admin/dashboard/blog/actions";
 import styles from "@/app/(frontend)/assets/style/author.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import authorImage from "@/app/(frontend)/assets/images/1719401017176.jpeg";
 
-export const metadata = {
-  title: "Madhavan A - Author Profile | Website Development Agency",
-  description:
-    "Read articles and insights by Madhavan A, an expert in web development and digital strategy.",
-};
+export default function AuthorProfile() {
+  const [latestBlogs, setLatestBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-export default async function AuthorProfile() {
-  const allBlogs = await getBlogs();
-  // Take latest 6 blogs
-  const latestBlogs = allBlogs.slice(0, 6);
+  useEffect(() => {
+    async function fetchBlogs() {
+      try {
+        setLoading(true);
+        const allBlogs = await getBlogs();
+        // Take latest 6 blogs
+        setLatestBlogs(allBlogs.slice(0, 6));
+      } catch (error) {
+        console.error("Failed to fetch blogs:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchBlogs();
+  }, []);
 
   // Helper to strip HTML for excerpt
   const getExcerpt = (html) => {
@@ -109,7 +120,15 @@ export default async function AuthorProfile() {
         </div>
 
         <div className={styles.articlesGrid}>
-          {latestBlogs.length > 0 ? (
+          {loading ? (
+            Array.from({ length: 3 }).map((_, i) => (
+              <div key={i} className={styles.skeletonCard}>
+                <div className={styles.skeletonImage}></div>
+                <div className={styles.skeletonText}></div>
+                <div className={styles.skeletonTextSmall}></div>
+              </div>
+            ))
+          ) : latestBlogs.length > 0 ? (
             latestBlogs.map((blog) => (
               <div key={blog.id} className={styles.articleCard}>
                 <div className={styles.articleImageWrapper}>

@@ -1,9 +1,5 @@
 :HL["/_next/static/chunks/d9a6042c2f5eef95.css","style"]
 :HL["/_next/static/chunks/540c22d13db8a3fa.css","style"]
 :HL["/_next/static/chunks/b8f50ad353b14b09.css","style"]
-:HL["/_next/static/chunks/799fc626c0569e0b.css","style"]
-:HL["/_next/static/media/1719401017176.acc48fcb.jpeg","image"]
-:HL["/images/blog/127062.jpg","image"]
-:HL["/images/blog/abudhabi.webp","image"]
-:HL["/images/blog/homebanne-cr.jpeg","image"]
-0:{"buildId":"EhmNlcVQiTGLRrKh4zA6I","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(frontend)","paramType":null,"paramKey":"(frontend)","hasRuntimePrefetch":false,"slots":{"children":{"name":"(pages)","paramType":null,"paramKey":"(pages)","hasRuntimePrefetch":false,"slots":{"children":{"name":"author","paramType":null,"paramKey":"author","hasRuntimePrefetch":false,"slots":{"children":{"name":"madhavan-a","paramType":null,"paramKey":"madhavan-a","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
+:HL["/_next/static/chunks/30ef07514bb07b4f.css","style"]
+0:{"buildId":"Spn8yQg5QVwTnDs8T50Ih","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(frontend)","paramType":null,"paramKey":"(frontend)","hasRuntimePrefetch":false,"slots":{"children":{"name":"(pages)","paramType":null,"paramKey":"(pages)","hasRuntimePrefetch":false,"slots":{"children":{"name":"author","paramType":null,"paramKey":"author","hasRuntimePrefetch":false,"slots":{"children":{"name":"madhavan-a","paramType":null,"paramKey":"madhavan-a","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}

@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h4>Industries</h4>
+              <h4>INDUSTRIES</h4>
               <ul>
                 <li>
                   <Link href="/accountant-website-development">

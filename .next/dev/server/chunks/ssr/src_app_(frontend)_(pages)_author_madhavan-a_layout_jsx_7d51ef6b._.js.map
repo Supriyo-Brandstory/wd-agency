@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/supriyokumardey/Herd/office/websitedevelopmentagency/src/app/%28frontend%29/%28pages%29/author/madhavan-a/layout.jsx"],"sourcesContent":["export const metadata = {\n  title: \"Madhavan A - Author Profile | Website Development Agency\",\n  description:\n    \"Read articles and insights by Madhavan A, an expert in web development and digital strategy.\",\n};\n\nexport default function AuthorLayout({ children }) {\n  return <>{children}</>;\n}\n"],"names":[],"mappings":";;;;;;;;AAAO,MAAM,WAAW;IACtB,OAAO;IACP,aACE;AACJ;AAEe,SAAS,aAAa,EAAE,QAAQ,EAAE;IAC/C,qBAAO;kBAAG;;AACZ"}}]
+}
