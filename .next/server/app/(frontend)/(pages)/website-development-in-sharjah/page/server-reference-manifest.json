@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40249adc2d10fd2df5787e27a6a69349f3e06bc250": {
+      "workers": {
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": {
+          "moduleId": 30090,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

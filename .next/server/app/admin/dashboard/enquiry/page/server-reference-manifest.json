@@ -1,0 +1,35 @@
+{
+  "node": {
+    "605e6e989b991e41ed51fa93085a2cce42f8d8015c": {
+      "workers": {
+        "app/admin/dashboard/enquiry/page": {
+          "moduleId": 83179,
+          "async": false,
+          "exportedName": "getEnquiries",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/enquiry/page": "action-browser"
+      },
+      "exportedName": "getEnquiries",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    },
+    "40a357abe5961633b5b30802099be1ca0e557dbdcb": {
+      "workers": {
+        "app/admin/dashboard/enquiry/page": {
+          "moduleId": 83179,
+          "async": false,
+          "exportedName": "deleteEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/enquiry/page": "action-browser"
+      },
+      "exportedName": "deleteEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

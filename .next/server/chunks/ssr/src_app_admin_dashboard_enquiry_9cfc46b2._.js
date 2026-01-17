@@ -1,0 +1,3 @@
+module.exports=[81864,15231,a=>{"use strict";var b=a.i(5050);let c=(0,b.createServerReference)("605e6e989b991e41ed51fa93085a2cce42f8d8015c",b.callServer,void 0,b.findSourceMapURL,"getEnquiries");a.s(["getEnquiries",()=>c],81864);let d=(0,b.createServerReference)("40a357abe5961633b5b30802099be1ca0e557dbdcb",b.callServer,void 0,b.findSourceMapURL,"deleteEnquiry");a.s(["deleteEnquiry",()=>d],15231)},67789,a=>{"use strict";a.s([],19543),a.i(19543);var b=a.i(38310),c=a.i(81864),d=a.i(15231);a.s(["createEnquiry",()=>b.createEnquiry,"deleteEnquiry",()=>d.deleteEnquiry,"getEnquiries",()=>c.getEnquiries],67789)}];
+
+//# sourceMappingURL=src_app_admin_dashboard_enquiry_9cfc46b2._.js.map

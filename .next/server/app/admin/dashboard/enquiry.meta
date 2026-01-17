@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/dashboard/layout,_N_T_/admin/dashboard/enquiry/layout,_N_T_/admin/dashboard/enquiry/page,_N_T_/admin/dashboard/enquiry"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/dashboard/enquiry/__PAGE__",
+    "/admin/dashboard/enquiry",
+    "/admin/dashboard",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}
