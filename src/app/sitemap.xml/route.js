@@ -1,8 +1,9 @@
 import { PrismaClient } from '@prisma/client';
-
+import { unstable_noStore as noStore } from 'next/cache';
 const prisma = new PrismaClient();
 
 export async function GET() {
+    noStore();
     try {
         const sitemap = await prisma.sitemap.findFirst({
             orderBy: { updatedAt: 'desc' }
