@@ -1,0 +1,25 @@
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+export async function GET() {
+    try {
+        const sitemap = await prisma.sitemap.findFirst({
+            orderBy: { updatedAt: 'desc' }
+        });
+
+        if (!sitemap || !sitemap.content) {
+            return new Response('Sitemap not found', { status: 404 });
+        }
+
+        return new Response(sitemap.content.trim(), {
+            headers: {
+                'Content-Type': 'application/xml',
+                'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate',
+            },
+        });
+    } catch (error) {
+        console.error('Error serving sitemap:', error);
+        return new Response('Internal Server Error', { status: 500 });
+    }
+}
