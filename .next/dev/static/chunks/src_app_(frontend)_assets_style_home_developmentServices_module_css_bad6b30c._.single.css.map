@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/(frontend)/assets/style/home/developmentServices.module.css"],"sourcesContent":[".grid {\r\n  display: grid;\r\n  grid-template-columns: repeat(2, 1fr);\r\n  gap: 30px;\r\n}\r\n\r\n.card {\r\n  overflow: hidden;\r\n  color: #fff;\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n.card:hover {\r\n  transform: translateY(-5px);\r\n}\r\n\r\n.image {\r\n    border-radius: 20px;\r\n  width: 100%;\r\n  height: 300px;\r\n  object-fit: cover;\r\n}\r\n\r\n.content {\r\n  padding: 20px 0px;\r\n}\r\n\r\n.learnMore {\r\n  color: var(--color-pink); /* pinkish like in screenshot */\r\n  font-weight: 500;\r\n  margin-top: 10px;\r\n  display: flex;\r\n  text-decoration: none;\r\n  align-items: center;\r\n  gap: 10px;\r\n\r\n}\r\n\r\n.learnMore:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n\r\n@media screen and (max-width: 768px) {\r\n  .grid {\r\n    grid-template-columns: repeat(1, 1fr);\r\n    gap: 20px;\r\n    display: grid;\r\n}\r\n.image{\r\n  height:210px;\r\n}\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;AAMA;;;;AAIA;;;;;;;AAOA;;;;AAIA;;;;;;;;;;AAWA;;;;AAKA;EACE;;;;;;EAKF"}}]
-}
