@@ -1,6 +1,6 @@
 {
   "node": {
-    "40e3857d2f05e6799c2da0cb2c81f8ccc35556d126": {
+    "404fd4d6c4a76e9819518c960ffe12afd4da0dfdf6": {
       "workers": {
         "app/(frontend)/(pages)/platforms/nodejs-website-development/page": {
           "moduleId": 85931,
