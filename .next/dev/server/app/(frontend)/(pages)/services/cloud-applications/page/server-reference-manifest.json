@@ -1,0 +1,20 @@
+{
+  "node": {
+    "4039c432a5f1f07317f6dea2b22a4153ec5814fc1b": {
+      "workers": {
+        "app/(frontend)/(pages)/services/cloud-applications/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/services/cloud-applications/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/services/cloud-applications/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

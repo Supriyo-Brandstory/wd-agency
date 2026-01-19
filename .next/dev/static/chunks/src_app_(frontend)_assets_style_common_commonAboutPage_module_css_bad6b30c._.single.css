@@ -1,0 +1,183 @@
+/* [project]/src/app/(frontend)/assets/style/common/commonAboutPage.module.css [app-client] (css) */
+.commonAboutPage-module__x7c_xq__flex {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  display: flex;
+}
+
+.commonAboutPage-module__x7c_xq__left {
+  width: var(--width);
+}
+
+.commonAboutPage-module__x7c_xq__mainImg {
+  object-fit: cover;
+  border-radius: 30px;
+  max-height: 600px;
+  box-shadow: 0 20px 40px #00000014;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.commonAboutPage-module__x7c_xq__rightWrapper {
+  width: var(--width);
+  background: #fff;
+  border: 1px solid #00000008;
+  border-radius: 30px;
+  padding: 40px;
+  position: relative;
+  box-shadow: 0 10px 50px #0000000d;
+}
+
+.commonAboutPage-module__x7c_xq__right {
+  scrollbar-width: thin;
+  scrollbar-color: #e0e0e0 transparent;
+  height: 500px;
+  width: var(--width);
+  padding-right: 15px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.commonAboutPage-module__x7c_xq__right::-webkit-scrollbar {
+  width: 5px;
+}
+
+.commonAboutPage-module__x7c_xq__right::-webkit-scrollbar-track {
+  background: none;
+}
+
+.commonAboutPage-module__x7c_xq__right::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+
+.commonAboutPage-module__x7c_xq__right::-webkit-scrollbar-thumb:hover {
+  background: #d0d0d0;
+}
+
+.commonAboutPage-module__x7c_xq__textContent {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.commonAboutPage-module__x7c_xq__textContent p {
+  margin-bottom: 20px;
+}
+
+.commonAboutPage-module__x7c_xq__bottomFade {
+  pointer-events: none;
+  z-index: 5;
+  background: linear-gradient(to top, #fff 30%, #fff0);
+  border-radius: 0 0 30px 30px;
+  height: 120px;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  right: 40px;
+}
+
+.commonAboutPage-module__x7c_xq__scrollHint {
+  pointer-events: none;
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: opacity .3s;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.commonAboutPage-module__x7c_xq__scrollHint span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.commonAboutPage-module__x7c_xq__mouse {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  width: 22px;
+  height: 38px;
+  position: relative;
+}
+
+.commonAboutPage-module__x7c_xq__wheel {
+  background: #0070f3;
+  border-radius: 2px;
+  width: 3px;
+  height: 7px;
+  animation: 2s ease-in-out infinite commonAboutPage-module__x7c_xq__scrollWheel;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes commonAboutPage-module__x7c_xq__scrollWheel {
+  0% {
+    opacity: 0;
+    transform: translate(-50%);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translate(-50%, 5px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, 15px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .commonAboutPage-module__x7c_xq__rightWrapper {
+    padding: 30px;
+  }
+
+  .commonAboutPage-module__x7c_xq__textContent {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .commonAboutPage-module__x7c_xq__flex {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .commonAboutPage-module__x7c_xq__flex {
+    display: block;
+  }
+
+  .commonAboutPage-module__x7c_xq__left {
+    margin-bottom: 40px;
+    width: 100% !important;
+  }
+
+  .commonAboutPage-module__x7c_xq__rightWrapper {
+    padding: 25px;
+    width: 100% !important;
+  }
+
+  .commonAboutPage-module__x7c_xq__right {
+    height: auto;
+    max-height: 450px;
+  }
+
+  .commonAboutPage-module__x7c_xq__bottomFade {
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_commonAboutPage_module_css_bad6b30c._.single.css.map*/

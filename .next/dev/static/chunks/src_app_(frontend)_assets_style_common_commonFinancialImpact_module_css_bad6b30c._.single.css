@@ -1,0 +1,230 @@
+/* [project]/src/app/(frontend)/assets/style/common/commonFinancialImpact.module.css [app-client] (css) */
+.commonFinancialImpact-module__f-MrGa__roiSection {
+  position: relative;
+  overflow: hidden;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiSection:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle, #e83e8c1a 0%, #0000 70%);
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  top: -10%;
+  right: -5%;
+}
+
+.commonFinancialImpact-module__f-MrGa__header {
+  margin-bottom: 60px;
+}
+
+.commonFinancialImpact-module__f-MrGa__header h2 {
+  margin-bottom: 20px;
+}
+
+.commonFinancialImpact-module__f-MrGa__mainGrid {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+  display: grid;
+}
+
+.commonFinancialImpact-module__f-MrGa__gridCard {
+  border: 1px solid #ffffff0d;
+  border-radius: 32px;
+  flex-direction: column;
+  padding: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.commonFinancialImpact-module__f-MrGa__costCard {
+  color: #fff;
+  background: #151515;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiCard {
+  color: #fff;
+  background: #e83e8c08;
+  border: 1px solid #e83e8c33;
+}
+
+.commonFinancialImpact-module__f-MrGa__cardHeader {
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.commonFinancialImpact-module__f-MrGa__iconBox {
+  color: #fff;
+  background: #e83e8c;
+  border-radius: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  box-shadow: 0 10px 20px #e83e8c4d;
+}
+
+.commonFinancialImpact-module__f-MrGa__cardHeader h3 {
+  font-weight: 700;
+}
+
+.commonFinancialImpact-module__f-MrGa__cardDesc {
+  color: #ccc;
+  margin-bottom: 40px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.commonFinancialImpact-module__f-MrGa__factorList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.commonFinancialImpact-module__f-MrGa__factorList li {
+  color: #e0e0e0;
+  border-bottom: 1px solid #ffffff0d;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  font-size: 16px;
+  display: flex;
+}
+
+.commonFinancialImpact-module__f-MrGa__factorList li:before {
+  content: "→";
+  color: #e83e8c;
+  font-weight: bold;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiMetricGrid {
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  display: grid;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiMetric {
+  background: #ffffff08;
+  border: 1px solid #ffffff0d;
+  border-radius: 20px;
+  padding: 25px;
+  transition: transform .3s;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiMetric:hover {
+  background: #ffffff0d;
+  transform: translateY(-3px);
+}
+
+.commonFinancialImpact-module__f-MrGa__roiMetric span {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e83e8c;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+}
+
+.commonFinancialImpact-module__f-MrGa__roiMetric p {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingContainer {
+  border-top: 1px solid #ffffff1a;
+  padding-top: 60px;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingTitle {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingCard {
+  background: #111;
+  border: 1px solid #ffffff0d;
+  border-radius: 24px;
+  padding: 35px;
+  transition: all .3s;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingCard:hover {
+  background: #161616;
+  border-color: #e83e8c;
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px #0000004d;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingCard h5 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.commonFinancialImpact-module__f-MrGa__pricingCard p {
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .commonFinancialImpact-module__f-MrGa__mainGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__pricingGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .commonFinancialImpact-module__f-MrGa__gridCard {
+    padding: 35px;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__pricingGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__header h2 {
+    font-size: 32px;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__roiMetricGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__pricingTitle {
+    text-align: left;
+    font-size: 32px;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__pricingCard {
+    padding: 20px;
+  }
+
+  .commonFinancialImpact-module__f-MrGa__pricingCard h5 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_commonFinancialImpact_module_css_bad6b30c._.single.css.map*/

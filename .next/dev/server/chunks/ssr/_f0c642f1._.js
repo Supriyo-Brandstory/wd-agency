@@ -48,7 +48,7 @@ async function verifyAdmin() {
 "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"00937ca466eb3c3aa3a6a8096f2e4c1ea5bfaece90":"getSeoData","4029eafa88d82f2ebecd944389ad3336611d03f219":"getSeoDataByPageUrl","40472135b400824709346fa3b69f9e6aa366d9cada":"createSeoData","40a530a81427109a02c0ed18d0c09371e69a4f5706":"deleteSeoData","60bee710183cecdc0b1e7613e45f007c57fcbc5863":"updateSeoData"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"000a23969c81535862aeca29dc29dc11540a310bd3":"getSeoData","403442252f874e30c7edcf3379e78e02e6b665f54e":"deleteSeoData","4039c432a5f1f07317f6dea2b22a4153ec5814fc1b":"getSeoDataByPageUrl","40e2a377e28e5d108846b69601232aed74f1011219":"createSeoData","60f9c9e012069acb6d399ac50cc3a440bffa74db6f":"updateSeoData"},"",""] */ __turbopack_context__.s([
     "createSeoData",
     ()=>createSeoData,
     "deleteSeoData",
@@ -141,16 +141,16 @@ async function deleteSeoData(id) {
     updateSeoData,
     deleteSeoData
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "00937ca466eb3c3aa3a6a8096f2e4c1ea5bfaece90", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "4029eafa88d82f2ebecd944389ad3336611d03f219", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "40472135b400824709346fa3b69f9e6aa366d9cada", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "60bee710183cecdc0b1e7613e45f007c57fcbc5863", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "40a530a81427109a02c0ed18d0c09371e69a4f5706", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "000a23969c81535862aeca29dc29dc11540a310bd3", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "4039c432a5f1f07317f6dea2b22a4153ec5814fc1b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "40e2a377e28e5d108846b69601232aed74f1011219", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "60f9c9e012069acb6d399ac50cc3a440bffa74db6f", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "403442252f874e30c7edcf3379e78e02e6b665f54e", null);
 }),
 "[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"405e808ad6b879f6f379bba2a6ca44471b95b30716":"createEnquiry","4083eb8a798a7003eaaa28ba737d36c148c71fecc1":"deleteEnquiry","603c63eb1555c4454d3326ffcc4667031bf9a1595f":"getEnquiries"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"405cbdb2d4e1cfa1a4b3dda32a548a3ee5000cd98d":"createEnquiry","409b905d5050569af9983d8f5ce354423a49588c84":"deleteEnquiry","6030514c898e233b570669a3425472883ea0404950":"getEnquiries"},"",""] */ __turbopack_context__.s([
     "createEnquiry",
     ()=>createEnquiry,
     "deleteEnquiry",
@@ -241,9 +241,9 @@ async function deleteEnquiry(id) {
     getEnquiries,
     deleteEnquiry
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createEnquiry, "405e808ad6b879f6f379bba2a6ca44471b95b30716", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getEnquiries, "603c63eb1555c4454d3326ffcc4667031bf9a1595f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteEnquiry, "4083eb8a798a7003eaaa28ba737d36c148c71fecc1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createEnquiry, "405cbdb2d4e1cfa1a4b3dda32a548a3ee5000cd98d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getEnquiries, "6030514c898e233b570669a3425472883ea0404950", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteEnquiry, "409b905d5050569af9983d8f5ce354423a49588c84", null);
 }),
 "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
@@ -258,9 +258,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashb
 "use strict";
 
 __turbopack_context__.s([
-    "4029eafa88d82f2ebecd944389ad3336611d03f219",
+    "4039c432a5f1f07317f6dea2b22a4153ec5814fc1b",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getSeoDataByPageUrl"],
-    "405e808ad6b879f6f379bba2a6ca44471b95b30716",
+    "405cbdb2d4e1cfa1a4b3dda32a548a3ee5000cd98d",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$enquiry$2f$action$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createEnquiry"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f2e$next$2d$internal$2f$server$2f$app$2f28$frontend$292f28$pages$292f28$home$292f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE1__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$enquiry$2f$action$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE1 => "[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');

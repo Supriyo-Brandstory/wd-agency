@@ -1,0 +1,167 @@
+/* [project]/src/app/(frontend)/assets/style/services/cloudPlatformSection.module.css [app-client] (css) */
+.cloudPlatformSection-module__LmOA9a__section {
+  background: none;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudPlatformSection-module__LmOA9a__glow {
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(circle, #e83e8c0d, #0000 70%);
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+}
+
+.cloudPlatformSection-module__LmOA9a__glowTop {
+  top: -300px;
+  right: -200px;
+}
+
+.cloudPlatformSection-module__LmOA9a__header {
+  z-index: 1;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.cloudPlatformSection-module__LmOA9a__header h2 {
+  margin-bottom: 20px;
+}
+
+.cloudPlatformSection-module__LmOA9a__platformGrid {
+  z-index: 1;
+  flex-direction: column;
+  gap: 40px;
+  display: flex;
+  position: relative;
+}
+
+.cloudPlatformSection-module__LmOA9a__platformCard {
+  background: #ffffff05;
+  border: 1px solid #ffffff0d;
+  border-radius: 40px;
+  grid-template-columns: 100px 1fr 300px;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+  transition: all .6s cubic-bezier(.23, 1, .32, 1);
+  display: grid;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudPlatformSection-module__LmOA9a__platformCard:before {
+  content: "";
+  background: var(--primary-color, #e83e8c);
+  opacity: 0;
+  width: 4px;
+  height: 100%;
+  transition: opacity .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cloudPlatformSection-module__LmOA9a__platformCard:hover {
+  background: #ffffff0d;
+  border-color: #e83e8c4d;
+  transform: translateX(10px);
+}
+
+.cloudPlatformSection-module__LmOA9a__platformCard:hover:before {
+  opacity: 1;
+}
+
+.cloudPlatformSection-module__LmOA9a__iconWrapper {
+  color: #fff;
+  background: #ffffff08;
+  border: 1px solid #ffffff1a;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+}
+
+.cloudPlatformSection-module__LmOA9a__platformCard:hover .cloudPlatformSection-module__LmOA9a__iconWrapper {
+  background: var(--primary-color, #e83e8c);
+  border-color: var(--primary-color);
+  transform: rotate(-10deg)scale(1.1);
+}
+
+.cloudPlatformSection-module__LmOA9a__mainContent h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.cloudPlatformSection-module__LmOA9a__mainContent p {
+  color: #ffffffb3;
+  line-height: 1.6;
+}
+
+.cloudPlatformSection-module__LmOA9a__statsBox {
+  border-left: 1px solid #ffffff1a;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 40px;
+  display: flex;
+}
+
+.cloudPlatformSection-module__LmOA9a__statItem {
+  color: #fffc;
+  align-items: center;
+  gap: 12px;
+  font-size: .95rem;
+  display: flex;
+}
+
+.cloudPlatformSection-module__LmOA9a__dot {
+  background: var(--primary-color, #e83e8c);
+  width: 6px;
+  height: 6px;
+  box-shadow: 0 0 10px var(--primary-color);
+  border-radius: 50%;
+}
+
+@media (max-width: 1100px) {
+  .cloudPlatformSection-module__LmOA9a__platformCard {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .cloudPlatformSection-module__LmOA9a__statsBox {
+    border-top: 1px solid #ffffff1a;
+    border-left: none;
+    flex-flow: wrap;
+    grid-column: 1 / -1;
+    padding-top: 25px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cloudPlatformSection-module__LmOA9a__section {
+    padding: 0 0 50px;
+  }
+
+  .cloudPlatformSection-module__LmOA9a__platformCard {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .cloudPlatformSection-module__LmOA9a__iconWrapper {
+    margin-bottom: 10px;
+  }
+
+  .cloudPlatformSection-module__LmOA9a__statsBox {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=b1a17_app_%28frontend%29_assets_style_services_cloudPlatformSection_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,84 @@
+/* [project]/src/app/(frontend)/assets/style/common/commonWhyMetter.module.css [app-client] (css) */
+.commonWhyMetter-module__UOAHbG__flex {
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+}
+
+.commonWhyMetter-module__UOAHbG__flex .commonWhyMetter-module__UOAHbG__left {
+  width: 52%;
+}
+
+.commonWhyMetter-module__UOAHbG__flex .commonWhyMetter-module__UOAHbG__right {
+  width: 48%;
+}
+
+.commonWhyMetter-module__UOAHbG__whymetterbg {
+  background: var(--bg);
+  background-position: top;
+  background-size: 100% 60%;
+  flex-direction: column;
+  justify-content: end;
+  display: flex;
+  position: relative;
+}
+
+.commonWhyMetter-module__UOAHbG__whymetterbg img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.commonWhyMetter-module__UOAHbG__absolute {
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -13%);
+}
+
+.commonWhyMetter-module__UOAHbG__endalign {
+  align-items: end;
+}
+
+.commonWhyMetter-module__UOAHbG__endalign .commonWhyMetter-module__UOAHbG__background {
+  background: #e83e8c;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 20px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .commonWhyMetter-module__UOAHbG__flex {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    display: flex;
+  }
+
+  .commonWhyMetter-module__UOAHbG__flex .commonWhyMetter-module__UOAHbG__left, .commonWhyMetter-module__UOAHbG__flex .commonWhyMetter-module__UOAHbG__right {
+    width: 100%;
+  }
+
+  .commonWhyMetter-module__UOAHbG__whymetterbg {
+    background-size: 100% 25%;
+    background: unset;
+    height: auto;
+  }
+
+  .commonWhyMetter-module__UOAHbG__whymetterbg img {
+    display: none;
+  }
+
+  .commonWhyMetter-module__UOAHbG__endalign .commonWhyMetter-module__UOAHbG__background {
+    border-radius: 20px;
+  }
+
+  .commonWhyMetter-module__UOAHbG__absolute {
+    width: 100%;
+    position: relative;
+    transform: translate(-50%);
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_commonWhyMetter_module_css_bad6b30c._.single.css.map*/

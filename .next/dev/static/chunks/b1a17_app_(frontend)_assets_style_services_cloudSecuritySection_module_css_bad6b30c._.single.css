@@ -1,0 +1,192 @@
+/* [project]/src/app/(frontend)/assets/style/services/cloudSecuritySection.module.css [app-client] (css) */
+.cloudSecuritySection-module__u5fLnW__section {
+  background: radial-gradient(circle at 2px 2px, #e83e8c0d 1px, #0000 0) 0 0 / 40px 40px;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudSecuritySection-module__u5fLnW__scannerLine {
+  background: linear-gradient(90deg, transparent, var(--primary-color, #e83e8c), transparent);
+  opacity: .3;
+  z-index: 0;
+  width: 100%;
+  height: 2px;
+  animation: 4s linear infinite cloudSecuritySection-module__u5fLnW__scan;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes cloudSecuritySection-module__u5fLnW__scan {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+.cloudSecuritySection-module__u5fLnW__header {
+  margin-bottom: 60px;
+}
+
+.cloudSecuritySection-module__u5fLnW__header h2 {
+  background: linear-gradient(135deg, #fff 0%, #ffffffb3 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 20px;
+}
+
+.cloudSecuritySection-module__u5fLnW__intro {
+  line-height: 1.8;
+}
+
+.cloudSecuritySection-module__u5fLnW__securityLayout {
+  z-index: 1;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  display: grid;
+  position: relative;
+}
+
+.cloudSecuritySection-module__u5fLnW__card {
+  background: linear-gradient(145deg, #ffffff08 0%, #ffffff03 100%);
+  border: 1px solid #ffffff0d;
+  border-radius: 40px;
+  padding: 60px;
+  transition: all .6s cubic-bezier(.23, 1, .32, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudSecuritySection-module__u5fLnW__card:hover {
+  border-color: var(--primary-color, #e83e8c);
+  background: #ffffff0d;
+  transform: scale(1.02);
+}
+
+.cloudSecuritySection-module__u5fLnW__card:before {
+  content: "";
+  border-top: 2px solid var(--primary-color, #e83e8c);
+  border-left: 2px solid var(--primary-color, #e83e8c);
+  opacity: 0;
+  width: 100px;
+  height: 100px;
+  transition: all .4s;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.cloudSecuritySection-module__u5fLnW__card:hover:before {
+  opacity: .5;
+  top: 30px;
+  left: 30px;
+}
+
+.cloudSecuritySection-module__u5fLnW__iconBox {
+  width: 90px;
+  height: 90px;
+  color: var(--primary-color, #e83e8c);
+  background: #e83e8c1a;
+  border: 1px solid #e83e8c33;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  display: flex;
+  position: relative;
+}
+
+.cloudSecuritySection-module__u5fLnW__card:hover .cloudSecuritySection-module__u5fLnW__iconBox {
+  background: var(--primary-color, #e83e8c);
+  color: #fff;
+  transform: rotateY(180deg);
+  box-shadow: 0 0 40px #e83e8c66;
+}
+
+.cloudSecuritySection-module__u5fLnW__iconBox svg {
+  width: 40px;
+  height: 40px;
+  transition: transform .6s;
+}
+
+.cloudSecuritySection-module__u5fLnW__card:hover .cloudSecuritySection-module__u5fLnW__iconBox svg {
+  transform: rotateY(-180deg);
+}
+
+.cloudSecuritySection-module__u5fLnW__cardContent h3 {
+  color: #fff;
+  letter-spacing: -.5px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cloudSecuritySection-module__u5fLnW__cardContent p {
+  line-height: 1.7;
+}
+
+.cloudSecuritySection-module__u5fLnW__hudOverlay {
+  color: var(--primary-color, #e83e8c);
+  opacity: .3;
+  pointer-events: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.cloudSecuritySection-module__u5fLnW__pulse {
+  background: var(--primary-color, #e83e8c);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.cloudSecuritySection-module__u5fLnW__pulse:after {
+  content: "";
+  background: inherit;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  animation: 2s ease-out infinite cloudSecuritySection-module__u5fLnW__pulseAnim;
+  position: absolute;
+}
+
+@keyframes cloudSecuritySection-module__u5fLnW__pulseAnim {
+  0% {
+    opacity: .8;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(4);
+  }
+}
+
+@media (max-width: 991px) {
+  .cloudSecuritySection-module__u5fLnW__securityLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .cloudSecuritySection-module__u5fLnW__card {
+    padding: 20px 20px 50px;
+  }
+
+  .cloudSecuritySection-module__u5fLnW__section {
+    padding: 0 0 50px;
+  }
+}
+
+/*# sourceMappingURL=b1a17_app_%28frontend%29_assets_style_services_cloudSecuritySection_module_css_bad6b30c._.single.css.map*/

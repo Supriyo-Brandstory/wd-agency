@@ -51,7 +51,8 @@ const DevelopmentServices = () => {
    <CommonIndustries
    btnname="Contact for Quote"
    btnlink="/contact-us"
-   heding="Our Website Design & Development Types"
+   heding="Full-Scale Web Design & Development Services"
+   subheding = " We deliver a complete web design and development tailored to your business goals."
    services={services}
     />
   )

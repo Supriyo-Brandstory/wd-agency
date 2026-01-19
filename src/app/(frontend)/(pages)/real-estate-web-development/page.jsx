@@ -15,16 +15,16 @@ import imageService5 from "@/app/(frontend)/assets/images/real-estate-website/cr
 import imageService6 from "@/app/(frontend)/assets/images/real-estate-website/multi-currency-language.webp";
 import imageService7 from "@/app/(frontend)/assets/images/real-estate-website/mobile-tablet-optimization.webp";
 import imageService8 from "@/app/(frontend)/assets/images/real-estate-website/maintenance-and-support.webp";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
+import react from "@/app/(frontend)/assets/images/reacticon.svg";
+import nodejs from "@/app/(frontend)/assets/images/nodejsicon.svg";
+import laravel from "@/app/(frontend)/assets/images/laravelicon.svg";
+import wordpress from "@/app/(frontend)/assets/images/wordpressicon.svg";
+import magento from "@/app/(frontend)/assets/images/magentoicon.svg";
+import shopify from "@/app/(frontend)/assets/images/shopifyicon.svg";
+import flutter from "@/app/(frontend)/assets/images/fluttericon.svg";
+import reactnative from "@/app/(frontend)/assets/images/reactnativeicon.svg";
+import php from "@/app/(frontend)/assets/images/phpicon.svg";
+import python from "@/app/(frontend)/assets/images/pythonicon.svg";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/real-estate-website/why-wd-agency.webp";
@@ -44,6 +44,9 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/realestate
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
+import TechnologyStack from "../../component/pages/home/TechnologyStack";
+import CommonTechnologyStack from "../../component/pages/common/CommonTechnologyStack";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
@@ -52,19 +55,19 @@ const page = () => {
         bg={imagebanner}
         alt={"Real Estate Website Development Agency in Dubai"}
         heding={
-          "Real Estate Website Development for <br/>Property Businesses in Dubai & UAE"
+          "Best-Rated Real Estate Website <br>Design Agency in Dubai, UAE"
         }
         subtitle={
-          "Empower your property business in Dubai with a professionally crafted real estate website <br/>designed to attract buyers, showcase listings, and generate qualified leads."
+          "We're the UAE's most trusted real estate web design agency, delivering <br>award-winning websites that turn visitors into buyers. Our high-converting property <br>portals have earned us top industry recognition and measurable results for developers <br>and agencies across the Emirates."
         }
       />
       <CommonIntroduction
-        heding={"Real Estate Website Design Dubai"}
-        text1={` <p>The real estate market in UAE is booming as new developments, global investments, and demand for residential and commercial space remains strong. Today, buyers, sellers, and agents depend on digital channels to make educated decisions about properties. For real estate businesses, it's no longer a matter of "if" you should have a website, it's the backbone of Trust, Credibility and Growth.</p>
-                    <p>Your website is likely the first place buyers or investors will get to know you or your business. If properties are presented effectively as a developer, agency, or independent broker, you can easily differentiate yourself in a competitive market. A poorly designed website will cause you to lose leads, regardless of your amazing prospects.</p>
+        heding={"No. 1 Real Estate Website Development Agency in UAE"}
+        text1={` <p>The UAE property market is booming with new developments, driven by rapid population growth, rising luxury demand, and accelerated PropTech adoption. At Website Development Agency, we lead the way as the premier partner for cutting-edge real estate digital platforms in Dubai and the UAE. Our real estate website solutions are designed to enhance property visibility, streamline lead generation, and support scalable growth.</p>
+                    <p>In a dynamic landscape marked by record transaction volumes, sustained mid-single-digit price growth into 2026, and a shift toward data-driven, tech-enabled buying experiences, your real estate business needs more than a basic site- it requires a high-performance, immersive digital gateway that captures high-value leads from local end-users, global investors, and ultra-luxury seekers.</p>
                     `}
-        text2={`  <p>Unlike a generic business website, a real estate website have distinct needs, advanced property search filters, property comparison tools, interactive maps or seamless booking systems. Each of these applications affect buyer engagement and conversions- which is why off-the-shelf templates fall short in an industry with such specific needs.</p>
-                <p>At <a href='/'>Website Development Agency</a>, we recognize these challenges, and we specialize in feature-rich real estate websites that are built for performance and conversion. From mobile-first responsive sites to advanced listing management systems, Website Development Agency is your reliable real estate website development agency in Dubai for building a digital platform.</p>
+        text2={`  <p>We design premium real estate websites and property portals tailored for the Dubai and UAE market. Our on-demand websites are fast, bilingual (English & Arabic), mobile-first, and built to showcase properties through rich visuals, smart search, and virtual tours. With strong lead generation, local SEO, and secure architecture, we help real estate brands attract buyers, generate qualified enquiries, and convert interest into sales.</p>
+                <p>At <a href='/'>Website Development Agency</a>, we serve the full spectrum of UAE real estate: luxury developers showcasing iconic projects, boutique agencies handling premium resale, investment firms targeting off-plan opportunities, property management companies streamlining rentals, and B2B platforms for commercial spaces. We are among the most trusted real estate website developers in Dubai, UAE. </p>
                     `}
         imageintro1={imageintro1}
         alt1={
@@ -79,60 +82,20 @@ const page = () => {
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         alt={
-          "Why Real Estate Businesses Need Professional Websites - Website Development Agency"
+          "Elevate Your Property Business with a Website That Sells"
         }
-        heding={"Why Real Estate Businesses Need Professional Websites"}
+        heding={"Elevate Your Property Business with a Website That Sells"}
         subheding={
-          'Days have gone by when buyers found their property via a newspaper or local bulletin; the way users research properties in the UAE has shifted so quickly. The majority of buyers now start their property journey online, beginning with neighborhood and market research, virtual tours, comparative market analysis, and price comparison, and rarely reach out to an agent before using the "Find a Property" feature on your website.'
+          'Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market.'
         }
-        lefttext={`  <p>Easy-to-use websites with advanced property listings, interactive maps, and virtual tour integration enable prospects to search for homes and offices in detail before visiting your property in person. This aspect of convenience helps build trust and prompt action. In fast-moving markets like Dubai or Abu Dhabi, fast action and clearly communicating advantages can lead to winning business vs. lost business.</p>
-                        <p>A polished, well-designed website signals that your agency, brokerage, or development firm is trustworthy, well-established, and dedicated to working transparently for the benefit of its clients. When your website offers secure inquiries, easy-to-use forms, and listings that are constantly updated, prospective buyers and tenants are much more likely to take action and reach out to a sales associate.</p>
+        lefttext={`  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
+                    <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
                         `}
-        righttext={`<p>For UAE real estate businesses, a professional website isn’t just an aesthetic choice- it’s a functional, trustworthy, and convertible one. Investing in a well-functioning site and a reliable real estate web design agency in the UAE will yield rewards in the long run in one of the most competitive real estate markets in the world.</p>
+        righttext={`<p><b>Stay Ahead of the Competition:</b> While other agencies struggle with outdated websites, you'll command authority with a modern platform that works flawlessly on every device, loads instantly, ranks at the top of Google, and positions your brand as the premier choice for luxury real estate across the UAE.</p>
                             `}
       />
-      <RealEstatePortfolio
-        heading="Real Estate Website Templates & Custom Design"
-        description="Explore the best real-estate website design templates for your business in Dubai or start with custom design. Contact our real-estate website development agency in Dubai, UAE for state-of-the-art website design and development services."
-        portfolioData={[
-          {
-            subtitle: "Real Estate Website Design",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Real Estate Landing Page",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Real Estate Agency Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Real Estate Broker Website",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Luxury Real Estate Website",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Property Listing Website",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-        ]}
-      />
+
+      
       <CommonIndustries
         heding={"Our Real Estate Website Development Services"}
         subheding="At Website Development Agency, we go beyond design, we build powerful real estate platforms that simplify property management, maximize buyer engagement, and generate leads. Our services include:"
@@ -203,72 +166,65 @@ const page = () => {
           },
         ]}
       />
-      <CommonThreeCard
-        text1={"Features of a Successful Real Estate Website"}
-        text2={
-          "A successful real estate website is not just visually appealing- it’s functional, intuitive, and designed to convert visitors into buyers. The following features are essential:"
-        }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon5,
-            title: "Advanced Search Filters",
-            desc: "Allow users to filter by location, price, square foot, and what amenities they would like, so that they can make a faster and better-informed decision. Dynamic filters help take a large inventory and provide personalized results.",
-          },
-          {
-            id: 2,
-            img: imagecommon8,
-            title: "Interactive Maps for Information",
-            desc: "All nearby schools, hospitals, shopping malls, and modes of transportation are a must-have for any buyer. This will help buyers in their evaluations of communities of interest. Lifestyle-driven highlights give buyers a real in-depth look.",
-          },
-          {
-            id: 3,
-            img: imagecommon3,
-            title: "Virtual Tours & Videos",
-            desc: "Many prospective buyers appreciate being able to virtually explore properties (360° experiences) through interactive aerial videos, and/or video walk-throughs before considering visiting the property. Virtual tours help enhance transparency for buyers.",
-          },
-          {
-            id: 4,
-            img: imagecommon6,
-            title: "Agent Directories",
-            desc: "Build pages dedicated to your agents so that buyers can see the agents individual profiles, dedicated specialties of agency, and easily make contact to engage professionally. Buyers begin to build trust in the agency if they can connect with an actual professional.",
-          },
-          {
-            id: 5,
-            img: imagecommon1,
-            title: "Inquiry Forms & Chatbot",
-            desc: 'Instantly capture lead details with simple lead forms, AI chat bots, and straightforward "contact us" buttons. Chat bots support your business with inquiries 24-7 which enhance speed of response time from agents.',
-          },
-          {
-            id: 6,
-            img: imagecommon4,
-            title: "Quick-loading Pages",
-            desc: "Make your properties show up faster, rank higher in search results, and offer a smooth browsing experience. Faster speed and better visibility lead to more engagement and higher conversions.",
-          },
-          {
-            id: 7,
-            img: imagecommon2,
-            title: "Secure Payment Transactions",
-            desc: "Provide buyers with complete peace of mind by enabling safe and reliable online transactions for deposits and bookings. With robust security measures, encrypted payment gateways, and fraud protection, your clients can confidently complete payments.",
-          },
-          {
-            id: 8,
-            img: imagecommon7,
-            title: "Analytics & Reporting Dashboards",
-            desc: "Keep track of inquiries, property views and conversions to make smarter business decisions. Analytics lead to insights that help agencies refine marketing strategy and simply maximize ROI.",
-          },
-          {
-            id: 9,
-            img: imagecommon9,
-            title: "Recommendations & Saved Searches",
-            desc: "Enable users to save their favorite properties, set up alerts for new listings that match their preferences, and receive personalized property suggestions based on their browsing behavior. This keeps potential buyers engaged and encourages repeat visitors.",
-          },
-        ]}
-      />
+      
+      <CommonTechnologyStack
+      heding={"Our Website Development Technology Stack"}
+      subheding={
+        "We possess deep expertise in all frontend and backend website development technologies."
+      }
+      techData={[
+        {
+          name: "React",
+          image: react,
+          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+          Link: "/platforms/react-js-website-development",
+        },
+        {
+          name: "Node.js",
+          image: nodejs,
+          gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)",
+          Link: "/platforms/nodejs-website-development",
+        },
+        {
+          name: "Laravel",
+          image: laravel,
+          gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)",
+          Link: "/platforms/laravel-website-development",
+        },
+        {
+          name: "WordPress",
+          image: wordpress,
+          gradient: "linear-gradient(180deg, #4A87A3 16.44%, #21759B 60.27%)",
+          Link: "/platforms/wordpress-website-development",
+        },
+        {
+          name: "Flutter",
+          image: flutter,
+          gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)",
+          Link: "/platforms/flutter-website-development",
+        },
+        {
+          name: "React Native",
+          image: reactnative,
+          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+          Link: "/platforms/react-native-website-development",
+        },
+        {
+          name: "PHP",
+          image: php,
+          gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)",
+          Link: "/platforms/php-website-development",
+        },
+        {
+          name: "Python",
+          image: python,
+          gradient: "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)",
+          Link: "/platforms/python-website-development",
+        },
+      ]}
+    />
 
-      <DevelopmentServices />
-
-      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Real Estate Website Cost Breakdown</h2>
           <p>
@@ -306,66 +262,83 @@ const page = () => {
         </div>
       </div>
 
-      <CommonDevelopmentProcess
-        heding={"Our Real Estate Website Development Process"}
-        subheding={
-          "At Website Development Agency, we follow agile methodology development to design and develop responsive websites that meet the goals for your business:"
-        }
-        processData={[
+      <DevelopmentServices />
+
+          <RealEstatePortfolio
+        heading="Real Estate Website Templates Based Solutions"
+        description="Browse a curated selection of premium real estate website templates designed for property businesses. Each template includes essential features like property listings, search filters, inquiry forms, and responsive layouts- helping you launch a professional real estate website in Dubai quickly and cost-effectively."
+        portfolioData={[
           {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `We will start by taking a deep dive consultation to learn about your goals, audience, and competitive landscape. This phase allows us to align the project to your business goals, industry trends, and customer expectations. `,
+            subtitle: "Real Estate Website Design",
+            image: Portfolioimage1,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
           {
-            id: "02",
-            title: "Design & Architecture",
-            description: `Our experts map out the website’s structure, UX flow, and customer journey. We create wireframes and prototypes that visualize how users will interact with your store before moving into design and coding. `,
+            subtitle: "Real Estate Landing Page",
+            image: Portfolioimage2,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
           {
-            id: "03",
-            title: "Design & Development",
-            description: `Next, we create a visually engaging interface supported by a strong, secure, and scalable back end. Our development team works to ensure functionality is consistent across devices. Mobile-first design and loading speed are always prioritized.`,
+            subtitle: "Real Estate Agency Website",
+            image: Portfolioimage3,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
           {
-            id: "04",
-            title: "Integration",
-            description: `We incorporate IDX/MLS feeds, CRM’s, Google maps and lead capture provisions, so that you have access to real time information, fully functioning websites, to level up the success of your site.`,
+            subtitle: "Real Estate Broker Website",
+            image: Portfolioimage4,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
           {
-            id: "05",
-            title: "Testing & QA",
-            description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
+            subtitle: "Luxury Real Estate Website",
+            image: Portfolioimage5,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
           {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Your website goes live only after SEO audits, analytics setup, and speed optimization. We also implement conversion tracking tools to measure performance from day one.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Our partnership doesn’t end at launch. We offer ongoing monitoring, updates, and feature enhancements to ensure your website is operating efficiently and dynamic enough to adapt to market changes.`,
+            subtitle: "Property Listing Website",
+            image: Portfolioimage6,
+            link: "/contact-us",
+            price: "AED 3,000",
           },
         ]}
       />
+
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Real Estate Website Development"
+          "Designed for Every Role in the UAE Real Estate Market"
         }
         subheding={
-          "Choosing the right development partner makes all the difference. At Website Development Agency, we combine years of experience, industry knowledge, with technical expertise to deliver truly engaging websites. Here is what makes us the best real estate website developers in the UAE:"
+          "In Dubai and UAE the real estate sector includes a wide range of professionals from independent consultants to large development firms- and each requires a website that reflects credibility, expertise, and local market knowledge. We build custom real estate websites that adapt to the specific needs of every property-focused business."
         }
-        lefttext={`<p><b>Expertise:</b> We have successfully built a wide range of real estate digital solutions, including property portals, broker platforms, and multi-developer project websites. Our experience ensures that every platform is both user-friendly and tailored to meet the unique needs of property businesses.</p>
-                                <p><b>Scalable Solutions:</b> Whether you need a single-agent website or a large-scale enterprise marketplace, we design solutions that grow with your business. Our platforms are flexible and can be enhanced as your property inventory and business needs expand.</p>
-                                <p><b>SEO-First Approach:</b> Every listing and page is built with SEO best practices in mind, ensuring your properties achieve higher visibility on Google and leading property portals. This helps attract more qualified traffic and generate genuine leads.</p>
-                                <p><b>Transparent Process & Support:</b> From initial planning to post-launch maintenance, we maintain clear communication at every step. Our ongoing support ensures your website remains up-to-date, secure, and optimized for long-term success.</p>
-                            `}
+        lefttext={`
+          <p><b>Who We Build For</b></p>
+
+          <p><b>Real Estate Agents & Consultants</b><br>
+          High-performance websites that showcase listings, improve local visibility, and capture qualified leads through integrated enquiry systems and CRM-ready workflows.</p>
+
+          <p><b>Luxury Property & Investment Brands</b><br>
+          Premium digital experiences with refined design, immersive property showcases, and branding tailored to attract high-net-worth buyers and global investors.</p>
+
+          <p><b>Developers, Brokerages & Commercial Firms</b><br>
+          Scalable platforms built to manage projects, agents, and offices- featuring structured content, investor-focused presentation, and long-term growth flexibility.</p>
+
+          <p><b>Property Management Companies & Startups</b><br>
+          Efficient, easy-to-manage websites with tenant interaction tools, service request systems, and fast-launch capabilities designed to scale as the business grows.</p>
+
+          <p><b>Why It Matters</b><br>
+          Each website is strategically developed to strengthen your brand presence, simplify client interactions, and support long-term success in the competitive UAE property market.</p>
+        `}
         rightimage={imagewhydevelopment}
         alt={
           "Why Choose Website Development Agency for Real Estate Website Development"
         }
       />
+
+      <CommonProtfolio />
       <Team />
 
       <CommonClientTestimonials

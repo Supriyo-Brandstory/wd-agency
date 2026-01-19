@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/website-development-in-abu-dhabi/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__fea29eae._.js")
-R.c("server/chunks/ssr/src_app_(frontend)_2006c014._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2a6a0eec._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_05fb84d8._.js")
 R.c("server/chunks/ssr/_3a4cbd5d._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b9a0874._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__8ccd194c._.js")

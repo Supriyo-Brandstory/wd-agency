@@ -1,0 +1,220 @@
+/* [project]/src/app/(frontend)/assets/style/services/cloudProcessSection.module.css [app-client] (css) */
+.cloudProcessSection-module__84AeKa__section {
+  background: none;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudProcessSection-module__84AeKa__header {
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cloudProcessSection-module__84AeKa__header h2 {
+  background: linear-gradient(135deg, #fff 0%, #ffffffb3 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.cloudProcessSection-module__84AeKa__description {
+  line-height: 1.8;
+}
+
+.cloudProcessSection-module__84AeKa__timelineContainer {
+  margin-top: 60px;
+  position: relative;
+}
+
+.cloudProcessSection-module__84AeKa__desktopContent {
+  display: block;
+}
+
+.cloudProcessSection-module__84AeKa__mobileContent {
+  display: none;
+}
+
+.cloudProcessSection-module__84AeKa__progressBar {
+  background: #ffffff1a;
+  border-radius: 2px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 100px;
+  display: flex;
+  position: relative;
+}
+
+.cloudProcessSection-module__84AeKa__progressFill {
+  background: var(--primary-color, #e83e8c);
+  z-index: 1;
+  height: 100%;
+  transition: width .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cloudProcessSection-module__84AeKa__stepNode {
+  z-index: 2;
+  cursor: pointer;
+  background: #000;
+  border: 2px solid #ffffff4d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: all .3s;
+  position: relative;
+}
+
+.cloudProcessSection-module__84AeKa__stepNode.cloudProcessSection-module__84AeKa__active, .cloudProcessSection-module__84AeKa__stepNode.cloudProcessSection-module__84AeKa__passed {
+  border-color: var(--primary-color, #e83e8c);
+  background: #000;
+  box-shadow: 0 0 0 4px #e83e8c33;
+}
+
+.cloudProcessSection-module__84AeKa__stepNode.cloudProcessSection-module__84AeKa__active {
+  background: var(--primary-color, #e83e8c);
+  transform: scale(1.3);
+}
+
+.cloudProcessSection-module__84AeKa__stepLabel {
+  white-space: nowrap;
+  color: #ffffff80;
+  font-size: .9rem;
+  font-weight: 600;
+  transition: all .3s;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cloudProcessSection-module__84AeKa__stepNode.cloudProcessSection-module__84AeKa__active .cloudProcessSection-module__84AeKa__stepLabel {
+  color: #fff;
+  top: 35px;
+}
+
+.cloudProcessSection-module__84AeKa__contentCard {
+  background: #ffffff05;
+  border: 1px solid #ffffff0d;
+  border-radius: 40px;
+  align-items: center;
+  gap: 60px;
+  min-height: 300px;
+  padding: 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloudProcessSection-module__84AeKa__contentCard:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle at 100% 0, #e83e8c1a, #0000 70%);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cloudProcessSection-module__84AeKa__cardIcon {
+  width: 80px;
+  height: 80px;
+  color: var(--primary-color, #e83e8c);
+  background: #e83e8c0d;
+  border: 1px solid #e83e8c1a;
+  border-radius: 30px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.cloudProcessSection-module__84AeKa__cardText {
+  flex: 1;
+}
+
+.cloudProcessSection-module__84AeKa__cardText h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.cloudProcessSection-module__84AeKa__cardText p {
+  line-height: 1.7;
+}
+
+.cloudProcessSection-module__84AeKa__phaseIndicator {
+  color: #ffffff08;
+  pointer-events: none;
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: 900;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+@media (max-width: 991px) {
+  .cloudProcessSection-module__84AeKa__desktopContent {
+    display: none !important;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileContent {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileCard {
+    background: #ffffff05;
+    border: 1px solid #ffffff0d;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileNumber {
+    color: #ffffff0d;
+    font-size: 3rem;
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileIconWrapper {
+    color: var(--primary-color, #e83e8c);
+    background: #e83e8c1a;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 12px;
+    display: inline-flex;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileTitle {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  .cloudProcessSection-module__84AeKa__mobileDesc {
+    color: #ffffffb3;
+    font-size: .95rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 767px) {
+  .cloudProcessSection-module__84AeKa__section {
+    padding: 0 0 50px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_services_cloudProcessSection_module_css_bad6b30c._.single.css.map*/

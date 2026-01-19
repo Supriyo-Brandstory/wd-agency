@@ -1,9 +1,9 @@
 {
   "node": {
-    "40249adc2d10fd2df5787e27a6a69349f3e06bc250": {
+    "40e3857d2f05e6799c2da0cb2c81f8ccc35556d126": {
       "workers": {
         "app/(frontend)/(pages)/e-commerce-web-development/page": {
-          "moduleId": 67580,
+          "moduleId": 83971,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -14,21 +14,6 @@
       },
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "40f38346b84b85098ce875a202fe3c6ea456f2a8ff": {
-      "workers": {
-        "app/(frontend)/(pages)/e-commerce-web-development/page": {
-          "moduleId": 67580,
-          "async": false,
-          "exportedName": "createEnquiry",
-          "filename": "src/app/admin/dashboard/enquiry/action.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser"
-      },
-      "exportedName": "createEnquiry",
-      "filename": "src/app/admin/dashboard/enquiry/action.js"
     }
   },
   "edge": {}
