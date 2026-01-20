@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"Our‍‌‍‍‌‍‌‍‍‌ team of expert developers build high-quality, mobile-friendly, and scalable </br>ReactJS web applications for companies located in Dubai and the UAE."}
 
             />
+
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'Your Trusted ReactJS Development Partner'}
                 text1={` <p>ReactJS website is the perfect way to revolutionize your online presence. We focus on creating performant, up-to-date, and interactive web applications that attract users and produce tangible business outcomes. You can count on us to deliver an innovative digital product driven with ReactJS, be it a visually appealing simple app (SPA) for your business, a complex enterprise dashboard, or a stylish website for a corporate ‍‌‍‍‌‍‌‍‍‌brand.</p>

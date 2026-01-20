@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"We design and develop responsive, secure, and high-performing <br>WordPress websites that drive business growth in Dubai, <br>Abu Dhabi, and across the UAE."}
 
             />
+
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'WordPress Website Development'}
                 text1={` <p>Your‍‌‍‍‌‍‌‍‍‌ website is the first impression of your business in a digitally-driven world. <a href="/">Website Development Agency</a> is the company that can expert in custom WordPress website development in the UAE. We provide powerful, scalable, and aesthetically appealing website that really gets your business noticed. We have been up to this for more than ten years.</p>

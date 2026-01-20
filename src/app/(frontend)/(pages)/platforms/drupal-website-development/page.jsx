@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"We craft Drupal websites that combine security, scalability, and rich functionality, </br>helping businesses across Dubai and the UAE grow with confidence online."}
 
             />
+
+                <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'Trusted Drupal Development Partner'}
                 text1={` <p>Website Development Agency is the most reliable Drupal website development company in Dubai and the UAE. We have extensive experience in working with Drupal website projects for almost a decade. Our seasoned website development experts are capable of delivering high-quality, secure, and scalable Drupal websites with a strong focus on performance and design.</p>

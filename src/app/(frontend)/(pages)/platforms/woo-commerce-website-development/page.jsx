@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"Our WooCommerce websites are characterized by speed, scalability, and </br>performance, serving as the foundation of your online business success."}
 
             />
+
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'WooCommerce Website Development'}
                 text1={` <p><a href="/">Website Development Agency</a> has brought e-commerce to the doorstep of the business community by providing skilled professionals who create powerful WooCommerce solutions. Our WooCommerce developers build feature-rich and conversion-optimized online stores tailored to your brand and business objectives- whether you’re launching a new store or taking an existing one to the next level.</p>

@@ -25,8 +25,8 @@ const cardVariants = {
 }
 
 const CommonIndustries = ({
-  heding = "Industries We Specialise in - Demonstrated Experience",
-  subheding = "We cater to a diverse range of industries, delivering tailored web solutions that drive growth and engagement.",
+  heding = "Proven Experience Across Industries",
+  subheding = "We build custom web solutions across multiple industries to boost engagement and drive growth.",
   services = [
     {
       title: "Real Estate & Property",

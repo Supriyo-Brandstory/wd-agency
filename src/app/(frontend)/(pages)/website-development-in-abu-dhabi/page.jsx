@@ -14,9 +14,7 @@ import PartnershipCommitmentimage from "@/app/(frontend)/assets/images/website-d
 import Transparencyimage from "@/app/(frontend)/assets/images/website-development/Transparency.png";
 import TechnologyAdoptionimage from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
 import ValueforMoneyServicesimage from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
-import CommonApproch from "../../component/pages/common/CommonApproch";
 
-import approchbannerimage from "@/app/(frontend)/assets/images/abu-dhabi/our-approch.webp";
 import CommonServices from "../../component/pages/common/CommonServices";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import CommonResult from "../../component/pages/common/CommonResult";
@@ -30,9 +28,10 @@ import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
+
 import LocationService from "../../component/pages/common/LocationService";
-import CostCalculator from "../../component/pages/calculator/CostCalculator";
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -43,6 +42,22 @@ const page = () => {
         text3={
           "At Website Development Agency, we are the best website design agency in Abu Dhabi, UAE. Let’s create your website beyond the ordinary."
         }
+      />
+
+      <SubNav
+        title="Technology"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "WordPress", link: "/platforms/wordpress-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+	        
+        ]}
       />
 
       <CommonAboutPage
@@ -83,9 +98,72 @@ const page = () => {
         img={abudhabiAboutimg}
       />
       <CommonProtfolio />
-      <CommonThreeCard
+      
+          <CommonIndustries />
+
+      <CommonServices
+        theding={
+          "The Website Development Agency Methodology"
+        }
+        tdesc={` <p>At Website Development Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
+                    <p class='mt-20'>Our structured and forward-thinking web development process not only drives measurable outcomes but also encourages creative solutions that set your business apart and deliver lasting commercial success.</p>
+                `}
+        bheding={"Steps We Follow in Our Web Development Process:"}
+        bdesc={`<ul class='ml-50'>
+                <li>Discovery & Research- Understanding requirements, competitor analysis, and audience mapping.</li>
+                <li>Strategy & Architecture- Content strategy, branding strategy, and conversion mapping.</li>
+                <li>Design- Wireframes, <a href="/services/wireframing-prototyping">interactive prototypes</a>, brand-consistent UI.</li>
+                <li>Development- Agile development, unit & integration testing, API development.</li>
+                <li>Testing & Optimisation- Load testing, security scanning, cross-browser and device QA.</li>
+                <li> Launch & Maintenance- Structured rollout, continuous monitoring, and performance tracking.</li>
+            </ul>
+            <p class='mt-20'>We provide project deadlines, milestones, utilize tools (project boards, regular demos) so you always know the progress.</p>
+            `}
+        bbg={DevelopmentProcess}
+      />
+      
+      
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Website Design Abu Dhabi- Cost Breakdown</h2>
+          <p>
+            Avail the best website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+        <CommonThreeCard
         text1={
-          "Why Choose Website Development Agency- Local Expertise, Global Engineering"
+          "Website Development with Local Expertise & <br>Global Engineering"
         }
         text2={
           "Many agencies build websites, few combine a local business with modern engineering. Here’s what makes Website Development Agency the preferred partner for businesses in Abu Dhabi:"
@@ -129,47 +207,12 @@ const page = () => {
           },
         ]}
       />
-
-      <CommonApproch
-        text1={"What We Build- Services That Cover Every Digital Need"}
-        text2={` 
-                    <ul>
-                    <li>Website Design & Development : We build <a href="/services/full-stack-development">custom websites</a> using modern frameworks and industry best practices. We begin with user journeys, then move to high-fidelity prototypes, iterative design, and powerful engineering. </li>
-                    <li>eCommerce & Marketplaces : From boutique retail to multi-vendor marketplaces, we create secure, scalable commerce platforms with secure payment gateway and shipping integration.</li>
-                    <li>Content Management Systems (CMS) : WordPress, headless CMS (Strapi, Contentful), Drupal- we select the proper platform for your content strategy. </li>
-                    <li>Web Applications & Portals : Complex booking platforms, client portals, dashboards, CRM integrations, custom web apps. We integrate APIs, authentication, role-based access, and performant database architecture.</li>
-                    <li>Progressive Web Apps (PWAs) : We create Progressive Web Apps (PWAs) that deliver app-like experiences- fast, reliable, offline-capable, and designed to re-engage users seamlessly across devices.</li>
-                    <li>Hosting, Monitoring & Maintenance : UAE-based hosting options, with global CDNs for international reach, automated backups, monitoring and 24/7 support and free maintenance.</li>
-                    </ul>
-                    `}
-        bannerimage={approchbannerimage}
-      />
-      <CommonServices
-        theding={
-          "The Website Development Agency Method - Collaborative, Transparent, & Measurable"
-        }
-        tdesc={` <p>At Website Development Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
-                    <p class='mt-20'>Our structured and forward-thinking web development process not only drives measurable outcomes but also encourages creative solutions that set your business apart and deliver lasting commercial success.</p>
-                `}
-        bheding={"Steps We Follow in Our Web Development Process:"}
-        bdesc={`<ul class='ml-50'>
-                <li>Discovery & Research- Understanding requirements, competitor analysis, and audience mapping.</li>
-                <li>Strategy & Architecture- Content strategy, branding strategy, and conversion mapping.</li>
-                <li>Design- Wireframes, <a href="/services/wireframing-prototyping">interactive prototypes</a>, brand-consistent UI.</li>
-                <li>Development- Agile development, unit & integration testing, API development.</li>
-                <li>Testing & Optimisation- Load testing, security scanning, cross-browser and device QA.</li>
-                <li> Launch & Maintenance- Structured rollout, continuous monitoring, and performance tracking.</li>
-            </ul>
-            <p class='mt-20'>We provide project deadlines, milestones, utilize tools (project boards, regular demos) so you always know the progress.</p>
-            `}
-        bbg={DevelopmentProcess}
-      />
       <CommonResult
         heding={"Best Web Design Services that Drive Measurable Results"}
         desc={
           "Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."
         }
-        subheding={"Our Core Strengths"}
+    
         resultdata={[
           {
             id: 1,
@@ -200,15 +243,15 @@ const page = () => {
           "We have worked with top-level businesses in Abu Dhabi across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. "
         }
       />
-      <CommonIndustries />
-      <CostCalculator />
+      
+
       <CommonClientTestimonials />
       <LocationService activeLocation="abu dhabi" />
 
       <CommonFaqSection
         faqs={[
           {
-            q: "Why Should I Hire a Local Abu Dhabi Agency Like Website Development Agency Instead of Outsourcing Overseas?",
+            q: "Why Should I Hire Website Development Agency?",
             a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound.",
           },
           {

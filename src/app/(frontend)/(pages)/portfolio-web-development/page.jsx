@@ -30,7 +30,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 
@@ -58,24 +57,21 @@ const page = () => {
       <SubNav
         title="Portfolio"
         items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
           {
-            name: "PHP",
-            link: "/platforms/php-website-development",
-          },
-          {
-            name: "W-commerce",
-            link: "/platforms/woo-commerce-website-development",
+            name: "Laravel",
+            link: "/platforms/laravel-website-development",
           },
           {
             name: "WordPress",
             link: "/platforms/wordpress-website-development",
           },
           { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
         ]}
       />
       <CommonIntroduction

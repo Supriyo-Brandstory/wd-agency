@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"At Website Development Agency, we create powerful, secure, and scalable PHP websites </br>that combine performance with exceptional user experience."}
 
             />
+
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'PHP Website Development Services'}
                 text1={` <p>At <a href="/">Website Development Agency in Dubai</a>, we are a reputable PHP web development agency in Dubai and the UAE. We enable businesses to build digital solutions that are fast, flexible, and future-ready. With 10+  years of experience and a team of skilled developers, we are proficient in designing websites and web applications based on PHP that are robust and specifically tailored to meet the specific requirements of our clients.</p>

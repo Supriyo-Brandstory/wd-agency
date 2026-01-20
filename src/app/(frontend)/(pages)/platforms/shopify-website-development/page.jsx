@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,18 @@ const page = () => {
                 subtitle={"We‍‌‍‍‌‍‌‍‍‌ create fully personalized, mobile-friendly, and performance-driven </br>Shopify website stores for e-commerce businesses in Dubai and the UAE."}
 
             />
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'Shopify Website Development Services'}
                 text1={` <p>An online store is not just a website- it is your brand's digital storefront and the first impression your customers get. At Website Development Agency, we are experts in Shopify website development, assisting businesses in designing, developing, and optimizing robust e-commerce experiences that attract sales and brand loyalty.</p>
