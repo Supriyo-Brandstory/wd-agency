@@ -13,6 +13,7 @@ import OurJourney from "../../component/pages/home/OurJourney";
 import FaqSection from "../../component/pages/home/FaqSection";
 import CtaSection from "../../component/pages/home/CtaSection";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
 
 import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import LocationService from "../../component/pages/common/LocationService";
@@ -35,6 +36,7 @@ const page = () => {
       <CommonProtfolio />
       <TechnologyStack />
       <DevelopmentServices />
+      <DemoTemplate />
       <DevelopmentProcess />
       <CostCalculator />
       {/* <Portfolio/> */}
@@ -46,7 +48,6 @@ const page = () => {
       <OurJourney />
       <FaqSection />
       <CtaSection />
-  
     </div>
   );
 };
