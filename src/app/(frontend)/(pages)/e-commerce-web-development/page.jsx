@@ -36,7 +36,7 @@ import magnati from "@/app/(frontend)/assets/images/magnati.png";
 import stripe from "@/app/(frontend)/assets/images/stripe.png";
 import postpay from "@/app/(frontend)/assets/images/postpay.png";
 import ccavenue from "@/app/(frontend)/assets/images/ccavenue.png";
-import aboutimagesabudhabi from '@/app/(frontend)/assets/images/abu-dhabi/about.webp'
+import aboutimagesabudhabi from "@/app/(frontend)/assets/images/abu-dhabi/about.webp";
 
 import php from "@/app/(frontend)/assets/images/phpicon.svg";
 import python from "@/app/(frontend)/assets/images/pythonicon.svg";
@@ -44,7 +44,7 @@ import CloudPlatformSection from "../../component/pages/services/CloudPlatformSe
 import CloudServiceGrid from "../../component/pages/services/CloudServiceGrid";
 import CommonAboutPage from "../../component/pages/common/CommonAboutPage";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
-
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -52,12 +52,33 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         alt="Best Ecommerce Development Company in Dubai, UAE"
-        heding={
-          "Best Ecommerce Development <br>Company in Dubai, UAE"
-        }
+        heding={"Best Ecommerce Development <br>Company in Dubai, UAE"}
         subtitle={
           "We specialize in all-inclusive custom eCommerce development services- <br>scalable, user-friendly, and revenue-focused e-com websites to help <br>your business achieve its full potential."
         }
+      />
+      <SubNav
+        title="Ecommerce"
+        items={[
+          {
+            name: "PHP",
+            link: "/platforms/php-website-development",
+          },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"No. 1 Ecommerce Development Services in UAE"}
@@ -87,72 +108,69 @@ const page = () => {
       />
 
       <CommonTechnologyStack
-      heding={"Custom E-Commerce Development Technology Stack"}
-      subheding={
-        "Get complete flexibility and control to create the exact shopping experience you envision."
-      }
-      techData={[
-        {
-          name: "React",
-          image: react,
-          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
-          Link: "/platforms/react-js-website-development",
-        },
-        {
-          name: "Node.js",
-          image: nodejs,
-          gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)",
-          Link: "/platforms/nodejs-website-development",
-        },
-        {
-          name: "Laravel",
-          image: laravel,
-          gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)",
-          Link: "/platforms/laravel-website-development",
-        },
-        {
-          name: "Flutter",
-          image: flutter,
-          gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)",
-          Link: "#",
-        },
-        {
-          name: "React Native",
-          image: reactnative,
-          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
-          Link: "#",
-        },
-        {
-          name: "PHP",
-          image: php,
-          gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)",
-          Link: "/platforms/php-website-development",
-        },
-        {
-          name: "Python",
-          image: python,
-          gradient: "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)",
-          Link: "#",
-        },
-      ]}
-    />
+        heding={"Custom E-Commerce Development Technology Stack"}
+        subheding={
+          "Get complete flexibility and control to create the exact shopping experience you envision."
+        }
+        techData={[
+          {
+            name: "React",
+            image: react,
+            gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+            Link: "/platforms/react-js-website-development",
+          },
+          {
+            name: "Node.js",
+            image: nodejs,
+            gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)",
+            Link: "/platforms/nodejs-website-development",
+          },
+          {
+            name: "Laravel",
+            image: laravel,
+            gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)",
+            Link: "/platforms/laravel-website-development",
+          },
+          {
+            name: "Flutter",
+            image: flutter,
+            gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)",
+            Link: "#",
+          },
+          {
+            name: "React Native",
+            image: reactnative,
+            gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+            Link: "#",
+          },
+          {
+            name: "PHP",
+            image: php,
+            gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)",
+            Link: "/platforms/php-website-development",
+          },
+          {
+            name: "Python",
+            image: python,
+            gradient:
+              "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)",
+            Link: "#",
+          },
+        ]}
+      />
 
-   <CloudServiceGrid
+      <CloudServiceGrid
         title="We Create Result-driven eCommerce Stores"
         description="Our expert web developers in Dubai bring technical excellence and strategic thinking to every project, creating websites that deliver measurable business results. Our team builds scalable, high-performance custom-built websites designed to grow with your business- accommodating increased traffic, expanding content, and new functionality without compromising speed or reliability. <br><br/>Beyond core development, we integrate your website with critical business tools- CRM systems, payment processors, marketing platforms, and custom APIs- creating a unified digital ecosystem. Our solutions include advanced features like smart search, personalized user experiences, interactive forms, and dynamic content that drive engagement and conversions.  "
         services={[
           {
             icon: (
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                stroke="none"
-              >
-                <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l8 4v8.64l-8 4-8-4V8.18l8-4zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
-                <circle cx="6" cy="12" r="1.5"/>
-                <circle cx="18" cy="12" r="1.5"/>
-                <circle cx="12" cy="6" r="1.5"/>
-                <circle cx="12" cy="18" r="1.5"/>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l8 4v8.64l-8 4-8-4V8.18l8-4zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" />
+                <circle cx="6" cy="12" r="1.5" />
+                <circle cx="18" cy="12" r="1.5" />
+                <circle cx="12" cy="6" r="1.5" />
+                <circle cx="12" cy="18" r="1.5" />
               </svg>
             ),
             title: "MERN Stack Ecommerce Development",
@@ -160,70 +178,57 @@ const page = () => {
           },
           {
             icon: (
-              <svg
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              stroke="none"
-            >
-              <path d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033l.033-.045c.013-.01.025-.018.037-.027.014-.013.026-.023.041-.034h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.046.007.011.02.021.024.033.011.02.018.04.024.058.006.012.01.023.015.033zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.039-.01-.012-.021-.023-.028-.037h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.256zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z"/>
-            </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033l.033-.045c.013-.01.025-.018.037-.027.014-.013.026-.023.041-.034h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.046.007.011.02.021.024.033.011.02.018.04.024.058.006.012.01.023.015.033zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.039-.01-.012-.021-.023-.028-.037h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.256zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z" />
+              </svg>
             ),
             title: "Laravel Ecommerce Development",
             desc: "We specialize in custom Laravel eCommerce solutions, building secure and scalable online stores tailored to your business needs. As Dubai's leading Laravel development company, we create multi-vendor marketplaces, multi-language platforms, and feature-rich shopping sites with robust PHP frameworks, delivering optimized performance and seamless user experiences.",
           },
           {
             icon: (
-            <svg
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              stroke="none"
-            >
-              <path d="M14.31.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.83l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.23l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.24l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09z"/>
-              <path d="M21.1 11.12l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V11.1z"/>
-              <circle cx="17.5" cy="21.5" r="1.2" fill="#fff"/>
-            </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M14.31.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.83l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.23l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.24l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09z" />
+                <path d="M21.1 11.12l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V11.1z" />
+                <circle cx="17.5" cy="21.5" r="1.2" fill="#fff" />
+              </svg>
             ),
             title: "Python Django Development",
             desc: "Django's robust Python framework powers secure, scalable eCommerce platforms with built-in admin panels, ORM, and extensive libraries. We build feature-rich online stores with advanced functionality, seamless payment integration, inventory management, and AI-powered recommendations. Perfect for businesses requiring complex logic, data analytics, and rapid development with enterprise-grade security.",
           },
           {
             icon: (
-              <svg
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            stroke="none"
-          >
-            <path d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.573 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-0.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z"/>
-          </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.573 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-0.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z" />
+              </svg>
             ),
-            title:
-              "Next.js Ecommerce Development",
+            title: "Next.js Ecommerce Development",
             desc: "Next.js combines React with server-side rendering for lightning-fast, SEO-optimized eCommerce experiences. We develop headless commerce solutions with superior performance, dynamic content, static generation, and seamless API integrations. Ideal for businesses seeking cutting-edge technology, exceptional Core Web Vitals scores, and modern shopping experiences that drive conversions and search rankings.",
           },
         ]}
       />
-      
 
       <CloudPlatformSection
-
         title="Leading E-Commerce Platforms We Specialize In"
         description="While custom development offers unmatched flexibility, leading e-commerce platforms provide robust, cost-effective solutions for businesses seeking faster time-to-market. Platforms like Shopify, WooCommerce, and Magento come with built-in features, extensive plugin ecosystems, and proven track records serving millions of online stores worldwide. Our team specializes in optimizing these platforms to match your specific business needs- customizing themes, integrating essential tools, and extending functionality to create a professional online store that balances speed, budget, and performance."
         platforms={[
           {
             icon: (
-              <svg 
-              className="w-8 h-8" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-            >
-              <path d="M15.337 2.068c-.103-.018-.213-.026-.324-.026-.995 0-1.979.542-2.85 1.567-.676.794-1.237 1.86-1.565 2.925-.927.287-1.577.489-1.589.493-.469.147-.483.161-.544.595-.046.331-1.247 9.637-1.247 9.637l9.355 1.741 4.427-1.094S15.44 2.086 15.337 2.068zM12.842 5.59c-.265.083-.559.174-.873.272-.004-.307-.021-.743-.089-1.12-.167-1.02-.561-1.465-.906-1.644.478-.533 1.015-.816 1.538-.816.067 0 .133.006.197.017.503 1.021.205 2.654.133 3.291zm-2.073-2.867c.304.196.694.676.862 1.632.056.32.076.686.082.98-.677.213-1.415.444-2.156.675.301-.947.768-1.831 1.212-2.556v-.001c.242-.376.473-.618.7-.73h-.7zm-.466.842c-.295.484-.649 1.173-.945 1.987-.83.26-1.643.515-2.364.74.449-1.483 1.637-2.492 2.84-2.727h.469zm.15 9.734l-1.509-.506c.015-.136 1.474-10.953 1.49-11.09.012-.137.126-.15.163-.15.207 0 .513.089.801.179-.148.612-.388 2.034-.548 3.118-.001.011-.308 2.162-.397 2.792-.066.464-.141.99-.209 1.483l-.791 4.174z" 
-              fill="currentColor" 
-              stroke="none" />
-            </svg>
+              <svg
+                className="w-8 h-8"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path
+                  d="M15.337 2.068c-.103-.018-.213-.026-.324-.026-.995 0-1.979.542-2.85 1.567-.676.794-1.237 1.86-1.565 2.925-.927.287-1.577.489-1.589.493-.469.147-.483.161-.544.595-.046.331-1.247 9.637-1.247 9.637l9.355 1.741 4.427-1.094S15.44 2.086 15.337 2.068zM12.842 5.59c-.265.083-.559.174-.873.272-.004-.307-.021-.743-.089-1.12-.167-1.02-.561-1.465-.906-1.644.478-.533 1.015-.816 1.538-.816.067 0 .133.006.197.017.503 1.021.205 2.654.133 3.291zm-2.073-2.867c.304.196.694.676.862 1.632.056.32.076.686.082.98-.677.213-1.415.444-2.156.675.301-.947.768-1.831 1.212-2.556v-.001c.242-.376.473-.618.7-.73h-.7zm-.466.842c-.295.484-.649 1.173-.945 1.987-.83.26-1.643.515-2.364.74.449-1.483 1.637-2.492 2.84-2.727h.469zm.15 9.734l-1.509-.506c.015-.136 1.474-10.953 1.49-11.09.012-.137.126-.15.163-.15.207 0 .513.089.801.179-.148.612-.388 2.034-.548 3.118-.001.011-.308 2.162-.397 2.792-.066.464-.141.99-.209 1.483l-.791 4.174z"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
             ),
             title: "Shopify Development Services Dubai",
             desc: "Our Shopify development services in Dubai help businesses launch and scale successful online stores using one of the world's most trusted e-commerce platforms. We specialize in custom Shopify theme development, app integrations, performance optimization, and conversion-focused design to ensure your store stands out and drives sales.",
@@ -236,14 +241,10 @@ const page = () => {
           },
           {
             icon: (
-            <svg
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              stroke="none"
-            >
-              <path d="M23.5 10.5l-11-6.5c-.3-.2-.7-.2-1 0l-11 6.5c-.3.2-.5.5-.5.9v1.2c0 .4.2.7.5.9l11 6.5c.15.1.35.15.5.15s.35-.05.5-.15l11-6.5c.3-.2.5-.5.5-.9v-1.2c0-.4-.2-.7-.5-.9zM12 2.5l9.5 5.6L12 13.7 2.5 8.1 12 2.5zm10 10.1l-10 5.9-10-5.9v-.5l9.5 5.6c.15.1.35.15.5.15s.35-.05.5-.15l9.5-5.6v.5z"/>
-              <path d="M5.8 14.2c-.1 0-.2 0-.3.1l-2 1.2c-.2.1-.3.3-.3.5s.1.4.3.5l2 1.2c.1.1.2.1.3.1.3 0 .5-.2.5-.5v-2.4c0-.4-.2-.7-.5-.7zm13.4 0c-.3 0-.5.3-.5.6v2.4c0 .3.2.5.5.5.1 0 .2 0 .3-.1l2-1.2c.2-.1.3-.3.3-.5s-.1-.4-.3-.5l-2-1.2c-.1 0-.2-.1-.3 0z"/>
-            </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M23.5 10.5l-11-6.5c-.3-.2-.7-.2-1 0l-11 6.5c-.3.2-.5.5-.5.9v1.2c0 .4.2.7.5.9l11 6.5c.15.1.35.15.5.15s.35-.05.5-.15l11-6.5c.3-.2.5-.5.5-.9v-1.2c0-.4-.2-.7-.5-.9zM12 2.5l9.5 5.6L12 13.7 2.5 8.1 12 2.5zm10 10.1l-10 5.9-10-5.9v-.5l9.5 5.6c.15.1.35.15.5.15s.35-.05.5-.15l9.5-5.6v.5z" />
+                <path d="M5.8 14.2c-.1 0-.2 0-.3.1l-2 1.2c-.2.1-.3.3-.3.5s.1.4.3.5l2 1.2c.1.1.2.1.3.1.3 0 .5-.2.5-.5v-2.4c0-.4-.2-.7-.5-.7zm13.4 0c-.3 0-.5.3-.5.6v2.4c0 .3.2.5.5.5.1 0 .2 0 .3-.1l2-1.2c.2-.1.3-.3.3-.5s-.1-.4-.3-.5l-2-1.2c-.1 0-.2-.1-.3 0z" />
+              </svg>
             ),
             title: "WooCommerce Development Services Dubai",
             desc: "Website Development Agency offers WooCommerce development services in Dubai for businesses seeking powerful, flexible e-commerce solutions built on WordPress. We design and develop customized WooCommerce stores that seamlessly integrate with your existing WordPress site while delivering advanced functionality and exceptional shopping experiences.",
@@ -256,13 +257,9 @@ const page = () => {
           },
           {
             icon: (
-            <svg
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            stroke="none"
-          >
-            <path d="M12 22.019l-3.741-2.157V9.863L5.405 8.177v11.685L1.664 17.705V6.319L12 .338l10.336 5.981v11.386l-3.741 2.157V8.177l-2.854 1.686v9.999L12 22.019zm0-13.817l-2.854 1.686v9.999L12 21.544l2.854-1.657v-9.999L12 8.202z"/>
-          </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M12 22.019l-3.741-2.157V9.863L5.405 8.177v11.685L1.664 17.705V6.319L12 .338l10.336 5.981v11.386l-3.741 2.157V8.177l-2.854 1.686v9.999L12 22.019zm0-13.817l-2.854 1.686v9.999L12 21.544l2.854-1.657v-9.999L12 8.202z" />
+              </svg>
             ),
             title: "Magento Development Services Dubai",
             desc: "Our Magento development services in Dubai empower businesses to create powerful, feature-rich online stores with enterprise-level capabilities. We specialize in Magento 2 development, custom module creation, performance optimization, and complex integrations for businesses demanding robust, scalable e-commerce solutions.",
@@ -275,15 +272,11 @@ const page = () => {
           },
           {
             icon: (
-           <svg
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            stroke="none"
-          >
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-            <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
-            <circle cx="12" cy="12" r="2"/>
-          </svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
+                <circle cx="12" cy="12" r="2" />
+              </svg>
             ),
             title: "Opencart Development Services",
             desc: "Our OpenCart development services in Dubai empower businesses to create lightweight, cost-effective online stores with impressive functionality. We specialize in OpenCart customization, extension development, theme design, and performance optimization for businesses seeking straightforward, efficient e-commerce solutions without complexity.",
@@ -297,7 +290,7 @@ const page = () => {
         ]}
       />
 
-        <CommonIndustries
+      <CommonIndustries
         heding={"Hire Expert Ecommerce Developers in Dubai, UAE"}
         subheding="Partner with experienced eCommerce developers in Dubai to create a high-performance online store that scales with your business and drives conversions. We integrate essential third-party systems, implement advanced security measures, and build features like intelligent search, customer reviews, and personalized recommendations that enhance user experience. With dedicated support and regular optimization, your platform remains secure, fast, and perfectly aligned with your brand identity."
         services={[
@@ -369,69 +362,69 @@ const page = () => {
       />
 
       <CommonTechnologyStack
-      heding={"Secure & Seamless Payment Gateway Solutions"}
-      subheding={
-        "We integrate leading local & global payment gateways (including UAE-specific options) with top-tier security, instant processing, and smooth mobile compatibility."
-      }
-      techData={[
-        {
-          name: "Checkout",
-          image: checkout,
-          
-          Link: "#",
-        },
-        {
-          name: "PayPal",
-          image: paypal,
-          
-          Link: "#",
-        },
-        {
-          name: "Telr",
-          image: telr,
-          
-          Link: "#",
-        },
-        {
-          name: "PayTabs",
-          image: paytab,
-          
-          Link: "#",
-        },
-        {
-          name: "Magnati",
-          image: magnati,
-          
-          Link: "#",
-        },
-        {
-          name: "Stripe",
-          image: stripe,
-          
-          Link: "#",
-        },
-        {
-          name: "PostPay",
-          image: postpay,
-          
-          Link: "#",
-        },
-        {
-          name: "CC Avenue",
-          image: ccavenue,
-          
-          Link: "#",
-        },
-      ]}
-    />
+        heding={"Secure & Seamless Payment Gateway Solutions"}
+        subheding={
+          "We integrate leading local & global payment gateways (including UAE-specific options) with top-tier security, instant processing, and smooth mobile compatibility."
+        }
+        techData={[
+          {
+            name: "Checkout",
+            image: checkout,
 
-      
+            Link: "#",
+          },
+          {
+            name: "PayPal",
+            image: paypal,
+
+            Link: "#",
+          },
+          {
+            name: "Telr",
+            image: telr,
+
+            Link: "#",
+          },
+          {
+            name: "PayTabs",
+            image: paytab,
+
+            Link: "#",
+          },
+          {
+            name: "Magnati",
+            image: magnati,
+
+            Link: "#",
+          },
+          {
+            name: "Stripe",
+            image: stripe,
+
+            Link: "#",
+          },
+          {
+            name: "PostPay",
+            image: postpay,
+
+            Link: "#",
+          },
+          {
+            name: "CC Avenue",
+            image: ccavenue,
+
+            Link: "#",
+          },
+        ]}
+      />
+
       <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">E-commerce Website Design Cost Breakdown</h2>
           <p>
-            Select the best e-commerce website design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the best e-commerce website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
           </p>
         </div>
 
@@ -464,15 +457,19 @@ const page = () => {
         </div>
       </div>
 
-       <CommonAboutPage
-                text1={"Looking for In-house E-commerce Experts in Dubai?"}
-                text2={" We are a leading, award-winning in-house team specializing in premium eCommerce website design and development across Dubai, Abu Dhabi, Sharjah, Ajman, and the UAE. With deep expertise and full internal control, we deliver comprehensive, all-in-one eCommerce solutions, from stunning designs to powerful, high-converting online stores."}
-                text3={"At <a href='/'>Website Development Agency</a>, we start by deeply understanding your business objectives, target audience, brand identity, and growth vision. After careful analysis of features, performance needs, budget, timeline, and scalability, we present tailored recommendations and a clear roadmap. "}
-                img={aboutimagesabudhabi}
-            />
+      <CommonAboutPage
+        text1={"Looking for In-house E-commerce Experts in Dubai?"}
+        text2={
+          " We are a leading, award-winning in-house team specializing in premium eCommerce website design and development across Dubai, Abu Dhabi, Sharjah, Ajman, and the UAE. With deep expertise and full internal control, we deliver comprehensive, all-in-one eCommerce solutions, from stunning designs to powerful, high-converting online stores."
+        }
+        text3={
+          "At <a href='/'>Website Development Agency</a>, we start by deeply understanding your business objectives, target audience, brand identity, and growth vision. After careful analysis of features, performance needs, budget, timeline, and scalability, we present tailored recommendations and a clear roadmap. "
+        }
+        img={aboutimagesabudhabi}
+      />
 
-        <CommonProtfolio />
-    
+      <CommonProtfolio />
+
       <CommonWhyWebsiteDevelopment
         heding={
           "Why Choose Website Development Agency for Ecommerce Development?"
@@ -490,52 +487,51 @@ const page = () => {
       <Team />
 
       <CommonClientTestimonials />
-      
+
       <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[
-            {
-              q: "Why should I choose Website Development Agency for ecommerce website?",
-              a: "Choosing the right ecommerce website development partner in the UAE can define your online success. Website Development Agency combines deep technical expertise, strong understanding of the UAE digital market, and a performance-driven approach to build secure, scalable, and conversion-focused ecommerce websites that support long-term business growth.",
-            },
-            {
-              q: "Why is a localised ecommerce website important for UAE businesses?",
-              a: "A localised ecommerce website allows UAE businesses to connect effectively with regional audiences by aligning with local shopping preferences, cultural expectations, language requirements, and payment habits. This leads to improved user experience, higher trust, and better conversion rates.",
-            },
-            {
-              q: "How does the Dubai ecommerce market differ from other regions?",
-              a: "The Dubai ecommerce market is influenced by a diverse population, mobile-first consumers, region-specific payment methods, and regulatory standards. Ecommerce websites built for the UAE must be compliant, fast, and designed to meet the expectations of local shoppers.",
-            },
-            {
-              q: "Do you develop bilingual ecommerce websites in English and Arabic?",
-              a: "Yes, Website Development Agency builds fully bilingual ecommerce websites with seamless English and Arabic language support, including RTL optimisation, ensuring a consistent and user-friendly experience for the UAE’s multicultural audience.",
-            },
-            {
-              q: "Can my ecommerce website support Cash on Delivery?",
-              a: "Absolutely. We integrate trusted payment gateways that support Cash on Delivery, credit and debit cards, digital wallets, and other popular payment methods widely used by customers across the UAE.",
-            },
-            {
-              q: "Are your ecommerce websites mobile-friendly for UAE users?",
-              a: "Yes, all our ecommerce websites are designed with a mobile-first approach, ensuring fast load times, smooth navigation, and seamless checkout experiences across smartphones, tablets, and desktops.",
-            },
-            {
-              q: "How do you ensure ecommerce website security for UAE customers?",
-              a: "We implement advanced security measures including SSL certificates, secure payment integrations, regular system updates, and performance monitoring to protect customer data and maintain trust.",
-            },
-            {
-              q: "Do you integrate ecommerce websites with UAE logistics and delivery services?",
-              a: "Yes, we integrate ecommerce platforms with leading UAE logistics and courier services to enable efficient order management, real-time tracking, and reliable delivery operations.",
-            },
-            {
-              q: "What post-launch support do you provide for ecommerce websites?",
-              a: "Website Development Agency offers ongoing post-launch support including technical maintenance, security updates, performance optimisation, feature enhancements, and scalability support to ensure your ecommerce website remains competitive.",
-            },
-            {
-              q: "Can I access analytics and insights specific to UAE customers?",
-              a: "Yes, we integrate advanced analytics tools that provide valuable insights into UAE customer behaviour, device usage, traffic sources, and conversion trends, enabling data-driven decision-making.",
-            },
-
+          {
+            q: "Why should I choose Website Development Agency for ecommerce website?",
+            a: "Choosing the right ecommerce website development partner in the UAE can define your online success. Website Development Agency combines deep technical expertise, strong understanding of the UAE digital market, and a performance-driven approach to build secure, scalable, and conversion-focused ecommerce websites that support long-term business growth.",
+          },
+          {
+            q: "Why is a localised ecommerce website important for UAE businesses?",
+            a: "A localised ecommerce website allows UAE businesses to connect effectively with regional audiences by aligning with local shopping preferences, cultural expectations, language requirements, and payment habits. This leads to improved user experience, higher trust, and better conversion rates.",
+          },
+          {
+            q: "How does the Dubai ecommerce market differ from other regions?",
+            a: "The Dubai ecommerce market is influenced by a diverse population, mobile-first consumers, region-specific payment methods, and regulatory standards. Ecommerce websites built for the UAE must be compliant, fast, and designed to meet the expectations of local shoppers.",
+          },
+          {
+            q: "Do you develop bilingual ecommerce websites in English and Arabic?",
+            a: "Yes, Website Development Agency builds fully bilingual ecommerce websites with seamless English and Arabic language support, including RTL optimisation, ensuring a consistent and user-friendly experience for the UAE’s multicultural audience.",
+          },
+          {
+            q: "Can my ecommerce website support Cash on Delivery?",
+            a: "Absolutely. We integrate trusted payment gateways that support Cash on Delivery, credit and debit cards, digital wallets, and other popular payment methods widely used by customers across the UAE.",
+          },
+          {
+            q: "Are your ecommerce websites mobile-friendly for UAE users?",
+            a: "Yes, all our ecommerce websites are designed with a mobile-first approach, ensuring fast load times, smooth navigation, and seamless checkout experiences across smartphones, tablets, and desktops.",
+          },
+          {
+            q: "How do you ensure ecommerce website security for UAE customers?",
+            a: "We implement advanced security measures including SSL certificates, secure payment integrations, regular system updates, and performance monitoring to protect customer data and maintain trust.",
+          },
+          {
+            q: "Do you integrate ecommerce websites with UAE logistics and delivery services?",
+            a: "Yes, we integrate ecommerce platforms with leading UAE logistics and courier services to enable efficient order management, real-time tracking, and reliable delivery operations.",
+          },
+          {
+            q: "What post-launch support do you provide for ecommerce websites?",
+            a: "Website Development Agency offers ongoing post-launch support including technical maintenance, security updates, performance optimisation, feature enhancements, and scalability support to ensure your ecommerce website remains competitive.",
+          },
+          {
+            q: "Can I access analytics and insights specific to UAE customers?",
+            a: "Yes, we integrate advanced analytics tools that provide valuable insights into UAE customer behaviour, device usage, traffic sources, and conversion trends, enabling data-driven decision-making.",
+          },
         ]}
       />
     </>

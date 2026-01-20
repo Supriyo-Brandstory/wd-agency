@@ -43,18 +43,40 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/portfolio-
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        heding={
-          "Portfolio Website Design</br> Company in Dubai, UAE"
-        }
+        heding={"Portfolio Website Design</br> Company in Dubai, UAE"}
         subtitle={
           "Build a powerful portfolio website in Dubai that highlights your expertise, <br>achievements, and unique identity. Our professionally crafted websites are <br>designed to create impact and support long-term success."
         }
+      />
+      <SubNav
+        title="Portfolio"
+        items={[
+          {
+            name: "PHP",
+            link: "/platforms/php-website-development",
+          },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"Portfolio Website Development Dubai, UAE"}
@@ -234,8 +256,9 @@ const page = () => {
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Portfolio Website Design Cost Breakdown</h2>
           <p>
-            Select the best portfolio website design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the best portfolio website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
           </p>
         </div>
 

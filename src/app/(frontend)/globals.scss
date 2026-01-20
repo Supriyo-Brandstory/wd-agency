@@ -392,7 +392,12 @@ ul li {
   }
 
 /* ---------------- Responsive Global Styles ---------------- */
-
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
   html, body {
@@ -432,6 +437,13 @@ ul li {
   ul {
     margin-left: var(--size-20);
   }
+.m-none{
+  display: none;
+}
+.m-block{
+  display: block;
+}
+
 @for $i from 1 through 100 {
   .sm-width-#{$i} {
     width: $i * 1% !important;

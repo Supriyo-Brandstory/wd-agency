@@ -94,10 +94,10 @@ const LocationService = ({
   activeLocation = "Dubai",
 }) => {
   const initialIndex = locations.findIndex(
-    (loc) => loc.label.toLowerCase() === activeLocation?.toLowerCase()
+    (loc) => loc.label.toLowerCase() === activeLocation?.toLowerCase(),
   );
   const [activeIndex, setActiveIndex] = useState(
-    initialIndex !== -1 ? initialIndex : 0
+    initialIndex !== -1 ? initialIndex : 0,
   );
 
   const activeData = locations[activeIndex];
@@ -109,7 +109,7 @@ const LocationService = ({
 
   return (
     <div
-      className={`frame-1200 py-50 sm-pt-0 sm-pb-30 sm-px-20 ${styles.locationService}`}
+      className={`frame-1200 py-50 sm-pt-30 sm-pb-30 sm-px-20 ${styles.locationService}`}
     >
       <h2>{title}</h2>
       <p className="pt-20 pb-40">{description}</p>

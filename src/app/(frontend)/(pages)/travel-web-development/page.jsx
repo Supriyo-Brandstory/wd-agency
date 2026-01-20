@@ -45,6 +45,7 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/travel-6.w
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -58,6 +59,26 @@ const page = () => {
         subtitle={
           "We create custom websites for Dubai and UAE travel businesses that attract visitors and drive </br>bookings. With visually stunning designs and features, our websites turn casual browsers into loyal travelers."
         }
+      />
+      <SubNav
+        title="Travel"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"Travel & Tourism Website Development"}
@@ -135,7 +156,7 @@ const page = () => {
           },
         ]}
       />
-      
+
       <CommonIndustries
         heding={"Our Travel & Tourism Website Development Services"}
         subheding="In the travel and tourism sector, a website is not simply an online presence, it is the infrastructure of your customer journey. At Website Development Agency, we create travel platforms designed for speed, engagement, and scalability. Every feature we build is focused on enhancing traveler satisfaction while driving more bookings for your business. Here is what we offer:"
@@ -275,8 +296,8 @@ const page = () => {
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Travel Agency Website Design Cost Breakdown</h2>
           <p>
-            Select the best travel business design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the best travel business design and Development package based
+            on the <br></br>features, performance, and growth level you need.
           </p>
         </div>
 
@@ -394,7 +415,7 @@ const page = () => {
           },
         ]}
       />
-      
+
       <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
