@@ -45,6 +45,7 @@ import CloudServiceGrid from "../../component/pages/services/CloudServiceGrid";
 import CommonAboutPage from "../../component/pages/common/CommonAboutPage";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 
 const page = () => {
   return (
@@ -418,44 +419,10 @@ const page = () => {
         ]}
       />
 
-      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
-        <div className="text-center sm-text-start mb-50 sm-mb-20">
-          <h2 className="mb-20">E-commerce Website Design Cost Breakdown</h2>
-          <p>
-            Select the best e-commerce website design and Development package
-            based on the <br></br>features, performance, and growth level you
-            need.
-          </p>
-        </div>
-
-        <div className={styles.chart}>
-          <div className={styles.grid}>
-            <h3>Web Design Solution</h3>
-            <h3>Benefits</h3>
-            <h3>Price Range Estimate</h3>
-          </div>
-          <div className={styles.grid}>
-            <p>Basic</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>AED 3,000- 5,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Standard</p>
-            <p>Feature-rich, creative</p>
-            <p className={styles.price}>AED 5,000- 8,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Advanced</p>
-            <p>Well-structured, growth-ready</p>
-            <p className={styles.price}>AED 8,000- 12,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Premium</p>
-            <p>Premium, custom-built</p>
-            <p className={styles.price}>AED 12,000+</p>
-          </div>
-        </div>
-      </div>
+      <CommonCostBreakdown
+        heading="E-commerce Website Design Cost Breakdown"
+        description="Select the best e-commerce website design and Development package based on the features, performance, and growth level you need."
+      />
 
       <CommonAboutPage
         text1={"Looking for In-house E-commerce Experts in Dubai?"}

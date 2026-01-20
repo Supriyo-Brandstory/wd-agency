@@ -15,6 +15,7 @@ import fullstack from "@/app/(frontend)/assets/images/fullstack.webp";
 import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 
 const Page = () => {
   const faqData = [
@@ -140,43 +141,7 @@ const Page = () => {
         imageintro2={imageintro2}
       />
 
-      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
-        <div className="text-center sm-text-start mb-50 sm-mb-20">
-          <h2 className="mb-20">Types of Website and Related Cost Breakdown</h2>
-          <p>
-            Select the right website package based on the features, performance,
-            and growth level you need.
-          </p>
-        </div>
-
-        <div className={styles.chart}>
-          <div className={styles.grid}>
-            <h3>Web Design Solution</h3>
-            <h3>Benefits</h3>
-            <h3>Price Range Estimate</h3>
-          </div>
-          <div className={styles.grid}>
-            <p>Basic</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>AED 3,000- 5,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Standard</p>
-            <p>Feature-rich, creative</p>
-            <p className={styles.price}>AED 5,000- 8,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Advanced</p>
-            <p>Well-structured, growth-ready</p>
-            <p className={styles.price}>AED 8,000- 12,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Premium</p>
-            <p>Premium, custom-built</p>
-            <p className={styles.price}>AED 12,000+</p>
-          </div>
-        </div>
-      </div>
+      <CommonCostBreakdown />
 
       <CommonIndustries
         heding="Common Web Design & Development Services Include"
