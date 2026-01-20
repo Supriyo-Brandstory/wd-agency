@@ -1,6 +1,6 @@
 {
   "node": {
-    "401e5a39c0cdb4376752e71961e66fae7a2bb7adf7": {
+    "40010417d9c67bc892564116cec6a4afc4246f2feb": {
       "workers": {
         "app/(frontend)/(pages)/accountant-website-development/page": {
           "moduleId": 42848,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4009a84bbd14b06a594677462af7083de8e5b1b178": {
+    "40f4615970c92364db51982f92f194871e4c1bf698": {
       "workers": {
         "app/(frontend)/(pages)/accountant-website-development/page": {
           "moduleId": 42848,

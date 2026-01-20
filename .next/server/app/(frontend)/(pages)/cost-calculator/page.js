@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/cost-calculator/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__e0037a35._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7a3310b5._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b9a0874._.js")
 R.c("server/chunks/ssr/_181c8f0f._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__8ccd194c._.js")
