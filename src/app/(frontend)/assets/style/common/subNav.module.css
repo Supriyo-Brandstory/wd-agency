@@ -1,6 +1,6 @@
 .ecommerceSubNav {
     background-color: var(--color-black);
-    padding: var(--size-15) 0;
+    padding: 0 0;
     position: sticky;
     top: 0;
     z-index: 99;

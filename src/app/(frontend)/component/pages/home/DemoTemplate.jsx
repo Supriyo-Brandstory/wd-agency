@@ -123,6 +123,13 @@ const products = [
 
 const DemoTemplate = () => {
   const [activeCategory, setActiveCategory] = useState("All Items");
+  const [showScrollHint, setShowScrollHint] = useState(true);
+
+  const handleScroll = (e) => {
+    if (e.target.scrollLeft > 10) {
+      setShowScrollHint(false);
+    }
+  };
 
   const filteredProducts =
     activeCategory === "All Items"
@@ -133,26 +140,65 @@ const DemoTemplate = () => {
     <section className={styles.budgetSection}>
       <div className="frame-1200">
         <div className={styles.heading}>
-          <h2 className="fs-38 fw-700">Explore Our Website Packages</h2>
+          <h2 className="text-center sm-text-start">
+            Explore Our Website Packages
+          </h2>
         </div>
-        <p className={styles.subHeading}>
+        <p className="text-center sm-text-start mb-20">
           Select your industry to see our specialized, low-cost web design
           solutions in Dubai. We offer premium quality at affordable prices to
           help your business grow.
         </p>
 
-        <div className={styles.filterContainer}>
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              className={`${styles.filterBtn} ${
-                activeCategory === cat ? styles.activeFilter : ""
-              }`}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {cat}
-            </button>
-          ))}
+        <div className={styles.filterWrapper}>
+          <AnimatePresence>
+            {showScrollHint && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className={styles.scrollIndicator}
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 12H15M15 12L11 8M15 12L11 16"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M23 12L19 8M23 12L19 16"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    opacity="0.3"
+                  />
+                </svg>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          <div className={styles.filterContainer} onScroll={handleScroll}>
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                className={`${styles.filterBtn} ${
+                  activeCategory === cat ? styles.activeFilter : ""
+                }`}
+                onClick={() => setActiveCategory(cat)}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
         </div>
 
         <motion.div layout className={styles.grid}>

@@ -30,7 +30,7 @@ import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/Develop
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 
 import LocationService from "../../component/pages/common/LocationService";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
@@ -53,10 +53,15 @@ const page = () => {
           { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
-	        { name: "WordPress", link: "/platforms/wordpress-website-development" },
-	        { name: "Shopify", link: "/platforms/shopify-website-development" },
-	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
-	        
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          {
+            name: "WooCommerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
         ]}
       />
 
@@ -98,13 +103,11 @@ const page = () => {
         img={abudhabiAboutimg}
       />
       <CommonProtfolio />
-      
-          <CommonIndustries />
+
+      <CommonIndustries />
 
       <CommonServices
-        theding={
-          "The Website Development Agency Methodology"
-        }
+        theding={"The Website Development Agency Methodology"}
         tdesc={` <p>At Website Development Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
                     <p class='mt-20'>Our structured and forward-thinking web development process not only drives measurable outcomes but also encourages creative solutions that set your business apart and deliver lasting commercial success.</p>
                 `}
@@ -121,47 +124,12 @@ const page = () => {
             `}
         bbg={DevelopmentProcess}
       />
-      
-      
-      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
-        <div className="text-center sm-text-start mb-50 sm-mb-20">
-          <h2 className="mb-20">Website Design Abu Dhabi- Cost Breakdown</h2>
-          <p>
-            Avail the best website design and Development package
-            based on the <br></br>features, performance, and growth level you
-            need.
-          </p>
-        </div>
 
-        <div className={styles.chart}>
-          <div className={styles.grid}>
-            <h3>Web Design Solution</h3>
-            <h3>Benefits</h3>
-            <h3>Price Range Estimate</h3>
-          </div>
-          <div className={styles.grid}>
-            <p>Basic</p>
-            <p>Affordable, creative</p>
-            <p className={styles.price}>AED 3,000- 5,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Standard</p>
-            <p>Feature-rich, creative</p>
-            <p className={styles.price}>AED 5,000- 8,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Advanced</p>
-            <p>Well-structured, growth-ready</p>
-            <p className={styles.price}>AED 8,000- 12,000</p>
-          </div>
-          <div className={styles.grid}>
-            <p>Premium</p>
-            <p>Premium, custom-built</p>
-            <p className={styles.price}>AED 12,000+</p>
-          </div>
-        </div>
-      </div>
-        <CommonThreeCard
+      <CommonCostBreakdown
+        heading="Website Design Abu Dhabi- Cost Breakdown"
+        description="Avail the best website design and Development package based on the features, performance, and growth level you need."
+      />
+      <CommonThreeCard
         text1={
           "Website Development with Local Expertise & <br>Global Engineering"
         }
@@ -212,7 +180,6 @@ const page = () => {
         desc={
           "Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."
         }
-    
         resultdata={[
           {
             id: 1,
@@ -243,7 +210,6 @@ const page = () => {
           "We have worked with top-level businesses in Abu Dhabi across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. "
         }
       />
-      
 
       <CommonClientTestimonials />
       <LocationService activeLocation="abu dhabi" />
