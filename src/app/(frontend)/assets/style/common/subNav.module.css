@@ -91,6 +91,7 @@
 @media (max-width: 768px) {
     .ecommerceSubNav {
         padding: var(--size-10) 0;
+        margin-bottom: 20px;
     }
 
     .separator {
