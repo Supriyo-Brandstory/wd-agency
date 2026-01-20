@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,20 @@ const page = () => {
                 subtitle={"Laravel is a powerful framework we use to build secure, scalable, and </br>high-performing web applications tailored for modern businesses across the UAE."}
 
             />
+
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
+
              <CommonIntroduction
                 heding={'Your Trusted Laravel Web Development Partner'}
                 text1={` <p>Website Development Agency is fully equipped to deliver top-notch, dynamic, and enterprise-grade web applications with Laravel- the most cutting-edge PHP framework. After many years of hands-on experience with Laravel's MVC architecture and the ecosystem tools, our developers implement solutions that are not just scalable but attractive to the client.</p>

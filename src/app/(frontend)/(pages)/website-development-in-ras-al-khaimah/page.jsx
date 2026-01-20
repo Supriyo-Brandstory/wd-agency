@@ -14,10 +14,7 @@ import PartnershipCommitmentimage from '@/app/(frontend)/assets/images/website-d
 import Transparencyimage from '@/app/(frontend)/assets/images/website-development/Transparency.png'
 import TechnologyAdoptionimage from '@/app/(frontend)/assets/images/website-development/Technology-Adoption.png'
 import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png'
-import CommonApproch from '../../component/pages/common/CommonApproch'
 
-
-import approchbannerimage from '@/app/(frontend)/assets/images/ai-khaimah/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
@@ -32,8 +29,9 @@ import Optimized from '@/app/(frontend)/assets/images/website-development/Optimi
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
-import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
+import SubNav from '../../component/pages/common/SubNav'
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 
 
 
@@ -42,9 +40,24 @@ const page = () => {
         <>
             <Banner
                 text1={"designed to impress, engineered to perform"}
-                text2={"Best Web Development Agency in Ras Al Khaimah"}
+                text2={"Web Development Agency in Ras Al Khaimah"}
                 text3={"At Website Development Agency, we develop exceptional websites for businesses in Ras Al Khaimah (RAK). Whether a luxury resort, an enterprise business, or a start-up, we craft custom-built websites for all RAK-based businesses."}
             />
+                    <SubNav
+        title="Technology"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "WordPress", link: "/platforms/wordpress-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+	        
+        ]}
+      />
             <CommonAboutPage
                 text1={"Web Design in Ras Al Khaimah- Engineered to Impress & Perform"}
                 text2={"In the current digital-first environment, your website is not just a digital brochure. Rather, it is your identity, sales channel, and credibility. At <a href='/'>Website Development Agency</a>, we develop exceptional websites for businesses in Ras Al Khaimah (RAK)."}
@@ -76,24 +89,9 @@ const page = () => {
                 img={sharjahAboutimg}
             />
             <CommonProtfolio/>
-            <CommonThreeCard
-                text1={'Why Choose Website Development Agency for Website <br/>Design Services'}
-                text2={"Among many other web design companies in Ras Al Khaimah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We’re more than just a website design company- we’re a digital transformation partner dedicated to helping businesses expand and thrive online."}
-                boxdata={[
-                    { id: 1, img: StrategicProblemSolvingimage, title: 'Proven Experience', desc: 'We have years of documented successful projects with numerous industries. Our extensive portfolio demonstrates our ability to adapt to different business needs and deliver impactful digital solutions.' },
-                    { id: 2, img: FocusedApproachimage, title: 'End-to-End Solutions', desc: 'We offer comprehensive services covering every stage of your website’s lifecycle, including design, development, SEO, and maintenance. From concept to launch, we ensure your website remains fully optimized and secure.' },
-                    { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We foster long-term partnerships with our clients, driven by a commitment to excellence. Rather than just acting as a service provider, we collaborate closely with businesses, working hand-in-hand to support their growth.' },
-                    { id: 4, img: Transparencyimage, title: 'Full Transparency', desc: 'We ensure full transparency throughout every phase of your website project- from pricing to timelines. You’ll be informed at every step, from design to deployment, with no hidden costs or unexpected surprises.' },
-                    { id: 5, img: TechnologyAdoptionimage, title: 'Scalable Technology', desc: 'We utilize the latest tools, technologies, and frameworks to create websites that are ready for the future. Our web solutions are crafted to keep your business at the forefront of the digital landscape.' },
-                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. Website Development Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
-                ]}
-            />
-            <CommonApproch
-                text1={"Web Design Agency Ras Al Khaimah- Your Partner in Growth"}
-                text2={` <p  class='mb-20'>Your website is the cornerstone of your online success. At Website Development Agency, we combine creativity, technology, and strategy to create a website that is not only unique but also scalable to grow alongside your business. We focus on delivering user-friendly interfaces, fast-loading pages, and seamless navigation to ensure an engaging digital experience for every visitor.</p>
-                     <p>From start-ups to established businesses, we are honored to help companies in Ras Al Khaimah embrace the digital future with confidence. Our goal is to ensure every website we build drives engagement, builds trust, and delivers measurable results. With a focus on responsive design, SEO optimization, and secure coding practices, we ensure your website not only looks professional but also performs flawlessly across devices.</p>`}
-                bannerimage={approchbannerimage}
-            />
+            <CommonIndustries/>
+
+
             <CommonServices
                 theding={'The Website Design & Development Process We Follow'}
                 tdesc={` <p>Our website development process begins with understanding your business, target audience, and goals. We conduct thorough research and analysis to define the project scope, create detailed wireframes, and plan the website’s structure. This ensures that every element, from navigation to content placement, is aligned with your objectives and provides a seamless experience.</p>
@@ -109,6 +107,58 @@ const page = () => {
             </ul>
             `}
             bbg={developmentprocess}
+            />
+
+                  <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Website Design Ras Al Khaimah- Cost Breakdown</h2>
+          <p>
+            Avail the best website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
+             <CommonThreeCard
+                text1={'Why Choose Website Development Agency for Website <br/>Design Services'}
+                text2={"Among many other web design companies in Ras Al Khaimah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We’re more than just a website design company- we’re a digital transformation partner dedicated to helping businesses expand and thrive online."}
+                boxdata={[
+                    { id: 1, img: StrategicProblemSolvingimage, title: 'Proven Experience', desc: 'We have years of documented successful projects with numerous industries. Our extensive portfolio demonstrates our ability to adapt to different business needs and deliver impactful digital solutions.' },
+                    { id: 2, img: FocusedApproachimage, title: 'End-to-End Solutions', desc: 'We offer comprehensive services covering every stage of your website’s lifecycle, including design, development, SEO, and maintenance. From concept to launch, we ensure your website remains fully optimized and secure.' },
+                    { id: 3, img: PartnershipCommitmentimage, title: 'Partnership Commitment', desc: 'We foster long-term partnerships with our clients, driven by a commitment to excellence. Rather than just acting as a service provider, we collaborate closely with businesses, working hand-in-hand to support their growth.' },
+                    { id: 4, img: Transparencyimage, title: 'Full Transparency', desc: 'We ensure full transparency throughout every phase of your website project- from pricing to timelines. You’ll be informed at every step, from design to deployment, with no hidden costs or unexpected surprises.' },
+                    { id: 5, img: TechnologyAdoptionimage, title: 'Scalable Technology', desc: 'We utilize the latest tools, technologies, and frameworks to create websites that are ready for the future. Our web solutions are crafted to keep your business at the forefront of the digital landscape.' },
+                    { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We deliver premium web design services in Sharjah at a competitive price compared to any other provider. Website Development Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.' },
+                ]}
             />
             <CommonResult 
             heding={"Best Web Design Services that Drive Measurable Results"}
@@ -148,7 +198,7 @@ const page = () => {
 
             />
 
-            <CommonIndustries/>
+            
             <CommonClientTestimonials/>
             <LocationService activeLocation="ras al khaimah" />
 

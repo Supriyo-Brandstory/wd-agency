@@ -19,13 +19,10 @@ import react from "@/app/(frontend)/assets/images/reacticon.svg";
 import nodejs from "@/app/(frontend)/assets/images/nodejsicon.svg";
 import laravel from "@/app/(frontend)/assets/images/laravelicon.svg";
 import wordpress from "@/app/(frontend)/assets/images/wordpressicon.svg";
-import magento from "@/app/(frontend)/assets/images/magentoicon.svg";
-import shopify from "@/app/(frontend)/assets/images/shopifyicon.svg";
 import flutter from "@/app/(frontend)/assets/images/fluttericon.svg";
 import reactnative from "@/app/(frontend)/assets/images/reactnativeicon.svg";
 import php from "@/app/(frontend)/assets/images/phpicon.svg";
 import python from "@/app/(frontend)/assets/images/pythonicon.svg";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/real-estate-website/why-wd-agency.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -44,7 +41,6 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/realestate
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
-import TechnologyStack from "../../component/pages/home/TechnologyStack";
 import CommonTechnologyStack from "../../component/pages/common/CommonTechnologyStack";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
@@ -68,19 +64,19 @@ const page = () => {
         items={[
           { name: "PHP", link: "/platforms/php-website-development" },
           {
-            name: "W-commerce",
-            link: "/platforms/woo-commerce-website-development",
+            name: "Laravel",
+            link: "/platforms/laravel-website-development",
           },
           {
             name: "WordPress",
             link: "/platforms/wordpress-website-development",
           },
           { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
         ]}
       />
       <CommonIntroduction

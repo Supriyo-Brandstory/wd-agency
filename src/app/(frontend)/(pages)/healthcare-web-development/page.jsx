@@ -65,19 +65,19 @@ const page = () => {
         items={[
           { name: "PHP", link: "/platforms/php-website-development" },
           {
-            name: "W-commerce",
-            link: "/platforms/woo-commerce-website-development",
+            name: "Laravel",
+            link: "/platforms/laravel-website-development",
           },
           {
             name: "WordPress",
             link: "/platforms/wordpress-website-development",
           },
           { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
         ]}
       />
       <CommonIntroduction
@@ -109,8 +109,8 @@ const page = () => {
       />
 
       <RealEstatePortfolio
-        heading="Healthcare Website Design & Development Portfolio"
-        description="Explore our portfolio of healthcare websites, featuring secure patient portals, medical practice sites, and hospital platforms designed for trust and accessibility."
+        heading="Healthcare Website Design Templates"
+        description="Explore our healthcare website design templates, featuring secure patient portals, medical practice sites, and hospital platforms designed for trust and accessibility."
         portfolioData={[
           {
             subtitle: "Multi-Specialty Clinic Website",

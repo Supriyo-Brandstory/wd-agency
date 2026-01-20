@@ -14,10 +14,7 @@ import PartnershipCommitmentimage from '@/app/(frontend)/assets/images/website-d
 import Transparencyimage from '@/app/(frontend)/assets/images/website-development/Transparency.png'
 import TechnologyAdoptionimage from '@/app/(frontend)/assets/images/website-development/Technology-Adoption.png'
 import ValueforMoneyServicesimage from '@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png'
-import CommonApproch from '../../component/pages/common/CommonApproch'
 
-
-import approchbannerimage from '@/app/(frontend)/assets/images/fujairah/our-approch.webp'
 import CommonServices from '../../component/pages/common/CommonServices'
 import CommonFaqSection from '../../component/pages/common/CommonFaqSection'
 import CommonResult from '../../component/pages/common/CommonResult'
@@ -32,19 +29,34 @@ import Optimized from '@/app/(frontend)/assets/images/website-development/Optimi
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
-import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
-import CostCalculator from '../../component/pages/calculator/CostCalculator'
-
+import SubNav from '../../component/pages/common/SubNav'
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 
 const page = () => {
     return (
     <>
     <Banner
         text1={"Elevate your online presence with"}
-        text2={"Website Development Company in Fujairah"}
-        text3={"We are Website Development Agency, the leading web development agency in Fujairah, UAE. Let’s create your website beyond the ordinary."}
+        text2={"Website Design Company in Fujairah"}
+        text3={"We are Website Development Agency, the leading web design company in Fujairah, UAE. Let’s create your website beyond the ordinary."}
     />
+
+            <SubNav
+        title="Technology"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "WordPress", link: "/platforms/wordpress-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+	        
+        ]}
+      />
     <CommonAboutPage
         text1={"Website Design in Fujairah- Building Digital Confidence"}
         text2={"In today's ever-increasing digital universe, having a website is no longer just an option, it is your business's very first impression, digital storefront of your brand, and best conversion tool. At <a href='/'>Website Development Agency</a>, we specialize in providing supreme website development services in Fujairah to help businesses stand out, attract customers, and grow sustainably."}
@@ -77,36 +89,51 @@ const page = () => {
         img={sharjahAboutimg}
     />
     <CommonProtfolio/>
-    <CommonThreeCard
-        text1={'Why Choose WDA Agency- Local Expertise, Global Engineering'}
-        text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Fujairah:"}
-        boxdata={[
-            { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAE’s cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
-            { id: 2, img: FocusedApproachimage, title: 'End-to-end Services', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
-            { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready Engineering', desc: 'We develop adaptable architectures, utilize headless CMS solutions, and implement progressive web app technologies to ensure your website remains scalable for the future.' },
-            { id: 4, img: Transparencyimage, title: 'Conversion-first Approach', desc: 'We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
-            { id: 5, img: TechnologyAdoptionimage, title: '24/7 Support & Maintenance', desc: 'SLA-based monitoring, security patching, and performance tuning so your site is available 24*7.' },
-            { id: 6, img: ValueforMoneyServicesimage, title: 'Diverse Experience', desc: 'We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
-        ]}
-    />
+
+    <CommonIndustries/>
+
+    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Website Design Fujairah- Cost Breakdown</h2>
+          <p>
+            Avail the best website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
 
 
 
-
-    <CommonApproch
-        text1={"Web Development Company- Where Creativity Meets Technology"}
-        text2={` <p>Our suite of web development services is tailored to meet the diverse needs of businesses in Fujairah. We deliver custom website solutions designed to enhance online presence, improve user experience, and drive measurable results.</p>
-            <ul class="my-20">
-            <li>Attractive with highly engaging layouts, modern color schemes, and consistent branding.</li>
-            <li>User-friendly design, with simple navigation ensuring visitors can find what they might be looking for with ease.</li>
-            <li>Mobile-first, with designs being fully responsive and optimized for smartphones and tablets.</li>
-            <li>SEO-optimized, with a structure that ensures higher ranking and increased visibility on search engines.</li>
-          </ul>
-          <p>Whether launching your first digital presence as a startup or redesigning your website, we make sure your website represents you well and supports your growth ambitions.</p>
-
-            `}
-        bannerimage={approchbannerimage}
-    />
+    
     <CommonServices
         theding={'Website Design in Fujairah- More Than Just Aesthetics'}
         tdesc={` <p>An effective website is not just visually appealing; it also functions perfectly to turn visitors into paying customers. With our website design services in Fujairah, we place an emphasis not just on appearance, but on function by providing a beautiful, user-friendly, and business-focused website.</p>
@@ -125,10 +152,23 @@ const page = () => {
     `}
         bbg={developmentprocess}
         />
+
+    <CommonThreeCard
+        text1={'Why Choose WDA Agency- Local Expertise, Global Engineering'}
+        text2={"Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Fujairah:"}
+        boxdata={[
+            { id: 1, img: StrategicProblemSolvingimage, title: 'Local Market Mastery', desc: 'We understand UAE’s cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.' },
+            { id: 2, img: FocusedApproachimage, title: 'End-to-end Services', desc: 'Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.' },
+            { id: 3, img: PartnershipCommitmentimage, title: 'Future-ready Engineering', desc: 'We develop adaptable architectures, utilize headless CMS solutions, and implement progressive web app technologies to ensure your website remains scalable for the future.' },
+            { id: 4, img: Transparencyimage, title: 'Conversion-first Approach', desc: 'We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.' },
+            { id: 5, img: TechnologyAdoptionimage, title: '24/7 Support & Maintenance', desc: 'SLA-based monitoring, security patching, and performance tuning so your site is available 24*7.' },
+            { id: 6, img: ValueforMoneyServicesimage, title: 'Diverse Experience', desc: 'We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.' },
+        ]}
+    />
+
     <CommonResult
         heding={"Best Website Development Services that Drive Measurable Results"}
         desc={"Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web development agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."}
-        subheding={"Our Core Strengths"}
         resultdata={[
             {
                 id: 1,
@@ -163,8 +203,6 @@ const page = () => {
 
     />
 
-    <CommonIndustries/>
-    <CostCalculator />
     <CommonClientTestimonials/>
     <LocationService activeLocation="fujairah" />
 

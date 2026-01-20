@@ -35,8 +35,8 @@ const CommonResult = ({
             </div>
             <div className='text-center sm-text-start'>
             <p className='my-20'> {footertext}</p>
-            <Link href="/about-us" className="blue-btn">
-                About Us
+            <Link href="/contact-us" className="blue-btn">
+                Contact Us
             </Link>
             </div>
         </div>

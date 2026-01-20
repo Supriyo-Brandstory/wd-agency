@@ -26,6 +26,7 @@ import CommonFaqSection from '../../../component/pages/common/CommonFaqSection'
 import CommonServiceLocations from '../../../component/pages/common/CommonServiceLocations'
 import CommonClientTestimonials from '../../../component/pages/common/CommonClientTestimonials'
 import CommonThreeCard from '@/app/(frontend)/component/pages/common/CommonThreeCard'
+import SubNav from '@/app/(frontend)/component/pages/common/SubNav'
 
 
 const page = () => {
@@ -37,6 +38,19 @@ const page = () => {
                 subtitle={"At Website Development Agency, we are the creators of super-fast, high-performance, and scalable </br>NodeJS websites and web applications along with real-time features."}
 
             />
+        
+        <SubNav
+        title="Dev. Services"
+        items={[
+          
+          { name: "UI/UX", link: "/services/ui-ux-design" },
+          { name: "Frontend Dev.", link: "/services/frontend-development" },
+          { name: "Full-stack Dev.", link: "/services/full-stack-development" },
+          { name: "Static Web Dev.", link: "/services/static-website-development" },
+          { name: "Dynamic Web Dev.", link: "/services/dynamic-website-development" },
+	      { name: "Website Migration", link: "/services/website-migration-service" },
+        ]}
+      />
              <CommonIntroduction
                 heding={'Trusted NodeJS Web Development Partner'}
                 text1={` <p>Website Development Agency is an expert agency in creating high-performing, scalable, and real-time web applications that efficiently run on Node.js. As the best Node.js developer in Dubai and the UAE, we help startups, SMEs, and big companies to create server-side apps that deliver the following: fast, secure, visually appealing, and easy to use, thus turning the users into happy customers.</p>

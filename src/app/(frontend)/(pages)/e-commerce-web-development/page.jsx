@@ -59,30 +59,31 @@ const page = () => {
         }
       />
       <SubNav
-        title="Ecommerce"
+        title="eCcommerce"
         items={[
           {
-            name: "PHP",
-            link: "/platforms/php-website-development",
+            name: "Shopify",
+            link: "/platforms/shopify-website-development",
           },
           {
-            name: "W-commerce",
+            name: "WooCommerce",
             link: "/platforms/woo-commerce-website-development",
           },
           {
             name: "WordPress",
             link: "/platforms/wordpress-website-development",
           },
+          { name: "Magento", link: "#" },
           { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
           { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        
         ]}
       />
       <CommonIntroduction
-        heding={"No. 1 Ecommerce Development Services in UAE"}
+        heding={"No. 1 eCommerce Development Services in UAE"}
         text1={` <p>As a leading e-commerce development agency in Dubai and the UAE, we specialize in crafting high-performance, custom websites and eCommerce platforms on both bespoke and open-source technologies. With more than 12 years of proven expertise, we have empowered countless businesses to launch successful online stores and implement powerful digital strategies across diverse products and services. </p>
                     <p>Our highly skilled website developer team blends cutting-edge technical proficiency with innovative, creative design to deliver tailored digital solutions that perfectly align with your brand's vision and objectives. We prioritize intuitive user experience, mobile responsiveness, and smooth integrations, empowering your business to boost engagement, increase conversions, and achieve long-term growth boost.</p>
                     `}

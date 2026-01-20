@@ -32,10 +32,9 @@ import Optimized from '@/app/(frontend)/assets/images/website-development/Optimi
 import CommonIndustries from '../../component/pages/common/CommonIndustries'
 import CommonProtfolio from '../../component/pages/common/CommonProtfolio'
 import CommonClientTestimonials from '../../component/pages/common/CommonClientTestimonials'
-import CommonServiceLocations from '../../component/pages/common/CommonServiceLocations'
 import LocationService from '../../component/pages/common/LocationService'
-import CostCalculator from '../../component/pages/calculator/CostCalculator'
-
+import SubNav from '../../component/pages/common/SubNav'
+import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 
 
 const page = () => {
@@ -43,11 +42,26 @@ const page = () => {
         <>
     <Banner
         text1={"Most Trusted Website Development Services"}
-        text2={"Web Development in Umm Al Quwain for<br>Your Business Growth"}
-        text3={"Website Development Agency is your one-stop solution for web development in Umm Al Quwain, delivering cutting-edge web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Umm Al Quwain."}
+        text2={"Web Design Agency in Umm Al Quwain"}
+        text3={"Website Development Agency is your one-stop solution for web design & development in Umm Al Quwain, delivering cutting-edge web design and development services since 2014."}
     />
+            <SubNav
+        title="Technology"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+	        { name: "WordPress", link: "/platforms/wordpress-website-development" },
+	        { name: "Shopify", link: "/platforms/shopify-website-development" },
+	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+	        
+        ]}
+      />
     <CommonAboutPage
-        text1={"Best Website Development Agency Umm Al Quwain- Website Development Agency"}
+        text1={"Best Website Development Agency Umm Al Quwain"}
         text2={"Is your business ready for a digital transformation? We craft sleek, modern, and brand-focused websites that drive real impact. At <a href='/'>Website Development Agency</a>, our portfolio includes top-performing websites that deliver high-performance, visually appealing, and SEO-friendly digital solutions for businesses."}
         text3={"As a leading web development agency in Umm Al Quwain, we serve clients across all areas, from Al Salamah to Al Raas, and beyond. We create refined websites that perfectly reflect your brand identity from top to bottom."}
         img={aboutimageummalquwain}
@@ -76,8 +90,70 @@ const page = () => {
         img={ummalquwainAboutimg}
     />
     <CommonProtfolio/>
+    <CommonIndustries/>
+    
+    
+    <CommonServices
+        theding={'The Website Development Agency Methodology'}
+        tdesc={`
+           <p>At Website Development Agency, we believe in a collaborative, transparent, and measurable approach for every project we undertake. We keep you informed at every stage- from strategy to execution, ensuring complete clarity and alignment.</p>
+            <p class='mt-20'>Our structured and forward-thinking web development process not only drives measurable outcomes but also encourages creative solutions that set your business apart and deliver lasting commercial success.</p>
+        `}
+        bheding={"Steps We Follow in Our Web Development Process:"}
+        bdesc={`<ul class='ml-50'>
+                <li>Discovery & Research- Understanding requirements, competitor analysis, and audience mapping.</li>
+                <li>Strategy & Architecture- Content strategy, branding strategy, and conversion mapping.</li>
+                <li>Design- Wireframes, <a href="/services/wireframing-prototyping">interactive prototypes</a>, brand-consistent UI.</li>
+                <li>Development- Agile development, unit & integration testing, API development.</li>
+                <li>Testing & Optimisation- Load testing, security scanning, cross-browser and device QA.</li>
+                <li> Launch & Maintenance- Structured rollout, continuous monitoring, and performance tracking.</li>
+            </ul>
+            <p class='mt-20'>We provide project deadlines, milestones, utilize tools (project boards, regular demos) so you always know the progress.</p>
+        `}
+        bbg={developmentprocess}
+    />
+
+        <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+        <div className="text-center sm-text-start mb-50 sm-mb-20">
+          <h2 className="mb-20">Website Design Umm Al Quwain- Cost Breakdown</h2>
+          <p>
+            Avail the best website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
+          </p>
+        </div>
+
+        <div className={styles.chart}>
+          <div className={styles.grid}>
+            <h3>Web Design Solution</h3>
+            <h3>Benefits</h3>
+            <h3>Price Range Estimate</h3>
+          </div>
+          <div className={styles.grid}>
+            <p>Basic</p>
+            <p>Affordable, creative</p>
+            <p className={styles.price}>AED 3,000- 5,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Standard</p>
+            <p>Feature-rich, creative</p>
+            <p className={styles.price}>AED 5,000- 8,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Advanced</p>
+            <p>Well-structured, growth-ready</p>
+            <p className={styles.price}>AED 8,000- 12,000</p>
+          </div>
+          <div className={styles.grid}>
+            <p>Premium</p>
+            <p>Premium, custom-built</p>
+            <p className={styles.price}>AED 12,000+</p>
+          </div>
+        </div>
+      </div>
+
     <CommonThreeCard
-        text1={'Why Choose Website Development Agency as Your Web Partner<br/> in Umm Al Quwain'}
+        text1={'Why Choose Us as Your Web Design Partner<br/> in Umm Al Quwain'}
         text2={"Among many web development companies in Umm Al Quwain, we stand out with a deep understanding of local business needs, audience demographics, and the latest digital trends. We are not just a website development company; we are your transformation partner, supporting your digital expansion."}
         boxdata={[
             { id: 1, img: StrategicProblemSolvingimage, title: 'Strategic Problem Solving', desc: 'We excel in creating visually stunning, functional, and conversion-focused websites tailored to your brand. Every design we craft delivers a perfect blend of creativity and performance.' },
@@ -88,36 +164,10 @@ const page = () => {
             { id: 6, img: ValueforMoneyServicesimage, title: 'Value for Money Services', desc: 'We provide premium web development services in Umm Al Quwain at competitive prices, ensuring maximum ROI with impactful solutions.' },
         ]}
     />
-    <CommonApproch
-        text1={"Our Approach to Web Development in Umm Al Quwain"}
-        text2={`
-            <p class='mb-20'>We prioritize designing websites that are visually impressive, functional, and deliver the best user experience. A great website adds credibility to your brand, boosts customer trust, and serves as a premier sales channel 24/7. We blend advanced technology with an SEO-based structure for an exceptional browsing experience for every visitor.</p>
-            <p>We pay utmost attention to detail, from color palettes and images to layouts and responsive design. We believe responsive web design aligns firmly with your brand and business objectives. Whether designing for e-commerce, service providers, or other industries, we keep your audience and goals in mind. Our designs are attractive, SEO-optimized, and built to improve Google rankings, visibility, and traffic.</p>
-        `}
-        bannerimage={approchbannerimage}
-    />
-    <CommonServices
-        theding={'Best Web Development Services in Umm Al Quwain - Website Development Agency'}
-        tdesc={`
-            <p>The business landscape of Umm Al Quwain is rapidly going digital, making it essential for brands to create a lasting impact. As customers increasingly search, browse, and shop online, your website becomes the key touchpoint for generating valuable leads and conversions.</p>
-            <p class='my-20'>As a pioneer web development agency in Umm Al Quwain, we deliver high-performance websites using the latest technology. Every website we create includes critical elements: fast loading, mobile responsiveness, SEO optimization, and seamless navigation.</p>
-        `}
-        bheding={'Key features of our web development services in Umm Al Quwain include:'}
-        bdesc={`
-            <ul class='ml-50'>
-            <li>Custom website designs tailored to your industry and business objectives.</li>
-            <li>Responsive web design optimized for all screen sizes (Mobile, Desktop, Tablet).</li>
-            <li>Easy navigation with strategic Call-to-Action placements.</li>
-            <li>State-of-the-art visuals with consistent branding.</li>
-            <li>Secure coding practices adhering to industry-standard protocols.</li>
-            </ul>
-        `}
-        bbg={developmentprocess}
-    />
     <CommonResult 
         heding={"Best Web Development Services that Drive Measurable Results"}
         desc={"Great website design connects a visitor’s journey from first impression to conversion. We are the leading web development agency, creating websites that are not only visually appealing and functional but also perform seamlessly across all devices. From intuitive UX design to high-end visuals, our websites attract, engage, and retain users."}
-        subheding={"Our Core Strengths"}
+
         resultdata={[
             {
                 id: 1,
@@ -146,8 +196,7 @@ const page = () => {
         ]}
         footertext={'We have worked with top businesses in Umm Al Quwain and the UAE across retail, real estate, hospitality, e-commerce, and more. We know what it takes to build a digital platform that works for every niche.'}
     />
-    <CommonIndustries/>
-    <CostCalculator />
+
     <CommonClientTestimonials/>
     <LocationService activeLocation="umm al quwain" />
     <CommonFaqSection

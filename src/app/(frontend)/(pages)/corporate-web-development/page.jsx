@@ -12,7 +12,6 @@ import imageService2 from "@/app/(frontend)/assets/images/corporate-website/cont
 import imageService3 from "@/app/(frontend)/assets/images/corporate-website/multi-language-support.webp";
 import imageService4 from "@/app/(frontend)/assets/images/corporate-website/csr.webp";
 import imageService5 from "@/app/(frontend)/assets/images/corporate-website/crm-integration.webp";
-import imageService6 from "@/app/(frontend)/assets/images/corporate-website/mobile-optimize.webp";
 import imageService8 from "@/app/(frontend)/assets/images/corporate-website/support-maintenance.webp";
 import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
 import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
@@ -29,7 +28,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/corporate-1.webp";
@@ -58,22 +56,17 @@ const page = () => {
         }
       />
       <SubNav
-        title="Corporate"
+        title="Corporate Business"
         items={[
           {
             name: "PHP",
             link: "/platforms/php-website-development",
           },
           {
-            name: "W-commerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-          {
             name: "WordPress",
             link: "/platforms/wordpress-website-development",
           },
           { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
           { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
