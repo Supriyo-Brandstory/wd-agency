@@ -1,0 +1,113 @@
+.ecommerceSubNav {
+    background-color: var(--color-black);
+    padding: var(--size-15) 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid #929292;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: var(--size-10);
+}
+
+.homeIcon {
+    width: var(--size-28);
+    height: var(--size-28);
+    color: var(--color-white);
+}
+
+.slash {
+    color: var(--color-white);
+    font-size: var(--size-18);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.separator {
+    width: 1px;
+    height: var(--size-60);
+    background-color: #929292;
+    margin: 0 var(--size-30);
+    flex-shrink: 0;
+}
+
+.navLinks {
+    display: flex;
+    gap: var(--size-30);
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.navLinks::-webkit-scrollbar {
+    display: none;
+}
+
+.navItem {
+    font-size: var(--size-18);
+    font-weight: 600;
+    color: #f4f3f3;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: var(--size-20) 0;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: var(--size-10);
+}
+
+.iconhiden {
+    display: none;
+    color: var(--color-blue);
+}
+
+/* Arrow only shows when active, not on hover as requested */
+.navItem.active .iconhiden {
+    display: inline-block;
+}
+
+.navItem:hover {
+    color: var(--color-white);
+    border-bottom: 3px solid var(--color-blue);
+}
+
+.navItem.active {
+    color: var(--color-white);
+    border-bottom: 3px solid var(--color-blue);
+}
+
+@media (max-width: 768px) {
+    .ecommerceSubNav {
+        padding: var(--size-10) 0;
+    }
+
+    .separator {
+        margin: 0 var(--size-15);
+        height: var(--size-40);
+    }
+
+    .navLinks {
+        gap: var(--size-20);
+    }
+
+    .slash {
+        font-size: var(--size-14);
+    }
+
+    .navItem {
+        font-size: var(--size-14);
+        padding: var(--size-10) 0;
+    }
+}

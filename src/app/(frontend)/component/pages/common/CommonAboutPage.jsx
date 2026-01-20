@@ -8,6 +8,12 @@ const CommonAboutPage = ({ text1, text2, text3, img }) => {
       <div className={styles.flex}>
         <div className={styles.left} style={{ "--width": "55%" }}>
           <h2>{text1}</h2>
+          <Image
+            src={img}
+            alt="sharjah"
+            style={{ "--height": "391px", "--width": "628px" }}
+            className="d-none m-block mt-20"
+          />
           <p className="my-20" dangerouslySetInnerHTML={{ __html: text2 }}></p>
           <p dangerouslySetInnerHTML={{ __html: text3 }}></p>
         </div>
@@ -16,6 +22,7 @@ const CommonAboutPage = ({ text1, text2, text3, img }) => {
             src={img}
             alt="sharjah"
             style={{ "--height": "391px", "--width": "628px" }}
+            className="d-block m-none"
           />
         </div>
       </div>

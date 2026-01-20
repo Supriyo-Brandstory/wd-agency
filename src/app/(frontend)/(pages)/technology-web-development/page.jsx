@@ -41,6 +41,7 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/tech-start
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -54,6 +55,29 @@ const page = () => {
         subtitle={
           "Empowering tech startups in Dubai & the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "
         }
+      />
+      <SubNav
+        title="Technology"
+        items={[
+          {
+            name: "PHP",
+            link: "/platforms/php-website-development",
+          },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"Startup Website Development UAE"}
@@ -239,12 +263,13 @@ const page = () => {
           },
         ]}
       />
-       <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Tech Startup Website Design Cost Breakdown</h2>
           <p>
-            Select the best tech startup website design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the best tech startup website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
           </p>
         </div>
 

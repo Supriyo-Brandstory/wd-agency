@@ -1,6 +1,7 @@
 .Protfolio {
   position: relative;
-  height: 400vh; /* enough scroll height for animation */
+  height: 400vh;
+  /* enough scroll height for animation */
 }
 
 .ProtfolioBox {
@@ -30,28 +31,32 @@
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.4); /* black overlay, adjust opacity as needed */
+  background: rgba(0, 0, 0, 0.4);
+  /* black overlay, adjust opacity as needed */
   transition: background 0.5s ease;
-  pointer-events: none; /* lets clicks pass through */
+  pointer-events: none;
+  /* lets clicks pass through */
 }
 
-.ctabox{
-    position: absolute;
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-    img{
-        margin-bottom: 20px;
-        width: 200px;
-        object-fit: contain;
-        z-index: 1;
-    }
+.ctabox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    margin-bottom: 20px;
+    width: 200px;
+    object-fit: contain;
+    z-index: 1;
+  }
 }
 
 @media (max-width: 768px) {
 
   .Protfolio {
-    height: 230vh; /* reduce scroll area for smaller screens */
+    height: 245vh;
+    /* reduce scroll area for smaller screens */
   }
 
   .ProtfolioBox {
@@ -64,9 +69,10 @@
 
   .ProtfolioBox img {
     width: 100%;
-    max-width: 350px; /* prevent oversized images on mobile */
+    max-width: 350px;
+    /* prevent oversized images on mobile */
     height: auto;
-    
+
   }
 
   .ctabox {
@@ -76,10 +82,10 @@
   }
 
   .ctabox img {
-         width: 140px;
-        margin-bottom: 15px;
-        height: 100px;
-        object-fit: contain;
+    width: 140px;
+    margin-bottom: 15px;
+    height: 100px;
+    object-fit: contain;
   }
 
 

@@ -1,16 +1,18 @@
-.topSection{
+.topSection {
     display: flex;
     justify-content: space-between;
-    gap:20px;
-    .left{
+    gap: 20px;
+
+    .left {
         width: var(--width);
     }
-    .right{
+
+    .right {
         width: var(--width);
     }
 }
 
-.bottomSection{
+.bottomSection {
 
     margin-top: 50px;
     background: var(--bg-url) no-repeat center center / cover;
@@ -23,14 +25,25 @@
 }
 
 @media (max-width: 768px) {
-    .topSection{
-    display: block;
-    .left{
-        width: 100%;
-    }
-    .right{
-        width: 100%;
-    }
+    .topSection {
+        display: block;
+
+        .left {
+            width: 100%;
+        }
+
+        .right {
+            width: 100%;
+        }
 
     }
+
+    .bottomSection {
+        height: 60vh;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+    }
+
+
 }

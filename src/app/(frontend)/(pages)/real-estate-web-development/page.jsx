@@ -47,6 +47,7 @@ import LocationService from "../../component/pages/common/LocationService";
 import TechnologyStack from "../../component/pages/home/TechnologyStack";
 import CommonTechnologyStack from "../../component/pages/common/CommonTechnologyStack";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -60,6 +61,26 @@ const page = () => {
         subtitle={
           "We're the UAE's most trusted real estate web design agency, delivering <br>award-winning websites that turn visitors into buyers. Our high-converting property <br>portals have earned us top industry recognition and measurable results for developers <br>and agencies across the Emirates."
         }
+      />
+      <SubNav
+        title="Real Estate"
+        items={[
+          { name: "PHP", link: "/platforms/php-website-development" },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"No. 1 Real Estate Website Development Agency in UAE"}
@@ -81,12 +102,10 @@ const page = () => {
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
-        alt={
-          "Elevate Your Property Business with a Website That Sells"
-        }
+        alt={"Elevate Your Property Business with a Website That Sells"}
         heding={"Elevate Your Property Business with a Website That Sells"}
         subheding={
-          'Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market.'
+          "Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market."
         }
         lefttext={`  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
                     <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
@@ -95,7 +114,6 @@ const page = () => {
                             `}
       />
 
-      
       <CommonIndustries
         heding={"Our Real Estate Website Development Services"}
         subheding="At Website Development Agency, we go beyond design, we build powerful real estate platforms that simplify property management, maximize buyer engagement, and generate leads. Our services include:"
@@ -166,70 +184,72 @@ const page = () => {
           },
         ]}
       />
-      
-      <CommonTechnologyStack
-      heding={"Our Website Development Technology Stack"}
-      subheding={
-        "We possess deep expertise in all frontend and backend website development technologies."
-      }
-      techData={[
-        {
-          name: "React",
-          image: react,
-          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
-          Link: "/platforms/react-js-website-development",
-        },
-        {
-          name: "Node.js",
-          image: nodejs,
-          gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)",
-          Link: "/platforms/nodejs-website-development",
-        },
-        {
-          name: "Laravel",
-          image: laravel,
-          gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)",
-          Link: "/platforms/laravel-website-development",
-        },
-        {
-          name: "WordPress",
-          image: wordpress,
-          gradient: "linear-gradient(180deg, #4A87A3 16.44%, #21759B 60.27%)",
-          Link: "/platforms/wordpress-website-development",
-        },
-        {
-          name: "Flutter",
-          image: flutter,
-          gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)",
-          Link: "/platforms/flutter-website-development",
-        },
-        {
-          name: "React Native",
-          image: reactnative,
-          gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
-          Link: "/platforms/react-native-website-development",
-        },
-        {
-          name: "PHP",
-          image: php,
-          gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)",
-          Link: "/platforms/php-website-development",
-        },
-        {
-          name: "Python",
-          image: python,
-          gradient: "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)",
-          Link: "/platforms/python-website-development",
-        },
-      ]}
-    />
 
-    <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
+      <CommonTechnologyStack
+        heding={"Our Website Development Technology Stack"}
+        subheding={
+          "We possess deep expertise in all frontend and backend website development technologies."
+        }
+        techData={[
+          {
+            name: "React",
+            image: react,
+            gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+            Link: "/platforms/react-js-website-development",
+          },
+          {
+            name: "Node.js",
+            image: nodejs,
+            gradient: "linear-gradient(180deg, #6CC04A 16.44%, #539E43 60.27%)",
+            Link: "/platforms/nodejs-website-development",
+          },
+          {
+            name: "Laravel",
+            image: laravel,
+            gradient: "linear-gradient(180deg, #FF6960 16.44%, #FF2D20 60.27%)",
+            Link: "/platforms/laravel-website-development",
+          },
+          {
+            name: "WordPress",
+            image: wordpress,
+            gradient: "linear-gradient(180deg, #4A87A3 16.44%, #21759B 60.27%)",
+            Link: "/platforms/wordpress-website-development",
+          },
+          {
+            name: "Flutter",
+            image: flutter,
+            gradient: "linear-gradient(180deg, #45D1FD 16.44%, #02539A 100%)",
+            Link: "/platforms/flutter-website-development",
+          },
+          {
+            name: "React Native",
+            image: reactnative,
+            gradient: "linear-gradient(180deg, #61DAFB 0%, #03C9FF 118.42%)",
+            Link: "/platforms/react-native-website-development",
+          },
+          {
+            name: "PHP",
+            image: php,
+            gradient: "linear-gradient(180deg, #697EBA 17.27%, #6E81B6 73.33%)",
+            Link: "/platforms/php-website-development",
+          },
+          {
+            name: "Python",
+            image: python,
+            gradient:
+              "linear-gradient(180deg, #387EB8 -73.67%, #FFC331 27.62%)",
+            Link: "/platforms/python-website-development",
+          },
+        ]}
+      />
+
+      <div className="frame-1200 py-100 sm-pt-0 sm-pb-50 sm-px-20">
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Real Estate Website Cost Breakdown</h2>
           <p>
-            Select the best real estate website design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the best real estate website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
           </p>
         </div>
 
@@ -264,7 +284,7 @@ const page = () => {
 
       <DevelopmentServices />
 
-          <RealEstatePortfolio
+      <RealEstatePortfolio
         heading="Real Estate Website Templates Based Solutions"
         description="Browse a curated selection of premium real estate website templates designed for property businesses. Each template includes essential features like property listings, search filters, inquiry forms, and responsive layouts- helping you launch a professional real estate website in Dubai quickly and cost-effectively."
         portfolioData={[
@@ -308,9 +328,7 @@ const page = () => {
       />
 
       <CommonWhyWebsiteDevelopment
-        heding={
-          "Designed for Every Role in the UAE Real Estate Market"
-        }
+        heding={"Designed for Every Role in the UAE Real Estate Market"}
         subheding={
           "In Dubai and UAE the real estate sector includes a wide range of professionals from independent consultants to large development firms- and each requires a website that reflects credibility, expertise, and local market knowledge. We build custom real estate websites that adapt to the specific needs of every property-focused business."
         }

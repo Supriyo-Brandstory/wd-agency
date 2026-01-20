@@ -1,8 +1,13 @@
-.container{
-    height: 125vh;
-    display: flex;
-    align-items: end;
+.container {
+  height: 125vh;
+  display: flex;
+  align-items: end;
 }
+
+.inner {
+  filter: none;
+}
+
 .scroller {
   overflow-y: scroll;
   height: 240px;
@@ -14,4 +19,32 @@
 .scroller ul {
   list-style-type: disc;
   list-style-position: inside;
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+  }
+
+  /* Blur layer */
+  .container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    /* or your background image/color */
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    z-index: 1;
+  }
+
+  /* Clear content */
+  .inner {
+    position: relative;
+    z-index: 2;
+  }
+
+
 }

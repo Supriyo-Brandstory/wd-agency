@@ -41,6 +41,7 @@ import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/corporate-
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
+import SubNav from "../../component/pages/common/SubNav";
 
 const page = () => {
   return (
@@ -54,6 +55,29 @@ const page = () => {
         subtitle={
           "At Website Development Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."
         }
+      />
+      <SubNav
+        title="Corporate"
+        items={[
+          {
+            name: "PHP",
+            link: "/platforms/php-website-development",
+          },
+          {
+            name: "W-commerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
+          {
+            name: "WordPress",
+            link: "/platforms/wordpress-website-development",
+          },
+          { name: "ReactJS", link: "/platforms/react-js-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
+          { name: "Laravel", link: "/platforms/laravel-website-development" },
+          { name: "Angular", link: "/platforms/angular-website-development" },
+          { name: "Drupal", link: "/platforms/drupal-website-development" },
+        ]}
       />
       <CommonIntroduction
         heding={"Corporate Website Design in Dubai"}
@@ -228,8 +252,9 @@ const page = () => {
         <div className="text-center sm-text-start mb-50 sm-mb-20">
           <h2 className="mb-20">Corporate Website Cost Breakdown</h2>
           <p>
-            Select the right corporate website design and Development package based on the <br></br>features, performance,
-            and growth level you need.
+            Select the right corporate website design and Development package
+            based on the <br></br>features, performance, and growth level you
+            need.
           </p>
         </div>
 
