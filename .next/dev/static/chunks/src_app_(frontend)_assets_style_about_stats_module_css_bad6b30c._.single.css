@@ -1,0 +1,30 @@
+/* [project]/src/app/(frontend)/assets/style/about/stats.module.css [app-client] (css) */
+.stats-module__W1d0nG__statBox {
+  aspect-ratio: 302 / 259;
+  text-align: center;
+  background: #292929;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  transition: background .4s, transform .3s;
+  display: flex;
+}
+
+.stats-module__W1d0nG__statBox:hover {
+  background: linear-gradient(#2f2fb07c 0%, #e83e8d87 100%);
+}
+
+.stats-module__W1d0nG__title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.stats-module__W1d0nG__subtitle {
+  color: #9ca3af;
+  margin-top: .5rem;
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_about_stats_module_css_bad6b30c._.single.css.map*/

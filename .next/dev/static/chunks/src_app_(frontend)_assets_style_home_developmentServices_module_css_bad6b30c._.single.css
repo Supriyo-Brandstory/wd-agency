@@ -1,0 +1,55 @@
+/* [project]/src/app/(frontend)/assets/style/home/developmentServices.module.css [app-client] (css) */
+.developmentServices-module__oAF7Eq__grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.developmentServices-module__oAF7Eq__card {
+  color: #fff;
+  transition: transform .3s;
+  overflow: hidden;
+}
+
+.developmentServices-module__oAF7Eq__card:hover {
+  transform: translateY(-5px);
+}
+
+.developmentServices-module__oAF7Eq__image {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.developmentServices-module__oAF7Eq__content {
+  padding: 20px 0;
+}
+
+.developmentServices-module__oAF7Eq__learnMore {
+  color: var(--color-pink);
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+.developmentServices-module__oAF7Eq__learnMore:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .developmentServices-module__oAF7Eq__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    display: grid;
+  }
+
+  .developmentServices-module__oAF7Eq__image {
+    height: 210px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_home_developmentServices_module_css_bad6b30c._.single.css.map*/

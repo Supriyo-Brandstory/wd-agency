@@ -1,0 +1,35 @@
+{
+  "node": {
+    "401e5a39c0cdb4376752e71961e66fae7a2bb7adf7": {
+      "workers": {
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": 16237,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "4009a84bbd14b06a594677462af7083de8e5b1b178": {
+      "workers": {
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": 16237,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

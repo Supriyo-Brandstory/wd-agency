@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/(frontend)/assets/style/common/commonApproch.module.css"],"sourcesContent":[".container {\n  height: 125vh;\n  display: flex;\n  align-items: end;\n}\n\n.inner {\n  filter: none;\n}\n\n.scroller {\n  overflow-y: scroll;\n  height: 240px;\n  scroll-behavior: smooth;\n  margin: 20px 0;\n  padding-left: 20px;\n}\n\n.scroller ul {\n  list-style-type: disc;\n  list-style-position: inside;\n}\n\n@media (max-width: 768px) {\n  .container {\n    position: relative;\n    height: 75vh;\n    overflow: hidden;\n  }\n\n  /* Blur layer */\n  .container::before {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    background: inherit;\n    /* or your background image/color */\n    filter: blur(15px);\n    -webkit-filter: blur(15px);\n    z-index: 1;\n  }\n\n  /* Clear content */\n  .inner {\n    position: relative;\n    z-index: 2;\n  }\n\n\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;;;AAQA;;;;;AAKA;EACE;;;;;;EAOA;;;;;;;;;EAYA"}}]
+}

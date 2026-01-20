@@ -1,0 +1,65 @@
+{
+  "node": {
+    "002a398e7a5ce5aa6f2467b90f716d953fb5a02639": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "exportedName": "getSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "408ed0cdaf42a8e2c9545b9893a3cb2faad7f8891a": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "60ff3508141dbac4c9a625917598e3bf2d3eeda859": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "exportedName": "updateSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "406b45dec04eba1fb03cff0e4adbc6670c2f7689c6": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "exportedName": "deleteSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

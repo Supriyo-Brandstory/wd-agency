@@ -1,0 +1,20 @@
+{
+  "node": {
+    "401e5a39c0cdb4376752e71961e66fae7a2bb7adf7": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/php-website-development/page": {
+          "moduleId": 70629,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/php-website-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}
