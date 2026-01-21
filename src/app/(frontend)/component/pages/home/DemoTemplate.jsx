@@ -220,7 +220,7 @@ const DemoTemplate = () => {
                     className={styles.image}
                   />
                   <div className={styles.overlay}>
-                    <Link href="/contact-us" className={styles.detailsBtn}>
+                    <Link href="/demo-template" className={styles.detailsBtn}>
                       <span className={styles.infoIcon}>i</span>
                       Details
                     </Link>
