@@ -138,7 +138,7 @@ export default function Header() {
           </div>
         </div>
 
-        <Link href="/blog">Blog</Link>
+        <Link href="/website-templates">Shop</Link>
         <Link href="/case-studies">Portfolio</Link>
         <Link href="/cost-calculator">Cost Calculator</Link>
 

@@ -58,13 +58,13 @@ const DemoTemplate = () => {
       <div className="frame-1200">
         <div className={styles.heading}>
           <h2 className="text-center sm-text-start">
-            Explore Our Website Templates
+            Affordable Website Design in Dubai <br></br>Explore Templates
           </h2>
         </div>
         <p className="text-center sm-text-start mb-20">
-          Select your industry to see our specialized, low-cost web design
-          solutions in Dubai. We offer premium quality at affordable prices to
-          help your business grow.
+          We offer low-cost website design solutions in Dubai that 
+          help start-ups go online quickly with modern, <br></br>responsive, and 
+          conversion-focused websites.
         </p>
 
         <div className={styles.filterWrapper}>
@@ -215,7 +215,7 @@ const DemoTemplate = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            View More
+            More Products
           </Link>
         </div>
       </div>
