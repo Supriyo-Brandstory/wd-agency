@@ -18,6 +18,7 @@ export async function createEnquiry(data) {
         serviceInterestedIn: data.serviceInterestedIn || "",
         projectBudget: data.projectBudget || "",
         projectDetails: data.projectDetails || "",
+        submitted_page_url: data.submitted_page_url || "",
       },
     });
 

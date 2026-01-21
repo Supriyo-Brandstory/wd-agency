@@ -24,6 +24,7 @@ model Enquiry {
   serviceInterestedIn String
   projectBudget   String?
   projectDetails  String   @db.Text
+  submitted_page_url String?
   createdAt       DateTime @default(now())
 }
 

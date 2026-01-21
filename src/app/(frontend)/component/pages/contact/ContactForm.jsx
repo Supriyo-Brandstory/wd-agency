@@ -34,6 +34,7 @@ export default function ContactForm() {
       serviceInterestedIn,
       projectBudget,
       projectDetails,
+      submitted_page_url: window.location.pathname,
     };
 
     const result = await createEnquiry(data);
@@ -65,9 +66,11 @@ export default function ContactForm() {
       <p className="mb-40 sm-mb-30 text-center">
         Fill out the form below and we'll get back to you within 24 hours.
       </p>
-       {successMessage && (
-          <div className="my-10 text-center text-green-500 bg-white py-3 rounded-md">{successMessage}</div>
-        )}
+      {successMessage && (
+        <div className="my-10 text-center text-green-500 bg-white py-3 rounded-md">
+          {successMessage}
+        </div>
+      )}
       <div className={styles.formWrapper}>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.row}>
@@ -160,7 +163,6 @@ export default function ContactForm() {
             </button>
           </div>
         </form>
-       
       </div>
     </motion.div>
   );

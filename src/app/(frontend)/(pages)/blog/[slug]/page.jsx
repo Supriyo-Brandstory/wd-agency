@@ -6,7 +6,7 @@ import Link from "next/link";
 import authorImage from "@/app/(frontend)/assets/images/1719401017176.jpeg";
 import { getBlogBySlug } from "@/app/admin/dashboard/blog/actions";
 import bannerbg from "@/app/(frontend)/assets/images/blog-bg.webp";
-import ChecklistPopup from "@/app/(frontend)/component/pages/blog/ChecklistPopup";
+import QuotePopup from "@/app/(frontend)/component/pages/common/QuotePopup";
 
 export default function BlogDetail({ params }) {
   const { slug } = use(params);
@@ -16,10 +16,31 @@ export default function BlogDetail({ params }) {
   const [activeId, setActiveId] = useState(null);
   const [isTocExpanded, setIsTocExpanded] = useState(false);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [popupConfig, setPopupConfig] = useState({});
   const [selectedItems, setSelectedItems] = useState([]);
   const [sidebarMessage, setSidebarMessage] = useState({ type: "", text: "" });
   const [copyMessage, setCopyMessage] = useState(false);
   const observerRef = useRef(null);
+
+  const openPopup = (type) => {
+    if (type === "checklist") {
+      setPopupConfig({
+        modalTitle: "Submit Your Project Checklist",
+        initialData: {
+          serviceInterestedIn: "Blog Content Checklist",
+          projectBudget: "N/A",
+          projectDetails: `Blog: ${blog.title}\n\nSelected Requirements:\n${selectedItems.map((item) => `- ${item}`).join("\n")}`,
+          hideFields: {
+            service: true,
+            budget: true,
+            details: true,
+            company: true,
+          },
+        },
+      });
+      setIsPopupOpen(true);
+    }
+  };
 
   const handleShare = (platform) => {
     const url = window.location.href;
@@ -465,7 +486,7 @@ export default function BlogDetail({ params }) {
                     </div>
                     <button
                       className={styles.checklistSubmitBtn}
-                      onClick={() => setIsPopupOpen(true)}
+                      onClick={() => openPopup("checklist")}
                     >
                       Submit Selections
                     </button>
@@ -537,7 +558,7 @@ export default function BlogDetail({ params }) {
                   </div>
                 )}
                 <div className={styles.stickyForm}>
-                  <h3>
+                  <h3 style={{ marginBottom: "20px", fontSize: "22px" }}>
                     Get Your Free Project Roadmap & Expert Design Consultation
                   </h3>
                   <form
@@ -550,6 +571,7 @@ export default function BlogDetail({ params }) {
                         phoneNumber: formData.get("phone"),
                         projectDetails: `Inquiry from Blog: ${blog.title}`,
                         serviceInterestedIn: "Web Design",
+                        submitted_page_url: window.location.pathname,
                       };
                       const { createEnquiry } =
                         await import("@/app/admin/dashboard/enquiry/action");
@@ -616,11 +638,10 @@ export default function BlogDetail({ params }) {
         )}
       </div>
       {blog && (
-        <ChecklistPopup
+        <QuotePopup
           isOpen={isPopupOpen}
           onClose={() => setIsPopupOpen(false)}
-          blogTitle={blog.title}
-          selectedItems={selectedItems}
+          {...popupConfig}
         />
       )}
       {copyMessage && (

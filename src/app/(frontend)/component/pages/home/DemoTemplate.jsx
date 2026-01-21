@@ -8,10 +8,15 @@ import { getTemplates } from "@/app/admin/dashboard/template/actions";
 import { getTemplateCategories } from "@/app/admin/dashboard/template-category/actions";
 
 const DemoTemplate = () => {
-  const [activeCategory, setActiveCategory] = useState("All Templates");
+  const [activeCategory, setActiveCategory] = useState({
+    name: "All Templates",
+    slug: "all",
+  });
   const [showScrollHint, setShowScrollHint] = useState(true);
   const [products, setProducts] = useState([]);
-  const [categories, setCategories] = useState(["All Templates"]);
+  const [categories, setCategories] = useState([
+    { name: "All Templates", slug: "all" },
+  ]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -22,7 +27,10 @@ const DemoTemplate = () => {
           getTemplateCategories(),
         ]);
         setProducts(tData);
-        setCategories(["All Templates", ...cData.map((c) => c.name)]);
+        setCategories([
+          { name: "All Templates", slug: "all" },
+          ...cData.map((c) => ({ name: c.name, slug: c.slug })),
+        ]);
       } catch (error) {
         console.error("Error fetching demo templates:", error);
       } finally {
@@ -39,9 +47,9 @@ const DemoTemplate = () => {
   };
 
   const filteredProducts =
-    activeCategory === "All Templates"
+    activeCategory.slug === "all"
       ? products
-      : products.filter((p) => p.category?.name === activeCategory);
+      : products.filter((p) => p.category?.slug === activeCategory.slug);
 
   if (loading) return null;
 
@@ -98,13 +106,13 @@ const DemoTemplate = () => {
           <div className={styles.filterContainer} onScroll={handleScroll}>
             {categories.map((cat) => (
               <button
-                key={cat}
+                key={cat.slug}
                 className={`${styles.filterBtn} ${
-                  activeCategory === cat ? styles.activeFilter : ""
+                  activeCategory.slug === cat.slug ? styles.activeFilter : ""
                 }`}
                 onClick={() => setActiveCategory(cat)}
               >
-                {cat}
+                {cat.name}
               </button>
             ))}
           </div>
@@ -112,7 +120,7 @@ const DemoTemplate = () => {
 
         <motion.div layout className={styles.grid}>
           <AnimatePresence mode="popLayout">
-            {filteredProducts.map((product) => (
+            {filteredProducts.slice(0, 8).map((product) => (
               <motion.div
                 key={product.id}
                 layout
@@ -141,6 +149,30 @@ const DemoTemplate = () => {
                       <span className={styles.infoIcon}>i</span>
                       Details
                     </Link>
+                    {product.demoFolder && (
+                      <Link
+                        href={`/demo-live/${product.slug}`}
+                        target="_blank"
+                        className={styles.detailsBtn}
+                        style={{
+                          background: "var(--primary-color)",
+                          color: "white",
+                        }}
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                          <circle cx="12" cy="12" r="3" />
+                        </svg>
+                        Live Preview
+                      </Link>
+                    )}
                   </div>
                 </div>
                 <div className={styles.cardContent}>
@@ -160,7 +192,14 @@ const DemoTemplate = () => {
         </motion.div>
 
         <div className={styles.loadMoreContainer}>
-          <Link href="/contact-us" className={styles.loadMoreBtn}>
+          <Link
+            href={
+              activeCategory.slug === "all"
+                ? "/website-templates"
+                : `/website-templates/${activeCategory.slug}`
+            }
+            className={styles.loadMoreBtn}
+          >
             <svg
               width="24"
               height="24"

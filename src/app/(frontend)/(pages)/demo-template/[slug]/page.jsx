@@ -3,12 +3,21 @@ import React, { useState, useEffect } from "react";
 import styles from "@/app/(frontend)/assets/style/demo/DemoDetails.module.css";
 import { getTemplateBySlug } from "@/app/admin/dashboard/template/actions";
 import { useParams, notFound } from "next/navigation";
+import QuotePopup from "@/app/(frontend)/component/pages/common/QuotePopup";
 
 const DemoDetailsPage = () => {
   const { slug } = useParams();
   const [template, setTemplate] = useState(null);
   const [activeTab, setActiveTab] = useState("description");
   const [loading, setLoading] = useState(true);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  // Selections state
+  const [selections, setSelections] = useState({
+    domain: "I have a domain",
+    duration: "4 Days - Normal",
+    content: "Buyer provides the full text content",
+  });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,6 +45,18 @@ const DemoDetailsPage = () => {
   const features = template.features
     ? template.features.split("\n").filter((f) => f.trim() !== "")
     : [];
+
+  const handleConsultation = () => {
+    setIsPopupOpen(true);
+  };
+
+  const popupData = {
+    title: template.title,
+    price: template.price,
+    service: "Demo Template: " + template.title,
+    projectDetails: `Inquiry for Template: ${template.title}\n\nSelected Options:\n- Domain: ${selections.domain}\n- Duration: ${selections.duration}\n- Content: ${selections.content}`,
+    hideFields: { service: true, budget: true, details: true },
+  };
 
   return (
     <div className={styles.demoContainer}>
@@ -187,15 +208,46 @@ const DemoDetailsPage = () => {
             <div className={styles.optionTitle}>Choose your domain status</div>
             <div className={styles.optionGroup}>
               <label className={styles.radioItem}>
-                <input type="radio" name="domain" defaultChecked />I have a
-                domain
+                <input
+                  type="radio"
+                  name="domain"
+                  checked={selections.domain === "I have a domain"}
+                  onChange={() =>
+                    setSelections({ ...selections, domain: "I have a domain" })
+                  }
+                />
+                I have a domain
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="domain" />I need a .com or .net domain
-                (+50 AED)
+                <input
+                  type="radio"
+                  name="domain"
+                  checked={
+                    selections.domain ===
+                    "I need a .com or .net domain (+50 AED)"
+                  }
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      domain: "I need a .com or .net domain (+50 AED)",
+                    })
+                  }
+                />
+                I need a .com or .net domain (+50 AED)
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="domain" />I need .ae domain (+150 AED)
+                <input
+                  type="radio"
+                  name="domain"
+                  checked={selections.domain === "I need .ae domain (+150 AED)"}
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      domain: "I need .ae domain (+150 AED)",
+                    })
+                  }
+                />
+                I need .ae domain (+150 AED)
               </label>
             </div>
           </div>
@@ -204,15 +256,48 @@ const DemoDetailsPage = () => {
             <div className={styles.optionTitle}>Choose project duration</div>
             <div className={styles.optionGroup}>
               <label className={styles.radioItem}>
-                <input type="radio" name="duration" defaultChecked />4 Days -
-                Normal
+                <input
+                  type="radio"
+                  name="duration"
+                  checked={selections.duration === "4 Days - Normal"}
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      duration: "4 Days - Normal",
+                    })
+                  }
+                />
+                4 Days - Normal
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="duration" />3 Days - Urgent (+300 AED)
+                <input
+                  type="radio"
+                  name="duration"
+                  checked={selections.duration === "3 Days - Urgent (+300 AED)"}
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      duration: "3 Days - Urgent (+300 AED)",
+                    })
+                  }
+                />
+                3 Days - Urgent (+300 AED)
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="duration" />2 Days - Super Fast (+500
-                AED)
+                <input
+                  type="radio"
+                  name="duration"
+                  checked={
+                    selections.duration === "2 Days - Super Fast (+500 AED)"
+                  }
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      duration: "2 Days - Super Fast (+500 AED)",
+                    })
+                  }
+                />
+                2 Days - Super Fast (+500 AED)
               </label>
             </div>
           </div>
@@ -221,25 +306,73 @@ const DemoDetailsPage = () => {
             <div className={styles.optionTitle}>Website content writing</div>
             <div className={styles.optionGroup}>
               <label className={styles.radioItem}>
-                <input type="radio" name="content" defaultChecked />
+                <input
+                  type="radio"
+                  name="content"
+                  checked={
+                    selections.content ===
+                    "Buyer provides the full text content"
+                  }
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      content: "Buyer provides the full text content",
+                    })
+                  }
+                />
                 Buyer provides the full text content
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="content" />
+                <input
+                  type="radio"
+                  name="content"
+                  checked={
+                    selections.content ===
+                    "Generic website content writing (+600 AED)"
+                  }
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      content: "Generic website content writing (+600 AED)",
+                    })
+                  }
+                />
                 Generic website content writing (+600 AED)
               </label>
               <label className={styles.radioItem}>
-                <input type="radio" name="content" />
+                <input
+                  type="radio"
+                  name="content"
+                  checked={
+                    selections.content ===
+                    "Fresh 100% Original & Unique (+900 AED)"
+                  }
+                  onChange={() =>
+                    setSelections({
+                      ...selections,
+                      content: "Fresh 100% Original & Unique (+900 AED)",
+                    })
+                  }
+                />
                 Fresh 100% Original & Unique (+900 AED)
               </label>
             </div>
           </div>
 
           <div className={styles.buySection}>
-            <button className={styles.btnBuy}>Get Consultation</button>
+            <button className={styles.btnBuy} onClick={handleConsultation}>
+              Get Consultation
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Consultation Popup */}
+      <QuotePopup
+        isOpen={isPopupOpen}
+        onClose={() => setIsPopupOpen(false)}
+        initialData={popupData}
+      />
     </div>
   );
 };

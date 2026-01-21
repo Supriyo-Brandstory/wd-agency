@@ -46,7 +46,7 @@ export default function EnquiryPage() {
                   "Full Name",
                   "Email Address",
                   "Phone Number",
-                  "Company Name",
+                  "Submit By",
                   "Actions",
                 ].map((header) => (
                   <th
@@ -74,7 +74,33 @@ export default function EnquiryPage() {
                     {enquiry.phoneNumber}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
-                    {enquiry.companyName}
+                    <div className="flex items-center gap-2">
+                      <span
+                        className="max-w-[150px] truncate block"
+                        title={enquiry.submitted_page_url}
+                      >
+                        {enquiry.submitted_page_url}
+                      </span>
+                      {enquiry.submitted_page_url && (
+                        <a
+                          href={enquiry.submitted_page_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:text-blue-600"
+                        >
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                          >
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                          </svg>
+                        </a>
+                      )}
+                    </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm">
                     <div className="flex gap-2">
@@ -139,7 +165,8 @@ export default function EnquiryPage() {
               <strong>Phone:</strong> {selectedEnquiry.phoneNumber}
             </p>
             <p className="text-gray-700">
-              <strong>Company:</strong> {selectedEnquiry.companyName}
+              <strong>Submit By:</strong>{" "}
+              {selectedEnquiry.submitted_page_url || "N/A"}
             </p>
             <hr className="my-4" />
             <p className="text-gray-700 whitespace-pre-line">

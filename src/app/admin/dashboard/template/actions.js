@@ -11,7 +11,7 @@ import { verifyAdmin } from "@/lib/auth";
 async function saveAndExtractZip(file, slug) {
     if (!file || typeof file === "string") return null;
 
-    const uploadDir = path.join(process.cwd(), "public/demos", slug);
+    const uploadDir = path.join(process.cwd(), "public/uploads/demos", slug);
     if (fs.existsSync(uploadDir)) {
         fs.rmSync(uploadDir, { recursive: true, force: true });
     }
@@ -21,7 +21,7 @@ async function saveAndExtractZip(file, slug) {
     const zip = new AdmZip(buffer);
     zip.extractAllTo(uploadDir, true);
 
-    return `/demos/${slug}`;
+    return `/uploads/demos/${slug}`;
 }
 
 // Helper to save uploaded image
@@ -34,7 +34,7 @@ async function saveImage(file, folder = "template") {
         throw new Error("Invalid file type. Only images are allowed.");
     }
 
-    const uploadDir = path.join(process.cwd(), `public/images/${folder}`);
+    const uploadDir = path.join(process.cwd(), `public/uploads/${folder}`);
     if (!fs.existsSync(uploadDir)) {
         fs.mkdirSync(uploadDir, { recursive: true });
     }
@@ -58,7 +58,7 @@ async function saveImage(file, folder = "template") {
     const arrayBuffer = await file.arrayBuffer();
     fs.writeFileSync(filePath, Buffer.from(arrayBuffer));
 
-    return `/images/${folder}/${fileName}`;
+    return `/uploads/${folder}/${fileName}`;
 }
 
 async function getUniqueSlug(baseSlug, excludeId = null) {
@@ -186,7 +186,7 @@ export async function deleteTemplate(id) {
         }
 
         if (template?.slug) {
-            const demoPath = path.join(process.cwd(), "public/demos", template.slug);
+            const demoPath = path.join(process.cwd(), "public/uploads/demos", template.slug);
             if (fs.existsSync(demoPath)) {
                 fs.rmSync(demoPath, { recursive: true, force: true });
             }
@@ -237,5 +237,32 @@ export async function getTemplatesByCategory(categoryId) {
     } catch (error) {
         console.error("Error fetching templates by category:", error);
         throw new Error("Failed to fetch templates by category");
+    }
+}
+export async function getTemplatesPaginated(page = 1, limit = 12, categorySlug = null) {
+    try {
+        const skip = (page - 1) * limit;
+        const where = categorySlug && categorySlug !== 'all' ? { category: { slug: categorySlug } } : {};
+
+        const [items, total] = await Promise.all([
+            db.template.findMany({
+                where,
+                include: { category: true },
+                orderBy: { id: "desc" },
+                skip,
+                take: limit,
+            }),
+            db.template.count({ where }),
+        ]);
+
+        return {
+            items,
+            total,
+            totalPages: Math.ceil(total / limit),
+            currentPage: page,
+        };
+    } catch (error) {
+        console.error("Error fetching paginated templates:", error);
+        throw new Error("Failed to fetch paginated templates");
     }
 }
