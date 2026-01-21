@@ -62,8 +62,8 @@ const DemoTemplate = () => {
           </h2>
         </div>
         <p className="text-center sm-text-start mb-20">
-          We offer low-cost website design solutions in Dubai that 
-          help start-ups go online quickly with modern, <br></br>responsive, and 
+          We offer low-cost website design solutions in Dubai that help
+          start-ups go online quickly with modern, <br></br>responsive, and
           conversion-focused websites.
         </p>
 
@@ -137,7 +137,6 @@ const DemoTemplate = () => {
                     className={styles.image}
                     style={{
                       width: "100%",
-                      height: "auto",
                       objectFit: "cover",
                     }}
                   />

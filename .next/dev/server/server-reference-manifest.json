@@ -1,0 +1,51 @@
+{
+  "node": {
+    "40cba83ad39b4e07b5609977d395d936c8e7640338": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "getSeoDataByPageUrl"
+    },
+    "00a7715b157c4e4f3b6a21adf0751f9deb3c8b3b21": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getTemplates"
+    },
+    "00b64496b8725bd4146044d08faccaa41bdeac50aa": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template-category/actions.js",
+      "exportedName": "getTemplateCategories"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "arPr50xYTGmFqd8J46w4Gj+oyc1sE6VaxEtGaWfQBVk="
+}
