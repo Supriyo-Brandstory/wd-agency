@@ -5,16 +5,14 @@ export default async function LiveDemoPage({ params }) {
   const { slug } = await params;
   const template = await getTemplateBySlug(slug);
 
-  if (!template || !template.demoContent) {
+  if (!template || !template.demoFolder) {
     return notFound();
   }
 
-  // Use a client-side approach or iframe to render raw HTML correctly
-  // iframe srcdoc is the best way to handle full HTML docs from DB
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
       <iframe
-        srcDoc={template.demoContent}
+        src={`${template.demoFolder}/index.html`}
         style={{
           width: "100%",
           height: "100%",

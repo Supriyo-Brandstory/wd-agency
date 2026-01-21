@@ -4,7 +4,25 @@ import { revalidatePath } from "next/cache";
 import fs from "fs";
 import path from "path";
 import db from "../../../../../prisma/db";
+import AdmZip from "adm-zip";
 import { verifyAdmin } from "@/lib/auth";
+
+// Helper to extract uploaded ZIP for demo
+async function saveAndExtractZip(file, slug) {
+    if (!file || typeof file === "string") return null;
+
+    const uploadDir = path.join(process.cwd(), "public/demos", slug);
+    if (fs.existsSync(uploadDir)) {
+        fs.rmSync(uploadDir, { recursive: true, force: true });
+    }
+    fs.mkdirSync(uploadDir, { recursive: true });
+
+    const buffer = Buffer.from(await file.arrayBuffer());
+    const zip = new AdmZip(buffer);
+    zip.extractAllTo(uploadDir, true);
+
+    return `/demos/${slug}`;
+}
 
 // Helper to save uploaded image
 async function saveImage(file, folder = "template") {
@@ -68,14 +86,15 @@ export async function createTemplate(formData) {
         const price = formData.get("price");
         const description = formData.get("description"); // This will be the main description
         const features = formData.get("features"); // String of features
-        const demoContent = formData.get("demoContent"); // Raw HTML/CSS/JS
         const categoryId = parseInt(formData.get("categoryId"));
         const imageFile = formData.get("image");
+        const demoZipFile = formData.get("demoZip");
 
         slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
         const uniqueSlug = await getUniqueSlug(slug);
 
         const imagePath = await saveImage(imageFile, "template");
+        const demoFolder = await saveAndExtractZip(demoZipFile, uniqueSlug);
 
         // livePreviewUrl is auto-generated as /demo-live/[slug]
         const livePreviewUrl = `/demo-live/${uniqueSlug}`;
@@ -88,7 +107,7 @@ export async function createTemplate(formData) {
                 image: imagePath,
                 description,
                 features,
-                demoContent,
+                demoFolder,
                 livePreviewUrl,
                 categoryId,
             },
@@ -112,9 +131,9 @@ export async function updateTemplate(formData) {
         const price = formData.get("price");
         const description = formData.get("description");
         const features = formData.get("features");
-        const demoContent = formData.get("demoContent");
         const categoryId = parseInt(formData.get("categoryId"));
         const imageFile = formData.get("image");
+        const demoZipFile = formData.get("demoZip");
 
         slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
         const uniqueSlug = await getUniqueSlug(slug, id);
@@ -125,7 +144,6 @@ export async function updateTemplate(formData) {
             price,
             description,
             features,
-            demoContent,
             livePreviewUrl: `/demo-live/${uniqueSlug}`,
             categoryId,
         };
@@ -137,6 +155,10 @@ export async function updateTemplate(formData) {
                 if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
             }
             updatedData.image = await saveImage(imageFile, "template");
+        }
+
+        if (demoZipFile && typeof demoZipFile !== "string") {
+            updatedData.demoFolder = await saveAndExtractZip(demoZipFile, uniqueSlug);
         }
 
         const template = await db.template.update({
@@ -161,6 +183,13 @@ export async function deleteTemplate(id) {
         if (template?.image) {
             const imagePath = path.join(process.cwd(), "public", template.image);
             if (fs.existsSync(imagePath)) fs.unlinkSync(imagePath);
+        }
+
+        if (template?.slug) {
+            const demoPath = path.join(process.cwd(), "public/demos", template.slug);
+            if (fs.existsSync(demoPath)) {
+                fs.rmSync(demoPath, { recursive: true, force: true });
+            }
         }
 
         await db.template.delete({ where: { id: parseInt(id) } });

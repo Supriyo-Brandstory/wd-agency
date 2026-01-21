@@ -84,7 +84,7 @@ model Template {
   image           String
   description     String   @db.LongText
   features        String?  @db.Text
-  demoContent     String?  @db.LongText // Raw HTML/CSS/JS for live preview
+  demoFolder      String?  // Path to extracted ZIP files
   livePreviewUrl  String?
   categoryId      Int
   category        TemplateCategory @relation(fields: [categoryId], references: [id])

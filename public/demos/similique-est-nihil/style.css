@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+  color: #222;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+header a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  padding: 100px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contact {
+  padding: 80px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+}

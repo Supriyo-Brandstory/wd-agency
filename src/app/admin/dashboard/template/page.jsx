@@ -22,9 +22,9 @@ export default function TemplatePage() {
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
   const [features, setFeatures] = useState("");
-  const [demoContent, setDemoContent] = useState("");
   const [categoryId, setCategoryId] = useState("");
   const [image, setImage] = useState(null);
+  const [demoZip, setDemoZip] = useState(null);
   const [preview, setPreview] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
@@ -67,9 +67,9 @@ export default function TemplatePage() {
     formData.append("price", price);
     formData.append("description", description);
     formData.append("features", features);
-    formData.append("demoContent", demoContent);
     formData.append("categoryId", categoryId);
     formData.append("image", image);
+    if (demoZip) formData.append("demoZip", demoZip);
 
     await createTemplate(formData);
     const data = await getTemplates();
@@ -87,9 +87,9 @@ export default function TemplatePage() {
     formData.append("price", price);
     formData.append("description", description);
     formData.append("features", features);
-    formData.append("demoContent", demoContent);
     formData.append("categoryId", categoryId);
     if (image) formData.append("image", image);
+    if (demoZip) formData.append("demoZip", demoZip);
 
     await updateTemplate(formData);
     const data = await getTemplates();
@@ -111,10 +111,10 @@ export default function TemplatePage() {
     setPrice("");
     setDescription("");
     setFeatures("");
-    setDemoContent("");
     setCategoryId("");
     setImage(null);
     setPreview(null);
+    setDemoZip(null);
     setSelectedId(null);
     setShowForm(false);
   };
@@ -126,7 +126,6 @@ export default function TemplatePage() {
     setPrice(template.price);
     setDescription(template.description);
     setFeatures(template.features || "");
-    setDemoContent(template.demoContent || "");
     setCategoryId(template.categoryId);
     setPreview(template.image);
     setShowForm(true);
@@ -240,16 +239,20 @@ export default function TemplatePage() {
             />
           </div>
 
-          <div className="mt-6 space-y-2">
-            <label className="text-sm font-semibold text-gray-600">
-              Demo Content (Raw HTML/CSS/JS)
+          <div className="mt-6 border-2 border-dashed border-blue-100 rounded-xl p-6 bg-blue-50/30">
+            <label className="block text-sm font-semibold text-blue-700 mb-2">
+              OR Upload Demo ZIP (Contains index.html, css, js etc.)
             </label>
-            <textarea
-              placeholder="Paste your full HTML, CSS and JS here..."
-              value={demoContent}
-              onChange={(e) => setDemoContent(e.target.value)}
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 h-64 font-mono text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            <input
+              type="file"
+              accept=".zip"
+              onChange={(e) => setDemoZip(e.target.files[0])}
+              className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700 cursor:pointer"
             />
+            <p className="mt-2 text-xs text-blue-500">
+              Uploading a ZIP will overwrite the "Demo Content" text field
+              above.
+            </p>
           </div>
 
           <div className="mt-6 space-y-2">
