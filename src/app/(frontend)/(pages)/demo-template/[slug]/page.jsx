@@ -50,25 +50,27 @@ const DemoDetailsPage = () => {
         </div>
 
         <div className={styles.actionButtons}>
-          <a
-            href={template.livePreviewUrl || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.btnLive}
-          >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
+          {template.demoFolder && (
+            <a
+              href={template.livePreviewUrl || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.btnLive}
             >
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-              <circle cx="12" cy="12" r="3" />
-            </svg>
-            Live Preview
-          </a>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              Live Preview
+            </a>
+          )}
         </div>
 
         <div className={styles.tabsContainer}>

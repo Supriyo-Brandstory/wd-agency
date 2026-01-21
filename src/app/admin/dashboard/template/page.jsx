@@ -26,6 +26,7 @@ export default function TemplatePage() {
   const [image, setImage] = useState(null);
   const [demoZip, setDemoZip] = useState(null);
   const [preview, setPreview] = useState(null);
+  const [currentDemoUrl, setCurrentDemoUrl] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
 
@@ -115,6 +116,7 @@ export default function TemplatePage() {
     setImage(null);
     setPreview(null);
     setDemoZip(null);
+    setCurrentDemoUrl(null);
     setSelectedId(null);
     setShowForm(false);
   };
@@ -128,6 +130,7 @@ export default function TemplatePage() {
     setFeatures(template.features || "");
     setCategoryId(template.categoryId);
     setPreview(template.image);
+    setCurrentDemoUrl(template.demoFolder ? template.livePreviewUrl : null);
     setShowForm(true);
   };
 
@@ -253,6 +256,21 @@ export default function TemplatePage() {
               Uploading a ZIP will overwrite the "Demo Content" text field
               above.
             </p>
+            {currentDemoUrl && (
+              <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200 flex justify-between items-center">
+                <span className="text-xs font-medium text-blue-800">
+                  Current Demo is Active
+                </span>
+                <a
+                  href={currentDemoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-all font-semibold"
+                >
+                  View Current Preview
+                </a>
+              </div>
+            )}
           </div>
 
           <div className="mt-6 space-y-2">
@@ -338,19 +356,31 @@ export default function TemplatePage() {
                       {template.category?.name}
                     </span>
                   </td>
-                  <td className="p-4 text-right space-x-2">
-                    <button
-                      onClick={() => handleEdit(template)}
-                      className="text-yellow-600 hover:text-yellow-700 font-semibold text-sm mr-2"
-                    >
-                      Edit
-                    </button>
-                    <button
-                      onClick={() => handleDelete(template.id)}
-                      className="text-red-600 hover:text-red-700 font-semibold text-sm"
-                    >
-                      Delete
-                    </button>
+                  <td className="p-4 text-right">
+                    <div className="flex justify-end gap-2">
+                      {template.demoFolder && (
+                        <a
+                          href={template.livePreviewUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-xs font-semibold transition-all flex items-center"
+                        >
+                          Preview
+                        </a>
+                      )}
+                      <button
+                        onClick={() => handleEdit(template)}
+                        className="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded text-xs font-semibold transition-all"
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => handleDelete(template.id)}
+                        className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold transition-all"
+                      >
+                        Delete
+                      </button>
+                    </div>
                   </td>
                 </tr>
               ))
