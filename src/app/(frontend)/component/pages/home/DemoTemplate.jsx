@@ -1,129 +1,36 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "@/app/(frontend)/assets/style/home/DemoTemplate.module.css";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-
-// Import images from protfolio
-import healthcareImg from "@/app/(frontend)/assets/images/protfolio/healthcare-1.webp";
-import travelImg from "@/app/(frontend)/assets/images/protfolio/travel-agency-1.webp";
-import realestateImg from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
-import ecomImg from "@/app/(frontend)/assets/images/protfolio/e-com-1.webp";
-import corporateImg from "@/app/(frontend)/assets/images/protfolio/corporate-1.webp";
-import portfolioImg from "@/app/(frontend)/assets/images/protfolio/portfolio-1.webp";
-import techStartupImg from "@/app/(frontend)/assets/images/protfolio/tech-startup-1.webp";
-import dentalImg from "@/app/(frontend)/assets/images/protfolio/dentail-website.webp";
-
-const categories = [
-  "All Items",
-  "Healthcare Websites",
-  "Travel Websites",
-  "Real Estate Websites",
-  "E-commerce Websites",
-  "Corporate Websites",
-  "Portfolio Websites",
-  "Tech Startup Websites",
-  "Accountant Websites",
-  "Automotive Websites",
-  "Construction Websites",
-  "Dental Websites",
-];
-
-const products = [
-  {
-    id: 1,
-    title: "Healthcare Solutions",
-    category: "Hospital & Clinic Management",
-    price: "4,500.00",
-    image: healthcareImg,
-    type: "Healthcare Websites",
-  },
-  {
-    id: 2,
-    title: "Travel Agency Portal",
-    category: "Booking & Reservation System",
-    price: "3,800.00",
-    image: travelImg,
-    type: "Travel Websites",
-  },
-  {
-    id: 3,
-    title: "Real Estate Marketplace",
-    category: "Property Listing & Management",
-    price: "5,500.00",
-    image: realestateImg,
-    type: "Real Estate Websites",
-  },
-  {
-    id: 4,
-    title: "E-commerce Storefront",
-    category: "Online Shop & Payment Gateway",
-    price: "6,000.00",
-    image: ecomImg,
-    type: "E-commerce Websites",
-  },
-  {
-    id: 5,
-    title: "Corporate Identity",
-    category: "Professional Business Presence",
-    price: "3,500.00",
-    image: corporateImg,
-    type: "Corporate Websites",
-  },
-  {
-    id: 6,
-    title: "Creative Portfolio",
-    category: "Personal Brand & Showcase",
-    price: "2,500.00",
-    image: portfolioImg,
-    type: "Portfolio Websites",
-  },
-  {
-    id: 7,
-    title: "SaaS Startup App",
-    category: "Tech Innovation & Landing Page",
-    price: "4,200.00",
-    image: techStartupImg,
-    type: "Tech Startup Websites",
-  },
-  {
-    id: 8,
-    title: "Modern Accountant Site",
-    category: "Financial & Tax Services",
-    price: "3,200.00",
-    image: corporateImg,
-    type: "Accountant Websites",
-  },
-  {
-    id: 9,
-    title: "Auto Service Center",
-    category: "Automotive & Parts Catalog",
-    price: "3,900.00",
-    image: healthcareImg,
-    type: "Automotive Websites",
-  },
-  {
-    id: 10,
-    title: "Construction Hub",
-    category: "Civil & Interior Portfolios",
-    price: "4,800.00",
-    image: techStartupImg,
-    type: "Construction Websites",
-  },
-  {
-    id: 11,
-    title: "Dental Clinic Web",
-    category: "Dentistry & Patient Care",
-    price: "4,100.00",
-    image: dentalImg,
-    type: "Dental Websites",
-  },
-];
+import { getTemplates } from "@/app/admin/dashboard/template/actions";
+import { getTemplateCategories } from "@/app/admin/dashboard/template-category/actions";
 
 const DemoTemplate = () => {
-  const [activeCategory, setActiveCategory] = useState("All Items");
+  const [activeCategory, setActiveCategory] = useState("All Templates");
   const [showScrollHint, setShowScrollHint] = useState(true);
+  const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState(["All Templates"]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [tData, cData] = await Promise.all([
+          getTemplates(),
+          getTemplateCategories(),
+        ]);
+        setProducts(tData);
+        setCategories(["All Templates", ...cData.map((c) => c.name)]);
+      } catch (error) {
+        console.error("Error fetching demo templates:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
 
   const handleScroll = (e) => {
     if (e.target.scrollLeft > 10) {
@@ -132,16 +39,18 @@ const DemoTemplate = () => {
   };
 
   const filteredProducts =
-    activeCategory === "All Items"
+    activeCategory === "All Templates"
       ? products
-      : products.filter((p) => p.type === activeCategory);
+      : products.filter((p) => p.category?.name === activeCategory);
+
+  if (loading) return null;
 
   return (
     <section className={styles.budgetSection}>
       <div className="frame-1200">
         <div className={styles.heading}>
           <h2 className="text-center sm-text-start">
-            Explore Our Website Packages
+            Explore Our Website Templates
           </h2>
         </div>
         <p className="text-center sm-text-start mb-20">
@@ -214,13 +123,21 @@ const DemoTemplate = () => {
                 className={styles.card}
               >
                 <div className={styles.imageContainer}>
-                  <Image
+                  <img
                     src={product.image}
                     alt={product.title}
                     className={styles.image}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
                   />
                   <div className={styles.overlay}>
-                    <Link href="/demo-template" className={styles.detailsBtn}>
+                    <Link
+                      href={`/demo-template/${product.slug}`}
+                      className={styles.detailsBtn}
+                    >
                       <span className={styles.infoIcon}>i</span>
                       Details
                     </Link>
@@ -228,7 +145,9 @@ const DemoTemplate = () => {
                 </div>
                 <div className={styles.cardContent}>
                   <h3 className={styles.cardTitle}>{product.title}</h3>
-                  <p className={styles.cardCategory}>{product.category}</p>
+                  <p className={styles.cardCategory}>
+                    {product.category?.name}
+                  </p>
                   <div className={styles.priceInfo}>
                     <span className={styles.fromText}>
                       From: {product.price} AED

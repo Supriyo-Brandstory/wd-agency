@@ -120,6 +120,41 @@
     padding: 20px 0;
     line-height: 1.6;
     color: #ffffff;
+
+    p {
+        color: #ffffff;
+    }
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--color-pink);
+}
+
+.mainDescription {
+    margin-bottom: 30px;
+}
+
+.sectionHeading {
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--color-pink);
+}
+
+.noteText {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.faqItem {
+    margin-bottom: 20px;
+}
+
+.faqQuestion {
+    font-weight: 600;
 }
 
 .featuresList {

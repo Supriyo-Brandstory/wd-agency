@@ -17,6 +17,12 @@ const Sidebar = () => {
       icon: "📚",
     },
     { href: "/admin/dashboard/blog", label: "Blogs", icon: "📝" },
+    {
+      href: "/admin/dashboard/template-category",
+      label: "Template Categories",
+      icon: "🏢",
+    },
+    { href: "/admin/dashboard/template", label: "Templates", icon: "💎" },
   ];
 
   const handleLogout = async () => {
