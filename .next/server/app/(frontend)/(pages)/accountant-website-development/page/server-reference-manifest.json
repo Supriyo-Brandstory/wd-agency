@@ -1,0 +1,35 @@
+{
+  "node": {
+    "40d11c0b590c18a9c7c4edad86a2c7f779e11849fd": {
+      "workers": {
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": 42848,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/accountant-website-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "403d2098057599e231211507063a60b7e9a7e34009": {
+      "workers": {
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": 42848,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/accountant-website-development/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

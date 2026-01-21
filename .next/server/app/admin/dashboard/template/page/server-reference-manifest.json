@@ -1,0 +1,80 @@
+{
+  "node": {
+    "402d45373cddc9ecdb9a7f992d07b3296871dc60ac": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "403c43262ce1adde5f191a9e78bff9d2a08181de55": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "exportedName": "updateTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "4014143266ca19a25c6e3dbc836162b43e9978fe2f": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "exportedName": "deleteTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "00eebcf9d2e79b9a2566bda7544ca6165e8d02b828": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "exportedName": "getTemplates",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "00d8d79bb051e522f5bce4a76813c24bd79b2c9b8c": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

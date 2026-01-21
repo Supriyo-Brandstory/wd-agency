@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40d11c0b590c18a9c7c4edad86a2c7f779e11849fd": {
+      "workers": {
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": {
+          "moduleId": 33204,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

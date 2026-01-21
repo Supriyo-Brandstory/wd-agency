@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(frontend)/layout,_N_T_/(frontend)/(pages)/layout,_N_T_/(frontend)/(pages)/author/layout,_N_T_/(frontend)/(pages)/author/madhavan-a/layout,_N_T_/(frontend)/(pages)/author/madhavan-a/page,_N_T_/author/madhavan-a"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/author/madhavan-a/__PAGE__",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/author/madhavan-a",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/author",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ",
+    "/!KGZyb250ZW5kKQ",
+    "/_index",
+    "/_head"
+  ]
+}

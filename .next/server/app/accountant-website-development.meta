@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(frontend)/layout,_N_T_/(frontend)/(pages)/layout,_N_T_/(frontend)/(pages)/accountant-website-development/layout,_N_T_/(frontend)/(pages)/accountant-website-development/page,_N_T_/accountant-website-development"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/accountant-website-development/__PAGE__",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/accountant-website-development",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ",
+    "/!KGZyb250ZW5kKQ",
+    "/_index",
+    "/_head"
+  ]
+}
