@@ -16,7 +16,7 @@ app.prepare().then(() => {
     const { pathname } = parsedUrl;
 
     // Check if the request is for a file in the public folder
-    if (pathname.startsWith('/images/')) {
+    if (pathname.startsWith('/images/') || pathname.startsWith('/uploads/')) {
       const publicDir = path.join(__dirname, 'public');
       const filePath = path.join(publicDir, pathname);
 
