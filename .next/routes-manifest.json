@@ -28,6 +28,22 @@
         "nxtPslug": "nxtPslug"
       },
       "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/demo-live/[slug]",
+      "regex": "^/demo\\-live/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/demo\\-live/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/demo-template/[slug]",
+      "regex": "^/demo\\-template/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/demo\\-template/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -102,6 +118,18 @@
       "regex": "^/admin/dashboard/sitemap(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/sitemap(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/template",
+      "regex": "^/admin/dashboard/template(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/template(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/template-category",
+      "regex": "^/admin/dashboard/template\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/template\\-category(?:/)?$"
     },
     {
       "page": "/api/admin/login",

@@ -3,7 +3,7 @@
     "40010417d9c67bc892564116cec6a4afc4246f2feb": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
-          "moduleId": 89751,
+          "moduleId": 59481,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -14,6 +14,36 @@
       },
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "00d1505289373081cabe92cca003c9e3010ddd4004": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 59481,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
+      },
+      "exportedName": "getTemplates",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "0027bb0b1414fc246e38e9b7aa9f0e923f9b5a9129": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 59481,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
     }
   },
   "edge": {}

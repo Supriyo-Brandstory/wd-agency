@@ -16,6 +16,7 @@
   "/(frontend)/(pages)/contact-us/page": "/contact-us",
   "/(frontend)/(pages)/corporate-web-development/page": "/corporate-web-development",
   "/(frontend)/(pages)/cost-calculator/page": "/cost-calculator",
+  "/(frontend)/(pages)/demo-template/[slug]/page": "/demo-template/[slug]",
   "/(frontend)/(pages)/e-commerce-web-development/page": "/e-commerce-web-development",
   "/(frontend)/(pages)/expert-dentist-website-development/page": "/expert-dentist-website-development",
   "/(frontend)/(pages)/healthcare-web-development/page": "/healthcare-web-development",
@@ -62,8 +63,11 @@
   "/admin/dashboard/page": "/admin/dashboard",
   "/admin/dashboard/seo/page": "/admin/dashboard/seo",
   "/admin/dashboard/sitemap/page": "/admin/dashboard/sitemap",
+  "/admin/dashboard/template-category/page": "/admin/dashboard/template-category",
+  "/admin/dashboard/template/page": "/admin/dashboard/template",
   "/admin/page": "/admin",
   "/api/admin/login/route": "/api/admin/login",
   "/api/admin/logout/route": "/api/admin/logout",
+  "/demo-live/[slug]/page": "/demo-live/[slug]",
   "/sitemap.xml/route": "/sitemap.xml"
 }

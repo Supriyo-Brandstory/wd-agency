@@ -16,6 +16,7 @@
   "/(frontend)/(pages)/contact-us/page": "app/(frontend)/(pages)/contact-us/page.js",
   "/(frontend)/(pages)/corporate-web-development/page": "app/(frontend)/(pages)/corporate-web-development/page.js",
   "/(frontend)/(pages)/cost-calculator/page": "app/(frontend)/(pages)/cost-calculator/page.js",
+  "/(frontend)/(pages)/demo-template/[slug]/page": "app/(frontend)/(pages)/demo-template/[slug]/page.js",
   "/(frontend)/(pages)/e-commerce-web-development/page": "app/(frontend)/(pages)/e-commerce-web-development/page.js",
   "/(frontend)/(pages)/expert-dentist-website-development/page": "app/(frontend)/(pages)/expert-dentist-website-development/page.js",
   "/(frontend)/(pages)/healthcare-web-development/page": "app/(frontend)/(pages)/healthcare-web-development/page.js",
@@ -62,8 +63,11 @@
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
   "/admin/dashboard/seo/page": "app/admin/dashboard/seo/page.js",
   "/admin/dashboard/sitemap/page": "app/admin/dashboard/sitemap/page.js",
+  "/admin/dashboard/template-category/page": "app/admin/dashboard/template-category/page.js",
+  "/admin/dashboard/template/page": "app/admin/dashboard/template/page.js",
   "/admin/page": "app/admin/page.js",
   "/api/admin/login/route": "app/api/admin/login/route.js",
   "/api/admin/logout/route": "app/api/admin/logout/route.js",
+  "/demo-live/[slug]/page": "app/demo-live/[slug]/page.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }
