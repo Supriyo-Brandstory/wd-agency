@@ -4,7 +4,7 @@
 type AppRoutes = never
 type AppRouteHandlerRoutes = "/api/admin/login" | "/api/admin/logout" | "/sitemap.xml"
 type PageRoutes = never
-type LayoutRoutes = "/" | "/admin" | "/admin/dashboard"
+type LayoutRoutes = "/" | "/admin" | "/admin/dashboard" | "/demo-live/[slug]"
 type RedirectRoutes = never
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes | AppRouteHandlerRoutes
@@ -16,6 +16,7 @@ interface ParamMap {
   "/admin/dashboard": {}
   "/api/admin/login": {}
   "/api/admin/logout": {}
+  "/demo-live/[slug]": { "slug": string; }
   "/sitemap.xml": {}
 }
 
@@ -26,6 +27,7 @@ interface LayoutSlotMap {
   "/": never
   "/admin": never
   "/admin/dashboard": never
+  "/demo-live/[slug]": never
 }
 
 
