@@ -7,7 +7,7 @@ import Link from "next/link";
 import { getTemplates } from "@/app/admin/dashboard/template/actions";
 import { getTemplateCategories } from "@/app/admin/dashboard/template-category/actions";
 
-const DemoTemplate = ({ activetaburl }) => {
+const DemoTemplate = ({ title, description, activetaburl }) => {
   const [activeCategory, setActiveCategory] = useState({
     name: "All Templates",
     slug: "all",
@@ -82,15 +82,23 @@ const DemoTemplate = ({ activetaburl }) => {
     <section className={styles.budgetSection}>
       <div className="frame-1200">
         <div className={styles.heading}>
-          <h2 className="text-center sm-text-start">
-            Affordable Website Design in Dubai <br></br>Explore Templates
-          </h2>
+          <h2
+            className="text-center sm-text-start"
+            dangerouslySetInnerHTML={{
+              __html: title
+                ? title
+                : "Affordable Website Design <br/> in Dubai Explore Templates",
+            }}
+          ></h2>
         </div>
-        <p className="text-center sm-text-start mb-20">
-          We offer low-cost website design solutions in Dubai that help
-          start-ups go online quickly with modern, <br></br>responsive, and
-          conversion-focused websites.
-        </p>
+        <p
+          className="text-center sm-text-start mb-30"
+          dangerouslySetInnerHTML={{
+            __html: description
+              ? description
+              : "We offer low-cost website design solutions in Dubai that help <br>start-ups go online quickly with modern, responsive, and conversion-focused websites.",
+          }}
+        ></p>
 
         <div className={styles.filterWrapper}>
           <AnimatePresence>
