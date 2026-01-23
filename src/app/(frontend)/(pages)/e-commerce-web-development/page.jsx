@@ -20,7 +20,7 @@ import imagewhydevelopment from "@/app/(frontend)/assets/images/e-commerce-web-d
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import Team from "../../component/pages/about/Team";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+
 import LocationService from "../../component/pages/common/LocationService";
 import CommonTechnologyStack from "../../component/pages/common/CommonTechnologyStack";
 import react from "@/app/(frontend)/assets/images/reacticon.svg";
@@ -95,7 +95,7 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Ecommerce Web Development Company in UAE - Website Development Agency"
       />
-      <DemoTemplate activetaburl={"ecommerce"} />
+      <DemoTemplate title="eCommerce Website Designs- Explore Templates" description="Affordable eCommerce website design in Dubai, starting at AED 2,500. Launch your online <br>store quickly with modern, responsive designs. Get fast delivery today."activetaburl={"ecommerce"} />
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}

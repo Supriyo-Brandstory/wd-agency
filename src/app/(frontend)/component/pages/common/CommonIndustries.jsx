@@ -35,7 +35,7 @@ const CommonIndustries = ({
       alt: "Real Estate & Property Web Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/real-estate-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates/real-estate",
     },
     {
       title: "Hospitality & Travel",
@@ -44,7 +44,7 @@ const CommonIndustries = ({
       alt: "Hospitality & Travel Web Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/travel-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates",
     },
     {
       title: "Healthcare Websites",
@@ -53,7 +53,7 @@ const CommonIndustries = ({
       alt: "Healthcare Website Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/healthcare-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates/healthcare",
     },
     {
       title: "Portfolio Websites",
@@ -62,7 +62,7 @@ const CommonIndustries = ({
       alt: "Portfolio Website Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/portfolio-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates",
     },
     {
       title: "Retail & eCommerce",
@@ -71,7 +71,7 @@ const CommonIndustries = ({
       alt: "Retail & eCommerce Website Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/e-commerce-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates/ecommerce",
     },
     {
       title: "Corporate Websites",
@@ -80,7 +80,7 @@ const CommonIndustries = ({
       alt: "Corporate Website Design Services in Dubai, UAE- Website Development Agency",
       btnname: "Know More",
       link: "/corporate-web-development",
-      viewlink: "#",
+      viewlink: "/website-templates",
     },
   ],
   btnname = null,
@@ -129,7 +129,7 @@ const CommonIndustries = ({
                   href={service.viewlink ? service.viewlink : "#"}
                   className={styles.viewDesignBtn}
                 >
-                  <span className={styles.infoIcon}>i</span> View Design
+                  <span className={styles.infoIcon}>i</span> View Designs
                 </Link>
               </div>
             </div>

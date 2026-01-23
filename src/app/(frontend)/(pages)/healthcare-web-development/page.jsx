@@ -35,15 +35,8 @@ import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testim
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Stats from "../../component/pages/about/Stats";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/healthcare-doctor-website.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/healthcare-2.jpg";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/healthcare-3.webp";
-import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/clinic-website.webp";
-import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/hospital-website.webp";
-import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/dentail-website.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+
 import LocationService from "../../component/pages/common/LocationService";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
@@ -97,7 +90,7 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Healthcare Website Development Company in Dubai - Website Development Agency"
       />
-      <DemoTemplate activetaburl={"healthcare"} />
+      <DemoTemplate title="Healthcare Website Designs- Explore Templates" description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today." activetaburl={"healthcare"} />
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
@@ -113,48 +106,7 @@ const page = () => {
                             `}
       />
 
-      <RealEstatePortfolio
-        heading="Healthcare Website Design Templates"
-        description="Explore our healthcare website design templates, featuring secure patient portals, medical practice sites, and hospital platforms designed for trust and accessibility."
-        portfolioData={[
-          {
-            subtitle: "Multi-Specialty Clinic Website",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Hospital Services",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "E-commerce Medical Supplies",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Clinic Website Design",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Hospital Website",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Dental Clinic Website",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-        ]}
-      />
+      
       <CommonIndustries
         heding={"Our Healthcare Website Development Services"}
         subheding="At Website Development Agency, we don’t just build websites, we develop powerful healthcare platforms that enhance patient experiences, streamline operations, and search engine friendly. Our specialized services include:"

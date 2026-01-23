@@ -32,14 +32,6 @@ import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testim
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/realestate-2.webp";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/realestate-3.webp";
-import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/real-estate-6.webp";
-import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/realestate-5.webp";
-import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/realestate-6.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
 import CommonTechnologyStack from "../../component/pages/common/CommonTechnologyStack";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
@@ -100,7 +92,7 @@ const page = () => {
           "Real Estate Website Development Company in UAE - Website Development Agency"
         }
       />
-      <DemoTemplate activetaburl={"real-estate"} />
+      <DemoTemplate title="Real Estate Website Designs- Explore Templates" description="Affordable real estate website design in Dubai, starting at AED 1,500. Launch your property website quickly <br>with modern, responsive designs. Get fast delivery today." activetaburl={"real-estate"} />
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         alt={"Elevate Your Property Business with a Website That Sells"}
@@ -251,49 +243,7 @@ const page = () => {
 
       <DevelopmentServices />
 
-      <RealEstatePortfolio
-        heading="Real Estate Website Templates Based Solutions"
-        description="Browse a curated selection of premium real estate website templates designed for property businesses. Each template includes essential features like property listings, search filters, inquiry forms, and responsive layouts- helping you launch a professional real estate website in Dubai quickly and cost-effectively."
-        portfolioData={[
-          {
-            subtitle: "Real Estate Website Design",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-          {
-            subtitle: "Real Estate Landing Page",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-          {
-            subtitle: "Real Estate Agency Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-          {
-            subtitle: "Real Estate Broker Website",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-          {
-            subtitle: "Luxury Real Estate Website",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-          {
-            subtitle: "Property Listing Website",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 3,000",
-          },
-        ]}
-      />
-
+      
       <CommonWhyWebsiteDevelopment
         heding={"Designed for Every Role in the UAE Real Estate Market"}
         subheding={
@@ -324,7 +274,7 @@ const page = () => {
       />
 
       <CommonProtfolio />
-      <Team />
+      
 
       <CommonClientTestimonials
         testimonials={[
@@ -348,6 +298,8 @@ const page = () => {
           },
         ]}
       />
+
+      <Team />
       <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
