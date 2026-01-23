@@ -1,0 +1,207 @@
+[00:00:00.939] Server  LOG     ✓ Ready in 735ms
+[00:00:05.874] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.017] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/link-buil..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="__next_bui...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <DefaultLayout>
+                        <html
+-                         lang="en"
+                        >
+                          <body
+-                           __processed_b5cc5b3a-f273-406c-a858-77e3c6031c63__="true"
+-                           className="antialiased"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <ClientPageRoot Component={function NotFound} serverProvidedParams={{...}}>
+                                <NotFound params={Promise} searchParams={Promise}>
+                                  <html lang="en">
+                                    <body
+                                      className="antialiased"
+-                                     __processed_b5cc5b3a-f273-406c-a858-77e3c6031c63__="true"
+-                                     bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2..."
+                                    >
+                  ...
+
+[00:00:16.917] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <html> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="__next_bui...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <DefaultLayout>
+                        <html>
+>                         <body>
+                            ...
+                              <SegmentViewNode type="layout" pagePath="(frontend)...">
+                                <SegmentTrieNode>
+                                <link>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+>                                 <html lang="en">
+                  ...
+
+[00:00:16.917] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <html>
+[00:04:17.363] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:29.244] Server  LOG     ✓ Compiled in 115ms
+[00:05:26.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:26.221] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="demo-live/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/demo-live..." tree={[...]} params={{slug:"proi..."}} cacheNode={{...}} ...>
+                      <SegmentViewNode type="layout" pagePath="demo-live/...">
+                        <SegmentTrieNode>
+                        <LiveDemoLayout>
+                          <html lang="en">
+                            <body
+                              style={{margin:0,padding:0,overflow:"hidden"}}
+-                             __processed_c51f729b-8763-4fea-b40f-1c946867d1d0__="true"
+-                             bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaW..."
+                            >
+                    ...
+          ...
+
+[00:07:34.805] Server  LOG     ✓ Compiled in 207ms
+[00:10:52.576] Server  LOG     ✓ Compiled in 77ms
+[00:11:14.181] Server  LOG     ✓ Compiled in 139ms
+[00:13:21.717] Server  LOG     ✓ Compiled in 62ms
+[00:13:26.979] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/demo-temp..." notFound={<SegmentViewNode>} forbidden={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/demo-temp..." tree={[...]} params={{}} cacheNode={{...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="layout" pagePath="(frontend)...">
+                    <SegmentTrieNode>
+                    <link>
+                    <script>
+                    <script>
+                    <script>
+                    <RootLayout>
+                      <html lang="en">
+                        <head>
+                        <body className="antialiased" suppressHydrationWarning={true}>
+                          <noscript>
+                          <Header>
+                          <main>
+                          <Footer>
+                            <footer className={" footer-..."}>
+                              <div className="frame-1200">
+                                <div className="footer-mod...">
+                                  <div
+                                    className="footer-module__Z-5RLW__linksWrapper"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="footer-module__Z-5RLW__about"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="footer-module__Z-5RLW__linksWrapper2"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="footer-module__Z-5RLW__contact mt-20"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="footer-module__Z-5RLW__cities"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                    <div
+                                      className="footer-module__Z-5RLW__legal"
+-                                     bis_skin_checked="1"
+                                    >
+                                <div
+                                  className="footer-module__Z-5RLW__bottom"
+-                                 bis_skin_checked="1"
+                                >
+                          ...
+                ...
+
+[00:14:31.274] Server  LOG     ✓ Compiled in 89ms
+[00:15:12.074] Server  LOG     ✓ Compiled in 40ms

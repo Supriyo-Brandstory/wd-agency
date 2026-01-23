@@ -123,7 +123,7 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
-          "moduleId": 57566,
+          "moduleId": 65911,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -195,7 +195,7 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
         "app/(frontend)/(pages)/real-estate-web-development/page": {
-          "moduleId": 43795,
+          "moduleId": 42113,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -429,13 +429,13 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
-          "moduleId": 57566,
+          "moduleId": 65911,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
         "app/(frontend)/(pages)/real-estate-web-development/page": {
-          "moduleId": 43795,
+          "moduleId": 42113,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -472,13 +472,13 @@
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
-          "moduleId": 57566,
+          "moduleId": 65911,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
         "app/(frontend)/(pages)/real-estate-web-development/page": {
-          "moduleId": 43795,
+          "moduleId": 42113,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -577,20 +577,8 @@
           "exportedName": "createEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"
         },
-        "app/(frontend)/(pages)/healthcare-web-development/page": {
-          "moduleId": 57566,
-          "async": false,
-          "exportedName": "createEnquiry",
-          "filename": "src/app/admin/dashboard/enquiry/action.js"
-        },
         "app/(frontend)/(pages)/portfolio-web-development/page": {
           "moduleId": 70574,
-          "async": false,
-          "exportedName": "createEnquiry",
-          "filename": "src/app/admin/dashboard/enquiry/action.js"
-        },
-        "app/(frontend)/(pages)/real-estate-web-development/page": {
-          "moduleId": 43795,
           "async": false,
           "exportedName": "createEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"
@@ -618,9 +606,7 @@
         "app/(frontend)/(pages)/cost-calculator/page": "action-browser",
         "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser",
         "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
-        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
         "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser",
-        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
         "app/(frontend)/(pages)/technology-web-development/page": "action-browser",
         "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
       },

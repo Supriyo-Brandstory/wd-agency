@@ -1,0 +1,80 @@
+/* [project]/src/app/(frontend)/assets/style/home/webExperiences.module.css [app-client] (css) */
+.webExperiences-module__iNU_4G__topSection, .webExperiences-module__iNU_4G__bottomSection {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.webExperiences-module__iNU_4G__textContent {
+  flex: 0 0 65%;
+}
+
+.webExperiences-module__iNU_4G__imageContent {
+  flex: 0 0 35%;
+}
+
+.webExperiences-module__iNU_4G__imageContent img {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 480px;
+}
+
+.webExperiences-module__iNU_4G__bottomimageContent {
+  flex: 0 0 40%;
+}
+
+.webExperiences-module__iNU_4G__bottomTextContent {
+  flex: 0 0 60%;
+}
+
+.webExperiences-module__iNU_4G__bottomSection img {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.webExperiences-module__iNU_4G__middleSection {
+  background: #270d2c;
+  border-radius: 20px;
+  align-items: end;
+  gap: 40px;
+  display: flex;
+}
+
+.webExperiences-module__iNU_4G__middleSection img {
+  object-fit: contain;
+  width: 64%;
+}
+
+.webExperiences-module__iNU_4G__middleSectionImg, .webExperiences-module__iNU_4G__middleSectionImg_2 {
+  flex: 40%;
+}
+
+.webExperiences-module__iNU_4G__middleSectionText {
+  flex: 60%;
+}
+
+.webExperiences-module__iNU_4G__middleSectionImg_2 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .webExperiences-module__iNU_4G__topSection, .webExperiences-module__iNU_4G__bottomSection {
+    flex-direction: column;
+  }
+
+  .webExperiences-module__iNU_4G__textContent, .webExperiences-module__iNU_4G__imageContent {
+    flex: 0 0 100%;
+  }
+
+  .webExperiences-module__iNU_4G__middleSection {
+    flex-direction: column;
+  }
+
+  .webExperiences-module__iNU_4G__middleSection img {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_home_webExperiences_module_css_bad6b30c._.single.css.map*/

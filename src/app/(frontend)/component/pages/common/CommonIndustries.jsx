@@ -124,14 +124,16 @@ const CommonIndustries = ({
                 alt={service.title}
                 className={styles.image}
               />
-              <div className={styles.imageOverlay}>
-                <Link
-                  href={service.viewlink ? service.viewlink : "#"}
-                  className={styles.viewDesignBtn}
-                >
-                  <span className={styles.infoIcon}>i</span> View Designs
-                </Link>
-              </div>
+              {service.viewlink && service.viewlink !== "#" && (
+                <div className={styles.imageOverlay}>
+                  <Link
+                    href={service.viewlink}
+                    className={styles.viewDesignBtn}
+                  >
+                    <span className={styles.infoIcon}>i</span> View Designs
+                  </Link>
+                </div>
+              )}
             </div>
             <div className={styles.content}>
               <h3 className="mb-20">{service.title}</h3>

@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/travel-web-development/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__eced4d04._.js")
-R.c("server/chunks/ssr/src_app_(frontend)_6588d4a4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__95ea015f._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_efc79d26._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b9a0874._.js")
 R.c("server/chunks/ssr/_b0bf7c2b._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_fd91a3cb._.js")

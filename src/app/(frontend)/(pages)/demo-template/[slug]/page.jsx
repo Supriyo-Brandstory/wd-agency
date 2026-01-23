@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "@/app/(frontend)/assets/style/demo/DemoDetails.module.css";
 import { getTemplateBySlug } from "@/app/admin/dashboard/template/actions";
 import { useParams, notFound } from "next/navigation";
@@ -79,6 +79,11 @@ const DemoDetailsPage = () => {
   const [loading, setLoading] = useState(true);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
+  const sidebarRef = useRef(null);
+
+  const scrollToSidebar = () => {
+    sidebarRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const toggleFaq = (index) => {
     setActiveFaqIndex(activeFaqIndex === index ? null : index);
@@ -164,6 +169,19 @@ const DemoDetailsPage = () => {
               Live Preview
             </a>
           )}
+          <button className={styles.btnEstimate} onClick={scrollToSidebar}>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path d="M12 1v22M17 5l-5-4-5 4M17 19l-5 4-5-4" />
+            </svg>
+            Get Estimate
+          </button>
         </div>
 
         <div className={styles.tabsContainer}>
@@ -248,7 +266,7 @@ const DemoDetailsPage = () => {
 
       {/* Right Column */}
       <div className={styles.rightColumn}>
-        <div className={styles.sidebarCard}>
+        <div className={styles.sidebarCard} ref={sidebarRef}>
           <div className={styles.productTitle}>{template.title}</div>
 
           <div className={styles.priceWrapper}>
