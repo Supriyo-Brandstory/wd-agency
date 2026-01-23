@@ -37,7 +37,7 @@ const page = () => {
       <CommonProtfolio />
       <TechnologyStack />
       <DevelopmentServices />
-      <DemoTemplate />
+      <DemoTemplate activetaburl={""} />
       <DevelopmentProcess />
       <CommonCostBreakdown
         heading="Website Design Dubai- Cost Breakdown"

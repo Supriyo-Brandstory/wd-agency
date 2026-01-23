@@ -6,7 +6,7 @@ import {
   createTemplate,
   updateTemplate,
   deleteTemplate,
-  getTemplates,
+  getAllTemplatesAdmin,
 } from "./actions";
 import { getTemplateCategories } from "../template-category/actions";
 
@@ -29,11 +29,13 @@ export default function TemplatePage() {
   const [currentDemoUrl, setCurrentDemoUrl] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [showInAllTemplates, setShowInAllTemplates] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
       const [tData, cData] = await Promise.all([
-        getTemplates(),
+        getAllTemplatesAdmin(),
         getTemplateCategories(),
       ]);
       setTemplates(tData);
@@ -69,11 +71,13 @@ export default function TemplatePage() {
     formData.append("description", description);
     formData.append("features", features);
     formData.append("categoryId", categoryId);
+    formData.append("isVisible", isVisible);
+    formData.append("showInAllTemplates", showInAllTemplates);
     formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
     await createTemplate(formData);
-    const data = await getTemplates();
+    const data = await getAllTemplatesAdmin();
     setTemplates(data);
     resetForm();
   };
@@ -89,11 +93,13 @@ export default function TemplatePage() {
     formData.append("description", description);
     formData.append("features", features);
     formData.append("categoryId", categoryId);
+    formData.append("isVisible", isVisible);
+    formData.append("showInAllTemplates", showInAllTemplates);
     if (image) formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
     await updateTemplate(formData);
-    const data = await getTemplates();
+    const data = await getAllTemplatesAdmin();
     setTemplates(data);
     resetForm();
   };
@@ -101,7 +107,7 @@ export default function TemplatePage() {
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this template?")) {
       await deleteTemplate(id);
-      const data = await getTemplates();
+      const data = await getAllTemplatesAdmin();
       setTemplates(data);
     }
   };
@@ -113,6 +119,8 @@ export default function TemplatePage() {
     setDescription("");
     setFeatures("");
     setCategoryId("");
+    setIsVisible(true);
+    setShowInAllTemplates(false);
     setImage(null);
     setPreview(null);
     setDemoZip(null);
@@ -129,6 +137,8 @@ export default function TemplatePage() {
     setDescription(template.description);
     setFeatures(template.features || "");
     setCategoryId(template.categoryId);
+    setIsVisible(template.isVisible ?? true);
+    setShowInAllTemplates(template.showInAllTemplates ?? false);
     setPreview(template.image);
     setCurrentDemoUrl(template.demoFolder ? template.livePreviewUrl : null);
     setShowForm(true);
@@ -205,6 +215,37 @@ export default function TemplatePage() {
                   </option>
                 ))}
               </select>
+            </div>
+            <div className="space-y-2">
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isVisible}
+                  onChange={(e) => setIsVisible(e.target.checked)}
+                  className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                />
+                <span className="text-sm font-semibold text-gray-600">
+                  Visible on Website
+                </span>
+              </label>
+              <p className="text-xs text-gray-500 ml-6">
+                Uncheck to hide this template from the public website
+              </p>
+              <label className="flex items-center gap-2 cursor-pointer mt-3">
+                <input
+                  type="checkbox"
+                  checked={showInAllTemplates}
+                  onChange={(e) => setShowInAllTemplates(e.target.checked)}
+                  className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                />
+                <span className="text-sm font-semibold text-gray-600">
+                  Show in "All Templates" Section
+                </span>
+              </label>
+              <p className="text-xs text-gray-500 ml-6">
+                Check to display this template in the homepage "All Templates"
+                section
+              </p>
             </div>
           </div>
 
@@ -329,6 +370,8 @@ export default function TemplatePage() {
               <th className="p-4">Title</th>
               <th className="p-4">Price</th>
               <th className="p-4">Category</th>
+              <th className="p-4">Visible</th>
+              <th className="p-4">Show in All</th>
               <th className="p-4 text-right">Actions</th>
             </tr>
           </thead>
@@ -354,6 +397,28 @@ export default function TemplatePage() {
                   <td className="p-4">
                     <span className="px-2 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full uppercase">
                       {template.category?.name}
+                    </span>
+                  </td>
+                  <td className="p-4">
+                    <span
+                      className={`px-2 py-1 text-xs font-bold rounded-full uppercase ${
+                        template.isVisible
+                          ? "bg-green-50 text-green-600"
+                          : "bg-red-50 text-red-600"
+                      }`}
+                    >
+                      {template.isVisible ? "✓ Yes" : "✗ No"}
+                    </span>
+                  </td>
+                  <td className="p-4">
+                    <span
+                      className={`px-2 py-1 text-xs font-bold rounded-full uppercase ${
+                        template.showInAllTemplates
+                          ? "bg-purple-50 text-purple-600"
+                          : "bg-gray-50 text-gray-400"
+                      }`}
+                    >
+                      {template.showInAllTemplates ? "✓ Yes" : "✗ No"}
                     </span>
                   </td>
                   <td className="p-4 text-right">
@@ -387,7 +452,7 @@ export default function TemplatePage() {
             ) : (
               <tr>
                 <td
-                  colSpan="6"
+                  colSpan="8"
                   className="p-8 text-center text-gray-400 italic"
                 >
                   No templates found. Start by adding one!

@@ -112,7 +112,7 @@ const DemoDetailsPage = () => {
         <p>Loading Template...</p>
       </div>
     );
-  if (!template) return notFound();
+  if (!template || !template.isVisible) return notFound();
 
   const features = template.features
     ? template.features.split("\n").filter((f) => f.trim() !== "")

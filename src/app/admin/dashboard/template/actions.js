@@ -87,6 +87,8 @@ export async function createTemplate(formData) {
         const description = formData.get("description"); // This will be the main description
         const features = formData.get("features"); // String of features
         const categoryId = parseInt(formData.get("categoryId"));
+        const isVisible = formData.get("isVisible") === "true";
+        const showInAllTemplates = formData.get("showInAllTemplates") === "true";
         const imageFile = formData.get("image");
         const demoZipFile = formData.get("demoZip");
 
@@ -109,6 +111,8 @@ export async function createTemplate(formData) {
                 features,
                 demoFolder,
                 livePreviewUrl,
+                isVisible,
+                showInAllTemplates,
                 categoryId,
             },
         });
@@ -132,6 +136,8 @@ export async function updateTemplate(formData) {
         const description = formData.get("description");
         const features = formData.get("features");
         const categoryId = parseInt(formData.get("categoryId"));
+        const isVisible = formData.get("isVisible") === "true";
+        const showInAllTemplates = formData.get("showInAllTemplates") === "true";
         const imageFile = formData.get("image");
         const demoZipFile = formData.get("demoZip");
 
@@ -145,6 +151,8 @@ export async function updateTemplate(formData) {
             description,
             features,
             livePreviewUrl: `/demo-live/${uniqueSlug}`,
+            isVisible,
+            showInAllTemplates,
             categoryId,
         };
 
@@ -206,12 +214,26 @@ export async function deleteTemplate(id) {
 export async function getTemplates() {
     try {
         return await db.template.findMany({
+            where: { isVisible: true },
             include: { category: true },
             orderBy: { id: "desc" },
         });
     } catch (error) {
         console.error("Error fetching templates:", error);
         throw new Error("Failed to fetch templates");
+    }
+}
+
+export async function getAllTemplatesAdmin() {
+    await verifyAdmin();
+    try {
+        return await db.template.findMany({
+            include: { category: true },
+            orderBy: { id: "desc" },
+        });
+    } catch (error) {
+        console.error("Error fetching all templates for admin:", error);
+        throw new Error("Failed to fetch all templates for admin");
     }
 }
 
@@ -230,7 +252,10 @@ export async function getTemplateBySlug(slug) {
 export async function getTemplatesByCategory(categoryId) {
     try {
         return await db.template.findMany({
-            where: { categoryId: Number(categoryId) },
+            where: {
+                categoryId: Number(categoryId),
+                isVisible: true
+            },
             include: { category: true },
             orderBy: { id: "desc" },
         });
@@ -242,7 +267,10 @@ export async function getTemplatesByCategory(categoryId) {
 export async function getTemplatesPaginated(page = 1, limit = 12, categorySlug = null) {
     try {
         const skip = (page - 1) * limit;
-        const where = categorySlug && categorySlug !== 'all' ? { category: { slug: categorySlug } } : {};
+        const where = {
+            isVisible: true,
+            ...(categorySlug && categorySlug !== 'all' ? { category: { slug: categorySlug } } : {})
+        };
 
         const [items, total] = await Promise.all([
             db.template.findMany({

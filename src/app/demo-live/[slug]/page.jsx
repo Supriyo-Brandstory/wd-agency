@@ -5,7 +5,7 @@ export default async function LiveDemoPage({ params }) {
   const { slug } = await params;
   const template = await getTemplateBySlug(slug);
 
-  if (!template || !template.demoFolder) {
+  if (!template || !template.demoFolder || !template.isVisible) {
     return notFound();
   }
 

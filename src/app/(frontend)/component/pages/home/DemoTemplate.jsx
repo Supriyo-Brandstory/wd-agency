@@ -7,7 +7,7 @@ import Link from "next/link";
 import { getTemplates } from "@/app/admin/dashboard/template/actions";
 import { getTemplateCategories } from "@/app/admin/dashboard/template-category/actions";
 
-const DemoTemplate = () => {
+const DemoTemplate = ({ activetaburl }) => {
   const [activeCategory, setActiveCategory] = useState({
     name: "All Templates",
     slug: "all",
@@ -27,10 +27,35 @@ const DemoTemplate = () => {
           getTemplateCategories(),
         ]);
         setProducts(tData);
-        setCategories([
+        const allCategories = [
           { name: "All Templates", slug: "all" },
           ...cData.map((c) => ({ name: c.name, slug: c.slug })),
-        ]);
+        ];
+        setCategories(allCategories);
+
+        // Set active category based on activetaburl prop
+        if (activetaburl) {
+          const normalizedActivetab = activetaburl
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, "-");
+
+          console.log("Looking for tab:", normalizedActivetab);
+          console.log(
+            "Available categories:",
+            allCategories.map((c) => c.slug),
+          );
+
+          const matchedCategory = allCategories.find(
+            (cat) => cat.slug.toLowerCase() === normalizedActivetab,
+          );
+
+          console.log("Matched category:", matchedCategory);
+
+          if (matchedCategory) {
+            setActiveCategory(matchedCategory);
+          }
+        }
       } catch (error) {
         console.error("Error fetching demo templates:", error);
       } finally {
@@ -38,7 +63,7 @@ const DemoTemplate = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [activetaburl]);
 
   const handleScroll = (e) => {
     if (e.target.scrollLeft > 10) {
@@ -48,7 +73,7 @@ const DemoTemplate = () => {
 
   const filteredProducts =
     activeCategory.slug === "all"
-      ? products
+      ? products.filter((p) => p.showInAllTemplates === true)
       : products.filter((p) => p.category?.slug === activeCategory.slug);
 
   if (loading) return null;
