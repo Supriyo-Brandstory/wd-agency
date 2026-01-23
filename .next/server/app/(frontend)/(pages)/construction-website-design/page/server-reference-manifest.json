@@ -1,0 +1,35 @@
+{
+  "node": {
+    "407511e400aa4bfcd81f07fd0bacb6f7fd72baa867": {
+      "workers": {
+        "app/(frontend)/(pages)/construction-website-design/page": {
+          "moduleId": 76460,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/construction-website-design/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "40fcb1cdb5530bf6c96764ab69bf813731c4a206b4": {
+      "workers": {
+        "app/(frontend)/(pages)/construction-website-design/page": {
+          "moduleId": 76460,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/construction-website-design/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}
