@@ -1,10 +1,6 @@
-[00:00:00.686] Server  LOG     ✓ Ready in 492ms
-[00:00:05.960] Server  LOG     ○ Compiling /demo-live/[slug] ...
-[00:00:08.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.888] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.792] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:00.720] Server  LOG     ✓ Ready in 540ms
+[00:00:01.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.346] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -17,22 +13,14 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{rsc:<Fragment>, ...}}>
-                    <__next_viewport_boundary__>
-                    <MetadataWrapper>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
                     <RedirectErrorBoundary router={{...}}>
                       <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
                         <SegmentViewNode type="layout" pagePath="admin/layo...">
@@ -44,83 +32,16 @@ It can also happen if the client has a browser extension installed which messes 
                               <head>
                               <body
                                 className="antialiased"
--                               __processed_4cfed3f5-739c-4795-b9d9-9e5b73a5b4db__="true"
+-                               __processed_149fe1d3-76aa-4624-ac48-c6b73c3e91d9__="true"
 -                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
                               >
-                                ...
-                                  <SegmentViewNode type="layout" pagePath="admin/dash...">
-                                    <SegmentTrieNode>
-                                    <script>
-                                    <script>
-                                    <RootLayout>
-                                      <AdminDashboardLayout>
-                                        <div
-                                          className="flex h-screen bg-gray-50"
--                                         bis_skin_checked="1"
-                                        >
-                                          <Sidebar>
-                                            <div
-                                              className="w-64 bg-gradient-to-b from-indigo-900 to-indigo-800 text-whit..."
--                                             bis_skin_checked="1"
-                                            >
-                                              <div
-                                                className="p-6 border-b border-indigo-700 flex items-center"
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-cent..."
--                                                 bis_skin_checked="1"
-                                                >
-                                                ...
-                                              <nav>
-                                              <div
-                                                className="p-4 border-t border-indigo-700"
--                                               bis_skin_checked="1"
-                                              >
-                                          <div
-                                            className="flex flex-col flex-1 overflow-hidden"
--                                           bis_skin_checked="1"
-                                          >
-                                            <Header>
-                                              <header className="bg-white s...">
-                                                <div
-                                                  className="flex items-center"
--                                                 bis_skin_checked="1"
-                                                >
-                                                <div
-                                                  className="flex items-center space-x-4"
--                                                 bis_skin_checked="1"
-                                                >
-                                                  <div
-                                                    className="relative"
--                                                   bis_skin_checked="1"
-                                                  >
-                                            <main className="flex-1 ove...">
-                                              <div
-                                                className="p-6"
--                                               bis_skin_checked="1"
-                                              >
-                                                ...
-                                                  <SegmentViewNode type="page" pagePath="admin/dash...">
-                                                    <SegmentTrieNode>
-                                                    <ClientPageRoot Component={function TemplatePage} ...>
-                                                      <TemplatePage params={Promise} searchParams={Promise}>
-                                                        <div
-                                                          className="p-6 max-w-7xl mx-auto"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="flex justify-between items-center mb-6"
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          <div
-                                                            className="bg-white rounded-xl shadow-lg border border-gra..."
--                                                           bis_skin_checked="1"
-                                                          >
                       ...
-                  ...
+          ...
 
-[00:00:09.797] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:02.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.492] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.694] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -133,42 +54,139 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/demo-live..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{rsc:<Fragment>, ...}}>
-                    <__next_viewport_boundary__>
-                    <MetadataWrapper>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                  ...
-                    <RedirectErrorBoundary router={{...}}>
-                      <InnerLayoutRouter url="/demo-live..." tree={[...]} params={{slug:"reic..."}} cacheNode={{...}} ...>
-                        <SegmentViewNode type="layout" pagePath="demo-live/...">
-                          <SegmentTrieNode>
-                          <LiveDemoLayout>
-                            <html lang="en">
-                              <body
-                                style={{margin:0,padding:0,overflow:"hidden"}}
--                               __processed_459548fb-0ec4-4077-b8a0-2551cf616096__="true"
--                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
-                              >
-                                ...
-                                  <SegmentViewNode type="page" pagePath="demo-live/...">
-                                    <SegmentTrieNode>
-                                    <LiveDemoPage>
-                                      <div
-                                        style={{width:"100vw",height:"100vh"}}
--                                       bis_skin_checked="1"
-                                      >
-                                  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="demo-live/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/demo-live..." tree={[...]} params={{slug:"reic..."}} cacheNode={{...}} ...>
+                      <SegmentViewNode type="layout" pagePath="demo-live/...">
+                        <SegmentTrieNode>
+                        <LiveDemoLayout>
+                          <html lang="en">
+                            <body
+                              style={{margin:0,padding:0,overflow:"hidden"}}
+-                             __processed_4a19db00-d22f-4068-8df5-58ec13d2b74c__="true"
+-                             bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaW..."
+                            >
+                    ...
+          ...
+
+[00:00:09.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.125] Server  LOG     ✓ Compiled in 153ms
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:03:56.214] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:43.935] Server  LOG     ✓ Compiled in 0ms
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:44.696] Browser LOG     Looking for tab: healthcare
+[00:05:44.696] Browser LOG     Available categories: ["all","real-estatex"]
+[00:05:44.696] Browser LOG     Matched category: undefined
+[00:05:44.696] Browser LOG     Looking for tab: healthcare
+[00:05:44.696] Browser LOG     Available categories: ["all","real-estatex"]
+[00:05:44.696] Browser LOG     Matched category: undefined
+[00:06:50.954] Browser LOG     Looking for tab: ecommerce
+[00:06:50.954] Browser LOG     Available categories: ["all","real-estatex"]
+[00:06:50.954] Browser LOG     Matched category: undefined
+[00:06:50.954] Browser LOG     Looking for tab: ecommerce
+[00:06:50.954] Browser LOG     Available categories: ["all","real-estatex"]
+[00:06:50.954] Browser LOG     Matched category: undefined
+[00:07:21.973] Server  LOG     ✓ Compiled in 33ms
+[00:08:02.967] Server  ERROR   ⨯ ReferenceError: DemoTemplate is not defined
+[00:08:03.090] Browser ERROR   uncaughtError: ReferenceError: DemoTemplate is not defined
+[00:08:08.908] Server  LOG     ✓ Compiled in 70ms
+[00:08:09.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="healthcare..." loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/healthcar..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="(frontend)...">
+                    <SegmentTrieNode>
+                    <page>
+                      <div>
+                      <SubNav>
+                      <div>
+                      <DemoTemplate>
+                      <page>
+                        <CommonWhyMetter>
+                          <div>
+                          <CommonWhyMetter>
+                            <div className="pb-300 sm-...">
+                              <img>
+                              <div className="commonWhyM...">
+                                <div className="commonWhyM...">
+                                  <div>
+                                  <div className="commonWhyM...">
+                                    <p
+                                      dangerouslySetInnerHTML={{
++                                       __html: "<p>A website extends beyond looks and helps patients in their digital..."
+-                                       __html: ""
+                                      }}
+                                    >
+-                                   <p>
+-                                   {"\n                            "}
+-                                   <p>
                       ...
                   ...
+                ...
+      ...
 
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:09.937] Browser LOG     Looking for tab: healthcare
+[00:08:09.937] Browser LOG     Available categories: ["all","real-estatex"]
+[00:08:09.937] Browser LOG     Matched category: undefined
+[00:08:09.937] Browser LOG     Looking for tab: healthcare
+[00:08:09.937] Browser LOG     Available categories: ["all","real-estatex"]
+[00:08:09.937] Browser LOG     Matched category: undefined

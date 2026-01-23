@@ -180,6 +180,7 @@ async function createTemplate(formData) {
         const features = formData.get("features"); // String of features
         const categoryId = parseInt(formData.get("categoryId"));
         const isVisible = formData.get("isVisible") === "true";
+        const showInAllTemplates = formData.get("showInAllTemplates") === "true";
         const imageFile = formData.get("image");
         const demoZipFile = formData.get("demoZip");
         slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
@@ -199,6 +200,7 @@ async function createTemplate(formData) {
                 demoFolder,
                 livePreviewUrl,
                 isVisible,
+                showInAllTemplates,
                 categoryId
             }
         });
@@ -221,6 +223,7 @@ async function updateTemplate(formData) {
         const features = formData.get("features");
         const categoryId = parseInt(formData.get("categoryId"));
         const isVisible = formData.get("isVisible") === "true";
+        const showInAllTemplates = formData.get("showInAllTemplates") === "true";
         const imageFile = formData.get("image");
         const demoZipFile = formData.get("demoZip");
         slug = slug.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
@@ -233,6 +236,7 @@ async function updateTemplate(formData) {
             features,
             livePreviewUrl: `/demo-live/${uniqueSlug}`,
             isVisible,
+            showInAllTemplates,
             categoryId
         };
         if (imageFile && typeof imageFile !== "string") {

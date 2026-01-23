@@ -45,6 +45,7 @@ import CommonTechnologyStack from "../../component/pages/common/CommonTechnology
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
 
 const page = () => {
   return (
@@ -75,8 +76,11 @@ const page = () => {
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
-	        { name: "Shopify", link: "/platforms/shopify-website-development" },
-          { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          {
+            name: "WooCommerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
         ]}
       />
       <CommonIntroduction
@@ -96,7 +100,7 @@ const page = () => {
           "Real Estate Website Development Company in UAE - Website Development Agency"
         }
       />
-
+      <DemoTemplate activetaburl={"real-estate"} />
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         alt={"Elevate Your Property Business with a Website That Sells"}

@@ -46,6 +46,7 @@ import CommonAboutPage from "../../component/pages/common/CommonAboutPage";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
 
 const page = () => {
   return (
@@ -79,7 +80,6 @@ const page = () => {
           { name: "Laravel", link: "/platforms/laravel-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
-	        
         ]}
       />
       <CommonIntroduction
@@ -95,6 +95,8 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Ecommerce Web Development Company in UAE - Website Development Agency"
       />
+      <DemoTemplate activetaburl={"ecommerce"} />
+
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         heding={"Grow Your Business with Custom eCommerce Development"}

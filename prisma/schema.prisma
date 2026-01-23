@@ -88,6 +88,7 @@ model Template {
   demoFolder      String?  // Path to extracted ZIP files
   livePreviewUrl  String?
   isVisible       Boolean  @default(true)
+  showInAllTemplates Boolean @default(false)
   categoryId      Int
   category        TemplateCategory @relation(fields: [categoryId], references: [id])
   createdAt       DateTime @default(now())

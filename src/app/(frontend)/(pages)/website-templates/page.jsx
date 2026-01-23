@@ -13,7 +13,7 @@ export default function WebsiteTemplates() {
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [categories, setCategories] = useState([]);
-  const limit = 12;
+  const limit = 9;
 
   useEffect(() => {
     const fetchData = async () => {

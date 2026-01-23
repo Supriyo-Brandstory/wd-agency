@@ -73,7 +73,7 @@ const DemoTemplate = ({ activetaburl }) => {
 
   const filteredProducts =
     activeCategory.slug === "all"
-      ? products
+      ? products.filter((p) => p.showInAllTemplates === true)
       : products.filter((p) => p.category?.slug === activeCategory.slug);
 
   if (loading) return null;

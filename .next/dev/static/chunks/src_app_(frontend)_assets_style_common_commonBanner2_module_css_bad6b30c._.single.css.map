@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/(frontend)/assets/style/common/commonBanner2.module.css"],"sourcesContent":[".commonbanner2 {\n    background: var(--bg);\n    height: 85vh;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.commonbanner2::after {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: rgba(0, 0, 0, 0.4);\n    z-index: 1;\n}\n.content{\n    z-index: 2;\n}\n\n@media (max-width: 768px) {\n    .commonbanner2 {\n        height: auto;\n        padding: 30px 0px;\n    }\n    .commonbanner2::after{\n        height: 48%;\n    }\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;;;AAUA;;;;AAIA;EACI;;;;;EAIA"}}]
+}

@@ -46,6 +46,7 @@ import LocationService from "../../component/pages/common/LocationService";
 import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
 
 const page = () => {
   return (
@@ -76,8 +77,11 @@ const page = () => {
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
-	        { name: "Shopify", link: "/platforms/shopify-website-development" },
-	        { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          {
+            name: "WooCommerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
         ]}
       />
       <CommonIntroduction
@@ -93,6 +97,7 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Healthcare Website Development Company in Dubai - Website Development Agency"
       />
+      <DemoTemplate activetaburl={"healthcare"} />
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}

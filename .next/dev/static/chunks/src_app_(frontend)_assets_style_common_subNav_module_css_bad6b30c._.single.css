@@ -1,0 +1,111 @@
+/* [project]/src/app/(frontend)/assets/style/common/subNav.module.css [app-client] (css) */
+.subNav-module__yEE0Ya__ecommerceSubNav {
+  background-color: var(--color-black);
+  z-index: 99;
+  border-bottom: 1px solid #929292;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.subNav-module__yEE0Ya__container {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.subNav-module__yEE0Ya__breadcrumb {
+  align-items: center;
+  gap: var(--size-10);
+  flex-shrink: 0;
+  display: flex;
+}
+
+.subNav-module__yEE0Ya__homeIcon {
+  width: var(--size-28);
+  height: var(--size-28);
+  color: var(--color-white);
+}
+
+.subNav-module__yEE0Ya__slash {
+  color: var(--color-white);
+  font-size: var(--size-18);
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.subNav-module__yEE0Ya__separator {
+  width: 1px;
+  height: var(--size-60);
+  margin: 0 var(--size-30);
+  background-color: #929292;
+  flex-shrink: 0;
+}
+
+.subNav-module__yEE0Ya__navLinks {
+  gap: var(--size-30);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  align-items: center;
+  display: flex;
+  overflow-x: auto;
+}
+
+.subNav-module__yEE0Ya__navLinks::-webkit-scrollbar {
+  display: none;
+}
+
+.subNav-module__yEE0Ya__navItem {
+  font-size: var(--size-18);
+  color: #f4f3f3;
+  white-space: nowrap;
+  padding: var(--size-20) 0;
+  align-items: center;
+  gap: var(--size-10);
+  border-bottom: 3px solid #0000;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.subNav-module__yEE0Ya__iconhiden {
+  color: var(--color-blue);
+  display: none;
+}
+
+.subNav-module__yEE0Ya__navItem.subNav-module__yEE0Ya__active .subNav-module__yEE0Ya__iconhiden {
+  display: inline-block;
+}
+
+.subNav-module__yEE0Ya__navItem:hover, .subNav-module__yEE0Ya__navItem.subNav-module__yEE0Ya__active {
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-blue);
+}
+
+@media (max-width: 768px) {
+  .subNav-module__yEE0Ya__ecommerceSubNav {
+    padding: var(--size-10) 0;
+    margin-bottom: 20px;
+  }
+
+  .subNav-module__yEE0Ya__separator {
+    margin: 0 var(--size-15);
+    height: var(--size-40);
+  }
+
+  .subNav-module__yEE0Ya__navLinks {
+    gap: var(--size-20);
+  }
+
+  .subNav-module__yEE0Ya__slash {
+    font-size: var(--size-14);
+  }
+
+  .subNav-module__yEE0Ya__navItem {
+    font-size: var(--size-14);
+    padding: var(--size-10) 0;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_subNav_module_css_bad6b30c._.single.css.map*/
