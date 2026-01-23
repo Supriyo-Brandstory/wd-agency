@@ -345,7 +345,7 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
         "app/(frontend)/(pages)/website-templates/page": {
-          "moduleId": 3132,
+          "moduleId": 44844,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -457,6 +457,12 @@
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
+        "app/(frontend)/(pages)/website-templates/page": {
+          "moduleId": 44844,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
         "app/admin/dashboard/template-category/page": {
           "moduleId": 35704,
           "async": false,
@@ -473,6 +479,7 @@
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/page": "action-browser",
         "app/admin/dashboard/template-category/page": "action-browser",
         "app/admin/dashboard/template/page": "action-browser"
       },
@@ -712,7 +719,7 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
         "app/(frontend)/(pages)/website-templates/page": {
-          "moduleId": 3132,
+          "moduleId": 44844,
           "async": false,
           "exportedName": "getTemplatesPaginated",
           "filename": "src/app/admin/dashboard/template/actions.js"
