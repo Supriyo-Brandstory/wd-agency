@@ -1,5 +1,5 @@
 {
-  "/(frontend)/(pages)/about-us/page": "app/(frontend)/(pages)/about-us/page.js",
-  "/(frontend)/(pages)/website-templates/[slug]/page": "app/(frontend)/(pages)/website-templates/[slug]/page.js",
+  "/(frontend)/(pages)/website-templates/page": "app/(frontend)/(pages)/website-templates/page.js",
+  "/admin/dashboard/template/page": "app/admin/dashboard/template/page.js",
   "/demo-live/[slug]/page": "app/demo-live/[slug]/page.js"
 }

@@ -1,6 +1,6 @@
 {
   "node": {
-    "40244374e60de37ba3fac126c6b803a7eaae4da571": {
+    "40f092fe6072b2c65aaad9c1db8fd6633c140f9282": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/website-templates/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "70abc833ff13286087b16a0171e19e15bc56b783d4": {
+    "70f4d06202f4ff3336f61a77a86cd576520541044e": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/website-templates/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
@@ -30,7 +30,7 @@
       "exportedName": "getTemplatesPaginated",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00c7cc61c7fa7a231238468ac6000b64d3c8a4e8f6": {
+    "005c3661c3f0f51a2fa598242e41dd2c02e8831931": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/website-templates/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",

@@ -1,1 +1,174 @@
-[00:00:00.862] Server  LOG     ✓ Ready in 591ms
+[00:00:00.686] Server  LOG     ✓ Ready in 492ms
+[00:00:05.960] Server  LOG     ○ Compiling /demo-live/[slug] ...
+[00:00:08.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.888] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.792] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:<Fragment>, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                  ...
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_4cfed3f5-739c-4795-b9d9-9e5b73a5b4db__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                                ...
+                                  <SegmentViewNode type="layout" pagePath="admin/dash...">
+                                    <SegmentTrieNode>
+                                    <script>
+                                    <script>
+                                    <RootLayout>
+                                      <AdminDashboardLayout>
+                                        <div
+                                          className="flex h-screen bg-gray-50"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <Sidebar>
+                                            <div
+                                              className="w-64 bg-gradient-to-b from-indigo-900 to-indigo-800 text-whit..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="p-6 border-b border-indigo-700 flex items-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-cent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <nav>
+                                              <div
+                                                className="p-4 border-t border-indigo-700"
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="flex flex-col flex-1 overflow-hidden"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <Header>
+                                              <header className="bg-white s...">
+                                                <div
+                                                  className="flex items-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center space-x-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="relative"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                            <main className="flex-1 ove...">
+                                              <div
+                                                className="p-6"
+-                                               bis_skin_checked="1"
+                                              >
+                                                ...
+                                                  <SegmentViewNode type="page" pagePath="admin/dash...">
+                                                    <SegmentTrieNode>
+                                                    <ClientPageRoot Component={function TemplatePage} ...>
+                                                      <TemplatePage params={Promise} searchParams={Promise}>
+                                                        <div
+                                                          className="p-6 max-w-7xl mx-auto"
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="flex justify-between items-center mb-6"
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="bg-white rounded-xl shadow-lg border border-gra..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                      ...
+                  ...
+
+[00:00:09.797] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/demo-live..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:<Fragment>, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                  ...
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/demo-live..." tree={[...]} params={{slug:"reic..."}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="demo-live/...">
+                          <SegmentTrieNode>
+                          <LiveDemoLayout>
+                            <html lang="en">
+                              <body
+                                style={{margin:0,padding:0,overflow:"hidden"}}
+-                               __processed_459548fb-0ec4-4077-b8a0-2551cf616096__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                                ...
+                                  <SegmentViewNode type="page" pagePath="demo-live/...">
+                                    <SegmentTrieNode>
+                                    <LiveDemoPage>
+                                      <div
+                                        style={{width:"100vw",height:"100vh"}}
+-                                       bis_skin_checked="1"
+                                      >
+                                  ...
+                      ...
+                  ...
+
