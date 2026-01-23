@@ -1,0 +1,3 @@
+{
+  "/(frontend)/(pages)/demo-template/[slug]/page": "app/(frontend)/(pages)/demo-template/[slug]/page.js"
+}

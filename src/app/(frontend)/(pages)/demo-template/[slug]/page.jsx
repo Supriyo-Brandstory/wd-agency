@@ -4,6 +4,73 @@ import styles from "@/app/(frontend)/assets/style/demo/DemoDetails.module.css";
 import { getTemplateBySlug } from "@/app/admin/dashboard/template/actions";
 import { useParams, notFound } from "next/navigation";
 import QuotePopup from "@/app/(frontend)/component/pages/common/QuotePopup";
+import { motion, AnimatePresence } from "framer-motion";
+import uparrow from "@/app/(frontend)/assets/images/icons/faquparrow.svg";
+import downarrow from "@/app/(frontend)/assets/images/icons/faqdownarrow.svg";
+import Image from "next/image";
+
+const faqs = [
+  {
+    q: "1. Do I need to already own a domain to get started?",
+    a: "Not at all. If you already have a domain, we’ll use it. If you don’t, we can help you choose and register a suitable domain that matches your business name. We’ll always share available options with you first, so you stay in control of the final decision.",
+  },
+  {
+    q: "2. What hosting plan is included with the website?",
+    a: "We provide reliable, high-performance hosting for 12 months suitable for business websites. It ensures fast loading, strong security, and smooth performance. Hosting is included for the first year, so you don’t need to worry about any technical setup.",
+  },
+  {
+    q: "3. How long does it take to complete my website?",
+    a: "Most websites are completed within the committed project timeline of 1-2 days. Once we receive your logo, content details, and approvals on time, the process moves quickly and smoothly. Faster delivery within 3-4 hours options are also available if you’re on a tight deadline.",
+  },
+  {
+    q: "4. Can I request changes to the design?",
+    a: "Yes. We include 2 revisions as part of the website package. This allows you to review the website and request reasonable changes so the final result matches your expectations. We simply ask for timely feedback to avoid delays.",
+  },
+  {
+    q: "5. Will you write the website content for me?",
+    a: "Yes. We provide professionally written content based on your business type and goals. The content is clear, relevant, and easy to understand for your customers. If you already have content or brochures, we can use or refine them as well.",
+  },
+  {
+    q: "6. Is the website mobile-friendly?",
+    a: "Absolutely. Every website we design is fully responsive. This means it looks and works perfectly on mobiles, tablets, laptops, and desktops- an essential requirement for today’s users and search engines.",
+  },
+  {
+    q: "7. Will my website load fast?",
+    a: "Yes. Speed is a priority for us. We optimize images, code, and structure to ensure fast loading times, which improves user experience and helps with Google rankings.",
+  },
+  {
+    q: "8. Will I be able to update the website myself?",
+    a: "Yes. You will get full admin access after project completion. You can easily update text, images, and basic content without technical knowledge. We also provide guidance if needed.",
+  },
+  {
+    q: "9. Do you provide SEO with the website?",
+    a: "We include basic on-page SEO such as meta titles, descriptions, and search-friendly structure. This helps your website get indexed properly on Google. Advanced SEO services can be added separately if you want stronger visibility and faster results.",
+  },
+  {
+    q: "10. Is my website secure?",
+    a: "Yes. We include SSL security, which protects your website and builds trust with visitors. Security best practices are followed to keep your site safe from common threats.",
+  },
+  {
+    q: "11. Will the website work on all browsers?",
+    a: "Yes. Your website will be tested and optimized to work smoothly on all major browsers including Chrome, Safari, Firefox, and Edge.",
+  },
+  {
+    q: "12. Do you offer website maintenance after launch?",
+    a: "Yes. We provide free maintenance for 6 months after launch. During this time, we handle minor updates, security checks, and technical support to ensure everything runs smoothly.",
+  },
+  {
+    q: "13. Can you set up the website on my own hosting?",
+    a: "Yes. If you already have hosting, we can deploy the website on your server. We only require standard hosting access and sufficient storage to complete the setup.",
+  },
+  {
+    q: "14. Will I fully own my website?",
+    a: "Yes- 100%. Once the project is completed, the website, content, and credentials belong entirely to you. There are no hidden restrictions or lock-ins.",
+  },
+  {
+    q: "15. What happens after I place an order?",
+    a: "After payment confirmation, we’ll contact you to collect basic details like your logo, business information, and preferences. We then design, develop, and share the website for review. Once approved, your website goes live.",
+  },
+];
 
 const DemoDetailsPage = () => {
   const { slug } = useParams();
@@ -11,6 +78,11 @@ const DemoDetailsPage = () => {
   const [activeTab, setActiveTab] = useState("description");
   const [loading, setLoading] = useState(true);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [activeFaqIndex, setActiveFaqIndex] = useState(null);
+
+  const toggleFaq = (index) => {
+    setActiveFaqIndex(activeFaqIndex === index ? null : index);
+  };
 
   // Selections state
   const [selections, setSelections] = useState({
@@ -140,35 +212,34 @@ const DemoDetailsPage = () => {
                 <h3 className={styles.sectionHeading}>
                   Frequently Asked Questions
                 </h3>
-                <div className={styles.faqItem}>
-                  <p className={styles.faqQuestion}>
-                    How long does it take to launch the website?
-                  </p>
-                  <p>
-                    Depending on the package you choose, it can take 2, 3, or 4
-                    days to launch the website once we receive your content and
-                    domain access.
-                  </p>
-                </div>
-                <div className={styles.faqItem}>
-                  <p className={styles.faqQuestion}>
-                    Can I customize the design?
-                  </p>
-                  <p>
-                    Yes, the color scheme and fonts can be adjusted to match
-                    your brand identity. The layout structure remains the same
-                    as the demo.
-                  </p>
-                </div>
-                <div className={styles.faqItem}>
-                  <p className={styles.faqQuestion}>
-                    Do I need to pay for hosting every year?
-                  </p>
-                  <p>
-                    Hosting is free for the first year. From the second year, a
-                    renewal fee of 400 AED applies for hosting.
-                  </p>
-                </div>
+                {faqs.map((faq, index) => (
+                  <div key={index} className={styles.faqItem}>
+                    <button
+                      className={styles.faqHeader}
+                      onClick={() => toggleFaq(index)}
+                    >
+                      <span className={styles.faqQuestion}>{faq.q}</span>
+                      {activeFaqIndex === index ? (
+                        <Image src={uparrow} alt="Up Arrow" />
+                      ) : (
+                        <Image src={downarrow} alt="Down Arrow" />
+                      )}
+                    </button>
+                    <AnimatePresence>
+                      {activeFaqIndex === index && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.3 }}
+                          className={styles.faqContent}
+                        >
+                          <p className="pt-2">{faq.a}</p>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                ))}
               </div>
             )}
           </div>

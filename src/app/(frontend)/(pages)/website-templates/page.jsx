@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "@/app/(frontend)/assets/style/template/template.module.css";
 import { getTemplatesPaginated } from "@/app/admin/dashboard/template/actions";
+import { getTemplateCategories } from "@/app/admin/dashboard/template-category/actions";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -11,14 +12,22 @@ export default function WebsiteTemplates() {
   const [data, setData] = useState({ items: [], totalPages: 1 });
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
+  const [categories, setCategories] = useState([]);
   const limit = 12;
 
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const result = await getTemplatesPaginated(currentPage, limit, "all");
+        const [result, cats] = await Promise.all([
+          getTemplatesPaginated(currentPage, limit, "all"),
+          getTemplateCategories(),
+        ]);
         setData(result);
+        setCategories([
+          { name: "All Templates", slug: "all" },
+          ...cats.map((c) => ({ name: c.name, slug: c.slug })),
+        ]);
       } catch (error) {
         console.error("Error fetching templates:", error);
       } finally {
@@ -44,6 +53,26 @@ export default function WebsiteTemplates() {
       </div>
 
       <div className="frame-1200">
+        <div className={styles.filterWrapper}>
+          <div className={styles.filterContainer}>
+            {categories.map((cat) => (
+              <Link
+                key={cat.slug}
+                href={
+                  cat.slug === "all"
+                    ? "/website-templates"
+                    : `/website-templates/${cat.slug}`
+                }
+                className={`${styles.filterBtn} ${
+                  cat.slug === "all" ? styles.activeFilter : ""
+                }`}
+              >
+                {cat.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {loading ? (
           <div className={styles.grid}>
             {Array.from({ length: 6 }).map((_, i) => (
@@ -78,6 +107,7 @@ export default function WebsiteTemplates() {
                           href={`/demo-template/${product.slug}`}
                           className={styles.detailsBtn}
                         >
+                          <span className={styles.infoIcon}>i</span>
                           Details
                         </Link>
                         {product.demoFolder && (
@@ -91,6 +121,17 @@ export default function WebsiteTemplates() {
                               borderColor: "var(--primary-color)",
                             }}
                           >
+                            <svg
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                            >
+                              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                              <circle cx="12" cy="12" r="3" />
+                            </svg>
                             Live Preview
                           </Link>
                         )}

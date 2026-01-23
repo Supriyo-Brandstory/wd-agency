@@ -1,4 +1,280 @@
-[00:00:00.926] Server  LOG     ✓ Ready in 718ms
-[00:00:06.893] Server  LOG     ○ Compiling / ...
-[00:00:09.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:47.556] Server  LOG     ✓ Compiled in 105ms
+[00:00:00.991] Server  LOG     ✓ Ready in 786ms
+[00:00:26.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:43.695] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:43.806] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_b0852cfa-0627-402a-b916-176a63badb54__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:00:46.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.339] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_71631a1c-3c45-4bbd-9d64-b29a232b0987__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:01:11.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:12.066] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_d029f428-34a6-4ca5-84c7-f60ac10430e1__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:01:48.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:34.500] Server  LOG     ✓ Compiled in 85ms
+[00:10:10.541] Server  LOG     ✓ Compiled in 33ms
+[00:10:11.071] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_(frontend)_b6fbdf24._.css
+[00:10:11.079] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_(frontend)_b6fbdf24._.css
+[00:10:30.192] Server  LOG     ✓ Compiled in 26ms
+[00:37:41.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:51.596] Server  LOG     ✓ Compiled in 39ms
+[00:38:56.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:41.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:46.111] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/demo-temp..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:<Fragment>, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
++                     <div hidden={true}>
+-                     {"\n        "}
+                  ...
+
+[00:39:49.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:01.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:42.649] Server  LOG     ✓ Compiled in 42ms
+[00:41:01.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:08.323] Server  LOG     ✓ Compiled in 33ms
+[00:41:12.528] Server  LOG     ✓ Compiled in 29ms
+[00:41:42.364] Server  LOG     ✓ Compiled in 50ms
+[00:41:49.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:23.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:20.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:27.266] Server  LOG     ✓ Compiled in 42ms
+[00:49:34.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:01.058] Server  LOG     ✓ Compiled in 61ms
+[00:50:01.163] Browser ERROR   ./src/app/(frontend)/(pages)/website-templates/page.jsx:183:1
+Parsing ecmascript source code failed
+  181 |     </div>
+  182 |   );
+> 183 | }
+      | ^
+  184 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Client Component Browser]
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Client Component SSR]
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Server Component]
+[00:50:02.068] Browser ERROR   ./src/app/(frontend)/(pages)/website-templates/page.jsx:183:1
+Parsing ecmascript source code failed
+  181 |     </div>
+  182 |   );
+> 183 | }
+      | ^
+  184 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Client Component Browser]
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Client Component SSR]
+    ./src/app/(frontend)/(pages)/website-templates/page.jsx [Server Component]
+[00:51:00.567] Server  LOG     ✓ Compiled in 36ms
+[00:51:39.309] Server  LOG     ✓ Compiled in 28ms
+[00:51:50.466] Server  LOG     ✓ Compiled in 23ms
+[00:52:04.626] Server  LOG     ✓ Compiled in 22ms
+[00:52:34.708] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:48.892] Server  LOG     ✓ Compiled in 27ms
+[00:54:29.004] Server  LOG     ✓ Compiled in 29ms
+[00:56:26.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:54.397] Server  LOG     ✓ Compiled in 46ms
+[00:57:43.133] Server  LOG     ✓ Compiled in 48ms
+[00:58:24.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:24.526] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_c1a62983-d18d-40da-9082-daf0ecfeec8c__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:58:33.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:34.059] Browser WARN    Image with src "/_next/static/media/uiux.291e74c8.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:58:35.158] Browser WARN    Image with src "/_next/static/media/webdev.7328deea.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:58:36.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:04.477] Server  LOG     ✓ Compiled in 37ms
+[00:59:27.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:12.345] Server  LOG     ✓ Compiled in 83ms
+[01:01:48.813] Server  LOG     ✓ Compiled in 65ms
+[01:02:18.412] Server  LOG     ✓ Compiled in 41ms
+[01:02:50.665] Server  LOG     ✓ Compiled in 94ms
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[01:03:13.948] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.

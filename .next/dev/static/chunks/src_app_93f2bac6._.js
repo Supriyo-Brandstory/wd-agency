@@ -6184,11 +6184,7 @@ const DemoTemplate = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: product.image,
                                                 alt: product.title,
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$home$2f$DemoTemplate$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].image,
-                                                style: {
-                                                    width: "100%",
-                                                    objectFit: "cover"
-                                                }
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$home$2f$DemoTemplate$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].image
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
                                                 lineNumber: 134,
@@ -6206,14 +6202,14 @@ const DemoTemplate = ()=>{
                                                                 children: "i"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                                lineNumber: 148,
+                                                                lineNumber: 144,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             "Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 140,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     product.demoFolder && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6237,7 +6233,7 @@ const DemoTemplate = ()=>{
                                                                         d: "M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                                        lineNumber: 169,
+                                                                        lineNumber: 165,
                                                                         columnNumber: 27
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -6246,26 +6242,26 @@ const DemoTemplate = ()=>{
                                                                         r: "3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                                        lineNumber: 170,
+                                                                        lineNumber: 166,
                                                                         columnNumber: 27
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                                lineNumber: 161,
+                                                                lineNumber: 157,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             "Live Preview"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 148,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                lineNumber: 143,
+                                                lineNumber: 139,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
@@ -6282,7 +6278,7 @@ const DemoTemplate = ()=>{
                                                 children: product.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                lineNumber: 178,
+                                                lineNumber: 174,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6290,7 +6286,7 @@ const DemoTemplate = ()=>{
                                                 children: product.category?.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                lineNumber: 179,
+                                                lineNumber: 175,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6304,18 +6300,18 @@ const DemoTemplate = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                    lineNumber: 183,
+                                                    lineNumber: 179,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                                lineNumber: 182,
+                                                lineNumber: 178,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                        lineNumber: 177,
+                                        lineNumber: 173,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
@@ -6354,24 +6350,24 @@ const DemoTemplate = ()=>{
                                     strokeLinejoin: "round"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                    lineNumber: 209,
+                                    lineNumber: 205,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                                lineNumber: 202,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             "More Products"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                        lineNumber: 194,
+                        lineNumber: 190,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/(frontend)/component/pages/home/DemoTemplate.jsx",
-                    lineNumber: 193,
+                    lineNumber: 189,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]

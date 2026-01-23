@@ -34,6 +34,8 @@
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
+    width: 100%;
+    object-position: top;
 }
 
 .actionButtons {
@@ -151,11 +153,45 @@
 
 .faqItem {
     margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
+
+.faqItem:last-child {
+    border-bottom: none;
+}
+
 
 .faqQuestion {
     font-weight: 600;
 }
+
+.faqHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.faqContent {
+    overflow: hidden;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.faqContent p {
+    margin-top: 10px;
+}
+
+
 
 .featuresList {
     margin-top: 20px;

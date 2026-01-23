@@ -135,10 +135,6 @@ const DemoTemplate = () => {
                     src={product.image}
                     alt={product.title}
                     className={styles.image}
-                    style={{
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
                   />
                   <div className={styles.overlay}>
                     <Link

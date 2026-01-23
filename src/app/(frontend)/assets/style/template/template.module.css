@@ -43,7 +43,7 @@
 
 .card {
     background: #111;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,7 +61,7 @@
 .imageContainer {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 1.2;
     background: #050505;
     overflow: hidden;
 }
@@ -71,6 +71,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    object-position: top;
 }
 
 .overlay {
@@ -117,6 +118,27 @@
     background: #fff;
     color: #000;
 }
+
+.infoIcon {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: italic;
+    transition: all 0.3s ease;
+}
+
+.card:hover .infoIcon {
+    background: #000;
+    color: #fff;
+}
+
 
 .cardContent {
     padding: 30px;
@@ -224,5 +246,69 @@
     .pagination button {
         width: 40px;
         height: 40px;
+    }
+}
+
+.filterWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.filterBtn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #cbd5e0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.filterBtn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.activeFilter {
+    background: var(--color-pink);
+    color: #fff;
+    border-color: var(--color-pink);
+}
+
+.activeFilter:hover {
+    background: var(--color-pink);
+}
+
+@media (max-width: 767px) {
+    .filterContainer {
+        justify-content: flex-start;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .filterContainer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filterBtn {
+        flex-shrink: 0;
+        white-space: nowrap;
     }
 }

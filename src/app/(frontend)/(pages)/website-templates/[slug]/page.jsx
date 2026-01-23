@@ -15,14 +15,19 @@ export default function CategoryTemplates() {
   const [category, setCategory] = useState(null);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
+  const [categories, setCategories] = useState([]);
   const limit = 12;
 
   useEffect(() => {
     const fetchCategory = async () => {
       try {
-        const categories = await getTemplateCategories();
-        const current = categories.find((c) => c.slug === slug);
+        const cats = await getTemplateCategories();
+        const current = cats.find((c) => c.slug === slug);
         setCategory(current);
+        setCategories([
+          { name: "All Templates", slug: "all" },
+          ...cats.map((c) => ({ name: c.name, slug: c.slug })),
+        ]);
       } catch (error) {
         console.error("Error fetching category:", error);
       }
@@ -64,6 +69,25 @@ export default function CategoryTemplates() {
       </div>
 
       <div className="frame-1200">
+        <div className={styles.filterWrapper}>
+          <div className={styles.filterContainer}>
+            {categories.map((cat) => (
+              <Link
+                key={cat.slug}
+                href={
+                  cat.slug === "all"
+                    ? "/website-templates"
+                    : `/website-templates/${cat.slug}`
+                }
+                className={`${styles.filterBtn} ${
+                  cat.slug === slug ? styles.activeFilter : ""
+                }`}
+              >
+                {cat.name}
+              </Link>
+            ))}
+          </div>
+        </div>
         {loading ? (
           <div className={styles.grid}>
             {Array.from({ length: 6 }).map((_, i) => (
@@ -99,6 +123,7 @@ export default function CategoryTemplates() {
                             href={`/demo-template/${product.slug}`}
                             className={styles.detailsBtn}
                           >
+                            <span className={styles.infoIcon}>i</span>
                             Details
                           </Link>
                           {product.demoFolder && (
@@ -112,6 +137,17 @@ export default function CategoryTemplates() {
                                 borderColor: "var(--primary-color)",
                               }}
                             >
+                              <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                              >
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                <circle cx="12" cy="12" r="3" />
+                              </svg>
                               Live Preview
                             </Link>
                           )}

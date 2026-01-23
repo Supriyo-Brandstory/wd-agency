@@ -1,0 +1,357 @@
+/* [project]/src/app/(frontend)/assets/style/calculator/CostCalculator.module.css [app-client] (css) */
+.CostCalculator-module__QralSq__calculatorSection {
+  background-color: var(--color-black);
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+.CostCalculator-module__QralSq__calculatorContainer {
+  grid-template-columns: 1fr 380px;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (max-width: 991px) {
+  .CostCalculator-module__QralSq__calculatorContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.CostCalculator-module__QralSq__calcHeader {
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.CostCalculator-module__QralSq__calcHeader h2 {
+  color: var(--color-white);
+  letter-spacing: -.5px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.CostCalculator-module__QralSq__optionsList {
+  background: #ffffff08;
+  border: 1px solid #ffffff0d;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  display: flex;
+  box-shadow: 0 10px 40px #0003;
+}
+
+.CostCalculator-module__QralSq__sliderRow {
+  border-bottom: 1px solid #ffffff0d;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 0;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__sliderRow:last-child {
+  border-bottom: none;
+}
+
+.CostCalculator-module__QralSq__rowLabel {
+  color: #efefef;
+  flex: 0 0 220px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.CostCalculator-module__QralSq__sliderContainer {
+  flex: 1;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__arrow {
+  color: var(--color-white);
+  cursor: pointer;
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  transition: color .2s;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__arrow:hover:not(:disabled) {
+  color: var(--color-blue);
+}
+
+.CostCalculator-module__QralSq__arrow:disabled {
+  color: #444;
+  cursor: not-allowed;
+}
+
+.CostCalculator-module__QralSq__slider {
+  appearance: none;
+  background: #333;
+  border-radius: 3px;
+  outline: none;
+  width: 100%;
+  height: 6px;
+}
+
+.CostCalculator-module__QralSq__slider::-webkit-slider-thumb {
+  appearance: none;
+  background: var(--color-blue);
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  transition: all .2s;
+  box-shadow: 0 0 0 4px #2f2fb04d;
+}
+
+.CostCalculator-module__QralSq__slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 6px #2f2fb066;
+}
+
+.CostCalculator-module__QralSq__rowValue {
+  text-align: right;
+  color: var(--color-violet);
+  flex: 0 0 200px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.CostCalculator-module__QralSq__summarySticky {
+  height: fit-content;
+  position: sticky;
+  top: 120px;
+}
+
+.CostCalculator-module__QralSq__summaryCard {
+  color: #fff;
+  background: #15151b;
+  border: 1px solid #ffffff0d;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 30px 60px #0000004d;
+}
+
+.CostCalculator-module__QralSq__summaryTitle {
+  border-bottom: 1px solid #ffffff1a;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.CostCalculator-module__QralSq__summaryRows {
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 35px;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__summaryRow {
+  color: #999;
+  justify-content: space-between;
+  font-size: 14px;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__summaryRow span:last-child {
+  color: #fff;
+}
+
+.CostCalculator-module__QralSq__totalSection {
+  border-top: 1px solid #ffffff1a;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+
+.CostCalculator-module__QralSq__totalLabel {
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.CostCalculator-module__QralSq__totalValue {
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.CostCalculator-module__QralSq__ctaButton {
+  background: var(--color-blue);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.CostCalculator-module__QralSq__ctaButton:hover {
+  background: #24249a;
+  transform: translateY(-2px);
+}
+
+.CostCalculator-module__QralSq__disclaimer {
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .CostCalculator-module__QralSq__optionsList {
+    padding: 20px;
+  }
+
+  .CostCalculator-module__QralSq__sliderRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .CostCalculator-module__QralSq__rowLabel {
+    flex: none;
+  }
+
+  .CostCalculator-module__QralSq__rowValue {
+    text-align: left;
+    flex: none;
+    width: 100%;
+  }
+}
+
+.CostCalculator-module__QralSq__modalOverlay {
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: #000000b3;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.CostCalculator-module__QralSq__modalContent {
+  background: #1e1e24;
+  border: 1px solid #ffffff1a;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  padding: 40px;
+  position: relative;
+  overflow-y: auto;
+  box-shadow: 0 25px 50px -12px #00000040;
+}
+
+.CostCalculator-module__QralSq__closeButton {
+  color: #888;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 24px;
+  transition: color .2s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.CostCalculator-module__QralSq__closeButton:hover {
+  color: #fff;
+}
+
+.CostCalculator-module__QralSq__modalTitle {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.CostCalculator-module__QralSq__enquiryForm {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__inputGroup {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.CostCalculator-module__QralSq__inputGroup label {
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.CostCalculator-module__QralSq__inputGroup input, .CostCalculator-module__QralSq__inputGroup select, .CostCalculator-module__QralSq__inputGroup textarea {
+  color: #fff;
+  background: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  outline: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  transition: border-color .2s;
+}
+
+.CostCalculator-module__QralSq__inputGroup input:focus, .CostCalculator-module__QralSq__inputGroup select:focus, .CostCalculator-module__QralSq__inputGroup textarea:focus {
+  border-color: var(--color-blue);
+}
+
+.CostCalculator-module__QralSq__inputGroup textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.CostCalculator-module__QralSq__submitButton {
+  background: var(--color-blue);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color .2s;
+}
+
+.CostCalculator-module__QralSq__submitButton:hover {
+  background: #24249a;
+}
+
+.CostCalculator-module__QralSq__successMessage {
+  color: #2ecc71;
+  text-align: center;
+  background: #2ecc711a;
+  border: 1px solid #2ecc71;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_calculator_CostCalculator_module_css_bad6b30c._.single.css.map*/
