@@ -1,0 +1,65 @@
+{
+  "node": {
+    "60ba88486a0789e21211c0c5da3f25805baf864f70": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "createTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "exportedName": "createTemplateCategory",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    },
+    "70c6b34c65760f75a25adf9063fab1d4756c57314f": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "updateTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "exportedName": "updateTemplateCategory",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    },
+    "40de57a8069ab3f88fdb65b4f31315c09c15fccbc9": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "deleteTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "exportedName": "deleteTemplateCategory",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    },
+    "00396d5b424e2dc9efe7475433bb748c28304e677b": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}
