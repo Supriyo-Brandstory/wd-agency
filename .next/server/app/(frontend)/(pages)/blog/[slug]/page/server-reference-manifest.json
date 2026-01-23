@@ -1,6 +1,6 @@
 {
   "node": {
-    "407120764ab60a852bdde899b680afb826765cac36": {
+    "4040c2163350308a1f78c203db8b2a14d5fa27651d": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40f48595530ef35321a42e5a0c238d774f7d455627": {
+    "40e25c6855c1808720aaeacf44850c118b2fb60d74": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -30,7 +30,7 @@
       "exportedName": "getBlogBySlug",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "4025c1cfdc60b68e37534ee20758a727521b71e150": {
+    "400996947a45d9d2390d4c36720a7852efb1870aaa": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -45,7 +45,7 @@
       "exportedName": "createEnquiry",
       "filename": "src/app/admin/dashboard/enquiry/action.js"
     },
-    "606df9f7f595206717e8b99c019b67b36b3f363902": {
+    "6048bcfdda1c6c6e96235a05b59a664fb8d4d300aa": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -60,7 +60,7 @@
       "exportedName": "getEnquiries",
       "filename": "src/app/admin/dashboard/enquiry/action.js"
     },
-    "40d6ba0472724b56c2027b8b0152a89c0b949525e2": {
+    "404a8b8bc143e212a687ec22daef1598d6e3894429": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,

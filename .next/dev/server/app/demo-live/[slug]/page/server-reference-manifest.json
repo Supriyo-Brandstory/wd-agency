@@ -1,0 +1,125 @@
+{
+  "node": {
+    "0019cf4558e5e7f58e77709baaae89f6f5abe5f3ae": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllTemplatesAdmin",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getAllTemplatesAdmin",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "00f7adc1874cf2e579cee021f1112c0b4324b451f1": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getTemplates",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40556169bfe457bd86b91310b0e321f56bbe0bb836": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplateBySlug",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getTemplateBySlug",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "405afb8415080027d863866f439298b2c4f6d4e79c": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "updateTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40725e9a9135498e709db06c8c802a7bf54953ae7b": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "deleteTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "4073eb37051f6c6eb9a43a553115b4af9e5b03febf": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplatesByCategory",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getTemplatesByCategory",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40b4f6c0bae77c4a3f8212ae0dc16ecb644cb997dc": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "70abc833ff13286087b16a0171e19e15bc56b783d4": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/demo-live/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplatesPaginated",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getTemplatesPaginated",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    }
+  },
+  "edge": {}
+}

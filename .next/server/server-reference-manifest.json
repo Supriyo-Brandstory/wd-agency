@@ -1,6 +1,6 @@
 {
   "node": {
-    "407120764ab60a852bdde899b680afb826765cac36": {
+    "4040c2163350308a1f78c203db8b2a14d5fa27651d": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 59481,
@@ -414,7 +414,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
     },
-    "009103b9e18173f869af03156aae2426d4fc9bc601": {
+    "00e0769dd4a584f02735d4ec189c5a82dedcf050da": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 59481,
@@ -436,7 +436,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplates"
     },
-    "00396d5b424e2dc9efe7475433bb748c28304e677b": {
+    "007c9ab438da7a0bf29103385a12ff24d77d80aee6": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 59481,
@@ -479,7 +479,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "getTemplateCategories"
     },
-    "4025c1cfdc60b68e37534ee20758a727521b71e150": {
+    "400996947a45d9d2390d4c36720a7852efb1870aaa": {
       "workers": {
         "app/(frontend)/(pages)/accountant-website-development/page": {
           "moduleId": 42848,
@@ -585,7 +585,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "createEnquiry"
     },
-    "00f552950ceefce5ba62598bcda8860fa143b06c22": {
+    "00bec64395518faf7a1db87aed89d22a5d5673db3a": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
           "moduleId": 34665,
@@ -607,7 +607,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogs"
     },
-    "609d1d4980f053b06606fe683c91bab5dd6538c93b": {
+    "60cc66e263273657b4fb9721269bea996f35d01b95": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
           "moduleId": 94552,
@@ -622,7 +622,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getPaginatedBlogsByCategory"
     },
-    "40f48595530ef35321a42e5a0c238d774f7d455627": {
+    "40e25c6855c1808720aaeacf44850c118b2fb60d74": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -637,7 +637,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogBySlug"
     },
-    "606df9f7f595206717e8b99c019b67b36b3f363902": {
+    "6048bcfdda1c6c6e96235a05b59a664fb8d4d300aa": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -659,7 +659,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "getEnquiries"
     },
-    "40d6ba0472724b56c2027b8b0152a89c0b949525e2": {
+    "404a8b8bc143e212a687ec22daef1598d6e3894429": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 46265,
@@ -681,7 +681,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "deleteEnquiry"
     },
-    "401930e34a91e583a37e7099cf0dcdda9ed1a422b6": {
+    "40f216967d7d975d7823acc63a6a14816efea0171f": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 44164,
@@ -703,7 +703,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplateBySlug"
     },
-    "709388e1182bd2294c67fce4eb8515044d23e890d5": {
+    "707b9171e8de06e63e16573b599847d0fc34ad0126": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/[slug]/page": {
           "moduleId": 11423,
@@ -732,7 +732,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplatesPaginated"
     },
-    "4005ca0823ebf09f4a81dac9cc333b5584297c7abf": {
+    "40aa5caa36172b0535b017a67552f0359409d5502c": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -747,7 +747,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "createBlog"
     },
-    "40574a717b4882d5d04066062d8fd849c7e3d4561f": {
+    "40969407db98e2aa335ee18c60d9fe00f27a6362cf": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -762,7 +762,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "updateBlog"
     },
-    "40283f9fac7e3952b29fa34611e7874b60b938a404": {
+    "401721c4dc0356232db00f399952e19e548094c7f4": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -777,7 +777,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "deleteBlog"
     },
-    "00c165136d5b7be51216aaa6004a506e7fd43f0ecd": {
+    "009b68e8e120b749e2723eaf62978554a0cbf1a5ef": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 53751,
@@ -799,7 +799,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "getBlogCategories"
     },
-    "70b785e2f87b12b222b7a678fbb24ba8d2d592d086": {
+    "70336befc3693c10bea77873315d18c7605a3cdf39": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 53751,
@@ -814,7 +814,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "createBlogCategory"
     },
-    "78ca13ed62ae54c04eed82da5c65f897a1a377c0a3": {
+    "78add3e2ccc03f1fcbd46ad6816464bb0188663ebc": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 53751,
@@ -829,7 +829,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "updateBlogCategory"
     },
-    "40583f6dc16197d0982a75bde4facbe141c598093b": {
+    "4073b5495faf7e6060849bd0fff06f5684decc748a": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 53751,
@@ -844,7 +844,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "deleteBlogCategory"
     },
-    "00cef57d640496046f8965a4a3b9817df224d78ed1": {
+    "0058fac5abc2a73b2518faab8f7840ba86b364b98e": {
       "workers": {
         "app/admin/dashboard/seo/page": {
           "moduleId": 114,
@@ -859,7 +859,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoData"
     },
-    "40ba804768042f4562f07f418243cef5094ba12122": {
+    "40fdfedd142f1bbbfce39954ce1fd12165c6948368": {
       "workers": {
         "app/admin/dashboard/seo/page": {
           "moduleId": 114,
@@ -874,7 +874,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "createSeoData"
     },
-    "602f1ac8b2b1e0a4fe626ac9d59cd19f8f9b441e60": {
+    "603d4e190430fce57fea0e94adb66c0707e935b52a": {
       "workers": {
         "app/admin/dashboard/seo/page": {
           "moduleId": 114,
@@ -889,7 +889,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "updateSeoData"
     },
-    "402a18b97e89e323e66e10c48d28de239781981d1c": {
+    "40970c08e4d4ac56480e402e55e7440ccdc9d7ee03": {
       "workers": {
         "app/admin/dashboard/seo/page": {
           "moduleId": 114,
@@ -904,7 +904,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "deleteSeoData"
     },
-    "0020176c1b6fb36996da5d4a98fb2bd8701457bab9": {
+    "002c92079c7443431c528a7685b4b2a07ca36d7aa9": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 44521,
@@ -919,7 +919,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "getSitemap"
     },
-    "40d8dcad50b74c31cbee15cdc7694a54e7ab3dae7f": {
+    "40e6dd80cb898e84d4e3524ca112efacee663355f6": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 44521,
@@ -934,7 +934,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "updateSitemap"
     },
-    "40f0a5962de74ec02663360179378d0f87ad5903b5": {
+    "405107b9f9198c0dd1015d9d3ae51e932daaaf6ed6": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 47443,
@@ -956,7 +956,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "createTemplate"
     },
-    "40d8c308680b4a64478b4eb6042b38174f780b83bd": {
+    "40063a23664208fe2ed8ac6e52a9e607cceca3300e": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 47443,
@@ -978,7 +978,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "updateTemplate"
     },
-    "404876e580fe843ba581cf5db096dfa5a74544dc2c": {
+    "401e308f0c1b42dd68e7069917d1f931ac269e9302": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 47443,
@@ -1000,7 +1000,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "deleteTemplate"
     },
-    "004a557628b633eb66ba615685fea4f771e271ffcb": {
+    "00773d3b0bb0bc80a3b29e2a00e921d6e233e825f9": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 47443,
@@ -1022,7 +1022,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getAllTemplatesAdmin"
     },
-    "60ba88486a0789e21211c0c5da3f25805baf864f70": {
+    "60454fa3ddee9cd8da720b81138fbd1368cd390a5e": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 35704,
@@ -1037,7 +1037,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "createTemplateCategory"
     },
-    "70c6b34c65760f75a25adf9063fab1d4756c57314f": {
+    "70c116a8b6215b5b865120cbf00ab7745191c0a4e5": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 35704,
@@ -1052,7 +1052,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "updateTemplateCategory"
     },
-    "40de57a8069ab3f88fdb65b4f31315c09c15fccbc9": {
+    "40e1027f21254643fa6e410af35d9812ba83d8ae60": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 35704,
@@ -1067,7 +1067,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "deleteTemplateCategory"
     },
-    "40d74cf21e04ffe41e1dcf558d51b0d8c88d979e20": {
+    "4066aa0717da0a5c6d9995a3b46d3c82bb2b7509b0": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 36941,
@@ -1084,5 +1084,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "TcfyONUbpH7XuVqBEKQVzzZEfey73XMU6Uk8+KMb5KU="
+  "encryptionKey": "YKXeFLqs/MwWt4Pmw8dyidoXkEc7npsiUTXkAPHB/hs="
 }

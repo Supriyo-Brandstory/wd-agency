@@ -44,7 +44,7 @@ export default function WebsiteTemplates() {
     <div className={styles.templateSection}>
       <div className={styles.banner} style={{ "--bg": `url(${bgurl})` }}>
         <div className="frame-1200">
-          <h1>Website Templates</h1>
+          <h1>Affordable Website Design</h1>
           <p>
             Choose from our collection of premium website templates designed to
             grow your business.

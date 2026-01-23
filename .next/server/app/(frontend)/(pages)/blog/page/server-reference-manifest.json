@@ -1,6 +1,6 @@
 {
   "node": {
-    "407120764ab60a852bdde899b680afb826765cac36": {
+    "4040c2163350308a1f78c203db8b2a14d5fa27651d": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
           "moduleId": 94552,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "609d1d4980f053b06606fe683c91bab5dd6538c93b": {
+    "60cc66e263273657b4fb9721269bea996f35d01b95": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
           "moduleId": 94552,

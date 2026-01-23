@@ -30,7 +30,6 @@ export default function TemplatePage() {
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
-  const [showInAllTemplates, setShowInAllTemplates] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -72,7 +71,6 @@ export default function TemplatePage() {
     formData.append("features", features);
     formData.append("categoryId", categoryId);
     formData.append("isVisible", isVisible);
-    formData.append("showInAllTemplates", showInAllTemplates);
     formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
@@ -94,7 +92,6 @@ export default function TemplatePage() {
     formData.append("features", features);
     formData.append("categoryId", categoryId);
     formData.append("isVisible", isVisible);
-    formData.append("showInAllTemplates", showInAllTemplates);
     if (image) formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
@@ -120,7 +117,6 @@ export default function TemplatePage() {
     setFeatures("");
     setCategoryId("");
     setIsVisible(true);
-    setShowInAllTemplates(false);
     setImage(null);
     setPreview(null);
     setDemoZip(null);
@@ -138,7 +134,6 @@ export default function TemplatePage() {
     setFeatures(template.features || "");
     setCategoryId(template.categoryId);
     setIsVisible(template.isVisible ?? true);
-    setShowInAllTemplates(template.showInAllTemplates ?? false);
     setPreview(template.image);
     setCurrentDemoUrl(template.demoFolder ? template.livePreviewUrl : null);
     setShowForm(true);
@@ -230,21 +225,6 @@ export default function TemplatePage() {
               </label>
               <p className="text-xs text-gray-500 ml-6">
                 Uncheck to hide this template from the public website
-              </p>
-              <label className="flex items-center gap-2 cursor-pointer mt-3">
-                <input
-                  type="checkbox"
-                  checked={showInAllTemplates}
-                  onChange={(e) => setShowInAllTemplates(e.target.checked)}
-                  className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-                />
-                <span className="text-sm font-semibold text-gray-600">
-                  Show in "All Templates" Section
-                </span>
-              </label>
-              <p className="text-xs text-gray-500 ml-6">
-                Check to display this template in the homepage "All Templates"
-                section
               </p>
             </div>
           </div>
@@ -371,7 +351,6 @@ export default function TemplatePage() {
               <th className="p-4">Price</th>
               <th className="p-4">Category</th>
               <th className="p-4">Visible</th>
-              <th className="p-4">Show in All</th>
               <th className="p-4 text-right">Actions</th>
             </tr>
           </thead>
@@ -410,17 +389,6 @@ export default function TemplatePage() {
                       {template.isVisible ? "✓ Yes" : "✗ No"}
                     </span>
                   </td>
-                  <td className="p-4">
-                    <span
-                      className={`px-2 py-1 text-xs font-bold rounded-full uppercase ${
-                        template.showInAllTemplates
-                          ? "bg-purple-50 text-purple-600"
-                          : "bg-gray-50 text-gray-400"
-                      }`}
-                    >
-                      {template.showInAllTemplates ? "✓ Yes" : "✗ No"}
-                    </span>
-                  </td>
                   <td className="p-4 text-right">
                     <div className="flex justify-end gap-2">
                       {template.demoFolder && (
@@ -452,7 +420,7 @@ export default function TemplatePage() {
             ) : (
               <tr>
                 <td
-                  colSpan="8"
+                  colSpan="7"
                   className="p-8 text-center text-gray-400 italic"
                 >
                   No templates found. Start by adding one!

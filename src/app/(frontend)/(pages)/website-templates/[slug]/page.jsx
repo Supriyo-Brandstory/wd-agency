@@ -58,12 +58,11 @@ export default function CategoryTemplates() {
       <div className={styles.banner} style={{ "--bg": `url(${bgurl})` }}>
         <div className="frame-1200">
           <h1>
-            {category ? `${category.name} Templates` : "Category Templates"}
+            {category ? `${category.name} Website Design` : "Category Design"}
           </h1>
           <p>
-            Explore our specialized{" "}
-            {category ? category.name.toLowerCase() : ""} website templates
-            tailored for your business needs.
+            Professional {category ? category.name.toLowerCase() : ""} website
+            design services tailored for your business growth.
           </p>
         </div>
       </div>

@@ -1,0 +1,37 @@
+/* [project]/src/app/(frontend)/assets/style/about/mission.module.css [app-client] (css) */
+.mission-module__A3SoYa__missionVisionContainer {
+  background-image: url("../media/mission.6924f015.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mission-module__A3SoYa__leftArrow, .mission-module__A3SoYa__rightArrow {
+  width: 90%;
+  height: auto;
+}
+
+.mission-module__A3SoYa__blurBox {
+  -webkit-backdrop-filter: blur(100px);
+  background: var(--image-mission-bg);
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .mission-module__A3SoYa__image {
+    width: 0;
+  }
+
+  .mission-module__A3SoYa__blurBox {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_about_mission_module_css_bad6b30c._.single.css.map*/

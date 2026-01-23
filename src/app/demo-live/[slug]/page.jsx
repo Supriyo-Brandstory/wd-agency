@@ -1,6 +1,29 @@
 import { getTemplateBySlug } from "@/app/admin/dashboard/template/actions";
 import { notFound } from "next/navigation";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const template = await getTemplateBySlug(slug);
+
+  if (!template || !template.isVisible) {
+    return {
+      title: "Live Preview",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  return {
+    title: `${template.title} - Live Preview`,
+    robots: {
+      index: false,
+      follow: false,
+    },
+  };
+}
+
 export default async function LiveDemoPage({ params }) {
   const { slug } = await params;
   const template = await getTemplateBySlug(slug);

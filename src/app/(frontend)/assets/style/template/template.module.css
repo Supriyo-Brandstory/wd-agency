@@ -14,8 +14,6 @@
 }
 
 .banner h1 {
-    font-size: 3.5rem;
-    font-weight: 800;
     margin-bottom: 20px;
     background: linear-gradient(135deg, #fff 0%, #a0aec0 100%);
     -webkit-background-clip: text;
@@ -24,8 +22,6 @@
 }
 
 .banner p {
-    font-size: 1.25rem;
-    max-width: 700px;
     margin: 0 auto;
     color: #cbd5e0;
     line-height: 1.6;
