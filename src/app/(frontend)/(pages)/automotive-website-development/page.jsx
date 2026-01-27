@@ -1,20 +1,21 @@
 import React from "react";
 import CommonBanner2 from "../../component/pages/common/CommonBanner2";
-import imagebanner from "@/app/(frontend)/assets/images/corporate-website/corporate-website.webp";
+import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
 import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
-import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
-import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
-import imagewhymetter from "@/app/(frontend)/assets/images/corporate-website/wbhy-corporate-need-website.webp";
+import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
 import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/real-estate-website/custom-website-design.webp";
-import imageService2 from "@/app/(frontend)/assets/images/corporate-website/content-cms.webp";
-import imageService3 from "@/app/(frontend)/assets/images/corporate-website/crm-integration.webp";
-import imageService4 from "@/app/(frontend)/assets/images/real-estate-website/virtual-tour.webp";
-import imageService5 from "@/app/(frontend)/assets/images/real-estate-website/property-listing-web.webp";
-import imageService6 from "@/app/(frontend)/assets/images/real-estate-website/multi-currency-language.webp";
-import imageService7 from "@/app/(frontend)/assets/images/corporate-website/mobile-optimize.webp";
-import imageService8 from "@/app/(frontend)/assets/images/corporate-website/support-maintenance.webp";
+import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.png";
+import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+import imageService6 from "@/app/(frontend)/assets/images/automotive-website-development/service-6.webp";
+import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.png";
 import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
 import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
 import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
@@ -27,7 +28,7 @@ import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-developm
 import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
-import imagewhydevelopment from "@/app/(frontend)/assets/images/corporate-website/why-choose-wd-agency.webp";
+import imagewhydevelopment from "@/app/(frontend)/assets/images/automotive-website-development/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
@@ -186,7 +187,7 @@ const page = () => {
           {
             title: "Post-Launch Support & Maintenance",
             desc: "Our post-launch support includes regular updates, security enhancements, bug fixes, performance optimization, and feature upgrades, ensuring your automotive website remains secure, scalable, and future-ready in a fast-evolving digital market.",
-            img: imageService8,
+            img: imageService9,
             alt: "Automotive Website Maintenance Dubai",
             btnname: "Contact Us",
             link: "/contact-us",

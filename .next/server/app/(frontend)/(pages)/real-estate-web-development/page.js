@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/real-estate-web-development/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_85e5b64c._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__cd7b3f35._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_ead1c869._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__8a3d8974._.js")
 R.c("server/chunks/ssr/_b96ac53b._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b9a0874._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

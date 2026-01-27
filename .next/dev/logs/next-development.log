@@ -1,207 +1,634 @@
-[00:00:00.939] Server  LOG     ✓ Ready in 735ms
-[00:00:05.874] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.017] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.713] Server  LOG     ✓ Ready in 1500ms
+[00:01:13.164] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:15.250] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/accountant-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/banner.webp' inside of [project]/
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://nextjs.org/docs/messages/module-not-found
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/link-buil..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="__next_bui...">
-                      <SegmentTrieNode>
-                      <script>
-                      <script>
-                      <DefaultLayout>
-                        <html
--                         lang="en"
-                        >
-                          <body
--                           __processed_b5cc5b3a-f273-406c-a858-77e3c6031c63__="true"
--                           className="antialiased"
--                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
-                          >
-                            ...
-                              <ClientPageRoot Component={function NotFound} serverProvidedParams={{...}}>
-                                <NotFound params={Promise} searchParams={Promise}>
-                                  <html lang="en">
-                                    <body
-                                      className="antialiased"
--                                     __processed_b5cc5b3a-f273-406c-a858-77e3c6031c63__="true"
--                                     bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2..."
-                                    >
-                  ...
 
-[00:00:16.917] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <html> body  
+[00:11:15.252] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/accountant-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="__next_bui...">
-                      <SegmentTrieNode>
-                      <script>
-                      <script>
-                      <DefaultLayout>
-                        <html>
->                         <body>
-                            ...
-                              <SegmentViewNode type="layout" pagePath="(frontend)...">
-                                <SegmentTrieNode>
-                                <link>
-                                <script>
-                                <script>
-                                <script>
-                                <RootLayout>
->                                 <html lang="en">
-                  ...
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/banner.webp' inside of [project]/
 
-[00:00:16.917] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <html>
-[00:04:17.363] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:29.244] Server  LOG     ✓ Compiled in 115ms
-[00:05:26.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:26.221] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+https://nextjs.org/docs/messages/module-not-found
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+[00:11:15.254] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/accountant-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
 
-  ...
-    <RenderFromTemplateContext>
-      <ScrollAndFocusHandler segmentPath={[...]}>
-        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-            <LoadingBoundary name="demo-live/" loading={null}>
-              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-                <RedirectBoundary>
-                  <RedirectErrorBoundary router={{...}}>
-                    <InnerLayoutRouter url="/demo-live..." tree={[...]} params={{slug:"proi..."}} cacheNode={{...}} ...>
-                      <SegmentViewNode type="layout" pagePath="demo-live/...">
-                        <SegmentTrieNode>
-                        <LiveDemoLayout>
-                          <html lang="en">
-                            <body
-                              style={{margin:0,padding:0,overflow:"hidden"}}
--                             __processed_c51f729b-8763-4fea-b40f-1c946867d1d0__="true"
--                             bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaW..."
-                            >
-                    ...
-          ...
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/banner.webp' inside of [project]/
 
-[00:07:34.805] Server  LOG     ✓ Compiled in 207ms
-[00:10:52.576] Server  LOG     ✓ Compiled in 77ms
-[00:11:14.181] Server  LOG     ✓ Compiled in 139ms
-[00:13:21.717] Server  LOG     ✓ Compiled in 62ms
-[00:13:26.979] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+https://nextjs.org/docs/messages/module-not-found
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+[00:11:15.256] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/accountant-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
 
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-          <HTTPAccessFallbackErrorBoundary pathname="/demo-temp..." notFound={<SegmentViewNode>} forbidden={undefined} ...>
-            <RedirectBoundary>
-              <RedirectErrorBoundary router={{...}}>
-                <InnerLayoutRouter url="/demo-temp..." tree={[...]} params={{}} cacheNode={{...}} segmentPath={[...]} ...>
-                  <SegmentViewNode type="layout" pagePath="(frontend)...">
-                    <SegmentTrieNode>
-                    <link>
-                    <script>
-                    <script>
-                    <script>
-                    <RootLayout>
-                      <html lang="en">
-                        <head>
-                        <body className="antialiased" suppressHydrationWarning={true}>
-                          <noscript>
-                          <Header>
-                          <main>
-                          <Footer>
-                            <footer className={" footer-..."}>
-                              <div className="frame-1200">
-                                <div className="footer-mod...">
-                                  <div
-                                    className="footer-module__Z-5RLW__linksWrapper"
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="footer-module__Z-5RLW__about"
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                  <div
-                                    className="footer-module__Z-5RLW__linksWrapper2"
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="footer-module__Z-5RLW__contact mt-20"
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
-                                      className="footer-module__Z-5RLW__cities"
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
--                                       bis_skin_checked="1"
-                                      >
-                                      ...
-                                    <div
-                                      className="footer-module__Z-5RLW__legal"
--                                     bis_skin_checked="1"
-                                    >
-                                <div
-                                  className="footer-module__Z-5RLW__bottom"
--                                 bis_skin_checked="1"
-                                >
-                          ...
-                ...
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/banner.webp' inside of [project]/
 
-[00:14:31.274] Server  LOG     ✓ Compiled in 89ms
-[00:15:12.074] Server  LOG     ✓ Compiled in 40ms
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:16.135] Browser ERROR   ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/accountant-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/banner.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:39.921] Server  LOG     ✓ Compiled in 124ms
+[00:14:20.310] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:30:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp'
+  28 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  29 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 30 | import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  32 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  33 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/why-choose.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.312] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:30:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp'
+  28 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  29 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 30 | import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  32 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  33 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/why-choose.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.322] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:30:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp'
+  28 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  29 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 30 | import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  32 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  33 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/why-choose.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.324] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:30:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp'
+  28 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  29 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 30 | import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  32 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  33 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/why-choose.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.460] Browser ERROR   ./src/app/(frontend)/(pages)/accountant-website-development/page.jsx:30:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp'
+  28 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  29 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 30 | import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choose.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  32 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  33 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/accountant-website-development/why-choose.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:39.497] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:39.498] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:39.503] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:39.504] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:39.635] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/corporate-website/corporate-web-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:25.182] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.183] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.184] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:5:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp'
+  3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+> 5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+  7 | import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+  8 | import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/intro-1.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.186] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:5:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp'
+  3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+> 5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+  7 | import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+  8 | import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/intro-1.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.215] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.238] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.241] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:5:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp'
+  3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+> 5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+  7 | import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+  8 | import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/intro-1.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.245] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:5:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp'
+  3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+> 5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+  7 | import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+  8 | import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/intro-1.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:25.373] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:3:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/banner.webp'
+  1 | import React from "react";
+  2 | import CommonBanner2 from "../../component/pages/common/CommonBanner2";
+> 3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+  5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/banner.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:25.373] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:5:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp'
+  3 | import imagebanner from "@/app/(frontend)/assets/images/automotive-website-development/banner.webp";
+  4 | import CommonIntroduction from "../../component/pages/common/CommonIntroduction";
+> 5 | import imageintro1 from "@/app/(frontend)/assets/images/automotive-website-development/intro-1.webp";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import imageintro2 from "@/app/(frontend)/assets/images/automotive-website-development/intro-2.webp";
+  7 | import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+  8 | import imagewhymetter from "@/app/(frontend)/assets/images/automotive-website-development/why.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/intro-1.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:56.484] Server  LOG     ✓ Compiled in 94ms
+[00:24:32.798] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:11:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-2.webp'
+   9 | import CommonIndustries from "../../component/pages/common/CommonIndustries";
+  10 | import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+> 11 | import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+  13 | import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+  14 | import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-2.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.801] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:11:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-2.webp'
+   9 | import CommonIndustries from "../../component/pages/common/CommonIndustries";
+  10 | import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+> 11 | import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+  13 | import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+  14 | import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-2.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.804] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.808] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:11:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-2.webp'
+   9 | import CommonIndustries from "../../component/pages/common/CommonIndustries";
+  10 | import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+> 11 | import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+  13 | import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+  14 | import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-2.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.810] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:11:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-2.webp'
+   9 | import CommonIndustries from "../../component/pages/common/CommonIndustries";
+  10 | import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+> 11 | import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+  13 | import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+  14 | import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-2.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.811] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:32.942] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:11:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-2.webp'
+   9 | import CommonIndustries from "../../component/pages/common/CommonIndustries";
+  10 | import imageService1 from "@/app/(frontend)/assets/images/automotive-website-development/service-1.webp";
+> 11 | import imageService2 from "@/app/(frontend)/assets/images/automotive-website-development/service-2.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import imageService3 from "@/app/(frontend)/assets/images/automotive-website-development/service-3.webp";
+  13 | import imageService4 from "@/app/(frontend)/assets/images/automotive-website-development/service-4.webp";
+  14 | import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-2.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:32.942] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:59.155] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:59.157] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:59.290] Browser ERROR   ./src/app/(frontend)/(pages)/automotive-website-development/page.jsx:18:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/automotive-website-development/service-9.webp'
+  16 | import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
+  17 | import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
+> 18 | import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+  20 | import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
+  21 | import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/automotive-website-development/service-9.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:16.620] Server  LOG     ✓ Compiled in 46ms
+[00:36:25.539] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx:28:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp'
+  26 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  27 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 28 | import imagewhydevelopment from "@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  30 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  31 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:25.540] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx:28:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp'
+  26 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  27 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 28 | import imagewhydevelopment from "@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  30 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  31 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:25.541] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx:28:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp'
+  26 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  27 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 28 | import imagewhydevelopment from "@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  30 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  31 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:25.542] Server  ERROR   ⨯ ./src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx:28:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp'
+  26 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  27 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 28 | import imagewhydevelopment from "@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  30 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  31 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:25.676] Browser ERROR   ./src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx:28:1
+Module not found: Can't resolve '@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp'
+  26 | import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+  27 | import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
+> 28 | import imagewhydevelopment from "@/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
+  30 | import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testimonial-1.webp";
+  31 | import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
+
+Import map: aliased to relative './src/app/(frontend)/assets/images/expert-dentist-website-development/Why-Website-Development.webp' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
