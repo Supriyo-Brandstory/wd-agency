@@ -1,1 +1,5 @@
-{}
+{
+  "/(frontend)/(pages)/blog/[slug]/page": "app/(frontend)/(pages)/blog/[slug]/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/dashboard/template/page": "app/admin/dashboard/template/page.js"
+}

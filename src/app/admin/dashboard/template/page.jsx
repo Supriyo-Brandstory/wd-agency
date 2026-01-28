@@ -76,10 +76,17 @@ export default function TemplatePage() {
     formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
-    await createTemplate(formData);
-    const data = await getAllTemplatesAdmin();
-    setTemplates(data);
-    resetForm();
+    try {
+      await createTemplate(formData);
+      const data = await getAllTemplatesAdmin();
+      setTemplates(data);
+      resetForm();
+    } catch (error) {
+      console.error("Error creating template:", error);
+      alert(
+        "Failed to create template. The file might be too large or there was a server error.",
+      );
+    }
   };
 
   const handleUpdate = async () => {
@@ -98,10 +105,17 @@ export default function TemplatePage() {
     if (image) formData.append("image", image);
     if (demoZip) formData.append("demoZip", demoZip);
 
-    await updateTemplate(formData);
-    const data = await getAllTemplatesAdmin();
-    setTemplates(data);
-    resetForm();
+    try {
+      await updateTemplate(formData);
+      const data = await getAllTemplatesAdmin();
+      setTemplates(data);
+      resetForm();
+    } catch (error) {
+      console.error("Error updating template:", error);
+      alert(
+        "Failed to update template. The file might be too large or there was a server error.",
+      );
+    }
   };
 
   const handleDelete = async (id) => {

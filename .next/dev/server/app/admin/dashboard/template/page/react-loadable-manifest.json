@@ -1,0 +1,13 @@
+{
+  "[project]/node_modules/suneditor-react/dist/index.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/suneditor-react/dist/index.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_suneditor_src_plugins_fcfe7324._.js",
+      "static/chunks/node_modules_suneditor_src_lang_0a22992e._.js",
+      "static/chunks/node_modules_suneditor_src_lib_2784ea5f._.js",
+      "static/chunks/node_modules_suneditor_src_acaadba2._.js",
+      "static/chunks/node_modules_suneditor-react_dist_4e5dc954._.js",
+      "static/chunks/node_modules_suneditor-react_dist_index_d9a47b89.js"
+    ]
+  }
+}
