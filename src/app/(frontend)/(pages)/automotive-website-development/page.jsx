@@ -27,6 +27,7 @@ import Team from "../../component/pages/about/Team";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import LocationService from "../../component/pages/common/LocationService";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -121,7 +122,7 @@ const page = () => {
           {
             title: "Technology Stack & Integrations",
             desc: "We leverage advanced technologies including WordPress, Magento, PHP, .NET, ReactJS, NodeJS, and Laravel, integrating payment gateways, CRMs, DMS platforms, virtual showroom tools, and finance calculators for seamless automotive operations.",
-            img: imageService1, 
+            img: imageService1,
             alt: "Automotive Technology Stack Dubai",
             btnname: "Contact Us",
             link: "/contact-us",
@@ -137,11 +138,9 @@ const page = () => {
         ]}
       />
 
-            <CommonWhyMetter
+      <CommonWhyMetter
         imagewhymetter={imagewhymetter}
-        alt={
-          "Automotive Website Development That Delivers Results"
-        }
+        alt={"Automotive Website Development That Delivers Results"}
         heding={"Automotive Website Development That Delivers Results"}
         subheding={
           "We build automotive websites that drive real business growth in the UAE’s fast-paced digital market. Each project focuses on usability, performance, and brand presence- creating a strong first impression while guiding visitors toward meaningful actions."
@@ -153,18 +152,17 @@ const page = () => {
                             `}
       />
       <CommonProtfolio />
-      
+
       <DevelopmentServices />
 
-          <CommonCostBreakdown
+      <CommonCostBreakdown
         heading="Automotive Website Design Dubai- Cost Breakdown"
         description="Choose automotive website design and development solution designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
+      <IndustryGrid />
 
       <CommonWhyWebsiteDevelopment
-        heding={
-          "From Showrooms to Rentals: Automotive Websites We Build"
-        }
+        heding={"From Showrooms to Rentals: Automotive Websites We Build"}
         subheding={
           "In today’s UAE automotive market, a professional, feature-rich website is essential for connecting with buyers, renters, and car enthusiasts. We design customised digital solutions that combine aesthetics, usability, and functionality."
         }

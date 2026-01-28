@@ -42,6 +42,7 @@ import LocationService from "../../component/pages/common/LocationService";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -49,9 +50,7 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         alt={"Dentist Web Design Agency in Dubai, UAE"}
-        heding={
-          "Dentist Web Design Agency in Dubai, UAE"
-        }
+        heding={"Dentist Web Design Agency in Dubai, UAE"}
         subtitle={
           "We build dental clinic websites that increase visibility, attract more patients, and make <br>appointment booking easy. Our websites help clinics in Dubai, UAE stand out and grow online."
         }
@@ -73,8 +72,11 @@ const page = () => {
         alt2={"Dental Web Development Company UAE - Website Development Agency"}
       />
 
-      <DemoTemplate title="Dental Website Designs- Explore Templates" description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today." activetaburl={"healthcare"} />
-
+      <DemoTemplate
+        title="Dental Website Designs- Explore Templates"
+        description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today."
+        activetaburl={"healthcare"}
+      />
 
       <CommonIndustries
         heding={"Dentist Website Design in Dubai, UAE- Our Services"}
@@ -131,7 +133,7 @@ const page = () => {
         ]}
       />
 
-            <CommonWhyMetter
+      <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         alt={
           "Trusted Dental Website Design for UAE Clinics - Website Development Agency"
@@ -147,14 +149,14 @@ const page = () => {
                             `}
       />
       <CommonProtfolio />
-      
+
       <DevelopmentServices />
 
-            <CommonCostBreakdown
+      <CommonCostBreakdown
         heading="Dental Website Design Dubai- Cost Breakdown"
         description="Choose dental website design and development solutions designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
-
+      <IndustryGrid />
 
       <CommonWhyWebsiteDevelopment
         heding={"Dental Website Solutions for Every Type of Practice"}

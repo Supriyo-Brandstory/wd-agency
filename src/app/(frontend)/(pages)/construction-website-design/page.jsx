@@ -27,6 +27,7 @@ import Team from "../../component/pages/about/Team";
 import LocationService from "../../component/pages/common/LocationService";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -128,11 +129,9 @@ const page = () => {
           },
         ]}
       />
-            <CommonWhyMetter
+      <CommonWhyMetter
         imagewhymetter={imagewhymetter}
-        alt={
-          "Construction Builder Web Design Services for UAE Businesses"
-        }
+        alt={"Construction Builder Web Design Services for UAE Businesses"}
         heding={"Construction Builder Web Design Services for UAE Businesses"}
         subheding={
           "Choosing the right website design partner can directly influence how your construction or building business is perceived online. In the UAE’s competitive market, your website must clearly present your expertise, completed projects, and service strengths."
@@ -152,11 +151,10 @@ const page = () => {
         heading="Construction Website Design Dubai- Cost Breakdown"
         description="Choose construction website design and development solutions designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
+      <IndustryGrid />
 
       <CommonWhyWebsiteDevelopment
-        heding={
-          "Website Design for Construction Businesses Across UAE"
-        }
+        heding={"Website Design for Construction Businesses Across UAE"}
         subheding={
           "Every construction business operates differently, which is why a one-size-fits-all website never works. We design construction websites that reflect the specific nature of your services, projects, and target clients- ensuring your expertise is presented clearly and professionally across the UAE market."
         }

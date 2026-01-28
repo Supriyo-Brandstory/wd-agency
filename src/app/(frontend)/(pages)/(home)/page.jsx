@@ -48,7 +48,7 @@ const page = () => {
       <WebDesignApproach />
       <LocationService activeLocation="dubai" />
       <OurJourney />
-      <CommonBlogSlider category="In esse aut minima" />
+      <CommonBlogSlider />
       <FaqSection />
       <CtaSection />
     </div>

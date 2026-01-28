@@ -48,6 +48,7 @@ import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonBlogSlider from "../../component/pages/common/CommonBlogSlider";
 
 const page = () => {
   return (
@@ -465,6 +466,7 @@ const page = () => {
       <CommonClientTestimonials />
 
       <LocationService activeLocation="dubai" />
+      <CommonBlogSlider category="e-commerce website" />
 
       <CommonFaqSection
         faqs={[

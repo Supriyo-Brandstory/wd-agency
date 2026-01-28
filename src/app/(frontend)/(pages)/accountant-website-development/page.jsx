@@ -28,6 +28,7 @@ import Team from "../../component/pages/about/Team";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import LocationService from "../../component/pages/common/LocationService";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 const page = () => {
   return (
     <>
@@ -129,9 +130,7 @@ const page = () => {
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
-        alt={
-          "Best Accounting Website Design for UAE Businesses"
-        }
+        alt={"Best Accounting Website Design for UAE Businesses"}
         heding={"Professional Websites for Accounting Firms in Dubai"}
         subheding={
           "We develop custom websites exclusively for accounting firms and financial professionals operating in the UAE. Every project is designed to reflect accuracy, professionalism, and trust- qualities clients expect when choosing an accountant. Our focus goes beyond visuals, ensuring the website functions as a practical business tool, not just a digital brochure."
@@ -142,20 +141,18 @@ const page = () => {
         righttext={`<p><b>Built for Performance and Growth:</b> Every website is developed to load fast, adapt smoothly across devices, and scale as your firm grows. Mobile-friendly layouts, structured navigation, and future-ready architecture ensure your website continues to support new services, expanding teams, and increasing client demand without needing a complete rebuild.</p>
                             `}
       />
-      
+
       <CommonProtfolio />
-      
 
       <DevelopmentServices />
       <CommonCostBreakdown
         heading="Accountant Website Design Dubai- Cost Breakdown"
         description="Choose CPA website design and development solution designed to strengthen your professional image and support sustainable growth in the UAE."
       />
-      
+      <IndustryGrid />
+
       <CommonWhyWebsiteDevelopment
-        heding={
-          "Accountant Website Design Services Tailored for Dubai Firms"
-        }
+        heding={"Accountant Website Design Services Tailored for Dubai Firms"}
         subheding={
           "We create strategically designed websites for chartered accountants and accounting firms across the UAE, built to convey trust and professional authority. Every website is tailored to reflect the standards expected in the financial sector, helping firms establish a credible digital identity."
         }
