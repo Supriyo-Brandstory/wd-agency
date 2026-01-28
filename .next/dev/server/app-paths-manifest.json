@@ -1,8 +1,8 @@
 {
   "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
-  "/(frontend)/(pages)/accountant-website-development/page": "app/(frontend)/(pages)/accountant-website-development/page.js",
-  "/(frontend)/(pages)/automotive-website-development/page": "app/(frontend)/(pages)/automotive-website-development/page.js",
-  "/(frontend)/(pages)/construction-website-design/page": "app/(frontend)/(pages)/construction-website-design/page.js",
-  "/(frontend)/(pages)/expert-dentist-website-development/page": "app/(frontend)/(pages)/expert-dentist-website-development/page.js",
+  "/(frontend)/(pages)/corporate-web-development/page": "app/(frontend)/(pages)/corporate-web-development/page.js",
+  "/(frontend)/(pages)/healthcare-web-development/page": "app/(frontend)/(pages)/healthcare-web-development/page.js",
+  "/(frontend)/(pages)/portfolio-web-development/page": "app/(frontend)/(pages)/portfolio-web-development/page.js",
+  "/(frontend)/(pages)/technology-web-development/page": "app/(frontend)/(pages)/technology-web-development/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }

@@ -46,6 +46,7 @@ import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.modu
 import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -63,7 +64,6 @@ const page = () => {
       <SubNav
         title="Travel Agency"
         items={[
-          
           {
             name: "WooCommerce",
             link: "/platforms/woo-commerce-website-development",
@@ -297,6 +297,7 @@ const page = () => {
         heading="Travel Agency Website Design Cost Breakdown"
         description="Select the best travel business design and Development package based on the features, performance, and growth level you need."
       />
+      <IndustryGrid />
 
       <CommonDevelopmentProcess
         heding={"Our Travel Website Development Process"}

@@ -40,6 +40,7 @@ import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -90,7 +91,11 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Healthcare Website Development Company in Dubai - Website Development Agency"
       />
-      <DemoTemplate title="Healthcare Website Designs- Explore Templates" description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today." activetaburl={"healthcare"} />
+      <DemoTemplate
+        title="Healthcare Website Designs- Explore Templates"
+        description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today."
+        activetaburl={"healthcare"}
+      />
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
@@ -106,7 +111,6 @@ const page = () => {
                             `}
       />
 
-      
       <CommonIndustries
         heding={"Our Healthcare Website Development Services"}
         subheding="At Website Development Agency, we don’t just build websites, we develop powerful healthcare platforms that enhance patient experiences, streamline operations, and search engine friendly. Our specialized services include:"
@@ -244,6 +248,7 @@ const page = () => {
         heading="Healthcare Website Design Cost Breakdown"
         description="Select the best healthcare website design and Development package based on the features, performance, and growth level you need."
       />
+      <IndustryGrid />
 
       <CommonDevelopmentProcess
         heding={"Our Healthcare Website Development Process"}

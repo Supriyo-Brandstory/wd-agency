@@ -44,6 +44,7 @@ import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.modu
 import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -71,8 +72,11 @@ const page = () => {
           { name: "NodeJS", link: "/platforms/nodejs-website-development" },
           { name: "Angular", link: "/platforms/angular-website-development" },
           { name: "Drupal", link: "/platforms/drupal-website-development" },
-	        { name: "Shopify", link: "/platforms/shopify-website-development" },
-          { name: "WooCommerce", link: "/platforms/woo-commerce-website-development" },
+          { name: "Shopify", link: "/platforms/shopify-website-development" },
+          {
+            name: "WooCommerce",
+            link: "/platforms/woo-commerce-website-development",
+          },
         ]}
       />
       <CommonIntroduction
@@ -253,6 +257,7 @@ const page = () => {
         heading="Portfolio Website Design Cost Breakdown"
         description="Select the best portfolio website design and Development package based on the features, performance, and growth level you need."
       />
+      <IndustryGrid />
 
       <CommonDevelopmentProcess
         heding={"Our Website Development Process"}
