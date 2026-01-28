@@ -1,0 +1,65 @@
+{
+  "node": {
+    "703ebbc64012a736a38237f75aa2b26aa70f82d78b": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog-category/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "createBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "786300a649d01a657e10676556219be3833b2e3f27": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog-category/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "updateBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "4070e426e958dbb752c4edb660f948d8c1b7a14838": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog-category/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "deleteBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "00ce597c71da31b49be37e5bb41eefdaf6cda79b50": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog-category/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}
