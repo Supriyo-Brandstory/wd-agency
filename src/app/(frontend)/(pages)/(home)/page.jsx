@@ -14,11 +14,10 @@ import FaqSection from "../../component/pages/home/FaqSection";
 import CtaSection from "../../component/pages/home/CtaSection";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
-
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import LocationService from "../../component/pages/common/LocationService";
 
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import CommonBlogSlider from "../../component/pages/common/CommonBlogSlider";
 const page = () => {
   return (
     <div>
@@ -47,9 +46,9 @@ const page = () => {
 
       <Webexperiences />
       <WebDesignApproach />
-      <CommonIndustries />
       <LocationService activeLocation="dubai" />
       <OurJourney />
+      <CommonBlogSlider category="In esse aut minima" />
       <FaqSection />
       <CtaSection />
     </div>

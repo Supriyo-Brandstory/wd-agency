@@ -1,5 +1,9 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/healthcare-web-development/page.js")
+<<<<<<< HEAD
 R.c("server/chunks/ssr/[root-of-the-server]__8a1cb29a._.js")
+=======
+R.c("server/chunks/ssr/[root-of-the-server]__e0e3c0df._.js")
+>>>>>>> supriyo
 R.c("server/chunks/ssr/node_modules_next_dist_c3937347._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_7381059c._.js")
 R.c("server/chunks/ssr/[externals]__7f148858._.js")

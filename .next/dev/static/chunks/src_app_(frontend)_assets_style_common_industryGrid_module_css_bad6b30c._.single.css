@@ -1,0 +1,98 @@
+/* [project]/src/app/(frontend)/assets/style/common/industryGrid.module.css [app-client] (css) */
+.industryGrid-module__oiHqDG__section {
+  color: #fff;
+  font-family: var(--font-secondary);
+  padding: 100px 0;
+}
+
+.industryGrid-module__oiHqDG__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.industryGrid-module__oiHqDG__header {
+  margin-bottom: 60px;
+}
+
+.industryGrid-module__oiHqDG__title {
+  font-family: var(--font-primary);
+  background: linear-gradient(90deg, #fff 0%, #aaa 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.industryGrid-module__oiHqDG__description {
+  max-width: 800px;
+}
+
+.industryGrid-module__oiHqDG__grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 30px;
+  display: grid;
+}
+
+.industryGrid-module__oiHqDG__item {
+  transition: transform .3s;
+}
+
+.industryGrid-module__oiHqDG__item:hover {
+  transform: translateY(-5px);
+}
+
+.industryGrid-module__oiHqDG__linkWrapper {
+  align-items: flex-start;
+  gap: 15px;
+  display: flex;
+  text-decoration: none !important;
+}
+
+.industryGrid-module__oiHqDG__iconWrapper {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.industryGrid-module__oiHqDG__icon {
+  stroke: #e83f8d;
+  stroke-width: 1.5px;
+  width: 100%;
+  height: 100%;
+}
+
+.industryGrid-module__oiHqDG__industryName {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media (max-width: 1024px) {
+  .industryGrid-module__oiHqDG__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .industryGrid-module__oiHqDG__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .industryGrid-module__oiHqDG__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .industryGrid-module__oiHqDG__grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_industryGrid_module_css_bad6b30c._.single.css.map*/

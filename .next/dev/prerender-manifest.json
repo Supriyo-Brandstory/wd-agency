@@ -4,8 +4,14 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
+<<<<<<< HEAD
     "previewModeId": "9f1345029975e9e68250c961400dc89b",
     "previewModeSigningKey": "70d17c6cc4a198d0535536ad66b2c899bf210b4ac118d396a05c35b8f363a341",
     "previewModeEncryptionKey": "45dc1d082f362b4a1743512d7d18cef9b4e8ab149ed0b85f8dbbdfaabfa4dd63"
+=======
+    "previewModeId": "58c4d4e862ff5e9af23ea6aba23a2005",
+    "previewModeSigningKey": "c851da0c7e78215ba03a01e2e8398794434897e9e9a991a97648905196f5c373",
+    "previewModeEncryptionKey": "740e50581101685fad87b53961809c5c9644bb841013c70fcc14ebacd9b8c49d"
+>>>>>>> supriyo
   }
 }

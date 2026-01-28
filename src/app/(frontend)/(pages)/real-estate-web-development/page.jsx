@@ -38,6 +38,7 @@ import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -92,7 +93,11 @@ const page = () => {
           "Real Estate Website Development Company in UAE - Website Development Agency"
         }
       />
-      <DemoTemplate title="Real Estate Website Designs- Explore Templates" description="Affordable real estate website design in Dubai, starting at AED 1,500. Launch your property website quickly <br>with modern, responsive designs. Get fast delivery today." activetaburl={"real-estate"} />
+      <DemoTemplate
+        title="Real Estate Website Designs- Explore Templates"
+        description="Affordable real estate website design in Dubai, starting at AED 1,500. Launch your property website quickly <br>with modern, responsive designs. Get fast delivery today."
+        activetaburl={"real-estate"}
+      />
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
         alt={"Elevate Your Property Business with a Website That Sells"}
@@ -240,10 +245,10 @@ const page = () => {
         heading="Real Estate Website Cost Breakdown"
         description="Select the best real estate website design and Development package based on the features, performance, and growth level you need."
       />
+      <IndustryGrid />
 
       <DevelopmentServices />
 
-      
       <CommonWhyWebsiteDevelopment
         heding={"Designed for Every Role in the UAE Real Estate Market"}
         subheding={
@@ -274,7 +279,6 @@ const page = () => {
       />
 
       <CommonProtfolio />
-      
 
       <CommonClientTestimonials
         testimonials={[

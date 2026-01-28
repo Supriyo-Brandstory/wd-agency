@@ -54,7 +54,7 @@ async function verifyAdmin() {
 "[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"00bea154a5ecba98fe5883a3b43100a24949440bc9":"getBlogs","40047e19a7d1e2b74d8403c7abb5419a1bbcc2a40f":"createBlog","406bc78f87d6d8063bdf32d06ec471bb454798822f":"updateBlog","40aa833d3db0b00b297296508b743eaec11872de71":"getBlogBySlug","40b3c9af10d4e6f70a13174730803f0ba4deaa04f2":"deleteBlog","60f82598000913301b7f13665ba3ec2f1d4b8ba966":"getPaginatedBlogsByCategory"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00bea154a5ecba98fe5883a3b43100a24949440bc9":"getBlogs","40047e19a7d1e2b74d8403c7abb5419a1bbcc2a40f":"createBlog","406bc78f87d6d8063bdf32d06ec471bb454798822f":"updateBlog","40aa833d3db0b00b297296508b743eaec11872de71":"getBlogBySlug","40b3c9af10d4e6f70a13174730803f0ba4deaa04f2":"deleteBlog","60a03e69c1f0c2ee6109860bde09fe56fbf9230b8a":"getLatestBlogs","60f82598000913301b7f13665ba3ec2f1d4b8ba966":"getPaginatedBlogsByCategory"},"",""] */ __turbopack_context__.s([
     "createBlog",
     ()=>createBlog,
     "deleteBlog",
@@ -63,6 +63,8 @@ async function verifyAdmin() {
     ()=>getBlogBySlug,
     "getBlogs",
     ()=>getBlogs,
+    "getLatestBlogs",
+    ()=>getLatestBlogs,
     "getPaginatedBlogsByCategory",
     ()=>getPaginatedBlogsByCategory,
     "updateBlog",
@@ -345,6 +347,32 @@ async function getBlogBySlug(slug) {
         throw new Error(`Failed to fetch blog by slug: ${error.message}`);
     }
 }
+async function getLatestBlogs(category = null, limit = 10) {
+    try {
+        const where = {};
+        if (category) {
+            where.category = {
+                name: {
+                    equals: category
+                }
+            };
+        }
+        const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+            where,
+            include: {
+                category: true
+            },
+            orderBy: {
+                id: "desc"
+            },
+            take: limit
+        });
+        return blogs;
+    } catch (error) {
+        console.error("Error fetching latest blogs:", error);
+        return [];
+    }
+}
 ;
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
     createBlog,
@@ -352,7 +380,8 @@ async function getBlogBySlug(slug) {
     deleteBlog,
     getBlogs,
     getPaginatedBlogsByCategory,
-    getBlogBySlug
+    getBlogBySlug,
+    getLatestBlogs
 ]);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createBlog, "40047e19a7d1e2b74d8403c7abb5419a1bbcc2a40f", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateBlog, "406bc78f87d6d8063bdf32d06ec471bb454798822f", null);
@@ -360,6 +389,7 @@ async function getBlogBySlug(slug) {
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogs, "00bea154a5ecba98fe5883a3b43100a24949440bc9", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getPaginatedBlogsByCategory, "60f82598000913301b7f13665ba3ec2f1d4b8ba966", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogBySlug, "40aa833d3db0b00b297296508b743eaec11872de71", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getLatestBlogs, "60a03e69c1f0c2ee6109860bde09fe56fbf9230b8a", null);
 }),
 "[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

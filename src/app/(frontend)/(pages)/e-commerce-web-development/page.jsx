@@ -47,6 +47,7 @@ import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
 
 const page = () => {
   return (
@@ -95,7 +96,11 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Ecommerce Web Development Company in UAE - Website Development Agency"
       />
-      <DemoTemplate title="eCommerce Website Designs- Explore Templates" description="Affordable eCommerce website design in Dubai, starting at AED 2,500. Launch your online <br>store quickly with modern, responsive designs. Get fast delivery today."activetaburl={"ecommerce"} />
+      <DemoTemplate
+        title="eCommerce Website Designs- Explore Templates"
+        description="Affordable eCommerce website design in Dubai, starting at AED 2,500. Launch your online <br>store quickly with modern, responsive designs. Get fast delivery today."
+        activetaburl={"ecommerce"}
+      />
 
       <CommonWhyMetter
         imagewhymetter={imagewhymetter}
@@ -426,6 +431,7 @@ const page = () => {
         heading="E-commerce Website Design Cost Breakdown"
         description="Select the best e-commerce website design and Development package based on the features, performance, and growth level you need."
       />
+      <IndustryGrid />
 
       <CommonAboutPage
         text1={"Looking for In-house E-commerce Experts in Dubai?"}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [00:00:02.623] Server  LOG     ✓ Ready in 2s
 [00:00:05.693] Server  LOG     ○ Compiling / ...
 [00:00:25.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
@@ -5,6 +6,50 @@
 [00:00:34.826] Server  LOG     ○ Compiling /accountant-website-development ...
 [00:02:55.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:02:56.677] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+=======
+[00:00:00.964] Server  LOG     ✓ Ready in 764ms
+[00:00:01.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.303] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:945:154
+
+  942         }
+  943     };
+  944 }
+→ 945 const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            name: {
+              equals: "Sequi debitis mollit",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        include: {
+          category: true
+        },
+        orderBy: {
+          id: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:00:02.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.808] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+>>>>>>> supriyo
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -14,6 +59,7 @@
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
+<<<<<<< HEAD
 https://react.dev/link/hydration-mismatch
 
   ...
@@ -55,6 +101,79 @@ https://react.dev/link/hydration-mismatch
 
 [00:35:40.091] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:35:40.778] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+=======
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_473c8458-6515-4b2e-bdce-cf07f2eced6b__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:00:03.286] Browser WARN    Image with src "/_next/static/media/faqdownarrow.29b60f0d.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:29.847] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.161] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:945:154
+
+  942         }
+  943     };
+  944 }
+→ 945 const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            name: {
+              equals: "Sequi debitis mollit",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        include: {
+          category: true
+        },
+        orderBy: {
+          id: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:00:40.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.935] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+>>>>>>> supriyo
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -64,6 +183,7 @@ https://react.dev/link/hydration-mismatch
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
+<<<<<<< HEAD
 https://react.dev/link/hydration-mismatch
 
   ...
@@ -509,3 +629,235 @@ https://react.dev/link/hydration-mismatch
 [04:26:53.594] Browser LOG     Looking for tab: healthcare
 [04:26:53.594] Browser LOG     Available categories: ["all"]
 [04:26:53.594] Browser LOG     Matched category: undefined
+=======
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<SegmentViewNode>} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin/das..." tree={[...]} params={{}} cacheNode={{...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <RootLayout>
+                            <html lang="en">
+                              <head>
+                              <body
+                                className="antialiased"
+-                               __processed_15d3ea45-5bcf-41e2-bcbb-acda7e80fa4c__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                      ...
+          ...
+
+[00:00:59.821] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:945:154
+
+  942         }
+  943     };
+  944 }
+→ 945 const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            name: {
+              equals: "\tIn esse aut minima",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        include: {
+          category: true
+        },
+        orderBy: {
+          id: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:01:03.174] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:945:154
+
+  942         }
+  943     };
+  944 }
+→ 945 const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            name: {
+              equals: "In esse aut minima",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        include: {
+          category: true
+        },
+        orderBy: {
+          id: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:01:40.433] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:945:154
+
+  942         }
+  943     };
+  944 }
+→ 945 const blogs = await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            name: {
+              equals: "In esse aut minima",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        include: {
+          category: true
+        },
+        orderBy: {
+          id: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:08:38.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:39.717] Browser WARN    Image with src "/_next/static/media/faqdownarrow.29b60f0d.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:00.630] Server  LOG     ✓ Compiled in 56ms
+[00:09:55.625] Server  LOG     ✓ Compiled in 0ms
+[00:10:03.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:03.584] Server  ERROR   Error fetching latest blogs: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany()` invocation in
+/Users/supriyokumardey/Herd/office/websitedevelopmentagency/.next/dev/server/chunks/ssr/[root-of-the-server]__d3457707._.js:944:147
+
+  941         }
+  942     }
+  943 } : {};
+→ 944 return await __TURBOPACK__imported__module__$5b$project$5d2f$prisma$2f$db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].blog.findMany({
+        where: {
+          category: {
+            slug: {
+              equals: "In esse aut minima",
+              mode: "insensitive",
+              ~~~~
+      ?       in?: String[],
+      ?       notIn?: String[],
+      ?       lt?: String | StringFieldRefInput,
+      ?       lte?: String | StringFieldRefInput,
+      ?       gt?: String | StringFieldRefInput,
+      ?       gte?: String | StringFieldRefInput,
+      ?       contains?: String | StringFieldRefInput,
+      ?       startsWith?: String | StringFieldRefInput,
+      ?       endsWith?: String | StringFieldRefInput,
+      ?       search?: String,
+      ?       not?: String | NestedStringFilter
+            }
+          }
+        },
+        select: {
+          id: true,
+          title: true,
+          slug: true,
+          image: true,
+          createdAt: true,
+          category: {
+            select: {
+              name: true,
+              slug: true
+            }
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        },
+        take: 10
+      })
+
+Unknown argument `mode`. Did you mean `lte`? Available options are marked with ?.
+[00:10:04.088] Browser WARN    Image with src "/_next/static/media/faqdownarrow.29b60f0d.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:15.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+>>>>>>> supriyo
+[00:18:28.250] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:28.319] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:28.707] Server  LOG     ✓ Compiled in 815ms
+[00:18:29.021] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.054] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.116] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.135] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.168] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.192] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.205] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.219] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.237] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.268] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.281] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.295] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.312] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.338] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.350] Server  ERROR   ⨯ SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.379] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.402] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.413] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.440] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.452] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.463] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.487] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.498] Server  ERROR   SyntaxError: Expected double-quoted property name in JSON at position 80 (line 3 column 1)
+[00:18:29.524] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.537] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.571] Server  ERROR   ⨯ SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.589] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)
+[00:18:29.607] Server  ERROR   SyntaxError: Expected property name or '}' in JSON at position 96 (line 7 column 1)

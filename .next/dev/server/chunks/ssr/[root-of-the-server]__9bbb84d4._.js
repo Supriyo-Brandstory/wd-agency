@@ -48,7 +48,11 @@ async function verifyAdmin() {
 "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+<<<<<<< HEAD
 /* __next_internal_action_entry_do_not_use__ [{"006c9008c8e0a18e1fdef28053e70183bd3d0e6c91":"getSeoData","40389a600e499404c4654746b9342bb1286133fa92":"getSeoDataByPageUrl","405bf0cb3a4f4d104ffb37002300115312d4028c18":"createSeoData","4082820f812195e2e69eb5090ed8db5411b226ade8":"deleteSeoData","604a65919a4c41b75d973c40571e0bcde049aa4b05":"updateSeoData"},"",""] */ __turbopack_context__.s([
+=======
+/* __next_internal_action_entry_do_not_use__ [{"00f5a90bbe95bbc1386e71a2055e0e11a370a9925d":"getSeoData","4046cb4c88b8da1519e31c6aeeb4cbddf9f944b6cd":"deleteSeoData","4060b558206262359b1df92eb843450dd059604426":"createSeoData","4082d0ba56d95febab8903836ceccb9675d79a3479":"getSeoDataByPageUrl","60c2a985eab0fe454d4604ef401ea015f028c94c47":"updateSeoData"},"",""] */ __turbopack_context__.s([
+>>>>>>> supriyo
     "createSeoData",
     ()=>createSeoData,
     "deleteSeoData",
@@ -141,11 +145,19 @@ async function deleteSeoData(id) {
     updateSeoData,
     deleteSeoData
 ]);
+<<<<<<< HEAD
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "006c9008c8e0a18e1fdef28053e70183bd3d0e6c91", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "40389a600e499404c4654746b9342bb1286133fa92", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "405bf0cb3a4f4d104ffb37002300115312d4028c18", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "604a65919a4c41b75d973c40571e0bcde049aa4b05", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "4082820f812195e2e69eb5090ed8db5411b226ade8", null);
+=======
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "00f5a90bbe95bbc1386e71a2055e0e11a370a9925d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "4082d0ba56d95febab8903836ceccb9675d79a3479", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "4060b558206262359b1df92eb843450dd059604426", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "60c2a985eab0fe454d4604ef401ea015f028c94c47", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "4046cb4c88b8da1519e31c6aeeb4cbddf9f944b6cd", null);
+>>>>>>> supriyo
 }),
 "[externals]/fs [external] (fs, cjs)", ((__turbopack_context__, module, exports) => {
 
@@ -168,7 +180,11 @@ module.exports = mod;
 "[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+<<<<<<< HEAD
 /* __next_internal_action_entry_do_not_use__ [{"005d90c992fd7019f74c7a8aaacabbb8149b9590ea":"getTemplates","0091fc28f6eaf3e1c981145253d3e0511d370ca843":"getAllTemplatesAdmin","403a7a4273c2570ac95d147d828837dfd57dbe9e49":"getTemplateBySlug","404bdf2ff8fd5bbb10ce42dfd3c53ae5c005b95843":"createTemplate","40bab47266e6f6d253e16457f99a7dbc2149772891":"deleteTemplate","40dd25653155f4669fb8d333dbf7d80ca26aad607f":"getTemplatesByCategory","40fe5d3d697d03ddcaef586b02b9cffd57781ed55d":"updateTemplate","7050c10d12fb833c57a8e76c728119c357e07d7a10":"getTemplatesPaginated"},"",""] */ __turbopack_context__.s([
+=======
+/* __next_internal_action_entry_do_not_use__ [{"001e5696105d898a7038d8376ba158d1176c3ae941":"getAllTemplatesAdmin","00e15c594be3219b7917b1808bd336b5aaea2bb73b":"getTemplates","4014c079b65131a7c79d5655584be525393c347dc2":"getTemplateBySlug","4041cbb1f05dc6bf943dec80f20a53f5fad22db6dc":"deleteTemplate","4057fd819ee42e4d9aaec60c5cf8df99f1abbc961c":"createTemplate","405ccc0d7c24b692cac3d361c6581a72b26eda7b9c":"getTemplatesByCategory","40bf71708a9c6b493191bdf4f5584769fcc03b9231":"updateTemplate","704e3ec02e8da85247d6c23b7ab579a439e334903f":"getTemplatesPaginated"},"",""] */ __turbopack_context__.s([
+>>>>>>> supriyo
     "createTemplate",
     ()=>createTemplate,
     "deleteTemplate",
@@ -522,6 +538,7 @@ async function getTemplatesPaginated(page = 1, limit = 12, categorySlug = null) 
     getTemplatesByCategory,
     getTemplatesPaginated
 ]);
+<<<<<<< HEAD
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplate, "404bdf2ff8fd5bbb10ce42dfd3c53ae5c005b95843", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplate, "40fe5d3d697d03ddcaef586b02b9cffd57781ed55d", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplate, "40bab47266e6f6d253e16457f99a7dbc2149772891", null);
@@ -530,11 +547,25 @@ async function getTemplatesPaginated(page = 1, limit = 12, categorySlug = null) 
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateBySlug, "403a7a4273c2570ac95d147d828837dfd57dbe9e49", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesByCategory, "40dd25653155f4669fb8d333dbf7d80ca26aad607f", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesPaginated, "7050c10d12fb833c57a8e76c728119c357e07d7a10", null);
+=======
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplate, "4057fd819ee42e4d9aaec60c5cf8df99f1abbc961c", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplate, "40bf71708a9c6b493191bdf4f5584769fcc03b9231", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplate, "4041cbb1f05dc6bf943dec80f20a53f5fad22db6dc", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplates, "00e15c594be3219b7917b1808bd336b5aaea2bb73b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getAllTemplatesAdmin, "001e5696105d898a7038d8376ba158d1176c3ae941", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateBySlug, "4014c079b65131a7c79d5655584be525393c347dc2", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesByCategory, "405ccc0d7c24b692cac3d361c6581a72b26eda7b9c", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesPaginated, "704e3ec02e8da85247d6c23b7ab579a439e334903f", null);
+>>>>>>> supriyo
 }),
 "[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+<<<<<<< HEAD
 /* __next_internal_action_entry_do_not_use__ [{"00f64ec5ec789e7ea209b8a44be1b643a6aa5958c4":"getTemplateCategories","40612a2fe26101a23c0d4449ea598b473abc9f469d":"deleteTemplateCategory","6001a735c57282b0c6c580363df74957639f4d5044":"createTemplateCategory","709cf3e57022c2a5a5889434478b66599c77a7a363":"updateTemplateCategory"},"",""] */ __turbopack_context__.s([
+=======
+/* __next_internal_action_entry_do_not_use__ [{"00d915cc87716c5f39f0974d0a44995b6e42fc9c74":"getTemplateCategories","4065d4cb78183fb7be215fc43a1b11213e2c46dbe8":"deleteTemplateCategory","609ce8791a65204dcac646b0772e102b1a11ed00e2":"createTemplateCategory","7089e587f96a9144d39509995f2ce6e88c90907ce9":"updateTemplateCategory"},"",""] */ __turbopack_context__.s([
+>>>>>>> supriyo
     "createTemplateCategory",
     ()=>createTemplateCategory,
     "deleteTemplateCategory",
@@ -630,10 +661,17 @@ async function getTemplateCategories() {
     deleteTemplateCategory,
     getTemplateCategories
 ]);
+<<<<<<< HEAD
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplateCategory, "6001a735c57282b0c6c580363df74957639f4d5044", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplateCategory, "709cf3e57022c2a5a5889434478b66599c77a7a363", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplateCategory, "40612a2fe26101a23c0d4449ea598b473abc9f469d", null);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateCategories, "00f64ec5ec789e7ea209b8a44be1b643a6aa5958c4", null);
+=======
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplateCategory, "609ce8791a65204dcac646b0772e102b1a11ed00e2", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplateCategory, "7089e587f96a9144d39509995f2ce6e88c90907ce9", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplateCategory, "4065d4cb78183fb7be215fc43a1b11213e2c46dbe8", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateCategories, "00d915cc87716c5f39f0974d0a44995b6e42fc9c74", null);
+>>>>>>> supriyo
 }),
 "[project]/.next-internal/server/app/(frontend)/(pages)/healthcare-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
@@ -650,11 +688,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashb
 "use strict";
 
 __turbopack_context__.s([
+<<<<<<< HEAD
     "005d90c992fd7019f74c7a8aaacabbb8149b9590ea",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplates"],
     "00f64ec5ec789e7ea209b8a44be1b643a6aa5958c4",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplateCategories"],
     "40389a600e499404c4654746b9342bb1286133fa92",
+=======
+    "00d915cc87716c5f39f0974d0a44995b6e42fc9c74",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplateCategories"],
+    "00e15c594be3219b7917b1808bd336b5aaea2bb73b",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplates"],
+    "4082d0ba56d95febab8903836ceccb9675d79a3479",
+>>>>>>> supriyo
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getSeoDataByPageUrl"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f2e$next$2d$internal$2f$server$2f$app$2f28$frontend$292f28$pages$292f$healthcare$2d$web$2d$development$2f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE1__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE2__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/.next-internal/server/app/(frontend)/(pages)/healthcare-web-development/page/actions.js { ACTIONS_MODULE0 => "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE1 => "[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE2 => "[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');
