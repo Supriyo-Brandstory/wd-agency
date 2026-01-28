@@ -1,0 +1,20 @@
+{
+  "node": {
+    "4088157ca6403a3b3b9dfed694810b5df237986187": {
+      "workers": {
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/accountant-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/accountant-website-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

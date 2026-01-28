@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(frontend)/layout,_N_T_/(frontend)/(pages)/layout,_N_T_/(frontend)/(pages)/case-studies/layout,_N_T_/(frontend)/(pages)/case-studies/kshemavana/layout,_N_T_/(frontend)/(pages)/case-studies/kshemavana/page,_N_T_/case-studies/kshemavana"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/case-studies/kshemavana/__PAGE__",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/case-studies/kshemavana",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/case-studies",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ",
+    "/!KGZyb250ZW5kKQ",
+    "/_index",
+    "/_head"
+  ]
+}

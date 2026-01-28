@@ -1,0 +1,80 @@
+{
+  "node": {
+    "400e7973102bdf72423f2e5a4e803d54a7cde72f81": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "createBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "40460c91263df75dead43b7319866d58de6823e950": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "updateBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "40cb92b4c2521dddd0b7481ae5325b7c1dde9f326f": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "deleteBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "0063c7960838de4a50c7fd4ec3b15be63687b05ac3": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "getBlogs",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "0007b55a6250cbb0e4ca4e6883079844013db42f72": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/blog/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/blog-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}
