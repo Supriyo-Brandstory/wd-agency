@@ -1,9 +1,9 @@
 {
   "node": {
-    "4082d0ba56d95febab8903836ceccb9675d79a3479": {
+    "40389a600e499404c4654746b9342bb1286133fa92": {
       "workers": {
         "app/(frontend)/(pages)/automotive-website-development/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/automotive-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/automotive-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -14,21 +14,6 @@
       },
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "4077c5a4c33e7e0b1017dad1e6e18c9d357794a878": {
-      "workers": {
-        "app/(frontend)/(pages)/automotive-website-development/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/automotive-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createEnquiry",
-          "filename": "src/app/admin/dashboard/enquiry/action.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/automotive-website-development/page": "action-browser"
-      },
-      "exportedName": "createEnquiry",
-      "filename": "src/app/admin/dashboard/enquiry/action.js"
     }
   },
   "edge": {}

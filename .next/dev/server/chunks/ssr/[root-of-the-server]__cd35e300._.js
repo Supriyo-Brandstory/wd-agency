@@ -1495,18 +1495,18 @@ const page = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonBanner2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 bg: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$banner$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$banner$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Expert Dentist Website Development Dubai - Attract More Patients",
-                heding: "Expert Dentist Website Development Dubai - Attract More Patients",
-                subtitle: "Discover specialized web development services tailored for dental practices in Dubai. We focus on creating a powerful online presence that not only attracts new patients but also streamlines operations and enhances patient engagement."
+                alt: "Dentist Web Design Agency in Dubai, UAE",
+                heding: "Dentist Web Design Agency in Dubai, UAE",
+                subtitle: "We build dental clinic websites that increase visibility, attract more patients, and make <br>appointment booking easy. Our websites help clinics in Dubai, UAE stand out and grow online."
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
                 lineNumber: 45,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIntroduction$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Dentist Website Design Development",
+                heding: "Dentist Website Design & Development",
                 text1: ` <p>In Dubai’s fast‑growing healthcare and dental services market, patients increasingly rely on online research to find trusted dental professionals. A professional, well‑structured website serves as the digital front door for your practice, helping you attract new patients, explain treatment offerings, and communicate your clinic’s values clearly and confidently to a diverse local and expatriate population.</p>
-                 <p>Today’s dental patients expect informative, easy‑to‑navigate websites that provide clear service details, professional profiles, and seamless appointment scheduling. With many clinics vying for attention in areas like JLT, Downtown, and Al Barsha, strong online visibility through a purpose‑built website helps your practice stand out in local searches and convert visitors into booked appointments.</p>
+                 <p>Today’s dental patients expect informative, easy‑to‑navigate websites that provide clear service details, professional profiles, and seamless appointment scheduling. With many clinics vying for attention, strong online visibility through a purpose‑built website helps your practice stand out in local searches and convert visitors into booked appointments.</p>
                     `,
                 text2: `  <p>A modern dental website not only showcases services such as preventive care, cosmetic dentistry, orthodontics, and implants but also builds trust through features like team bios, patient testimonials, treatment galleries, and educational content. Integration of secure online forms for bookings and inquiries enhances patient convenience and simplifies clinic workflows.</p>
                 <p><a href='/'>Website Development Agency</a> specializes in creating high‑impact dental websites tailored for Dubai’s healthcare landscape. We design responsive, SEO‑optimized platforms that highlight your clinic’s expertise, bolster online visibility, and improve patient engagement. Our solutions help dental practices attract more patients, enhance brand authority, and grow sustainably in a competitive digital environment.</p>
@@ -1520,56 +1520,9 @@ const page = ()=>{
                 lineNumber: 56,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Why Your Dental Practice Needs a Professional Website - Website Development Agency",
-                heding: "Why Your Dental Practice Needs a Professional Website",
-                subheding: "A professionally designed website instantly establishes your dental practice as an authoritative and trustworthy presence in Dubai’s competitive market.",
-                lefttext: `  <p><b>Authority & Trust:</b> Through elegant, modern layouts, high-quality imagery of your clinic, detailed team bios, and prominently displayed DHA certifications, you convey expertise and professionalism. Custom design elements that reflect your brand clean aesthetics, soothing colors, and intuitive navigation help build patient confidence before they even step through your door.</p>
-                        <p><b>24/7 Accessibility:</b> Your website provides 24/7 accessibility, allowing patients to explore services, view before-and-after galleries, read patient testimonials, and book appointments conveniently at any time. A well-developed, mobile-responsive design with fast-loading pages and integrated online booking systems ensures seamless user experience, reducing barriers and encouraging immediate action.</p>
-                        `,
-                righttext: `<p><b>Showcase Specializations:</b> A custom-built website enables you to showcase your full range of services—from cosmetic dentistry and implants to orthodontics and smile makeovers with rich visual content, treatment explanations, and technology highlights like digital scanners or laser treatments. Professional development ensures a clear, organized presentation of your specialties, team qualifications, and advanced equipment.</p>
-                    <p><b>Patient-Centric Modernization:</b> Stand out from competitors with a polished, feature-rich platform that includes virtual clinic tours, easy enquiry forms, and secure patient portals, positioning your practice as modern, patient-centric, and ahead of the curve in the UAE’s premium dental market.</p>
-                            `
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 72,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$RealEstatePortfolio$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heading: "Dental Practice Showcase",
-                description: "Explore our portfolio of high-performing dental websites developed for specialized clinics and general practices across Dubai.",
-                portfolioData: [
-                    {
-                        title: "Smile Care Clinic Dubai",
-                        subtitle: "Cosmetic & General Dentistry",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$1$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$1$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 12,000"
-                    },
-                    {
-                        title: "Advanced Ortho Center",
-                        subtitle: "Orthodontic Specialists",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$3$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$3$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 15,000"
-                    },
-                    {
-                        title: "Pearly White Implants",
-                        subtitle: "Dental Implant Specialty",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$4$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$healthcare$2d$4$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 18,000"
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 89,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIndustries$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Our Comprehensive Dentist Website Development Services",
-                subheding: "At Website Development Agency, we offer a full suite of digital solutions designed to help dental practices in Dubai grow and succeed.",
+                heding: "Dentist Website Design in Dubai, UAE- Our Services",
+                subheding: "We offer full suite of digital solutions designed to help dental practices in Dubai grow and succeed.",
                 services: [
                     {
                         title: "Custom Website Design & Development",
@@ -1622,140 +1575,47 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 117,
+                lineNumber: 72,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonThreeCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                text1: "Key Features for a High-Performing Dental Website",
-                text2: "Discover the essential features that make our dental websites stand out and deliver exceptional patient experiences.",
-                boxdata: [
-                    {
-                        id: 1,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Intuitive User Interface (UI)",
-                        desc: "A clean, intuitive design with simple navigation, clear menus, and fast-loading pages ensures patients can easily find information, explore services, and book appointments without frustration, creating a welcoming first impression."
-                    },
-                    {
-                        id: 2,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "High-Quality Imagery & Video",
-                        desc: "Professional photographs of your modern clinic, friendly staff, advanced equipment, and short welcoming videos build trust and excitement, allowing patients to visualize their visit and feel confident in your practice."
-                    },
-                    {
-                        id: 3,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Detailed Service Pages",
-                        desc: "Comprehensive, well-organized pages explain each treatment from cosmetic veneers and implants to routine cleanings with benefits, procedures, and recovery details, helping patients make informed decisions about their dental care."
-                    },
-                    {
-                        id: 4,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Doctor Profiles",
-                        desc: "Dedicated profiles showcase each dentist’s qualifications, years of experience, specializations, certifications, and a personal bio, helping patients connect on a human level and choose the right specialist for their needs."
-                    },
-                    {
-                        id: 5,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Contact Forms & Online Inquiry Management",
-                        desc: "User-friendly contact forms, live chat options, and quick-response systems make it simple for patients to ask questions, request consultations, or provide feedback, streamlining communication and improving patient satisfaction."
-                    },
-                    {
-                        id: 6,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Social Media Integration",
-                        desc: "Seamless links and feeds from Instagram, Facebook, and other platforms display your latest updates, patient success stories, and promotions, encouraging engagement and driving traffic back to your website effortlessly."
-                    },
-                    {
-                        id: 7,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Website Security",
-                        desc: "SSL encryption, regular security updates, secure forms, and automated backups protect patient data and build confidence, ensuring your Dubai clinic complies with UAE data protection standards and safeguards privacy."
-                    },
-                    {
-                        id: 8,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Accessibility Compliance",
-                        desc: "WCAG-compliant features like alt text for images, keyboard navigation, adjustable text sizes, and screen-reader compatibility make your website inclusive and usable for patients with visual or motor impairments."
-                    },
-                    {
-                        id: 9,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Multilingual Support",
-                        desc: "Arabic, English, Hindi, and additional language options cater to Dubai’s diverse population, allowing international and expatriate patients to navigate comfortably and access important information in their preferred language."
-                    }
-                ]
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                alt: "Trusted Dental Website Design for UAE Clinics - Website Development Agency",
+                heding: "Trusted Dental Website Design for UAE-based Clinics",
+                subheding: "We design dental websites with a clear understanding of how clinics operate in the UAE. From service clarity to patient trust signals, every element is structured to appeal to local audiences while reflecting medical professionalism.",
+                lefttext: `  <p><b>Tailored for Clinic Growth:</b> Each website is customised to support your clinic’s goals- whether that’s increasing appointment enquiries, promoting specialised treatments, or building long-term patient trust. Layouts, content flow, and calls-to-action are designed to convert visitors into patients.</p>
+                        <p><b>Efficient & Reliable Development:</b> With custom and platform-based development approach we follow a streamlined development process ensures timely delivery without compromising quality. From planning to launch, we maintain transparency and structure, making the entire experience smooth and predictable for clinic owners.</p>
+                        `,
+                righttext: `<p><b>SEO & Ongoing Support:</b> We build websites with strong local SEO foundations to improve visibility across UAE search results. Post-launch, our team provides reliable support and updates, ensuring your dental website remains secure, fast, and effective as your clinic grows.</p>
+                            `
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 172,
-                columnNumber: 7
+                lineNumber: 127,
+                columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$DevelopmentServices$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 235,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonDevelopmentProcess$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Our Streamlined Dentist Website Development Process",
-                subheding: "We follow a proven process to ensure your dental website is delivered with precision and excellence.",
-                processData: [
-                    {
-                        id: "01",
-                        title: "Discovery & Consultation",
-                        description: `A deep dive into your practice goals, target audience, and specific digital needs.`
-                    },
-                    {
-                        id: "02",
-                        title: "Strategic Planning & Wireframing",
-                        description: `Blueprinting the website's structure and optimizing the user flow.`
-                    },
-                    {
-                        id: "03",
-                        title: "Design & UI/UX Prototyping",
-                        description: `Crafting visually appealing and exceptionally user-friendly designs.`
-                    },
-                    {
-                        id: "04",
-                        title: "Development & Coding",
-                        description: `Bringing your designs to life with clean, efficient, and robust code.`
-                    },
-                    {
-                        id: "05",
-                        title: "Testing & Quality Assurance",
-                        description: `Rigorous testing for functionality, responsiveness, and paramount security.`
-                    },
-                    {
-                        id: "06",
-                        title: "Launch & Deployment",
-                        description: `Seamlessly taking your brand new, high-performing website live.`
-                    },
-                    {
-                        id: "07",
-                        title: "Post-Launch Support & Optimization",
-                        description: `Ongoing assistance and continuous performance enhancements to ensure long-term success.`
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 237,
+                lineNumber: 144,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$CommonWhyWebsiteDevelopment$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Why Choose Website Development Agency for Dental Websites",
-                subheding: "We combine healthcare industry insights with technical brilliance to deliver websites that grow your dental practice.",
-                lefttext: `<p><b>Legal & Data Privacy:</b> We ensure strict compliance with UAE data privacy regulations, protecting sensitive patient information. From online advertising guidelines to accessibility standards and mandatory healthcare disclaimers, your dental website remains fully lawful, secure, and trustworthy.</p>
-                                <p><b>Ongoing Maintenance:</b> Our maintenance services include regular security updates, content management, and performance optimization to keep your dental website secure, fast, and efficient. We provide prompt technical support and robust backup solutions.</p>
-                                <p><b>Proven Results:</b> We understand the competitive dental market in Dubai and build websites specifically designed to rank higher in local search and convert visitors into patients.</p>
+                heding: "Dental Website Solutions for Every Type of Practice",
+                subheding: "We design dental websites that adapt to the unique focus of each clinic across the UAE. Every website is planned around patient behaviour, treatment priorities, and clinic objectives- ensuring clarity, trust, and strong digital performance in a competitive healthcare market.",
+                lefttext: `<p><b>General Dental Clinics:</b> For multi-service practices, we create structured websites that clearly present treatments, clinic information, and easy appointment pathways. Clear layouts and patient-friendly navigation help visitors quickly understand services and take action.</p>
+                                <p><b>Cosmetic & Aesthetic Dentistry:</b> Websites for cosmetic clinics are designed to highlight visual results and patient confidence. We incorporate treatment-focused pages, image galleries, and conversion-driven layouts that support enquiries for high-value. </p>
+                                <p><b>Orthodontic & Paediatric:</b> Orthodontic websites focus on education and long-term care, presenting treatments in a simple, reassuring way. For paediatric clinics, we design warm, approachable interfaces that appeal to both parents and children while maintaining professional credibility.</p>
+                                <p>Specialist Dental Practices:</b> For clinics offering advanced dental services, we build content-rich websites that emphasise expertise, qualifications, and referral-friendly structures. These platforms support specialist positioning while remaining accessible and easy for patients to navigate.</p>
                             `,
                 rightimage: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2d$choose$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$expert$2d$dentist$2d$website$2d$development$2f$why$2d$choose$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 alt: "Why Choose Website Development Agency for Dentist Website Development"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 281,
+                lineNumber: 147,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$about$2f$Team$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 296,
+                lineNumber: 163,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonClientTestimonials$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1781,12 +1641,12 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 298,
+                lineNumber: 165,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonServiceLocations$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 321,
+                lineNumber: 188,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1822,7 +1682,7 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/expert-dentist-website-development/page.jsx",
-                lineNumber: 323,
+                lineNumber: 190,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

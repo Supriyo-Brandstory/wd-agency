@@ -15,17 +15,6 @@ import imageService5 from "@/app/(frontend)/assets/images/accountant-website-dev
 import imageService6 from "@/app/(frontend)/assets/images/accountant-website-development/service-6.webp";
 import imageService7 from "@/app/(frontend)/assets/images/accountant-website-development/service-7.webp";
 import imageService8 from "@/app/(frontend)/assets/images/accountant-website-development/service-8.webp";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/accountant-website-development/why-choos.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -36,29 +25,27 @@ import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/corporate-1.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/corporate-2.webp";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/corporate-3.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
-
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import LocationService from "../../component/pages/common/LocationService";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt={"Accountant Website Development Company Dubai"}
-        heding={"Accountant Website Development Company Dubai"}
+        alt={"Accountant Web Design in Dubai, UAE"}
+        heding={"Accountant Web Design in Dubai, UAE"}
         subtitle={
-          "Empowering accounting firms in Dubai with professionally crafted solutions to attract clients, showcase expertise, and streamline interactions."
+          "Empowering accounting firms in Dubai with professionally crafted websites to <br>attract clients, showcase expertise, and streamline interactions."
         }
       />
       <CommonIntroduction
-        heding={"Professional Accountant Website Design Dubai"}
+        heding={"Website Design for Accounting Firms in Dubai"}
         text1={` <p>In Dubai and the UAE's dynamic business landscape, a professional website is crucial for accounting firms to build trust, credibility, and growth. It's the first point of contact for potential clients. A well-presented website differentiates firms in a competitive market, while a poorly designed one leads to lost leads.</p>
                    <p>Accounting websites have distinct needs beyond generic business sites, including secure client portals, easy access to financial resources, clear service explanations, and an emphasis on compliance and trust. Website Development Agency specializes in feature-rich accountant websites built for performance and conversion.</p>
                     `}
         text2={`  <p>Client search and engagement for accounting services have transformed, with most starting online. Easy-to-use websites with clear service descriptions, team profiles, and secure contact forms build trust and prompt action.</p>
-                <p>In fast-paced markets like Dubai, clear communication of advantages is key to winning business. A polished website signals trustworthiness, establishment, and transparency. For UAE accounting businesses, a professional website is a functional, trustworthy, and convertible asset.</p>
+                <p>At Website Development Agency, we create accountant websites tailored to how financial firms operate in the UAE. Our designs support secure client interactions, compliance-ready structures, and clear service presentation to build trust from the first visit. With features like online consultation booking, intuitive service pages, and mobile-friendly layouts, we help accounting firms turn website visitors into qualified leads while maintaining a professional and credible online presence.</p>
                     `}
         imageintro1={imageintro1}
         alt1={
@@ -68,49 +55,6 @@ const page = () => {
         alt2={
           "Accounting Firm Web Development Company UAE - Website Development Agency"
         }
-      />
-
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={
-          "Why Accounting Firms Need Professional Websites - Website Development Agency"
-        }
-        heding={"Why Accounting Firms Need Professional Websites"}
-        subheding={
-          "Secure architecture, mobile responsiveness, and integration with tools such as CRM systems or client portals further ensure that accounting firms can deliver modern, efficient, and trustworthy digital experiences that match Dubai’s fast-paced business landscape."
-        }
-        lefttext={`  <p>In Dubai's fast-paced and highly competitive business landscape, a professional website serves as the digital front door for accounting firms. As a global financial hub attracting multinational corporations, startups, and free zone companies, the city demands high standards of trust, transparency, and accessibility. A sleek, modern accounting website design instantly communicates credibility and expertise, showcasing your firm's certifications, services (such as VAT compliance, corporate tax advisory, auditing, and bookkeeping), and client success stories. </p>
-                        <p>Additionally, a professionally developed website supports long-term growth through SEO, scalability, and digital integration. With businesses in Dubai increasingly searching online for accounting, auditing, and tax advisory services, an optimized website helps firms improve visibility in local searches and stay competitive. </p>
-                        `}
-        righttext={`<p>Beyond credibility, a professional website acts as a powerful client acquisition and communication tool. Accounting firms in Dubai serve diverse audiences, including startups, SMEs, and multinational companies, all of whom expect clarity, transparency, and accessibility. A structured website with clear service pages, enquiry forms, and informative content allows firms to explain complex financial services in a simple manner, improve user experience, and convert visitors into qualified leads.</p>
-                            `}
-      />
-      <RealEstatePortfolio
-        heading="Accounting & Financial Website Portfolio"
-        description="We have delivered high-performance digital solutions for financial consultants, audit firms, and accounting agencies across Dubai and the Middle East."
-        portfolioData={[
-          {
-            title: "Global Tax Consultants",
-            subtitle: "Tax Advisory & Audit Firm",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 15,000",
-          },
-          {
-            title: "Expert Bookkeepers UAE",
-            subtitle: "SME Accounting Services",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 10,000",
-          },
-          {
-            title: "Financial Strategy Group",
-            subtitle: "Corporate Financial Consulting",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 18,000",
-          },
-        ]}
       />
       <CommonIndustries
         heding={"Our Accountant Website Development Services"}
@@ -182,125 +126,42 @@ const page = () => {
           },
         ]}
       />
-      <CommonThreeCard
-        text1={"Key Features of a Successful Accountant Website"}
-        text2={
-          "A successful accountant website combines professional clarity, secure client interactions, and strategic visibility to attract and serve businesses effectively in the UAE."
+
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={
+          "Best Accounting Website Design for UAE Businesses"
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon5,
-            title: "Clear Service Descriptions",
-            desc: "Well-structured service descriptions clearly explain accounting, auditing, tax, and advisory offerings, helping visitors quickly understand expertise, scope, and value while building trust and encouraging informed enquiries from businesses across Dubai and the UAE.",
-          },
-          {
-            id: 2,
-            img: imagecommon8,
-            title: "Professional Team Profiles",
-            desc: "Detailed team profiles highlight qualifications, certifications, and experience of accountants and advisors, reinforcing credibility and compliance while giving clients confidence in the professionals managing their financial and regulatory requirements.",
-          },
-          {
-            id: 3,
-            img: imagecommon3,
-            title: "Client Testimonials & Case Studies",
-            desc: "Authentic testimonials and detailed case studies showcase real client success stories, demonstrating reliability, industry expertise, and problem-solving capabilities while strengthening trust among potential clients evaluating accounting firms in Dubai.",
-          },
-          {
-            id: 4,
-            img: imagecommon6,
-            title: "Secure Client Login Area",
-            desc: "A secure client login area enables protected access to documents, financial records, and communication tools, ensuring data confidentiality, regulatory compliance, and a seamless experience for ongoing client interactions.",
-          },
-          {
-            id: 5,
-            img: imagecommon1,
-            title: "Online Consultation & Inquiry Forms",
-            desc: "User-friendly consultation and enquiry forms allow prospects to easily connect with accounting experts, submit requirements, and request callbacks, helping firms capture qualified leads and respond faster to business needs.",
-          },
-          {
-            id: 6,
-            img: imagecommon4,
-            title: "Integrated Scheduling System",
-            desc: "An integrated scheduling system allows clients to book consultations directly through the website, reducing administrative effort while offering convenience, availability transparency, and improved client engagement.",
-          },
-          {
-            id: 7,
-            img: imagecommon2,
-            title: "Blog & Resource Center",
-            desc: "A dedicated blog and resource center educates visitors on accounting updates, tax regulations, and financial best practices, positioning the firm as a trusted authority while supporting content-driven SEO growth.",
-          },
-          {
-            id: 8,
-            img: imagecommon7,
-            title: "SEO-Friendly Architecture",
-            desc: "SEO-optimized website architecture ensures fast loading speeds, clean URLs, mobile responsiveness, and structured data, improving search visibility and helping accounting firms rank higher in Dubai-focused searches.",
-          },
-          {
-            id: 9,
-            img: imagecommon9,
-            title: "Regulatory Compliance & Security",
-            desc: "Built-in compliance and security features, including SSL encryption, data protection measures, and adherence to UAE regulations, safeguard sensitive information while reinforcing trust and professionalism.",
-          },
-        ]}
+        heding={"Professional Websites for Accounting Firms in Dubai"}
+        subheding={
+          "We develop custom websites exclusively for accounting firms and financial professionals operating in the UAE. Every project is designed to reflect accuracy, professionalism, and trust- qualities clients expect when choosing an accountant. Our focus goes beyond visuals, ensuring the website functions as a practical business tool, not just a digital brochure."
+        }
+        lefttext={`  <p><b>Designed Around the UAE Financial Landscape:</b> Accounting firms in the UAE operate under specific regulatory, tax, and client expectations. Our websites are structured to support these requirements, with clear service communication, compliance-ready layouts, and content that resonates with local businesses. This market-first approach helps firms present themselves confidently to both local and international clients.</p>
+                        <p><b>Seamless and Secure Client Interaction:</b> We build accountant websites that support secure client communication and smooth day-to-day operations. From document exchange and enquiry handling to compatibility with widely used accounting platforms, our designs help reduce manual work and improve response times- while maintaining strong data security standards.</p>
+                        `}
+        righttext={`<p><b>Built for Performance and Growth:</b> Every website is developed to load fast, adapt smoothly across devices, and scale as your firm grows. Mobile-friendly layouts, structured navigation, and future-ready architecture ensure your website continues to support new services, expanding teams, and increasing client demand without needing a complete rebuild.</p>
+                            `}
       />
+      
+      <CommonProtfolio />
+      
 
       <DevelopmentServices />
-
-      <CommonDevelopmentProcess
-        heding={"Our Accountant Website Development Process"}
-        subheding={
-          "At Website Development Agency, we follow a structured and agile development methodology to deliver high-performance accountant websites tailored to your business goals."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `Deep dive into firm goals, target audience, and competitive landscape.`,
-          },
-          {
-            id: "02",
-            title: "Design & Architecture",
-            description: `Mapping website structure, UX flow, and client journey with wireframes and prototypes.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `Creating visually engaging interfaces with a strong, secure, scalable back end, prioritizing mobile-first design and loading speed.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `Incorporating CRM, client portals, booking tools, and payment gateways.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Meticulous performance, usability, and security testing to identify bugs and ensure fast loading.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Website goes live after SEO audits, analytics setup, and speed optimization, with conversion tracking.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Ongoing monitoring, updates, and feature enhancements.`,
-          },
-        ]}
+      <CommonCostBreakdown
+        heading="Accountant Website Design Dubai- Cost Breakdown"
+        description="Choose CPA website design and development solution designed to strengthen your professional image and support sustainable growth in the UAE."
       />
+      
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Accountant Website Development"
+          "Accountant Website Design Services Tailored for Dubai Firms"
         }
         subheding={
-          "Choosing the right digital partner is critical for accounting firms operating in Dubai’s compliance-driven and competitive market. At Website Development Agency, we build secure, scalable, and conversion-focused accountant websites that strengthen credibility, streamline operations, and drive measurable business growth."
+          "We create strategically designed websites for chartered accountants and accounting firms across the UAE, built to convey trust and professional authority. Every website is tailored to reflect the standards expected in the financial sector, helping firms establish a credible digital identity."
         }
-        lefttext={`<p><b>Expertise in Financial Services:</b> We bring proven experience in developing websites for accountants, auditors, tax consultants, and wealth managers, with a strong focus on usability, regulatory compliance, secure data handling, and professional presentation tailored to financial service providers.</p>
-                                <p><b>Scalable Solutions:</b> Our websites are designed to scale seamlessly as your firm grows, supporting everything from solo practitioners to large, multi-partner accounting firms with expanding service offerings, client portals, and advanced functionality.</p>
-                                <p><b>SEO-First Approach:</b> We implement SEO best practices from the ground up, including optimized structure, content, and performance, helping accounting firms improve online visibility, attract qualified leads, and compete effectively in Dubai’s digital marketplace.</p>
-                                <p><b>Transparent Process & Support:</b> Our transparent development process ensures clear communication at every stage, complemented by ongoing support for maintenance, security updates, performance optimization, and feature enhancements long after the website launch.</p>
+        lefttext={`<p>Our approach goes beyond visual design. Each website is structured to support core accounting services, present offerings clearly, and guide visitors toward enquiries or consultations. We focus on clean content architecture and conversion-driven layouts so your website actively supports client acquisition and communication.</p>
+                                <p>Functionality plays a critical role in our development process. We ensure compatibility with commonly used accounting and finance platforms, while maintaining structured workflows that align with real operational needs. Strong emphasis is placed on data security, system stability, and compliance with UAE regulatory and data protection requirements.</p>
+                                <p>User experience is central to every build. Responsive layouts, intuitive navigation, and fast-loading pages ensure consistent performance across all devices. With scalable architecture and ongoing technical reliability, your website is designed to grow alongside your accounting practice- serving as a dependable digital asset that strengthens long-term client trust.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt={
@@ -331,7 +192,7 @@ const page = () => {
           },
         ]}
       />
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[

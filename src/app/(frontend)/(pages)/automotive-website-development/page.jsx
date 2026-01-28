@@ -14,19 +14,7 @@ import imageService4 from "@/app/(frontend)/assets/images/automotive-website-dev
 import imageService5 from "@/app/(frontend)/assets/images/automotive-website-development/service-5.webp";
 import imageService6 from "@/app/(frontend)/assets/images/automotive-website-development/service-6.webp";
 import imageService7 from "@/app/(frontend)/assets/images/automotive-website-development/service-7.webp";
-import imageService8 from "@/app/(frontend)/assets/images/automotive-website-development/service-8.webp";
 import imageService9 from "@/app/(frontend)/assets/images/automotive-website-development/service-9.png";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/automotive-website-development/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -34,33 +22,31 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/realestate-2.webp";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/realestate-3.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import LocationService from "../../component/pages/common/LocationService";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt={"Automotive Website Development Agency in Dubai, UAE"}
-        heding={"Automotive Website Development Agency in Dubai, UAE"}
+        alt={"Automotive Web Design in Dubai, UAE"}
+        heding={"Automotive Web Design in Dubai, UAE"}
         subtitle={
-          "Drive your automotive business forward in Dubai, UAE with a cutting-edge website designed to attract buyers, showcase vehicles, and generate qualified leads."
+          "Drive your automotive business forward in Dubai, UAE with a cutting-edge websites <br>designed to attract buyers, showcase vehicles, and generate qualified leads."
         }
       />
 
       <CommonIntroduction
         heding={"Automotive Website Design Solutions"}
-        text1={` <p>In today’s digital-first business landscape, the UAE automotive market is one of the most competitive and fast-evolving sectors in the region. Driven by demand for luxury vehicles, frequent new launches, and a tech-savvy customer base of residents, expatriates, and tourists, the market continues to grow rapidly. With passenger car sales rising and the used car segment projected to reach nearly USD 23 billion by 2026, buyers increasingly rely on online research.</p>
-                 <p>This shift toward digital engagement is accelerated by automotive e-commerce growth, popular online marketplaces such as DubiCars, YallaMotor, and dubizzle, and government initiatives supporting smart mobility and electric vehicles. Today, the first interaction between customers and automotive brands often happens online. For dealerships, service centers, and aftermarket suppliers in Dubai and across the UAE, a professional website is essential for credibility, trust-building, and capturing high-intent leads.</p>
+        text1={` <p>The UAE automotive industry is increasingly shaped by digital-first buying behaviour, where customers research vehicles, compare prices, and evaluate brands online before making contact. With demand spanning luxury cars, electric vehicles, and the fast-growing used-car segment, automotive businesses must meet rising expectations for transparency and digital convenience.</p>
+                 <p>As online marketplaces and automotive e-commerce platforms continue to grow across Dubai and the wider UAE, having a strong standalone website is essential. Dealerships, service centres, and automotive brands need platforms that establish credibility, support lead generation, and clearly present inventory and services. A well-structured website helps businesses stand out in a crowded market while capturing enquiries from high-intent buyers.</p>
                     `}
-        text2={`  <p>A poorly designed or outdated website can result in significant lost opportunities, as potential customers quickly move on to competitors offering smoother digital experiences. In contrast, a high-quality website acts as a 24/7 digital showroom, showcasing inventory, services, and brand value. This is especially important in Dubai’s luxury-driven market, where buyers expect premium visuals, transparent pricing, detailed specifications, and seamless navigation to support confident decision-making.</p>
-                <p>Unlike generic business websites, automotive platforms require specialized features such as advanced vehicle search filters, comparison tools, interactive 360° virtual showrooms, online test drive or service bookings, and integrated finance calculators. These capabilities directly improve engagement and conversions. <a href='/'>Website Development Agency</a> specializes in building mobile-first, feature-rich automotive websites with advanced inventory management systems, designed for performance, scalability, and measurable results in the UAE automotive market.</p>
+        text2={`  <p>Websites that lack performance, clarity, or modern functionality often result in lost opportunities. Today’s customers expect premium visuals, detailed vehicle information, smooth navigation, and mobile-first experiences. A high-quality automotive website acts as a 24/7 digital showroom, allowing businesses to showcase vehicles, services, and brand value while guiding users toward test drives, service bookings, or enquiries.</p>
+                <p>At Website Development Agency, we deliver custom automotive website solutions built specifically for the UAE market. Our services include mobile-first design, fast-loading interfaces, structured inventory presentation, and conversion-focused layouts tailored to dealerships and automotive businesses. We focus on performance, usability, and scalability- ensuring your website not only looks premium but also drives measurable results, supports business growth.</p>
                     `}
         imageintro1={imageintro1}
         alt1={
@@ -70,50 +56,6 @@ const page = () => {
         alt2={
           "Automotive Web Development Company UAE - Website Development Agency"
         }
-      />
-
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={
-          "Why Automotive Businesses Need Professional Websites - Website Development Agency"
-        }
-        heding={"Why Automotive Businesses Need Professional Websites"}
-        subheding={
-          "Vehicle research and purchasing in the UAE have shifted online. The majority of buyers start their journey online with model research, virtual tours, comparative market analysis, and price comparison, often before contacting a sales agent."
-        }
-        lefttext={`  <p>Easy-to-use websites with advanced vehicle listings, interactive virtual showrooms, and online booking integration allow prospects to thoroughly search for cars, trucks, and services before visiting in person, building trust and prompting action. In fast-moving markets like Dubai or Abu Dhabi, quick action and clear advantages are crucial for winning business.</p>
-                        <p>A polished website signals trustworthiness, establishment, and transparency. Secure inquiries, easy forms, and constantly updated inventory encourage prospective buyers and service clients to act. For UAE automotive businesses, a professional website is a functional, trustworthy, and convertible asset, yielding long-term rewards in a competitive market.</p>
-                        `}
-        righttext={`<p>Beyond lead generation, a professional automotive website supports long-term growth through SEO visibility, data-driven insights, and scalability. It helps businesses attract consistent organic traffic, understand user behavior, and adapt to evolving market trends. For UAE automotive brands, a strong website is not just a digital presence, it is a high-performing business asset that delivers measurable returns over time.</p>
-                            `}
-      />
-
-      <RealEstatePortfolio
-        heading="Automotive Website Showcase"
-        description="Our portfolio includes luxury dealership platforms, spare parts e-commerce stores, and high-performance automotive service websites in Dubai & UAE."
-        portfolioData={[
-          {
-            title: "Prestige Motors Dubai",
-            subtitle: "Luxury Car Dealership",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 25,000",
-          },
-          {
-            title: "AutoParts Express",
-            subtitle: "E-commerce Spare Parts",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 18,000",
-          },
-          {
-            title: "Elite Service Center",
-            subtitle: "Automotive Maintenance Portal",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 12,000",
-          },
-        ]}
       />
 
       <CommonIndustries
@@ -129,7 +71,7 @@ const page = () => {
             link: "/contact-us",
           },
           {
-            title: "Vehicle Listing & Inventory Management Systems",
+            title: "Vehicle Listing & Inventory Management",
             desc: "Our inventory management systems enable effortless control and display of large vehicle listings with advanced filters such as make, model, year, price, and features, ensuring fast browsing and seamless user experience across hundreds of vehicles.",
             img: imageService5,
             alt: "Automotive Inventory Management System",
@@ -179,7 +121,7 @@ const page = () => {
           {
             title: "Technology Stack & Integrations",
             desc: "We leverage advanced technologies including WordPress, Magento, PHP, .NET, ReactJS, NodeJS, and Laravel, integrating payment gateways, CRMs, DMS platforms, virtual showroom tools, and finance calculators for seamless automotive operations.",
-            img: imageService1, // Reuse relevant image
+            img: imageService1, 
             alt: "Automotive Technology Stack Dubai",
             btnname: "Contact Us",
             link: "/contact-us",
@@ -195,128 +137,41 @@ const page = () => {
         ]}
       />
 
-      <CommonThreeCard
-        text1={"Features of a Successful Automotive Website"}
-        text2={
-          "A successful automotive website combines high-end visuals with advanced functionality to drive engagement and sales. Key features include:"
+            <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={
+          "Automotive Website Development That Delivers Results"
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon5,
-            title: "Advanced Search Filters",
-            desc: "Advanced filters allow users to sort vehicles by make, model, year, price, mileage, fuel type, body style, and amenities, enabling faster discovery and more confident purchasing decisions.",
-          },
-          {
-            id: 2,
-            img: imagecommon3,
-            title: "Interactive Virtual Showrooms & 360° Views",
-            desc: "Interactive virtual showrooms with 360° views, walk-throughs, and video tours allow buyers to explore vehicles remotely, increasing transparency, engagement, and purchase confidence before visiting showrooms.",
-          },
-          {
-            id: 3,
-            img: imagecommon8,
-            title: "Vehicle Comparison Tools",
-            desc: "Side-by-side comparison tools help users evaluate multiple vehicles based on specifications, features, pricing, and performance, simplifying decision-making and improving user satisfaction.",
-          },
-          {
-            id: 4,
-            img: imagecommon6,
-            title: "Dealer / Agent Directories & Profiles",
-            desc: "Dedicated dealer or agent profile pages highlight expertise, contact details, and credentials, building trust through professional visibility and encouraging direct engagement with sales or service representatives.",
-          },
-          {
-            id: 5,
-            img: imagecommon1,
-            title: "Online Appointment & Service Booking",
-            desc: "Secure online booking forms enable customers to schedule test drives, service appointments, or consultations easily, improving convenience, reducing manual coordination, and increasing conversion rates.",
-          },
-          {
-            id: 6,
-            img: imagecommon4,
-            title: "Quick-Loading Pages",
-            desc: "Fast-loading vehicle listings and service pages enhance user experience, reduce bounce rates, support higher search engine rankings, and encourage longer browsing sessions and increased conversions.",
-          },
-          {
-            id: 7,
-            img: imagecommon2,
-            title: "Secure Payment Transactions & Financing Calculators",
-            desc: "Integrated secure payment options allow deposits or bookings online, while financing calculators help buyers assess affordability, increasing confidence and accelerating purchase decisions.",
-          },
-          {
-            id: 8,
-            img: imagecommon7,
-            title: "Analytics & Reporting Dashboards",
-            desc: "Analytics dashboards track vehicle views, enquiries, test drive requests, and conversions, enabling data-driven decisions, performance optimization, and smarter marketing strategies.",
-          },
-          {
-            id: 9,
-            img: imagecommon9,
-            title: "Recommendations & Saved Searches",
-            desc: "Personalized recommendations and saved search features allow users to bookmark vehicles, receive alerts for new listings, and return easily, increasing repeat visits and long-term engagement.",
-          },
-        ]}
+        heding={"Automotive Website Development That Delivers Results"}
+        subheding={
+          "We build automotive websites that drive real business growth in the UAE’s fast-paced digital market. Each project focuses on usability, performance, and brand presence- creating a strong first impression while guiding visitors toward meaningful actions."
+        }
+        lefttext={`  <p><b>Performance-Focused Development:</b> Our development process prioritises speed, structure, and functionality. From clean layouts and intuitive navigation to optimised loading performance, we ensure your website delivers a smooth experience across all devices. Automotive-specific features such as structured vehicle listings, service pages, and scalable content frameworks are built to support long-term growth.</p>
+                        <p><b>SEO-Ready Architecture:</b> Visibility plays a critical role in automotive success. We develop websites with SEO-ready foundations, ensuring search engines can easily crawl, index, and rank your pages. Combined with mobile-first design and conversion-focused layouts, your website is positioned to attract high-intent traffic and convert visitors into qualified leads.</p>
+                        `}
+        righttext={`<p><b>Industry Recognition:</b> Backed by industry recognition and a results-driven team, we consistently deliver digital solutions that meet high performance standards. Our commitment to quality, innovation, and client success has earned recognition from leading industry platforms- reflecting the trust businesses place in us to build reliable, growth-oriented automotive websites.</p>
+                            `}
       />
-
+      <CommonProtfolio />
+      
       <DevelopmentServices />
 
-      <CommonDevelopmentProcess
-        heding={"Our Automotive Website Development Process"}
-        subheding={
-          "At Website Development Agency, we follow an agile methodology to design and develop responsive automotive websites that achieve your business goals."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `Deep dive into goals, target audience (local and international), and competitive landscape to align the project with business goals, industry trends, and customer expectations.`,
-          },
-          {
-            id: "02",
-            title: "Design & Architecture",
-            description: `Mapping website structure, UX flow, and customer journey for vehicle browsing and service booking. Creating wireframes and prototypes for user interaction visualization.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `Creating a visually engaging interface supported by a strong, secure, and scalable back end. Ensuring consistent functionality across devices, prioritizing mobile-first design and loading speed.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `Incorporating CRM, inventory management systems, payment gateways, virtual tour software, and Google Maps for real-time information and fully functioning platforms.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Meticulous performance, usability, and security testing, identifying bugs and browser compatibility issues, ensuring fast loading for optimal user experience.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Website goes live after SEO audits, analytics setup, and speed optimization. Conversion tracking tools are implemented to measure performance.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Ongoing monitoring, updates, and feature enhancements to ensure efficient operation and adaptability to market changes.`,
-          },
-        ]}
+          <CommonCostBreakdown
+        heading="Automotive Website Design Dubai- Cost Breakdown"
+        description="Choose automotive website design and development solution designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
 
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Automotive Website Development"
+          "From Showrooms to Rentals: Automotive Websites We Build"
         }
         subheding={
-          "Choosing the right digital partner is critical for automotive firms operating in Dubai’s competitive market. At Website Development Agency, we combine industry knowledge with technical expertise."
+          "In today’s UAE automotive market, a professional, feature-rich website is essential for connecting with buyers, renters, and car enthusiasts. We design customised digital solutions that combine aesthetics, usability, and functionality."
         }
-        lefttext={`<p><b>Automotive Industry Expertise:</b> Successful track record with dealership portals, service booking platforms, and e-commerce sites for auto parts, ensuring user-friendly and tailored platforms.</p>
-                                <p><b>Scalable & Future-Proof Solutions:</b> Designing solutions that grow with the business, accommodating new features and evolving technological trends for single-location dealerships to large marketplaces.</p>
-                                <p><b>SEO-First Approach for Dubai Market:</b> Building every listing, page, and post with SEO best practices for higher visibility on Google and UAE automotive portals, attracting qualified traffic and leads.</p>
-                                <p><b>Transparent Process & Dedicated Support:</b> Clear communication throughout the process, with ongoing support for website updates, security, and optimization.</p>
-                                <p><b>UAE-Specific Legal & Compliance:</b> Adherence to local data protection laws, e-commerce regulations, and legal frameworks specific to the UAE automotive industry.</p>
-                                <p><b>Innovation & Engagement:</b> Focus on innovative features like AI-powered chatbots, personalized vehicle recommendations, and advanced virtual showrooms for unparalleled customer engagement and a competitive edge.</p>
+        lefttext={`<p><b>Car Dealership Websites:</b> Our dealership websites feature dynamic inventory management, showing all vehicles in real time. Customers can browse cars by make, model, or price, compare features, and access detailed specifications to make confident decisions.</p>
+                                <p><b>Car Rental Platforms:</b> For car rental businesses, we integrate secure, easy-to-use booking systems that allow customers to reserve vehicles online effortlessly. Visitors can view available cars, choose rental durations, and complete their bookings smoothly on any device.</p>
+                                <p><b>Auto Trader Websites:</b> We design platforms for auto traders that make buying and selling vehicles easier than ever. With advanced search filters, product categorisation, and lead capture tools, customers can quickly find the cars they want while you connect with potential buyers efficiently.</p>
+                                <p><b>Service & Detailing Websites:</b> Our websites for car service centres and detailing businesses are designed to showcase your expertise professionally. Visitors can explore your services, browse high-quality photo galleries, and learn about your offerings with clear, accessible information.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt={
@@ -349,7 +204,7 @@ const page = () => {
         ]}
       />
 
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[

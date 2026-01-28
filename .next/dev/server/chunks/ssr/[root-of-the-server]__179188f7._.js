@@ -1541,21 +1541,21 @@ const page = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonBanner2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 bg: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$banner$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$banner$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Accountant Website Development Company Dubai",
-                heding: "Accountant Website Development Company Dubai",
-                subtitle: "Empowering accounting firms in Dubai with professionally crafted solutions to attract clients, showcase expertise, and streamline interactions."
+                alt: "Accountant Web Design in Dubai, UAE",
+                heding: "Accountant Web Design in Dubai, UAE",
+                subtitle: "Empowering accounting firms in Dubai with professionally crafted websites to <br>attract clients, showcase expertise, and streamline interactions."
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
                 lineNumber: 47,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIntroduction$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Professional Accountant Website Design Dubai",
+                heding: "Website Design for Accounting Firms in Dubai",
                 text1: ` <p>In Dubai and the UAE's dynamic business landscape, a professional website is crucial for accounting firms to build trust, credibility, and growth. It's the first point of contact for potential clients. A well-presented website differentiates firms in a competitive market, while a poorly designed one leads to lost leads.</p>
                    <p>Accounting websites have distinct needs beyond generic business sites, including secure client portals, easy access to financial resources, clear service explanations, and an emphasis on compliance and trust. Website Development Agency specializes in feature-rich accountant websites built for performance and conversion.</p>
                     `,
                 text2: `  <p>Client search and engagement for accounting services have transformed, with most starting online. Easy-to-use websites with clear service descriptions, team profiles, and secure contact forms build trust and prompt action.</p>
-                <p>In fast-paced markets like Dubai, clear communication of advantages is key to winning business. A polished website signals trustworthiness, establishment, and transparency. For UAE accounting businesses, a professional website is a functional, trustworthy, and convertible asset.</p>
+                <p>At Website Development Agency, we create accountant websites tailored to how financial firms operate in the UAE. Our designs support secure client interactions, compliance-ready structures, and clear service presentation to build trust from the first visit. With features like online consultation booking, intuitive service pages, and mobile-friendly layouts, we help accounting firms turn website visitors into qualified leads while maintaining a professional and credible online presence.</p>
                     `,
                 imageintro1: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$intro$2d$1$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$intro$2d$1$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 alt1: "Professional Accountant Website Design Services in Dubai - Website Development Agency",
@@ -1564,52 +1564,6 @@ const page = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
                 lineNumber: 55,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Why Accounting Firms Need Professional Websites - Website Development Agency",
-                heding: "Why Accounting Firms Need Professional Websites",
-                subheding: "Secure architecture, mobile responsiveness, and integration with tools such as CRM systems or client portals further ensure that accounting firms can deliver modern, efficient, and trustworthy digital experiences that match Dubai’s fast-paced business landscape.",
-                lefttext: `  <p>In Dubai's fast-paced and highly competitive business landscape, a professional website serves as the digital front door for accounting firms. As a global financial hub attracting multinational corporations, startups, and free zone companies, the city demands high standards of trust, transparency, and accessibility. A sleek, modern accounting website design instantly communicates credibility and expertise, showcasing your firm's certifications, services (such as VAT compliance, corporate tax advisory, auditing, and bookkeeping), and client success stories. </p>
-                        <p>Additionally, a professionally developed website supports long-term growth through SEO, scalability, and digital integration. With businesses in Dubai increasingly searching online for accounting, auditing, and tax advisory services, an optimized website helps firms improve visibility in local searches and stay competitive. </p>
-                        `,
-                righttext: `<p>Beyond credibility, a professional website acts as a powerful client acquisition and communication tool. Accounting firms in Dubai serve diverse audiences, including startups, SMEs, and multinational companies, all of whom expect clarity, transparency, and accessibility. A structured website with clear service pages, enquiry forms, and informative content allows firms to explain complex financial services in a simple manner, improve user experience, and convert visitors into qualified leads.</p>
-                            `
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 73,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$RealEstatePortfolio$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heading: "Accounting & Financial Website Portfolio",
-                description: "We have delivered high-performance digital solutions for financial consultants, audit firms, and accounting agencies across Dubai and the Middle East.",
-                portfolioData: [
-                    {
-                        title: "Global Tax Consultants",
-                        subtitle: "Tax Advisory & Audit Firm",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$1$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$1$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 15,000"
-                    },
-                    {
-                        title: "Expert Bookkeepers UAE",
-                        subtitle: "SME Accounting Services",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$2$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$2$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 10,000"
-                    },
-                    {
-                        title: "Financial Strategy Group",
-                        subtitle: "Corporate Financial Consulting",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$3$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$corporate$2d$3$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 18,000"
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 88,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIndustries$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1683,141 +1637,46 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 115,
+                lineNumber: 72,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonThreeCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                text1: "Key Features of a Successful Accountant Website",
-                text2: "A successful accountant website combines professional clarity, secure client interactions, and strategic visibility to attract and serve businesses effectively in the UAE.",
-                boxdata: [
-                    {
-                        id: 1,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Clear Service Descriptions",
-                        desc: "Well-structured service descriptions clearly explain accounting, auditing, tax, and advisory offerings, helping visitors quickly understand expertise, scope, and value while building trust and encouraging informed enquiries from businesses across Dubai and the UAE."
-                    },
-                    {
-                        id: 2,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Professional Team Profiles",
-                        desc: "Detailed team profiles highlight qualifications, certifications, and experience of accountants and advisors, reinforcing credibility and compliance while giving clients confidence in the professionals managing their financial and regulatory requirements."
-                    },
-                    {
-                        id: 3,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Client Testimonials & Case Studies",
-                        desc: "Authentic testimonials and detailed case studies showcase real client success stories, demonstrating reliability, industry expertise, and problem-solving capabilities while strengthening trust among potential clients evaluating accounting firms in Dubai."
-                    },
-                    {
-                        id: 4,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Secure Client Login Area",
-                        desc: "A secure client login area enables protected access to documents, financial records, and communication tools, ensuring data confidentiality, regulatory compliance, and a seamless experience for ongoing client interactions."
-                    },
-                    {
-                        id: 5,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Online Consultation & Inquiry Forms",
-                        desc: "User-friendly consultation and enquiry forms allow prospects to easily connect with accounting experts, submit requirements, and request callbacks, helping firms capture qualified leads and respond faster to business needs."
-                    },
-                    {
-                        id: 6,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Integrated Scheduling System",
-                        desc: "An integrated scheduling system allows clients to book consultations directly through the website, reducing administrative effort while offering convenience, availability transparency, and improved client engagement."
-                    },
-                    {
-                        id: 7,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Blog & Resource Center",
-                        desc: "A dedicated blog and resource center educates visitors on accounting updates, tax regulations, and financial best practices, positioning the firm as a trusted authority while supporting content-driven SEO growth."
-                    },
-                    {
-                        id: 8,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "SEO-Friendly Architecture",
-                        desc: "SEO-optimized website architecture ensures fast loading speeds, clean URLs, mobile responsiveness, and structured data, improving search visibility and helping accounting firms rank higher in Dubai-focused searches."
-                    },
-                    {
-                        id: 9,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Regulatory Compliance & Security",
-                        desc: "Built-in compliance and security features, including SSL encryption, data protection measures, and adherence to UAE regulations, safeguard sensitive information while reinforcing trust and professionalism."
-                    }
-                ]
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                alt: "Best Accounting Website Design for UAE Businesses",
+                heding: "Professional Websites for Accounting Firms in Dubai",
+                subheding: "We develop custom websites exclusively for accounting firms and financial professionals operating in the UAE. Every project is designed to reflect accuracy, professionalism, and trust- qualities clients expect when choosing an accountant. Our focus goes beyond visuals, ensuring the website functions as a practical business tool, not just a digital brochure.",
+                lefttext: `  <p><b>Designed Around the UAE Financial Landscape:</b> Accounting firms in the UAE operate under specific regulatory, tax, and client expectations. Our websites are structured to support these requirements, with clear service communication, compliance-ready layouts, and content that resonates with local businesses. This market-first approach helps firms present themselves confidently to both local and international clients.</p>
+                        <p><b>Seamless and Secure Client Interaction:</b> We build accountant websites that support secure client communication and smooth day-to-day operations. From document exchange and enquiry handling to compatibility with widely used accounting platforms, our designs help reduce manual work and improve response times- while maintaining strong data security standards.</p>
+                        `,
+                righttext: `<p><b>Built for Performance and Growth:</b> Every website is developed to load fast, adapt smoothly across devices, and scale as your firm grows. Mobile-friendly layouts, structured navigation, and future-ready architecture ensure your website continues to support new services, expanding teams, and increasing client demand without needing a complete rebuild.</p>
+                            `
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 185,
+                lineNumber: 143,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$DevelopmentServices$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 248,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonDevelopmentProcess$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Our Accountant Website Development Process",
-                subheding: "At Website Development Agency, we follow a structured and agile development methodology to deliver high-performance accountant websites tailored to your business goals.",
-                processData: [
-                    {
-                        id: "01",
-                        title: "Consultation & Strategy",
-                        description: `Deep dive into firm goals, target audience, and competitive landscape.`
-                    },
-                    {
-                        id: "02",
-                        title: "Design & Architecture",
-                        description: `Mapping website structure, UX flow, and client journey with wireframes and prototypes.`
-                    },
-                    {
-                        id: "03",
-                        title: "Design & Development",
-                        description: `Creating visually engaging interfaces with a strong, secure, scalable back end, prioritizing mobile-first design and loading speed.`
-                    },
-                    {
-                        id: "04",
-                        title: "Integration",
-                        description: `Incorporating CRM, client portals, booking tools, and payment gateways.`
-                    },
-                    {
-                        id: "05",
-                        title: "Testing & QA",
-                        description: `Meticulous performance, usability, and security testing to identify bugs and ensure fast loading.`
-                    },
-                    {
-                        id: "06",
-                        title: "Launch & Optimization",
-                        description: `Website goes live after SEO audits, analytics setup, and speed optimization, with conversion tracking.`
-                    },
-                    {
-                        id: "07",
-                        title: "Support & Maintenance",
-                        description: `Ongoing monitoring, updates, and feature enhancements.`
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 250,
+                lineNumber: 162,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$CommonWhyWebsiteDevelopment$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Why Choose Website Development Agency for Accountant Website Development",
-                subheding: "Choosing the right digital partner is critical for accounting firms operating in Dubai’s compliance-driven and competitive market. At Website Development Agency, we build secure, scalable, and conversion-focused accountant websites that strengthen credibility, streamline operations, and drive measurable business growth.",
-                lefttext: `<p><b>Expertise in Financial Services:</b> We bring proven experience in developing websites for accountants, auditors, tax consultants, and wealth managers, with a strong focus on usability, regulatory compliance, secure data handling, and professional presentation tailored to financial service providers.</p>
-                                <p><b>Scalable Solutions:</b> Our websites are designed to scale seamlessly as your firm grows, supporting everything from solo practitioners to large, multi-partner accounting firms with expanding service offerings, client portals, and advanced functionality.</p>
-                                <p><b>SEO-First Approach:</b> We implement SEO best practices from the ground up, including optimized structure, content, and performance, helping accounting firms improve online visibility, attract qualified leads, and compete effectively in Dubai’s digital marketplace.</p>
-                                <p><b>Transparent Process & Support:</b> Our transparent development process ensures clear communication at every stage, complemented by ongoing support for maintenance, security updates, performance optimization, and feature enhancements long after the website launch.</p>
+                heding: "Accountant Website Design Services Tailored for Dubai Firms",
+                subheding: "We create strategically designed websites for chartered accountants and accounting firms across the UAE, built to convey trust and professional authority. Every website is tailored to reflect the standards expected in the financial sector, helping firms establish a credible digital identity.",
+                lefttext: `<p>Our approach goes beyond visual design. Each website is structured to support core accounting services, present offerings clearly, and guide visitors toward enquiries or consultations. We focus on clean content architecture and conversion-driven layouts so your website actively supports client acquisition and communication.</p>
+                                <p>Functionality plays a critical role in our development process. We ensure compatibility with commonly used accounting and finance platforms, while maintaining structured workflows that align with real operational needs. Strong emphasis is placed on data security, system stability, and compliance with UAE regulatory and data protection requirements.</p>
+                                <p>User experience is central to every build. Responsive layouts, intuitive navigation, and fast-loading pages ensure consistent performance across all devices. With scalable architecture and ongoing technical reliability, your website is designed to grow alongside your accounting practice- serving as a dependable digital asset that strengthens long-term client trust.</p>
                             `,
                 rightimage: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2d$choos$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$accountant$2d$website$2d$development$2f$why$2d$choos$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 alt: "Why Choose Website Development Agency for Accountant Website Development"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 293,
+                lineNumber: 165,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$about$2f$Team$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 310,
+                lineNumber: 181,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonClientTestimonials$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1843,12 +1702,12 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 312,
+                lineNumber: 183,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonServiceLocations$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 334,
+                lineNumber: 205,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1900,7 +1759,7 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/accountant-website-development/page.jsx",
-                lineNumber: 336,
+                lineNumber: 207,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

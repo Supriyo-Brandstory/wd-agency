@@ -1564,9 +1564,9 @@ const page = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonBanner2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 bg: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$banner$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$banner$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Automotive Website Development Agency in Dubai, UAE",
-                heding: "Automotive Website Development Agency in Dubai, UAE",
-                subtitle: "Drive your automotive business forward in Dubai, UAE with a cutting-edge website designed to attract buyers, showcase vehicles, and generate qualified leads."
+                alt: "Automotive Web Design in Dubai, UAE",
+                heding: "Automotive Web Design in Dubai, UAE",
+                subtitle: "Drive your automotive business forward in Dubai, UAE with a cutting-edge websites <br>designed to attract buyers, showcase vehicles, and generate qualified leads."
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
                 lineNumber: 48,
@@ -1574,11 +1574,11 @@ const page = ()=>{
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIntroduction$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 heding: "Automotive Website Design Solutions",
-                text1: ` <p>In today’s digital-first business landscape, the UAE automotive market is one of the most competitive and fast-evolving sectors in the region. Driven by demand for luxury vehicles, frequent new launches, and a tech-savvy customer base of residents, expatriates, and tourists, the market continues to grow rapidly. With passenger car sales rising and the used car segment projected to reach nearly USD 23 billion by 2026, buyers increasingly rely on online research.</p>
-                 <p>This shift toward digital engagement is accelerated by automotive e-commerce growth, popular online marketplaces such as DubiCars, YallaMotor, and dubizzle, and government initiatives supporting smart mobility and electric vehicles. Today, the first interaction between customers and automotive brands often happens online. For dealerships, service centers, and aftermarket suppliers in Dubai and across the UAE, a professional website is essential for credibility, trust-building, and capturing high-intent leads.</p>
+                text1: ` <p>The UAE automotive industry is increasingly shaped by digital-first buying behaviour, where customers research vehicles, compare prices, and evaluate brands online before making contact. With demand spanning luxury cars, electric vehicles, and the fast-growing used-car segment, automotive businesses must meet rising expectations for transparency and digital convenience.</p>
+                 <p>As online marketplaces and automotive e-commerce platforms continue to grow across Dubai and the wider UAE, having a strong standalone website is essential. Dealerships, service centres, and automotive brands need platforms that establish credibility, support lead generation, and clearly present inventory and services. A well-structured website helps businesses stand out in a crowded market while capturing enquiries from high-intent buyers.</p>
                     `,
-                text2: `  <p>A poorly designed or outdated website can result in significant lost opportunities, as potential customers quickly move on to competitors offering smoother digital experiences. In contrast, a high-quality website acts as a 24/7 digital showroom, showcasing inventory, services, and brand value. This is especially important in Dubai’s luxury-driven market, where buyers expect premium visuals, transparent pricing, detailed specifications, and seamless navigation to support confident decision-making.</p>
-                <p>Unlike generic business websites, automotive platforms require specialized features such as advanced vehicle search filters, comparison tools, interactive 360° virtual showrooms, online test drive or service bookings, and integrated finance calculators. These capabilities directly improve engagement and conversions. <a href='/'>Website Development Agency</a> specializes in building mobile-first, feature-rich automotive websites with advanced inventory management systems, designed for performance, scalability, and measurable results in the UAE automotive market.</p>
+                text2: `  <p>Websites that lack performance, clarity, or modern functionality often result in lost opportunities. Today’s customers expect premium visuals, detailed vehicle information, smooth navigation, and mobile-first experiences. A high-quality automotive website acts as a 24/7 digital showroom, allowing businesses to showcase vehicles, services, and brand value while guiding users toward test drives, service bookings, or enquiries.</p>
+                <p>At Website Development Agency, we deliver custom automotive website solutions built specifically for the UAE market. Our services include mobile-first design, fast-loading interfaces, structured inventory presentation, and conversion-focused layouts tailored to dealerships and automotive businesses. We focus on performance, usability, and scalability- ensuring your website not only looks premium but also drives measurable results, supports business growth.</p>
                     `,
                 imageintro1: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$intro$2d$1$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$intro$2d$1$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 alt1: "Automotive Website Design Solutions in Dubai - Website Development Agency",
@@ -1587,52 +1587,6 @@ const page = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
                 lineNumber: 57,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Why Automotive Businesses Need Professional Websites - Website Development Agency",
-                heding: "Why Automotive Businesses Need Professional Websites",
-                subheding: "Vehicle research and purchasing in the UAE have shifted online. The majority of buyers start their journey online with model research, virtual tours, comparative market analysis, and price comparison, often before contacting a sales agent.",
-                lefttext: `  <p>Easy-to-use websites with advanced vehicle listings, interactive virtual showrooms, and online booking integration allow prospects to thoroughly search for cars, trucks, and services before visiting in person, building trust and prompting action. In fast-moving markets like Dubai or Abu Dhabi, quick action and clear advantages are crucial for winning business.</p>
-                        <p>A polished website signals trustworthiness, establishment, and transparency. Secure inquiries, easy forms, and constantly updated inventory encourage prospective buyers and service clients to act. For UAE automotive businesses, a professional website is a functional, trustworthy, and convertible asset, yielding long-term rewards in a competitive market.</p>
-                        `,
-                righttext: `<p>Beyond lead generation, a professional automotive website supports long-term growth through SEO visibility, data-driven insights, and scalability. It helps businesses attract consistent organic traffic, understand user behavior, and adapt to evolving market trends. For UAE automotive brands, a strong website is not just a digital presence, it is a high-performing business asset that delivers measurable returns over time.</p>
-                            `
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 75,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$RealEstatePortfolio$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heading: "Automotive Website Showcase",
-                description: "Our portfolio includes luxury dealership platforms, spare parts e-commerce stores, and high-performance automotive service websites in Dubai & UAE.",
-                portfolioData: [
-                    {
-                        title: "Prestige Motors Dubai",
-                        subtitle: "Luxury Car Dealership",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$1$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$1$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 25,000"
-                    },
-                    {
-                        title: "AutoParts Express",
-                        subtitle: "E-commerce Spare Parts",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$2$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$2$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 18,000"
-                    },
-                    {
-                        title: "Elite Service Center",
-                        subtitle: "Automotive Maintenance Portal",
-                        image: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$3$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$protfolio$2f$realestate$2d$3$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        link: "/contact-us",
-                        price: "AED 12,000"
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 91,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIndustries$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1648,7 +1602,7 @@ const page = ()=>{
                         link: "/contact-us"
                     },
                     {
-                        title: "Vehicle Listing & Inventory Management Systems",
+                        title: "Vehicle Listing & Inventory Management",
                         desc: "Our inventory management systems enable effortless control and display of large vehicle listings with advanced filters such as make, model, year, price, and features, ensuring fast browsing and seamless user experience across hundreds of vehicles.",
                         img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$service$2d$5$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$service$2d$5$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                         alt: "Automotive Inventory Management System",
@@ -1714,121 +1668,27 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 119,
+                lineNumber: 75,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonThreeCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                text1: "Features of a Successful Automotive Website",
-                text2: "A successful automotive website combines high-end visuals with advanced functionality to drive engagement and sales. Key features include:",
-                boxdata: [
-                    {
-                        id: 1,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Advanced$2d$Search$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Advanced Search Filters",
-                        desc: "Advanced filters allow users to sort vehicles by make, model, year, price, mileage, fuel type, body style, and amenities, enabling faster discovery and more confident purchasing decisions."
-                    },
-                    {
-                        id: 2,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Multi$2d$Language$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Interactive Virtual Showrooms & 360° Views",
-                        desc: "Interactive virtual showrooms with 360° views, walk-throughs, and video tours allow buyers to explore vehicles remotely, increasing transparency, engagement, and purchase confidence before visiting showrooms."
-                    },
-                    {
-                        id: 3,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$SEO$2d$Friendly$2d$Architecture$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Vehicle Comparison Tools",
-                        desc: "Side-by-side comparison tools help users evaluate multiple vehicles based on specifications, features, pricing, and performance, simplifying decision-making and improving user satisfaction."
-                    },
-                    {
-                        id: 4,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$AI$2d$Driven$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Dealer / Agent Directories & Profiles",
-                        desc: "Dedicated dealer or agent profile pages highlight expertise, contact details, and credentials, building trust through professional visibility and encouraging direct engagement with sales or service representatives."
-                    },
-                    {
-                        id: 5,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$responsive$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Online Appointment & Service Booking",
-                        desc: "Secure online booking forms enable customers to schedule test drives, service appointments, or consultations easily, improving convenience, reducing manual coordination, and increasing conversion rates."
-                    },
-                    {
-                        id: 6,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Fast$2d$Loading$2d$Speed$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Quick-Loading Pages",
-                        desc: "Fast-loading vehicle listings and service pages enhance user experience, reduce bounce rates, support higher search engine rankings, and encourage longer browsing sessions and increased conversions."
-                    },
-                    {
-                        id: 7,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Secure$2d$Transactions$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Secure Payment Transactions & Financing Calculators",
-                        desc: "Integrated secure payment options allow deposits or bookings online, while financing calculators help buyers assess affordability, increasing confidence and accelerating purchase decisions."
-                    },
-                    {
-                        id: 8,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Analytics$2d$Reporting$2d$Dashboards$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Analytics & Reporting Dashboards",
-                        desc: "Analytics dashboards track vehicle views, enquiries, test drive requests, and conversions, enabling data-driven decisions, performance optimization, and smarter marketing strategies."
-                    },
-                    {
-                        id: 9,
-                        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$e$2d$commerce$2d$web$2d$development$2f$Scalable$2d$Infrastructure$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                        title: "Recommendations & Saved Searches",
-                        desc: "Personalized recommendations and saved search features allow users to bookmark vehicles, receive alerts for new listings, and return easily, increasing repeat visits and long-term engagement."
-                    }
-                ]
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$automotive$2d$website$2d$development$2f$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                alt: "Automotive Website Development That Delivers Results",
+                heding: "Automotive Website Development That Delivers Results",
+                subheding: "We build automotive websites that drive real business growth in the UAE’s fast-paced digital market. Each project focuses on usability, performance, and brand presence- creating a strong first impression while guiding visitors toward meaningful actions.",
+                lefttext: `  <p><b>Performance-Focused Development:</b> Our development process prioritises speed, structure, and functionality. From clean layouts and intuitive navigation to optimised loading performance, we ensure your website delivers a smooth experience across all devices. Automotive-specific features such as structured vehicle listings, service pages, and scalable content frameworks are built to support long-term growth.</p>
+                        <p><b>SEO-Ready Architecture:</b> Visibility plays a critical role in automotive success. We develop websites with SEO-ready foundations, ensuring search engines can easily crawl, index, and rank your pages. Combined with mobile-first design and conversion-focused layouts, your website is positioned to attract high-intent traffic and convert visitors into qualified leads.</p>
+                        `,
+                righttext: `<p><b>Industry Recognition:</b> Backed by industry recognition and a results-driven team, we consistently deliver digital solutions that meet high performance standards. Our commitment to quality, innovation, and client success has earned recognition from leading industry platforms- reflecting the trust businesses place in us to build reliable, growth-oriented automotive websites.</p>
+                            `
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 198,
-                columnNumber: 7
+                lineNumber: 154,
+                columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$DevelopmentServices$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 261,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonDevelopmentProcess$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                heding: "Our Automotive Website Development Process",
-                subheding: "At Website Development Agency, we follow an agile methodology to design and develop responsive automotive websites that achieve your business goals.",
-                processData: [
-                    {
-                        id: "01",
-                        title: "Consultation & Strategy",
-                        description: `Deep dive into goals, target audience (local and international), and competitive landscape to align the project with business goals, industry trends, and customer expectations.`
-                    },
-                    {
-                        id: "02",
-                        title: "Design & Architecture",
-                        description: `Mapping website structure, UX flow, and customer journey for vehicle browsing and service booking. Creating wireframes and prototypes for user interaction visualization.`
-                    },
-                    {
-                        id: "03",
-                        title: "Design & Development",
-                        description: `Creating a visually engaging interface supported by a strong, secure, and scalable back end. Ensuring consistent functionality across devices, prioritizing mobile-first design and loading speed.`
-                    },
-                    {
-                        id: "04",
-                        title: "Integration",
-                        description: `Incorporating CRM, inventory management systems, payment gateways, virtual tour software, and Google Maps for real-time information and fully functioning platforms.`
-                    },
-                    {
-                        id: "05",
-                        title: "Testing & QA",
-                        description: `Meticulous performance, usability, and security testing, identifying bugs and browser compatibility issues, ensuring fast loading for optimal user experience.`
-                    },
-                    {
-                        id: "06",
-                        title: "Launch & Optimization",
-                        description: `Website goes live after SEO audits, analytics setup, and speed optimization. Conversion tracking tools are implemented to measure performance.`
-                    },
-                    {
-                        id: "07",
-                        title: "Support & Maintenance",
-                        description: `Ongoing monitoring, updates, and feature enhancements to ensure efficient operation and adaptability to market changes.`
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 263,
+                lineNumber: 171,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$CommonWhyWebsiteDevelopment$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1845,12 +1705,12 @@ const page = ()=>{
                 alt: "Why Choose Website Development Agency for Automotive Website Development"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 307,
+                lineNumber: 175,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$about$2f$Team$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 327,
+                lineNumber: 195,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonClientTestimonials$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1876,12 +1736,12 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 329,
+                lineNumber: 197,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonServiceLocations$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 352,
+                lineNumber: 220,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1925,7 +1785,7 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/automotive-website-development/page.jsx",
-                lineNumber: 354,
+                lineNumber: 222,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

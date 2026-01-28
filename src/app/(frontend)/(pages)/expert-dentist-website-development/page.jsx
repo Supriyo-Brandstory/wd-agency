@@ -38,25 +38,29 @@ import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/healthcare
 import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/healthcare-3.webp";
 import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/healthcare-4.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import LocationService from "../../component/pages/common/LocationService";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt={"Expert Dentist Website Development Dubai - Attract More Patients"}
+        alt={"Dentist Web Design Agency in Dubai, UAE"}
         heding={
-          "Expert Dentist Website Development Dubai - Attract More Patients"
+          "Dentist Web Design Agency in Dubai, UAE"
         }
         subtitle={
-          "Discover specialized web development services tailored for dental practices in Dubai. We focus on creating a powerful online presence that not only attracts new patients but also streamlines operations and enhances patient engagement."
+          "We build dental clinic websites that increase visibility, attract more patients, and make <br>appointment booking easy. Our websites help clinics in Dubai, UAE stand out and grow online."
         }
       />
 
       <CommonIntroduction
-        heding={"Dentist Website Design Development"}
+        heding={"Dentist Website Design & Development"}
         text1={` <p>In Dubai’s fast‑growing healthcare and dental services market, patients increasingly rely on online research to find trusted dental professionals. A professional, well‑structured website serves as the digital front door for your practice, helping you attract new patients, explain treatment offerings, and communicate your clinic’s values clearly and confidently to a diverse local and expatriate population.</p>
-                 <p>Today’s dental patients expect informative, easy‑to‑navigate websites that provide clear service details, professional profiles, and seamless appointment scheduling. With many clinics vying for attention in areas like JLT, Downtown, and Al Barsha, strong online visibility through a purpose‑built website helps your practice stand out in local searches and convert visitors into booked appointments.</p>
+                 <p>Today’s dental patients expect informative, easy‑to‑navigate websites that provide clear service details, professional profiles, and seamless appointment scheduling. With many clinics vying for attention, strong online visibility through a purpose‑built website helps your practice stand out in local searches and convert visitors into booked appointments.</p>
                     `}
         text2={`  <p>A modern dental website not only showcases services such as preventive care, cosmetic dentistry, orthodontics, and implants but also builds trust through features like team bios, patient testimonials, treatment galleries, and educational content. Integration of secure online forms for bookings and inquiries enhances patient convenience and simplifies clinic workflows.</p>
                 <p><a href='/'>Website Development Agency</a> specializes in creating high‑impact dental websites tailored for Dubai’s healthcare landscape. We design responsive, SEO‑optimized platforms that highlight your clinic’s expertise, bolster online visibility, and improve patient engagement. Our solutions help dental practices attract more patients, enhance brand authority, and grow sustainably in a competitive digital environment.</p>
@@ -69,54 +73,12 @@ const page = () => {
         alt2={"Dental Web Development Company UAE - Website Development Agency"}
       />
 
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={
-          "Why Your Dental Practice Needs a Professional Website - Website Development Agency"
-        }
-        heding={"Why Your Dental Practice Needs a Professional Website"}
-        subheding={
-          "A professionally designed website instantly establishes your dental practice as an authoritative and trustworthy presence in Dubai’s competitive market."
-        }
-        lefttext={`  <p><b>Authority & Trust:</b> Through elegant, modern layouts, high-quality imagery of your clinic, detailed team bios, and prominently displayed DHA certifications, you convey expertise and professionalism. Custom design elements that reflect your brand clean aesthetics, soothing colors, and intuitive navigation help build patient confidence before they even step through your door.</p>
-                        <p><b>24/7 Accessibility:</b> Your website provides 24/7 accessibility, allowing patients to explore services, view before-and-after galleries, read patient testimonials, and book appointments conveniently at any time. A well-developed, mobile-responsive design with fast-loading pages and integrated online booking systems ensures seamless user experience, reducing barriers and encouraging immediate action.</p>
-                        `}
-        righttext={`<p><b>Showcase Specializations:</b> A custom-built website enables you to showcase your full range of services—from cosmetic dentistry and implants to orthodontics and smile makeovers with rich visual content, treatment explanations, and technology highlights like digital scanners or laser treatments. Professional development ensures a clear, organized presentation of your specialties, team qualifications, and advanced equipment.</p>
-                    <p><b>Patient-Centric Modernization:</b> Stand out from competitors with a polished, feature-rich platform that includes virtual clinic tours, easy enquiry forms, and secure patient portals, positioning your practice as modern, patient-centric, and ahead of the curve in the UAE’s premium dental market.</p>
-                            `}
-      />
+      <DemoTemplate title="Dental Website Designs- Explore Templates" description="Affordable hospital and clinic website design in Dubai, starting at AED 1,500. Launch your healthcare <br>website quickly with modern, responsive designs. Get fast delivery today." activetaburl={"healthcare"} />
 
-      <RealEstatePortfolio
-        heading="Dental Practice Showcase"
-        description="Explore our portfolio of high-performing dental websites developed for specialized clinics and general practices across Dubai."
-        portfolioData={[
-          {
-            title: "Smile Care Clinic Dubai",
-            subtitle: "Cosmetic & General Dentistry",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 12,000",
-          },
-          {
-            title: "Advanced Ortho Center",
-            subtitle: "Orthodontic Specialists",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 15,000",
-          },
-          {
-            title: "Pearly White Implants",
-            subtitle: "Dental Implant Specialty",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 18,000",
-          },
-        ]}
-      />
 
       <CommonIndustries
-        heding={"Our Comprehensive Dentist Website Development Services"}
-        subheding="At Website Development Agency, we offer a full suite of digital solutions designed to help dental practices in Dubai grow and succeed."
+        heding={"Dentist Website Design in Dubai, UAE- Our Services"}
+        subheding="We offer full suite of digital solutions designed to help dental practices in Dubai grow and succeed."
         services={[
           {
             title: "Custom Website Design & Development",
@@ -169,123 +131,40 @@ const page = () => {
         ]}
       />
 
-      <CommonThreeCard
-        text1={"Key Features for a High-Performing Dental Website"}
-        text2={
-          "Discover the essential features that make our dental websites stand out and deliver exceptional patient experiences."
+            <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={
+          "Trusted Dental Website Design for UAE Clinics - Website Development Agency"
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon1,
-            title: "Intuitive User Interface (UI)",
-            desc: "A clean, intuitive design with simple navigation, clear menus, and fast-loading pages ensures patients can easily find information, explore services, and book appointments without frustration, creating a welcoming first impression.",
-          },
-          {
-            id: 2,
-            img: imagecommon6,
-            title: "High-Quality Imagery & Video",
-            desc: "Professional photographs of your modern clinic, friendly staff, advanced equipment, and short welcoming videos build trust and excitement, allowing patients to visualize their visit and feel confident in your practice.",
-          },
-          {
-            id: 3,
-            img: imagecommon8,
-            title: "Detailed Service Pages",
-            desc: "Comprehensive, well-organized pages explain each treatment from cosmetic veneers and implants to routine cleanings with benefits, procedures, and recovery details, helping patients make informed decisions about their dental care.",
-          },
-          {
-            id: 4,
-            img: imagecommon5,
-            title: "Doctor Profiles",
-            desc: "Dedicated profiles showcase each dentist’s qualifications, years of experience, specializations, certifications, and a personal bio, helping patients connect on a human level and choose the right specialist for their needs.",
-          },
-          {
-            id: 5,
-            img: imagecommon4,
-            title: "Contact Forms & Online Inquiry Management",
-            desc: "User-friendly contact forms, live chat options, and quick-response systems make it simple for patients to ask questions, request consultations, or provide feedback, streamlining communication and improving patient satisfaction.",
-          },
-          {
-            id: 6,
-            img: imagecommon7,
-            title: "Social Media Integration",
-            desc: "Seamless links and feeds from Instagram, Facebook, and other platforms display your latest updates, patient success stories, and promotions, encouraging engagement and driving traffic back to your website effortlessly.",
-          },
-          {
-            id: 7,
-            img: imagecommon2,
-            title: "Website Security",
-            desc: "SSL encryption, regular security updates, secure forms, and automated backups protect patient data and build confidence, ensuring your Dubai clinic complies with UAE data protection standards and safeguards privacy.",
-          },
-          {
-            id: 8,
-            img: imagecommon9,
-            title: "Accessibility Compliance",
-            desc: "WCAG-compliant features like alt text for images, keyboard navigation, adjustable text sizes, and screen-reader compatibility make your website inclusive and usable for patients with visual or motor impairments.",
-          },
-          {
-            id: 9,
-            img: imagecommon3,
-            title: "Multilingual Support",
-            desc: "Arabic, English, Hindi, and additional language options cater to Dubai’s diverse population, allowing international and expatriate patients to navigate comfortably and access important information in their preferred language.",
-          },
-        ]}
+        heding={"Trusted Dental Website Design for UAE-based Clinics"}
+        subheding={
+          "We design dental websites with a clear understanding of how clinics operate in the UAE. From service clarity to patient trust signals, every element is structured to appeal to local audiences while reflecting medical professionalism."
+        }
+        lefttext={`  <p><b>Tailored for Clinic Growth:</b> Each website is customised to support your clinic’s goals- whether that’s increasing appointment enquiries, promoting specialised treatments, or building long-term patient trust. Layouts, content flow, and calls-to-action are designed to convert visitors into patients.</p>
+                        <p><b>Efficient & Reliable Development:</b> With custom and platform-based development approach we follow a streamlined development process ensures timely delivery without compromising quality. From planning to launch, we maintain transparency and structure, making the entire experience smooth and predictable for clinic owners.</p>
+                        `}
+        righttext={`<p><b>SEO & Ongoing Support:</b> We build websites with strong local SEO foundations to improve visibility across UAE search results. Post-launch, our team provides reliable support and updates, ensuring your dental website remains secure, fast, and effective as your clinic grows.</p>
+                            `}
       />
-
+      <CommonProtfolio />
+      
       <DevelopmentServices />
 
-      <CommonDevelopmentProcess
-        heding={"Our Streamlined Dentist Website Development Process"}
-        subheding={
-          "We follow a proven process to ensure your dental website is delivered with precision and excellence."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Discovery & Consultation",
-            description: `A deep dive into your practice goals, target audience, and specific digital needs.`,
-          },
-          {
-            id: "02",
-            title: "Strategic Planning & Wireframing",
-            description: `Blueprinting the website's structure and optimizing the user flow.`,
-          },
-          {
-            id: "03",
-            title: "Design & UI/UX Prototyping",
-            description: `Crafting visually appealing and exceptionally user-friendly designs.`,
-          },
-          {
-            id: "04",
-            title: "Development & Coding",
-            description: `Bringing your designs to life with clean, efficient, and robust code.`,
-          },
-          {
-            id: "05",
-            title: "Testing & Quality Assurance",
-            description: `Rigorous testing for functionality, responsiveness, and paramount security.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Deployment",
-            description: `Seamlessly taking your brand new, high-performing website live.`,
-          },
-          {
-            id: "07",
-            title: "Post-Launch Support & Optimization",
-            description: `Ongoing assistance and continuous performance enhancements to ensure long-term success.`,
-          },
-        ]}
+            <CommonCostBreakdown
+        heading="Dental Website Design Dubai- Cost Breakdown"
+        description="Choose dental website design and development solutions designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
 
+
       <CommonWhyWebsiteDevelopment
-        heding={"Why Choose Website Development Agency for Dental Websites"}
+        heding={"Dental Website Solutions for Every Type of Practice"}
         subheding={
-          "We combine healthcare industry insights with technical brilliance to deliver websites that grow your dental practice."
+          "We design dental websites that adapt to the unique focus of each clinic across the UAE. Every website is planned around patient behaviour, treatment priorities, and clinic objectives- ensuring clarity, trust, and strong digital performance in a competitive healthcare market."
         }
-        lefttext={`<p><b>Legal & Data Privacy:</b> We ensure strict compliance with UAE data privacy regulations, protecting sensitive patient information. From online advertising guidelines to accessibility standards and mandatory healthcare disclaimers, your dental website remains fully lawful, secure, and trustworthy.</p>
-                                <p><b>Ongoing Maintenance:</b> Our maintenance services include regular security updates, content management, and performance optimization to keep your dental website secure, fast, and efficient. We provide prompt technical support and robust backup solutions.</p>
-                                <p><b>Proven Results:</b> We understand the competitive dental market in Dubai and build websites specifically designed to rank higher in local search and convert visitors into patients.</p>
+        lefttext={`<p><b>General Dental Clinics:</b> For multi-service practices, we create structured websites that clearly present treatments, clinic information, and easy appointment pathways. Clear layouts and patient-friendly navigation help visitors quickly understand services and take action.</p>
+                                <p><b>Cosmetic & Aesthetic Dentistry:</b> Websites for cosmetic clinics are designed to highlight visual results and patient confidence. We incorporate treatment-focused pages, image galleries, and conversion-driven layouts that support enquiries for high-value. </p>
+                                <p><b>Orthodontic & Paediatric:</b> Orthodontic websites focus on education and long-term care, presenting treatments in a simple, reassuring way. For paediatric clinics, we design warm, approachable interfaces that appeal to both parents and children while maintaining professional credibility.</p>
+                                <p>Specialist Dental Practices:</b> For clinics offering advanced dental services, we build content-rich websites that emphasise expertise, qualifications, and referral-friendly structures. These platforms support specialist positioning while remaining accessible and easy for patients to navigate.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt={
@@ -318,17 +197,13 @@ const page = () => {
         ]}
       />
 
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[
           {
             q: "How long does it take to build a professional dentist website?",
             a: "Typically, a professional dentist website can take anywhere from 4 to 12 weeks, depending on the complexity, features required, and content availability.",
-          },
-          {
-            q: "What is the average cost of dentist website development in Dubai?",
-            a: "Costs vary significantly based on customization, features, and ongoing support. Basic packages might start from AED 8,000, while comprehensive solutions can range much higher. We offer flexible packages tailored to your budget.",
           },
           {
             q: "Do you provide SEO services specifically for dental clinics?",

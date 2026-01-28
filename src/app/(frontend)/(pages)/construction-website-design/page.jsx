@@ -15,17 +15,6 @@ import imageService5 from "@/app/(frontend)/assets/images/construction-website-d
 import imageService6 from "@/app/(frontend)/assets/images/construction-website-design/service-6.webp";
 import imageService7 from "@/app/(frontend)/assets/images/construction-website-design/service-7.webp";
 import imageService8 from "@/app/(frontend)/assets/images/construction-website-design/service-8.webp";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/construction-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -33,13 +22,11 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/realestate-1.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/realestate-2.webp";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/realestate-3.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
+import LocationService from "../../component/pages/common/LocationService";
+import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
@@ -47,19 +34,19 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         alt={"Construction Website Design Company in Dubai"}
-        heding={"Construction Website Design Company in Dubai"}
+        heding={"Construction Web Design in Dubai, UAE"}
         subtitle={
-          "Strengthen your construction business presence in Dubai, UAE with a professionally engineered website designed to highlight projects, showcase capabilities, and generate high-quality leads from developers, contractors, and decision-makers."
+          "Enhance your construction business in Dubai, UAE with a professional website design <br>to showcases projects, highlights capabilities, and attracts high-quality leads."
         }
       />
 
       <CommonIntroduction
         heding={"Construction Website Design Solutions"}
-        text1={` <p>Dubai’s construction market continues to expand rapidly, driven by large-scale infrastructure projects, smart city initiatives, real estate development, and sustained government investment. From commercial towers and residential communities to industrial and hospitality developments, construction firms operate in a highly competitive environment where credibility, proven experience, and strong market visibility are essential for long-term growth.</p>
-                 <p>Operating within the UAE construction sector demands strict adherence to regulatory standards, safety guidelines, and compliance frameworks set by local authorities. Businesses must also manage tender-based competition, project transparency, and client trust. These dynamics create opportunities for construction firms that can clearly communicate their expertise, certifications, and project capabilities with confidence.</p>
+        text1={` <p>Dubai’s construction industry is highly competitive, with large infrastructure projects, luxury developments, and smart city initiatives driving growth. A professional website is essential to showcase expertise, completed projects, and capabilities, helping firms build credibility and attract developers, contractors, and decision-makers.</p>
+                 <p>At <a href='/'>Website Development Agency</a>, we create websites that blend design and functionality. Project galleries, interactive features, and clear service presentations highlight your work, while enquiry forms and lead capture tools make it easy for clients to connect. Every site is built to showcase your technical expertise and compliance credentials effectively.</p>
                     `}
-        text2={`  <p>In this evolving digital landscape, a professional website has become a critical asset for construction companies. Decision-makers increasingly research contractors, consultants, and developers online before shortlisting partners. A well-structured website helps showcase completed projects, technical strengths, compliance credentials, and service offerings, effectively positioning your business ahead of competitors.</p>
-                <p><a href='/'>Website Development Agency</a> specializes in building high-performance construction websites tailored to Dubai’s regulatory and business environment. We create platforms that professionally highlight projects, reinforce credibility, support consistent lead generation, and help construction firms stand out in a competitive, compliance-driven marketplace.</p>
+        text2={`  <p>Our websites are mobile-responsive, fast-loading, and SEO-optimized to attract high-intent traffic from across Dubai and the UAE. Strategic content layouts communicate your value, projects, and experience, helping your firm rank higher in search results for construction services in Dubai. With clear calls-to-action, visitors are guided seamlessly from discovery to enquiry.</p>
+                <p>We deliver scalable, secure, and professional construction websites tailored to your business needs. Whether a portfolio site or a dynamic project platform, our solutions drive leads, strengthen brand authority, and support long-term growth in Dubai’s construction sector. All websites are designed for easy updates, allowing you to showcase new projects and capabilities as your business expands.</p>
                     `}
         imageintro1={imageintro1}
         alt1={
@@ -69,51 +56,6 @@ const page = () => {
         alt2={
           "Construction Web Development Company UAE - Website Development Agency"
         }
-      />
-
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={
-          "Why Construction Businesses Need Professional Websites - Website Development Agency"
-        }
-        heding={"Why Construction Businesses Need Professional Websites"}
-        subheding={
-          "In Dubai’s tech-driven environment, a high-impact construction website strengthens credibility, improves lead generation, and positions firms as industry leaders."
-        }
-        lefttext={`  <p><b>Dynamic Digital Portfolio:</b> In Dubai’s thriving construction market, projected to grow around 4% annually from 2026 to 2029, a professional website acts as a dynamic digital portfolio. It allows firms to display high-resolution images, detailed case studies, 3D renders, and project timelines, highlighting expertise in sustainable building, BIM integration, and complex infrastructure, attracting developers, investors, and partners in a competitive landscape.</p>
-                        <p><b>Regulatory Adherence & Trust:</b> With Dubai Law No. 7 of 2025 enforcing unified contractor registration, classification, and strict compliance on safety, sustainability, and transparency, a professional website is essential for showcasing regulatory adherence. Featuring certifications, compliance credentials, client testimonials, team bios, and ESG commitments builds trust with stakeholders, including government bodies, developers, and multinational clients, signaling professionalism and reliability.</p>
-                        `}
-        righttext={`<p><b>24/7 Marketing Engine:</b> A professional website functions as a 24/7 digital marketing engine, optimized for search terms like “construction companies in Dubai” and “sustainable building UAE.” Features such as inquiry forms, downloadable brochures, and blogs on digital transformation, green initiatives, and smart construction capture qualified leads, nurture prospects, and convert visitors into enquiries, supporting growth in Dubai’s competitive, government-driven infrastructure market.</p>
-                    <p><b>Seamless Communication:</b> Construction websites enable seamless client communication via secure portals, real-time project updates, progress galleries, and document sharing, enhancing transparency and satisfaction. Mobile-optimized, visually engaging platforms differentiate firms in Dubai’s tech-driven construction sector. Website Development Agency specializes in building high-impact construction websites that strengthen credibility, improve lead generation, showcase compliance, and position firms as industry leaders.</p>
-                            `}
-      />
-
-      <RealEstatePortfolio
-        heading="Construction & Infrastructure Showcase"
-        description="We have delivered high-performance digital platforms for leading contractors, structural engineers, and heavy infrastructure developers across Dubai and the UAE."
-        portfolioData={[
-          {
-            title: "Apex Civil Engineering",
-            subtitle: "Infrastructure & Road Works",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 30,000",
-          },
-          {
-            title: "GreenBuild Developers",
-            subtitle: "Sustainable Residential Projects",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 22,000",
-          },
-          {
-            title: "SteelCore Structures",
-            subtitle: "Industrial Warehouse Construction",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 18,000",
-          },
-        ]}
       />
 
       <CommonIndustries
@@ -186,127 +128,41 @@ const page = () => {
           },
         ]}
       />
-
-      <CommonThreeCard
-        text1={"Key Features of a Successful Construction Website"}
-        text2={
-          "A successful construction website combines high-end technical features with professional aesthetics to drive engagement and project leads. Key features include:"
+            <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={
+          "Construction Builder Web Design Services for UAE Businesses"
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon5,
-            title: "Custom Website Design for Construction",
-            desc: "We create visually appealing, brand-aligned websites with user-centric layouts tailored for architects, developers, and contractors, ensuring a professional digital presence that effectively showcases projects, capabilities, and company identity.",
-          },
-          {
-            id: 2,
-            img: imagecommon8,
-            title: "Project Listing & Management Systems",
-            desc: "Our platforms feature dynamic project listing and management systems, allowing firms to showcase active and completed projects with advanced filtering, search functionality, and detailed descriptions for easy client exploration.",
-          },
-          {
-            id: 3,
-            img: imagecommon3,
-            title: "Integrating CRM and Project Management Tools",
-            desc: "Seamlessly capture and manage leads by connecting inquiry forms to CRM systems and integrating with industry-specific project management tools like Procore and Aconex for improved workflow efficiency.",
-          },
-          {
-            id: 4,
-            img: imagecommon6,
-            title: "Virtual Tours & 3D Integration",
-            desc: "Enhance engagement with immersive 3D visualizations, interactive walkthroughs, and virtual tours of ongoing or completed projects, providing clients with a realistic experience and better understanding of developments.",
-          },
-          {
-            id: 5,
-            img: imagecommon1,
-            title: "Augmented Reality (AR) & Virtual Reality (VR) Applications",
-            desc: "Leverage AR and VR technologies to visualize construction projects, site progress, and architectural designs, enabling investors, partners, and clients to explore developments before physical visits.",
-          },
-          {
-            id: 6,
-            img: imagecommon4,
-            title: "Website Security and Data Privacy for Construction Firms",
-            desc: "Implement robust cybersecurity measures, ensuring compliance with UAE data protection regulations while safeguarding sensitive project information, contracts, and client communications from unauthorized access or cyber threats.",
-          },
-          {
-            id: 7,
-            img: imagecommon2,
-            title: "Multi-Language & Multi-Currency Options",
-            desc: "Support multiple languages and currencies to serve Dubai’s diverse population and international investors, making your construction firm accessible and professional to clients across different regions and markets.",
-          },
-          {
-            id: 8,
-            img: imagecommon7,
-            title: "Mobile & Tablet Optimized Designs",
-            desc: "Responsive layouts guarantee fast, error-free browsing on smartphones and tablets, allowing clients, contractors, and partners to access project details, galleries, and forms conveniently from anywhere.",
-          },
-          {
-            id: 9,
-            img: imagecommon9,
-            title: "Maintenance & Ongoing Support",
-            desc: "We provide proactive monitoring, regular updates, bug fixes, and feature enhancements to keep your construction website secure, fully functional, and optimized for performance in Dubai’s competitive digital landscape.",
-          },
-        ]}
+        heding={"Construction Builder Web Design Services for UAE Businesses"}
+        subheding={
+          "Choosing the right website design partner can directly influence how your construction or building business is perceived online. In the UAE’s competitive market, your website must clearly present your expertise, completed projects, and service strengths."
+        }
+        lefttext={`  <p><b>Tailor-made Designs:</b> Our custom web design approach is shaped by a strong understanding of the UAE construction sector. We create websites that reflect regional business standards, tender-based workflows, and client research behaviour. Structured service pages and well-organised project portfolios help communicate your capabilities with clarity and confidence.</p>
+                        <p><b>Performance-Driven Approach:</b> Website performance and usability are central to our development process. Clean layouts, intuitive navigation, and fast-loading pages ensure visitors can quickly find the information they need. Each website is fully responsive, delivering a consistent and professional experience across desktop, tablet, and mobile devices.</p>
+                        `}
+        righttext={`<p><b>Scalable for Growth:</b> Our construction websites are built to support enquiries and long-term growth. Strategic calls to action, enquiry forms, and contact points encourage direct engagement from potential clients. Scalable frameworks allow your website to grow alongside your business, making it a valuable digital asset well into the future.</p>
+                            `}
       />
+
+      <CommonProtfolio />
 
       <DevelopmentServices />
 
-      <CommonDevelopmentProcess
-        heding={"Our Construction Website Development Process"}
-        subheding={
-          "At Website Development Agency, we follow an agile and industry-aligned methodology to deliver responsive construction websites that achieve your business goals."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `Understanding Business Goals, Target Audience, and Competitive Landscape in Construction.`,
-          },
-          {
-            id: "02",
-            title: "Design & Architecture",
-            description: `Mapping User Journeys for Clients, Investors, and Partners; Wireframing and Prototyping Key Functionalities.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `Building Visually Engaging and Secure Interfaces; Prioritizing Mobile-First Design and Loading Speed.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `Connecting with CRM, Project Management Tools, and Industry-Specific Databases.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Meticulous Performance, Usability, and Security Testing for Construction Data.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `SEO Audits, Analytics Setup, and Conversion Tracking.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Ongoing Monitoring, Updates, and Feature Enhancements; Future-Proofing Your Construction Website.`,
-          },
-        ]}
+      <CommonCostBreakdown
+        heading="Construction Website Design Dubai- Cost Breakdown"
+        description="Choose construction website design and development solutions designed to strengthen your digital presence and support sustainable growth in the UAE."
       />
 
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Construction Website Design in Dubai?"
+          "Website Design for Construction Businesses Across UAE"
         }
         subheding={
-          "Partnering with Website Development Agency ensures a robust, visually stunning, and high-performance digital presence tailored for the construction industry."
+          "Every construction business operates differently, which is why a one-size-fits-all website never works. We design construction websites that reflect the specific nature of your services, projects, and target clients- ensuring your expertise is presented clearly and professionally across the UAE market."
         }
-        lefttext={`<p><b>Industry-Specific Expertise:</b> Website Development Agency has a proven track record in delivering high-performance websites for construction and real estate businesses. We understand sector-specific challenges, from showcasing projects to regulatory compliance, ensuring your digital platform effectively reflects expertise and professionalism.</p>
-                                <p><b>SEO-First Approach:</b> We build every construction website with search engine optimization in mind. Optimized content, structured project pages, local SEO targeting, and technical enhancements maximize visibility, helping your projects, services, and firm rank prominently in Dubai and UAE construction searches.</p>
-                                <p><b>Transparent Process & Dedicated Support:</b> We maintain clear communication throughout the design and development process, ensuring alignment with your goals. Our team provides dedicated support for updates, troubleshooting, and guidance, creating a long-term partnership rather than just a one-time service.</p>
-                                <p><b>Maintenance and Future-Proofing:</b> Website Development Agency ensures your construction website remains secure, up to date, and compatible with evolving technologies. Regular updates, feature enhancements, and proactive monitoring keep your digital platform future-ready in Dubai’s fast-paced construction market.</p>
+        lefttext={`<p><b>Residential Developers:</b> For residential builders and developers, we focus on visually rich project showcases that highlight completed work, design quality, and delivery standards. Structured layouts, image-led portfolios, and credibility-focused content help build confidence with homeowners and investors alike.</p>
+                                <p><b>Commercial Construction Firms:</b> Commercial and industrial construction websites are designed to communicate scale, capability, and compliance. We create structured service sections, project timelines, and certification highlights that help decision-makers quickly understand your technical expertise and project experience.</p>
+                                <p><b>Renovation, Fit-Out & Specialist Contractors:</b> For renovation companies, fit-out specialists, and niche contractors, we build websites that emphasise service clarity and easy enquiry paths. Clear service breakdowns, project galleries, and streamlined contact forms make it simple for clients to take the next step and engage with your business.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt={
@@ -339,7 +195,7 @@ const page = () => {
         ]}
       />
 
-      <CommonServiceLocations />
+      <LocationService activeLocation="dubai" />
 
       <CommonFaqSection
         faqs={[
