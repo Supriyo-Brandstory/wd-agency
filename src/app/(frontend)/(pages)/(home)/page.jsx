@@ -17,6 +17,7 @@ import DemoTemplate from "../../component/pages/home/DemoTemplate";
 import LocationService from "../../component/pages/common/LocationService";
 
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import CommonBlogSlider from "../../component/pages/common/CommonBlogSlider";
 const page = () => {
   return (
     <div>
@@ -47,6 +48,7 @@ const page = () => {
       <WebDesignApproach />
       <LocationService activeLocation="dubai" />
       <OurJourney />
+      <CommonBlogSlider category="In esse aut minima" />
       <FaqSection />
       <CtaSection />
     </div>

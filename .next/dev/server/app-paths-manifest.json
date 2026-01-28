@@ -1,8 +1,5 @@
 {
   "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
-  "/(frontend)/(pages)/corporate-web-development/page": "app/(frontend)/(pages)/corporate-web-development/page.js",
-  "/(frontend)/(pages)/healthcare-web-development/page": "app/(frontend)/(pages)/healthcare-web-development/page.js",
-  "/(frontend)/(pages)/portfolio-web-development/page": "app/(frontend)/(pages)/portfolio-web-development/page.js",
-  "/(frontend)/(pages)/technology-web-development/page": "app/(frontend)/(pages)/technology-web-development/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/admin/dashboard/blog-category/page": "app/admin/dashboard/blog-category/page.js",
+  "/admin/dashboard/blog/page": "app/admin/dashboard/blog/page.js"
 }

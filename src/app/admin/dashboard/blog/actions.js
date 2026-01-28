@@ -263,3 +263,26 @@ export async function getBlogBySlug(slug) {
     throw new Error(`Failed to fetch blog by slug: ${error.message}`);
   }
 }
+
+// ✅ Get latest blogs for slider (optional category filter)
+export async function getLatestBlogs(category = null, limit = 10) {
+  try {
+    const where = {};
+    if (category) {
+      where.category = {
+        name: { equals: category }
+      };
+    }
+
+    const blogs = await db.blog.findMany({
+      where,
+      include: { category: true },
+      orderBy: { id: "desc" },
+      take: limit,
+    });
+    return blogs;
+  } catch (error) {
+    console.error("Error fetching latest blogs:", error);
+    return [];
+  }
+}
