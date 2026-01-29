@@ -184,6 +184,112 @@ const industries = [
       </svg>
     ),
   },
+  {
+    name: "Architect Websites",
+    link: "/architect-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M3 21h18" />
+        <path d="M9 8l3-3 3 3" />
+        <path d="M12 5v16" />
+        <path d="M7 21V10l5-5 5 5v11" />
+      </svg>
+    ),
+  },
+  {
+    name: "Aviation Websites",
+    link: "/aviation-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M17.8 19.2L16 11l3.5-3.5C21 6 21 3 21 3s-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z" />
+      </svg>
+    ),
+  },
+  {
+    name: "Bank Websites",
+    link: "/bank-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+      </svg>
+    ),
+  },
+  {
+    name: "Chiropractor Websites",
+    link: "/chiropractor-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M12 2v20" />
+        <path d="M7 7c0-1.1.9-2 2-2h6a2 2 0 0 1 2 2" />
+        <path d="M17 17a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2" />
+        <path d="M9 12h6" />
+      </svg>
+    ),
+  },
+  {
+    name: "Cleaning Websites",
+    link: "/cleaning-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H2v18z" />
+      </svg>
+    ),
+  },
+  {
+    name: "Crypto Websites",
+    link: "/crypto-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M12 2v20" />
+        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7" />
+      </svg>
+    ),
+  },
+  {
+    name: "Cybersecurity Websites",
+    link: "/cybersecurity-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    ),
+  },
 ];
 
 const containerVariants = {
