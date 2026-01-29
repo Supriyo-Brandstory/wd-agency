@@ -1,0 +1,35 @@
+{
+  "node": {
+    "40d9806012cc243a20587035ab904e0799a863c2a1": {
+      "workers": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": {
+          "moduleId": 34665,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "0066450345846a7e09c5b84ace4d1a4b83c032ccbf": {
+      "workers": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": {
+          "moduleId": 34665,
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": "action-browser"
+      },
+      "exportedName": "getBlogs",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,1131 @@
+{
+  "node": {
+    "40d9806012cc243a20587035ab904e0799a863c2a1": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 13315,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/about-us/page": {
+          "moduleId": 39020,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": 64347,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/author/madhavan-a/page": {
+          "moduleId": 34665,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/automotive-website-development/page": {
+          "moduleId": 14131,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": 94552,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": {
+          "moduleId": 33204,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/equence/page": {
+          "moduleId": 75774,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/ferns-estates/page": {
+          "moduleId": 28681,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/kshemavana/page": {
+          "moduleId": 1802,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/page": {
+          "moduleId": 58784,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": {
+          "moduleId": 47026,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/construction-website-design/page": {
+          "moduleId": 22566,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/contact-us/page": {
+          "moduleId": 55536,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/corporate-web-development/page": {
+          "moduleId": 82124,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/cost-calculator/page": {
+          "moduleId": 27156,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": 71128,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
+          "moduleId": 72780,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": 65911,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/angular-website-development/page": {
+          "moduleId": 1205,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/drupal-website-development/page": {
+          "moduleId": 39361,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/laravel-website-development/page": {
+          "moduleId": 97518,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": {
+          "moduleId": 85931,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/php-website-development/page": {
+          "moduleId": 70629,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/react-js-website-development/page": {
+          "moduleId": 71534,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
+          "moduleId": 66102,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": {
+          "moduleId": 41772,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": {
+          "moduleId": 8803,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": 70574,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/privacy-policy/page": {
+          "moduleId": 88636,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 37220,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/branding/page": {
+          "moduleId": 16626,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/cloud-applications/page": {
+          "moduleId": 98467,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/crm-software/page": {
+          "moduleId": 16135,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/dynamic-website-development/page": {
+          "moduleId": 1126,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/enterprise-software/page": {
+          "moduleId": 43513,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/frontend-development/page": {
+          "moduleId": 4523,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/full-stack-development/page": {
+          "moduleId": 41963,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/legacy-modernization/page": {
+          "moduleId": 29270,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/software-maintenance/page": {
+          "moduleId": 60567,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/static-website-development/page": {
+          "moduleId": 28334,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/ui-ux-design/page": {
+          "moduleId": 14871,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/website-migration-service/page": {
+          "moduleId": 50516,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/wireframing-prototyping/page": {
+          "moduleId": 13745,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/technology-web-development/page": {
+          "moduleId": 52425,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/terms-and-conditions/page": {
+          "moduleId": 15111,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": 77876,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": {
+          "moduleId": 53216,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-ajman/page": {
+          "moduleId": 48697,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-al-ain/page": {
+          "moduleId": 48972,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-fujairah/page": {
+          "moduleId": 50563,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": {
+          "moduleId": 97954,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": {
+          "moduleId": 30090,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": {
+          "moduleId": 8004,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/page": {
+          "moduleId": 44844,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/about-us/page": "action-browser",
+        "app/(frontend)/(pages)/accountant-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/author/madhavan-a/page": "action-browser",
+        "app/(frontend)/(pages)/automotive-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/blog/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/equence/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/ferns-estates/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/kshemavana/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/page": "action-browser",
+        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": "action-browser",
+        "app/(frontend)/(pages)/construction-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/contact-us/page": "action-browser",
+        "app/(frontend)/(pages)/corporate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/cost-calculator/page": "action-browser",
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/angular-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/drupal-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/laravel-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/php-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/react-js-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/shopify-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/privacy-policy/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/services/branding/page": "action-browser",
+        "app/(frontend)/(pages)/services/cloud-applications/page": "action-browser",
+        "app/(frontend)/(pages)/services/crm-software/page": "action-browser",
+        "app/(frontend)/(pages)/services/dynamic-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/services/enterprise-software/page": "action-browser",
+        "app/(frontend)/(pages)/services/frontend-development/page": "action-browser",
+        "app/(frontend)/(pages)/services/full-stack-development/page": "action-browser",
+        "app/(frontend)/(pages)/services/legacy-modernization/page": "action-browser",
+        "app/(frontend)/(pages)/services/software-maintenance/page": "action-browser",
+        "app/(frontend)/(pages)/services/static-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/services/ui-ux-design/page": "action-browser",
+        "app/(frontend)/(pages)/services/website-migration-service/page": "action-browser",
+        "app/(frontend)/(pages)/services/wireframing-prototyping/page": "action-browser",
+        "app/(frontend)/(pages)/technology-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/terms-and-conditions/page": "action-browser",
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-ajman/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-al-ain/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-fujairah/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": "action-browser",
+        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "getSeoDataByPageUrl"
+    },
+    "00ad828766b96adf4a66ea27e9bb48f385b5671e0d": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 13315,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": 71128,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
+          "moduleId": 72780,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": 65911,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 37220,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getTemplates"
+    },
+    "004c28ed9189052c6f86a8c02dd12ae7047bef8ef4": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 13315,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": 71128,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
+          "moduleId": 72780,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": 65911,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 37220,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/page": {
+          "moduleId": 44844,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/page": "action-browser",
+        "app/admin/dashboard/template-category/page": "action-browser",
+        "app/admin/dashboard/template/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template-category/actions.js",
+      "exportedName": "getTemplateCategories"
+    },
+    "60767eea05aff31928b54f639901d3345f401dc197": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 13315,
+          "async": false,
+          "exportedName": "getLatestBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": 71128,
+          "async": false,
+          "exportedName": "getLatestBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 37220,
+          "async": false,
+          "exportedName": "getLatestBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "getLatestBlogs"
+    },
+    "0066450345846a7e09c5b84ace4d1a4b83c032ccbf": {
+      "workers": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": {
+          "moduleId": 34665,
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        },
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/author/madhavan-a/page": "action-browser",
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "getBlogs"
+    },
+    "601c91e54e73c6bc7704398fc52569a036f3f41595": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": 94552,
+          "async": false,
+          "exportedName": "getPaginatedBlogsByCategory",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "getPaginatedBlogsByCategory"
+    },
+    "40c20e1aa6fcd8c5f374295d4fcd9e1b0879735e91": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getBlogBySlug",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "getBlogBySlug"
+    },
+    "40f96bf47f42bb9632d8b93f789cbc5a3368098aa6": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/contact-us/page": {
+          "moduleId": 55536,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/corporate-web-development/page": {
+          "moduleId": 82124,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/cost-calculator/page": {
+          "moduleId": 27156,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
+          "moduleId": 72780,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": 70574,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/technology-web-development/page": {
+          "moduleId": 52425,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/contact-us/page": "action-browser",
+        "app/(frontend)/(pages)/corporate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/cost-calculator/page": "action-browser",
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/technology-web-development/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/enquiry/action.js",
+      "exportedName": "createEnquiry"
+    },
+    "608e6b4ff82cb33a68ccc797543a28a926744d669a": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getEnquiries",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/admin/dashboard/enquiry/page": {
+          "moduleId": 83179,
+          "async": false,
+          "exportedName": "getEnquiries",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser",
+        "app/admin/dashboard/enquiry/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/enquiry/action.js",
+      "exportedName": "getEnquiries"
+    },
+    "40f37d8e045ea2a877bef4e85ecf8c81be7550c951": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "deleteEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/admin/dashboard/enquiry/page": {
+          "moduleId": 83179,
+          "async": false,
+          "exportedName": "deleteEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser",
+        "app/admin/dashboard/enquiry/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/enquiry/action.js",
+      "exportedName": "deleteEnquiry"
+    },
+    "40431921efc52ca14cc8a7b68400ae71caacfe0df1": {
+      "workers": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "getTemplateBySlug",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "getTemplateBySlug",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getTemplateBySlug"
+    },
+    "70bc751012e8750b6d9b28ebfe0be2fc316729bb01": {
+      "workers": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getTemplatesPaginated",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/page": {
+          "moduleId": 44844,
+          "async": false,
+          "exportedName": "getTemplatesPaginated",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "getTemplatesPaginated",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
+        "app/(frontend)/(pages)/website-templates/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getTemplatesPaginated"
+    },
+    "406ee4e4214446f695981100ba8c642a8c48b09e2b": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "createBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "createBlog"
+    },
+    "40ff2fcd51d33dee970848c41ef69116eb21b77374": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "updateBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "updateBlog"
+    },
+    "40109a9de2bf57a3334a24f1605f6a74a3396f96ad": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "deleteBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog/actions.js",
+      "exportedName": "deleteBlog"
+    },
+    "00dafb5b648f42863b6cdc7669e6f267ff3d30edaf": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        },
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser",
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog-category/actions.js",
+      "exportedName": "getBlogCategories"
+    },
+    "70c42272c5cadadb61fe06214cdaeab4fd9dba6bff": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "createBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog-category/actions.js",
+      "exportedName": "createBlogCategory"
+    },
+    "78f497cf7da6b582bb43736764ef9784dd50d234d5": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "updateBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog-category/actions.js",
+      "exportedName": "updateBlogCategory"
+    },
+    "40639e6de90d41a8cadca1e4a26b1c8a76239b65a7": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "deleteBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/blog-category/actions.js",
+      "exportedName": "deleteBlogCategory"
+    },
+    "00d423b82f003abd6371576f2e724922d556f6cbf4": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "getSeoData"
+    },
+    "4086c6d8a239e3020f83e6562986cafc1f09a57813": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "createSeoData"
+    },
+    "60601e48c767eee6ae242aafff6a48177256f03231": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "updateSeoData"
+    },
+    "401567ffd82e9ac2541d072752c108adc301f5ae32": {
+      "workers": {
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "deleteSeoData"
+    },
+    "002fd98b9ca1cf9fe50196f4e7fb9d5411d9ab7b64": {
+      "workers": {
+        "app/admin/dashboard/sitemap/page": {
+          "moduleId": 44521,
+          "async": false,
+          "exportedName": "getSitemap",
+          "filename": "src/app/admin/dashboard/sitemap/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/sitemap/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/sitemap/actions.js",
+      "exportedName": "getSitemap"
+    },
+    "401ece35d700541a155cf12cbdacaeebe213ce8738": {
+      "workers": {
+        "app/admin/dashboard/sitemap/page": {
+          "moduleId": 44521,
+          "async": false,
+          "exportedName": "updateSitemap",
+          "filename": "src/app/admin/dashboard/sitemap/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/sitemap/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/sitemap/actions.js",
+      "exportedName": "updateSitemap"
+    },
+    "40eb97f39092a413ee41b31dd0686607a3a07d51a4": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "createTemplate"
+    },
+    "40efa53205540537fde4988b21148038e23b6dc675": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "updateTemplate"
+    },
+    "40cee5fcc687a6f385a8310b1305e4b7d6d3bb7b39": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "deleteTemplate"
+    },
+    "00ffe04595f46bfbd3fb187de887ef2064f2939f5d": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 47443,
+          "async": false,
+          "exportedName": "getAllTemplatesAdmin",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "getAllTemplatesAdmin",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template/page": "action-browser",
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getAllTemplatesAdmin"
+    },
+    "606baa2575dc52dd65a3e9e91212e310cfa0d0aaf2": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "createTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template-category/actions.js",
+      "exportedName": "createTemplateCategory"
+    },
+    "707aea90538a9b41d7f2f07ed855cc340295dffc38": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "updateTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template-category/actions.js",
+      "exportedName": "updateTemplateCategory"
+    },
+    "402d7312de851bbd383e8e2e0531218695a2f9d111": {
+      "workers": {
+        "app/admin/dashboard/template-category/page": {
+          "moduleId": 35704,
+          "async": false,
+          "exportedName": "deleteTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/template-category/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/template-category/actions.js",
+      "exportedName": "deleteTemplateCategory"
+    },
+    "400196e5e33685392b68db2e2a6bcbf167ff627503": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 36941,
+          "async": false,
+          "exportedName": "getTemplatesByCategory",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/template/actions.js",
+      "exportedName": "getTemplatesByCategory"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Pv3pwwuUdtcUvTw1wv/Fd8QgtqzsFdN4w5D1KhZYUUs="
+}

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40d9806012cc243a20587035ab904e0799a863c2a1": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": {
+          "moduleId": 8803,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}
