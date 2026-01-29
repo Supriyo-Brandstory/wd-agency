@@ -46,7 +46,7 @@
 
 .intro {
     max-width: 900px;
-    margin: 0px auto 100px;
+    margin: 0px auto 80px;
     text-align: center;
 }
 
@@ -55,9 +55,7 @@
 
 }
 
-.intro p {
-    line-height: 1.8;
-}
+
 
 .stack {
     display: block;

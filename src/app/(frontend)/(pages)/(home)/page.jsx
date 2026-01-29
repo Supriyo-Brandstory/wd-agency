@@ -19,13 +19,13 @@ import LocationService from "../../component/pages/common/LocationService";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import CommonBlogSlider from "../../component/pages/common/CommonBlogSlider";
 import CommonAboutPage2 from "../../component/pages/common/CommonAboutPage2";
-import OurStoryImage from '@/app/(frontend)/assets/images/about/wdagency.webp';
+import OurStoryImage from "@/app/(frontend)/assets/images/about/wdagency.webp";
 import Stats from "../../component/pages/about/Stats";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
 import CommonFinancialImpact from "../../component/pages/common/CommonFinancialImpact";
 import CommonServices from "../../component/pages/common/CommonServices";
 import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
-
+import SpecializedWebServices from "../../component/pages/common/SpecializedWebServices";
 
 const page = () => {
   return (
@@ -37,7 +37,7 @@ const page = () => {
           "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth backed by data. Join 500+ UAE brands that trust us with their digital success."
         }
       />
-
+      <SpecializedWebServices />
 
       <CommonFinancialImpact
         heading={"Web Design Innovation Driving Growth in Dubai"}
@@ -78,11 +78,10 @@ const page = () => {
             },
           ],
         }}
-
       />
       <CommonAboutPage2
-                text1="We're Dubai's Trusted Web Design Partner"
-                text2={`
+        text1="We're Dubai's Trusted Web Design Partner"
+        text2={`
                             <p class="mb-20">
                             Website Development Agency is more than just another web design agency in Dubai. We deliver what we promise- high-performance websites that convert visitors into customers and drive sustainable business growth. Our Competitive Advantages:
                             </p>
@@ -97,12 +96,10 @@ const page = () => {
                             <b>The Difference is Clear:</b> While other agencies over-promise and under-deliver, we've built our reputation on consistent excellence and measurable results. When you choose Website Development Agency, you're choosing a partner committed to your long-term success.
                             </p>
                     `}
-                img={OurStoryImage}
-            />
+        img={OurStoryImage}
+      />
       <Stats />
-      
-      
-     
+
       <CommonProtfolio />
 
       <IndustryGrid />
@@ -128,21 +125,17 @@ const page = () => {
       <DevelopmentServices />
 
       <TechnologyStack />
-      
-      
 
-      
       <CommonCostBreakdown
         heading="Website Design Dubai- Cost Breakdown"
         description="Avail the best website design and Development package based on the features, performance, and growth level you need."
       />
       <DemoTemplate activetaburl={""} />
 
-      
       <WebDesignApproach />
       <OurJourney />
       <LocationService activeLocation="dubai" />
-      
+
       <CommonBlogSlider />
       <FaqSection />
       <CtaSection />
