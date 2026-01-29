@@ -45,42 +45,21 @@ import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        heding={"Portfolio Website Design</br> Company in Dubai, UAE"}
+        heding={"Portfolio Web Design</br> Company in Dubai, UAE"}
         subtitle={
           "Build a powerful portfolio website in Dubai that highlights your expertise, <br>achievements, and unique identity. Our professionally crafted websites are <br>designed to create impact and support long-term success."
         }
       />
-      <SubNav
-        title="Portfolio"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          {
-            name: "Laravel",
-            link: "/platforms/laravel-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
+     
       <CommonIntroduction
-        heding={"Portfolio Website Development Dubai, UAE"}
+        heding={"Portfolio Website Design Dubai, UAE"}
         text1={` <p>In today’s digital-world, your online presence defines your professional credibility. Whether you are a creative, a business person, or an expert in the field, your personal website is a robust extension of your identity and purpose. Unlike social media, where your identity is restricted by algorithms and design limitations, a personal website is your very own, where you can have complete control over everything- from layout and theme to messaging and customer service.</p>
                     <p>Gone are the days when a personal branding website just showcased a CV or a gallery. In the modern world, this type of website tells the user's story in both effective and natural ways. It not only generates loyalty but also attracts the right opportunities and places you as a leader in your field.</p>
                     `}
@@ -89,61 +68,6 @@ const page = () => {
                     `}
         imageintro1={imageintro1}
         imageintro2={imageintro2}
-      />
-
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        heding={"Why Your Portfolio Websites Matters"}
-        subheding={
-          "Your website is indeed your first impression, sometimes even before your audience meets you face-to-face. Whether your visitor is a potential client, employer, or collaborator, your website is just like your digital handshake."
-        }
-        lefttext={`  <p>In this highly interconnected world, people have stopped buying products or services and started believing in people and their stories. You become the thought leader who forges emotional links and builds authority within your niche, by showing your path, field of knowledge, and sharing your thoughts.</p>
-                        <p>Carefully designed portfolio websites are also a stepping stone to collaborations, networking, and getting paid to speak in public. It is a way for visitors to effortlessly speak about your work, get in touch with you, or schedule your events, all on one platform. Besides visibility, it serves as a seal of your consistency and reliability, showing that you are passionate about your brand.</p>
-                        `}
-        righttext={`<p>Website Development Agency boasts of a mobile-first approach, and we make sure that your online portfolio is flawless on any and all mobile devices. Whether someone’s discovering you through their phone or laptop, your personal brand remains consistent, powerful, and polished, leaving a lasting impression that drives real opportunities.</p>
-                            `}
-      />
-      <RealEstatePortfolio
-        heading="Real Estate Website Design & Development Portfolio"
-        description="Our portfolio showcases a diverse range of high-performance real estate solutions, from luxury developer portals to high-converting campaign landing pages in Dubai & UAE."
-        portfolioData={[
-          {
-            subtitle: "Portfolio Website Design",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 20,000",
-          },
-          {
-            subtitle: "Personal Branding Website",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 8,000",
-          },
-          {
-            subtitle: "Personal Branding Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 8,000",
-          },
-          {
-            subtitle: "Portfolio Website for Creatives",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Portfolio Website for Consultants",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 25,000",
-          },
-          {
-            subtitle: "Portfolio Website for Freelancers",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 22,000",
-          },
-        ]}
       />
       <CommonIndustries
         heding={"Our Portfolio & Personal Branding Website Services"}
@@ -207,50 +131,22 @@ const page = () => {
           },
         ]}
       />
-      <CommonThreeCard
-        text1={"Key Features of a Strong Portfolio Website"}
-        text2={
-          "Creating a beautifully designed site is just the start. To be truly successful in the competitive UAE ecommerce market, your website must be more than just pretty - it has to be fast, secure, easy to use, and conversion-focused. At Website Development Agency, we implement the features that will define your successful, modern ecommerce website in the UAE so your business will draw in visitors and convert them to customers."
+
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        heding={"Why Your Portfolio Websites Matters"}
+        subheding={
+          "Your website is indeed your first impression, sometimes even before your audience meets you face-to-face. Whether your visitor is a potential client, employer, or collaborator, your website is just like your digital handshake."
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon1,
-            title: "Modern, Engaging Design",
-            desc: "Crafted with simplicity and sophistication, your website will feature a clean, contemporary design that highlights your individuality and creativity, keeping the spotlight on you and your work.",
-          },
-          {
-            id: 2,
-            img: imagecommon3,
-            title: "Compelling Personal Storytelling",
-            desc: "An engaging “About Me” section that captures your professional journey, values, and vision, helping audiences connect with your story on a deeper, more personal level.",
-          },
-          {
-            id: 3,
-            img: imagecommon2,
-            title: "Purpose-Driven Calls-to-Action",
-            desc: "Strategically placed CTAs guide visitors to take meaningful actions, from collaboration inquiries to project discussions, turning interest into real opportunities.",
-          },
-          {
-            id: 4,
-            img: imagecommon4,
-            title: "Fast Loading Speed",
-            desc: "Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.",
-          },
-          {
-            id: 5,
-            img: imagecommon6,
-            title: "Thought Leadership",
-            desc: "A dedicated blog or article space allows you to share insights, expertise, and opinions, positioning you as a credible voice and thought leader in your field.",
-          },
-          {
-            id: 6,
-            img: imagecommon8,
-            title: "Optimized for Search and Visibility",
-            desc: "Built with SEO best practices, your site will be structured for higher visibility on search engines, ensuring your portfolio reaches the right audience effortlessly.",
-          },
-        ]}
+        lefttext={`  <p>In this highly interconnected world, people have stopped buying products or services and started believing in people and their stories. You become the thought leader who forges emotional links and builds authority within your niche, by showing your path, field of knowledge, and sharing your thoughts.</p>
+                        <p>Carefully designed portfolio websites are also a stepping stone to collaborations, networking, and getting paid to speak in public. It is a way for visitors to effortlessly speak about your work, get in touch with you, or schedule your events, all on one platform. Besides visibility, it serves as a seal of your consistency and reliability, showing that you are passionate about your brand.</p>
+                        `}
+        righttext={`<p>Website Development Agency boasts of a mobile-first approach, and we make sure that your online portfolio is flawless on any and all mobile devices. Whether someone’s discovering you through their phone or laptop, your personal brand remains consistent, powerful, and polished, leaving a lasting impression that drives real opportunities.</p>
+                            `}
       />
+      
+      <CommonProtfolio />
+      
       <DevelopmentServices />
 
       <CommonCostBreakdown
@@ -259,59 +155,17 @@ const page = () => {
       />
       <IndustryGrid />
 
-      <CommonDevelopmentProcess
-        heding={"Our Website Development Process"}
-        subheding={
-          "Every personal branding journey is unique, and so is our process. Website Development Agency, we apply the mix of creativity, technology, and strategy to forge a website that shows your uniqueness and delivers your worth exactly."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Discovery & Consultation",
-            description: `Based on information about your goals, story, profession, and audience expectations, we define the creative direction, and tone for your brand.`,
-          },
-          {
-            id: "02",
-            title: "Website Artchitecture",
-            description: `We take your achievements, case studies, and highlights and shape them into a convincing narrative that attracts visitors while mirroring your professional values.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `We build the identity of your business with the help of the latest technology and our visually captivating and mobile-first designs ensure the best user experience and functionality.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `Social media APIs, videos, and portfolio tools are some of the elements that we integrate to boost your online presence and engagement.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Your website goes live only after SEO audits, analytics setup, and speed optimization. We also implement conversion tracking tools to measure performance from day one.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Our partnership doesn’t end at launch. We offer ongoing monitoring, updates, and feature enhancements to ensure your website is operating efficiently and dynamic enough to adapt to market changes.`,
-          },
-        ]}
-      />
+      
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Ecommerce Website Development"
+          "Portfolio and Personal Branding Websites We Deliver"
         }
         subheding={
-          "Picking the right partner to work on your personal website is undoubtedly an essential decision. Website Development Agency is where we integrate imagination, strategies, and technology into the layouts that are not only your own but also work at a high level. Our ambition is not simply to construct a website, but to forge a digital journey that is your signature and extends your reach."
+          "We create portfolio and personal branding websites that reflect your professional identity and showcase your expertise. Each site is designed to highlight your skills, achievements, and personal style, helping you stand out in a competitive digital landscape."
         }
-        lefttext={`<p>We don't just build tech-savvy websites but also, and most importantly, the visual storytelling, the user experience, and the lasting impact of your site. Every feature of your website represents you authentically, from the character of the voice to the visual design of it, everything is tweaked carefully to fit you. In this manner, our expertise includes consultants, artists, public speakers, authors, and entrepreneurs, which enables us to draw from a wide pool of creative thoughts for every new idea.</p>
-                                <p>From portfolio integration and media showcases to SEO-driven architecture and responsive design, every detail is optimized to elevate your visibility and influence online. We don’t just help you create a personal brand; we help you build a digital legacy that continues to grow with you.</p>
-                                <p>Transparency is a key component of our process. We will share straightforward pricing, clear timelines and assign you a project manager to provide ongoing communication. This way, you will always be updated on the work on your website, and you can focus on scaling your business while we take care of the technical side.</p>
+        lefttext={`<p><b>Creative Professional Portfolios:</b> From artists and designers to photographers and illustrators, we craft visually stunning portfolios that bring your work to life. Interactive galleries, case studies, and project showcases ensure visitors engage with your creations and remember your brand.</p>
+                                <p><b>For Entrepreneurs & Consultants:</b> For consultants, coaches, and entrepreneurs, we build websites that convey credibility and authority. These platforms feature service overviews, client testimonials, and thought-leadership content that position you as a trusted expert in your field.</p>
+                                <p><b>Digital Presence Solutions:</b> Our personal branding websites also include responsive design, SEO optimisation, multimedia integration, and contact systems. Whether you’re a speaker, author, or professional looking to elevate your online presence, we deliver a website that strengthens your brand, attracts the right audience, and supports your growth.</p>
                             `}
         rightimage={imagewhydevelopment}
       />

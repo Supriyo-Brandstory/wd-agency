@@ -619,7 +619,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/reacticon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/reacticon.02b52050.svg");}),
+__turbopack_context__.v("/_next/static/media/reacticon.5c4fb13b.svg");}),
 "[project]/src/app/(frontend)/assets/images/reacticon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/reacticon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -639,7 +639,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/nodejsicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/nodejsicon.313091c9.svg");}),
+__turbopack_context__.v("/_next/static/media/nodejsicon.94c96ab5.svg");}),
 "[project]/src/app/(frontend)/assets/images/nodejsicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/nodejsicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -659,7 +659,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/laravelicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/laravelicon.25bb0dbf.svg");}),
+__turbopack_context__.v("/_next/static/media/laravelicon.4928a099.svg");}),
 "[project]/src/app/(frontend)/assets/images/laravelicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/laravelicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -679,7 +679,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/wordpressicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/wordpressicon.24f1e2fa.svg");}),
+__turbopack_context__.v("/_next/static/media/wordpressicon.3ed91070.svg");}),
 "[project]/src/app/(frontend)/assets/images/wordpressicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/wordpressicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -699,7 +699,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/fluttericon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/fluttericon.32c3e23e.svg");}),
+__turbopack_context__.v("/_next/static/media/fluttericon.5cf9f183.svg");}),
 "[project]/src/app/(frontend)/assets/images/fluttericon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/fluttericon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -719,7 +719,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/reactnativeicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/reactnativeicon.12387626.svg");}),
+__turbopack_context__.v("/_next/static/media/reactnativeicon.fd324355.svg");}),
 "[project]/src/app/(frontend)/assets/images/reactnativeicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/reactnativeicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -739,7 +739,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/phpicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/phpicon.6accd517.svg");}),
+__turbopack_context__.v("/_next/static/media/phpicon.0ed76bac.svg");}),
 "[project]/src/app/(frontend)/assets/images/phpicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/phpicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -759,7 +759,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/pythonicon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/pythonicon.833d81af.svg");}),
+__turbopack_context__.v("/_next/static/media/pythonicon.ab625193.svg");}),
 "[project]/src/app/(frontend)/assets/images/pythonicon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/pythonicon.svg (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1958,51 +1958,6 @@ const page = ()=>{
                 lineNumber: 47,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$SubNav$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                title: "Real Estate",
-                items: [
-                    {
-                        name: "PHP",
-                        link: "/platforms/php-website-development"
-                    },
-                    {
-                        name: "Laravel",
-                        link: "/platforms/laravel-website-development"
-                    },
-                    {
-                        name: "WordPress",
-                        link: "/platforms/wordpress-website-development"
-                    },
-                    {
-                        name: "ReactJS",
-                        link: "/platforms/react-js-website-development"
-                    },
-                    {
-                        name: "NodeJS",
-                        link: "/platforms/nodejs-website-development"
-                    },
-                    {
-                        name: "Angular",
-                        link: "/platforms/angular-website-development"
-                    },
-                    {
-                        name: "Drupal",
-                        link: "/platforms/drupal-website-development"
-                    },
-                    {
-                        name: "Shopify",
-                        link: "/platforms/shopify-website-development"
-                    },
-                    {
-                        name: "WooCommerce",
-                        link: "/platforms/woo-commerce-website-development"
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 57,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIntroduction$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 heding: "No. 1 Real Estate Website Development Agency in UAE",
                 text1: ` <p>The UAE property market is booming with new developments, driven by rapid population growth, rising luxury demand, and accelerated PropTech adoption. At Website Development Agency, we lead the way as the premier partner for cutting-edge real estate digital platforms in Dubai and the UAE. Our real estate website solutions are designed to enhance property visibility, streamline lead generation, and support scalable growth.</p>
@@ -2017,7 +1972,7 @@ const page = ()=>{
                 alt2: "Real Estate Website Development Company in UAE - Website Development Agency"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 80,
+                lineNumber: 58,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$DemoTemplate$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2026,22 +1981,7 @@ const page = ()=>{
                 activetaburl: "real-estate"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 97,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$real$2d$estate$2d$website$2f$real$2d$estate$2d$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$real$2d$estate$2d$website$2f$real$2d$estate$2d$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                alt: "Elevate Your Property Business with a Website That Sells",
-                heding: "Elevate Your Property Business with a Website That Sells",
-                subheding: "Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market.",
-                lefttext: `  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
-                    <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
-                        `,
-                righttext: `<p><b>Stay Ahead of the Competition:</b> While other agencies struggle with outdated websites, you'll command authority with a modern platform that works flawlessly on every device, loads instantly, ranks at the top of Google, and positions your brand as the premier choice for luxury real estate across the UAE.</p>
-                            `
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 102,
+                lineNumber: 75,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonIndustries$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2115,8 +2055,23 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 116,
+                lineNumber: 82,
                 columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonWhyMetter$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                imagewhymetter: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$real$2d$estate$2d$website$2f$real$2d$estate$2d$why$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$real$2d$estate$2d$website$2f$real$2d$estate$2d$why$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                alt: "Elevate Your Property Business with a Website That Sells",
+                heding: "Elevate Your Property Business with a Website That Sells",
+                subheding: "Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market.",
+                lefttext: `  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
+                    <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
+                        `,
+                righttext: `<p><b>Stay Ahead of the Competition:</b> While other agencies struggle with outdated websites, you'll command authority with a modern platform that works flawlessly on every device, loads instantly, ranks at the top of Google, and positions your brand as the premier choice for luxury real estate across the UAE.</p>
+                            `
+            }, void 0, false, {
+                fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
+                lineNumber: 153,
+                columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonTechnologyStack$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 heding: "Our Website Development Technology Stack",
@@ -2173,7 +2128,7 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 187,
+                lineNumber: 167,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonCostBreakdown$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2181,17 +2136,17 @@ const page = ()=>{
                 description: "Select the best real estate website design and Development package based on the features, performance, and growth level you need."
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 245,
+                lineNumber: 225,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$IndustryGrid$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 249,
+                lineNumber: 229,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$DevelopmentServices$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 251,
+                lineNumber: 231,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$CommonWhyWebsiteDevelopment$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2219,12 +2174,12 @@ const page = ()=>{
                 alt: "Why Choose Website Development Agency for Real Estate Website Development"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 253,
+                lineNumber: 233,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonProtfolio$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 282,
+                lineNumber: 262,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonClientTestimonials$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2250,26 +2205,26 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 284,
+                lineNumber: 264,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$about$2f$Team$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 307,
+                lineNumber: 287,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$LocationService$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 activeLocation: "dubai"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 308,
+                lineNumber: 288,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonBlogSlider$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 category: "Real Estate"
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 309,
+                lineNumber: 289,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2309,7 +2264,7 @@ const page = ()=>{
                 ]
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/real-estate-web-development/page.jsx",
-                lineNumber: 311,
+                lineNumber: 291,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

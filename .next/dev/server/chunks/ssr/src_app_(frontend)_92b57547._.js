@@ -471,7 +471,7 @@ __turbopack_context__.v({
 }),
 "[project]/src/app/(frontend)/assets/images/icons/left-icon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/left-icon.183c2fa4.svg");}),
+__turbopack_context__.v("/_next/static/media/left-icon.f5b8e532.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/left-icon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/left-icon.svg (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -491,7 +491,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/icons/right-icon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/right-icon.f4db165a.svg");}),
+__turbopack_context__.v("/_next/static/media/right-icon.2c09502c.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/right-icon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/right-icon.svg (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -511,7 +511,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/icons/quote-icon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/quote-icon.70516474.svg");}),
+__turbopack_context__.v("/_next/static/media/quote-icon.ddc31334.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/quote-icon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/quote-icon.svg (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -838,7 +838,7 @@ __turbopack_context__.v({
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faquparrow.78e7c926.svg");}),
+__turbopack_context__.v("/_next/static/media/faquparrow.022e49f0.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -858,7 +858,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faqdownarrow.29b60f0d.svg");}),
+__turbopack_context__.v("/_next/static/media/faqdownarrow.b3690020.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 

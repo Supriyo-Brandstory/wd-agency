@@ -54,29 +54,7 @@ const page = () => {
           "We're the UAE's most trusted real estate web design agency, delivering <br>award-winning websites that turn visitors into buyers. Our high-converting property <br>portals have earned us top industry recognition and measurable results for developers <br>and agencies across the Emirates."
         }
       />
-      <SubNav
-        title="Real Estate"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          {
-            name: "Laravel",
-            link: "/platforms/laravel-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
+
       <CommonIntroduction
         heding={"No. 1 Real Estate Website Development Agency in UAE"}
         text1={` <p>The UAE property market is booming with new developments, driven by rapid population growth, rising luxury demand, and accelerated PropTech adoption. At Website Development Agency, we lead the way as the premier partner for cutting-edge real estate digital platforms in Dubai and the UAE. Our real estate website solutions are designed to enhance property visibility, streamline lead generation, and support scalable growth.</p>
@@ -99,19 +77,7 @@ const page = () => {
         description="Affordable real estate website design in Dubai, starting at AED 1,500. Launch your property website quickly <br>with modern, responsive designs. Get fast delivery today."
         activetaburl={"real-estate"}
       />
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={"Elevate Your Property Business with a Website That Sells"}
-        heding={"Elevate Your Property Business with a Website That Sells"}
-        subheding={
-          "Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market."
-        }
-        lefttext={`  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
-                    <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
-                        `}
-        righttext={`<p><b>Stay Ahead of the Competition:</b> While other agencies struggle with outdated websites, you'll command authority with a modern platform that works flawlessly on every device, loads instantly, ranks at the top of Google, and positions your brand as the premier choice for luxury real estate across the UAE.</p>
-                            `}
-      />
+
 
       <CommonIndustries
         heding={"Our Real Estate Website Development Services"}
@@ -182,6 +148,20 @@ const page = () => {
             link: "/contact-us",
           },
         ]}
+      />
+
+            <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={"Elevate Your Property Business with a Website That Sells"}
+        heding={"Elevate Your Property Business with a Website That Sells"}
+        subheding={
+          "Your real estate website becomes your most powerful sales tool, capturing attention from serious local buyers, international investors, and luxury property seekers the moment they land on your page. With stunning visuals and effortless navigation, visitors instantly see why your properties stand out in Dubai competitive market."
+        }
+        lefttext={`  <p><b>Showcase Properties Like Never Before:</b> Transform how buyers experience your listings with cinematic photography, immersive virtual tours, and interactive floor plans that let them explore every corner of a penthouse or villa from anywhere in the world. Properties that look exceptional online generate more inquiries, faster decisions, and premium offers.</p>
+                    <p><b>Turn Visitors Into Qualified Leads:</b> Every element of your website is designed to capture buyer interest- from instant inquiry buttons and WhatsApp chat to viewing schedulers and downloadable brochures. Our smart systems identify serious prospects, track their favorite properties, and help your sales team follow up at exactly the right moment.</p>
+                        `}
+        righttext={`<p><b>Stay Ahead of the Competition:</b> While other agencies struggle with outdated websites, you'll command authority with a modern platform that works flawlessly on every device, loads instantly, ranks at the top of Google, and positions your brand as the premier choice for luxury real estate across the UAE.</p>
+                            `}
       />
 
       <CommonTechnologyStack

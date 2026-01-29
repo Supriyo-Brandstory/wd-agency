@@ -42,6 +42,7 @@ import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
@@ -50,30 +51,13 @@ const page = () => {
         bg={imagebanner}
         alt="Corporate Website Development Services in Dubai Website Development Agency"
         heding={
-          "Corporate Website Development for </br>Growing Businesses in Dubai, UAE"
+          "Business Website Design Agency in Dubai, UAE"
         }
         subtitle={
-          "At Website Development Agency, we build professional, user-friendly corporate websites that </br>drive growth for your business in Dubai & the UAE."
+          "We deliver corporate web design solutions that combine professional design, seamless <br>user experience, and SEO optimisation to drive visibility, engagement, and business growth."
         }
       />
-      <SubNav
-        title="Corporate Business"
-        items={[
-          {
-            name: "PHP",
-            link: "/platforms/php-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-        ]}
-      />
+      
       <CommonIntroduction
         heding={"Corporate Website Design in Dubai"}
         text1={` <p>Nowadays, a convincing online presence is mandatory rather than a choice, eventually leading to the win of corporate giants. Going by this principle, the corporate world in the UAE has seen the digital CSR evolve directly into the flagship digital asset of the enterprise. This corporate website goes as far as being the company's digital face- one that can depict, after all, with each new visitor, the quality of the product/service and the degree of trust.</p>
@@ -87,61 +71,7 @@ const page = () => {
         imageintro2={imageintro2}
         alt2="Professional Corporate Website Development - Website Development Agency"
       />
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt="Why Corporate Businesses Need Professional Websites - Website Development Agency"
-        heding={"Why Corporate Businesses Need Professional Websites"}
-        subheding={
-          "Corporate websites in the UAE’s changing and vibrant business market serve as the first interfaces for customers, investors, and other people from the company’s network. A well-maintained online presence is more than just a good idea, it acts as the foundation of trust between the corporation and its customers. This will undoubtedly lead to future visits beyond the first."
-        }
-        lefttext={`  <p>A corporate website is not just about design; it’s about building trust. First of all, they represent the ones who might want to invest in the company, as well as the global partners. The way a company presents itself through the web is the first criterion on which decision-makers base their judgment.</p>
-                        <p>The mobile-first websites are a must for the digitally active audience of the UAE. Common mobile habits, such as the use of small handheld devices to access corporate content, are directly linked to the importance of mobile-friendly design. When people are browsing in the same fashion, they are basically turning their mobile devices into their worldwide access point for business.</p>
-                        `}
-        righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At Website Development Agency, we are the best <strong><a href="https://websitedevelopmentagency.ae/">web development agency</a></strong> in Dubai and the UAE helping business build brand identity with high-end and professional website design services.</p>
-                            `}
-      />
-      <RealEstatePortfolio
-        heading="Corporate Website Templates & Custom Design Solutions"
-        description="Discover professionally crafted corporate website design template solutions in Dubai, or opt for a custom website built to reflect your brand identity. Partner with our corporate website development agency in Dubai, UAE for future-ready web solutions."
-        portfolioData={[
-          {
-            subtitle: "Law Firm Website Template",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Corporate Business Website",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Manufacturing Company Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "HR Consultancy Website",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Consulting Firm Website",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Tech Startup Website",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-        ]}
-      />
+
       <CommonIndustries
         heding={"Our Corporate Website Development Services"}
         subheding="At Website Development Agency, we understand that corporate websites must serve multiple purposes: brand building, stakeholder communication, and business growth. Our services are designed to address every aspect of corporate digital presence."
@@ -197,50 +127,23 @@ const page = () => {
           },
         ]}
       />
-      <CommonThreeCard
-        text1={"Key Features of a Successful Corporate Website"}
-        text2={
-          "The foundation on which a corporate website is successful, is trust, usability, and performance. At Website Development Agency, we ensure every website embodies features that drive results."
+
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt="Why Corporate Businesses Need Professional Websites - Website Development Agency"
+        heding={"Why Corporate Businesses Need Professional Websites"}
+        subheding={
+          "Corporate websites in the UAE’s changing and vibrant business market serve as the first interfaces for customers, investors, and other people from the company’s network. A well-maintained online presence is more than just a good idea, it acts as the foundation of trust between the corporation and its customers. This will undoubtedly lead to future visits beyond the first."
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon1,
-            title: "Strong Brand Identity & Consistency",
-            desc: "The consistency with which branding elements such as colors, typography, and layouts have been implemented, communicates professionalism and the ability to lead.",
-          },
-          {
-            id: 2,
-            img: imagecommon2,
-            title: "Secure Hosting & Data Protection",
-            desc: "Given the trend of attacks on cyberspace, the use of both secure hosting and compliance with the security standards of the industry will be the key to prevention of corporate data from being compromised.",
-          },
-          {
-            id: 3,
-            img: imagecommon3,
-            title: "Accessibility & Compliance",
-            desc: "Websites that are inclusive and also adhere to accessibility requirements make it possible for all visitors, no matter the level of their abilities. They can access and interact with the brand of yours without experiencing any difficulties.",
-          },
-          {
-            id: 4,
-            img: imagecommon4,
-            title: "Fast Loading Speed",
-            desc: "Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.",
-          },
-          {
-            id: 5,
-            img: imagecommon5,
-            title: "Professional Content Structure",
-            desc: "Corporate sections like About Us, Services, Leadership, Careers, CSR, and Contact are the best means of organizing information that companies want to share with the public and further establish brand trust.",
-          },
-          {
-            id: 6,
-            img: imagecommon7,
-            title: "Analytics & Performance Dashboards",
-            desc: "Through visitor data collection and engagement tracking, large corporations can make profitable decisions based on the collected research. These dashboards provide insights into user behavior, property views, and conversion trends.",
-          },
-        ]}
+        lefttext={`  <p>A corporate website is not just about design; it’s about building trust. First of all, they represent the ones who might want to invest in the company, as well as the global partners. The way a company presents itself through the web is the first criterion on which decision-makers base their judgment.</p>
+                        <p>The mobile-first websites are a must for the digitally active audience of the UAE. Common mobile habits, such as the use of small handheld devices to access corporate content, are directly linked to the importance of mobile-friendly design. When people are browsing in the same fashion, they are basically turning their mobile devices into their worldwide access point for business.</p>
+                        `}
+        righttext={`<p>Corporate websites act as digital business cards, the foundation of brand trust and development. At Website Development Agency, we are the best <strong><a href="https://websitedevelopmentagency.ae/">web development agency</a></strong> in Dubai and the UAE helping business build brand identity with high-end and professional website design services.</p>
+                            `}
       />
+      
+      <CommonProtfolio />
+      
       <DevelopmentServices />
 
       <CommonCostBreakdown
@@ -249,49 +152,7 @@ const page = () => {
       />
       <IndustryGrid />
 
-      <CommonDevelopmentProcess
-        heding={"Our Corporate Website Development Process"}
-        subheding={
-          "We apply a well-structured and client-focused strategy to achieve the desired results from corporate websites. Our process ensures that every project is carefully planned, designed, and executed to align with your business goals, target audience, and brand identity, resulting in a professional, high-performing website:"
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Discovery & Consultation",
-            description: `It is the understanding of your company, its goals, target market, and digital problems that we start with. Thus, we can figure out how a website's features can help to achieve the stated objectives.`,
-          },
-          {
-            id: "02",
-            title: "Planning & Wireframing",
-            description: `Our team is responsible for describing user journeys where the navigation is intuitive, and the hierarchy of the information is clear. The wireframing stage provides the possibility to stakeholders to see the structure through design before the actual work.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `We create brand-aligned, modern designs supported by robust technology to ensure seamless functionality. Every design strikes the perfect balance between creativity and usability, delivering an engaging and intuitive experience for your users.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `We integrate a wide range of solutions, from CRM systems to HR tools and other third-party platforms, tailoring them to your business operations. This seamless integration enhances efficiency, connectivity, and workflow across your organization, ensuring all systems work together smoothly.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Your website goes live only after SEO audits, analytics setup, and speed optimization. We also implement conversion tracking tools to measure performance from day one.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Our partnership doesn’t end at launch. We offer ongoing monitoring, updates, and feature enhancements to ensure your website is operating efficiently and dynamic enough to adapt to market changes.`,
-          },
-        ]}
-      />
+      
       <CommonWhyWebsiteDevelopment
         heding={"Why Choose Website Development Agency for Corporate Websites"}
         subheding={

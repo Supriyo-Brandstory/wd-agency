@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40b2abec439b11f7c0caad6cd2178ca8c7bcb05ea1": {
+      "workers": {
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/travel-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

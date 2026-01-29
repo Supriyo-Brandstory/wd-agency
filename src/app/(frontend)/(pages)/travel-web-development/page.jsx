@@ -15,17 +15,7 @@ import imageService5 from "@/app/(frontend)/assets/images/travel-website/multi-l
 import imageService6 from "@/app/(frontend)/assets/images/travel-website/mobile-friendly.webp";
 import imageService7 from "@/app/(frontend)/assets/images/travel-website/recommendations.webp";
 import imageService8 from "@/app/(frontend)/assets/images/travel-website/maintenance-support.webp";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/travel-website/why-choose-wd-agency.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -35,60 +25,33 @@ import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testim
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
-import Portfolioimage1 from "@/app/(frontend)/assets/images/protfolio/travel-agency-1.webp";
-import Portfolioimage2 from "@/app/(frontend)/assets/images/protfolio/travel-agency-2.webp";
-import Portfolioimage3 from "@/app/(frontend)/assets/images/protfolio/travel-agency-3.webp";
-import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/travel-agency-4.webp";
-import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/travel-agency-5.webp";
-import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/travel-6.webp";
-import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
+
 import LocationService from "../../component/pages/common/LocationService";
-import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt="Travel and Tourism Website Development Services in Dubai & The UAE"
+        alt="Travel and Tourism Web Design Services in Dubai, UAE"
         heding={
-          "Professional Travel & Tourism Website <br/>Development Services in Dubai & The UAE"
+          "Travel & Tourism Web Design in Dubai, UAE"
         }
         subtitle={
-          "We create custom websites for Dubai and UAE travel businesses that attract visitors and drive </br>bookings. With visually stunning designs and features, our websites turn casual browsers into loyal travelers."
+          "We design high-performing travel agency websites in UAE that increase bookings, <br>improve visibility, and deliver seamless user experiences for UAE travel businesses."
         }
       />
-      <SubNav
-        title="Travel Agency"
-        items={[
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "PHP", link: "/platforms/php-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-        ]}
-      />
+      
       <CommonIntroduction
-        heding={"Travel & Tourism Website Development"}
-        text1={`<p>The travel and tourism industry in the UAE is rapidly becoming one of the top growth sectors, with millions of international visitors and a powerful local market. Today's travelers depend on digital technology to research, book, and enhance their travel experience. From luxurious vacations, desert excursions, and corporate travel to vacations and weekend escapes, travelers do travel planning, booking, pre-and post-travel engagement to be digitally enhanced.</p>
-                    <p>However, travelers can now access a myriad of travel planning and booking websites. Today’s travelers expect customized suggestions, availability, easy price comparison, adaptability across devices, and an easy booking experience for the end users.</p>
+        heding={"Tourism Website Design Services"}
+        text1={`<p>The travel and tourism industry in the UAE is rapidly emerging as one of the fastest-growing sectors, driven by millions of international visitors and a strong local travel market. Today’s travellers rely heavily on digital platforms to research destinations, compare experiences, and plan their journeys.</p>
+                    <p>At the same time, travellers have access to countless travel planning and booking platforms, increasing competition across the industry. Modern users expect personalised recommendations, real-time availability, transparent pricing, and a smooth booking experience. Websites that fail to meet these expectations risk losing potential customers to more digitally advanced competitors.</p>
                     `}
-        text2={`<p>This is where the Website Development Agency can help. As a trusted <strong><a href="/">web development agency in Dubai</a></strong>
- & the UAE, we are a leader in travel and tourism website development. We develop websites that offer more than just a pretty site. With travel website solutions we’re providing advanced and seamless booking systems, multilingual, mobile-first experiences, and secure payment gateways with high intention and user engagement in the planning, booking, pre-and post-travel engagement.</p>
-                <p>Whether you're running a travel agency, tour operator, hotel group or destination management company, <a href="/">Website Development Agency</a> will help you ensure that your digital presence conveys the value of your brand and meets the high expectations of the UAE's tourism sector. </p>
+        text2={`<p>Additionally, travellers demand consistency across devices and languages, with fast load times and secure transactions. A lack of mobile optimisation, limited payment options, or poor user experience can directly impact bookings, customer trust, and brand perception in an increasingly competitive tourism landscape.</p>
+                <p>Website Development Agency provides specialised travel and tourism web design services in Dubai and across the UAE. We build high-performing travel websites with advanced booking engines, multilingual support, mobile-first design, and secure payment gateway integrations. Whether you’re a travel agency, tour operator, hotel group, or destination management company, our solutions are designed to strengthen your digital presence, improve user engagement, and meet the high expectations of today’s travellers.</p>
                     `}
         imageintro1={imageintro1}
         alt1={
@@ -99,68 +62,10 @@ const page = () => {
           "Dubai Travel Website Development Services - Website Development Agency"
         }
       />
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt={
-          "Travel Web Design Services in Dubai & The UAE - Website Development Agency"
-        }
-        heding={"Why Travel Businesses Need Professional Websites"}
-        subheding={
-          "With the world now digital-first, travelers are no longer walking into travel agencies or waiting for brochures, they are searching, comparing and booking trips online. Therefore, having a professional travel website is now a necessity for any business conducting business in the fast-paced travel marketplace of the UAE tourism industry."
-        }
-        lefttext={`  <p>The right website can create trust with your customers by giving them clarity, professionalism and creditability. Components like an easy navigational structure, great imagery, and prominent calls-to-action help your customers in getting the information they are seeking immediately. </p>
-                        <p>On top of design, professional travel websites excel at smart integrations. A real-time booking engine, secure payment systems, customer reviews, and the ability to manage travel itinerary are all important factors in delivering a seamless experience. These features are helpful not only for usability but they also promote higher conversion rates.</p>
-                        `}
-        righttext={`<p>Investing in a professional website can drive growth, eliminate bottlenecks, and position travel businesses in the UAE ahead of the competition. Website Development Agency has the know-how to make this happen and help you create an integrated digital presence that serves as an engine for bookings, loyalty, and long-term success.</p>
-                            `}
-      />
-
-      <RealEstatePortfolio
-        heading="Travel Agency Website Templates & Custom Designs"
-        description="Explore flexible website solutions for travel agencies or opt for a custom-built experience. Our travel websites are designed to attract travelers, improve user experience, and maximize bookings."
-        portfolioData={[
-          {
-            subtitle: "Travel Agency Website",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Tour Operator Website Design",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Hotel Booking Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Travel Agency Website Redesign",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Travel Agency Landing Page",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Travel Agency Portal",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-        ]}
-      />
 
       <CommonIndustries
-        heding={"Our Travel & Tourism Website Development Services"}
-        subheding="In the travel and tourism sector, a website is not simply an online presence, it is the infrastructure of your customer journey. At Website Development Agency, we create travel platforms designed for speed, engagement, and scalability. Every feature we build is focused on enhancing traveler satisfaction while driving more bookings for your business. Here is what we offer:"
+        heding={"Travel & Tourism Web Design Services"}
+        subheding="At Website Development Agency, we build high-performance websites for travel agencies in Dubai, integrating advanced booking features with conversion-driven design."
         services={[
           {
             title: "Custom Website Design",
@@ -228,69 +133,25 @@ const page = () => {
           },
         ]}
       />
-
-      <CommonThreeCard
-        text1={"Key Features of an Impactful Travel Website"}
-        text2={
-          "An excellent travel website means so much more than looking beautiful-it builds an intuitive, trust-sensitive, and conversion-focused experience. At Website Development Agency, we prioritize features that define a successful travel platform:"
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt={
+          "Tourism Web Design to Elevate Your Digital Presence"
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon5,
-            title: "Search with Filters",
-            desc: "Enable travelers to filter by budget, type, or duration, making it simple to find their dream trip. Advanced search tools save time and keep visitors engaged.",
-          },
-          {
-            id: 2,
-            img: imagecommon2,
-            title: "Real-Time Booking Confirmation",
-            desc: "Instant updates or confirmations enhance a seamless flow of booking that eliminates uncertainty and builds customer faith.",
-          },
-          {
-            id: 3,
-            img: imagecommon6,
-            title: "Planning & Package Customization",
-            desc: "Allow travelers to customize and plan their experiences, from trips to accommodations. Customizable packages garner greater satisfaction and repeat bookings.",
-          },
-          {
-            id: 4,
-            img: imagecommon4,
-            title: "Fast Loading Speed",
-            desc: "Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences.",
-          },
-          {
-            id: 5,
-            img: imagecommon1,
-            title: "Mobile-First Experience",
-            desc: "Check to ensure simple navigation and booking process on smartphones, the most commonly used device for travel planning and distinctly affects conversion rate onto bookings.",
-          },
-          {
-            id: 6,
-            img: imagecommon3,
-            title: "Multi-Language Support",
-            desc: "You can offer a localized experience to international travelers- a familiar experience increases the likelihood of the global traveler completing their booking.",
-          },
-          {
-            id: 7,
-            img: imagecommon7,
-            title: "Secure Payments & Booking",
-            desc: "Allowing travel customers peace of mind in safe payments and access to accustomed bookings gives repeat no-brainer bookings. Secure transactions.",
-          },
-          {
-            id: 8,
-            img: imagecommon8,
-            title: "SEO-Friendly Architecture",
-            desc: "As you will know, your travel agency website is only truly effective when it has structured URLs, optimized meta data and clean coding. These will all make a positive contribution to Google, giving your website a competitive edge in visibility.",
-          },
-          {
-            id: 9,
-            img: imagecommon9,
-            title: "Interactive Map Highlights",
-            desc: "Take engaging imagery to conceptually take customers to destinations. maps integration can indicate nearby attractions, activities, and travel tips.",
-          },
-        ]}
+        heding={"Tourism Web Design to Elevate Your Digital Presence"}
+        subheding={
+          "In the highly competitive travel and tourism sector, a strong online presence plays a decisive role in attracting and converting travellers. Tourism websites must balance visual appeal with functionality, ensuring visitors can explore offerings, compare options, and take action without friction."
+        }
+        lefttext={`  <p><b>Effortless User Journeys:</b> We create travel websites that guide users seamlessly from discovery to booking. By combining intuitive navigation, structured layouts, and clear content hierarchy, we ensure visitors can quickly find destinations, packages, and services enhancing engagement and reducing bounce rates.</p>
+                        <p><b>Seamless Booking Experiences:</b> We develop robust, secure booking systems that deliver a smooth experience across all devices. From real-time availability to mobile-first interfaces, our solutions enable travellers to plan and confirm trips efficiently, building trust and encouraging repeat bookings.</p>
+                        `}
+        righttext={`<p><b>Optimised Performance and Visibility:</b> We design travel websites with fast-loading pages, responsive frameworks, and SEO-focused architecture. This ensures high performance, improved search engine visibility, and greater exposure to potential customers actively seeking travel services.</p>
+                            `}
       />
+
+      
+      <CommonProtfolio />
+      
       <DevelopmentServices />
 
       <CommonCostBreakdown
@@ -299,60 +160,17 @@ const page = () => {
       />
       <IndustryGrid />
 
-      <CommonDevelopmentProcess
-        heding={"Our Travel Website Development Process"}
-        subheding={
-          "Every travel website project is unique, but our structured process ensures consistent quality and efficiency. At Website Development Agency, we take a transparent and collaborative approach so you are engaged at every point in the process, ensuring your vision is made into a high-performing digital platform."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `We start by understanding your business goals, evaluating your target audience, and analyzing competitors in the market. This discovery phase helps us to uncover distinctive opportunities to differentiate your travel site.`,
-          },
-          {
-            id: "02",
-            title: "Planning & Wireframes",
-            description: `Then, we define traveler journeys and create wireframes that outline the structure, navigation, and flow of content. This is an essential step to provide clarity prior to visualizing full design and development.`,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `Our creative team builds responsive and user-friendly designs that focus on showcasing your brand identity while centering on conversions. Functionality and design impact user engagement when booking the experience for travelers.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `APIs, booking engines, payment gateways, and third-party tools are integrated to ensure live availability, secure payment, and an effective experience for users.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Prior to launch, the Website Development Agency team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Deployment",
-            description: `We ensure a smooth and hassle-free launch, taking care of all content, bookings, and updates so the website is fully operational from day one.`,
-          },
-          {
-            id: "07",
-            title: "Ongoing Maintenance",
-            description: `Post-launch, we offer continual support with every quarterly update, integration of new features, and performance scaling during busy travel seasons to ensure that your website is competitive and ready for its future.`,
-          },
-        ]}
-      />
-
+      
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Travel & Tourism Website Development"
+          "Web Design Solutions for the Travel and Tourism Industry"
         }
         subheding={
-          "Choosing the right technology partner is critical to building a travel platform that not only looks impressive but also delivers measurable business results. At Website Development Agency, we pull in our technical experience and industry perspectives to ensure we create websites that are trustworthy for travelers and reliable for businesses."
+          "The travel and tourism sector in the UAE is diverse, and each business requires a website that reflects its unique offerings. We develop tailored travel websites that combine visually compelling design with advanced functionality, ensuring every platform aligns with its target audience & objectives."
         }
-        lefttext={`<p><b>Proven Expertise –</b> We deliver secure, advanced travel websites and booking platforms that meet the needs of travel agencies, operators, and OTAs. Our structured approach ensures efficient development, reliable technology, and a seamless experience for both businesses and travelers.</p>
-                                <p><b>UAE-focused Solutions –</b> Our websites have the functionality for multiple languages and payment currencies, so your website is set up for the UAE's traveler base.  For either domestic travel explorers or international travelers, we build sites that feel like a local experience and position you for global scalability.</p>
-                                <p><b>Transparent Pricing & Support -</b>You are informed of the expenses beforehand; there are no undisclosed prices. After launch, our team will provide an update and work to ensure the site supports growth by updating seasonal content and optimizing the site as needed.</p>
+        lefttext={`<p><b>Hotels & Hospitality Platforms:</b> We design visually striking websites for hotels, resorts, and boutique accommodations that highlight facilities, amenities, and special packages. Our solutions focus on direct booking capabilities, intuitive room availability displays, and engaging multimedia galleries to drive conversions while building brand credibility.</p>
+                                <p><b>Flight & Tour Booking Systems:</b> For airlines, flight aggregators, and tour operators, we deliver streamlined booking platforms that simplify search, comparison, and reservations. Integrated itinerary management, real-time availability, and secure payment gateways provide a seamless booking experience, improving customer satisfaction and repeat usage.</p>
+                                <p><b>Solutions for Travel Agencies:</b> Our approach also extends to traditional travel agencies, providing fully customisable web development solutions with advanced booking features, destination insights, and multilingual support. By focusing on user engagement, mobile responsiveness, and digital optimisation, we help travel businesses across the UAE.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt={

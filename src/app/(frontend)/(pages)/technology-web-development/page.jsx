@@ -39,118 +39,42 @@ import Portfolioimage4 from "@/app/(frontend)/assets/images/protfolio/tech-start
 import Portfolioimage5 from "@/app/(frontend)/assets/images/protfolio/tech-startup-5.webp";
 import Portfolioimage6 from "@/app/(frontend)/assets/images/protfolio/tech-startup-6.webp";
 import RealEstatePortfolio from "../../component/pages/common/RealEstatePortfolio";
-import styles from "@/app/(frontend)/assets/style/calculator/CostCalculator.module.css";
 import LocationService from "../../component/pages/common/LocationService";
 import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 const page = () => {
   return (
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt="Website Development for Technology Startups in UAE - Website Development Agency"
+        alt="Technology & IT Website Design Agency in UAE"
         heding={
-          "Website Development Agency in UAE </br>for Technology Startups"
+          "Technology & IT Website Design Agency"
         }
         subtitle={
-          "Empowering tech startups in Dubai & the UAE with high-performance, scalable</br> websites that accelerate growth and attract investors. "
+          "We design high-performance websites for tech and IT companies, enhancing <br>user experience, boosting conversions, and maximising online visibility."
         }
       />
-      <SubNav
-        title="Technology"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          {
-            name: "Laravel",
-            link: "/platforms/laravel-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
+      
       <CommonIntroduction
-        heding={"Startup Website Development UAE"}
-        text1={` <p>The UAE has turned out to be a center of innovation and entrepreneurship, and startups have been gaining ground to such an extent that they are changing entire industries with their novel ideas and disruptive solutions. In an otherwise highly competitive market environment, the influence of having a strong online presence is not just nice to have but it is essential.</p>
-                    <p>The first direct contact with your website is usually the investors, early adopters, and customers. It is the place where they evaluate your vision, innovation, and credibility. A well-designed website defines the personality of your brand, communicates your unique selling point, and instills trust. Investing in a professional website ensures your startup makes a powerful first impression and stands out in the competitive UAE market.</p>
+        heding={"Technology & IT Website Development in Dubai, UAE"}
+        text1={` <p>The UAE has emerged as a hub for innovation and digital transformation, with technology and IT companies driving growth across industries. In this competitive landscape, a strong online presence is no longer optional- it’s essential for building credibility, attracting clients, and showcasing your expertise.</p>
+                    <p>A company’s website is often the first point of contact for clients, partners, and investors. It serves as a platform to communicate your technological capabilities, highlight innovative solutions, and establish trust. A well-crafted website not only reflects your brand identity but also positions your IT business as a leader in the UAE’s fast-paced digital ecosystem. We design web solutions built for tech businesses to drive growth and engagement in Dubai and the UAE.</p>
                     `}
-        text2={`  <p>Pre-built templates fail to reflect the special features of your startup. These have restricted flexibility, scalability, and performance characteristics which are not even suitable for a growing tech business. The most suitable is a website that is deeply connected with your product, technology, and audience.</p>
-                <p>At <a href='/'>Website Development Agency</a>, we are the best when it comes to building a custom-built website for a technology startup that is a hit with the market and which is innovative. We build engaging and efficient websites that help startups grow and get funding starting from MVP launches to full-scale SaaS platforms. Using our knowledge, the startup stage can turn into a brilliant online presence in no time.</p>
+        text2={`  <p>Pre-built templates rarely meet the unique needs of technology companies. They often lack the flexibility, scalability, and performance required to support complex solutions, SaaS platforms, or enterprise software. What your business needs is a custom website designed to align with your products, services, and audience expectations.</p>
+                <p>At <a href='/'>Website Development Agency</a>, we specialise in creating bespoke websites for IT and technology companies in the UAE. From dynamic corporate sites and SaaS platforms to enterprise solutions, we build engaging, high-performance websites that enhance user experience, showcase innovation, and support business growth. Our expert team ensures your digital presence reflects the cutting-edge solutions you provide.</p>
                     `}
         imageintro1={imageintro1}
         alt1="Technology Startup Website Development Services - Website Development Agency"
         imageintro2={imageintro2}
         alt2="Custom Technology Startup Website Development - Website Development Agency"
       />
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt="Why Technology Startups Need Professional Websites - Website Development Agency"
-        heding={"Why Startups Need Professional Websites"}
-        subheding={
-          "For a technology startup, your website is your virtual home base. Thats where you show off your credibility and make a great first impression to investors, partners, and early users. A website made by professionals conveys the idea of trust, the seriousness of the project, and a vision that is clear."
-        }
-        lefttext={`  <p>The website of a startup is not just presenting an idea, it is showing the company’s originality and market presence. In the website, you can visualize MVPs, upcoming features, and product roadmaps in a more appealing way. Besides, you can also indicate your technology stack, innovation journey, and unique differentiators that revolutionize your product.</p>
-                        <p>Using the mobile-first design concept your startup can target the people who are always on the move and who use mobile devices, and also you can integrate your startup with your apps or SaaS tools. Every detail, from UI design to the functionality, is specially designed for you to be able to scale at a high rate and do your real-world testing.</p>
-                        `}
-        righttext={`<p>Website Development Agency provides technology startups in the UAE with expertly crafted websites that combine sleek design, robust functionality, and scalable architecture. We understand the unique needs of startups and build platforms that not only showcase your innovation but also support growth, user engagement, and investor confidence.</p>
-                            `}
-      />
-      <RealEstatePortfolio
-        heading="Tech Startup Website Template & Custom Designs"
-        description="Explore flexible website solutions for tech startups or choose a custom-built platform tailored to your product vision. We create startup websites that support performance, user engagement, and rapid business growth."
-        portfolioData={[
-          {
-            subtitle: "Tech Startup Website",
-            image: Portfolioimage1,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Tech Startup Landing Page",
-            image: Portfolioimage2,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Startup MVP Website",
-            image: Portfolioimage3,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "AI Startup Website",
-            image: Portfolioimage4,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Fintech Startup Website",
-            image: Portfolioimage5,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-          {
-            subtitle: "Soaftware Startup Website",
-            image: Portfolioimage6,
-            link: "/contact-us",
-            price: "AED 6,000",
-          },
-        ]}
-      />
+
       <CommonIndustries
-        heding={"Our Technology Startup Website Services"}
+        heding={"Our Technology & IT Website Services"}
         subheding="Website Development Agency appreciates the ordeal that the startups are going through, from the limited time span to the rapid changes in direction. Our tailored website development services form the backbone of your growth journey at every stage."
         services={[
           {
@@ -220,110 +144,45 @@ const page = () => {
         ]}
       />
 
-      <DevelopmentServices />
-      <CommonThreeCard
-        text1={"Key Features of a Successful Startup Website"}
-        text2={
-          "A startup website is about so much more than just interactive visuals. It's about serving the needs of the customers, displaying great performance, and winning their confidence. The core elements of a tech startup website are those which make the site function at its maximum capacity:"
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt="Expert Web Solutions for Technology Companies"
+        heding={"Expert Web Solutions for Technology Companies"}
+        subheding={
+          "Technology & IT businesses in Dubai, UAE require websites that combine performance, innovation, and scalability. We build digital platforms that reflect your expertise, engage users, and position your company as a leader in the UAE’s fast-evolving tech landscape."
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon1,
-            title: "Modern, Attractive Design",
-            desc: "A clean and contemporary design reflects your startup’s innovative and forward-thinking approach. It not only grabs attention but also ensures visitors focus on your core message and offerings.",
-          },
-          {
-            id: 2,
-            img: imagecommon2,
-            title: "Product/Service Positioning",
-            desc: "Clearly communicate what your startup offers and who will benefit from it. Highlighting real-world problem-solving helps users quickly understand your value and relevance in the market.",
-          },
-          {
-            id: 3,
-            img: imagecommon3,
-            title: "Demos and MVP Showcases",
-            desc: "Use videos, demos, or interactive MVP presentations to give users a hands-on experience of your product. This helps explain complex ideas simply and engages visitors effectively.",
-          },
-          {
-            id: 4,
-            img: imagecommon4,
-            title: "Fast Loading Speed",
-            desc: "Speed is directly linked to sales. Even a few seconds of delay can lead to drop-offs. Our websites are performance-optimized to load in seconds increasing customers experiences and SEO results.",
-          },
-          {
-            id: 5,
-            img: imagecommon5,
-            title: "Lead Capture and Engagement Tools",
-            desc: "Strategically placed forms, CTAs, and contact options help capture interest from investors, early adopters, and potential customers. They also enable nurturing long-term relationships and repeat engagement.",
-          },
-          {
-            id: 6,
-            img: imagecommon7,
-            title: "Analytics, Security, and Scalability",
-            desc: "Integrated analytics dashboards allow monitoring of user behavior, engagement, and growth metrics in real time. Combined with secure and scalable infrastructure, your website can handle growth, feature updates, and traffic spikes without issues.",
-          },
-        ]}
+        lefttext={`  <p><b>Advanced and Secure Platforms:</b> We utilise cutting-edge technologies and best coding practices to deliver websites that are fast, reliable, and future-ready. Every site is built with scalability and security in mind, ensuring long-term performance for complex tech solutions and SaaS platforms.</p>
+                        <p><b>Industry-Focused Design:</b> Our team understands the unique needs of technology companies. We create platforms that effectively showcase your products, services, and innovations while connecting with the right audience to drive engagement and business growth.</p>
+                        `}
+        righttext={`<p><b>Brand-Centric User Experiences:</b> We craft websites that capture your brand identity and communicate your value proposition clearly. From intuitive navigation to visually engaging layouts, every element is designed to enhance user interaction and strengthen your digital presence.</p>
+                            `}
       />
-      <CommonCostBreakdown
-        heading="Tech Startup Website Design Cost Breakdown"
-        description="Select the best tech startup website design and Development package based on the features, performance, and growth level you need."
+      
+      <CommonProtfolio />
+
+
+
+      <DevelopmentServices />
+
+                  <CommonCostBreakdown
+        heading="Technology Website Design Cost Breakdown"
+        description="Select the best technology business design and Development package based on the features, performance, and growth level you need."
       />
+      
       <IndustryGrid />
 
-      <CommonDevelopmentProcess
-        heding={"Our Website Development Process "}
-        subheding={
-          "At Website Development Agency, we use a tried-and-true eCommerce website development process to deliver every project on time, on budget, and to consistently measure success. Our formula combines creativity, technical detail, and market intelligence to give UAE businesses a competitive edge."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `We will start by taking a deep dive consultation to learn about your goals, audience, and competitive landscape. This phase allows us to align the project to your business goals, industry trends, and customer expectations. `,
-          },
-          {
-            id: "02",
-            title: "Design & Architecture",
-            description: `Our experts map out the website’s structure, UX flow, and customer journey. We create wireframes and prototypes that visualize how users will interact with your store before moving into design and coding. `,
-          },
-          {
-            id: "03",
-            title: "Design & Development",
-            description: `Next, we create a visually engaging interface supported by a strong, secure, and scalable back end. Our development team works to ensure functionality is consistent across devices. Mobile-first design and loading speed are always prioritized.`,
-          },
-          {
-            id: "04",
-            title: "Integration",
-            description: `We connect your ecommerce site to payment gateways, logistics providers, ERP/CRM tools, and third-party connecting systems. This will ensure your business runs smoothly from syncing your inventory to tracking orders.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Prior to launch, the WD Team will conduct meticulous performance, usability and security testing. We will identify bugs and browser compatibility, while also ensuring a fast-loading site for the best user experience.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `Your website goes live only after SEO audits, analytics setup, and speed optimization. We also implement conversion tracking tools to measure performance from day one.`,
-          },
-          {
-            id: "07",
-            title: "Support & Maintenance",
-            description: `Our partnership doesn’t end at launch. We offer ongoing monitoring, updates, and feature enhancements to ensure your website is operating efficiently and dynamic enough to adapt to market changes.`,
-          },
-        ]}
-      />
+      
       <CommonWhyWebsiteDevelopment
         heding={
-          "Why Choose Website Development Agency for Startup Website Development"
+          "Custom Web Solutions for Technology and IT Businesses"
         }
         subheding={
-          "Website Development Agency isn’t just a web design company,  we’re your digital growth partner. We have the knowledge and skills to create websites tailored to the needs of tech startups and SaaS platforms. We understand that speed, scalability, and the overall user experience are essential factors that cannot be compromised."
+          "Technology and IT companies require websites that reflect innovation, expertise, and reliability. We deliver customised web solutions designed to meet the unique needs of different tech sectors, ensuring your digital presence aligns with business goals and drives growth."
         }
-        lefttext={`<p>We build websites that not only load quickly but also are efficient in conversion and can scale up with your product. The extensive work experience of our team with startups in the UAE has given us insight into the local market - from what the investors expect to how the users behave - which is the key to your brand being able to connect with your target audience effectively.</p>
-                                <p>We have in-depth experience on numerous platforms such as Shopify, Magento, WooCommerce, and bespoke ecommerce solutions to recommend and deliver the ideal platform for your company’s needs. Our main focus is on writing clean code, optimizing for performance, and using growth-driven design that makes visitors to your site turn into potential clients.</p>
-                                <p>Our working methods are open and interactive - you can be part of every step from the initial stage to the moment after the launch, and even through the updates. Besides creating your web platform, we also offer long-term guidance for your startup’s digital path.</p>
+        lefttext={`<p><b>IT Services and Consultancies:</b> We build responsive, scalable websites for IT service providers and tech consultancies. Our designs showcase your expertise, highlight service offerings, and make it easy for potential clients to connect with your team.</p>
+                                <p><b>Software and SaaS Companies:</b> For software developers and SaaS platforms, we create feature-rich websites that communicate product value, support onboarding, and enable smooth integration with digital tools. Our solutions are built to scale as your business grows.</p>
+                                <p><b>Hardware and Product Businesses:</b> We develop websites for businesses offering hardware and tech products, combining e-commerce functionality with informative content. Our platforms highlight your products, improve customer engagement, and simplify the purchase journey.</p>
+                                <p><b>Startups, SMBs, and Enterprises:</b> Whether you’re a tech startup, a growing SMB, or a large enterprise, we deliver flexible, high-performance web solutions. Our websites are designed to enhance engagement, support innovation, and provide a seamless experience across all devices and platforms.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt="Why Choose Website Development Agency for Startup Website Development - Website Development Agency"
@@ -357,8 +216,8 @@ const page = () => {
       <CommonFaqSection
         faqs={[
           {
-            q: "How Much Does a Startup Website Development Cost?",
-            a: "Depending on the scope, aspects, and integrations you want, our offerings are adaptable to your requirements. These packages can range from the development of MVPs to complete SaaS websites that are designed to assist you achieve your goals. We aim to maintain a pricing policy that's simple to understand and devoid of hidden fees, so every startup can get a solution that suits their requirements as well as their budget.",
+            q: "How Much Does a Technology Website Development Cost?",
+            a: "Depending on the features, integrations, and complexity, we offer scalable solutions from simple corporate sites to advanced SaaS platforms (AED 3,000 to AED 12,000+). Our transparent pricing ensures IT companies get a solution that fits both their goals and budget.",
           },
           {
             q: "Can You Integrate SaaS Tools and Apps?",

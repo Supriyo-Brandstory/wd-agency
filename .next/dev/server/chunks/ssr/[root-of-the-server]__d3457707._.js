@@ -48,7 +48,7 @@ async function verifyAdmin() {
 "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"007ce3ce263a3807ced419b6d3a9d0fcd309495767":"getSeoData","40359aea0f0a0b2439bc03c4b96a540798d7c1c75e":"deleteSeoData","40829950418f9adbc68444716fd9b2eab3786a7bb8":"createSeoData","4088157ca6403a3b3b9dfed694810b5df237986187":"getSeoDataByPageUrl","6033e10a1b9ceecde35b097cadaa6347bcc6ef9903":"updateSeoData"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00a67ea89a1e2599db5429764d79e99a02cabeb667":"getSeoData","4014ae62057bdf5cb37d7273d39326a8d2c8330275":"createSeoData","40744ce772208a5ca79c5f3be2c250b289d5a48968":"deleteSeoData","40b2abec439b11f7c0caad6cd2178ca8c7bcb05ea1":"getSeoDataByPageUrl","60e49be352951cc3709b92b9b19e61984fd934e8c3":"updateSeoData"},"",""] */ __turbopack_context__.s([
     "createSeoData",
     ()=>createSeoData,
     "deleteSeoData",
@@ -141,11 +141,11 @@ async function deleteSeoData(id) {
     updateSeoData,
     deleteSeoData
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "007ce3ce263a3807ced419b6d3a9d0fcd309495767", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "4088157ca6403a3b3b9dfed694810b5df237986187", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "40829950418f9adbc68444716fd9b2eab3786a7bb8", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "6033e10a1b9ceecde35b097cadaa6347bcc6ef9903", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "40359aea0f0a0b2439bc03c4b96a540798d7c1c75e", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoData, "00a67ea89a1e2599db5429764d79e99a02cabeb667", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getSeoDataByPageUrl, "40b2abec439b11f7c0caad6cd2178ca8c7bcb05ea1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createSeoData, "4014ae62057bdf5cb37d7273d39326a8d2c8330275", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateSeoData, "60e49be352951cc3709b92b9b19e61984fd934e8c3", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteSeoData, "40744ce772208a5ca79c5f3be2c250b289d5a48968", null);
 }),
 "[externals]/fs [external] (fs, cjs)", ((__turbopack_context__, module, exports) => {
 
@@ -168,7 +168,7 @@ module.exports = mod;
 "[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"000ad9b21688fd0a614644f1e20227caf76113c899":"getAllTemplatesAdmin","002b152ebbe17f0d969b87ef586be724ae7bd38995":"getTemplates","400f8c60f25929ee9574684f26e0cea50178f7cac0":"createTemplate","4021839023c8bdba9a96a27a2aecb55d320d8c2f18":"getTemplatesByCategory","403606d2d3c5114ded93cb2bf885a2d900ba99317e":"getTemplateBySlug","4092b76b90175d37633086f2abd816ce9539fa54d4":"updateTemplate","40c9c0cafb1b8da945ffba5c3034b5967bda7ec174":"deleteTemplate","703edd1265545b0cf8361a6c1c2ea6c7208190a653":"getTemplatesPaginated"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"0098d2063b20598daf3f6cc47eb0a6102b841b972b":"getAllTemplatesAdmin","00a5ce298db6baf242a27c2777a3e4565200d39d00":"getTemplates","40105b01acc0625ad7f4ff02571827be137056365f":"getTemplateBySlug","4027e8c8a70593a1cb903ffdd8c82dee6da075585d":"deleteTemplate","402a71f9fe9aaa372949ad968de483f4d3174acd6f":"updateTemplate","4073a856e9623a6f80359c31ef6c823e810045f537":"createTemplate","40d844f07df4cafabfcddd3650bfec2b8c519350d1":"getTemplatesByCategory","70316eed1fb43de9ca2f7997a39d4db8c630c7a95b":"getTemplatesPaginated"},"",""] */ __turbopack_context__.s([
     "createTemplate",
     ()=>createTemplate,
     "deleteTemplate",
@@ -522,19 +522,19 @@ async function getTemplatesPaginated(page = 1, limit = 12, categorySlug = null) 
     getTemplatesByCategory,
     getTemplatesPaginated
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplate, "400f8c60f25929ee9574684f26e0cea50178f7cac0", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplate, "4092b76b90175d37633086f2abd816ce9539fa54d4", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplate, "40c9c0cafb1b8da945ffba5c3034b5967bda7ec174", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplates, "002b152ebbe17f0d969b87ef586be724ae7bd38995", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getAllTemplatesAdmin, "000ad9b21688fd0a614644f1e20227caf76113c899", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateBySlug, "403606d2d3c5114ded93cb2bf885a2d900ba99317e", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesByCategory, "4021839023c8bdba9a96a27a2aecb55d320d8c2f18", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesPaginated, "703edd1265545b0cf8361a6c1c2ea6c7208190a653", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplate, "4073a856e9623a6f80359c31ef6c823e810045f537", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplate, "402a71f9fe9aaa372949ad968de483f4d3174acd6f", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplate, "4027e8c8a70593a1cb903ffdd8c82dee6da075585d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplates, "00a5ce298db6baf242a27c2777a3e4565200d39d00", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getAllTemplatesAdmin, "0098d2063b20598daf3f6cc47eb0a6102b841b972b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateBySlug, "40105b01acc0625ad7f4ff02571827be137056365f", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesByCategory, "40d844f07df4cafabfcddd3650bfec2b8c519350d1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplatesPaginated, "70316eed1fb43de9ca2f7997a39d4db8c630c7a95b", null);
 }),
 "[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"001ecf6c76509668e5f446fa61ba95e587b4114eb1":"getTemplateCategories","40b873e12b99da785a3e574f1e7715fdf3536be99b":"deleteTemplateCategory","605656cd4b3ea824b273bb0bd96118eed3f9c3fafa":"createTemplateCategory","70fc0d893d32347e74d0e6ef0b453fe8f7657aabb5":"updateTemplateCategory"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00df2d61bcb2c8383399fc72ee6d763c0a6942c3cf":"getTemplateCategories","404c6c52bd9d1bffc26cd744b4b0689d56645a5158":"deleteTemplateCategory","607bafd6a4721e5b44cb835f2f2a84f814f9188c38":"createTemplateCategory","703d81843201ec0d5a2844077bb4522c81893d0ba3":"updateTemplateCategory"},"",""] */ __turbopack_context__.s([
     "createTemplateCategory",
     ()=>createTemplateCategory,
     "deleteTemplateCategory",
@@ -630,15 +630,15 @@ async function getTemplateCategories() {
     deleteTemplateCategory,
     getTemplateCategories
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplateCategory, "605656cd4b3ea824b273bb0bd96118eed3f9c3fafa", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplateCategory, "70fc0d893d32347e74d0e6ef0b453fe8f7657aabb5", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplateCategory, "40b873e12b99da785a3e574f1e7715fdf3536be99b", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateCategories, "001ecf6c76509668e5f446fa61ba95e587b4114eb1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createTemplateCategory, "607bafd6a4721e5b44cb835f2f2a84f814f9188c38", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateTemplateCategory, "703d81843201ec0d5a2844077bb4522c81893d0ba3", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteTemplateCategory, "404c6c52bd9d1bffc26cd744b4b0689d56645a5158", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getTemplateCategories, "00df2d61bcb2c8383399fc72ee6d763c0a6942c3cf", null);
 }),
 "[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"0063c7960838de4a50c7fd4ec3b15be63687b05ac3":"getBlogs","400e7973102bdf72423f2e5a4e803d54a7cde72f81":"createBlog","403523a73ea4bb1a6718ece4aafce9a27b7da699fe":"getBlogBySlug","40460c91263df75dead43b7319866d58de6823e950":"updateBlog","40cb92b4c2521dddd0b7481ae5325b7c1dde9f326f":"deleteBlog","608768698415ed4110ae398c21cab09065b23b390a":"getPaginatedBlogsByCategory","608f23878ec69c4e571145808d67229b3dc0510b66":"getLatestBlogs"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"000bfad715149d09e4e1374b0b529711c0ae412747":"getBlogs","4063dc8749f8878de9e74658e2caa66fec3879cdeb":"updateBlog","40bb1e8d921a8a34ebf0ad0393f9d4b853629131f4":"deleteBlog","40c3cceb4dc80e5f26cb1ca7eee158c8e62de79616":"getBlogBySlug","40c59dde6e4f6b1ef7e3123a128dde85dfca1cdf50":"createBlog","60393f29b1070ef10f2d77df15bb6728762eaabd03":"getLatestBlogs","6063ab09d0cf8595f7d77d02363675bdf124be4846":"getPaginatedBlogsByCategory"},"",""] */ __turbopack_context__.s([
     "createBlog",
     ()=>createBlog,
     "deleteBlog",
@@ -967,13 +967,13 @@ async function getLatestBlogs(category = null, limit = 10) {
     getBlogBySlug,
     getLatestBlogs
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createBlog, "400e7973102bdf72423f2e5a4e803d54a7cde72f81", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateBlog, "40460c91263df75dead43b7319866d58de6823e950", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteBlog, "40cb92b4c2521dddd0b7481ae5325b7c1dde9f326f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogs, "0063c7960838de4a50c7fd4ec3b15be63687b05ac3", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getPaginatedBlogsByCategory, "608768698415ed4110ae398c21cab09065b23b390a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogBySlug, "403523a73ea4bb1a6718ece4aafce9a27b7da699fe", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getLatestBlogs, "608f23878ec69c4e571145808d67229b3dc0510b66", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createBlog, "40c59dde6e4f6b1ef7e3123a128dde85dfca1cdf50", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateBlog, "4063dc8749f8878de9e74658e2caa66fec3879cdeb", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteBlog, "40bb1e8d921a8a34ebf0ad0393f9d4b853629131f4", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogs, "000bfad715149d09e4e1374b0b529711c0ae412747", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getPaginatedBlogsByCategory, "6063ab09d0cf8595f7d77d02363675bdf124be4846", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getBlogBySlug, "40c3cceb4dc80e5f26cb1ca7eee158c8e62de79616", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getLatestBlogs, "60393f29b1070ef10f2d77df15bb6728762eaabd03", null);
 }),
 "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
@@ -992,13 +992,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashb
 "use strict";
 
 __turbopack_context__.s([
-    "001ecf6c76509668e5f446fa61ba95e587b4114eb1",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplateCategories"],
-    "002b152ebbe17f0d969b87ef586be724ae7bd38995",
+    "00a5ce298db6baf242a27c2777a3e4565200d39d00",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplates"],
-    "4088157ca6403a3b3b9dfed694810b5df237986187",
+    "00df2d61bcb2c8383399fc72ee6d763c0a6942c3cf",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTemplateCategories"],
+    "40b2abec439b11f7c0caad6cd2178ca8c7bcb05ea1",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getSeoDataByPageUrl"],
-    "608f23878ec69c4e571145808d67229b3dc0510b66",
+    "60393f29b1070ef10f2d77df15bb6728762eaabd03",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$blog$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getLatestBlogs"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f2e$next$2d$internal$2f$server$2f$app$2f28$frontend$292f28$pages$292f28$home$292f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$seo$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE1__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE2__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$template$2d$category$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE3__$3d3e$__$225b$project$5d2f$src$2f$app$2f$admin$2f$dashboard$2f$blog$2f$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => "[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE1 => "[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE2 => "[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE3 => "[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');

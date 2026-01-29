@@ -1,6 +1,6 @@
 {
   "node": {
-    "4088157ca6403a3b3b9dfed694810b5df237986187": {
+    "40b2abec439b11f7c0caad6cd2178ca8c7bcb05ea1": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
@@ -8,8 +8,50 @@
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
-        "app/(frontend)/(pages)/automotive-website-development/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/automotive-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/accountant-website-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/corporate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/corporate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/e-commerce-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/healthcare-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/portfolio-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/real-estate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/technology-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/technology-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/travel-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -17,57 +59,156 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "action-browser",
-        "app/(frontend)/(pages)/automotive-website-development/page": "action-browser"
+        "app/(frontend)/(pages)/accountant-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/corporate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/technology-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
     },
-    "002b152ebbe17f0d969b87ef586be724ae7bd38995": {
+    "00a5ce298db6baf242a27c2777a3e4565200d39d00": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/e-commerce-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/healthcare-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/real-estate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/(home)/page": "action-browser"
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplates"
     },
-    "001ecf6c76509668e5f446fa61ba95e587b4114eb1": {
+    "00df2d61bcb2c8383399fc72ee6d763c0a6942c3cf": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/e-commerce-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/healthcare-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/real-estate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/(home)/page": "action-browser"
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "getTemplateCategories"
     },
-    "608f23878ec69c4e571145808d67229b3dc0510b66": {
+    "60393f29b1070ef10f2d77df15bb6728762eaabd03": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "getLatestBlogs",
           "filename": "src/app/admin/dashboard/blog/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/e-commerce-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getLatestBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/real-estate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/app/admin/dashboard/blog/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getLatestBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/(home)/page": "action-browser"
+        "app/(frontend)/(pages)/(home)/page": "action-browser",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getLatestBlogs"
+    },
+    "40879f091d7ddafdb01c5fab6651f3c40a499228ff": {
+      "workers": {
+        "app/(frontend)/(pages)/corporate-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/corporate-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/portfolio-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/technology-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/technology-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        },
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/travel-web-development/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/enquiry/action.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/corporate-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/technology-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/travel-web-development/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/enquiry/action.js",
+      "exportedName": "createEnquiry"
     }
   },
   "edge": {},
-  "encryptionKey": "/syBQIYY/Dm6lZvWcMD2X5crKu/CwnU6rqEleOUkd+0="
+  "encryptionKey": "3DHJl/ybbSo/5LRq9ij0/xBN2zYiws1rnGUQPNgK+Fw="
 }

@@ -41,6 +41,8 @@ import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
+import Team from "../../component/pages/about/Team";
 
 const page = () => {
   return (
@@ -49,42 +51,20 @@ const page = () => {
         bg={imagebanner}
         alt="Healthcare Web Development Banner - Website Development Agency"
         heding={
-          "Healthcare Website Development in Dubai, <br/> UAE for Clinics & Hospitals"
+          "Healthcare Web Design in Dubai, UAE"
         }
         subtitle={
-          "Build secure, user-friendly, and patient-focused healthcare websites with Website Development Agency.</br> We are the best healthcare web design agency in Dubai & the UAE."
+          "Empowering healthcare providers in Dubai with secure, user-friendly websites <br>that build patient trust, enhance engagement, and support seamless interactions."
         }
       />
-      <SubNav
-        title="Helthcare"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          {
-            name: "Laravel",
-            link: "/platforms/laravel-website-development",
-          },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
+
       <CommonIntroduction
         heding={"Healthcare Website Design UAE"}
-        text1={` <p>Healthcare in the UAE is rapidly embracing digital transformation. Now that online consultations, patient portals, and scheduling patient appointments have become common, patients expect the highest level of healthcare backed by impeccable digital experience from healthcare providers. Therefore, the need for a professionally made, secure, yet patient-friendly website seems to be less in the category of an extra amenity and more of a mere necessity for small clinics or multi-specialty hospitals.</p>
-                    <p>A healthcare website is more than a simple online brochure, it is your virtual clinic. Patients will expect to find which doctors are accepting patients, book appointments, check their medical history, or even meet the doctor in their treatment room, living room, or at work via telemedicine. On the other hand, medical facilities have to safeguard their sensitive health information as per industry standards.</p>
+        text1={` <p>Healthcare in the UAE is rapidly undergoing digital transformation, reshaping how patients interact with medical providers. With online consultations, appointment scheduling, and patient portals becoming standard expectations, patients now judge healthcare services not only by clinical expertise but also by the quality of their digital experience.</p>
+                    <p>Today’s healthcare website is no longer just an informational platform- it functions as a virtual clinic. Patients expect to find accurate doctor availability, book appointments effortlessly, access reports, and consult physicians remotely through telemedicine. When these capabilities are missing or poorly implemented, it leads to frustration, missed appointments, administrative overload, and reduced patient satisfaction.</p>
                     `}
-        text2={`  <p><a href="/">Website Development Agency</a> is the best healthcare website development agency in Dubai, UAE, your trusted partner, understanding the unique needs of the healthcare sector in the UAE.</p>
-                <p>In creating websites, our innovative technologies, responsive designs, and heavy features oriented towards healthcare balance out with the intent to promote patient engagement-building trust-based relations-so that when a doctor comes knocking for growth, there is another institution involved. An appointment system, patient portal, or tele-health interface shall be added, make sure of it, for your website is a digital nexus where patients can connect with care-well-timed, all the time, and from anywhere.</p>
+        text2={` <p>At the same time, healthcare providers must ensure strict data security, privacy compliance, and secure system integrations. Without a professionally developed website infrastructure, clinics and hospitals risk data breaches, operational inefficiencies, and reputational damage, making digital reliability a necessity rather than an optional enhancement.</p> 
+          <p><a href="/">Website Development Agency</a> provides end-to-end healthcare website development services in Dubai, UAE, tailored for clinics, hospitals, and medical institutions of all sizes. We design secure, patient-friendly, and scalable healthcare websites with integrated appointment systems, patient portals, telemedicine interfaces, and responsive designs. Our solutions focus on improving patient engagement, operational efficiency, and digital trust- ensuring your healthcare brand delivers seamless care experiences anytime, anywhere.</p>
                     `}
         imageintro1={imageintro1}
         alt1="Healthcare Website Design UAE - Website Development Agency"
@@ -97,22 +77,8 @@ const page = () => {
         activetaburl={"healthcare"}
       />
 
-      <CommonWhyMetter
-        imagewhymetter={imagewhymetter}
-        alt="Healthcare Website Design Sample - Website Development Agency"
-        heding={"Why You Need a Professional Website for Healthcare Business"}
-        subheding={
-          "In the UAE, the digital healthcare industry is growing at a rapid pace. Patients today prefer the convenience of being able to book a doctor appointment from their viewing device of choice, engage in health records remotely, and consult with specialists without taking tiresome travel or long waiting times. Because of this shift, healthcare websites are no longer considered optional, they are a necessity."
-        }
-        lefttext={`  <p>A modern healthcare website can be the first point of contact for patients. Patients use the website to assess your practice's credibility, obtain medical information, and ultimately trust your clinic or hospital. Consider features like online appointment booking, health blogs, telehealth integration, and patient portals. All of these features can improve user experience, but will also help to improve the trust between the doctor and patient.</p>
-                        <p>With that, security and compliance are just as important. Any healthcare website must abide by international standards to ensure sensitive patient information is secure and confidential. The other consideration is that with mobile usage being the dominant user experience in the UAE, your website must be mobile-first and responsive (allowing for usability on any device.)</p>
-                        `}
-        righttext={`<p>A website extends beyond looks and helps patients in their digital experience, resulting in happier patients, stronger retention, and increased bookings. <a href='/'>Website Development Agency</a> is the best healthcare website development agency in Dubai, UAE, your trusted partner, understanding the unique needs of the healthcare sector in the UAE.</p>
-                            `}
-      />
-
       <CommonIndustries
-        heding={"Our Healthcare Website Development Services"}
+        heding={"Custom Healthcare Web Design Services"}
         subheding="At Website Development Agency, we don’t just build websites, we develop powerful healthcare platforms that enhance patient experiences, streamline operations, and search engine friendly. Our specialized services include:"
         services={[
           {
@@ -181,68 +147,23 @@ const page = () => {
           },
         ]}
       />
-      <CommonThreeCard
-        text1={"Key Features of a Our Healthcare Website"}
-        text2={
-          "A healthcare site cannot simply be a listing of services, it needs to provide trust, usability, and accessibility for patients, in compliance with applicable regulations. At Website Development Agency, we design with these essential features in mind:"
+
+      <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt="Expert Web Design Consultancy in the UAE"
+        heding={"Best Healthcare Website Development Services"}
+        subheding={
+          "Healthcare websites must deliver more than visual appeal they need to support patient trust, operational efficiency, and regulatory compliance. A well-developed healthcare website enables medical professionals to offer accessible digital services while ensuring patients experience clarity, reliability, and ease of use at every touchpoint."
         }
-        boxdata={[
-          {
-            id: 1,
-            img: imagecommon1,
-            title: "Responsive Design",
-            desc: "Patients frequently search when on the go, we build responsive sites that allow patients to browse seamlessly in smartphones, tablets, and desktops.",
-          },
-          {
-            id: 2,
-            img: imagecommon4,
-            title: "Fast & Secure Access",
-            desc: "Speed and security matter. In order to protect sensitive patient information, we utilize SSL, encrypt patient data, and comply with HIPAA/GDPR.",
-          },
-          {
-            id: 3,
-            img: imagecommon6,
-            title: "Online Appointment Booking",
-            desc: "A streamlined online appointment booking system reduces patient wait times and makes scheduling easy 24*7.",
-          },
-          {
-            id: 4,
-            img: imagecommon9,
-            title: "Doctor Directory & Profiles",
-            desc: "Doctor profiles with an engaging photo, areas of expertise, and their schedule for patients to build trust and lead patients to book an appointment.",
-          },
-          {
-            id: 5,
-            img: imagecommon2,
-            title: "Patient Portal Access",
-            desc: "Patients can view their reports, prescriptions, and medical history in a secure platform to further enable continuity of care.",
-          },
-          {
-            id: 6,
-            img: imagecommon7,
-            title: "Chatbots for Initial Queries",
-            desc: "AI-powered chatbots can respond to FAQ's, triage patients, and allow for responsive communication at any time.",
-          },
-          {
-            id: 7,
-            img: imagecommon3,
-            title: "Multi-language Functionality",
-            desc: "Essential for diverse regions like the UAE, this feature ensures inclusivity by allowing patients to access information in their preferred language.",
-          },
-          {
-            id: 8,
-            img: imagecommon5,
-            title: "Emergency Contact & Quick Help",
-            desc: "Critical features that give patients immediate access to urgent support when every second counts. These buttons are strategically placed for high visibility, allowing users to quickly connect.",
-          },
-          {
-            id: 9,
-            img: imagecommon8,
-            title: "Digital Marketing Readiness",
-            desc: "We build websites optimized with healthcare-specific SEO best practices, ensuring your medical practice ranks prominently in relevant searches.",
-          },
-        ]}
+        lefttext={`  <p><b>Designed for Patient Experience:</b> An intuitive website structure is essential for helping patients quickly find services, doctors, and appointment options. Clear navigation, user-friendly layouts, and accessibility-focused design reduce friction, improve engagement, and create a more inclusive digital experience for patients across all age groups.</p>
+                        <p><b>Secure & Compliant Infrastructure:</b> Protecting sensitive medical data is a critical requirement for healthcare organisations. Our healthcare website solutions are built with robust security frameworks, compliance-ready architectures, and secure integrations to safeguard patient information and support industry regulations.</p>
+                        `}
+        righttext={`<p><b>Feature-Rich Solutions:</b> From online appointment scheduling and responsive mobile experiences to secure patient portals and integrated communication tools, our healthcare websites are designed to support efficient workflows and enhanced patient interaction- enabling healthcare providers to deliver care anytime, anywhere.</p>
+                            `}
       />
+
+      <CommonProtfolio />
+      
       <DevelopmentServices />
       <CommonCostBreakdown
         heading="Healthcare Website Design Cost Breakdown"
@@ -250,65 +171,21 @@ const page = () => {
       />
       <IndustryGrid />
 
-      <CommonDevelopmentProcess
-        heding={"Our Healthcare Website Development Process"}
-        subheding={
-          "It is important to follow a clear, structured approach to ensure an effective, future-ready site for the healthcare organization."
-        }
-        processData={[
-          {
-            id: "01",
-            title: "Consultation & Strategy",
-            description: `Our approach always starts fundamentally with "why" for the site. This is to help us balance considerations for your specific business and your organization's mission.`,
-          },
-          {
-            id: "02",
-            title: "Design & Architecture",
-            description: `We map customer journeys and craft wireframes that ensure intuitive and easy navigation. Each layout is designed to balance functionality with a user-focused experience.`,
-          },
-          {
-            id: "03",
-            title: "Website Development",
-            description: `Our developers build robust, healthcare-specific back-end systems while ensuring the site meets accessibility standards, so all patients can navigate and use it effectively.`,
-          },
-          {
-            id: "04",
-            title: "Feature Integration",
-            description: `We develop essential healthcare features, including appointment scheduling, telemedicine, EHR/EMR systems, & payment solutions. Each feature is carefully integrated to work seamlessly together.`,
-          },
-          {
-            id: "05",
-            title: "Testing & QA",
-            description: `Every website we develop undergoes rigorous testing to ensure data security and reliability. We test in production-like environments with real-world scenarios to safeguard your website and its users.`,
-          },
-          {
-            id: "06",
-            title: "Launch & Optimization",
-            description: `We ensure speed optimization, stability, and performance optimization. Post-launch analytics are set up to measure patient engagement and identify areas for improvement.`,
-          },
-          {
-            id: "07",
-            title: "Ongoing Support",
-            description: `We continuously make updates, monitoring, and improvements to ensure that we keep your site running at peak performance and adapt as healthcare technology continues to grow.`,
-          },
-        ]}
-      />
+    
 
       <CommonWhyWebsiteDevelopment
-        heding={"Why Choose Website Development Agency for Healthcare Website"}
+        heding={"Medical Web Solutions for Clinics and Specialists"}
         subheding={
-          "Choosing the right partner is crucial for building a secure and high-performing healthcare website. Here is why Website Development Agency stands out:"
+          "Healthcare providers operate in highly specialised environments, and their websites must reflect those unique requirements. Our medical web solutions are designed to support a wide range of clinics and specialists by delivering websites that align with their services, patient workflows, and regulatory expectations in the UAE."
         }
-        lefttext={`<p><b>Healthcare Expertise–</b> We focus on medical and healthcare projects requiring an understanding of the distinct needs in that landscape.</p>
-                                <p>Compliance-Ready Solutions–</b> All sites we develop will comply with HIPAA, GDPR, and local regulations to safeguard the patient's data.</p>
-                                <p><b>Diverse Experience–</b> We have experience working in hospitals, specialty clinics, labs, pharmacies, and solo practices.</p>
-                                <p><b>Multi-Platform Proficiency–</b> We develop travel websites on platforms like <a href='/platforms/wordpress-website-development'>WordPress</a>, <a href='/platforms/drupal-website-development'>Drupal</a>, and Joomla, or build custom enterprise solutions using <a href='/platforms/php-website-development'>PHP</a>, <a href='/platforms/laravel-website-development'>Laravel</a>, or <a href='/platforms/nodejs-website-development'>Node.js</a>, depending on your project requirements.</p>
-                                <p><b>Transparent Process & Support–</b> We will keep you informed throughout the design phase and offer you assistance once your website goes live.</p>
+        lefttext={`<p><b>Platforms for Dental & Preventive Care:</b> Websites for family doctors, general physicians, dental clinics, and dentists are built to simplify patient interactions- from appointment scheduling and service visibility to sharing essential care information. These platforms focus on clarity, accessibility, and ease of use, helping patients connect with healthcare providers effortlessly.</p>
+                                <p><b>Therapy, Wellness, and Rehabilitation:</b> Physiotherapy clinics, mental wellness centres, and rehabilitation specialists require websites that prioritise trust, usability, and privacy. We design intuitive platforms that support online bookings, secure communication, and informative content, creating a reassuring digital experience for patients seeking ongoing or specialised care.</p>
+                                <p><b>Advanced Medical Services:</b> Paediatric clinics, chiropractic practices, and other specialised healthcare providers benefit from websites tailored to their audiences. From layouts to professionally structured service pages, each website is developed to enhance patient engagement, comply with UAE healthcare standards, and ensure reliable digital access from the very first visit.</p>
                             `}
         rightimage={imagewhydevelopment}
         alt="Why Choose Website Development Agency for Healthcare Website Development - Website Development Agency"
       />
-      <Stats />
+      <Team />
       <CommonClientTestimonials
         testimonials={[
           {
