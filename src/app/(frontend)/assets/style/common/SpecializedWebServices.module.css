@@ -1,0 +1,247 @@
+.section {
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+    /* Removed overflow: hidden to allow sticky to work properly */
+}
+
+.bgElements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.aurora {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 30%, rgba(232, 62, 140, 0.15), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(74, 0, 224, 0.15), transparent 40%);
+    filter: blur(60px);
+    animation: auroraFlow 20s infinite alternate linear;
+}
+
+@keyframes auroraFlow {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+
+    50% {
+        transform: scale(1.1) translate(-2%, 2%);
+    }
+
+    100% {
+        transform: scale(1) translate(2%, -2%);
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.intro {
+    max-width: 900px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 30px;
+
+}
+
+.intro p {
+    line-height: 1.8;
+}
+
+.stack {
+    display: block;
+    padding-bottom: 0;
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr;
+    background: #0a0a0a;
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    overflow: hidden;
+    position: sticky;
+    top: var(--top);
+    z-index: var(--z-index);
+    transition: all 0.5s ease;
+    margin-bottom: 120px;
+    gap: 20px;
+    box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    .panel {
+        top: var(--mobile-top);
+        margin-bottom: 30px;
+        /* Reduced margin for mobile stacking */
+    }
+}
+
+.panel:last-child {
+    margin-bottom: 0;
+}
+
+.panel:hover {
+    border-color: rgba(232, 62, 140, 0.4);
+}
+
+.panel:nth-child(even) {
+    grid-template-columns: 1.5fr 1.2fr;
+}
+
+.panel:nth-child(even) .visualSide {
+    order: 2;
+}
+
+.panel:nth-child(even) .contentSide {
+    order: 1;
+}
+
+.visualSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imageBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel:hover .imageBox {
+    transform: scale(1.05);
+}
+
+.serviceImage {
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+
+.panel:hover .serviceImage {
+    transform: scale(1.01);
+}
+
+.glow {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: var(--color-pink, #E83E8C);
+    filter: blur(100px);
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.contentSide {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentSide h3 {
+    margin-bottom: 40px;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.feature h4 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: var(--color-pink, #E83E8C);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--color-pink, #E83E8C);
+}
+
+.feature p {
+    color: #c7c3c3;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 1100px) {
+    .panel {
+        grid-template-columns: 1fr;
+    }
+
+    .panel:nth-child(even) {
+        grid-template-columns: 1fr;
+    }
+
+    .panel:nth-child(even) .visualSide,
+    .panel:nth-child(even) .contentSide {
+        order: 0;
+    }
+
+    .visualSide {
+        padding: 10px;
+        height: 300px;
+        min-height: auto;
+    }
+
+    .featuresGrid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contentSide {
+        padding: 0 20px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    .intro {
+        margin-bottom: 60px;
+    }
+
+    .panel {
+        border-radius: 20px;
+    }
+
+
+    .stack {
+        gap: 40px;
+    }
+}
