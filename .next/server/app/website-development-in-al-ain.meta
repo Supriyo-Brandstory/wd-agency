@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(frontend)/layout,_N_T_/(frontend)/(pages)/layout,_N_T_/(frontend)/(pages)/website-development-in-al-ain/layout,_N_T_/(frontend)/(pages)/website-development-in-al-ain/page,_N_T_/website-development-in-al-ain"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/website-development-in-al-ain/__PAGE__",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/website-development-in-al-ain",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ",
+    "/!KGZyb250ZW5kKQ",
+    "/_index",
+    "/_head"
+  ]
+}
