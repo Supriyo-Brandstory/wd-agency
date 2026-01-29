@@ -51,7 +51,7 @@ const BestAgency = () => {
         variants={fadeUp}
         viewport={{ once: true }}
       >
-        We are The Best Website Design & Development Agency in Dubai
+        Expert Crafted, Fast & High-Converting <br></br>Web Design Innovation
       </motion.h2>
       <motion.p
         className="text-center mb-50 sm-mb-20 sm-text-start"
@@ -70,27 +70,27 @@ const BestAgency = () => {
           {
             img: highEndAbility,
             alt:"High End Ability in Website Design and Development",
-            text: "Among the best website design companies in Dubai, Website Development Agency holds high-end ability in creating stunning, functional, and user-friendly websites.",
+            text: "As one of Dubai's leading website design companies, WD Agency specializes in crafting visually striking, high-performance websites that deliver exceptional user experiences. Our team combines creative excellence with technical expertise to build digital solutions.",
           },
           {
             img: bestPractices,
             alt:"We Follow Website Design and Development Best Practices",
-            text: "We adapt the best practices, latest web design frameworks, and technologies to align with the trends and deliver more than your expectations.",
+            text: "We leverage cutting-edge web design frameworks, industry best practices, and emerging technologies to create websites that exceed client expectations. Our forward-thinking approach ensures your digital presence stays ahead of market trends while maintaining optimal performance, security, and scalability.",
           },
           {
             img: spectacular,
             alt:"High End Ability in Website Design and Development",
-            text: "We are the best web design company in Dubai, recognized and endorsed by trusted platforms for our spectacular work portfolio.",
+            text: "Recognized as a top-rated web design company in Dubai, our work has been featured and endorsed by leading industry platforms. Our award-winning portfolio showcases diverse projects across multiple sectors, demonstrating our consistent ability to deliver exceptional results that elevate brands.",
           },
           {
             img: brandIdentity,
             alt:"Top-level expertise in Website Design and Development",
-            text: "We put our extra efforts to meet your needs and mirror your brand identity with qualified top-level expert web designers.",
+            text: "Our dedicated team of senior web designers invests significant effort into understanding your business objectives and brand identity. We don't just build websites- we create digital experiences that authentically represent your values, resonate with your target audience, and position your brand for long-term growth.",
           },
           {
             img: deliverTheBestResults,
             alt:"We Deliver The Best Website Design and Development Services",
-            text: "We are the best website development experts to undertake complex challenges, deliver the best website, and break the barrier of success for our beloved clients.",
+            text: "As expert website development specialists, we thrive on solving complex technical challenges and delivering innovative solutions that drive success. Our proven methodology, attention to detail, and commitment to excellence ensure we transform your vision into a powerful digital asset.",
           },
         ].map((item, index) => (
           <motion.div
@@ -110,54 +110,8 @@ const BestAgency = () => {
       </div>
 
       {/* First Banner Section */}
-      <motion.div
-        className={`${style.bestAgencynextContainer} col-reverse`}
-        initial="hidden"
-        whileInView="show"
-        variants={fadeUp}
-        transition={{ delay: 0.3 }}
-        viewport={{ once: true }}
-      >
-        <ul>
-          <li>
-            We are the most affordable and probably the best Dubai-based web
-            design agency delivering cross-platform web solutions for enhancing
-            the digital presence of your business. With our core expertise in
-            web design and development, we strive to deliver personalized web
-            design solutions considering your business that highlight your
-            strengths and unique identity. With high-end coding expertise and
-            industry-specific knowledge, Website Development Agency excels in complete web design
-            and development services.
-          </li>
 
-          {isOpen["1"] && (
-            <>
-              <li>
-                We don't only create websites, we help businesses generate
-                higher revenue with a strong digital presence. Our experts
-                employ smooth navigation, a user-centric interface, and the
-                latest design technologies for fast loading speed, intuitive
-                user experience, and SEO-friendliness. We know the most
-                important component of a website is user experience, which makes
-                your digital storefront stand out from others.
-              </li>
-            
-            </>
-          )}
-          {isMobile && (
-            <>
-            <button
-              className="blue-btn mr-10 mb-10"
-              onClick={() => handleClickOpen("1")}
-            >
-              {isOpen["1"] ? "Read Less" : "Read More"}
-            </button>
-          <button className="white-btn mb-10">Contact Us</button>
-</>
-          )}
-        </ul>
-        <Image src={webSolutionBanner} alt="Web Design agency in Dubai, UAE - Website Development Agency" />
-      </motion.div>
+   
 
       
     </div>

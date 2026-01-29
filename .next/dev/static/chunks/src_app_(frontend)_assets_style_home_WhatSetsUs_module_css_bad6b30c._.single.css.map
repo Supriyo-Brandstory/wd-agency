@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/(frontend)/assets/style/home/WhatSetsUs.module.css"],"sourcesContent":[".whatSetsUsContainer {\r\n  position: relative;\r\n  background: url('../../images/whatSetsUsContainer.webp') no-repeat center center/cover;\r\n  \r\n}\r\n\r\n.whatSetsUsContainer::after {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: linear-gradient(\r\n    278.53deg,\r\n    rgba(0, 0, 0, 0) 33.44%,\r\n    rgba(0, 0, 0, 0.35) 62.52%\r\n  );\r\n  pointer-events: none; /* lets clicks pass through */\r\n  z-index: -1;\r\n}\r\n\r\n\r\n.innerContainer {\r\n  width: 100%;\r\n  max-width: 750px;\r\n  padding: 30px;\r\n  border-radius: 20px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: url('../../images/whatsets-bg.svg');\r\n  backdrop-filter: blur(102.5px);\r\n  background-size: cover;\r\n\r\n}\r\n\r\n\r\n.innerContainer h2{\r\n    padding: 0 80px 0 0px;\r\n}\r\n\r\n\r\n@media screen and (max-width: 768px) {\r\n  .innerContainer{\r\n    padding: 20px;\r\n  }\r\n  \r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAMA;;;;;;;;;;;;AAiBA;;;;;;;;;;;;AAcA;;;;AAKA;EACE"}}]
+}

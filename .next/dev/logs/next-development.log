@@ -1,0 +1,155 @@
+[00:00:03.573] Server  LOG     ✓ Ready in 2.8s
+[00:00:13.675] Server  LOG     ○ Compiling / ...
+[00:00:49.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:16.826] Browser WARN    Image with src "/_next/static/media/web-solution-banner.d40e8267.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:51.765] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:41.215] Server  LOG     ✓ Compiled in 298ms
+[00:03:42.238] Browser ERROR   ./src/app/(frontend)/component/pages/home/BestAgency.jsx:117:5
+Parsing ecmascript source code failed
+  115 |
+  116 |       
+> 117 |     </div>
+      |     ^
+  118 |   );
+  119 | };
+  120 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/app/(frontend)/component/pages/home/BestAgency.jsx
+    ./src/app/(frontend)/(pages)/(home)/page.jsx
+[00:03:42.238] Browser ERROR   ./src/app/(frontend)/component/pages/home/BestAgency.jsx:117:6
+Parsing ecmascript source code failed
+  115 |
+  116 |       
+> 117 |     </div>
+      |      ^^^^^
+  118 |   );
+  119 | };
+  120 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./src/app/(frontend)/component/pages/home/BestAgency.jsx
+    ./src/app/(frontend)/(pages)/(home)/page.jsx
+[00:21:12.226] Server  LOG     ✓ Compiled in 202ms
+[00:22:02.796] Server  LOG     ✓ Compiled in 232ms
+[00:22:11.636] Server  LOG     ✓ Compiled in 176ms
+[00:22:46.972] Server  LOG     ✓ Compiled in 169ms
+[00:23:21.453] Server  LOG     ✓ Compiled in 238ms
+[00:24:02.599] Server  LOG     ✓ Compiled in 164ms
+[00:24:23.810] Server  LOG     ✓ Compiled in 185ms
+[00:24:40.804] Server  LOG     ✓ Compiled in 188ms
+[00:25:02.080] Server  LOG     ✓ Compiled in 175ms
+[00:25:25.859] Server  LOG     ✓ Compiled in 160ms
+[00:30:43.238] Browser ERROR   ./src/app/(frontend)/(pages)/(home)/page.jsx:37:28
+Parsing ecmascript source code failed
+  35 |       import OurStoryImage from '@/app/(frontend)/assets/images/about/our-story.jpg';
+  36 |       
+> 37 |       const OurStory = () => {
+     |                            ^
+  38 |           const containerVariants = {
+  39 |               hidden: { opacity: 0, y: -40 },
+  40 |               visible: {
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:30:54.303] Server  LOG     ✓ Compiled in 162ms
+[00:30:54.746] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:30:55.252] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:31:26.467] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[00:31:28.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:28.701] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:31:45.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:46.055] Browser WARN    Image with src "/_next/static/media/our-story.8419536d.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:39.238] Browser ERROR   ./src/app/(frontend)/(pages)/(home)/page.jsx:40:22
+Parsing ecmascript source code failed
+  38 | import HomeStoryImage from '@/app/(frontend)/assets/images/home/home-story.jpg';
+  39 |
+> 40 | const HomePage = () => {
+     |                      ^
+  41 |     const homeParagraphs = [
+  42 |         "Welcome to <a href='/'>Website Development Agency</a>, your trusted partner for building innovative digital solutions in Dubai & the UAE.",
+  43 |         "We combine creativity, technology, and strategy to deliver websites and software that help businesses grow and stand out online.",
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:43:30.205] Server  LOG     ✓ Compiled in 282ms
+[00:45:53.354] Server  ERROR   ⨯ ReferenceError: Aboutimg is not defined
+[00:45:53.389] Server  LOG     ✓ Compiled in 1825ms
+[00:45:53.736] Browser ERROR   uncaughtError: ReferenceError: Aboutimg is not defined
+[00:46:52.665] Server  LOG     ✓ Compiled in 459ms
+[00:46:53.599] Server  ERROR   ⨯ ReferenceError: OurStoryImage is not defined
+[00:46:55.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:56.256] Browser ERROR   uncaughtError: ReferenceError: OurStoryImage is not defined
+[00:47:08.951] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:06.518] Server  LOG     ✓ Compiled in 485ms
+[01:08:26.737] Server  LOG     ✓ Compiled in 671ms
+[01:09:24.796] Server  LOG     ✓ Compiled in 345ms
+[01:10:07.910] Server  LOG     ✓ Compiled in 191ms
+[01:10:49.431] Server  ERROR   ⨯ ReferenceError: Stats is not defined
+[01:10:50.249] Browser ERROR   uncaughtError: ReferenceError: Stats is not defined
+[01:10:56.012] Server  LOG     ✓ Compiled in 1100ms
+[01:10:56.029] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:10:58.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:03.316] Server  LOG     ✓ Compiled in 603ms
+[01:23:57.167] Server  ERROR   ⨯ ReferenceError: CommonFinancialImpact is not defined
+[01:23:58.239] Browser ERROR   uncaughtError: ReferenceError: CommonFinancialImpact is not defined
+[01:24:10.965] Server  LOG     ✓ Compiled in 588ms
+[01:24:10.977] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:11.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:28.277] Server  LOG     ✓ Compiled in 271ms
+[01:42:53.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:09.145] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:44:29.047] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:44:30.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:31.241] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:45:46.736] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:45:48.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:49.740] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:46:48.966] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:01.250] Browser ERROR   ./src/app/(frontend)/(pages)/(home)/page.jsx:80:9
+Parsing ecmascript source code failed
+  78 |           ],
+  79 |         }}
+> 80 |         ={[
+     |         ^
+  81 |           {
+  82 |             name: "Fixed-Price Model",
+  83 |             description:
+
+Expected '</', got '='
+[01:54:20.373] Server  LOG     ✓ Compiled in 1045ms
+[01:55:48.702] Server  LOG     ✓ Compiled in 407ms
+[02:02:50.393] Server  LOG     ○ Compiling /platforms/php-website-development ...
+[02:06:06.850] Server  LOG     ✓ Compiled in 727ms
+[02:06:41.053] Server  LOG     ✓ Compiled in 212ms
+[02:06:51.770] Server  ERROR   ⨯ ReferenceError: CommonServices is not defined
+[02:06:51.978] Browser ERROR   uncaughtError: ReferenceError: CommonServices is not defined
+[02:07:03.583] Server  LOG     ✓ Compiled in 616ms
+[02:07:03.598] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:07:05.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:08:24.246] Browser ERROR   ./src/app/(frontend)/(pages)/(home)/page.jsx:27:8
+Ecmascript file had an error
+  25 | import CommonFinancialImpact from "../../component/pages/common/CommonFinancialImpact";
+  26 | import CommonServices from "../../component/pages/common/CommonServices";
+> 27 | import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
+     |        ^^^^^^^^^^^^^^^^^^
+  28 |
+  29 |
+  30 | const page = () => {
+
+the name `DevelopmentProcess` is defined multiple times
+[02:09:25.238] Browser ERROR   ./src/app/(frontend)/(pages)/(home)/page.jsx:27:8
+Ecmascript file had an error
+  25 | import CommonFinancialImpact from "../../component/pages/common/CommonFinancialImpact";
+  26 | import CommonServices from "../../component/pages/common/CommonServices";
+> 27 | import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
+     |        ^^^^^^^^^^^^^^^^^^
+  28 |
+  29 |
+  30 | const page = () => {
+
+the name `DevelopmentProcess` is defined multiple times

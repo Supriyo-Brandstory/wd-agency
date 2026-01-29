@@ -6,6 +6,7 @@ import forwardThinkingIdeation from "@/app/(frontend)/assets/images/Forward-Thin
 import seamlessNavigability from "@/app/(frontend)/assets/images/Seamless-Navigability.png";
 import strategicProblemSolving from "@/app/(frontend)/assets/images/Strategic-Problem.png";
 import holisticExpertise from "@/app/(frontend)/assets/images/Holistic-Expertise.png";
+
 import Image from "next/image";
 
 const strengths = [

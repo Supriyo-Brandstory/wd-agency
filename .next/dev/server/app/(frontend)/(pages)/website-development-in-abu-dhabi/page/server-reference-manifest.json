@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40aef4682e1a50b56dce96c93697dd7caffed37608": {
+      "workers": {
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/website-development-in-abu-dhabi/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

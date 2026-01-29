@@ -114,30 +114,7 @@ const CommonFinancialImpact = ({
         </div>
 
         {/* Pricing Models */}
-        <div className={styles.pricingContainer}>
-          <motion.h4
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className={styles.pricingTitle}
-          >
-            Pricing Models Tailored to Your Needs
-          </motion.h4>
-          <div className={styles.pricingGrid}>
-            {pricingModels.map((model, i) => (
-              <motion.div
-                key={i}
-                className={styles.pricingCard}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: i * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <h5>{model.name}</h5>
-                <p>{model.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
+
       </div>
     </section>
   );
