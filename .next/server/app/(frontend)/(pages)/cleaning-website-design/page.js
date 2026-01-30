@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/cleaning-website-design/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_f9c26566._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__2ca9ecda._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_c440ee77._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fc5ff8c7._.js")
 R.c("server/chunks/ssr/_7c60611c._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

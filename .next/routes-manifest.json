@@ -278,16 +278,100 @@
       "namedRegex": "^/e\\-commerce\\-web\\-development(?:/)?$"
     },
     {
+      "page": "/education-website-design",
+      "regex": "^/education\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/education\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/electrician-website-design",
+      "regex": "^/electrician\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/electrician\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/energy-website-design",
+      "regex": "^/energy\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/energy\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/enterprise-website-design",
+      "regex": "^/enterprise\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/enterprise\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/entertainment-website-design",
+      "regex": "^/entertainment\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/entertainment\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/events-website-design",
+      "regex": "^/events\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/events\\-website\\-design(?:/)?$"
+    },
+    {
       "page": "/expert-dentist-website-development",
       "regex": "^/expert\\-dentist\\-website\\-development(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/expert\\-dentist\\-website\\-development(?:/)?$"
     },
     {
+      "page": "/finance-advisory-website-design",
+      "regex": "^/finance\\-advisory\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/finance\\-advisory\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/finance-website-design",
+      "regex": "^/finance\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/finance\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/fitness-website-design",
+      "regex": "^/fitness\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fitness\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/food-website-design",
+      "regex": "^/food\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/food\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/government-website-design",
+      "regex": "^/government\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/government\\-website\\-design(?:/)?$"
+    },
+    {
       "page": "/healthcare-web-development",
       "regex": "^/healthcare\\-web\\-development(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/healthcare\\-web\\-development(?:/)?$"
+    },
+    {
+      "page": "/hotel-website-design",
+      "regex": "^/hotel\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hotel\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/hvac-website-design",
+      "regex": "^/hvac\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hvac\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/insurance-website-design",
+      "regex": "^/insurance\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/insurance\\-website\\-design(?:/)?$"
     },
     {
       "page": "/platforms/angular-website-development",

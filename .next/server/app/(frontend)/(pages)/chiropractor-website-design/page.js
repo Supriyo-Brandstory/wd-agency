@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/chiropractor-website-design/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_f49d1a06._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__d61426fd._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_c440ee77._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3f0e51f5._.js")
 R.c("server/chunks/ssr/_b5d99fce._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

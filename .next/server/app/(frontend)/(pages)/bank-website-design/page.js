@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/bank-website-design/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_f9c26566._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c42d3daa._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_c440ee77._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c5176d49._.js")
 R.c("server/chunks/ssr/_5154dbd0._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

@@ -1,0 +1,64 @@
+/* [project]/src/app/(frontend)/assets/style/common/locationService.module.css [app-client] (css) */
+.locationService-module__8jLa-W__grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  display: grid;
+}
+
+.locationService-module__8jLa-W__locationService a {
+  text-decoration: none;
+}
+
+.locationService-module__8jLa-W__footerbox {
+  flex-wrap: wrap;
+  gap: 15px;
+  display: flex;
+}
+
+.locationService-module__8jLa-W__footerbox a {
+  border: .5px solid #fff;
+  border-radius: 6px;
+  width: max-content;
+  padding: 6px 15px;
+  font-size: 16px;
+}
+
+.locationService-module__8jLa-W__footerbox a:hover, .locationService-module__8jLa-W__footerbox a.locationService-module__8jLa-W__active {
+  background-color: #e83e8c;
+  border-color: #e83e8c;
+}
+
+.locationService-module__8jLa-W__locationimg {
+  background: #292929;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 483px;
+  padding: 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.locationService-module__8jLa-W__locationimg img {
+  object-fit: contain;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .locationService-module__8jLa-W__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .locationService-module__8jLa-W__footerbox {
+    gap: 10px;
+  }
+
+  .locationService-module__8jLa-W__locationimg {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_locationService_module_css_bad6b30c._.single.css.map*/

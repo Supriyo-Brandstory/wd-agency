@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/healthcare-web-development/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__4ccbde43._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dbf30276._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_90233395._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/_4eaac258._.js")

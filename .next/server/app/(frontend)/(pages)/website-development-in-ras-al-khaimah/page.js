@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_3eb1387b._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ae19d2a4._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_efdbcd9a._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a265eb66._.js")
 R.c("server/chunks/ssr/_76b1668f._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

@@ -158,14 +158,98 @@
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
+        "app/(frontend)/(pages)/education-website-design/page": {
+          "moduleId": 4818,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/electrician-website-design/page": {
+          "moduleId": 49011,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/energy-website-design/page": {
+          "moduleId": 44589,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/entertainment-website-design/page": {
+          "moduleId": 9309,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/events-website-design/page": {
+          "moduleId": 2258,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
         "app/(frontend)/(pages)/expert-dentist-website-development/page": {
           "moduleId": 72780,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": {
+          "moduleId": 95113,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/finance-website-design/page": {
+          "moduleId": 90011,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/fitness-website-design/page": {
+          "moduleId": 21287,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/food-website-design/page": {
+          "moduleId": 58962,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/government-website-design/page": {
+          "moduleId": 44093,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
           "moduleId": 65911,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/hotel-website-design/page": {
+          "moduleId": 36831,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/hvac-website-design/page": {
+          "moduleId": 47606,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/insurance-website-design/page": {
+          "moduleId": 70092,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -420,8 +504,22 @@
         "app/(frontend)/(pages)/cybersecurity-website-design/page": "action-browser",
         "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser",
         "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/education-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/electrician-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/energy-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/entertainment-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/events-website-design/page": "action-browser",
         "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/finance-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/fitness-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/food-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/government-website-design/page": "action-browser",
         "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/hotel-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/hvac-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/insurance-website-design/page": "action-browser",
         "app/(frontend)/(pages)/platforms/angular-website-development/page": "action-browser",
         "app/(frontend)/(pages)/platforms/drupal-website-development/page": "action-browser",
         "app/(frontend)/(pages)/platforms/laravel-website-development/page": "action-browser",
@@ -519,14 +617,98 @@
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
+        "app/(frontend)/(pages)/education-website-design/page": {
+          "moduleId": 4818,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/electrician-website-design/page": {
+          "moduleId": 49011,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/energy-website-design/page": {
+          "moduleId": 44589,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/entertainment-website-design/page": {
+          "moduleId": 9309,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/events-website-design/page": {
+          "moduleId": 2258,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
         "app/(frontend)/(pages)/expert-dentist-website-development/page": {
           "moduleId": 72780,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": {
+          "moduleId": 95113,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/finance-website-design/page": {
+          "moduleId": 90011,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/fitness-website-design/page": {
+          "moduleId": 21287,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/food-website-design/page": {
+          "moduleId": 58962,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/government-website-design/page": {
+          "moduleId": 44093,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
           "moduleId": 65911,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/hotel-website-design/page": {
+          "moduleId": 36831,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/hvac-website-design/page": {
+          "moduleId": 47606,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/insurance-website-design/page": {
+          "moduleId": 70092,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -554,8 +736,22 @@
         "app/(frontend)/(pages)/crypto-website-design/page": "action-browser",
         "app/(frontend)/(pages)/cybersecurity-website-design/page": "action-browser",
         "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/education-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/electrician-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/energy-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/entertainment-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/events-website-design/page": "action-browser",
         "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/finance-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/fitness-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/food-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/government-website-design/page": "action-browser",
         "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/hotel-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/hvac-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/insurance-website-design/page": "action-browser",
         "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
         "app/demo-live/[slug]/page": "rsc"
       },
@@ -618,14 +814,98 @@
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
+        "app/(frontend)/(pages)/education-website-design/page": {
+          "moduleId": 4818,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/electrician-website-design/page": {
+          "moduleId": 49011,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/energy-website-design/page": {
+          "moduleId": 44589,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/entertainment-website-design/page": {
+          "moduleId": 9309,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/events-website-design/page": {
+          "moduleId": 2258,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
         "app/(frontend)/(pages)/expert-dentist-website-development/page": {
           "moduleId": 72780,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": {
+          "moduleId": 95113,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/finance-website-design/page": {
+          "moduleId": 90011,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/fitness-website-design/page": {
+          "moduleId": 21287,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/food-website-design/page": {
+          "moduleId": 58962,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/government-website-design/page": {
+          "moduleId": 44093,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
         "app/(frontend)/(pages)/healthcare-web-development/page": {
           "moduleId": 65911,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/hotel-website-design/page": {
+          "moduleId": 36831,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/hvac-website-design/page": {
+          "moduleId": 47606,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/insurance-website-design/page": {
+          "moduleId": 70092,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -671,8 +951,22 @@
         "app/(frontend)/(pages)/crypto-website-design/page": "action-browser",
         "app/(frontend)/(pages)/cybersecurity-website-design/page": "action-browser",
         "app/(frontend)/(pages)/e-commerce-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/education-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/electrician-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/energy-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/entertainment-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/events-website-design/page": "action-browser",
         "app/(frontend)/(pages)/expert-dentist-website-development/page": "action-browser",
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/finance-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/fitness-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/food-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/government-website-design/page": "action-browser",
         "app/(frontend)/(pages)/healthcare-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/hotel-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/hvac-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/insurance-website-design/page": "action-browser",
         "app/(frontend)/(pages)/real-estate-web-development/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/page": "action-browser",

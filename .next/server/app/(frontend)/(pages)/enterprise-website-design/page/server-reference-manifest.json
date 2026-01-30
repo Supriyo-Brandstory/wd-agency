@@ -1,0 +1,50 @@
+{
+  "node": {
+    "4024e898cf50c14cf4d930092d4c37893839917ac6": {
+      "workers": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "00f6c30bdda56016e8fe0ecb9d0f3347f8e320aec7": {
+      "workers": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser"
+      },
+      "exportedName": "getTemplates",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "00ce1a18a30c8c1e2e9d365c53900fcbb6035a07e5": {
+      "workers": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 28984,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/enterprise-website-design/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,56 @@
+/* [project]/src/app/(frontend)/assets/style/home/WebDesignApproach.module.css [app-client] (css) */
+.WebDesignApproach-module__ScWfaa__boxcontainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 20px;
+  display: flex;
+}
+
+.WebDesignApproach-module__ScWfaa__boxcontainer .WebDesignApproach-module__ScWfaa__box {
+  background: var(--color-gray);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+  flex-direction: column;
+  flex: 0 0 calc(33.33% - 20px);
+  justify-content: end;
+  align-items: center;
+  max-width: calc(33.33% - 20px);
+  height: 192px;
+  padding: 20px 20px 50px;
+  display: flex;
+  position: relative;
+}
+
+.WebDesignApproach-module__ScWfaa__boxcontainer .WebDesignApproach-module__ScWfaa__box img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .WebDesignApproach-module__ScWfaa__boxcontainer {
+    flex-direction: row;
+    gap: 60px 15px;
+  }
+
+  .WebDesignApproach-module__ScWfaa__boxcontainer .WebDesignApproach-module__ScWfaa__box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .WebDesignApproach-module__ScWfaa__boxcontainer .WebDesignApproach-module__ScWfaa__box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .WebDesignApproach-module__ScWfaa__boxcontainer .WebDesignApproach-module__ScWfaa__box {
+    height: 140px;
+    padding: 20px 20px 40px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_home_WebDesignApproach_module_css_bad6b30c._.single.css.map*/
