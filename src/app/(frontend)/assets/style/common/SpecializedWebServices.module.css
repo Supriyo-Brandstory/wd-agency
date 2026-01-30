@@ -132,6 +132,8 @@
 .serviceImage {
     object-fit: cover;
     transition: transform 0.8s ease;
+    width: 100%;
+    height: 100%;
 }
 
 .panel:hover .serviceImage {
@@ -211,7 +213,7 @@
 
     .visualSide {
         padding: 10px;
-        height: 300px;
+        height: auto;
         min-height: auto;
     }
 
@@ -231,15 +233,32 @@
     }
 
     .intro {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+        text-align: left;
     }
 
     .panel {
         border-radius: 20px;
     }
 
+    .imageBox {
+        border-radius: 10px;
+    }
+
+    .serviceImage {
+        height: auto;
+    }
+
 
     .stack {
         gap: 40px;
+    }
+
+    .panel:hover .serviceImage {
+        transform: scale(1);
+    }
+
+    .panel:hover .imageBox {
+        transform: scale(1);
     }
 }

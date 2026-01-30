@@ -39,7 +39,9 @@ const page = () => {
           "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth backed by data. Join 500+ UAE brands that trust us with their digital success."
         }
       />
+
       <SpecializedWebServices />
+      <PremierAgency />
 
       <CommonFinancialImpact
         heading={"Web Design Innovation Driving Growth in Dubai"}
@@ -141,7 +143,6 @@ const page = () => {
       <CommonBlogSlider />
       <AgencyTextContent />
       <FaqSection />
-      <PremierAgency />
 
       <CtaSection />
     </div>

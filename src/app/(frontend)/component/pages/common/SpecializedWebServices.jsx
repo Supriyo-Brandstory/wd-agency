@@ -201,7 +201,6 @@ const SpecializedWebServices = () => {
                     src={service.img}
                     alt={service.title}
                     className={styles.serviceImage}
-                    fill
                   />
                 </div>
               </div>
