@@ -1,0 +1,117 @@
+.section {
+    padding: 80px 0;
+    /* Assuming dark theme primarily */
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.contentWrapper {
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 0;
+}
+
+.recognitionSection {
+    position: relative;
+}
+
+.subTitle {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Embla Carousel Styles */
+.embla {
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.emblaContainer {
+    display: flex;
+    align-items: center;
+}
+
+.emblaSlide {
+    flex: 0 0 auto;
+    min-width: 160px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.emblaSlide:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(232, 62, 140, 0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.awardImage {
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.9);
+    transition: all 0.3s ease;
+    max-width: 120px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+}
+
+.emblaSlide:hover .awardImage {
+    filter: grayscale(0%) brightness(1);
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 20px;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    .description {
+        text-align: left;
+    }
+
+    .subTitle {
+        margin-bottom: 30px;
+        padding: 0 10px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .emblaSlide {
+        min-width: 120px;
+        height: 80px;
+        margin-right: 30px;
+    }
+
+    .awardImage {
+        max-width: 90px;
+        max-height: 50px;
+    }
+}

@@ -27,6 +27,7 @@ import CommonServices from "../../component/pages/common/CommonServices";
 import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
 import SpecializedWebServices from "../../component/pages/common/SpecializedWebServices";
 import AgencyTextContent from "../../component/pages/common/AgencyTextContent";
+import PremierAgency from "../../component/pages/common/PremierAgency";
 
 const page = () => {
   return (
@@ -140,6 +141,8 @@ const page = () => {
       <CommonBlogSlider />
       <AgencyTextContent />
       <FaqSection />
+      <PremierAgency />
+
       <CtaSection />
     </div>
   );

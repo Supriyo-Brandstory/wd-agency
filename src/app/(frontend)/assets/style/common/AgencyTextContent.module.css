@@ -133,14 +133,15 @@
     }
 
     .mainTitle {
-        font-size: 36px;
+        text-align: left;
+        margin-bottom: 0px;
     }
 
     .textContent h2 {
-        font-size: 26px;
+        text-align: left;
     }
 
     .textContent {
-        font-size: 16px;
+        text-align: left;
     }
 }
