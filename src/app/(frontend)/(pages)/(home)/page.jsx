@@ -26,6 +26,7 @@ import CommonFinancialImpact from "../../component/pages/common/CommonFinancialI
 import CommonServices from "../../component/pages/common/CommonServices";
 import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
 import SpecializedWebServices from "../../component/pages/common/SpecializedWebServices";
+import AgencyTextContent from "../../component/pages/common/AgencyTextContent";
 
 const page = () => {
   return (
@@ -137,6 +138,7 @@ const page = () => {
       <LocationService activeLocation="dubai" />
 
       <CommonBlogSlider />
+      <AgencyTextContent />
       <FaqSection />
       <CtaSection />
     </div>

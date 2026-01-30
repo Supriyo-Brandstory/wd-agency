@@ -1,0 +1,146 @@
+.section {
+    padding: 50px 0;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.mainTitle {
+
+    margin-bottom: 20px;
+}
+
+.subTitle {
+    color: #E83E8C;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+
+.textContent h2 {
+    margin: 50px 0 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 15px;
+}
+
+.textContent h3 {
+    margin: 35px 0 16px;
+}
+
+.textContent h4 {
+    margin: 25px 0 12px;
+}
+
+.textContent p {
+    margin-bottom: 24px;
+}
+
+.textContent ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.textContent li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+}
+
+.textContent li::before {
+    content: "•";
+    color: #E83E8C;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+/* Gradient fade for the collapsed state */
+.fadeOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.toggleButton {
+    background: transparent;
+    border: 1px solid rgba(232, 62, 140, 0.5);
+    color: #fff;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 3;
+}
+
+.toggleButton:hover {
+    background: rgba(232, 62, 140, 0.1);
+    border-color: #E83E8C;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(232, 62, 140, 0.15);
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.toggleButton:hover .icon {
+    transform: translateY(3px);
+}
+
+.toggleButton.expanded:hover .icon {
+    transform: translateY(-3px) rotate(180deg);
+}
+
+.expanded .icon {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .mainTitle {
+        font-size: 36px;
+    }
+
+    .textContent h2 {
+        font-size: 26px;
+    }
+
+    .textContent {
+        font-size: 16px;
+    }
+}

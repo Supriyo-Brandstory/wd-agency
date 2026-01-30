@@ -5,12 +5,12 @@ import Image from "next/image";
 import styles from "@/app/(frontend)/assets/style/common/SpecializedWebServices.module.css";
 
 // Import images
-import ecommerceImg from "@/app/(frontend)/assets/images/e-commerce-web-development/Ecommerce-Website-Development.webp";
-import corporateImg from "@/app/(frontend)/assets/images/corporate-website/corporate-website.webp";
-import mobileImg from "@/app/(frontend)/assets/images/e-commerce-web-development/Mobile-Commerce-Development.webp";
-import onepageImg from "@/app/(frontend)/assets/images/industries/4.webp";
-import redesignImg from "@/app/(frontend)/assets/images/industries/6.webp";
-import bespokeImg from "@/app/(frontend)/assets/images/e-commerce-web-development/Custom-Ecommerce-Website-Design.webp";
+import ecommerceImg from "@/app/(frontend)/assets/images/specializedservices/2.webp";
+import corporateImg from "@/app/(frontend)/assets/images/specializedservices/3.webp";
+import mobileImg from "@/app/(frontend)/assets/images/specializedservices/4.webp";
+import onepageImg from "@/app/(frontend)/assets/images/specializedservices/5.webp";
+import redesignImg from "@/app/(frontend)/assets/images/specializedservices/6.webp";
+import bespokeImg from "@/app/(frontend)/assets/images/specializedservices/7.webp";
 
 const services = [
   {
