@@ -1,0 +1,68 @@
+/* [project]/src/app/(frontend)/assets/style/contact/contactInformation.module.css [app-client] (css) */
+.contactInformation-module__n6Cr9q__contactInformation {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.contactInformation-module__n6Cr9q__contactInformationBox {
+  color: #0a0b0f;
+  background: #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 40px;
+  width: 49%;
+  min-height: 256px;
+  padding: 30px;
+  display: flex;
+}
+
+.contactInformation-module__n6Cr9q__contactInformationBox h4 span {
+  color: #0a0b0f8c;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .contactInformation-module__n6Cr9q__contactInformation {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox {
+    gap: 25px;
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox h4 {
+    font-size: 16px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox h4 span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactInformation-module__n6Cr9q__contactInformation {
+    gap: 15px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox {
+    border-radius: 12px;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox h4 {
+    font-size: 14px;
+  }
+
+  .contactInformation-module__n6Cr9q__contactInformationBox h4 span {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_contact_contactInformation_module_css_bad6b30c._.single.css.map*/

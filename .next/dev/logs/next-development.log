@@ -1,9 +1,22 @@
-[00:00:00.982] Server  LOG     ✓ Ready in 761ms
-[00:00:06.766] Server  LOG     ○ Compiling / ...
-[00:00:08.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/clutch.0c051f64.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/manifest.4fd103ce.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/drum.5896b2c6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/topinteractive.a0216e06.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/trustpilot.24754200.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.016] Browser WARN    Image with src "/_next/static/media/nominet.5388deed.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:00.971] Server  LOG     ✓ Ready in 745ms
+[00:00:07.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/clutch.0c051f64.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/manifest.4fd103ce.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/nominet.5388deed.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/drum.5896b2c6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/trustpilot.24754200.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.060] Browser WARN    Image with src "/_next/static/media/topinteractive.a0216e06.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:22.742] Browser LOG     Looking for tab: service
+[00:00:22.742] Browser LOG     Available categories: ["all","real-estatex"]
+[00:00:22.742] Browser LOG     Matched category: undefined
+[00:00:22.742] Browser LOG     Looking for tab: service
+[00:00:22.742] Browser LOG     Available categories: ["all","real-estatex"]
+[00:00:22.742] Browser LOG     Matched category: undefined
+[00:55:17.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/clutch.0c051f64.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/topinteractive.a0216e06.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/manifest.4fd103ce.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/trustpilot.24754200.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/drum.5896b2c6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:55:17.979] Browser WARN    Image with src "/_next/static/media/nominet.5388deed.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:56:00.658] Server  LOG     ✓ Compiled in 117ms
