@@ -533,7 +533,7 @@ __turbopack_context__.v({
 }),
 "[project]/src/app/(frontend)/assets/images/icons/mailbox.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/mailbox.c1fdd816.svg");}),
+__turbopack_context__.v("/_next/static/media/mailbox.267414e3.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/mailbox.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/mailbox.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -556,7 +556,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/location.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/location.ce03b976.svg");}),
+__turbopack_context__.v("/_next/static/media/location.01393a7e.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/location.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/location.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -579,7 +579,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/call.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/call.cc3efdc1.svg");}),
+__turbopack_context__.v("/_next/static/media/call.4d59773e.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/call.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/call.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
