@@ -90,9 +90,14 @@
 
 @media (max-width: 480px) {
   .industryGrid-module__oiHqDG__grid {
-    grid-template-columns: 1fr;
     gap: 25px;
   }
+}
+
+.industryGrid-module__oiHqDG__viewMoreContainer {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
 }
 
 /*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_industryGrid_module_css_bad6b30c._.single.css.map*/

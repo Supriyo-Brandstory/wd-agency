@@ -2042,6 +2042,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/therapist-website-design": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/therapist-website-design",
+      "dataRoute": "/therapist-website-design.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/travel-web-development": {
       "experimentalBypassFor": [
         {
@@ -2057,6 +2081,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/travel-web-development",
       "dataRoute": "/travel-web-development.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wealth-management-website-design": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wealth-management-website-design",
+      "dataRoute": "/wealth-management-website-design.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2249,6 +2297,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/website-templates",
       "dataRoute": "/website-templates.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/yachting-website-design": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/yachting-website-design",
+      "dataRoute": "/yachting-website-design.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

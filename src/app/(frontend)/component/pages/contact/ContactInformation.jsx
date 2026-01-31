@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from "@/app/(frontend)/assets/style/contact/contactInformation.module.css";
 import Image from "next/image";
 import pinkmailbox from "@/app/(frontend)/assets/images/icons/mailbox-2.svg";
+import ContactMap from "./ContactMap";
 
 const ContactInformation = () => {
   const containerVariants = {
@@ -72,6 +73,7 @@ const ContactInformation = () => {
           </div>
         </div>
       </div>
+      <ContactMap />
     </motion.div>
   );
 };

@@ -7351,6 +7351,7 @@ __turbopack_context__.v({
   "linkWrapper": "industryGrid-module__oiHqDG__linkWrapper",
   "section": "industryGrid-module__oiHqDG__section",
   "title": "industryGrid-module__oiHqDG__title",
+  "viewMoreContainer": "industryGrid-module__oiHqDG__viewMoreContainer",
 });
 }),
 "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -7365,8 +7366,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/app/(frontend)/assets/style/common/industryGrid.module.css [app-client] (css module)");
-"use client";
 ;
+var _s = __turbopack_context__.k.signature();
+"use client";
 ;
 ;
 ;
@@ -9312,6 +9314,105 @@ const industries = [
             lineNumber: 775,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        name: "Therapist Websites",
+        link: "/therapist-website-design",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].icon,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            }, void 0, false, {
+                fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                lineNumber: 795,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+            lineNumber: 789,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        name: "Wealth Management Websites",
+        link: "/wealth-management-website-design",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].icon,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M12 22v-7l-2-2m4 0l-2 2M7 10l5-5 5 5M7 14l5-5 5 5"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 809,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "2",
+                    y: "18",
+                    width: "20",
+                    height: "4",
+                    rx: "2"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 810,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+            lineNumber: 803,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        name: "Yachting Websites",
+        link: "/yachting-website-design",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].icon,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M22 10l-10-8-10 8c1.33 1.33 2.67 2.67 4 4h12l4-4z"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 824,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M2 10h20v4H2z"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 825,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M12 14v7"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 826,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M7 21h10"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 827,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+            lineNumber: 818,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
     }
 ];
 const containerVariants = {
@@ -9321,7 +9422,7 @@ const containerVariants = {
     visible: {
         opacity: 1,
         transition: {
-            staggerChildren: 0.1
+            staggerChildren: 0.03
         }
     }
 };
@@ -9339,6 +9440,10 @@ const itemVariants = {
     }
 };
 const IndustryGrid = ()=>{
+    _s();
+    const [showAll, setShowAll] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const initialDisplayCount = 12;
+    const displayedIndustries = showAll ? industries : industries.slice(0, initialDisplayCount);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].section,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9366,7 +9471,7 @@ const IndustryGrid = ()=>{
                             children: "Industries We Work With"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                            lineNumber: 813,
+                            lineNumber: 866,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -9389,13 +9494,13 @@ const IndustryGrid = ()=>{
                             children: "We extend our Website Development expertise across a diverse range of industries, tailoring strategies to meet the unique demands and opportunities each sector presents."
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                            lineNumber: 822,
+                            lineNumber: 875,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                    lineNumber: 812,
+                    lineNumber: 865,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -9406,7 +9511,7 @@ const IndustryGrid = ()=>{
                     viewport: {
                         once: true
                     },
-                    children: industries.map((industry, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    children: displayedIndustries.map((industry, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].item,
                             variants: itemVariants,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -9418,7 +9523,7 @@ const IndustryGrid = ()=>{
                                         children: industry.icon
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                                        lineNumber: 849,
+                                        lineNumber: 903,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -9426,37 +9531,54 @@ const IndustryGrid = ()=>{
                                         children: industry.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                                        lineNumber: 850,
+                                        lineNumber: 904,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                                lineNumber: 848,
+                                lineNumber: 902,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
-                        }, index, false, {
+                        }, industry.link, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                            lineNumber: 843,
+                            lineNumber: 897,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
+                }, showAll, false, {
+                    fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                    lineNumber: 888,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                !showAll && industries.length > initialDisplayCount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$common$2f$industryGrid$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].viewMoreContainer,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "blue-btn",
+                        onClick: ()=>setShowAll(true),
+                        children: "View More Industries"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
+                        lineNumber: 912,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-                    lineNumber: 835,
-                    columnNumber: 9
+                    lineNumber: 911,
+                    columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-            lineNumber: 811,
+            lineNumber: 864,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/app/(frontend)/component/pages/common/IndustryGrid.jsx",
-        lineNumber: 810,
+        lineNumber: 863,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(IndustryGrid, "XC0nqMp5RnZIWkiCcJL//MdTvak=");
 _c = IndustryGrid;
 const __TURBOPACK__default__export__ = IndustryGrid;
 var _c;

@@ -638,10 +638,22 @@
       "namedRegex": "^/terms\\-and\\-conditions(?:/)?$"
     },
     {
+      "page": "/therapist-website-design",
+      "regex": "^/therapist\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/therapist\\-website\\-design(?:/)?$"
+    },
+    {
       "page": "/travel-web-development",
       "regex": "^/travel\\-web\\-development(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/travel\\-web\\-development(?:/)?$"
+    },
+    {
+      "page": "/wealth-management-website-design",
+      "regex": "^/wealth\\-management\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wealth\\-management\\-website\\-design(?:/)?$"
     },
     {
       "page": "/website-development-in-abu-dhabi",
@@ -690,6 +702,12 @@
       "regex": "^/website\\-templates(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/website\\-templates(?:/)?$"
+    },
+    {
+      "page": "/yachting-website-design",
+      "regex": "^/yachting\\-website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/yachting\\-website\\-design(?:/)?$"
     }
   ],
   "dataRoutes": [],

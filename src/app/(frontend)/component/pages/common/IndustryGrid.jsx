@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import styles from "@/app/(frontend)/assets/style/common/industryGrid.module.css";
@@ -782,6 +782,52 @@ const industries = [
       </svg>
     ),
   },
+  {
+    name: "Therapist Websites",
+    link: "/therapist-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+      </svg>
+    ),
+  },
+  {
+    name: "Wealth Management Websites",
+    link: "/wealth-management-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M12 22v-7l-2-2m4 0l-2 2M7 10l5-5 5 5M7 14l5-5 5 5" />
+        <rect x="2" y="18" width="20" height="4" rx="2" />
+      </svg>
+    ),
+  },
+  {
+    name: "Yachting Websites",
+    link: "/yachting-website-design",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={styles.icon}
+      >
+        <path d="M22 10l-10-8-10 8c1.33 1.33 2.67 2.67 4 4h12l4-4z" />
+        <path d="M2 10h20v4H2z" />
+        <path d="M12 14v7" />
+        <path d="M7 21h10" />
+      </svg>
+    ),
+  },
 ];
 
 const containerVariants = {
@@ -789,7 +835,7 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.03,
     },
   },
 };
@@ -806,6 +852,13 @@ const itemVariants = {
 };
 
 const IndustryGrid = () => {
+  const [showAll, setShowAll] = useState(false);
+  const initialDisplayCount = 12;
+
+  const displayedIndustries = showAll
+    ? industries
+    : industries.slice(0, initialDisplayCount);
+
   return (
     <section className={styles.section}>
       <div className={styles.container}>
@@ -833,15 +886,16 @@ const IndustryGrid = () => {
         </div>
 
         <motion.div
+          key={showAll}
           className={styles.grid}
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {industries.map((industry, index) => (
+          {displayedIndustries.map((industry, index) => (
             <motion.div
-              key={index}
+              key={industry.link}
               className={styles.item}
               variants={itemVariants}
             >
@@ -852,6 +906,14 @@ const IndustryGrid = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        {!showAll && industries.length > initialDisplayCount && (
+          <div className={styles.viewMoreContainer}>
+            <button className="blue-btn" onClick={() => setShowAll(true)}>
+              View More Industries
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

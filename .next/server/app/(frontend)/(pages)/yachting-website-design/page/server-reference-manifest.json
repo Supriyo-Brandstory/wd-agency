@@ -1,0 +1,50 @@
+{
+  "node": {
+    "40b54153d6b20da82aa92eada9dc77e33bc28abc57": {
+      "workers": {
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "00170be8133126fec2e8f813dbdadd31b16f8dacdb": {
+      "workers": {
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser"
+      },
+      "exportedName": "getTemplates",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "005d96c562f88017b247bd42a01e38bf8f591be352": {
+      "workers": {
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

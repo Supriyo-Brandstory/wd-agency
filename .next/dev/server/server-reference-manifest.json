@@ -13,18 +13,11 @@
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/small-business-website-design/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/small-business-website-design/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getSeoDataByPageUrl",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "action-browser",
-        "app/(frontend)/(pages)/contact-us/page": "action-browser",
-        "app/(frontend)/(pages)/small-business-website-design/page": "action-browser"
+        "app/(frontend)/(pages)/contact-us/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
@@ -36,17 +29,10 @@
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
-        },
-        "app/(frontend)/(pages)/small-business-website-design/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/small-business-website-design/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getTemplates",
-          "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/(home)/page": "action-browser",
-        "app/(frontend)/(pages)/small-business-website-design/page": "action-browser"
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplates"
@@ -58,17 +44,10 @@
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
-        },
-        "app/(frontend)/(pages)/small-business-website-design/page": {
-          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/small-business-website-design/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/dashboard/template/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/admin/dashboard/template-category/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getTemplateCategories",
-          "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/(home)/page": "action-browser",
-        "app/(frontend)/(pages)/small-business-website-design/page": "action-browser"
+        "app/(frontend)/(pages)/(home)/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "getTemplateCategories"

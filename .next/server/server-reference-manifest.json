@@ -512,8 +512,20 @@
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         },
+        "app/(frontend)/(pages)/therapist-website-design/page": {
+          "moduleId": 20247,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
         "app/(frontend)/(pages)/travel-web-development/page": {
           "moduleId": 77876,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/wealth-management-website-design/page": {
+          "moduleId": 33704,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -568,6 +580,12 @@
         },
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 44844,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -659,7 +677,9 @@
         "app/(frontend)/(pages)/technology-web-development/page": "action-browser",
         "app/(frontend)/(pages)/telecom-website-design/page": "action-browser",
         "app/(frontend)/(pages)/terms-and-conditions/page": "action-browser",
+        "app/(frontend)/(pages)/therapist-website-design/page": "action-browser",
         "app/(frontend)/(pages)/travel-web-development/page": "action-browser",
+        "app/(frontend)/(pages)/wealth-management-website-design/page": "action-browser",
         "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": "action-browser",
         "app/(frontend)/(pages)/website-development-in-ajman/page": "action-browser",
         "app/(frontend)/(pages)/website-development-in-al-ain/page": "action-browser",
@@ -668,7 +688,8 @@
         "app/(frontend)/(pages)/website-development-in-sharjah/page": "action-browser",
         "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
-        "app/(frontend)/(pages)/website-templates/page": "action-browser"
+        "app/(frontend)/(pages)/website-templates/page": "action-browser",
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
@@ -927,6 +948,24 @@
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
         },
+        "app/(frontend)/(pages)/therapist-website-design/page": {
+          "moduleId": 20247,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/wealth-management-website-design/page": {
+          "moduleId": 33704,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
+          "async": false,
+          "exportedName": "getTemplates",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        },
         "app/demo-live/[slug]/page": {
           "moduleId": 36941,
           "async": false,
@@ -977,6 +1016,9 @@
         "app/(frontend)/(pages)/small-business-website-design/page": "action-browser",
         "app/(frontend)/(pages)/sports-website-design/page": "action-browser",
         "app/(frontend)/(pages)/telecom-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/therapist-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/wealth-management-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser",
         "app/demo-live/[slug]/page": "rsc"
       },
       "filename": "src/app/admin/dashboard/template/actions.js",
@@ -1236,6 +1278,18 @@
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         },
+        "app/(frontend)/(pages)/therapist-website-design/page": {
+          "moduleId": 20247,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/wealth-management-website-design/page": {
+          "moduleId": 33704,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
         "app/(frontend)/(pages)/website-templates/[slug]/page": {
           "moduleId": 11423,
           "async": false,
@@ -1244,6 +1298,12 @@
         },
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 44844,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        },
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 97629,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -1304,8 +1364,11 @@
         "app/(frontend)/(pages)/small-business-website-design/page": "action-browser",
         "app/(frontend)/(pages)/sports-website-design/page": "action-browser",
         "app/(frontend)/(pages)/telecom-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/therapist-website-design/page": "action-browser",
+        "app/(frontend)/(pages)/wealth-management-website-design/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser",
         "app/(frontend)/(pages)/website-templates/page": "action-browser",
+        "app/(frontend)/(pages)/yachting-website-design/page": "action-browser",
         "app/admin/dashboard/template-category/page": "action-browser",
         "app/admin/dashboard/template/page": "action-browser"
       },

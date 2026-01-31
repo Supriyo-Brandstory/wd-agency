@@ -26,6 +26,36 @@ const Footer = () => {
                 innovative and custom web design solutions for startups, SMEs,
                 and Large-scale enterprises.
               </p>
+              <div className={styles.socialLinks}>
+                <Link
+                  href="https://www.facebook.com/websitedevelopmentagency/"
+                  target="_blank"
+                  className={styles.socialIcon}
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M18.77,7.46H14.5v-1.9c0-.9.6-1.1,1-1.1h3V.35L14.17.35A5.15,5.15,0,0,0,8.71,5.64V7.46H5.83v4.29H8.71V23.65h5.79V11.75h3.92Z" />
+                  </svg>
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/website-development-agency-uae/"
+                  target="_blank"
+                  className={styles.socialIcon}
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M22.23,0H1.77C.8,0,0,.77,0,1.72V22.28C0,23.23.8,24,1.77,24H22.23c.97,0,1.77-.77,1.77-1.72V1.72C24,.77,23.2,0,22.23,0ZM7.12,20.45H3.56V9h3.56ZM5.34,7.43a2.06,2.06,0,1,1,2.06-2.06A2.06,2.06,0,0,1,5.34,7.43ZM20.45,20.45H16.89V14.89c0-1.33-.03-3.03-1.85-3.03s-2.13,1.44-2.13,2.94v5.65H9.35V9h3.41v1.56h.05a3.75,3.75,0,0,1,3.37-1.85c3.6,0,4.27,2.37,4.27,5.45v6.29Z" />
+                  </svg>
+                </Link>
+              </div>
             </div>
             <div>
               <h4>INDUSTRIES</h4>

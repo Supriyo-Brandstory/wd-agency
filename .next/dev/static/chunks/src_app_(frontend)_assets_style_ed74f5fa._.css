@@ -1927,9 +1927,14 @@
 
 @media (max-width: 480px) {
   .industryGrid-module__oiHqDG__grid {
-    grid-template-columns: 1fr;
     gap: 25px;
   }
+}
+
+.industryGrid-module__oiHqDG__viewMoreContainer {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
 }
 
 /* [project]/src/app/(frontend)/assets/style/common/commonFinancialImpact.module.css [app-client] (css) */
