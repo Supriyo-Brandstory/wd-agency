@@ -13,7 +13,6 @@ import imageService3 from "@/app/(frontend)/assets/images/cleaning-website-desig
 import imageService4 from "@/app/(frontend)/assets/images/cleaning-website-design/service-4.webp";
 import imageService5 from "@/app/(frontend)/assets/images/cleaning-website-design/service-5.webp";
 import imageService6 from "@/app/(frontend)/assets/images/cleaning-website-design/service-6.webp";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cleaning-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -21,7 +20,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import LocationService from "../../component/pages/common/LocationService";
@@ -36,7 +34,7 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         alt={"Cleaning Company Web Design Agency in Dubai, UAE"}
-        heding={"Cleaning Company Web Design Agency in Dubai, UAE"}
+        heding={"Cleaning Company Web Design in Dubai, UAE"}
         subtitle={
           "We build high-converting websites for cleaning service providers that showcase professionalism, <br>streamline bookings, and attract more domestic and commercial clients in Dubai."
         }
@@ -47,7 +45,7 @@ const page = () => {
         text1={` <p>In Dubai's fast-paced metropolitan lifestyle, demand for reliable cleaning services is higher than ever. Whether your firm specializes in residential maid services, commercial office cleaning, or industrial sanitation, a professional website is your most powerful marketing tool. It serves as a 24/7 storefront that validates your credibility and makes it easy for busy clients to hire you.</p>
                  <p>Modern clients in the UAE look for cleaning companies that offer transparent pricing, easy online booking, and visible proof of quality. A well-designed website helps you transition from a simple service provider to a trusted brand, allowing you to stand out in a crowded marketplace and capture high-value contracts.</p>
                     `}
-        text2={`  <p>A successful cleaning website goes beyond basic information delivery—it incorporates interactive quote calculators, real-time scheduling tools, and customer review sections that build immediate trust. We focus on creating digital platforms that simplify the customer journey from the first click to a recurring booking.</p>
+        text2={`  <p>A successful cleaning website goes beyond basic information delivery it incorporates interactive quote calculators, real-time scheduling tools, and customer review sections that build immediate trust. We focus on creating digital platforms that simplify the customer journey from the first click to a recurring booking.</p>
                 <p><a href='/'>Website Development Agency</a> specializes in engineering high-performing websites for cleaning and facility management companies across Dubai. we design responsive, search-optimized platforms that highlight your service quality and drive consistent business growth.</p>
                     `}
         imageintro1={imageintro1}
@@ -67,7 +65,7 @@ const page = () => {
       />
 
       <CommonIndustries
-        heding={"Cleaning Company Website Design in Dubai, UAE- Our Services"}
+        heding={"Cleaning Company Website Design- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help your cleaning business grow in the UAE."
         services={[
           {
@@ -88,7 +86,7 @@ const page = () => {
           },
           {
             title: "Service Package Showcases",
-            desc: "Detail your various cleaning packages—from move-in/move-out cleans to specialized office sanitation. We design clear, comparison-style layouts that help potential clients understand the value of each tier, encouraging upselling and recurring booking commitments.",
+            desc: "Detail your various cleaning packages from move-in/move-out cleans to specialized office sanitation. We design clear, comparison-style layouts that help potential clients understand the value of each tier, encouraging upselling and recurring booking commitments.",
             img: imageService3,
             alt: "Cleaning Service Package Design",
             btnname: "Contact Us",

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/bank-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__12bae2a3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e3ee6108._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_008b6b71._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_7381059c._.js")
 R.c("server/chunks/ssr/[externals]__7f148858._.js")

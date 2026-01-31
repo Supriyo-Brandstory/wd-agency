@@ -130,7 +130,7 @@ const Footer = () => {
                 283 1655
               </Link>
               <Link
-                href="https://share.google/AWkLxmvfaNUMoxK24"
+                href="https://share.google/dnB14TmR7NNFDg6DQ"
                 className="flex gap-x-10 items-start"
               >
                 <Image src={location} alt="location" width={30} height={30} />{" "}

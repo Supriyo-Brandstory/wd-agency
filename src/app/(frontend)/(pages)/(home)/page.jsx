@@ -137,11 +137,12 @@ const page = () => {
       <DemoTemplate activetaburl={""} />
 
       <WebDesignApproach />
-      <OurJourney />
+      <AgencyTextContent />
+      
       <LocationService activeLocation="dubai" />
 
       <CommonBlogSlider />
-      <AgencyTextContent />
+      
       <FaqSection />
 
       <CtaSection />

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/crypto-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__41ec19d7._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ddf8d22b._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_c3c1b9fc._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_7381059c._.js")
 R.c("server/chunks/ssr/[externals]__7f148858._.js")

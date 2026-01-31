@@ -13,7 +13,6 @@ import imageService3 from "@/app/(frontend)/assets/images/bank-website-design/se
 import imageService4 from "@/app/(frontend)/assets/images/bank-website-design/service-4.webp";
 import imageService5 from "@/app/(frontend)/assets/images/bank-website-design/service-5.webp";
 import imageService6 from "@/app/(frontend)/assets/images/bank-website-design/service-6.webp";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/bank-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -21,7 +20,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import LocationService from "../../component/pages/common/LocationService";
@@ -35,17 +33,17 @@ const page = () => {
     <>
       <CommonBanner2
         bg={imagebanner}
-        alt={"Bank & Finance Web Design Agency in Dubai, UAE"}
-        heding={"Bank & Finance Web Design Agency in Dubai, UAE"}
+        alt={"Bank Web Design Agency in Dubai, UAE"}
+        heding={"Bank Web Design Agency in Dubai, UAE"}
         subtitle={
           "We build secure, scalable, and user-centric banking and financial websites that drive trust, <br>enhance digital engagement, and streamline financial services in the UAE."
         }
       />
 
       <CommonIntroduction
-        heding={"Banking & Finance Website Design & Development"}
+        heding={"Banking & Finance Website Design Services"}
         text1={` <p>In Dubai’s position as a global financial hub, banks and financial institutions require a digital presence that embodies security, innovation, and client trust. A professional, high-performance website is essential for delivering modern financial services and maintaining a competitive edge in the digital banking era.</p>
-                 <p>Today’s customers demand seamless online experiences—from instant account access to complex financial modeling tools. With the rise of fintech and digital transformation across the Middle East, having a robust, secure, and intuitive website is no longer optional; it’s a core operational requirement.</p>
+                 <p>Today’s customers demand seamless online experiences from instant account access to complex financial modeling tools. With the rise of fintech and digital transformation across the Middle East, having a robust, secure, and intuitive website is no longer optional; it’s a core operational requirement.</p>
                     `}
         text2={`  <p>A modern banking website goes beyond simple information delivery, incorporating advanced security protocols, real-time data integration, and user-friendly customer portals. We focus on creating digital environments that empower users while maintaining the highest levels of institutional credibility and regulatory compliance.</p>
                 <p><a href='/'>Website Development Agency</a> specializes in engineering high-impact financial websites tailored for Dubai’s banking sector. We design secure, performance-optimized platforms that highlight your institution’s prestige and bolster customer loyalty in a competitive digital landscape.</p>
@@ -67,7 +65,7 @@ const page = () => {
       />
 
       <CommonIndustries
-        heding={"Banking & Finance Website Design in Dubai, UAE- Our Services"}
+        heding={"Banking & Finance Web Design- Our Services"}
         subheding="We offer a comprehensive suite of digital solutions designed to help financial institutions grow and succeed."
         services={[
           {
@@ -104,7 +102,7 @@ const page = () => {
           },
           {
             title: "Corporate & Wealth Management Layouts",
-            desc: "Tailored designs for different banking segments—from retail and SME banking to private wealth management. We create distinct digital environments that speak to the unique needs and expectations of various client personas within the UAE's diverse market.",
+            desc: "Tailored designs for different banking segments from retail and SME banking to private wealth management. We create distinct digital environments that speak to the unique needs and expectations of various client personas within the UAE's diverse market.",
             img: imageService5,
             alt: "Corporate Banking Web Design",
             btnname: "Contact Us",
@@ -130,7 +128,7 @@ const page = () => {
         subheding={
           "We design financial websites with a clear understanding of the regulatory landscape and institutional requirements in the UAE. From service clarity to global trust, every element is engineered for security and prestige."
         }
-        lefttext={`  <p><b>Institutional Credibility:</b> Each website is customized to support your institution's goals—whether that's increasing digital account openings, promoting investment products, or building long-term corporate trust. Layouts and content flow are designed to reflect financial authority.</p>
+        lefttext={`  <p><b>Institutional Credibility:</b> Each website is customized to support your institution's goals whether that's increasing digital account openings, promoting investment products, or building long-term corporate trust. Layouts and content flow are designed to reflect financial authority.</p>
                         <p><b>Secure & Reliable Development:</b> We follow a rigorous development process that prioritizes data integrity and technical excellence. From architecture planning to final security testing, we ensure that your financial platform is stable and future-ready.</p>
                         `}
         righttext={`<p><b>Compliance & Ongoing Support:</b> We build websites with strong foundations that respect local and international financial regulations. Post-launch, our team provides reliable support, ensuring your banking platform remains secure, fast, and compliant as your business grows.</p>
@@ -149,7 +147,7 @@ const page = () => {
       <CommonWhyWebsiteDevelopment
         heding={"Financial Website Solutions for Every Type of Institution"}
         subheding={
-          "We design financial websites that adapt to the unique focus of each institution across the UAE. Every website is planned around user behavior, security requirements, and institutional objectives—ensuring trust and digital performance."
+          "We design financial websites that adapt to the unique focus of each institution across the UAE. Every website is planned around user behavior, security requirements, and institutional objectives ensuring trust and digital performance."
         }
         lefttext={`<p><b>Retail Banks:</b> For consumer-focused banks, we create high-traffic platforms that emphasize ease of use, product discovery, and mobile accessibility. Clear navigation and fast loading times help personal banking customers manage their finances on the go.</p>
                                 <p><b>Investment & Private Banking:</b> Websites for wealth management firms focus on prestige, expert insights, and exclusive service showcases. Refined aesthetics and secure portals provide the premium experience expected by high-net-worth clients. </p>

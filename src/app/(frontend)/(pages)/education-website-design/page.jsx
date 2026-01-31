@@ -13,7 +13,6 @@ import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-
 import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
 import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
 import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -21,7 +20,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import LocationService from "../../component/pages/common/LocationService";
@@ -67,7 +65,7 @@ const page = () => {
       />
 
       <CommonIndustries
-        heding={"Education Website Design in Dubai, UAE- Our Services"}
+        heding={"Education Website Design- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help Education firms build trust and grow in the UAE."
         services={[
           {
@@ -130,7 +128,7 @@ const page = () => {
         subheding={
           "We design security websites with a deep understanding of B2B trust acquisition. From service clarity to technical prestige, every element is engineered for maximum professional impact."
         }
-        lefttext={`  <p><b>Tailored for Professional Trust:</b> Each website is customized to support your firm's goals—whether that's securing large-scale government contracts, promoting specialized consulting services, or building international brand authority. Layouts focus on clarity and credibility.</p>
+        lefttext={`  <p><b>Tailored for Professional Trust:</b> Each website is customized to support your firm's goals- whether that's securing large-scale government contracts, promoting specialized consulting services, or building international brand authority. Layouts focus on clarity and credibility.</p>
                         <p><b>Secure & Precision Development:</b> we follow a rigorous development process that respects the high standards of your industry. From initial security-first architecture to final penetration testing, we ensure your digital platform is stable, fast, and secure.</p>
                         `}
         righttext={`<p><b>Ongoing Support & Technical SEO:</b> A professional website is a long-term asset. Post-launch, we provide reliable support and continuous SEO updates, ensuring your Education firm remains visible and effective as the threat landscape evolves.</p>

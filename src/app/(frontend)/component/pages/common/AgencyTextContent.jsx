@@ -45,7 +45,7 @@ const AgencyTextContent = () => {
               traditional boundaries of aesthetics. We operate where art
               intersects with engineering, and where creativity meets conversion
               data. Our mission is to build the digital heartbeat of your
-              brand—a living, breathing platform that not only looks stunning
+              brand- a living, breathing platform that not only looks stunning
               but also functions as a relentless engine for business growth.
             </p>
           </motion.div>
@@ -100,8 +100,7 @@ const AgencyTextContent = () => {
                   is backed by an understanding of user psychology. We map out
                   customer journeys to ensure that the path from "landing" to
                   "conversion" is intuitive and friction-free. We anticipate
-                  what your user needs before they even click, creating a
-                  seamless flow that guides them toward the Call to Action (CTA)
+                  what your user needs before they even click, creating a <a href="https://websitedevelopmentagency.ae/blog/how-website-design-directly-impacts-your-conversion-rates">seamless flow</a> that guides them toward the Call to Action (CTA)
                   naturally.
                 </p>
 
@@ -163,7 +162,7 @@ const AgencyTextContent = () => {
 
                 <h3>SEO-Integrated Development</h3>
                 <p>
-                  Most agencies treat SEO (Search Engine Optimization) as an
+                  Most agencies treat <a href="https://websitedevelopmentagency.ae/blog/seo-friendly-web-development-building-websites-that-rank">SEO (Search Engine Optimization)</a> as an
                   afterthought. At WD Agency, it is part of the blueprint. We
                   build websites that Google loves.
                 </p>
@@ -191,7 +190,7 @@ const AgencyTextContent = () => {
 
                 <h3>UI/UX Design Strategy</h3>
                 <p>
-                  This is the art of performance. Our UI/UX experts conduct
+                  This is the art of performance. Our <a href="https://websitedevelopmentagency.ae/services/ui-ux-design">UI UX experts</a> conduct
                   rigorous research to simplify complex processes. We remove the
                   clutter and focus on the essential elements that strengthen
                   your brand message and transform user interest into action.
@@ -239,8 +238,7 @@ const AgencyTextContent = () => {
                 <h2>Solutions for Every Scale</h2>
                 <h3>For Small & Medium Enterprises (SMEs)</h3>
                 <p>
-                  We offer affordable, high-impact packages designed to give
-                  startups and SMEs instant credibility. We help you punch above
+                  We offer affordable, high-impact packages designed to give <a href="https://websitedevelopmentagency.ae/blog/small-business-website-design-uae-your-complete-guide">startups and SMEs</a> instant credibility. We help you punch above
                   your weight, giving you a professional sheen that rivals
                   larger competitors.
                 </p>
@@ -255,11 +253,12 @@ const AgencyTextContent = () => {
                 <ul>
                   <li>
                     <strong>Unmatched Technical Expertise:</strong> Experts in
-                    HTML5, CSS3, JavaScript, React, PHP, NodeJS, Python.
+                    HTML5, CSS3, JavaScript, <a href="https://websitedevelopmentagency.ae/platforms/react-js-website-development">ReactJS</a>, <a href="https://websitedevelopmentagency.ae/platforms/php-website-development">PHP</a>, <a href="https://websitedevelopmentagency.ae/platforms/nodejs-website-development">NodeJS</a>, Python, 
+                    and various CMS platforms like <a href="https://websitedevelopmentagency.ae/platforms/wordpress-website-development">WordPress</a> and <a href="https://websitedevelopmentagency.ae/platforms/shopify-website-development">Shopify</a>. We combine this technical prowess with a "little magic"- the creative spark that makes a website memorable.
                   </li>
                   <li>
                     <strong>A Proven Track Record:</strong> A history of
-                    excellence facilitating growth for our clients.
+                    excellence facilitating <a href="https://websitedevelopmentagency.ae/case-studies">growth for our clients</a>.
                   </li>
                   <li>
                     <strong>Radical Transparency:</strong> No hidden fees,
@@ -306,7 +305,7 @@ const AgencyTextContent = () => {
                 <p>
                   Your website is your legacy in the digital world. It is the
                   first thing a potential client sees, and often the last thing
-                  they remember. Do not leave it to chance. At WD Agency, we are
+                  they remember. Do not leave it to chance. At <a href="https://websitedevelopmentagency.ae">Website Development Agency</a>, we are
                   ready to take your venture to new heights.
                 </p>
               </motion.div>

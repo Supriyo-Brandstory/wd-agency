@@ -44,7 +44,7 @@ const page = () => {
 
       <CommonIntroduction
         heding={"Aviation Website Design & Development"}
-        text1={` <p>In the high-stakes world of aviation, digital presence is more than just a portfolio—it's a critical tool for operational efficiency and brand trust. From private jet charters to aviation consultancy and ground handling services, your website must project reliability, technical excellence, and premium service to a global audience.</p>
+        text1={` <p>In the high-stakes world of aviation, digital presence is more than just a portfolio- it's a critical tool for operational efficiency and brand trust. From private jet charters to aviation consultancy and ground handling services, your website must project reliability, technical excellence, and premium service to a global audience.</p>
                  <p>Today’s aviation clients and partners expect seamless navigation, real-time data integration, and highly secure platforms. Whether you are targeting high-net-worth individuals for charter services or B2B partners for aircraft maintenance, a specialized website helps you navigate the complex digital landscape of the UAE's aviation hub.</p>
                     `}
         text2={`  <p>A modern aviation website incorporates features like real-time flight tracking API integration, secure booking engines, fleet showcases, and comprehensive service directories. By focusing on user experience and technical precision, we help aviation firms in Dubai build authority and streamline their communications.</p>
@@ -133,7 +133,7 @@ const page = () => {
         lefttext={`  <p><b>Precision-Driven Approach:</b> Every website is engineered to meet the high standards of the aviation industry. We focus on technical accuracy, data security, and seamless integration with existing operational systems to ensure your digital tool is as reliable as your fleet.</p>
                         <p><b>Global Brand Elevation:</b> We help Dubai-based aviation firms project a world-class image. Our designs combine high-end aesthetics with technical depth, positioning your brand as a leader in one of the world's most competitive aviation markets.</p>
                         `}
-        righttext={`<p><b>Performance & Scalability:</b> Aviation companies grow and evolve. We build scalable platforms that can integrate new features—such as loyalty programs or broader fleet management tools—as your business expands across international borders.</p>
+        righttext={`<p><b>Performance & Scalability:</b> Aviation companies grow and evolve. We build scalable platforms that can integrate new features- such as loyalty programs or broader fleet management tools- as your business expands across international borders.</p>
                             `}
       />
       <CommonProtfolio />

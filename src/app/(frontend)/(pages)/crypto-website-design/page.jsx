@@ -13,7 +13,6 @@ import imageService3 from "@/app/(frontend)/assets/images/crypto-website-design/
 import imageService4 from "@/app/(frontend)/assets/images/crypto-website-design/service-4.webp";
 import imageService5 from "@/app/(frontend)/assets/images/crypto-website-design/service-5.webp";
 import imageService6 from "@/app/(frontend)/assets/images/crypto-website-design/service-6.webp";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/crypto-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -21,7 +20,6 @@ import imagetestimonial1 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testimonial-2.webp";
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
-import CommonServiceLocations from "../../component/pages/common/CommonServiceLocations";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 import Team from "../../component/pages/about/Team";
 import LocationService from "../../component/pages/common/LocationService";
@@ -36,14 +34,14 @@ const page = () => {
       <CommonBanner2
         bg={imagebanner}
         alt={"Crypto & Blockchain Web Design Agency in Dubai, UAE"}
-        heding={"Crypto & Blockchain Web Design Agency in Dubai, UAE"}
+        heding={"Crypto Web Design Agency in Dubai, UAE"}
         subtitle={
           "We develop cutting-edge websites for crypto exchanges, NFT marketplaces, and blockchain projects <br>that demand high security, real-time data integration, and future-forward design in Dubai."
         }
       />
 
       <CommonIntroduction
-        heding={"Crypto & Blockchain Website Design & Development"}
+        heding={"Crypto & Blockchain Website Design Services"}
         text1={` <p>In Dubai's journey toward becoming a global capital for digital assets, a world-class web presence is the price of entry for any serious crypto or blockchain project. Whether you are launching a Decentralized Exchange (DEX), a new token, or a blockchain consultancy, your website must communicate technical innovation, uncompromising security, and market authority.</p>
                  <p>The crypto audience is tech-savvy and highly discerning. They expect fast-loading, visually stunning, and data-rich platforms that provide immediate transparency and ease of interaction. A specialized blockchain website helps you navigate the UAE's competitive Web3 landscape and convert community interest into project participation.</p>
                     `}
@@ -68,7 +66,7 @@ const page = () => {
 
       <CommonIndustries
         heding={
-          "Crypto & Blockchain Website Design in Dubai, UAE- Our Services"
+          "Crypto & Blockchain Website Design- Our Services"
         }
         subheding="We offer specialized digital solutions designed to help Web3 and blockchain projects succeed in the UAE."
         services={[
