@@ -1,0 +1,113 @@
+.logo-scroller-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.logo-scroller {
+    display: flex;
+    gap: 1.5rem;
+    animation: scrollLeft 30s linear infinite;
+    will-change: transform;
+    padding: 1rem 0;
+}
+
+.logo-scroller.reverse {
+    animation: scrollRight 30s linear infinite;
+}
+
+.logo-wrap {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 120px;
+    height: 80px;
+}
+
+.logo-wrap:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.client-logo {
+    max-width: 100%;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.logo-wrap:hover .client-logo {
+    opacity: 1;
+}
+
+/* Pause animation on hover */
+.logo-scroller-container:hover .logo-scroller {
+    animation-play-state: paused;
+}
+
+/* Animations */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-scroller {
+        gap: 2rem;
+    }
+
+    .logo-wrap {
+        min-width: 140px;
+        height: 80px;
+        padding: 0.75rem 1.5rem;
+    }
+
+    .client-logo {
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-scroller {
+        gap: 1.5rem;
+    }
+
+    .logo-wrap {
+        min-width: 120px;
+        height: 70px;
+        padding: 0.5rem 1rem;
+    }
+
+    .client-logo {
+        max-height: 40px;
+    }
+}

@@ -28,6 +28,7 @@ import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/Develop
 import SpecializedWebServices from "../../component/pages/common/SpecializedWebServices";
 import AgencyTextContent from "../../component/pages/common/AgencyTextContent";
 import PremierAgency from "../../component/pages/common/PremierAgency";
+import ClientSection from "../../component/pages/common/ClientSection";
 
 const page = () => {
   return (
@@ -39,7 +40,7 @@ const page = () => {
           "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth backed by data. Join 500+ UAE brands that trust us with their digital success."
         }
       />
-
+      <ClientSection />
       <SpecializedWebServices />
       <PremierAgency />
 
@@ -138,11 +139,11 @@ const page = () => {
 
       <WebDesignApproach />
       <AgencyTextContent />
-      
+
       <LocationService activeLocation="dubai" />
 
       <CommonBlogSlider />
-      
+
       <FaqSection />
 
       <CtaSection />
