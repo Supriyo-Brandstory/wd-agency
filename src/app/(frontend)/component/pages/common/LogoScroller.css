@@ -29,7 +29,7 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     min-width: 120px;
-    height: 80px;
+    height: 115px;
 }
 
 .logo-wrap:hover {
@@ -40,11 +40,11 @@
 
 .client-logo {
     max-width: 100%;
-    max-height: 40px;
+    max-height: 70px;
     width: auto;
     height: auto;
     object-fit: contain;
-    filter: brightness(0) invert(1);
+    filter: grayscale()brightness(.9);
     opacity: 0.8;
     transition: opacity 0.3s ease;
 }
@@ -56,6 +56,12 @@
 /* Pause animation on hover */
 .logo-scroller-container:hover .logo-scroller {
     animation-play-state: paused;
+
+}
+
+.logo-wrap:hover .client-logo {
+    filter: none;
+    opacity: 1;
 }
 
 /* Animations */

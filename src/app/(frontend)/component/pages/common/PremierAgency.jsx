@@ -2,9 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import useEmblaCarousel from "embla-carousel-react";
-import AutoScroll from "embla-carousel-auto-scroll";
 import styles from "@/app/(frontend)/assets/style/common/PremierAgency.module.css";
+import LogoScroller from "./LogoScroller";
 
 // Import Award Images
 
@@ -14,7 +13,6 @@ import manifestImg from "@/app/(frontend)/assets/images/awards/manifest.png";
 import trustpilotImg from "@/app/(frontend)/assets/images/awards/trustpilot.png";
 import drumImg from "@/app/(frontend)/assets/images/awards/drum.png";
 import nominetImg from "@/app/(frontend)/assets/images/awards/nominet.png";
-
 
 const awards = [
   { img: clutchImg, alt: "Clutch Recognized" },
@@ -26,16 +24,12 @@ const awards = [
 ];
 
 const PremierAgency = () => {
-  const [emblaRef] = useEmblaCarousel(
-    { loop: true, align: "center", skipSnaps: false },
-    [
-      AutoScroll({
-        speed: 1.5,
-        stopOnInteraction: false,
-        stopOnMouseEnter: true,
-      }),
-    ],
-  );
+  // Ensure we have enough items for valid scrolling on large screens
+  // 6 items * 3 = 18 items. 18 items * ~150px = ~2700px width, safe for large screens.
+  const repeatedAwards = [...awards, ...awards, ...awards].map((award) => ({
+    src: award.img,
+    alt: award.alt,
+  }));
 
   return (
     <section className={styles.section}>
@@ -65,38 +59,12 @@ const PremierAgency = () => {
 
         <div className={styles.recognitionSection}>
           <motion.div
-            className={styles.embla}
-            ref={emblaRef}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <div className={styles.emblaContainer}>
-              {awards.map((award, index) => (
-                <div className={styles.emblaSlide} key={index}>
-                  <Image
-                    src={award.img}
-                    alt={award.alt}
-                    className={styles.awardImage}
-                    width={150} // Aspect ratio baseline
-                    height={80} // Aspect ratio baseline
-                  />
-                </div>
-              ))}
-              {/* Duplicating for seamless loop visual if needed, though Embla loop handles logic */}
-              {awards.map((award, index) => (
-                <div className={styles.emblaSlide} key={`dup-${index}`}>
-                  <Image
-                    src={award.img}
-                    alt={award.alt}
-                    className={styles.awardImage}
-                    width={150}
-                    height={80}
-                  />
-                </div>
-              ))}
-            </div>
+            <LogoScroller logos={repeatedAwards} speed={40} direction="left" />
           </motion.div>
           <motion.h4
             className={styles.subTitle}
@@ -105,7 +73,8 @@ const PremierAgency = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            🏆 Recognized by Leading Industry Platforms for Web Design Excellence
+            🏆 Recognized by Leading Industry Platforms for Web Design
+            Excellence
           </motion.h4>
         </div>
       </div>

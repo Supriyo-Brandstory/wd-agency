@@ -1,4 +1,8 @@
 {
   "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
-  "/(frontend)/(pages)/case-studies/page": "app/(frontend)/(pages)/case-studies/page.js"
+  "/(frontend)/(pages)/case-studies/hotel/page": "app/(frontend)/(pages)/case-studies/hotel/page.js",
+  "/(frontend)/(pages)/case-studies/kshemavana/page": "app/(frontend)/(pages)/case-studies/kshemavana/page.js",
+  "/(frontend)/(pages)/case-studies/page": "app/(frontend)/(pages)/case-studies/page.js",
+  "/(frontend)/(pages)/case-studies/travel-agency/page": "app/(frontend)/(pages)/case-studies/travel-agency/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

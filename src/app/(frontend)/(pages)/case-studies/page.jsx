@@ -3,25 +3,23 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/app/(frontend)/assets/style/casestudies/caseStudies.module.css";
 import bannerbg from "@/app/(frontend)/assets/images/blog-bg.webp";
-import arrowleft from '@/app/(frontend)/assets/images/icons/left-icon.svg'
-import arrowright from '@/app/(frontend)/assets/images/icons/right-icon.svg'
+import arrowleft from "@/app/(frontend)/assets/images/icons/left-icon.svg";
+import arrowright from "@/app/(frontend)/assets/images/icons/right-icon.svg";
 // import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import protfolio1 from '@/app/(frontend)/assets/images/protfolio/1.webp'
-import protfolio2 from '@/app/(frontend)/assets/images/protfolio/2.webp'
-import protfolio3 from '@/app/(frontend)/assets/images/protfolio/3.webp'
-import protfolio4 from '@/app/(frontend)/assets/images/protfolio/4.webp'
+import protfolio1 from "@/app/(frontend)/assets/images/protfolio/1.webp";
+import protfolio2 from "@/app/(frontend)/assets/images/protfolio/2.webp";
+import protfolio3 from "@/app/(frontend)/assets/images/protfolio/3.webp";
+import protfolio4 from "@/app/(frontend)/assets/images/protfolio/4.webp";
 import { useRouter } from "next/navigation";
 
-const caseStudiesData = [ 
+const caseStudiesData = [
   {
     id: 1,
     title: "Varsha Logistics Pvt Ltd.",
     category: "Business Website",
     image: protfolio1,
     slug: "varsha-logistics",
-    modelimage: [
-      { img: protfolio1 },
-    ],
+    modelimage: [{ img: protfolio1 }],
   },
   {
     id: 2,
@@ -29,9 +27,7 @@ const caseStudiesData = [
     category: "Real Estate Website",
     image: protfolio2,
     slug: "ferns-estates",
-    modelimage: [
-      { img: protfolio2 },
-    ],
+    modelimage: [{ img: protfolio2 }],
   },
   {
     id: 3,
@@ -39,19 +35,31 @@ const caseStudiesData = [
     category: "Healthcare & Wellness",
     image: protfolio3,
     slug: "kshemavana",
-    modelimage: [
-      { img: protfolio3 },
-    ],
-  },  
+    modelimage: [{ img: protfolio3 }],
+  },
   {
     id: 4,
     title: "Equence",
     category: "Tech Startup Website",
     image: protfolio4,
     slug: "equence",
-    modelimage: [
-      { img: protfolio4 },
-    ],
+    modelimage: [{ img: protfolio4 }],
+  },
+  {
+    id: 5,
+    title: "Crystal Plaza Hotel",
+    category: "Hospitality Website",
+    image: protfolio3,
+    slug: "hotel",
+    modelimage: [{ img: protfolio3 }],
+  },
+  {
+    id: 6,
+    title: "TravelX",
+    category: "Travel Agency Website",
+    image: protfolio4,
+    slug: "travel-agency",
+    modelimage: [{ img: protfolio4 }],
   },
 ];
 
@@ -79,14 +87,14 @@ export default function CaseStudiesPage() {
   const handlePrev = () => {
     if (!selectedProject) return;
     setImageIndex((prev) =>
-      prev === 0 ? selectedProject.modelimage.length - 1 : prev - 1
+      prev === 0 ? selectedProject.modelimage.length - 1 : prev - 1,
     );
   };
 
   const handleNext = () => {
     if (!selectedProject) return;
     setImageIndex((prev) =>
-      prev === selectedProject.modelimage.length - 1 ? 0 : prev + 1
+      prev === selectedProject.modelimage.length - 1 ? 0 : prev + 1,
     );
   };
 
@@ -136,7 +144,7 @@ export default function CaseStudiesPage() {
           >
             <button className={styles.closeBtn} onClick={handleClose}>
               {/* <X size={24} /> */}
-              {'x'}
+              {"x"}
             </button>
 
             <button className={styles.prevBtn} onClick={handlePrev}>
