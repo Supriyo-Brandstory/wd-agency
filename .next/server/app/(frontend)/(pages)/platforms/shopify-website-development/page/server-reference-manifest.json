@@ -1,6 +1,6 @@
 {
   "node": {
-    "40b54153d6b20da82aa92eada9dc77e33bc28abc57": {
+    "40ff99a625472bb482d486fc3512cfcecd6cbd959e": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,

@@ -10,6 +10,11 @@ import protfolio1 from "@/app/(frontend)/assets/images/protfolio/1.webp";
 import protfolio2 from "@/app/(frontend)/assets/images/protfolio/2.webp";
 import protfolio3 from "@/app/(frontend)/assets/images/protfolio/3.webp";
 import protfolio4 from "@/app/(frontend)/assets/images/protfolio/4.webp";
+
+import leruRemote from "@/app/(frontend)/assets/images/casestudies/leru-remote-1.webp";
+import leruPartners from "@/app/(frontend)/assets/images/casestudies/leru-partners-1.webp";
+import travelex from "@/app/(frontend)/assets/images/casestudies/travelex-1.webp";
+import crystalPlaza from "@/app/(frontend)/assets/images/casestudies/crystal-plaza-1.webp";
 import { useRouter } from "next/navigation";
 
 const caseStudiesData = [
@@ -47,19 +52,35 @@ const caseStudiesData = [
   },
   {
     id: 5,
-    title: "Crystal Plaza Hotel",
-    category: "Hospitality Website",
-    image: protfolio3,
-    slug: "hotel",
-    modelimage: [{ img: protfolio3 }],
+    title: "Crystal Plaza",
+    category: "Hotel Website",
+    image: crystalPlaza,
+    slug: "crystal-plaza",
+    modelimage: [{ img: crystalPlaza }],
   },
   {
     id: 6,
-    title: "TravelX",
+    title: "Travelex UAE",
     category: "Travel Agency Website",
-    image: protfolio4,
-    slug: "travel-agency",
-    modelimage: [{ img: protfolio4 }],
+    image: travelex,
+    slug: "travelex",
+    modelimage: [{ img: travelex }],
+  },
+  {
+    id: 7,
+    title: "Leru Remote",
+    category: "B2B HR Tech Website",
+    image: leruRemote,
+    slug: "leru-remote",
+    modelimage: [{ img: leruRemote }],
+  },
+  {
+    id: 8,
+    title: "Leru Partners",
+    category: "Recruitment Platform",
+    image: leruPartners,
+    slug: "leru-partners",
+    modelimage: [{ img: leruPartners }],
   },
 ];
 

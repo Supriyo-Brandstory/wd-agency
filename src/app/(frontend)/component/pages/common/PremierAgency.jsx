@@ -51,9 +51,10 @@ const PremierAgency = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Our work speaks for itself. WD Agency is recognized by top industry
-            platforms for consistently delivering exceptional web design
-            solutions that help UAE businesses build their online presence.
+            Our work speaks for itself. Endorsed by industry leaders, Website
+            Development Agency is recognized as an elite web design agency in
+            Dubai, UAE, delivering high-impact digital experiences for the UAE’s
+            most ambitious brands.
           </motion.p>
         </div>
 

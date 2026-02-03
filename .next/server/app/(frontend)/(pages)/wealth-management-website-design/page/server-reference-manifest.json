@@ -1,6 +1,6 @@
 {
   "node": {
-    "40b54153d6b20da82aa92eada9dc77e33bc28abc57": {
+    "40ff99a625472bb482d486fc3512cfcecd6cbd959e": {
       "workers": {
         "app/(frontend)/(pages)/wealth-management-website-design/page": {
           "moduleId": 33704,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00170be8133126fec2e8f813dbdadd31b16f8dacdb": {
+    "00108c132714a61de8e6ea5c4b964afb3d3cc81a8b": {
       "workers": {
         "app/(frontend)/(pages)/wealth-management-website-design/page": {
           "moduleId": 33704,
@@ -30,7 +30,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "005d96c562f88017b247bd42a01e38bf8f591be352": {
+    "003fc1afa0ca8841c57077c5c9dab657ffb9acf996": {
       "workers": {
         "app/(frontend)/(pages)/wealth-management-website-design/page": {
           "moduleId": 33704,

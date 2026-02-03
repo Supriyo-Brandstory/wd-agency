@@ -290,6 +290,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/case-studies/crystal-plaza": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/case-studies/crystal-plaza",
+      "dataRoute": "/case-studies/crystal-plaza.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/case-studies/equence": {
       "experimentalBypassFor": [
         {
@@ -362,6 +386,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/case-studies/leru-partners": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/case-studies/leru-partners",
+      "dataRoute": "/case-studies/leru-partners.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/case-studies/leru-remote": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/case-studies/leru-remote",
+      "dataRoute": "/case-studies/leru-remote.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/case-studies": {
       "experimentalBypassFor": [
         {
@@ -377,6 +449,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/case-studies",
       "dataRoute": "/case-studies.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/case-studies/travelex": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/case-studies/travelex",
+      "dataRoute": "/case-studies/travelex.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2550,8 +2646,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "b7fb9144d315590970b19509eee2a56d",
-    "previewModeSigningKey": "e048651b199d9937910c7f2340648a3b29125ccdce61a0e0b0b96a03f3b2a2b4",
-    "previewModeEncryptionKey": "3a0833dd096d1fda5bbc59a4fb6cd72094d2a84c8f420e7f67ec398fc0765496"
+    "previewModeId": "7b8bdb9c5351502e0e690fff3976e208",
+    "previewModeSigningKey": "8ecf95b8d80f87fec5e4147de431a56166e483dd8853e837298788a80d21fd22",
+    "previewModeEncryptionKey": "b4f179f7fb62af99c3f172b81d76e60dc518e97cc3fabe4393f29a083ec9d7ed"
   }
 }

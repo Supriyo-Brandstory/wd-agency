@@ -200,6 +200,12 @@
       "namedRegex": "^/case\\-studies/cover\\-b\\-website(?:/)?$"
     },
     {
+      "page": "/case-studies/crystal-plaza",
+      "regex": "^/case\\-studies/crystal\\-plaza(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/crystal\\-plaza(?:/)?$"
+    },
+    {
       "page": "/case-studies/equence",
       "regex": "^/case\\-studies/equence(?:/)?$",
       "routeKeys": {},
@@ -216,6 +222,24 @@
       "regex": "^/case\\-studies/kshemavana(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/case\\-studies/kshemavana(?:/)?$"
+    },
+    {
+      "page": "/case-studies/leru-partners",
+      "regex": "^/case\\-studies/leru\\-partners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/leru\\-partners(?:/)?$"
+    },
+    {
+      "page": "/case-studies/leru-remote",
+      "regex": "^/case\\-studies/leru\\-remote(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/leru\\-remote(?:/)?$"
+    },
+    {
+      "page": "/case-studies/travelex",
+      "regex": "^/case\\-studies/travelex(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/travelex(?:/)?$"
     },
     {
       "page": "/case-studies/varsha-logistics",
