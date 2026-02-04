@@ -213,8 +213,8 @@ export default function CaseStudyDetailPage() {
             <div className={styles.zText}>
               <h3>Smart Lead Capture</h3>
               <p>
-                Context-aware contact forms appear at the right moments—like after viewing a floor plan or 
-                pricing page—nudging users to connect without being intrusive.
+                Context-aware contact forms appear at the right moments like after viewing a floor plan or 
+                pricing page nudging users to connect without being intrusive.
               </p>
             </div>
             <div className={styles.zImage}>
@@ -224,23 +224,7 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "Does the website support video tours?",
-            a: "Yes, we integrated high-quality video hosting that streams property walkthroughs smoothly."
-          },
-          {
-            q: "How easy is it to add new projects?",
-            a: "We built a custom backend that allows the Ferns team to add a new project in under 10 minutes."
-          },
-          {
-            q: "Is it SEO friendly?",
-            a: "Absolutely. We optimized the structure so that individual property pages rank for local real estate keywords."
-          }
-        ]}
-      />
+     
 
       {/* GROWTH SECTION */}
       <section className={styles.growth}>

@@ -5,14 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
-import protfolio1 from "@/app/(frontend)/assets/images/casestudies/varsha-logistics-3.webp";
-import protfolio2 from "@/app/(frontend)/assets/images/casestudies/ferns-estates-result-1.webp";
-import protfolio3 from "@/app/(frontend)/assets/images/casestudies/kshemavana-result-3.webp";
-import protfolio4 from "@/app/(frontend)/assets/images/casestudies/equance-protfolio.webp";
-import crystalPlaza from "@/app/(frontend)/assets/images/casestudies/crystal-plaza-3.webp";
-import travelex from "@/app/(frontend)/assets/images/casestudies/travelex-3.webp";
-import leruRemote from "@/app/(frontend)/assets/images/casestudies/leru-remote-3.webp";
-import leruPartners from "@/app/(frontend)/assets/images/casestudies/leru-partners-3.webp";
+import protfolio1 from "@/app/(frontend)/assets/images/casestudies/varsha-port.webp";
+import protfolio2 from "@/app/(frontend)/assets/images/casestudies/ferms-port.webp";
+import protfolio3 from "@/app/(frontend)/assets/images/casestudies/ksma-port.webp";
+import protfolio4 from "@/app/(frontend)/assets/images/casestudies/equence-port.webp";
+import crystalPlaza from "@/app/(frontend)/assets/images/casestudies/crystal-port.webp";
+import travelex from "@/app/(frontend)/assets/images/casestudies/travelex-port.webp";
+import leruRemote from "@/app/(frontend)/assets/images/casestudies/leru-remote-port.webp";
+import leruPartners from "@/app/(frontend)/assets/images/casestudies/leru-partner-port.webp";
 
 const CommonProtfolio = ({
   heding = "Our Website Design Portfolio",
@@ -61,7 +61,7 @@ const CommonProtfolio = ({
     {
       id: "06",
       title: "Travelex UAE",
-      category: "Travel Agency Website",
+      category: "Currency Exhange Platform",
       image: travelex,
       alt: "Our Website Design Portfolio - Travelex UAE",
       slug: "travelex",

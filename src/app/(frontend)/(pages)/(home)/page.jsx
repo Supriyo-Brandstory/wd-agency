@@ -37,11 +37,13 @@ const page = () => {
         text1={"Where Creativity Meets Conversion"}
         text2={"Top-Rated Web Design Agency in Dubai, UAE"}
         text3={
-          "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth backed by data. Join 500+ UAE brands that trust us with their digital success."
+          "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth. Join 500+ UAE brands that trust us with their digital success."
         }
       />
       <ClientSection />
       <SpecializedWebServices />
+
+      <CommonProtfolio />
       <PremierAgency />
 
       <CommonFinancialImpact
@@ -105,7 +107,7 @@ const page = () => {
       />
       <Stats />
 
-      <CommonProtfolio />
+      
 
       <IndustryGrid />
 

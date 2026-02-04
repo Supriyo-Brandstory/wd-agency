@@ -6,7 +6,6 @@ import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqS
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 // Import images (Using placeholders from cover-b for now)
-import heroMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-hero.png";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png";
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
 import result1 from "@/app/(frontend)/assets/images/casestudies/leru-partners-1.webp";
@@ -55,7 +54,7 @@ export default function LeruPartnersCaseStudyPage() {
                 </span>
               </div>
               <h1>Leru Partners</h1>
-              <h2>Global Careers Platform</h2>
+              <h2>Global Careers Platform</h2><br></br>
               <p>
                 A dedicated portal connecting skilled professionals with
                 full-time, long-term remote opportunities at innovative
@@ -80,73 +79,36 @@ export default function LeruPartnersCaseStudyPage() {
           <div className={styles.overviewContent}>
             <div className={styles.overviewText}>
               <p>
-                Leru Partners serves as the candidate-facing brand, managing the
-                pipeline of talent for their remote job openings. They needed a
-                centralized hub where tech, sales, and management professionals
-                could find and apply for verified roles.
+                Leru Partners operates as the candidate-facing platform responsible for managing applications
+                 for remote job opportunities across multiple roles. The platform needed to serve as a central 
+                 destination where professionals in technology, sales, and management could explore verified openings 
+                 and submit applications efficiently.
               </p>
               <p>
-                The goal was to create a "Careers" experience, not just a job
-                list. The site needed to communicate the benefits of working
-                remotely through Leru: stability, growth, and community,
-                addressing common pain points of remote workers like isolation.
+                The objective was to design and develop a structured careers experience rather than a simple job listing page.
+                 The website was built to present opportunities clearly, support the application workflow, and communicate what
+                  candidates can expect from remote roles offered through Leru Partners, while addressing common concerns
+                   associated with remote work.
               </p>
             </div>
             <div className={styles.overviewStats}>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>5000+</h3>
-                <p className={styles.statLabel}>Applications Processed</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Responsive design across devices</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>150%</h3>
-                <p className={styles.statLabel}>Increase in Organic Traffic</p>
+                <h3 className={styles.statValue}>3X</h3>
+                <p className={styles.statLabel}>Faster page loading time & performance</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>High</h3>
-                <p className={styles.statLabel}>Candidate Retention Rate</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Improved user navigation flow</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FINAL RESULT SECTION */}
-      <section className={styles.finalResult}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <h2>
-              Final <span className={styles.highlight}>Result</span>
-            </h2>
-          </div>
-          <div className={styles.resultContent}>
-            <p>
-              We launched a polished careers portal that ranks for key terms
-              like "Remote AI Jobs" and "Sales Development Representative
-              Remote". The application process is streamlined, resulting in a
-              higher completion rate and better candidate quality.
-            </p>
-            <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result1} alt="Leru Partners Job Board" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result2} alt="Leru Partners Job Detail" />
-              </div>
-              <div className={`${styles.resultItem} width-100 sm-width-100`}>
-                <Image src={result3} alt="Leru Partners Job Detail" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result4} alt="Leru Partners Job Detail" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result5} alt="Leru Partners Job Detail" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
       <section className={styles.scope}>
         <div className={styles.container}>
           <div
@@ -198,8 +160,8 @@ export default function LeruPartnersCaseStudyPage() {
               </div>
               <h3>Candidate Experience</h3>
               <p>
-                Optimized the user journey from "Job Search" to "Application
-                Submitted" to reduce drop-off rates.
+                Designed and implemented a clear application journey, guiding users smoothly from job discovery 
+                through application submission with minimal friction and clear status feedback.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -219,15 +181,53 @@ export default function LeruPartnersCaseStudyPage() {
                   <circle cx="5" cy="19" r="1"></circle>
                 </svg>
               </div>
-              <h3>SEO Optimization</h3>
+              <h3>Technical Implementation</h3>
               <p>
-                Targeted keywords related to remote work in specific sectors to
-                attract high-quality, relevant applications.
+                Implemented clean, scalable code and conducted cross-device testing to ensure reliable 
+                performance, usability, and long-term maintainability of the careers platform.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* FINAL RESULT SECTION */}
+      <section className={styles.finalResult}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <h2>
+              Final <span className={styles.highlight}>Result</span>
+            </h2>
+          </div>
+          <div className={styles.resultContent}>
+            <p>
+              The project delivered a structured and reliable careers portal that presents remote job opportunities clearly
+               and supports a smooth application workflow. The streamlined interface improves usability for candidates, reduces 
+               friction during submissions, and provides an efficient platform for managing job applications across multiple roles.
+            </p>
+            <div className={styles.resultGrid}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result1} alt="Leru Partners Job Board" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result2} alt="Leru Partners Job Detail" />
+              </div>
+              <div className={`${styles.resultItem} width-100 sm-width-100`}>
+                <Image src={result3} alt="Leru Partners Job Detail" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result4} alt="Leru Partners Job Detail" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result5} alt="Leru Partners Job Detail" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SCOPE OF WORK */}
+      
 
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
@@ -237,10 +237,10 @@ export default function LeruPartnersCaseStudyPage() {
               The <span className={styles.highlight}>Challenge</span>
             </h2>
             <p>
-              Attracting top talent in a competitive market requires more than
-              just posting a job description. We needed to convey the culture,
-              benefits, and stability of the roles offered through Leru
-              Partners, differentiating them from short-term gig work.
+              The challenge was to design a careers platform that goes beyond basic job listings and clearly
+               communicates role context, expectations, and long-term opportunities. From a development perspective, 
+               this required structuring content and workflows that present company culture, role stability, and benefits
+                in a clear, accessible, and scalable digital format.
             </p>
           </div>
         </div>
@@ -311,23 +311,7 @@ export default function LeruPartnersCaseStudyPage() {
         </div>
       </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "What types of jobs are available?",
-            a: "We feature a wide range of roles including Tech (AI, DevOps), Sales (SDR, Business Development), and Management positions.",
-          },
-          {
-            q: "Are these full-time positions?",
-            a: "Yes, Leru Partners focuses on placing candidates in full-time, long-term roles offering stability and growth, not short-term freelance gigs.",
-          },
-          {
-            q: "What support do remote employees receive?",
-            a: "Candidates receive comprehensive onboarding, ongoing support from the Leru team, and managed payroll to ensure a smooth remote working experience.",
-          },
-        ]}
-      />
+     
 
       {/* GROWTH SECTION */}
       <section className={styles.growth}>

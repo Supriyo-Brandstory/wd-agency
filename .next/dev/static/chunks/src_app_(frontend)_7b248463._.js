@@ -45,7 +45,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/left-icon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/left-icon.183c2fa4.svg");}),
+__turbopack_context__.v("/_next/static/media/left-icon.f5b8e532.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/left-icon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/left-icon.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -68,7 +68,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/right-icon.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/right-icon.f4db165a.svg");}),
+__turbopack_context__.v("/_next/static/media/right-icon.2c09502c.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/right-icon.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/right-icon.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 

@@ -1,6 +1,6 @@
 {
   "node": {
-    "40ca7d135157d833986878ba38baeb41e85b9d0485": {
+    "405248388b1bd27e288d999e331eb9e0fb10a17f32": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/case-studies/crystal-plaza/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",

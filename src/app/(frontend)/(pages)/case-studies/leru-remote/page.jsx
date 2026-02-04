@@ -6,7 +6,6 @@ import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqS
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 // Import images (Using placeholders from cover-b for now)
-import heroMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-hero.png";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png";
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
 import result1 from "@/app/(frontend)/assets/images/casestudies/leru-remote-1.webp";
@@ -22,17 +21,17 @@ export default function LeruRemoteCaseStudyPage() {
     {
       title: "Discovery",
       content:
-        "We identified the need for a streamlined B2B platform that could effectively communicate the value of remote hiring to skeptical SMEs. The goal was to build trust through clear process visualization.",
+        "We analysed Leru Remote’s service structure, user types, and content requirements to understand how complex HR processes should be represented digitally.",
     },
     {
       title: "Strategy",
       content:
-        "Developed a content-heavy strategy focusing on 'Education'—explaining the EOR (Employer of Record) model, compliance, and payroll handling clearly to potential business clients.",
+        "A clear website architecture was defined to separate offerings for startups and enterprise clients while maintaining consistent structure and navigation.",
     },
     {
       title: "Execution",
       content:
-        "Built a professional, high-performance website with dedicated landing pages for different markets (startups vs enterprises) and integrated an automated lead qualification system.",
+        "The website was designed and developed with dedicated pages for different audiences, supported by structured forms and system logic to route enquiries appropriately.",
     },
   ];
 
@@ -55,7 +54,7 @@ export default function LeruRemoteCaseStudyPage() {
                 </span>
               </div>
               <h1>Leru Remote</h1>
-              <h2>Global Remote Talent Solutions</h2>
+              <h2>Remote Talent Solutions</h2><br></br>
               <p>
                 Connecting innovative startups and SMEs with top-tier remote
                 professionals worldwide through a seamless recruitment platform.
@@ -79,73 +78,36 @@ export default function LeruRemoteCaseStudyPage() {
           <div className={styles.overviewContent}>
             <div className={styles.overviewText}>
               <p>
-                Leru Remote specializes in helping companies build distributed
-                teams. They needed a digital presence that would position them
-                as experts in cross-border hiring, payroll management, and
-                compliance.
+                Leru Remote is a global workforce solutions company that helps businesses
+                 build and manage distributed teams across multiple countries. Their services
+                  span international hiring, payroll coordination, and compliance support, requiring 
+                  clear communication and structured information delivery.
               </p>
               <p>
-                The challenge was to simplify complex HR processes for business
-                owners. We designed a website that breaks down their "Executive
-                Search" approach—vetting, interviewing, and onboarding—into
-                digestible, convincing steps.
+                The project involved designing and developing a website that simplifies complex HR processes into clear, 
+                understandable sections. The platform presents Leru Remote’s executive search and talent onboarding workflow 
+                in a structured manner, helping business owners easily understand how remote hiring is managed from sourcing 
+                through deployment.
               </p>
             </div>
             <div className={styles.overviewStats}>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>40%</h3>
-                <p className={styles.statLabel}>Increase in Client Leads</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Responsive design across devices</p>
               </div>
               <div className={styles.statCard}>
                 <h3 className={styles.statValue}>2.5x</h3>
-                <p className={styles.statLabel}>Faster Client Onboarding</p>
+                <p className={styles.statLabel}>Faster page loading time & performance</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>Global</h3>
-                <p className={styles.statLabel}>Reach Across 4 Continents</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Improved user navigation flow</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FINAL RESULT SECTION */}
-      <section className={styles.finalResult}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <h2>
-              Final <span className={styles.highlight}>Result</span>
-            </h2>
-          </div>
-          <div className={styles.resultContent}>
-            <p>
-              We delivered a robust corporate website that serves as a
-              lead-generation engine. By clearly articulating services like
-              Payroll Management and Compliance, we helped Leru Remote convert
-              hesitant prospects into long-term partners.
-            </p>
-            <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result1} alt="Leru Remote Website Interface" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result2} alt="Leru Remote Services Page" />
-              </div>
-              <div className={`${styles.resultItem} width-100 sm-width-100`}>
-                <Image src={result3} alt="Leru Remote Services Page" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result4} alt="Leru Remote Services Page" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result5} alt="Leru Remote Services Page" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
       <section className={styles.scope}>
         <div className={styles.container}>
           <div
@@ -175,8 +137,8 @@ export default function LeruRemoteCaseStudyPage() {
               </div>
               <h3>UX/UI Design</h3>
               <p>
-                Designed a clean, corporate aesthetic that instills trust and
-                simplifies complex service offerings.
+                Designed a clean, corporate interface that establishes credibility and clearly presents Leru 
+                Remote’s global hiring, payroll, and compliance services in an easy-to-understand format.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -195,10 +157,10 @@ export default function LeruRemoteCaseStudyPage() {
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <h3>Lead Gen Strategy</h3>
+              <h3>Website Development</h3>
               <p>
-                Implemented strategic CTAs and lead capture forms for "Talent
-                Consultation" throughout the user journey.
+                Developed a responsive website with structured service pages, intuitive navigation, and clear user 
+                flows to help businesses understand Leru Remote’s executive search and remote workforce processes.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -218,15 +180,53 @@ export default function LeruRemoteCaseStudyPage() {
                   <circle cx="5" cy="19" r="1"></circle>
                 </svg>
               </div>
-              <h3>Content Strategy</h3>
+              <h3>Content Structuring</h3>
               <p>
-                Created content clusters around "Remote Work Compliance" and
-                "Global Payroll" to drive B2B SEO.
+                Organised complex HR and compliance information into well-defined sections, ensuring clarity, 
+                readability, and logical progression across the website for business decision-makers.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* FINAL RESULT SECTION */}
+      <section className={styles.finalResult}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <h2>
+              Final <span className={styles.highlight}>Result</span>
+            </h2>
+          </div>
+          <div className={styles.resultContent}>
+            <p>
+              The project resulted in a structured corporate website that clearly presents Leru Remote’s services, including
+               payroll management and compliance support. The platform improves information clarity, supports informed decision-making, 
+               and provides a reliable digital reference point for businesses exploring distributed workforce solutions.
+            </p>
+            <div className={styles.resultGrid}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result1} alt="Leru Remote Website Interface" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result2} alt="Leru Remote Services Page" />
+              </div>
+              <div className={`${styles.resultItem} width-100 sm-width-100`}>
+                <Image src={result3} alt="Leru Remote Services Page" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result4} alt="Leru Remote Services Page" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result5} alt="Leru Remote Services Page" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SCOPE OF WORK */}
+      
 
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
@@ -236,10 +236,10 @@ export default function LeruRemoteCaseStudyPage() {
               The <span className={styles.highlight}>Challenge</span>
             </h2>
             <p>
-              Many SMEs are interested in remote talent but fear the legal and
-              administrative complexities. Leru Remote's challenge was to prove
-              that they handle *everything*—from vetting to payroll—making the
-              process risk-free for clients.
+              Leru Remote’s services involve complex workflows covering international hiring, payroll, and compliance, 
+              which were difficult to present clearly within a single digital platform. The challenge was to translate these
+               multi-step processes into a well-structured website experience that remains clear, credible, and easy to understand 
+               for business users.
             </p>
           </div>
         </div>
@@ -273,60 +273,7 @@ export default function LeruRemoteCaseStudyPage() {
         </div>
       </section>
 
-      {/* SOLUTION SECTIONS */}
-      <section className={styles.solution}>
-        <div className={styles.container}>
-          {/* Solution 1 */}
-          <div className={styles.zSection}>
-            <div className={styles.zText}>
-              <h3>Streamlined Client Onboarding</h3>
-              <p>
-                We built a clearer 'How It Works' section that walks clients
-                through Briefing, Sourcing, and Onboarding. By visualizing the
-                timeline, we reduced sales friction and set clear expectations
-                for the service delivery.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image src={mobileMockup} alt="Leru Remote Onboarding Flow" />
-            </div>
-          </div>
-
-          {/* Solution 2 */}
-          <div className={`${styles.zSection} ${styles.reverse}`}>
-            <div className={styles.zText}>
-              <h3>Trust Signals</h3>
-              <p>
-                We strategically placed testimonials, compliance certifications,
-                and case studies of successful placements (DevOps, AI
-                Scientists) to validate their expertise in high-demand tech
-                roles.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image src={illustration3d} alt="Trust and Verification" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "How does Leru Remote vet candidates?",
-            a: "We implemented a section detailing their rigorous screening process, including skills testing, reference checks, and personality assessments, to reassure clients of quality.",
-          },
-          {
-            q: "Where does Leru Remote source talent from?",
-            a: "The website highlights their global reach, specifically in regions like India, Eastern Europe, Latin America, and Southeast Asia.",
-          },
-          {
-            q: "Does Leru Remote handle payroll?",
-            a: "Yes, we emphasized their EOR services, explaining how they manage local employment laws, tax compliance, and timely salary payments for remote staff.",
-          },
-        ]}
-      />
+     
 
       {/* GROWTH SECTION */}
       <section className={styles.growth}>

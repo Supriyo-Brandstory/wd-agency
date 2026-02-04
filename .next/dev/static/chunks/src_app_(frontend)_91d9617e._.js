@@ -62,7 +62,7 @@ __turbopack_context__.v({
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faquparrow.78e7c926.svg");}),
+__turbopack_context__.v("/_next/static/media/faquparrow.022e49f0.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -85,7 +85,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faqdownarrow.29b60f0d.svg");}),
+__turbopack_context__.v("/_next/static/media/faqdownarrow.b3690020.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1565,7 +1565,7 @@ function CaseStudyDetailPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Context-aware contact forms appear at the right moments—like after viewing a floor plan or pricing page—nudging users to connect without being intrusive."
+                                            children: "Context-aware contact forms appear at the right moments like after viewing a floor plan or pricing page nudging users to connect without being intrusive."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
                                             lineNumber: 215,
@@ -1609,26 +1609,6 @@ function CaseStudyDetailPage() {
                 lineNumber: 197,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                faqs: [
-                    {
-                        q: "Does the website support video tours?",
-                        a: "Yes, we integrated high-quality video hosting that streams property walkthroughs smoothly."
-                    },
-                    {
-                        q: "How easy is it to add new projects?",
-                        a: "We built a custom backend that allows the Ferns team to add a new project in under 10 minutes."
-                    },
-                    {
-                        q: "Is it SEO friendly?",
-                        a: "Absolutely. We optimized the structure so that individual property pages rank for local real estate keywords."
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                lineNumber: 228,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$casestudies$2f$caseStudyDetail$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].growth,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1645,41 +1625,41 @@ function CaseStudyDetailPage() {
                                         children: "Business Growth"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                                        lineNumber: 249,
+                                        lineNumber: 233,
                                         columnNumber: 46
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                                lineNumber: 249,
+                                lineNumber: 233,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: '"The new website beautifully represents our brand. We\'ve seen a significant uptake in premium buyers contacting us directly through the site."'
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                                lineNumber: 250,
+                                lineNumber: 234,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                        lineNumber: 248,
+                        lineNumber: 232,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                    lineNumber: 247,
+                    lineNumber: 231,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                lineNumber: 246,
+                lineNumber: 230,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$CtaSection$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/case-studies/ferns-estates/page.jsx",
-                lineNumber: 258,
+                lineNumber: 242,
                 columnNumber: 6
             }, this)
         ]

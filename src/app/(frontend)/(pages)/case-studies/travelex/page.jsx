@@ -6,7 +6,6 @@ import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqS
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 // Import images (Using placeholders from cover-b for now)
-import heroMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-hero.png";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png";
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
 import result1 from "@/app/(frontend)/assets/images/casestudies/travelex-1.webp";
@@ -22,17 +21,17 @@ export default function TravelAgencyCaseStudyPage() {
     {
       title: "Discovery",
       content:
-        "We identified that being new to the Dubai market, the agency had zero brand recognition and almost no online visibility. The primary goal was to build a brand identity from scratch.",
+        "We worked closely with the Travelex UAE team to understand operational requirements, compliance considerations, and user expectations related to online currency reservation and branch selection.",
     },
     {
       title: "Strategy",
       content:
-        "Our strategy involved building a brand identity (logo, brand messaging), developing a feature-rich booking website, and launching an aggressive multi-channel digital marketing campaign.",
+        "Based on the insights gathered, we defined a clear website structure and user flow focused on simplifying currency selection, reservation steps, and information clarity across devices.",
     },
     {
       title: "Execution",
       content:
-        "Executed the plan by designing the website, setting up social media pages, running targeted SEO and PPC campaigns, and implementing remarketing strategies to recapture interest.",
+        "The website was designed and developed with an integrated “Click & Collect” reservation system, followed by thorough testing to ensure accuracy, usability, and stable performance.",
     },
   ];
 
@@ -55,10 +54,12 @@ export default function TravelAgencyCaseStudyPage() {
                 </span>
               </div>
               <h1>Travelex UAE</h1>
-              <h2>Leading Currency Exchange</h2>
+              <h2>Currency Exchange Provider</h2><br></br>
               <p>
-                Revolutionizing how travelers in the UAE buy and exchange
-                foreign currency with a seamless online reservation system.
+                Travelex UAE is a well-established foreign currency exchange provider serving travelers
+                 across the United Arab Emirates. The platform supports customers looking to reserve and
+                  exchange foreign currency conveniently, while maintaining accuracy, clarity, and trust 
+                  across its digital touchpoints.
               </p>
             </div>
             <div className={styles.heroImage}>
@@ -79,75 +80,35 @@ export default function TravelAgencyCaseStudyPage() {
           <div className={styles.overviewContent}>
             <div className={styles.overviewText}>
               <p>
-                Travelex is the world's leading foreign exchange specialist. In
-                the UAE, they sought to digitize the currency buying experience,
-                allowing customers to lock in rates online and collect cash at
-                major hubs like Dubai International Airport, Abu Dhabi Airport,
-                and Sharjah Airport.
+                Travelex UAE required a modern website that could support its online currency reservation system 
+                while presenting complex financial information in a clear and user-friendly manner. The objective
+                 was to design and develop a reliable digital platform that simplifies user interaction, ensures
+                  smooth navigation, and delivers a consistent experience across devices.
               </p>
               <p>
-                The goal was to increase online reservations (Click & Collect)
-                and promote unique value propositions like the "Same Rate
-                Guarantee" and "Tax Free Shopping" refunds, distinguishing them
-                from traditional exchange houses.
+                The website was built to handle structured content, clear call-to-actions, and seamless user 
+                flows, supporting customers throughout their reservation journey while aligning with Travelex UAE’s
+                 established brand standards.
               </p>
             </div>
             <div className={styles.overviewStats}>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>370%</h3>
-                <p className={styles.statLabel}>Increase in Online Orders</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Responsive design across devices</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>200%</h3>
-                <p className={styles.statLabel}>Boost in Search Visibility</p>
+                <h3 className={styles.statValue}>3X</h3>
+                <p className={styles.statLabel}>Faster page loading time & performance</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>60+</h3>
-                <p className={styles.statLabel}>Currencies Available</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Improved user navigation flow</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FINAL RESULT SECTION */}
-      <section className={styles.finalResult}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <h2>
-              Final <span className={styles.highlight}>Result</span>
-            </h2>
-          </div>
-          <div className={styles.resultContent}>
-            <p>
-              We successfully positioned Travelex UAE as the go-to digital
-              platform for travel money. The new "Reserve Online, Pay on
-              Collection" workflow significantly reduced friction, while our SEO
-              efforts dominated terms like "Exchange Rates Dubai" and "Buy Euro
-              in UAE".
-            </p>
-            <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result1} alt="Travelex Website Interface" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result2} alt="Travelex Mobile Booking" />
-              </div>
-              <div className={`${styles.resultItem} width-100 sm-width-100`}>
-                <Image src={result3} alt="Travelex Mobile Booking" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result4} alt="Travelex Mobile Booking" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result5} alt="Travelex Mobile Booking" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
       <section className={styles.scope}>
         <div className={styles.container}>
           <div
@@ -175,10 +136,10 @@ export default function TravelAgencyCaseStudyPage() {
                   <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
                 </svg>
               </div>
-              <h3>Web Experience</h3>
+              <h3>Web Experience Design</h3>
               <p>
-                Optimized the "Click & Collect" user flow for selecting
-                currencies and finding the nearest store.
+                Designed a clear and intuitive user experience focused on simplifying currency selection, rate visibility, and store discovery, 
+                ensuring users can easily navigate the platform and understand the reservation process.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -197,10 +158,10 @@ export default function TravelAgencyCaseStudyPage() {
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <h3>SEO Strategy</h3>
+              <h3>Website Development</h3>
               <p>
-                Targeted high-volume keywords related to currency exchange rates
-                and travel money in Dubai and Abu Dhabi.
+                Developed a responsive, high-performance website with an integrated “Click & Collect” currency reservation system, allowing users
+                 to select currencies, enter quantities, and choose nearby branches seamlessly across devices.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -220,15 +181,52 @@ export default function TravelAgencyCaseStudyPage() {
                   <circle cx="5" cy="19" r="1"></circle>
                 </svg>
               </div>
-              <h3>Product Marketing</h3>
+              <h3>Technical Implementation</h3>
               <p>
-                Promoted niche services like "Tax Free Shopping" refunds and the
-                "Same Rate Guarantee" to build trust.
+                Implemented a secure, scalable, and maintainable codebase with thorough testing to ensure accuracy, performance 
+                stability, and reliable functionality of the reservation workflow in a live environment.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* FINAL RESULT SECTION */}
+      <section className={styles.finalResult}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <h2>
+              Final <span className={styles.highlight}>Result</span>
+            </h2>
+          </div>
+          <div className={styles.resultContent}>
+            <p>
+              The project delivered a structured and reliable digital platform that supports Travelex UAE’s online currency reservation process. The new “Reserve Online, Pay on Collection” workflow simplifies user interaction, improves clarity around currency
+               selection and pickup locations, and provides customers with a consistent and efficient experience across devices.
+            </p>
+            <div className={styles.resultGrid}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result1} alt="Travelex Website Interface" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result2} alt="Travelex Mobile Booking" />
+              </div>
+              <div className={`${styles.resultItem} width-100 sm-width-100`}>
+                <Image src={result3} alt="Travelex Mobile Booking" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result4} alt="Travelex Mobile Booking" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result5} alt="Travelex Mobile Booking" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SCOPE OF WORK */}
+      
 
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
@@ -238,11 +236,10 @@ export default function TravelAgencyCaseStudyPage() {
               The <span className={styles.highlight}>Challenge</span>
             </h2>
             <p>
-              Travelers often view currency exchange as a last-minute chore or
-              worry about high fees. Travelex needed to change this perception,
-              proving that booking online yields better rates and convenience.
-              Competing with established local exchange houses on "rates" alone
-              was tough; we needed to win on "trust" and "convenience".
+              Many travelers perceive currency exchange as a last-minute task, often associated with uncertainty around rates and fees. 
+              Travelex UAE needed a digital platform that could clearly communicate reliability, transparency, and ease of use. Competing
+               purely on exchange rates was not sustainable; the challenge was to build a trustworthy and convenient online reservation experience
+                that users could rely on with confidence.
             </p>
           </div>
         </div>
@@ -313,24 +310,7 @@ export default function TravelAgencyCaseStudyPage() {
         </div>
       </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "How does the online currency reservation work?",
-            a: "Simply select your currency and amount online, choose your nearest store (e.g., Dubai Airport), and pick it up. You pay when you collect, locking in the order rate.",
-          },
-          {
-            q: "What is the Same Rate Guarantee?",
-            a: "For a small fee, Travelex promises to buy back your leftover foreign currency at the exact same rate you bought it, protecting you from exchange rate fluctuations.",
-          },
-          {
-            q: "Where can I collect my ordered currency?",
-            a: "You can collect your currency at Travelex stores across the UAE, including all major terminals at Dubai International Airport, Abu Dhabi Airport, and Sharjah Airport.",
-          },
-        ]}
-      />
-
+     
       {/* GROWTH SECTION */}
       <section className={styles.growth}>
         <div className={styles.container}>

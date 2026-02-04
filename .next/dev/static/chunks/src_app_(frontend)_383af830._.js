@@ -62,7 +62,7 @@ __turbopack_context__.v({
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faquparrow.78e7c926.svg");}),
+__turbopack_context__.v("/_next/static/media/faquparrow.022e49f0.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faquparrow.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -85,7 +85,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/faqdownarrow.29b60f0d.svg");}),
+__turbopack_context__.v("/_next/static/media/faqdownarrow.b3690020.svg");}),
 "[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/icons/faqdownarrow.svg (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1610,77 +1610,9 @@ function CaseStudyDetailPage() {
                 lineNumber: 199,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$CommonFaqSection$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                faqs: [
-                    {
-                        q: "How did you handle the GPS integration?",
-                        a: "We used a unified API layer to ingest data from various GPS hardware providers and normalize it for our platform."
-                    },
-                    {
-                        q: "Is the application mobile responsive?",
-                        a: "Yes, the driver's interface is a PWA (Progressive Web App) designed to work offline and on mobile devices seamlessly."
-                    },
-                    {
-                        q: "What tech stack was used?",
-                        a: "We used React.js for the frontend, Node.js for real-time data streaming, and MongoDB for handling large datasets."
-                    }
-                ]
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                lineNumber: 230,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$casestudies$2f$caseStudyDetail$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].growth,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$casestudies$2f$caseStudyDetail$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].container,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$casestudies$2f$caseStudyDetail$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].growthContent,
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "mb-20",
-                                children: [
-                                    "Supporting ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$style$2f$casestudies$2f$caseStudyDetail$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].highlight,
-                                        children: "Business Growth"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                                        lineNumber: 251,
-                                        columnNumber: 46
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                                lineNumber: 251,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: '"The new tracking system has given us visibility we never had before. We\'ve reduced operational costs by 15% in just 6 months."'
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                                lineNumber: 252,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                        lineNumber: 250,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                    lineNumber: 249,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                lineNumber: 248,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$home$2f$CtaSection$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(frontend)/(pages)/case-studies/varsha-logistics/page.jsx",
-                lineNumber: 260,
+                lineNumber: 234,
                 columnNumber: 6
             }, this)
         ]

@@ -90,31 +90,7 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* FINAL RESULT SECTION */}
-      <section className={styles.finalResult}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <h2>Final <span className={styles.highlight}>Result</span></h2>
-          </div>
-          <div className={styles.resultContent}>
-            <p>
-              The final product is a powerful financial analytics tool. We delivered a data-rich, intuitive 
-              dashboard that empowers investors to analyze markets and manage portfolios with unprecedented ease.
-            </p>
-            <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-68 height-100 sm-width-100`}>
-                <Image src={result1} alt="Equence Dashboard" />
-              </div>
-              <div className={`${styles.resultItem} width-29 height-50 sm-width-100`}>
-                <Image src={result2} alt="Equence Form" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
-      <section className={styles.scope}>
+       <section className={styles.scope}>
         <div className={styles.container}>
           <div className={styles.sectionHeader} style={{ textAlign: "center", marginBottom: "50px" }}>
              <h2>Scope of <span className={styles.highlight}>Work</span></h2>
@@ -145,6 +121,32 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
+
+      {/* FINAL RESULT SECTION */}
+      <section className={styles.finalResult}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <h2>Final <span className={styles.highlight}>Result</span></h2>
+          </div>
+          <div className={styles.resultContent}>
+            <p>
+              The final product is a powerful financial analytics tool. We delivered a data-rich, intuitive 
+              dashboard that empowers investors to analyze markets and manage portfolios with unprecedented ease.
+            </p>
+            <div className={styles.resultGrid}>
+              <div className={`${styles.resultItem} width-68 height-100 sm-width-100`}>
+                <Image src={result1} alt="Equence Dashboard" />
+              </div>
+              <div className={`${styles.resultItem} width-29 height-50 sm-width-100`}>
+                <Image src={result2} alt="Equence Form" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SCOPE OF WORK */}
+     
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
         <div className={styles.container}>
@@ -216,24 +218,7 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "Is the app available on both iOS and Android?",
-            a: "Yes, we used React Native to deploy closely synchronized apps on both platforms."
-          },
-          {
-            q: "How secure is the financial data?",
-            a: "We use bank-grade encryption and do not store sensitive banking credentials directly."
-          },
-          {
-            q: "Can it integrate with other tools?",
-            a: "Yes, Equence has an API for enterprise clients to integrate with their internal systems."
-          }
-        ]}
-      />
-
+     
       {/* GROWTH SECTION */}
       <section className={styles.growth}>
         <div className={styles.container}>

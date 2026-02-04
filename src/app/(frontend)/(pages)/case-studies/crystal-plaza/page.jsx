@@ -2,11 +2,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/app/(frontend)/assets/style/casestudies/caseStudyDetail.module.css";
-import CommonFaqSection from "@/app/(frontend)/component/pages/common/CommonFaqSection";
 import CtaSection from "@/app/(frontend)/component/pages/home/CtaSection";
 
 // Import images (Using placeholders from cover-b for now)
-import heroMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-hero.png";
 import mobileMockup from "@/app/(frontend)/assets/images/casestudies/cover-b-mobile.png";
 import illustration3d from "@/app/(frontend)/assets/images/casestudies/cover-b-illustration.png";
 import result1 from "@/app/(frontend)/assets/images/casestudies/crystal-plaza-1.webp";
@@ -22,17 +20,17 @@ export default function HotelCaseStudyPage() {
     {
       title: "Discovery",
       content:
-        "We analyzed past data and performed a full audit of the website and business. We found critical technical issues on the website and identified that customer engagement on social media was very limited.",
+        "We collaborated with the Crystal Plaza Hotel team to understand their business objectives, guest expectations, brand positioning, and existing digital challenges. This phase helped define clear website goals, content priorities, and functional requirements before moving into design.",
     },
     {
       title: "Strategy",
       content:
-        "Developed a comprehensive plan focusing on fixing technical issues, implementing SEO best practices, and calculating a media mix of Meta Ads and Google Ads to target both business and leisure travelers.",
+        "Using the insights gathered, we designed and developed a responsive, user-focused website with clear navigation, structured content, and consistent visual language. The development process ensured smooth performance, cross-device compatibility, and a layout aligned with the hotel’s brand identity.",
     },
     {
       title: "Execution",
       content:
-        "Created local pages for each hotel property, launched email marketing campaigns for past guests, and established a strong social media presence with creative ads to drive engagement and bookings.",
+        "The completed website underwent thorough testing across multiple browsers and devices to ensure reliability, usability, and performance consistency. After final validations, the website was deployed with all pages fully functional and ready for ongoing updates and maintenance.",
     },
   ];
 
@@ -55,11 +53,10 @@ export default function HotelCaseStudyPage() {
                 </span>
               </div>
               <h1>Crystal Plaza Hotel</h1>
-              <h2>The Heart of Sharjah</h2>
+              <h2>Hotel in Sharjah</h2>
               <p>
-                Enhancing the digital footprint of Sharjah's premier hotel
-                destination, located minutes from Mega Mall and the Heritage
-                Museum.
+                Crystal Plaza Hotel is a centrally located hospitality property in Sharjah, 
+                positioned minutes away from Mega Mall and the Sharjah Heritage Museum.
               </p>
             </div>
             <div className={styles.heroImage}>
@@ -84,77 +81,36 @@ export default function HotelCaseStudyPage() {
           <div className={styles.overviewContent}>
             <div className={styles.overviewText}>
               <p>
-                Crystal Plaza Hotel, strategically positioned in the heart of
-                Sharjah, offers guests a blend of comfort and convenience. With
-                amenities like a state-of-the-art fitness center, international
-                dining, and easy access to cultural landmarks like Al Majaz
-                Park, they needed a digital presence that matched their physical
-                excellence.
+                Crystal Plaza Hotel required a website that accurately reflected its location, 
+                facilities, and guest experience while supporting its business objective of increasing 
+                direct engagement with potential guests. Although the hotel benefits from proximity to 
+                major attractions such as Al Majaz Park and is approximately 5.5 miles from Dubai International
+                 Airport, its existing digital presence did not effectively communicate these advantages.
               </p>
               <p>
-                Despite their prime location near Dubai International Airport
-                (5.5 miles away) and key attractions, they faced challenges in
-                distinguishing themselves in a competitive market and driving
-                direct bookings through their own channels.
+                The project focused on designing and developing a website that presents the hotel clearly and 
+                professionally, improves usability for visitors, and provides essential information in a structured 
+                and accessible manner.
               </p>
             </div>
             <div className={styles.overviewStats}>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>105%</h3>
-                <p className={styles.statLabel}>Increase in Direct Bookings</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Responsive design across devices</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>230%</h3>
-                <p className={styles.statLabel}>Boost in Website Traffic</p>
+                <h3 className={styles.statValue}>3X</h3>
+                <p className={styles.statLabel}>Faster page loading time & performance</p>
               </div>
               <div className={styles.statCard}>
-                <h3 className={styles.statValue}>5.2x</h3>
-                <p className={styles.statLabel}>ROAS on Ad Campaigns</p>
+                <h3 className={styles.statValue}>100%</h3>
+                <p className={styles.statLabel}>Improved user navigation flow</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FINAL RESULT SECTION */}
-      <section className={styles.finalResult}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <h2>
-              Final <span className={styles.highlight}>Result</span>
-            </h2>
-          </div>
-          <div className={styles.resultContent}>
-            <p>
-              We successfully transformed Crystal Plaza Hotel's digital
-              presence, achieving a 5.2x ROAS on paid campaigns and securing
-              first-page rankings for key commercial terms. The new global
-              website highlights their multi-cuisine restaurant and superior
-              amenities, driving a huge uptick in international and local
-              bookings.
-            </p>
-            <div className={styles.resultGrid}>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result1} alt="Crystal Plaza Website Result" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result2} alt="Crystal Plaza Mobile View" />
-              </div>
-              <div className={`${styles.resultItem} width-100 sm-width-100`}>
-                <Image src={result3} alt="Crystal Plaza Mobile View" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result4} alt="Crystal Plaza Mobile View" />
-              </div>
-              <div className={`${styles.resultItem} width-49 sm-width-100`}>
-                <Image src={result5} alt="Crystal Plaza Mobile View" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
       <section className={styles.scope}>
         <div className={styles.container}>
           <div
@@ -182,10 +138,9 @@ export default function HotelCaseStudyPage() {
                   <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
                 </svg>
               </div>
-              <h3>SEO & Content</h3>
+              <h3>Website Design</h3>
               <p>
-                Optimized content for local attractions like "Hotels near Mega
-                Mall" and "Stay in Heart of Sharjah".
+                Designed a clean, user-friendly interface reflecting the hotel’s comfort, location, and hospitality experience.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -204,10 +159,9 @@ export default function HotelCaseStudyPage() {
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <h3>Paid Advertising</h3>
+              <h3>Website Development</h3>
               <p>
-                Launched targeted campaigns for tourists visiting nearby
-                landmarks like Sharjah Heritage Museum.
+                Developed a responsive, high-performance website incorporating an integrated room enquiry and booking functionality, enabling users to view details and submit booking requests.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -227,16 +181,53 @@ export default function HotelCaseStudyPage() {
                   <circle cx="5" cy="19" r="1"></circle>
                 </svg>
               </div>
-              <h3>Social Media</h3>
+              <h3>Technical Implementation</h3>
               <p>
-                Promoted on-site amenities like the health club and continental
-                breakfast to increase engagement.
+                Implemented clean, maintainable code with thorough testing for stable and reliable deployment.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+
+      {/* FINAL RESULT SECTION */}
+      <section className={styles.finalResult}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <h2>
+              Final <span className={styles.highlight}>Result</span>
+            </h2>
+          </div>
+          <div className={styles.resultContent}>
+            <p>
+              The project resulted in a modern, well-structured website that significantly improved Crystal Plaza Hotel’s
+               digital presence. The new website clearly presents the hotel’s rooms, multi-cuisine dining options, and 
+               key amenities, making information easily accessible for both local and international visitors. 
+            </p>
+            <div className={styles.resultGrid}>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result1} alt="Crystal Plaza Website Result" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result2} alt="Crystal Plaza Mobile View" />
+              </div>
+              <div className={`${styles.resultItem} width-100 sm-width-100`}>
+                <Image src={result3} alt="Crystal Plaza Mobile View" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result4} alt="Crystal Plaza Mobile View" />
+              </div>
+              <div className={`${styles.resultItem} width-49 sm-width-100`}>
+                <Image src={result5} alt="Crystal Plaza Mobile View" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SCOPE OF WORK */}
+      
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
         <div className={styles.container}>
@@ -245,11 +236,10 @@ export default function HotelCaseStudyPage() {
               The <span className={styles.highlight}>Challenge</span>
             </h2>
             <p>
-              Crystal Plaza Hotel needed to stand out in the dense Sharjah
-              hospitality market. Potential guests were often unaware of its
-              prime proximity to cultural sites and shopping hubs like Rolla
-              Mall. The challenge was to communicate this convenience and their
-              superior service quality to meaningful digital conversions.
+              Crystal Plaza Hotel required a website that could clearly differentiate it within Sharjah’s 
+              competitive hospitality landscape. Many visitors were unaware of the hotel’s central location 
+              near cultural landmarks and shopping destinations such as Rolla Mall. The challenge was to present 
+              this information clearly and consistently through a well-structured digital platform.
             </p>
           </div>
         </div>
@@ -283,68 +273,8 @@ export default function HotelCaseStudyPage() {
         </div>
       </section>
 
-      {/* SOLUTION SECTIONS */}
-      <section className={styles.solution}>
-        <div className={styles.container}>
-          {/* Solution 1 */}
-          <div className={styles.zSection}>
-            <div className={styles.zText}>
-              <h3>Highlighting Local Experience</h3>
-              <p>
-                We revamped the website content to focus on the "Sharjah
-                Experience," highlighting the hotel's closeness to the
-                Waterfront Market and Al Shaab Village. This local SEO strategy
-                positioned Crystal Plaza as the ideal base for exploring the
-                emirate.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image src={mobileMockup} alt="SEO Optimization Strategy" />
-            </div>
-          </div>
 
-          {/* Solution 2 */}
-          <div className={`${styles.zSection} ${styles.reverse}`}>
-            <div className={styles.zText}>
-              <h3>Amenities Focus</h3>
-              <p>
-                We spotlighted key facilities effectively: the 24-hour room
-                service, free Wi-Fi, and the versatile multi-cuisine restaurant
-                serving Indian, Middle Eastern, and Russian dishes. This
-                directly appealed to diverse traveler demographics.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image
-                src={illustration3d}
-                alt="Marketing Strategy Illustration"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "Where is Crystal Plaza Hotel located?",
-            a: "Crystal Plaza Hotel is located in the heart of Sharjah, just minutes away from Mega Mall, Sharjah Heritage Museum, and the Gold Souk.",
-          },
-          {
-            q: "What dining options are available?",
-            a: "The hotel features an on-site restaurant serving a wide variety of cuisines including Indian, Middle Eastern, Russian, Asian, and International dishes.",
-          },
-          {
-            q: "Does the hotel offer parking?",
-            a: "Crystal Plaza Hotel does not have on-site parking facilities, but our team can assist guests with nearby parking options.",
-          },
-          {
-            q: "Is there an airport shuttle service?",
-            a: "Yes, we provide an airport shuttle service for the convenience of our guests to and from nearby airports including Dubai International Airport (5.5 miles away).",
-          },
-        ]}
-      />
+     
 
       {/* GROWTH SECTION */}
       <section className={styles.growth}>
@@ -354,8 +284,8 @@ export default function HotelCaseStudyPage() {
               Client <span className={styles.highlight}>Review</span>
             </h2>
             <p>
-              "The BrandStory team is truly genius, they helped us gain 5X
-              bookings in just 4 months. They helped us dominate the market!"
+              "Working with BrandStory was a smooth experience from start to finish. The team understood our requirements 
+              clearly and delivered a website that represents our hotel well and is easy for our guests to use."
             </p>
             <p
               style={{
@@ -364,7 +294,7 @@ export default function HotelCaseStudyPage() {
                 fontSize: "0.9rem",
               }}
             >
-              — Crystal Plaza Management
+              — Crystal Plaza Team
             </p>
           </div>
         </div>

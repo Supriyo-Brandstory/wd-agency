@@ -93,6 +93,38 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
+            {/* SCOPE OF WORK */}
+      <section className={styles.scope}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader} style={{ textAlign: "center", marginBottom: "50px" }}>
+             <h2>Scope of <span className={styles.highlight}>Work</span></h2>
+          </div>
+          <div className={styles.scopeGrid}>
+            <div className={styles.scopeCard}>
+              <div className={styles.iconWrapper}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+              </div>
+              <h3>Brand Experience</h3>
+              <p>Translating the physical tranquility of the center into the digital color scheme and layout.</p>
+            </div>
+            <div className={styles.scopeCard}>
+              <div className={styles.iconWrapper}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3>Content Management</h3>
+              <p>Structuring vast amounts of health content into an navigable and SEO-friendly wiki style.</p>
+            </div>
+            <div className={styles.scopeCard}>
+              <div className={styles.iconWrapper}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+              </div>
+              <h3>Booking Engine</h3>
+              <p>Implementing a simple, stress-free booking flow for appointments and longer retreats.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FINAL RESULT SECTION */}
       <section className={styles.finalResult}>
         <div className={styles.container}>
@@ -125,37 +157,7 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* SCOPE OF WORK */}
-      <section className={styles.scope}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader} style={{ textAlign: "center", marginBottom: "50px" }}>
-             <h2>Scope of <span className={styles.highlight}>Work</span></h2>
-          </div>
-          <div className={styles.scopeGrid}>
-            <div className={styles.scopeCard}>
-              <div className={styles.iconWrapper}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
-              </div>
-              <h3>Brand Experience</h3>
-              <p>Translating the physical tranquility of the center into the digital color scheme and layout.</p>
-            </div>
-            <div className={styles.scopeCard}>
-              <div className={styles.iconWrapper}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-              </div>
-              <h3>Content Management</h3>
-              <p>Structuring vast amounts of health content into an navigable and SEO-friendly wiki style.</p>
-            </div>
-            <div className={styles.scopeCard}>
-              <div className={styles.iconWrapper}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
-              </div>
-              <h3>Booking Engine</h3>
-              <p>Implementing a simple, stress-free booking flow for appointments and longer retreats.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
@@ -197,54 +199,9 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* SOLUTION SECTIONS */}
-      <section className={styles.solution}>
-        <div className={styles.container}>
-          <div className={styles.zSection}>
-            <div className={styles.zText}>
-              <h3>Serene Mobile Experience</h3>
-              <p>
-                Knowing many users search for wellness on their phones, we prioritized a mobile experience 
-                that feels like a breath of fresh air—uncluttered, fast, and calming.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image src={mobileMockup} alt="Mobile Wellness App" />
-            </div>
-          </div>
 
-          <div className={`${styles.zSection} ${styles.reverse}`}>
-            <div className={styles.zText}>
-              <h3>Program Finder</h3>
-              <p>
-                We built a dynamic filter that helps users find the right wellness program based on their 
-                needs (e.g., detox, weight loss, stress management), guiding them to the right solution.
-              </p>
-            </div>
-            <div className={styles.zImage}>
-              <Image src={illustration3d} alt="Program Finder Illustration" />
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "Who provides the content?",
-            a: "All medical and wellness content is vetted by Kshemavana's expert doctors before publishing."
-          },
-          {
-            q: "Can I book appointments online?",
-            a: "Yes, the site features a full calendar system for real-time booking."
-          },
-          {
-            q: "Is patient data secure?",
-            a: "We adhere to strict privacy standards to ensure all patient inquiries are kept confidential."
-          }
-        ]}
-      />
+      
 
       {/* GROWTH SECTION */}
       <section className={styles.growth}>

@@ -226,35 +226,9 @@ export default function CaseStudyDetailPage() {
         </div>
       </section>
 
-      {/* FAQ SECTION */}
-      <CommonFaqSection
-        faqs={[
-          {
-            q: "How did you handle the GPS integration?",
-            a: "We used a unified API layer to ingest data from various GPS hardware providers and normalize it for our platform."
-          },
-          {
-            q: "Is the application mobile responsive?",
-            a: "Yes, the driver's interface is a PWA (Progressive Web App) designed to work offline and on mobile devices seamlessly."
-          },
-          {
-            q: "What tech stack was used?",
-            a: "We used React.js for the frontend, Node.js for real-time data streaming, and MongoDB for handling large datasets."
-          }
-        ]}
-      />
+      
 
-      {/* GROWTH SECTION */}
-      <section className={styles.growth}>
-        <div className={styles.container}>
-          <div className={styles.growthContent}>
-            <h2 className="mb-20">Supporting <span className={styles.highlight}>Business Growth</span></h2>
-            <p>
-              "The new tracking system has given us visibility we never had before. We've reduced operational costs by 15% in just 6 months."
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* CTA SECTION */}
      <CtaSection />
