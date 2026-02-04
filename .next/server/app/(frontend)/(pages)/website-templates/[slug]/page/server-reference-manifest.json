@@ -1,0 +1,50 @@
+{
+  "node": {
+    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+      "workers": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "70f4a1ddf0a91c04b17e0b97ab251e8466b849f89d": {
+      "workers": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getTemplatesPaginated",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser"
+      },
+      "exportedName": "getTemplatesPaginated",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "0058980140333f49c46584740c8a337f1da1718d4a": {
+      "workers": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 11423,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "action-browser"
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

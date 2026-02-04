@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40acc64ca4633e8f782ae87ce2fb050c526a899a79": {
+      "workers": {
+        "app/(frontend)/(pages)/case-studies/leru-remote/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/case-studies/leru-remote/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/case-studies/leru-remote/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

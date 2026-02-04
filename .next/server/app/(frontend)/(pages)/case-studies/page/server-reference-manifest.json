@@ -1,0 +1,20 @@
+{
+  "node": {
+    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+      "workers": {
+        "app/(frontend)/(pages)/case-studies/page": {
+          "moduleId": 58784,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/case-studies/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

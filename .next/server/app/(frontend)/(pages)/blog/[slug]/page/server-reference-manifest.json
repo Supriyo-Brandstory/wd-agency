@@ -1,0 +1,80 @@
+{
+  "node": {
+    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "40c0e073bc33beb207d147b36398bb50dacd06c322": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getBlogBySlug",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "exportedName": "getBlogBySlug",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "40a7be4ba7d411e013a05103e0cd242bd478736608": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    },
+    "601879f1c1a8fdbfdcc05989b8bf59119a4a41757c": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "getEnquiries",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "exportedName": "getEnquiries",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    },
+    "407e4ce552562c87b66354cc0dbf62998d9a6a23a0": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 46265,
+          "async": false,
+          "exportedName": "deleteEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/[slug]/page": "action-browser"
+      },
+      "exportedName": "deleteEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

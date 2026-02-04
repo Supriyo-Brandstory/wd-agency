@@ -1,0 +1,50 @@
+{
+  "node": {
+    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+      "workers": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "404ef3ff8c93a313de4ed7b283f20c60649963f4f0": {
+      "workers": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "getTemplateBySlug",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser"
+      },
+      "exportedName": "getTemplateBySlug",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40a7be4ba7d411e013a05103e0cd242bd478736608": {
+      "workers": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 44164,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+      "workers": {
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": 70574,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "40a7be4ba7d411e013a05103e0cd242bd478736608": {
+      "workers": {
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": 70574,
+          "async": false,
+          "exportedName": "createEnquiry",
+          "filename": "src/app/admin/dashboard/enquiry/action.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/portfolio-web-development/page": "action-browser"
+      },
+      "exportedName": "createEnquiry",
+      "filename": "src/app/admin/dashboard/enquiry/action.js"
+    }
+  },
+  "edge": {}
+}

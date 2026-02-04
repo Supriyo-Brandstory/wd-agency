@@ -1,0 +1,80 @@
+{
+  "node": {
+    "4035700fb4c0919154134e1568aec37545c8d0ce6d": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "createBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "createBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "407f99c1117c0871cc39d25ea85bab26df436e10c4": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "updateBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "updateBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "40dba07e277994c9ad5b0e65fd0bed34c108232a91": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "deleteBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "deleteBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "007abbe694788d014529e4007f5be73338d702fb15": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "getBlogs",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "00d78aabaf19fef95efacf580118b7b2455d29a5db": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 37645,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog/page": "action-browser"
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}

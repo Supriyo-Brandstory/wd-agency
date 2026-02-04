@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(frontend)/layout,_N_T_/(frontend)/(pages)/layout,_N_T_/(frontend)/(pages)/website-templates/layout,_N_T_/(frontend)/(pages)/website-templates/page,_N_T_/website-templates"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/website-templates/__PAGE__",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ/website-templates",
+    "/!KGZyb250ZW5kKQ/!KHBhZ2VzKQ",
+    "/!KGZyb250ZW5kKQ",
+    "/_index",
+    "/_head"
+  ]
+}
