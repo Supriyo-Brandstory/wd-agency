@@ -19,8 +19,10 @@ const awards = [
   { img: topinteractiveImg, alt: "Top Interactive Agencies" },
   { img: manifestImg, alt: "The Manifest Top Agency" },
   { img: trustpilotImg, alt: "Trustpilot Rated" },
-  { img: drumImg, alt: "The Drum Recommended" },
-  { img: nominetImg, alt: "Nominet Registrar" },
+  { img: clutchImg, alt: "Clutch Recognized" },
+  { img: topinteractiveImg, alt: "Top Interactive Agencies" },
+  { img: manifestImg, alt: "The Manifest Top Agency" },
+  { img: trustpilotImg, alt: "Trustpilot Rated" },
 ];
 
 const PremierAgency = () => {
@@ -65,7 +67,12 @@ const PremierAgency = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <LogoScroller logos={repeatedAwards} speed={40} direction="left" />
+            <LogoScroller
+              logos={repeatedAwards}
+              speed={80}
+              direction="left"
+              logoHeight={70}
+            />
           </motion.div>
           <motion.h4
             className={styles.subTitle}

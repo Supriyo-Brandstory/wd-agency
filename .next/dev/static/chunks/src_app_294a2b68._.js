@@ -5794,7 +5794,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/app/(frontend)/assets/images/casestudies/leru-partners-3.webp (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/leru-partners-3.8195ad85.webp");}),
+__turbopack_context__.v("/_next/static/media/leru-partners-3.3793aa3e.webp");}),
 "[project]/src/app/(frontend)/assets/images/casestudies/leru-partners-3.webp.mjs { IMAGE => \"[project]/src/app/(frontend)/assets/images/casestudies/leru-partners-3.webp (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -5810,7 +5810,7 @@ const __TURBOPACK__default__export__ = {
     height: 940,
     blurWidth: 8,
     blurHeight: 3,
-    blurDataURL: "data:image/webp;base64,UklGRrYAAABXRUJQVlA4TKkAAAAvB4AAEM1VICICHgiwCQAAAIBdHAAcFADA8QAAAiAAAAAAAAAAAAAAAABAAAAAAADgADh4gB4AAMAD2cgBAAAAOP8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP3VA9nIAQAAADj/3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYN7JwzmtY79hTCNCKrnuXK/Yf4Ivt3xprs1UBAA=="
+    blurDataURL: "data:image/webp;base64,UklGRq4AAABXRUJQVlA4TKIAAAAvB4AAEM1VICICHgiGCQAAAIAdALoD4EgAABAA4AAHAQAAAAAAAAAAAAAQAEAAAAAAAAAQ4A4AADyQjRwAAACA888MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8E49kE0AAAAAgPPfAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAiP/CeK/ly3yVArQqdMwta8WVtAAU="
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
@@ -12170,8 +12170,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
  * @param {Array} logos - Array of logo objects with { src, alt } properties
  * @param {String} direction - 'left' or 'right' (default: 'left')
  * @param {Number} speed - Animation duration in seconds (default: 30)
+ * @param {Number} logoHeight - Max height for logos in pixels (default: 40)
  * @param {String} className - Additional CSS classes
- */ const LogoScroller = ({ logos = [], direction = "left", speed = 30, className = "" })=>{
+ */ const LogoScroller = ({ logos = [], direction = "left", speed = 30, logoHeight = 40, className = "" })=>{
     // Duplicate logos for seamless infinite scroll
     const duplicatedLogos = [
         ...logos,
@@ -12179,6 +12180,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `logo-scroller-container ${className}`,
+        style: {
+            "--logo-height": `${logoHeight}px`
+        },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: `logo-scroller ${direction === "right" ? "reverse" : ""}`,
             style: {
@@ -12195,22 +12199,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
                         loading: "lazy"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(frontend)/component/pages/common/LogoScroller.jsx",
-                        lineNumber: 33,
+                        lineNumber: 38,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 }, index, false, {
                     fileName: "[project]/src/app/(frontend)/component/pages/common/LogoScroller.jsx",
-                    lineNumber: 32,
+                    lineNumber: 37,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)))
         }, void 0, false, {
             fileName: "[project]/src/app/(frontend)/component/pages/common/LogoScroller.jsx",
-            lineNumber: 27,
+            lineNumber: 32,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/app/(frontend)/component/pages/common/LogoScroller.jsx",
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -12417,12 +12421,20 @@ const awards = [
         alt: "Trustpilot Rated"
     },
     {
-        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$drum$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$drum$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-        alt: "The Drum Recommended"
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$clutch$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$clutch$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+        alt: "Clutch Recognized"
     },
     {
-        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$nominet$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$nominet$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-        alt: "Nominet Registrar"
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$topinteractive$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$topinteractive$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+        alt: "Top Interactive Agencies"
+    },
+    {
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$manifest$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$manifest$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+        alt: "The Manifest Top Agency"
+    },
+    {
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$trustpilot$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f28$frontend$292f$assets$2f$images$2f$awards$2f$trustpilot$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+        alt: "Trustpilot Rated"
     }
 ];
 const PremierAgency = ()=>{
@@ -12463,7 +12475,7 @@ const PremierAgency = ()=>{
                             children: "Premier Web Design Company in Dubai, UAE"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                            lineNumber: 38,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -12486,13 +12498,13 @@ const PremierAgency = ()=>{
                             children: "Our work speaks for itself. Endorsed by industry leaders, Website Development Agency is recognized as an elite web design agency in Dubai, UAE, delivering high-impact digital experiences for the UAE’s most ambitious brands."
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                            lineNumber: 47,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                    lineNumber: 37,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12514,16 +12526,17 @@ const PremierAgency = ()=>{
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$frontend$292f$component$2f$pages$2f$common$2f$LogoScroller$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 logos: repeatedAwards,
-                                speed: 40,
-                                direction: "left"
+                                speed: 80,
+                                direction: "left",
+                                logoHeight: 70
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                                lineNumber: 68,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                            lineNumber: 62,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h4, {
@@ -12544,24 +12557,24 @@ const PremierAgency = ()=>{
                             children: "🏆 Recognized by Leading Industry Platforms for Web Design Excellence"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                            lineNumber: 70,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-                    lineNumber: 61,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-            lineNumber: 36,
+            lineNumber: 38,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/app/(frontend)/component/pages/common/PremierAgency.jsx",
-        lineNumber: 35,
+        lineNumber: 37,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

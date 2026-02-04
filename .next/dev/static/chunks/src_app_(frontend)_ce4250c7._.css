@@ -3060,13 +3060,13 @@
 }
 
 .client-logo {
+  max-width: 100%;
+  max-height: var(--logo-height, 40px);
   object-fit: contain;
   filter: grayscale() brightness(.9);
   opacity: .8;
   width: auto;
-  max-width: 100%;
   height: auto;
-  max-height: 40px;
   transition: opacity .3s;
 }
 
