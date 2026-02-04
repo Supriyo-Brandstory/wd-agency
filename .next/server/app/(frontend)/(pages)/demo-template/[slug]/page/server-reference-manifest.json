@@ -1,6 +1,6 @@
 {
   "node": {
-    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+    "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 44164,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "404ef3ff8c93a313de4ed7b283f20c60649963f4f0": {
+    "4056707c1a914e2a10e50e952c1b0df4edfc2e92db": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 44164,
@@ -30,7 +30,7 @@
       "exportedName": "getTemplateBySlug",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "40a7be4ba7d411e013a05103e0cd242bd478736608": {
+    "4095eb58accfab03de749ba2399ff7f62efcebe8df": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 44164,

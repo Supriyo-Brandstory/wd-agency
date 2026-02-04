@@ -1,6 +1,6 @@
 {
   "node": {
-    "4035700fb4c0919154134e1568aec37545c8d0ce6d": {
+    "40aaf14c5efaf7404d8aac997ae22fbbdf29d7b8a9": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -15,7 +15,7 @@
       "exportedName": "createBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "407f99c1117c0871cc39d25ea85bab26df436e10c4": {
+    "40e7d4458de668a731ce59075478fec721c94b8cc4": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -30,7 +30,7 @@
       "exportedName": "updateBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "40dba07e277994c9ad5b0e65fd0bed34c108232a91": {
+    "40976cbf7d7069be388a69ca2052c01621f5a67065": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -45,7 +45,7 @@
       "exportedName": "deleteBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "007abbe694788d014529e4007f5be73338d702fb15": {
+    "00b623f6bba73119fe6d27f679740d0beced12e8f7": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,
@@ -60,7 +60,7 @@
       "exportedName": "getBlogs",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "00d78aabaf19fef95efacf580118b7b2455d29a5db": {
+    "004bf725d7eba9d26daf61006943a2b1c5be3896c9": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 37645,

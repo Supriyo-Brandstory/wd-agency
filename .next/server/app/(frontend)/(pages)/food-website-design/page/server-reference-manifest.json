@@ -1,6 +1,6 @@
 {
   "node": {
-    "405a7b1b9aa9aa08be2342d5174f60b8075f7eaa96": {
+    "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/food-website-design/page": {
           "moduleId": 58962,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00fe528709571ededbd4dcd130f2b0484df380e11e": {
+    "0006a05f6ad16c2c55a2deb0bacf20aa635aca89d8": {
       "workers": {
         "app/(frontend)/(pages)/food-website-design/page": {
           "moduleId": 58962,
@@ -30,7 +30,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "0058980140333f49c46584740c8a337f1da1718d4a": {
+    "0090315e5b44c84655442138d46f7605200dbb7b43": {
       "workers": {
         "app/(frontend)/(pages)/food-website-design/page": {
           "moduleId": 58962,
