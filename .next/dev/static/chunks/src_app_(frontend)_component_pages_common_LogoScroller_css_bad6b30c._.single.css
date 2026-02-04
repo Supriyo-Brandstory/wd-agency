@@ -1,0 +1,119 @@
+/* [project]/src/app/(frontend)/component/pages/common/LogoScroller.css [app-client] (css) */
+.logo-scroller-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-scroller {
+  will-change: transform;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  animation: 30s linear infinite scrollLeft;
+  display: flex;
+}
+
+.logo-scroller.reverse {
+  animation: 30s linear infinite scrollRight;
+}
+
+.logo-wrap {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  height: 80px;
+  padding: 1rem 2rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.logo-wrap:hover {
+  background: #ffffff1a;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px #0000004d;
+}
+
+.client-logo {
+  object-fit: contain;
+  filter: grayscale() brightness(.9);
+  opacity: .8;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 40px;
+  transition: opacity .3s;
+}
+
+.logo-wrap:hover .client-logo {
+  opacity: 1;
+}
+
+.logo-scroller-container:hover .logo-scroller {
+  animation-play-state: paused;
+}
+
+.logo-wrap:hover .client-logo {
+  filter: none;
+  opacity: 1;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-scroller {
+    gap: 2rem;
+  }
+
+  .logo-wrap {
+    min-width: 140px;
+    height: 80px;
+    padding: .75rem 1.5rem;
+  }
+
+  .client-logo {
+    max-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-scroller {
+    gap: 1.5rem;
+  }
+
+  .logo-wrap {
+    min-width: 120px;
+    height: 70px;
+    padding: .5rem 1rem;
+  }
+
+  .client-logo {
+    max-height: 40px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_component_pages_common_LogoScroller_css_bad6b30c._.single.css.map*/

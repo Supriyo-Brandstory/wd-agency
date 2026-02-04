@@ -24,32 +24,32 @@ const ClientSection = () => {
       alt: "Our beloved client - ALP Consulting",
     },
     {
-      src: "/assets/images/clients/logo-5.png",
-      alt: "Our beloved client - International Centre for Culinary Arts Dubai",
+      src: "/assets/images/clients/leru-partners.png",
+      alt: "Our beloved client - Leru Partners",
     },
     {
-      src: "/assets/images/clients/logo-6.png",
-      alt: "Our beloved client - MySyara",
+      src: "/assets/images/clients/leru-remote.png",
+      alt: "Our beloved client - Leru Remotelabs",
     },
     {
-      src: "/assets/images/clients/logo-7.png",
-      alt: "Our beloved client - TAKELEAP",
+      src: "/assets/images/clients/mercedes-benz.png",
+      alt: "Our beloved client - Mercedes-Benz",
     },
   ];
 
   // Second row of logos
   const logosRow2 = [
     {
-      src: "/assets/images/clients/logo-8.png",
-      alt: "Our beloved client - Sherpa Communications",
+      src: "/assets/images/clients/nestle.png",
+      alt: "Our beloved client - Nestle",
     },
     {
-      src: "/assets/images/clients/logo-9.png",
-      alt: "Our beloved client - FourNext",
+      src: "/assets/images/clients/travelx.png",
+      alt: "Our beloved client - TravelX",
     },
     {
-      src: "/assets/images/clients/logo-10.png",
-      alt: "Our beloved client - Spectrum Accounts",
+      src: "/assets/images/clients/wipro.png",
+      alt: "Our beloved client - Wipro",
     },
     {
       src: "/assets/images/clients/logo-11.png",

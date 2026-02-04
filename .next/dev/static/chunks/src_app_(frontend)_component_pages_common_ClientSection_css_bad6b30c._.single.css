@@ -1,0 +1,97 @@
+/* [project]/src/app/(frontend)/component/pages/common/ClientSection.css [app-client] (css) */
+.client-section {
+  padding: 100px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    opacity: .5;
+  }
+
+  50% {
+    opacity: .8;
+  }
+}
+
+.client-section .container-fluid {
+  z-index: 1;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.client-section .section-title {
+  text-transform: capitalize;
+  letter-spacing: -.5px;
+  width: 100%;
+  margin-bottom: 3rem;
+  display: inline-block;
+  position: relative;
+}
+
+.client-section .section-title:after {
+  content: "";
+  background: linear-gradient(90deg, #0000, #6366f1, #0000);
+  border-radius: 2px;
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.client-section .section-title:before {
+  content: attr(data-text);
+  background: linear-gradient(90deg, #6366f1, #8b5cf6, #6366f1);
+  -webkit-text-fill-color: transparent;
+  opacity: .3;
+  filter: blur(10px);
+  z-index: -1;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1200px) {
+  .client-section {
+    padding: 80px 0;
+  }
+
+  .client-section .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-section {
+    padding: 60px 0;
+  }
+
+  .client-section .section-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .client-section .container-fluid {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .client-section {
+    padding: 40px 0;
+  }
+
+  .client-section .section-title {
+    font-size: 1.75rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_component_pages_common_ClientSection_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40ca7d135157d833986878ba38baeb41e85b9d0485": {
+      "workers": {
+        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
+          "moduleId": "[project]/.next-internal/server/app/(frontend)/(pages)/case-studies/crystal-plaza/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/dashboard/seo/actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

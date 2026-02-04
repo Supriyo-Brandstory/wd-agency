@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/website-development-in-fujairah/page.js")
 R.c("server/chunks/ssr/src_app_(frontend)_efdbcd9a._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ff72f163._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6af8e21a._.js")
 R.c("server/chunks/ssr/_03082466._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")

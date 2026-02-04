@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/therapist-website-design/page.js")
 R.c("server/chunks/ssr/[root-of-the-server]__9f593dcb._.js")
-R.c("server/chunks/ssr/src_app_(frontend)_9f65b124._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_79066ee0._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")
