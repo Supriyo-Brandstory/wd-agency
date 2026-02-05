@@ -16,5 +16,5 @@ R.c("server/chunks/ssr/_e07b7a03._.js")
 R.c("server/chunks/ssr/_e764dfb7._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__f994fa0d._.js")
 R.c("server/chunks/ssr/_8fbc18e4._.js")
-R.m(67589)
-module.exports=R.m(67589).exports
+R.m(867589)
+module.exports=R.m(867589).exports

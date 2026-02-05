@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/cover-b-website/page": {
-          "moduleId": 33204,
+          "moduleId": 333204,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"

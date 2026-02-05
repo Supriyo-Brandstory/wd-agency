@@ -3,7 +3,7 @@
     "00538922c6e79746bb5d73a5f2d9aba2db328fe9ae": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
-          "moduleId": 44521,
+          "moduleId": 144521,
           "async": false,
           "exportedName": "getSitemap",
           "filename": "src/app/admin/dashboard/sitemap/actions.js"
@@ -18,7 +18,7 @@
     "400009c66f434df18df9049c02eac6c48b62ec3046": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
-          "moduleId": 44521,
+          "moduleId": 144521,
           "async": false,
           "exportedName": "updateSitemap",
           "filename": "src/app/admin/dashboard/sitemap/actions.js"

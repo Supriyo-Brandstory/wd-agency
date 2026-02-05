@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/platforms/react-js-website-development/page": {
-          "moduleId": 71534,
+          "moduleId": 271534,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"

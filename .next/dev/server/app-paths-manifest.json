@@ -1,0 +1,9 @@
+{
+  "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
+  "/(frontend)/(pages)/education-website-design/page": "app/(frontend)/(pages)/education-website-design/page.js",
+  "/(frontend)/(pages)/electrician-website-design/page": "app/(frontend)/(pages)/electrician-website-design/page.js",
+  "/(frontend)/(pages)/energy-website-design/page": "app/(frontend)/(pages)/energy-website-design/page.js",
+  "/(frontend)/(pages)/enterprise-website-design/page": "app/(frontend)/(pages)/enterprise-website-design/page.js",
+  "/(frontend)/(pages)/entertainment-website-design/page": "app/(frontend)/(pages)/entertainment-website-design/page.js",
+  "/(frontend)/(pages)/events-website-design/page": "app/(frontend)/(pages)/events-website-design/page.js"
+}

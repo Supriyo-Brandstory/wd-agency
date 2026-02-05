@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/electrician-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__726f78f6._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__9cd8e8b6._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_4d1967f5._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
@@ -17,5 +17,5 @@ R.c("server/chunks/ssr/[root-of-the-server]__369eea56._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__a71d61c1._.js")
 R.c("server/chunks/ssr/_8fbc18e4._.js")
 R.c("server/chunks/ssr/node_modules_next_b5b87ce8._.js")
-R.m(73845)
-module.exports=R.m(73845).exports
+R.m(673845)
+module.exports=R.m(673845).exports

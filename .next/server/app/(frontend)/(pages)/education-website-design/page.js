@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/education-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ffe59229._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__de159205._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_9dea5dc5._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
@@ -17,5 +17,5 @@ R.c("server/chunks/ssr/[root-of-the-server]__3d8eb0d0._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__a71d61c1._.js")
 R.c("server/chunks/ssr/_8fbc18e4._.js")
 R.c("server/chunks/ssr/node_modules_next_b5b87ce8._.js")
-R.m(92994)
-module.exports=R.m(92994).exports
+R.m(892994)
+module.exports=R.m(892994).exports

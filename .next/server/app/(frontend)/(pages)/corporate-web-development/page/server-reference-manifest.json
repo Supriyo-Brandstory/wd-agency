@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/corporate-web-development/page": {
-          "moduleId": 82124,
+          "moduleId": 282124,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -18,7 +18,7 @@
     "4095eb58accfab03de749ba2399ff7f62efcebe8df": {
       "workers": {
         "app/(frontend)/(pages)/corporate-web-development/page": {
-          "moduleId": 82124,
+          "moduleId": 282124,
           "async": false,
           "exportedName": "createEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/energy-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__4b861790._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__d3ff25f5._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_cdc43314._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
@@ -17,5 +17,5 @@ R.c("server/chunks/ssr/[root-of-the-server]__9ec17eac._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__a71d61c1._.js")
 R.c("server/chunks/ssr/_8fbc18e4._.js")
 R.c("server/chunks/ssr/node_modules_next_b5b87ce8._.js")
-R.m(56071)
-module.exports=R.m(56071).exports
+R.m(456071)
+module.exports=R.m(456071).exports

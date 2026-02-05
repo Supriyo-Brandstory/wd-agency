@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
-          "moduleId": 34665,
+          "moduleId": 434665,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -18,7 +18,7 @@
     "00b623f6bba73119fe6d27f679740d0beced12e8f7": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
-          "moduleId": 34665,
+          "moduleId": 434665,
           "async": false,
           "exportedName": "getBlogs",
           "filename": "src/app/admin/dashboard/blog/actions.js"

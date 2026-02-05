@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 46265,
+          "moduleId": 546265,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -18,7 +18,7 @@
     "40d0493c765b15cf7773ed99bc81682db8c714f698": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 46265,
+          "moduleId": 546265,
           "async": false,
           "exportedName": "getBlogBySlug",
           "filename": "src/app/admin/dashboard/blog/actions.js"
@@ -33,7 +33,7 @@
     "4095eb58accfab03de749ba2399ff7f62efcebe8df": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 46265,
+          "moduleId": 546265,
           "async": false,
           "exportedName": "createEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"
@@ -48,7 +48,7 @@
     "606851d066fbfceb56054afcb61c6456f627fc71bb": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 46265,
+          "moduleId": 546265,
           "async": false,
           "exportedName": "getEnquiries",
           "filename": "src/app/admin/dashboard/enquiry/action.js"
@@ -63,7 +63,7 @@
     "40573598b25748298e4c681f41ddb07117515e1c66": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 46265,
+          "moduleId": 546265,
           "async": false,
           "exportedName": "deleteEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"

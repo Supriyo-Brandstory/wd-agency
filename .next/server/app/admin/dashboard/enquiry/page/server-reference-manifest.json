@@ -3,7 +3,7 @@
     "606851d066fbfceb56054afcb61c6456f627fc71bb": {
       "workers": {
         "app/admin/dashboard/enquiry/page": {
-          "moduleId": 83179,
+          "moduleId": 883179,
           "async": false,
           "exportedName": "getEnquiries",
           "filename": "src/app/admin/dashboard/enquiry/action.js"
@@ -18,7 +18,7 @@
     "40573598b25748298e4c681f41ddb07117515e1c66": {
       "workers": {
         "app/admin/dashboard/enquiry/page": {
-          "moduleId": 83179,
+          "moduleId": 883179,
           "async": false,
           "exportedName": "deleteEnquiry",
           "filename": "src/app/admin/dashboard/enquiry/action.js"

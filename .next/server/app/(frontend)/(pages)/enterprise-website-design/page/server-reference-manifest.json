@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/enterprise-website-design/page": {
-          "moduleId": 28984,
+          "moduleId": 928984,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -18,7 +18,7 @@
     "0006a05f6ad16c2c55a2deb0bacf20aa635aca89d8": {
       "workers": {
         "app/(frontend)/(pages)/enterprise-website-design/page": {
-          "moduleId": 28984,
+          "moduleId": 928984,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -33,7 +33,7 @@
     "0090315e5b44c84655442138d46f7605200dbb7b43": {
       "workers": {
         "app/(frontend)/(pages)/enterprise-website-design/page": {
-          "moduleId": 28984,
+          "moduleId": 928984,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"

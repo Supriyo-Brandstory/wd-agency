@@ -3,7 +3,7 @@
     "602e77baedae0a6435560441bf67ebb60dbb1a6dbd": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
-          "moduleId": 35704,
+          "moduleId": 435704,
           "async": false,
           "exportedName": "createTemplateCategory",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -18,7 +18,7 @@
     "708146b2f526998435d9d51715738e8dd156964df9": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
-          "moduleId": 35704,
+          "moduleId": 435704,
           "async": false,
           "exportedName": "updateTemplateCategory",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -33,7 +33,7 @@
     "407e77a972f31427c3afca29bc726706efb9481359": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
-          "moduleId": 35704,
+          "moduleId": 435704,
           "async": false,
           "exportedName": "deleteTemplateCategory",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
@@ -48,7 +48,7 @@
     "0090315e5b44c84655442138d46f7605200dbb7b43": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
-          "moduleId": 35704,
+          "moduleId": 435704,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"

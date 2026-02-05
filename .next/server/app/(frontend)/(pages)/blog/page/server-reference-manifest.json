@@ -3,7 +3,7 @@
     "4015e80034b60186eed0068aa609adc6ffca6a650c": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
-          "moduleId": 94552,
+          "moduleId": 994552,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -18,7 +18,7 @@
     "607dad2254eb85a9914a21b066ab310a9a6cc49c82": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
-          "moduleId": 94552,
+          "moduleId": 994552,
           "async": false,
           "exportedName": "getPaginatedBlogsByCategory",
           "filename": "src/app/admin/dashboard/blog/actions.js"
