@@ -1,6 +1,6 @@
 {
   "node": {
-    "4015e80034b60186eed0068aa609adc6ffca6a650c": {
+    "4017e6dc86c1c6f294abc59311686b6c6448a925fb": {
       "workers": {
         "app/(frontend)/(pages)/pharma-website-design/page": {
           "moduleId": 994356,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "0006a05f6ad16c2c55a2deb0bacf20aa635aca89d8": {
+    "003612bb7f380f195fd067892680c646efc8a596e0": {
       "workers": {
         "app/(frontend)/(pages)/pharma-website-design/page": {
           "moduleId": 994356,
@@ -30,7 +30,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "0090315e5b44c84655442138d46f7605200dbb7b43": {
+    "00f3bf22ef66d8873dff1fb7c48af52af075cbad12": {
       "workers": {
         "app/(frontend)/(pages)/pharma-website-design/page": {
           "moduleId": 994356,
