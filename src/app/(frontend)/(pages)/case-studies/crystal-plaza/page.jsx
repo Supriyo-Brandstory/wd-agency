@@ -55,8 +55,9 @@ export default function HotelCaseStudyPage() {
               <h1>Crystal Plaza Hotel</h1>
               <h2>Hotel in Sharjah</h2>
               <p>
-                Crystal Plaza Hotel is a centrally located hospitality property in Sharjah, 
-                positioned minutes away from Mega Mall and the Sharjah Heritage Museum.
+                Crystal Plaza Hotel is a centrally located hospitality property
+                in Sharjah, positioned minutes away from Mega Mall and the
+                Sharjah Heritage Museum.
               </p>
             </div>
             <div className={styles.heroImage}>
@@ -81,30 +82,39 @@ export default function HotelCaseStudyPage() {
           <div className={styles.overviewContent}>
             <div className={styles.overviewText}>
               <p>
-                Crystal Plaza Hotel required a website that accurately reflected its location, 
-                facilities, and guest experience while supporting its business objective of increasing 
-                direct engagement with potential guests. Although the hotel benefits from proximity to 
-                major attractions such as Al Majaz Park and is approximately 5.5 miles from Dubai International
-                 Airport, its existing digital presence did not effectively communicate these advantages.
+                Crystal Plaza Hotel required a website that accurately reflected
+                its location, facilities, and guest experience while supporting
+                its business objective of increasing direct engagement with
+                potential guests. Although the hotel benefits from proximity to
+                major attractions such as Al Majaz Park and is approximately 5.5
+                miles from Dubai International Airport, its existing digital
+                presence did not effectively communicate these advantages.
               </p>
               <p>
-                The project focused on designing and developing a website that presents the hotel clearly and 
-                professionally, improves usability for visitors, and provides essential information in a structured 
-                and accessible manner.
+                The project focused on designing and developing a website that
+                presents the hotel clearly and professionally, improves
+                usability for visitors, and provides essential information in a
+                structured and accessible manner.
               </p>
             </div>
             <div className={styles.overviewStats}>
               <div className={styles.statCard}>
                 <h3 className={styles.statValue}>100%</h3>
-                <p className={styles.statLabel}>Responsive design across devices</p>
+                <p className={styles.statLabel}>
+                  Responsive design across devices
+                </p>
               </div>
               <div className={styles.statCard}>
                 <h3 className={styles.statValue}>3X</h3>
-                <p className={styles.statLabel}>Faster page loading time & performance</p>
+                <p className={styles.statLabel}>
+                  Faster page loading time & performance
+                </p>
               </div>
               <div className={styles.statCard}>
                 <h3 className={styles.statValue}>100%</h3>
-                <p className={styles.statLabel}>Improved user navigation flow</p>
+                <p className={styles.statLabel}>
+                  Improved user navigation flow
+                </p>
               </div>
             </div>
           </div>
@@ -140,7 +150,8 @@ export default function HotelCaseStudyPage() {
               </div>
               <h3>Website Design</h3>
               <p>
-                Designed a clean, user-friendly interface reflecting the hotel’s comfort, location, and hospitality experience.
+                Designed a clean, user-friendly interface reflecting the hotel’s
+                comfort, location, and hospitality experience.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -161,7 +172,9 @@ export default function HotelCaseStudyPage() {
               </div>
               <h3>Website Development</h3>
               <p>
-                Developed a responsive, high-performance website incorporating an integrated room enquiry and booking functionality, enabling users to view details and submit booking requests.
+                Developed a responsive, high-performance website incorporating
+                an integrated room enquiry and booking functionality, enabling
+                users to view details and submit booking requests.
               </p>
             </div>
             <div className={styles.scopeCard}>
@@ -183,13 +196,13 @@ export default function HotelCaseStudyPage() {
               </div>
               <h3>Technical Implementation</h3>
               <p>
-                Implemented clean, maintainable code with thorough testing for stable and reliable deployment.
+                Implemented clean, maintainable code with thorough testing for
+                stable and reliable deployment.
               </p>
             </div>
           </div>
         </div>
       </section>
-
 
       {/* FINAL RESULT SECTION */}
       <section className={styles.finalResult}>
@@ -201,9 +214,11 @@ export default function HotelCaseStudyPage() {
           </div>
           <div className={styles.resultContent}>
             <p>
-              The project resulted in a modern, well-structured website that significantly improved Crystal Plaza Hotel’s
-               digital presence. The new website clearly presents the hotel’s rooms, multi-cuisine dining options, and 
-               key amenities, making information easily accessible for both local and international visitors. 
+              The project resulted in a modern, well-structured website that
+              significantly improved Crystal Plaza Hotel’s digital presence. The
+              new website clearly presents the hotel’s rooms, multi-cuisine
+              dining options, and key amenities, making information easily
+              accessible for both local and international visitors.
             </p>
             <div className={styles.resultGrid}>
               <div className={`${styles.resultItem} width-49 sm-width-100`}>
@@ -227,7 +242,7 @@ export default function HotelCaseStudyPage() {
       </section>
 
       {/* SCOPE OF WORK */}
-      
+
       {/* CHALLENGE SECTION */}
       <section className={styles.challenge}>
         <div className={styles.container}>
@@ -236,10 +251,12 @@ export default function HotelCaseStudyPage() {
               The <span className={styles.highlight}>Challenge</span>
             </h2>
             <p>
-              Crystal Plaza Hotel required a website that could clearly differentiate it within Sharjah’s 
-              competitive hospitality landscape. Many visitors were unaware of the hotel’s central location 
-              near cultural landmarks and shopping destinations such as Rolla Mall. The challenge was to present 
-              this information clearly and consistently through a well-structured digital platform.
+              Crystal Plaza Hotel required a website that could clearly
+              differentiate it within Sharjah’s competitive hospitality
+              landscape. Many visitors were unaware of the hotel’s central
+              location near cultural landmarks and shopping destinations such as
+              Rolla Mall. The challenge was to present this information clearly
+              and consistently through a well-structured digital platform.
             </p>
           </div>
         </div>
@@ -273,9 +290,6 @@ export default function HotelCaseStudyPage() {
         </div>
       </section>
 
-
-     
-
       {/* GROWTH SECTION */}
       <section className={styles.growth}>
         <div className={styles.container}>
@@ -284,8 +298,10 @@ export default function HotelCaseStudyPage() {
               Client <span className={styles.highlight}>Review</span>
             </h2>
             <p>
-              "Working with BrandStory was a smooth experience from start to finish. The team understood our requirements 
-              clearly and delivered a website that represents our hotel well and is easy for our guests to use."
+              "Working with Website Development Agency was a smooth experience
+              from start to finish. The team understood our requirements clearly
+              and delivered a website that represents our hotel well and is easy
+              for our guests to use."
             </p>
             <p
               style={{

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/government-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__3d690c6c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__70f4a7b3._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_e08a3f1d._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
