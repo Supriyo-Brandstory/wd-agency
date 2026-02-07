@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"logistics"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Logistics Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help logistics firms streamline operations and build trust in the UAE."
-        services={[
-          {
-            title: "Performance-Driven Freight Portals",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s logistics capabilities. From multi-modal service menus to global network maps, every element is designed to resonate with shippers and supply chain managers in Dubai.",
-            img: imageService1,
-            alt: "Custom Logistics Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Integrated Tracking & Tools",
-            desc: "Develop dedicated portals for shipment tracking, document downloads, and schedule lookups. We build tools that provide real-time value to your clients, demonstrating your commitment to transparency and service excellence.",
-            img: imageService2,
-            alt: "Shipment Tracking Portals for Logistics Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Instant Quote & Booking Engines",
-            desc: "Streamline your sales process with interactive quote calculators and booking engines. We build intuitive forms that capture detailed shipment requirements, allowing you to respond faster to client needs.",
-            img: imageService3,
-            alt: "Logistics Quote & Booking Engine",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Global SEO for Supply Chain",
-            desc: "Improve your firm's visibility for specialized logistics keywords. We optimize your site for competitive search terms like 'freight forwarders Dubai' or 'cold chain logistics UAE,' ensuring your expertise is visible to those searching for transport solutions.",
-            img: imageService4,
-            alt: "SEO for Logistics Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Scalable Infrastructure Management",
-            desc: "Your website must handle high traffic and data processing. We build robust, high-performance platforms that deliver a flawless experience, ensuring your logistics services are accessible and reliable day or night.",
-            img: imageService5,
-            alt: "Mobile Friendly Logistics Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Multilingual Trade Solutions",
-            desc: "Connect with international partners through multilingual website versions. We optimize your content for global audiences, ensuring your logistics services are understood across different regions and languages.",
-            img: imageService6,
-            alt: "Multilingual Logistics Website UAE",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

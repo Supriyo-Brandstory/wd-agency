@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"healthcare"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Pharma Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help pharmaceutical firms build trust and engage healthcare professionals in the UAE."
-        services={[
-          {
-            title: "Authority-Driven Scientific Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s medical expertise. From structured product dossiers to clinical research highlights, every element is designed to resonate with healthcare professionals and health authorities in Dubai.",
-            img: imageService1,
-            alt: "Custom Pharma Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure HCP & Resource Portals",
-            desc: "Develop dedicated sections for clinical data, educational resources, and prescribing information. We build secure portals where healthcare professionals (HCPs) can access sensitive documentation, demonstrating your commitment to medical transparency.",
-            img: imageService2,
-            alt: "Secure HCP Portals for Pharma Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Medical Infographics",
-            desc: "Engage visitors with dynamic medical infographics and interactive MOA (Mechanism of Action) visualizations that explain complex biological processes. These tools help simplify medical concepts and demonstrate your firm's innovative strength.",
-            img: imageService3,
-            alt: "Interactive Medical Visualizations",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Medical SEO & Compliance Optimization",
-            desc: "Improve your firm's visibility for specialized medical keywords. We optimize your site for search terms like 'pharma manufacturing Dubai' or 'specialty medicine UAE,' ensuring your expertise is visible within regulatory guidelines.",
-            img: imageService4,
-            alt: "Medical SEO for Pharma Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the precision of your medical solutions. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your scientific content is accessible whenever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Pharma Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure pharmacovigilance Portals",
-            desc: "We focus on safety first. Your website can include secure, easy-to-use report portals for adverse events and drug safety, ensuring you meet the highest standards of patient protection and regulatory compliance.",
-            img: imageService6,
-            alt: "Secure pharmacovigilance Portal Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

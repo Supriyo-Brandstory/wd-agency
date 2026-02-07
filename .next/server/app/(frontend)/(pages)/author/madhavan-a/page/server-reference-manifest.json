@@ -1,6 +1,6 @@
 {
   "node": {
-    "4017e6dc86c1c6f294abc59311686b6c6448a925fb": {
+    "40959c9ac48f32a3672dac64c677c1da14ce337f05": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
           "moduleId": 434665,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00e8ee7d65c16b887edc8dbdfe424b75cda974c367": {
+    "0055472ff531d2deeda81c3eccd9a6e6c4fe455031": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
           "moduleId": 434665,

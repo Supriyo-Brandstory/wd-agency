@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"fitness"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Sports Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help sports brands build community and grow in the UAE."
-        services={[
-          {
-            title: "Performance-Driven Dynamic Design",
-            desc: "We create vibrant, high-energy website designs that emphasize your brand's active mission. From immersive action imagery to bold typography, every element is designed to resonate with athletes and sport enthusiasts in Dubai.",
-            img: imageService1,
-            alt: "Custom Sports Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Live Match & Result Portals",
-            desc: "Develop dedicated sections for live match scores, tournament brackets, and performance statistics. We build real-time hubs where fans and members can track results, demonstrating your commitment to athletic transparency and engagement.",
-            img: imageService2,
-            alt: "Live Match Hubs for Sports Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Seamless Member Booking Hubs",
-            desc: "Simplify the training schedule with interactive session booking forms and membership portals. We build intuitive systems that allow members to easily manage their attendance and payments, improving your club's operational efficiency.",
-            img: imageService3,
-            alt: "Sports Member Booking Hub",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Sports SEO for Active Growth",
-            desc: "Improve your brand's visibility for specialized sports keywords. We optimize your site for competitive search terms like 'football academy Dubai' or 'fitness center UAE,' ensuring your expertise is visible to those searching for active lifestyle choices.",
-            img: imageService4,
-            alt: "SEO for Sports Brands Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your fans and members are always on the move. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your results and schedules are accessible whenever they're needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Sports Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Member Data Management",
-            desc: "We focus on privacy. Your website is built on a highly secure foundation with advanced encryption, ensuring your member data and financial transactions are handled with the highest standards of safety and trust.",
-            img: imageService6,
-            alt: "Secure Sports Member Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/electrician-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__9cd8e8b6._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dfef8c97._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_4d1967f5._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")

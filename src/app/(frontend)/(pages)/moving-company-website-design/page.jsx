@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"moving"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Moving Company Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help moving companies build trust and capture leads in the UAE."
-        services={[
-          {
-            title: "Conversion-Optimized Sales Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s reliability. From prominent call-to-actions to detailed service descriptions, every element is designed to convert visitors into move inquiries in Dubai.",
-            img: imageService1,
-            alt: "Custom Moving Company Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Instant Quote & Volume Calculators",
-            desc: "Simplify the inquiry process with interactive quote forms and move volume calculators. We build tools that allow users to get an estimated cost quickly, increasing the likelihood of lead capture and engagement.",
-            img: imageService2,
-            alt: "Moving Quote Calculators for Relocation Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Local & International SEO for Movers",
-            desc: "Improve your firm's visibility for specialized moving keywords. We optimize your site for search terms like 'packers and movers Dubai' or 'international relocation UAE,' ensuring you appear when local clients are searching for help.",
-            img: imageService4,
-            alt: "SEO for Moving Companies Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Social Proof & Review Integration",
-            desc: "Build trust instantly by showcasing real client reviews and testimonials. We integrate your Google and Facebook reviews directly into your site, providing the social proof necessary for clients to choose your firm over others.",
-            img: imageService3,
-            alt: "Review Integration for Moving Websites",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must work flawlessly on mobile devices while clients are on the move. We build fast-loading platforms that deliver a seamless experience, ensuring your services are accessible whenever a move is being planned.",
-            img: imageService5,
-            alt: "Mobile Friendly Moving Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Payment & Deposit Systems",
-            desc: "Facilitate secure bookings with integrated payment gateways. We build systems where clients can safely pay deposits and finalize move bookings, streamlining your operations and ensuring commitment.",
-            img: imageService6,
-            alt: "Secure Payment Systems for Moving Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

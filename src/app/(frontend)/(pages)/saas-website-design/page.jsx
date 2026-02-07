@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"technology"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"SaaS Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help SaaS firms increase user acquisition and grow in the UAE."
-        services={[
-          {
-            title: "Conversion-First Product Design",
-            desc: "We create professional, high-trust website designs that emphasize your software’s unique value. From optimized landing pages to clear feature matrices, every element is designed to convert visitors into active trial users and paying customers in Dubai.",
-            img: imageService1,
-            alt: "Custom SaaS Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Product Experience Hubs",
-            desc: "Develop dedicated sections for product walkthroughs, documentation, and feature updates. We build hubs where users can experience your software's value before they even sign up, demonstrating your commitment to user success and transparency.",
-            img: imageService2,
-            alt: "Interactive Product Hubs for SaaS Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Dynamic Pricing & Tier Modules",
-            desc: "Engage users with clean, interactive pricing tables and feature comparison modules. We build systems that make it easy for users to choose the right plan for their needs, simplifying the path to subscription.",
-            img: imageService3,
-            alt: "SaaS Pricing & Plan Modules",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Performance SEO for Software Terms",
-            desc: "Improve your firm's visibility for specialized software keywords. We optimize your site for competitive search terms like 'business software Dubai' or 'cloud solutions UAE,' ensuring your innovation is visible to those searching for digital tools.",
-            img: imageService4,
-            alt: "SEO for SaaS Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Scalable & High-Performance Architecture",
-            desc: "Your website must reflect the speed and reliability of your software. We build fast-loading, responsive platforms that deliver a flawless experience, ensuring your users can access their product dashboards whenever they need them.",
-            img: imageService5,
-            alt: "Mobile Friendly SaaS Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Data & API Management",
-            desc: "We practice what we preach about data security. Your website can include secure developer portals and API documentation hubs, ensuring your own digital platform is as robust as the software solutions you provide to your clients.",
-            img: imageService6,
-            alt: "Secure SaaS Data & API Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

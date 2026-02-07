@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/events-website-design/in
 import imageintro2 from "@/app/(frontend)/assets/images/events-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/events-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/events-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/events-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/events-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/events-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/events-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/events-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/events-website-design/why-choose.webp";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"technology"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Events Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help Events firms build trust and grow in the UAE."
-        services={[
-          {
-            title: "Expertise-Driven Authority Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s specialized knowledge. From structured service menus to technical capability statements, every element is designed to resonate with C-suite executives and IT decision-makers in Dubai’s corporate sector.",
-            img: imageService1,
-            alt: "Custom Events Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Content & Resource Hubs",
-            desc: "Develop dedicated sections for whitepapers, case studies, and security alerts. We build secure portals where clients can access sensitive documentation, demonstrating your commitment to data privacy and providing continuous value to your professional audience.",
-            img: imageService2,
-            alt: "Secure Content Portals for Tech Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Threat Visualizations",
-            desc: "Engage visitors with dynamic infographics and interactive threat maps that visualize the modern digital risk landscape. These tools help simplify complex security concepts and demonstrate the real-world importance of your protective services.",
-            img: imageService3,
-            alt: "Interactive Security Visualizations",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Enterprise SEO for Professional Services",
-            desc: "Improve your firm's visibility for specialized security keywords. We optimize your site for competitive search terms like 'penetration testing Dubai' or 'SOC services UAE,' ensuring your expertise is visible to those searching for advanced protection.",
-            img: imageService4,
-            alt: "SEO for Events Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the performance of your security solutions. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your expert content is accessible whenever and wherever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly IT Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Infrastructure Management",
-            desc: "We practice what we preach. Your website is built on a highly secure, hardened foundation with advanced encryption and proactive monitoring, ensuring your own digital presence is as secure as the services you provide to your clients.",
-            img: imageService6,
-            alt: "Secure Web Infrastructure Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

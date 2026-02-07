@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"interior"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Interior Design Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help interior designers showcase their portfolio and grow in the UAE."
-        services={[
-          {
-            title: "Visual Portfolio Showcase",
-            desc: "We create stunning, high-impact galleries that showcase your interior design projects in high-resolution detail. From grid layouts to full-screen sliders, every project is presented to maximize visual appeal for luxury clients in Dubai.",
-            img: imageService1,
-            alt: "Custom Interior Design Portfolio Website Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Project Walkthroughs",
-            desc: "Engage visitors with interactive project walkthroughs and interactive before-and-after sliders. These tools help potential clients visualize your design process and the transformative impact of your work.",
-            img: imageService2,
-            alt: "Interactive Interior Design Features",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Luxury Brand Positioning",
-            desc: "Sophisticated layouts that position your design firm as a premium player. We use curated typography and sleek design elements to reflect your brand's unique aesthetic and attract high-end residential and commercial projects.",
-            img: imageService3,
-            alt: "Premium Interior Design Brand Design",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Local SEO for Designers",
-            desc: "Improve your firm's visibility for specialized design keywords. We optimize your site for competitive search terms like 'interior designers Dubai' or 'home renovation UAE,' ensuring your expertise is visible to those looking for premium design services.",
-            img: imageService4,
-            alt: "SEO for Interior Designers Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & Performance-Optimized",
-            desc: "Your website must look stunning on any device. We build fast-loading, responsive platforms that deliver a flawless experience on desktops, tablets, and smartphones, ensuring your portfolio is accessible everywhere.",
-            img: imageService5,
-            alt: "Mobile Friendly Interior Design Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Project Management Integration",
-            desc: "We can integrate your website with project management and client portal tools, allowing you to share updates and manage client communication securely through your own digital platform.",
-            img: imageService6,
-            alt: "Interior Design Client Portal Integration",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

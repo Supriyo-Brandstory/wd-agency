@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"legal"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Law Firm Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help law firms build trust and attract high-value clients in the UAE."
-        services={[
-          {
-            title: "Authority-Driven Professional Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s legal expertise. From structured service menus to detailed lawyer biographies, every element is designed to resonate with corporate and private clients in Dubai.",
-            img: imageService1,
-            alt: "Custom Law Firm Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Legal Insights & Resource Hubs",
-            desc: "Develop dedicated sections for legal articles, case studies, and regulatory updates. We build hubs where clients can access expert legal commentary, demonstrating your firm's thought leadership and keeping you top-of-mind.",
-            img: imageService2,
-            alt: "Legal Insight Portals for Law Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Consultation Booking",
-            desc: "Streamline the client intake process with secure consultation booking forms and inquiry portals. We ensure client data is handled with the highest standards of privacy and professionalism.",
-            img: imageService3,
-            alt: "Secure Legal Consultation Booking",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "SEO for Legal Services",
-            desc: "Improve your firm's visibility for specialized legal terms. We optimize your site for competitive search terms like 'corporate lawyer Dubai' or 'commercial litigation UAE,' ensuring your expertise is visible to those searching for legal counsel.",
-            img: imageService4,
-            alt: "SEO for Law Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the precision of your legal work. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your legal content is accessible whenever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Law Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Multilingual Legal Content",
-            desc: "Reach a broader audience with professionally translated content. We can build multilingual websites in English and Arabic, ensuring your legal services are accessible to the diverse population of the UAE.",
-            img: imageService6,
-            alt: "Multilingual Law Firm Website UAE",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

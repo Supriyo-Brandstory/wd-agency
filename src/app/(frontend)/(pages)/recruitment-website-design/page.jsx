@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"recruitment"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Recruitment Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help recruitment firms build trust and scale talent acquisition in the UAE."
-        services={[
-          {
-            title: "Expertise-Driven Authority Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s specialized industry knowledge. From structured sector menus to detailed recruiter profiles, every element is designed to resonate with C-suite executives and HR decision-makers in Dubai.",
-            img: imageService1,
-            alt: "Custom Recruitment Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Talent & CV Portals",
-            desc: "Develop dedicated sections for candidate registrations, CV uploads, and job alerts. We build secure portals where talent can manage their profiles, demonstrating your commitment to data privacy and providing continuous value to your candidate pool.",
-            img: imageService2,
-            alt: "Secure Candidate Portals for Talent Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Job Search & Filtering",
-            desc: "Engage candidates with dynamic job boards and interactive filtering tools that simplify the search experience. These tools help candidates find the right opportunities quickly and demonstrate your firm's technological sophistication.",
-            img: imageService3,
-            alt: "Interactive Job Search Tools",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Sector-Specific SEO for Professional Services",
-            desc: "Improve your firm's visibility for specialized recruitment keywords. We optimize your site for competitive search terms like 'executive search Dubai' or 'hr consulting UAE,' ensuring your expertise is visible to those searching for top talent.",
-            img: imageService4,
-            alt: "SEO for Recruitment Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & Performance-Optimized",
-            desc: "Candidates search for jobs on the go. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your job listings and brand content are accessible whenever talent is looking.",
-            img: imageService5,
-            alt: "Mobile Friendly HR Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Client & ATS Management",
-            desc: "We practice what we preach. Your website can be securely integrated with your Applicant Tracking System (ATS), ensuring seamless data flow between candidate applications and your internal recruitment workflows.",
-            img: imageService6,
-            alt: "Secure ATS Integration for Recruitment Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

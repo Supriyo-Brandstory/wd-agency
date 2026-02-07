@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"service"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Small Business Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help small businesses build trust and grow in the UAE."
-        services={[
-          {
-            title: "Local Growth & Professional Design",
-            desc: "We create professional, high-trust website designs that emphasize your business's unique personality. From structured service menus to clear contact pathways, every element is designed to convert local visitors into loyal customers in Dubai.",
-            img: imageService1,
-            alt: "Custom Small Business Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Quick-Start Brand Launch Hubs",
-            desc: "Develop dedicated sections for about us, services, and local success stories. We build hubs that tell your brand's unique story, demonstrating your commitment to quality and providing a professional face for your growing business.",
-            img: imageService2,
-            alt: "Brand Building Hubs for Local Businesses",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Lead Capture Systems",
-            desc: "Engage visitors with simple booking forms and instant inquiry tools. These tools help simplify the customer journey and demonstrate your business's commitment to fast and helpful service.",
-            img: imageService3,
-            alt: "Simple Lead Capture Tools",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Local SEO for Community Growth",
-            desc: "Improve your business's visibility for local search terms. We optimize your site for keywords like 'local services Dubai' or 'small business UAE,' ensuring your brand is visible to those searching for quality help in their immediate area.",
-            img: imageService4,
-            alt: "Local SEO for Small Businesses Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must work flawlessly on mobile for local search. We build fast-loading platforms that deliver a seamless experience on all devices, ensuring your business details are accessible whenever a customer is looking.",
-            img: imageService5,
-            alt: "Mobile Friendly Small Business Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Scalable Infrastructure for Growth",
-            desc: "We build for where you are going. Your website is built on a flexible foundation that can grow with your business, allowing you to easily add new services, products, and features as you scale your operations.",
-            img: imageService6,
-            alt: "Scalable Web Infrastructure for Growth",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

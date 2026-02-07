@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"medical"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Plastic Surgery Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help plastic surgeons showcase their results and grow in the UAE."
-        services={[
-          {
-            title: "Artistic-First Clinical Design",
-            desc: "We create elegant, high-trust website designs that emphasize your practice’s unique aesthetic. From curated color palettes to bespoke interactive elements, every detail is engineered to resonate with discerning aesthetic patients in Dubai.",
-            img: imageService1,
-            alt: "Custom Plastic Surgery Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "High-Fidelity Before & After Galleries",
-            desc: "Develop dedicated sections for patient transformations. We build secure, high-quality galleries that showcase your surgical results with clarity and professionalism, demonstrating your skill and commitment to aesthetic excellence.",
-            img: imageService2,
-            alt: "Patient Transformation Galleries",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Virtual Consultation Booking",
-            desc: "Streamline the patient intake process with secure virtual consultation booking forms. We build intuitive systems that allow new patients to easily schedule their initial meeting, improving your practice's lead capture and engagement.",
-            img: imageService3,
-            alt: "Secure Aesthetic Consultation Booking",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Aesthetic SEO for High-Value Leads",
-            desc: "Improve your practice's visibility for specialized aesthetic keywords. We optimize your site for competitive search terms like 'plastic surgeon Dubai' or 'rhinoplasty UAE,' ensuring your expertise is visible to those searching for refined care.",
-            img: imageService4,
-            alt: "SEO for Plastic Surgery Clinics Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the precision of your work. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your results look stunning everywhere.",
-            img: imageService5,
-            alt: "Mobile Friendly Aesthetic Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Patient Portals & Privacy",
-            desc: "We practice medical-grade security. Your website is built on a highly secure foundation with advanced encryption, ensuring patient information and inquiries are handled with the highest standards of confidentiality.",
-            img: imageService6,
-            alt: "Secure Patient Information Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

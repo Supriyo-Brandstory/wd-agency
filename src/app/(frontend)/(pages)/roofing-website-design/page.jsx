@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"construction"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Roofing Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help roofing firms build trust and grow in the UAE."
-        services={[
-          {
-            title: "Expertise-Driven Authority Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s specialized knowledge. From structured service menus to technical capability statements, every element is designed to resonate with property managers and owners in Dubai.",
-            img: imageService1,
-            alt: "Custom Roofing Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Project Case Studies & Results",
-            desc: "Develop dedicated sections for before-and-after projects, material highlights, and safety records. We build galleries that show the real-world impact of your work, demonstrating your commitment to quality and providing value to your audience.",
-            img: imageService2,
-            alt: "Roofing Project Case Studies",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Inspection Booking",
-            desc: "Engage visitors with easy-to-use inspection booking forms and instant quote tools. These tools help simplify the service process and demonstrate your commitment to professional and fast responsiveness.",
-            img: imageService3,
-            alt: "Interactive Roofing Service Booking",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Local SEO for Roofing Services",
-            desc: "Improve your firm's visibility for specialized roofing keywords. We optimize your site for search terms like 'roofing contractors Dubai' or 'roof repair UAE,' ensuring your expertise is visible to those searching for structural protection.",
-            img: imageService4,
-            alt: "SEO for Roofing Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the performance of your roofing solutions. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your expert content is accessible whenever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Roofing Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Project Management Portals",
-            desc: "We practice what we preach. Your website can include secure portals where clients can access project timelines, inspection reports, and maintenance documentation, ensuring your own digital presence is as professional as your work.",
-            img: imageService6,
-            alt: "Secure Roofing Project Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

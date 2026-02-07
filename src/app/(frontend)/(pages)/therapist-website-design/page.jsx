@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"medical"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Therapist Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help therapists build trust and grow their practice in the UAE."
-        services={[
-          {
-            title: "Empathy-First Professional Design",
-            desc: "We create calming, high-trust website designs that emphasize your unique therapeutic philosophy. From curated color palettes to serene typography, every element is designed to resonate with individuals seeking mental health support in Dubai.",
-            img: imageService1,
-            alt: "Custom Therapist Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Patient Inquiry & Booking",
-            desc: "Develop dedicated sections for appointment requests and secure inquiries. We build intuitive systems that protect patient privacy while making it easy for them to take the first step toward care, demonstrating your commitment to confidentiality.",
-            img: imageService2,
-            alt: "Secure Patient Portals for Wellness Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Wellness Resources",
-            desc: "Engage visitors with helpful blogs, wellness guides, and meditative resources. These tools help demonstrate your expertise and provide immediate value to your community, positioning your practice as a leader in mental wellness.",
-            img: imageService3,
-            alt: "Interactive Wellness Resource Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Wellness SEO for Local Reach",
-            desc: "Improve your practice's visibility for specialized wellness keywords. We optimize your site for competitive search terms like 'therapist Dubai' or 'psychologist UAE,' ensuring your expertise is visible to those searching for professional support.",
-            img: imageService4,
-            alt: "SEO for Therapy Practices Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & Compassionate Experience",
-            desc: "Your clients may be reaching out in moments of need. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your contact details and resources are accessible whenever they're needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Therapy Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Patient Data Privacy",
-            desc: "We prioritize confidentiality. Your website is built on a highly secure foundation with advanced encryption, ensuring patient inquiries and personal details are handled with the highest standards of medical privacy and trust.",
-            img: imageService6,
-            alt: "Secure Patient Data Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

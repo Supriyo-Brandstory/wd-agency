@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"manufacturing"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Manufacturing Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help manufacturing firms build trust and scale in the UAE."
-        services={[
-          {
-            title: "Industrial-Scale Professional Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s manufacturing expertise. From structured product catalogs to facility highlights, every element is designed to resonate with procurement managers in Dubai’s industrial sectors.",
-            img: imageService1,
-            alt: "Custom Manufacturing Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Product & Catalog Hubs",
-            desc: "Develop dedicated sections for technical specifications, product catalogs, and safety data sheets. We build portals where clients can access detailed product information, demonstrating your commitment to transparency and quality control.",
-            img: imageService2,
-            alt: "Industrial Product Catalog Portals",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Facility Visualizations",
-            desc: "Engage visitors with dynamic infographics and interactive facility maps that visualize your manufacturing footprint and production lines. These tools help demonstrate the scale and sophistication of your industrial operations.",
-            img: imageService3,
-            alt: "Interactive Manufacturing Visualizations",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Industrial SEO for B2B Leads",
-            desc: "Improve your firm's visibility for specialized manufacturing keywords. We optimize your site for competitive search terms like 'industrial equipment Dubai' or 'B2B manufacturing UAE,' ensuring your expertise is visible to those searching for production partners.",
-            img: imageService4,
-            alt: "SEO for Manufacturing Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the performance of your industrial solutions. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your expert content is accessible whenever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Industrial Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Vendor & Client Portals",
-            desc: "We build secure, encrypted vendor and client portals where you can safely share production updates, orders, and confidential documentation, ensuring your own digital presence is as professional as your factory floor.",
-            img: imageService6,
-            alt: "Secure Industrial Portal Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

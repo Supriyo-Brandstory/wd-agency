@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"luxury"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Yachting Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help yachting brands build trust and grow in the UAE."
-        services={[
-          {
-            title: "Prestige-First Nautical Design",
-            desc: "We create elegant, high-impact website designs that emphasize your brand’s unique maritime identity. From curated color palettes to bespoke interactive elements, every detail is engineered to resonate with discerning clients in Dubai’s premier yachting sector.",
-            img: imageService1,
-            alt: "Custom Yachting Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Fleet Showcases & Cinematography",
-            desc: "Develop dedicated sections for vessel highlights, interior virtual tours, and maritime heritage. We build immersive narratives that connect your audience to the heart of your fleet, demonstrating your commitment to nautical excellence.",
-            img: imageService2,
-            alt: "Luxury Fleet Showcases",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Seamless Charter Booking Hubs",
-            desc: "Simplify the experience with interactive charter booking forms and real-time availability tools. We build intuitive systems that allow your clients to easily plan their journey, improving your brand's lead capture and engagement.",
-            img: imageService3,
-            alt: "Interactive Yacht Booking Hubs",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Maritime SEO for Luxury Growth",
-            desc: "Improve your brand's visibility for specialized nautical keywords. We optimize your site for competitive search terms like 'yacht charter Dubai' or 'luxury yacht sales UAE,' ensuring your expertise is visible to those searching for the finest sea experiences.",
-            img: imageService4,
-            alt: "SEO for Yachting Brands Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Experience",
-            desc: "Your clients are searching for luxury on the go. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your results and fleet are accessible whenever they're needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Yachting Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Data & Privacy Management",
-            desc: "We prioritize discretion. Your website is built on a highly secure foundation with advanced encryption, ensuring your client interactions and personal details are handled with the highest standards of safety and trust.",
-            img: imageService6,
-            alt: "Secure Yachting Data Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

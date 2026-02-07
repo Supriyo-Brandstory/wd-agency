@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"finance"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Wealth Management Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help financial firms build trust and grow in the UAE."
-        services={[
-          {
-            title: "Expertise-Driven Authority Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s specialized financial knowledge. From structured investment menus to detailed strategy statements, every element is designed to resonate with high-net-worth clients in Dubai’s elite sectors.",
-            img: imageService1,
-            alt: "Custom Wealth Management Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Client & Report Portals",
-            desc: "Develop dedicated sections for portfolio tracking, account reports, and market documentation. We build secure portals where clients can access sensitive information, demonstrating your commitment to data privacy and providing continuous value to your audience.",
-            img: imageService2,
-            alt: "Secure Client Portals for Financial Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Interactive Financial Insight Hubs",
-            desc: "Engage visitors with dynamic infographics and interactive market maps that visualize current economic trends. These tools help simplify complex financial concepts and demonstrate the real-world importance of your management services.",
-            img: imageService3,
-            alt: "Interactive Financial Visualizations",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Institutional SEO for Financial Growth",
-            desc: "Improve your firm's visibility for specialized financial keywords. We optimize your site for competitive search terms like 'asset management Dubai' or 'investment advisory UAE,' ensuring your expertise is visible to those searching for refined capital management.",
-            img: imageService4,
-            alt: "SEO for Wealth Management Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the performance of your financial solutions. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your expert content is accessible whenever and wherever it's needed.",
-            img: imageService5,
-            alt: "Mobile Friendly Wealth Management Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure Infrastructure & Compliance",
-            desc: "We practice what we preach. Your website is built on a highly secure, hardened foundation with advanced encryption and proactive monitoring, ensuring your own digital presence follows the highest standards of financial data security.",
-            img: imageService6,
-            alt: "Secure Financial Web Infrastructure Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

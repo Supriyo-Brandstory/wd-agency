@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/plastic-surgery-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__e32d0a02._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__35ab086f._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_60432219._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")

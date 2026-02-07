@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/logistics-website-design/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__927ec29f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0605888a._.js")
 R.c("server/chunks/ssr/src_app_(frontend)_e6c0b284._.js")
 R.c("server/chunks/ssr/_c6f746fe._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")

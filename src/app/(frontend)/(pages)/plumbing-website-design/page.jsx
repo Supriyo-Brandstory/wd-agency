@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -66,59 +60,9 @@ const page = () => {
         activetaburl={"service"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Plumbing Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help plumbing firms build trust and grow in the UAE."
-        services={[
-          {
-            title: "Response-Optimized Service Design",
-            desc: "We create professional, high-trust website designs that emphasize your firm’s reliable service. From prominent emergency buttons to clear service lists, every element is designed to convert visitors into service calls in Dubai.",
-            img: imageService1,
-            alt: "Custom Plumbing Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Instant Booking & Inquiry Systems",
-            desc: "Simplify the appointment process with interactive booking forms and service inquiry portals. We build intuitive systems that allow customers to easily schedule non-emergency work, improving your firm's lead management and efficiency.",
-            img: imageService2,
-            alt: "Plumbing Booking Systems for Maintenance Firms",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Local SEO for Maintenance Leads",
-            desc: "Improve your firm's visibility for local service keywords. We optimize your site for competitive search terms like 'plumber Dubai' or 'emergency plumbing UAE,' ensuring your expertise is visible to those in immediate need of help.",
-            img: imageService4,
-            alt: "SEO for Plumbing Firms Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Social Proof & Customer Reviews",
-            desc: "Build trust instantly by showcasing real customer reviews and case studies. We integrate your Google ratings directly into your site, providing the social proof necessary for clients to choose your firm for their home or office.",
-            img: imageService3,
-            alt: "Review Integration for Service Websites",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & Mobile-First Architecture",
-            desc: "Your customers will often find you on their mobile devices during an emergency. We build fast-loading, mobile-optimized platforms that deliver a flawless experience, ensuring your contact details are always accessible.",
-            img: imageService5,
-            alt: "Mobile Friendly Plumbing Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Digital Maintenance Agreements",
-            desc: "We can build digital portals for annual maintenance contracts (AMCs). This allows you to manage renewals and recurring service work directly through your website, building long-term recurring revenue for your business.",
-            img: imageService6,
-            alt: "AMC Digital Management for Plumbers",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter

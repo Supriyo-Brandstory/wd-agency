@@ -6,13 +6,7 @@ import imageintro1 from "@/app/(frontend)/assets/images/cybersecurity-website-de
 import imageintro2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/intro-2.webp";
 import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
 import imagewhymetter from "@/app/(frontend)/assets/images/cybersecurity-website-design/why.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
-import imageService1 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-1.webp";
-import imageService2 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-2.webp";
-import imageService3 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-3.webp";
-import imageService4 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-4.webp";
-import imageService5 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-5.webp";
-import imageService6 from "@/app/(frontend)/assets/images/cybersecurity-website-design/service-6.webp";
+import CommonInduestriesServices from "../../component/pages/common/CommonInduestriesServices";
 import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/cybersecurity-website-design/why-choose.webp";
@@ -64,59 +58,9 @@ const page = () => {
         activetaburl={"retail"}
       />
 
-      <CommonIndustries
+      <CommonInduestriesServices
         heding={"Retail Website Design in Dubai, UAE- Our Services"}
         subheding="We provide comprehensive digital solutions designed to help retail brands build trust and grow in the UAE."
-        services={[
-          {
-            title: "Brand-First Experience Design",
-            desc: "We create vibrant, high-impact website designs that emphasize your brand’s unique identity. From curated typography to bespoke interactive elements, every detail is engineered to resonate with customers in Dubai’s premier retail sectors.",
-            img: imageService1,
-            alt: "Custom Retail Website Design Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Immersive Product Storytelling",
-            desc: "Develop dedicated sections for product heritage, craftsmanship, and seasonal collections. We build immersive narratives that connect your audience to the heart of your brand, demonstrating your commitment to quality and style.",
-            img: imageService2,
-            alt: "Retail Brand Storytelling Portals",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Omnichannel & Inventory Hubs",
-            desc: "Connect your physical and digital presence with real-time inventory tracking and omnichannel support. We build systems that provide seamless shopping experiences, ensuring your products are available whenever and wherever they are needed.",
-            img: imageService3,
-            alt: "Retail Omnichannel Integration",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Retail SEO for Consumer Growth",
-            desc: "Improve your brand's visibility for specialized retail keywords. We optimize your site for competitive search terms like 'fashion boutique Dubai' or 'home decor UAE,' ensuring your expertise is visible to those searching for the finest products.",
-            img: imageService4,
-            alt: "SEO for Retail Brands Dubai",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Responsive & High-Performance Architecture",
-            desc: "Your website must reflect the performance of your brand. We build fast-loading, responsive platforms that deliver a flawless experience on all devices, ensuring your products are accessible with uncompromising quality.",
-            img: imageService5,
-            alt: "Mobile Friendly Retail Website",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-          {
-            title: "Secure E-commerce Management",
-            desc: "We build secure, high-end e-commerce solutions that maintain brand elegance while providing a seamless checkout experience. Your digital boutique is built with advanced encryption to protect your discerning clientele.",
-            img: imageService6,
-            alt: "Secure Retail E-commerce Management",
-            btnname: "Contact Us",
-            link: "/contact-us",
-          },
-        ]}
       />
 
       <CommonWhyMetter
