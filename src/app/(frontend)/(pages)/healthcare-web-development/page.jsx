@@ -15,17 +15,7 @@ import imageService5 from "@/app/(frontend)/assets/images/healthcare-web-develop
 import imageService6 from "@/app/(frontend)/assets/images/healthcare-web-development/Medical-Ecommerce-Integration.webp";
 import imageService7 from "@/app/(frontend)/assets/images/healthcare-web-development/Content-Management-Systems.webp";
 import imageService8 from "@/app/(frontend)/assets/images/e-commerce-web-development/Payment-Gateway-Integration.webp";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-import imagecommon1 from "@/app/(frontend)/assets/images/e-commerce-web-development/responsive.png";
-import imagecommon2 from "@/app/(frontend)/assets/images/e-commerce-web-development/Secure-Transactions.png";
-import imagecommon3 from "@/app/(frontend)/assets/images/e-commerce-web-development/Multi-Language.png";
-import imagecommon4 from "@/app/(frontend)/assets/images/e-commerce-web-development/Fast-Loading-Speed.png";
-import imagecommon5 from "@/app/(frontend)/assets/images/e-commerce-web-development/Advanced-Search.png";
-import imagecommon6 from "@/app/(frontend)/assets/images/e-commerce-web-development/AI-Driven.png";
-import imagecommon7 from "@/app/(frontend)/assets/images/e-commerce-web-development/Analytics-Reporting-Dashboards.png";
-import imagecommon8 from "@/app/(frontend)/assets/images/e-commerce-web-development/SEO-Friendly-Architecture.png";
-import imagecommon9 from "@/app/(frontend)/assets/images/e-commerce-web-development/Scalable-Infrastructure.png";
-import CommonDevelopmentProcess from "../../component/pages/common/CommonDevelopmentProcess";
+
 import CommonWhyWebsiteDevelopment from "../../assets/style/common/CommonWhyWebsiteDevelopment";
 import imagewhydevelopment from "@/app/(frontend)/assets/images/healthcare-web-development/Why-Website-Development.webp";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
@@ -34,10 +24,10 @@ import imagetestimonial2 from "@/app/(frontend)/assets/images/testimonial/testim
 import imagetestimonial3 from "@/app/(frontend)/assets/images/testimonial/testimonial-3.webp";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
-import Stats from "../../component/pages/about/Stats";
+
 
 import LocationService from "../../component/pages/common/LocationService";
-import SubNav from "../../component/pages/common/SubNav";
+
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
 import DemoTemplate from "../../component/pages/home/DemoTemplate";
 import IndustryGrid from "../../component/pages/common/IndustryGrid";

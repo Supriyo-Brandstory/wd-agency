@@ -1,103 +1,77 @@
 import React from "react";
 import Banner from "../../component/pages/home/Banner";
-import CommonAboutPage from "../../component/pages/common/CommonAboutPage";
-import aboutimagesharjhat from "@/app/(frontend)/assets/images/website-development/sharjah.jpg";
 import setusimagesharjhat from "@/app/(frontend)/assets/images/website-development/sharjah-bg.webp";
-import sharjahAboutimg from "@/app/(frontend)/assets/images/website-development/sharjah-about.webp";
 import CommonSetsUs from "../../component/pages/common/CommonSetsUs";
 import CommonAboutPage2 from "../../component/pages/common/CommonAboutPage2";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
-
-import StrategicProblemSolvingimage from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
-import FocusedApproachimage from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
-import PartnershipCommitmentimage from "@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png";
-import Transparencyimage from "@/app/(frontend)/assets/images/website-development/Transparency.png";
-import TechnologyAdoptionimage from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
-import ValueforMoneyServicesimage from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
 
 import CommonServices from "../../component/pages/common/CommonServices";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
 import CommonResult from "../../component/pages/common/CommonResult";
 
 import customdesign from "@/app/(frontend)/assets/images/website-development/custom-design.png";
+import sharjah from "@/app/(frontend)/assets/images/website-development/sharjah.webp";
 import SEOCentric from "@/app/(frontend)/assets/images/website-development/SEO-Centric.webp";
 import MobileFirst from "@/app/(frontend)/assets/images/website-development/Mobile-First.webp";
 import Optimized from "@/app/(frontend)/assets/images/website-development/Optimized.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 import LocationService from "../../component/pages/common/LocationService";
-import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import ClientSection from "../../component/pages/common/ClientSection";
+import PremierAgency from "../../component/pages/common/PremierAgency";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
+import TechnologyStack from "../../component/pages/home/TechnologyStack";
 
 const page = () => {
   return (
     <>
       <Banner
-        text1={"Most Trusted Website Design Services"}
-        text2={"Web Design in Sharjah <br>for Growth-Focused Businesses"}
+        text1={"Top-Rated Website Design Services"}
+        text2={"Web Design Agency in Sharjah"}
         text3={
-          "Website Development Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 200 website projects for local businesses in Sharjah."
+          "Website Development Agency is your one-stop solution for web design in Sharjah, providing next-level web design and development services. Since 2014, we have worked on over 750+ website projects for businesses in Sharjah and across the UAE."
         }
       />
+  <ClientSection />
 
-      <SubNav
-        title="Technology"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
+  <CommonAboutPage2
+        text1="Premier Website Design & Development <br>Services Agency"
+        text2={`
+                            <p class="mb-20">
+                            In Sharjah's evolving business landscape, your website serves as your most hardworking sales tool. It operates around the clock building credibility, showcasing what makes your business unique, and turning curious visitors into committed customers. A strategically developed website doesn't just represent your brand; it actively contributes to your bottom line.
+                            </p>
+                          
+                            <ul class='ml-50'>
+                            <li>Creates trust & positions your brand as industry leader</li>
+                            <li>Showcases your offerings in ways that resonate and convert</li>
+                            <li>Deliver a seamless user experience across all devices</li>
+                            <li>Empowers your marketing efforts and generates leads</li>
+                          </ul>
+
+                            <p class='mt-20'>
+                            As a trusted <a href='/website-development-in-sharjah'><strong>web design agency in Sharjah</strong></a>, we specialize in building growth-focused websites that align with your business goals. Our process brings together strategic design thinking, intuitive user journeys, and reliable technical infrastructure to create digital experiences that actually work. Each website we deliver is engineered to capture attention and elevate your business.
+                            </p>
+                    `}
+        img={sharjah}
       />
-      <CommonAboutPage
-        text1={"Website Design Agency in Sharjah"}
-        text2={
-          " We create sleek, modern websites that don't just look impressive- they deliver measurable results. At <a href='/'> Website Development Agency</a>, we specialize in building high-performance, SEO-optimized websites that strengthen your brand and drive growth. "
-        }
-        text3={
-          "As a leading web design agency in Sharjah, we serve businesses across the UAE with flexible solutions from custom designs to optimized templates. We craft custom websites that authentically reflect your brand identity, engage your target audience, and convert visitors into customers. Whether you're launching a new venture or elevating an established business, we deliver digital solutions built for lasting impact."
-        }
-        img={aboutimagesharjhat}
-      />
+    
+     
       <CommonSetsUs
-        text1={"Redefining Digital Experiences for a Decade"}
+        text1={"Transforming Ideas Into High-Performance Websites"}
         text2={
-          "Your search for a professional website development company in Sharjah ends with Website Development Agency. We bring in a decade of experience, web design and development expertise, and our vision to empower businesses with the best possible services.<br><br>At Website Development Agency, we redefine digital experiences with creative web design, next-gen technology stack, and operability- keeping your branding aligned. We ensure your website depicts professionalism, delivers a memorable digital experience, and turns engagement into meaningful conversions."
+          "Your website is the digital front door to your business, and in Sharjah's competitive market, it needs to do more than simply exist online. We build websites that actively work for you- establishing credibility from the first click, communicating your unique value clearly, and guiding visitors smoothly toward becoming customers. <br><br>We don't believe in one-size-fits-all solutions. Each website we develop for Sharjah businesses is built on secure, scalable technology that grows with your ambitions- whether you're launching new services, entering new markets, or adding sophisticated functionality. From lightning-fast mobile performance to integrated business tools like lead capture, booking systems, and e-commerce capabilities, your website becomes a 24/7 growth engine."
         }
         bg={setusimagesharjhat}
       />
-      <CommonAboutPage2
-        text1="Why a Professional Website Design Matters <br/>for Businesses?"
-        text2={`
-                            <p class="mb-20">
-                            Websites are more than just a digital brochure, they define your brand and act as your active sales channel 24*7. Local businesses in Sharjah, those who are looking for a level-up, websites can be the right point of contact to expand your reach. Your audience can get a quick overview of your business, your offerings, and become a loyal customer. A professional website design can help you:
-                            </p>
-                            <ul class="ml-40">
-                            <li>Build trust and credibility with a strong first impression</li>
-                            <li>Increase visibility and reach with an SEO-friendly design</li>
-                            <li>Drive more leads and conversions with an engaging user experience</li>
-                            <li>Enhance website performance through seamless navigation and speed</li>
-                            </ul>
-                            <p>
-                            Starting from <a href='/blog/mobile-first-web-design-for-businesses-key-elements--benefits'>mobile responsive design</a>, latest features, better navigation, and secure hosting, Website Development Agency takes care of every detail. Whether you're a startup, SME, or an established business, our custom web design solutions in Sharjah are customized to suit your objectives and help you make a robust impact online.
-                            </p>
-                    `}
-        img={sharjahAboutimg}
-      />
+     
+      
+      
       <CommonProtfolio />
-      <CommonIndustries />
+      <PremierAgency />
+      <IndustryGrid />
+
+      <DevelopmentServices />
 
       <CommonServices
         theding={"The Website Development Agency Methodology"}
@@ -117,55 +91,10 @@ const page = () => {
             </ul>
             `}
       />
-
+      <TechnologyStack />
       <CommonCostBreakdown
         heading="Website Design Sharjah- Cost Breakdown"
         description="Avail the best website design and Development package based on the features, performance, and growth level you need."
-      />
-
-      <CommonThreeCard
-        text1={"Why Choose Us as Your Web Design<br/> Company in Sharjah"}
-        text2={
-          "Among many other web design companies in Sharjah, we stand as the best with a strong understanding of local business, audience demographics, and the latest digital trends. We are not just a website design company, we are the transformation partner for businesses supporting their digital expansion."
-        }
-        boxdata={[
-          {
-            id: 1,
-            img: StrategicProblemSolvingimage,
-            title: "Strategic Problem Solving",
-            desc: "We are experts in creating visually stunning, functional, and conversion-focused websites tailored to your branding. Every design we create is to deliver a perfect blend of creativity and performance.",
-          },
-          {
-            id: 2,
-            img: FocusedApproachimage,
-            title: "Focused Approach",
-            desc: "As the best web design experts, we focus on building a clear strategy, addressing unique needs, and delivering exceptional websites that resonate with your branding.  ",
-          },
-          {
-            id: 3,
-            img: PartnershipCommitmentimage,
-            title: "Partnership Commitment",
-            desc: "We build long-term relationships with clients with a commitment to deliver excellence. We work as a partner for businesses rather than an agency and work hand-in-hand to ensure growth & success. ",
-          },
-          {
-            id: 4,
-            img: Transparencyimage,
-            title: "Transparency",
-            desc: "We maintain complete openness at every stage of a project, starting from pricing to the timeline of a website project. We keep you in the loop from design to deployment, no hidden charges, no hidden surprises.",
-          },
-          {
-            id: 5,
-            img: TechnologyAdoptionimage,
-            title: "Technology Adoption",
-            desc: "We leverage all the latest tools, technologies, and frameworks to deliver future-ready websites. Our web solutions are designed to keep your business ahead of the digital curve with the latest available technology. ",
-          },
-          {
-            id: 6,
-            img: ValueforMoneyServicesimage,
-            title: "Value for Money Services",
-            desc: "We deliver premium web design services in Sharjah at a competitive price compared to any other provider. Website Development Agency ensures the maximum ROI of your spending by delivering the most impactful solutions.",
-          },
-        ]}
       />
 
       <CommonResult
@@ -204,9 +133,13 @@ const page = () => {
           },
         ]}
         footertext={
-          "We have worked with top-level businesses in Sharjah and UAE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. "
+          "We have worked with leading businesses in Sharjah and UAE across retail, real estate, healthcare, education, and e-commerce. Each industry has different user expectations, workflows, and compliance needs, and we design digital platforms tailored to those differences- not one-size-fits-all solutions. "
         }
       />
+
+  
+
+      
 
       <CommonClientTestimonials />
       <LocationService activeLocation="sharjah" />

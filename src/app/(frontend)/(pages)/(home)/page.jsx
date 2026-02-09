@@ -1,15 +1,9 @@
 import React from "react";
 import Banner from "../../component/pages/home/Banner";
-import Trusted from "../../component/pages/home/Trusted";
-import BestAgency from "../../component/pages/home/BestAgency";
-import WhatSetsUs from "../../component/pages/home/WhatSetsUs";
-import OurCoreStrengths from "../../component/pages/home/OurCoreStrengths";
 import TechnologyStack from "../../component/pages/home/TechnologyStack";
 import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
 
-import Webexperiences from "../../component/pages/home/WebExperiences";
 import WebDesignApproach from "../../component/pages/home/WebDesignApproach";
-import OurJourney from "../../component/pages/home/OurJourney";
 import FaqSection from "../../component/pages/home/FaqSection";
 import CtaSection from "../../component/pages/home/CtaSection";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
@@ -35,7 +29,7 @@ const page = () => {
     <div>
       <Banner
         text1={"Where Creativity Meets Conversion"}
-        text2={"Top-Rated Web Design Agency in Dubai, UAE"}
+        text2={"Web Design Agency in Dubai, UAE"}
         text3={
           "Partner with UAE's trusted web design agency for websites that work as hard as you do. We deliver strategic designs built to engage and convert, fast, secure, and scalable technology, and real growth. Join 500+ UAE brands that trust us with their digital success."
         }

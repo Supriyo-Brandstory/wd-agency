@@ -44,7 +44,7 @@ const PremierAgency = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Premier Web Design Company in Dubai, UAE
+            Premier Web Design Company in UAE
           </motion.h2>
           <motion.p
             className={styles.description}
@@ -55,7 +55,7 @@ const PremierAgency = () => {
           >
             Our work speaks for itself. Endorsed by industry leaders, Website
             Development Agency is recognized as an elite web design agency in
-            Dubai, UAE, delivering high-impact digital experiences for the UAE’s
+             UAE, delivering high-impact digital experiences for the UAE’s
             most ambitious brands.
           </motion.p>
         </div>

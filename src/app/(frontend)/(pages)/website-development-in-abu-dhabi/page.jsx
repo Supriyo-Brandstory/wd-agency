@@ -1,19 +1,9 @@
 import React from "react";
 import Banner from "../../component/pages/home/Banner";
-import CommonAboutPage from "../../component/pages/common/CommonAboutPage";
-import aboutimagesabudhabi from "@/app/(frontend)/assets/images/abu-dhabi/about.webp";
-import setusimagesabudhabi from "@/app/(frontend)/assets/images/abu-dhabi/setusbg.webp";
 import abudhabiAboutimg from "@/app/(frontend)/assets/images/abu-dhabi/about-2.webp";
-import CommonSetsUs from "../../component/pages/common/CommonSetsUs";
 import CommonAboutPage2 from "../../component/pages/common/CommonAboutPage2";
-import CommonThreeCard from "../../component/pages/common/CommonThreeCard";
+import imagewhymetter from "@/app/(frontend)/assets/images/healthcare-web-development/healthcare-website-design-services.webp";
 
-import StrategicProblemSolvingimage from "@/app/(frontend)/assets/images/website-development/Strategic-Problem-Solving.png";
-import FocusedApproachimage from "@/app/(frontend)/assets/images/website-development/FocusedApproach.png";
-import PartnershipCommitmentimage from "@/app/(frontend)/assets/images/website-development/Partnership-Commitment.png";
-import Transparencyimage from "@/app/(frontend)/assets/images/website-development/Transparency.png";
-import TechnologyAdoptionimage from "@/app/(frontend)/assets/images/website-development/Technology-Adoption.png";
-import ValueforMoneyServicesimage from "@/app/(frontend)/assets/images/website-development/Value-for-Money-Services.png";
 
 import CommonServices from "../../component/pages/common/CommonServices";
 import CommonFaqSection from "../../component/pages/common/CommonFaqSection";
@@ -23,7 +13,6 @@ import customdesign from "@/app/(frontend)/assets/images/website-development/cus
 import SEOCentric from "@/app/(frontend)/assets/images/website-development/SEO-Centric.webp";
 import MobileFirst from "@/app/(frontend)/assets/images/website-development/Mobile-First.webp";
 import Optimized from "@/app/(frontend)/assets/images/website-development/Optimized.webp";
-import CommonIndustries from "../../component/pages/common/CommonIndustries";
 import CommonProtfolio from "../../component/pages/common/CommonProtfolio";
 
 import DevelopmentProcess from "@/app/(frontend)/assets/images/abu-dhabi/DevelopmentProcess.webp";
@@ -31,80 +20,70 @@ import CommonClientTestimonials from "../../component/pages/common/CommonClientT
 
 import LocationService from "../../component/pages/common/LocationService";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
-import SubNav from "../../component/pages/common/SubNav";
+import ClientSection from "../../component/pages/common/ClientSection";
+import CommonWhyMetter from "../../component/pages/common/CommonWhyMetter";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import Stats from "../../component/pages/about/Stats";
+import DevelopmentServices from "../../component/pages/home/DevelopmentServices";
+import DemoTemplate from "../../component/pages/home/DemoTemplate";
+import TechnologyStack from "../../component/pages/home/TechnologyStack";
+
 
 const page = () => {
   return (
     <>
       <Banner
         text1={"Build Your Digital Presence with"}
-        text2={"Best Website Design Agency in Abu Dhabi"}
+        text2={"Website Development Agency in Abu Dhabi"}
         text3={
-          "At Website Development Agency, we are the best website design agency in Abu Dhabi, UAE. Let’s create your website beyond the ordinary."
+          "We craft stunning, custom-built websites that help businesses in Abu Dhabi and across the UAE stand out online. Start your digital journey with a trusted website development agency in the UAE and transform your vision into a powerful online presence. Contact us today for a free quote."
         }
       />
-
-      <SubNav
-        title="Technology"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
-
-      <CommonAboutPage
-        text1={"Web Design Agency in Abu Dhabi"}
-        text2={
-          " In Abu Dhabi’s competitive, high-expectation marketplace, a website is far more than a place on the web- it’s your brand’s front door, your lead generator, and often the very first impression customers have of your business. Whether you’re a startup, a multinational, a hospitality brand, or a government service, your site must be beautiful, fast, accessible, and secure."
-        }
-        text3={
-          "At <a href='/'>Website Development Agency</a>, we design and build websites for Abu Dhabi businesses that combine strategic thinking, user-first design, and resilient engineering. Our emphasis is on creating digital experiences that builds trust, enhance visibility, and turn visitors into customers. We line up technical expertise with local culture, Arabic/English language requirements, and the Emirate’s digital goals."
-        }
-        img={aboutimagesabudhabi}
-      />
-      <CommonSetsUs
-        text1={"Transforming Digital Presence in Abu Dhabi"}
-        text2={
-          "Looking for a website development company in Abu Dhabi that truly understands your business needs? Website Development Agency brings over a decade of experience in designing and developing websites that not only look stunning but also perform seamlessly. <br><br>We specialize in crafting intuitive websites that combine innovative design, advanced technology, and smooth functionality. Every website we build is crafted to strengthen your brand, engage your audience, and convert visitors into loyal customers- helping your business thrive in Abu Dhabi’s competitive digital landscape."
-        }
-        bg={setusimagesabudhabi}
-      />
-      {/* rest */}
+      <ClientSection />
+ 
       <CommonAboutPage2
-        text1="Why a World-class Website Matters in Abu Dhabi"
+        text1="Premier Website Design & Development <br>Services Agency"
         text2={`
                             <p class="mb-20">
-                            Abu Dhabi is an economic hub where professionalism, sophistication, and worldwide standards are anticipated. We create websites with global standard with a fusion of local touch keeping up with 5 golden rules in mind:
+                            A professionally designed website is more than just an online presence- it is a valuable business asset. It builds trust, introduces your brand effectively, and keeps your business accessible to customers at all times. In today’s digital-first environment, a well-planned website helps Abu Dhabi businesses reach and engage their audience more.
                             </p>
-                            <ul class="ml-40">
-                            <li>Builds Immediate Credibility- Professional design signals a professional company.</li>
-                            <li>Supports Conversions- Transparent journeys and calls-to-action convert visitors into leads or customers.</li>
-                            <li>Offers 24/7 Accessibility- Your business can be explored and communicated with at any time.</li>
-                            <li>Increases Reach- Multilingual, SEO-ready sites stretch to local, regional, and worldwide audiences.</li>
-                            <li>Aligns with Vision 2030- The emirate’s digitisation targets digitally mature reward organisations.</li>
-                            </ul>
-                            <p>
-                            If you want to attract higher-value clients, reduce friction in service delivery, or grow online revenue, your website is the single most powerful lever.
+                          
+                            <ul class='ml-50'>
+                            <li>Establish trust and credibility with potential customers</li>
+                            <li>Present products and services with clarity & appeal</li>
+                            <li>Deliver a seamless user experience across all devices</li>
+                            <li>Support marketing, lead generation, and long-term growth</li>
+                          </ul>
+
+                            <p class='mt-20'>
+                            We are the premier <a href='/website-development-in-abu-dhabi'><strong>web development agency in Abu Dhabi</strong></a> focused on creating custom websites that support your brand vision and commercial goals. By combining refined design, seamless usability, and dependable technology, we develop digital platforms that perform. Every project is designed to engage visitors, inspire confidence, and drive long-term business success.
                             </p>
                     `}
         img={abudhabiAboutimg}
       />
+
+            <CommonWhyMetter
+        imagewhymetter={imagewhymetter}
+        alt="We Transforming Ideas Into High-Performance Websites"
+        heding={"We Transforming Ideas Into High-Performance Websites"}
+        subheding={
+          "Your website is often the first point of contact between your business and potential customers. It needs to do more than look good- it should build trust, communicate value, and convert visitors into clients. We create high-performing websites for Abu Dhabi businesses that combine strategic design with robust functionality, ensuring your digital presence works as hard as you do."
+        }
+        lefttext={`  <p><b>User-Centric Design Philosophy:</b> We build websites around how your customers think and behave. Every element from menu structure to button placement is intentionally designed to guide users toward the information or action they need. The result is a frictionless experience that keeps visitors engaged and encourages them to connect with your business.</p>
+                        <p><b>Built to Grow With You:</b> Your website should evolve alongside your business. We develop on secure, future-ready platforms that can scale as your needs change whether you're adding new services, expanding to new markets, or integrating <a href='/blog/website-design-trends-dubai-uae-key-insights-2026'><strong>advanced features</strong></a>. Performance and security are built into the foundation, not added as afterthoughts.</p>
+                        `}
+        righttext={`<p><b>Functionality That Delivers Results:</b> We go beyond templates. Every website we build includes <a href='/blog/the-undeniable-importance-of-mobile-first-website-design-in-2026'><strong>mobile optimization</strong></a>, lightning-fast load times, and tools that actually support your business goals whether that's lead capture, appointment booking, e-commerce, or customer service. You get a website that works around the clock to grow your business in Abu Dhabi's competitive market.</p>
+                            `}
+      />
+
+       <Stats />
+
+
       <CommonProtfolio />
 
-      <CommonIndustries />
+      <IndustryGrid />
+
+      <DevelopmentServices />
 
       <CommonServices
         theding={"The Website Development Agency Methodology"}
@@ -125,60 +104,17 @@ const page = () => {
         bbg={DevelopmentProcess}
       />
 
+      <TechnologyStack />
+
       <CommonCostBreakdown
         heading="Website Design Abu Dhabi- Cost Breakdown"
         description="Avail the best website design and Development package based on the features, performance, and growth level you need."
       />
-      <CommonThreeCard
-        text1={
-          "Website Development with Local Expertise & <br>Global Engineering"
-        }
-        text2={
-          "Many agencies build websites, few combine a local business with modern engineering. Here’s what makes Website Development Agency the preferred partner for businesses in Abu Dhabi:"
-        }
-        boxdata={[
-          {
-            id: 1,
-            img: StrategicProblemSolvingimage,
-            title: "Local Market Mastery",
-            desc: "We understand UAE cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.",
-          },
-          {
-            id: 2,
-            img: FocusedApproachimage,
-            title: "End-to-end Delivery",
-            desc: "Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.",
-          },
-          {
-            id: 3,
-            img: PartnershipCommitmentimage,
-            title: "Future-ready Engineering",
-            desc: "We create flexible architectures, headless CMS alternatives, and progressive web app techniques that safeguard your investment.",
-          },
-          {
-            id: 4,
-            img: Transparencyimage,
-            title: "Conversion-first Approach",
-            desc: "We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.",
-          },
-          {
-            id: 5,
-            img: TechnologyAdoptionimage,
-            title: "24/7 Free Support",
-            desc: " Local SLA-based monitoring, security patching, and performance tuning so your site is always available.",
-          },
-          {
-            id: 6,
-            img: ValueforMoneyServicesimage,
-            title: "Diverse Experience",
-            desc: "We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.",
-          },
-        ]}
-      />
+     
       <CommonResult
-        heding={"Best Web Design Services that Drive Measurable Results"}
+        heding={"We Follow Results-Driven Web Design Principles"}
         desc={
-          "Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."
+          "Great website design connects a visitor’s journey from initial impact to conversation. We are the expert web design agency in Abu Dhabi creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."
         }
         resultdata={[
           {
@@ -207,51 +143,80 @@ const page = () => {
           },
         ]}
         footertext={
-          "We have worked with top-level businesses in Abu Dhabi across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. "
+          "We have worked with leading businesses in Abu Dhabi across retail, real estate, healthcare, education, and e-commerce. Each industry has different user expectations, workflows, and compliance needs, and we design digital platforms tailored to those differences- not one-size-fits-all solutions. "
         }
       />
+
+      <DemoTemplate activetaburl={""} />
+
+
+
 
       <CommonClientTestimonials />
       <LocationService activeLocation="abu dhabi" />
 
       <CommonFaqSection
         faqs={[
-          {
-            q: "Why Should I Hire Website Development Agency?",
-            a: "Local providers comprehend language, culture, regulatory expectations, and can usually offer faster, on-the-ground support. We merge local information with international technology practices so your site is culturally resonant and technically sound.",
-          },
-          {
-            q: "Do You Build Websites in Arabic (RTL)?",
-            a: "Yes. We outline and advance RTL layouts, select suitable Arabic typefaces, and examine UX flows particularly for Arabic-speaking users.",
-          },
-          {
-            q: "How Do You Measure Success?",
-            a: "We establish KPIs before launch- conversion rate, lead volume, organic traffic growth, page speed scores, and user engagement metrics- and update monthly.",
-          },
-          {
-            q: "Will My Website Be Secure?",
-            a: "Yes, we build websites with HTTPS, WAF, constant dependency patching, role-based access control, and alternative penetration testing for high-risk projects.",
-          },
-          {
-            q: "Can You Move Our Current Website To a New Platform?",
-            a: "Yes, we can seamlessly transfer your existing website to a new platform while ensuring all content, URLs, and SEO value are preserved. Our team manages the entire migration process, including 301 redirects and staged rollouts, to prevent any downtime.",
-          },
-          {
-            q: "Are Your Websites SEO-Friendly?",
-            a: "Yes, we involve technical and on-page SEO cornerstones: metadata, site maps, schema markup, image alt tags, and mobile optimisation. Advanced SEO (link building, content campaigns) is provided as an add-on.",
-          },
-          {
-            q: "Do You Provide Post-launch Support?",
-            a: "Yes, we provide comprehensive post-launch support. You’ll receive free website maintenance for the first three months, followed by flexible support plans that include monthly maintenance, uptime monitoring, security and error alerts, regular backups, and instant assistance for any issues.",
-          },
-          {
-            q: "Which We Development Platforms Do You Recommend?",
-            a: "The web development platform we recommend depends on your project needs. For content-focused websites, WordPress provides flexibility and easy management. For eCommerce sites, platforms like Shopify, Magento, or WooCommerce offer powerful features and scalability. For high-performance websites with complex integrations, we suggest using a headless CMS paired with modern frameworks such as React or Vue, ensuring speed, customization, and seamless user experiences.",
-          },
-          {
-            q: "How Do You Manage Integrations (CRM, ERP, Payment Gateways)?",
-            a: "We handle integrations by implementing secure API connections and, where necessary, middleware to ensure seamless communication between systems. Automated data flows keep your leads, orders, and records synchronized with your CRM, ERP, or payment gateways, ensuring smooth and efficient operations.",
-          },
+  {
+    q: "What is website design, and why is it important for my business?",
+    a: "Website design involves the planning, layout, structure, visuals, and overall user experience of a website. For businesses in Abu Dhabi, a well-designed website builds credibility, creates strong first impressions, and helps convert visitors into customers while clearly communicating your brand online."
+  },
+  {
+  q: "What should I look for when selecting a web design company?",
+  a: "When selecting a web design company, consider their experience, portfolio quality, technical capabilities, and understanding of your industry. A professional Website Development Agency should demonstrate clear processes, strong communication, and the ability to deliver websites that support your business objectives."
+},
+{
+  q: "How much time is usually required to complete a website project?",
+  a: "The time required to complete a website project depends on its scope, design requirements, and functionality. A standard business website can be completed within a few weeks, while larger or more customized projects may take longer to ensure proper testing and performance."
+},
+  {
+    q: "Can I design a website on my own?",
+    a: "Yes, basic websites can be created using website builders or templates. However, professional website design goes beyond visuals and includes usability, performance, responsiveness, security, and scalability. Businesses focused on growth often benefit from working with an experienced Website Development Agency."
+  },
+  {
+    q: "Can I create a website for free?",
+    a: "Free website platforms are available, but they come with limitations such as restricted features, branded domains, limited customization, and weaker performance. A professionally developed website offers better control, stronger branding, improved security, and long-term value for businesses in Abu Dhabi."
+  },
+  {
+    q: "How much does website design cost in Abu Dhabi?",
+    a: "Website design costs vary depending on project scope, design complexity, features, and functionality. A basic business website costs less than a custom or feature-rich platform. Website Development Agency evaluates your requirements and provides transparent pricing aligned with your business goals."
+  },
+  {
+    q: "How long does it take to design and develop a website?",
+    a: "The timeline depends on the size and complexity of the website. A standard business website typically takes a few weeks, while larger or custom projects may take longer. Website Development Agency follows a structured development process to ensure timely delivery without compromising quality."
+  },
+  {
+    q: "Is web designing easy?",
+    a: "Basic web design concepts can be learned, but professional web designing requires design principles, technical knowledge, user experience planning, and testing. Creating a website that performs well across devices and platforms requires expertise and experience."
+  },
+  {
+    q: "What skills are required for a professional web designer?",
+    a: "A professional web designer combines visual design skills, UX/UI understanding, responsive design principles, basic coding knowledge, and an understanding of user behavior. Strong communication and problem-solving skills are also essential for delivering effective websites."
+  },
+  {
+    q: "Does web design involve coding?",
+    a: "Yes, web design often involves coding, especially for custom layouts and advanced functionality. Professional website development typically includes HTML, CSS, JavaScript, and backend technologies to ensure flexibility, performance, and scalability."
+  },
+  {
+    q: "Can someone become a web designer without coding?",
+    a: "It is possible to design websites using visual tools without coding, but having coding knowledge greatly improves customization, control, and problem-solving ability. Most professional web designers have at least a basic understanding of coding concepts."
+  },
+  {
+    q: "What is responsive web design, and why is it essential?",
+    a: "Responsive web design ensures your website adapts smoothly to desktops, tablets, and mobile devices. This is essential for businesses in Abu Dhabi, as users access websites across multiple devices. Responsive design improves usability, engagement, and overall performance."
+  },
+  {
+    q: "Will my website be mobile-friendly and optimized for search engines?",
+    a: "Yes. Website Development Agency builds mobile-friendly websites with SEO-friendly structure, fast loading speeds, clean code, and optimized layouts to enhance search visibility and user experience."
+  },
+  {
+    q: "Do I need to provide content, or can your agency help with it?",
+    a: "You may provide your own content, or Website Development Agency can assist in structuring and refining content for clarity, consistency, and effectiveness while maintaining your brand tone."
+  },
+  {
+    q: "Do you provide ongoing support and maintenance after the website is launched?",
+    a: "Yes. Website Development Agency offers ongoing support and maintenance services to keep your website secure, updated, and performing optimally as your business continues to grow."
+  }
         ]}
       />
     </>

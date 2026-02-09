@@ -29,92 +29,69 @@ import DevelopmentProcess from "@/app/(frontend)/assets/images/ajman/Development
 import CommonClientTestimonials from "../../component/pages/common/CommonClientTestimonials";
 import LocationService from "../../component/pages/common/LocationService";
 
-import SubNav from "../../component/pages/common/SubNav";
 import CommonCostBreakdown from "../../component/pages/common/CommonCostBreakdown";
+import ClientSection from "../../component/pages/common/ClientSection";
+import PremierAgency from "../../component/pages/common/PremierAgency";
+import IndustryGrid from "../../component/pages/common/IndustryGrid";
+import TechnologyStack from "../../component/pages/home/TechnologyStack";
 
 const page = () => {
   return (
     <>
       <Banner
-        text1={"Elevate your online presence with"}
-        text2={"Web Design Agency in Ajman"}
+        text1={"Elevate your online presence with The"}
+        text2={"Best Web Design Agency in Ajman"}
         text3={
-          "We are Website Development Agency, the best website development agency in Ajman, UAE. Let’s create your website beyond the ordinary."
+          "We design intelligent, responsive, and results-driven websites for businesses in Ajman. Partner with a website development agency that understands the local market and is committed to turning your business goals into online success."
         }
       />
+      <ClientSection />
+      
 
-      <SubNav
-        title="Technology"
-        items={[
-          { name: "PHP", link: "/platforms/php-website-development" },
-          { name: "ReactJS", link: "/platforms/react-js-website-development" },
-          { name: "NodeJS", link: "/platforms/nodejs-website-development" },
-          { name: "Laravel", link: "/platforms/laravel-website-development" },
-          { name: "Angular", link: "/platforms/angular-website-development" },
-          { name: "Drupal", link: "/platforms/drupal-website-development" },
-          {
-            name: "WordPress",
-            link: "/platforms/wordpress-website-development",
-          },
-          { name: "Shopify", link: "/platforms/shopify-website-development" },
-          {
-            name: "WooCommerce",
-            link: "/platforms/woo-commerce-website-development",
-          },
-        ]}
-      />
-      <CommonAboutPage
-        text1={"No.1 Website Design Agency Ajman"}
-        text2={
-          "Your website is more than a digital presence- it's your most powerful sales tool. At <a href='/'>Website Development Agency</a>, we design high-performance websites that capture attention, build trust, and convert visitors into customers. We specialize in creating both custom web solutions and template-based websites tailored to your budget and timeline."
-        }
-        text3={
-          "Whether you're a startup launching your first site or an established company ready for a digital upgrade, we deliver websites that work as hard as you do. Our experts combine conversion-focused design, mobile optimization, SEO foundations, and ongoing support to build websites that attract customers and drive results. Ready to transform your online presence? Let's build something remarkable together."
-        }
-        img={aboutimagesharjhat}
-      />
-      <CommonSetsUs
-        text1={"Elevating Digital Experiences in Ajman"}
-        text2={
-          "Searching for a reliable website development company in Ajman? Website Development Agency combines over a decade of experience with cutting-edge web design and development expertise to deliver websites that are both visually appealing and highly functional.<br><br>Our team focuses on creating digital experiences that reflect your brand, engage your audience, and drive meaningful conversions. By integrating innovative design with advanced technology, we help businesses in Ajman establish a strong online presence and achieve sustainable growth in today’s competitive digital landscape."
-        }
-        bg={setusimagesharjhat}
-      />
-      {/* rest */}
       <CommonAboutPage2
-        text1="Why Your Business in Ajman Needs a Professional Website"
+        text1="Professional Website Design & Development <br>Services in Ajman"
         text2={`
                             <p class="mb-20">
-                           Ajman is a competitive market packed with small enterprises, well-established companies, and local merchants. Competing for visibility, it is inescapable to have a professional website. Here is why:
+                           Your website isn't just a digital placeholder- it's the engine that powers modern business growth. It works while you sleep, turning browsers into buyers, answering questions before they're asked, and positioning your Ajman business as the clear choice in a crowded market. When built right, your website becomes your most effective sales representative.
                             </p>
                             <ul class="ml-40">
-                            <li>Builds trust and credibility - Customers decide the worthiness of your business within seconds after landing on your website.</li>
-                            <li>Increases your reach - With a website, your services can go beyond local limits.</li>
-                            <li>Generates sales and conversions - Strategic layouts coupled with purposeful call-to-actions (CTAs) convince visitors to pay for what you are selling.</li>
-                            <li>Supports long-term growth – Your website is the cornerstone for digital marketing strategies and driving sustainable business growth.</li>
+                            <li>Instant credibility that turns skeptical visitors into interested prospects</li>
+                            <li>Crystal-clear messaging that highlights what sets you apart</li>
+                            <li>Flawless performance on every screen size and device type</li>
+                            <li>Measurable contributions to your sales pipeline and revenue goals</li>
                             </ul>
                             <p>
-                            When you partner with a Website Development Agency for your website design in Ajman, you don’t just develop a website, you get a deliberate business tool designed to uplift your brand.
+                            We're an <a href='/website-development-in-ajman'><strong>web development agency in Ajman</strong></a> that builds websites with one priority: making your business more successful. Our approach blends data-driven strategy with creative execution and rock-solid technical development. The websites we create don't just look professional; they generate leads, close sales, and give you a competitive advantage that compounds over time.
                             </p>
                     `}
         img={sharjahAboutimg}
       />
-      <CommonProtfolio />
 
-      <CommonIndustries />
+      <CommonSetsUs
+        text1={"Transforming Ideas Into High-Performance Websites"}
+        text2={
+          "We build digital platforms that earn trust quickly, communicate your value clearly, and convert visitors into customers. Our design process is grounded in user behavior- understanding what your audience needs, how they decide, and what stops them from taking action. <br><br>As your business grows, your website should scale with it. We develop secure, flexible frameworks that support new features like customer portals, added services, and market expansion, without a full rebuild. With mobile-first design, fast load speeds, and integrated tools for leads, scheduling, and sales, your website works as a dependable revenue-driving platform."
+        }
+        bg={setusimagesharjhat}
+      />
+      {/* rest */}
+      
+      <CommonProtfolio />
+      <PremierAgency />
+      <IndustryGrid />
 
       <CommonServices
         theding={"Web Design in Ajman- More Than Just Aesthetics"}
-        tdesc={` <p>A successful website goes beyond visual appeal; it’s about delivering real value to users. At Website Development Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly while leaving a lasting impression of your brand.</p>
+        tdesc={` <p>At Website Development Agency, our approach to web design in Ajman focuses on creating experiences that are intuitive, engaging, and purposeful. Every element from layout and navigation to content placement is designed to guide visitors seamlessly, ensuring they find what they need quickly.</p>
                     <p class='mt-20'>We believe that effective web design combines creativity with functionality. Fast-loading pages, mobile responsiveness, and clear calls-to-action work together to enhance usability and drive conversions. </p>
                 `}
         bheding={"We proiritize our website design and development work with:"}
         bdesc={`<ul class='ml-50'>
-                <li>User-centric Design – Fast-loading, glitch-free, and simple-to-use designs.</li>
-                <li>Strategy & information architecture — Content strategy, taxonomy, and conversion mapping.</li>
-                <li>Mobile Responsiveness – Leveraged for each screen size.</li>
-                <li>Strong Branding – Steadiness across visuals, tone, and messaging.</li>
-                <li>SEO Friendly – Built-in strategies to assist your business in ranking higher on Google.</li>
+                <li>User-centric Design - Fast-loading, glitch-free, and simple-to-use designs.</li>
+                <li>Strategy & information architecture - Content strategy, taxonomy, and conversion mapping.</li>
+                <li>Mobile Responsiveness - Leveraged for each screen size.</li>
+                <li>Strong Branding - Steadiness across visuals, tone, and messaging.</li>
+                <li>SEO Friendly - Built-in strategies to assist your business in ranking higher on Google.</li>
                 
             </ul>
             <p class='mt-20'>Your website becomes your digital storefront, and we make sure it keeps customers engaged from the initial click to the ultimate conversion.</p>
@@ -122,57 +99,16 @@ const page = () => {
         bbg={DevelopmentProcess}
       />
 
+      <TechnologyStack />
+
       <CommonCostBreakdown
         heading="Website Design Ajman- Cost Breakdown"
         description="Avail the best website design and Development package based on the features, performance, and growth level you need."
       />
 
-      <CommonThreeCard
-        text1={"Why Choose Website Development Agency"}
-        text2={
-          "Many agencies can build websites, but few combine a deep understanding of the local market with modern engineering. Here’s why Website Development Agency is the preferred partner for businesses in Abu Dhabi:"
-        }
-        boxdata={[
-          {
-            id: 1,
-            img: StrategicProblemSolvingimage,
-            title: "Local Market Mastery",
-            desc: "We understand UAEs cultural expectations, Arabic language nuances, and business etiquette with worldwide UX and accessibility standards.",
-          },
-          {
-            id: 2,
-            img: FocusedApproachimage,
-            title: "End-to-end Services",
-            desc: "Strategy, UX/UI design, development, hosting, security, SEO, analytics, and continuous support- all managed by one cross-functional team.",
-          },
-          {
-            id: 3,
-            img: PartnershipCommitmentimage,
-            title: "Future-ready Engineering",
-            desc: "We develop adaptable architectures, utilize headless CMS solutions, and implement progressive web app technologies to ensure your website remains scalable for the future.",
-          },
-          {
-            id: 4,
-            img: Transparencyimage,
-            title: "Conversion-first Approach",
-            desc: "We don’t just make sites look attractive- we design quantifiable funnels with analytics, A/B testing, and iterative leveraging.",
-          },
-          {
-            id: 5,
-            img: TechnologyAdoptionimage,
-            title: "24/7 Support & Maintenance",
-            desc: "SLA-based monitoring, security patching, and performance tuning so your site is available 24*7.",
-          },
-          {
-            id: 6,
-            img: ValueforMoneyServicesimage,
-            title: "Diverse Experience",
-            desc: "We partner with startups, SMEs, corporations and government bodies- tailoring our approach to fit budget, regulatory needs and growth ambitions.",
-          },
-        ]}
-      />
+
       <CommonResult
-        heding={"Best Web Design Services that Drive Measurable Results"}
+        heding={"We Follow Results-Driven Web Design Principles"}
         desc={
           "Great website design connects a visitor’s journey from initial impact to conversation. We are the best expert web design agency creating websites that don’t just look good and functional, but also work across all devices. From intuitive UX design to high end visuals, we outline websites attract, engage, and keep users engaged."
         }
@@ -207,7 +143,7 @@ const page = () => {
           },
         ]}
         footertext={
-          "We have worked with top-level businesses in Sharjah and USE across retail, real estate, healthcare, education, e-commerce, etc. We know what it takes to build a digital platform that works for every niche. "
+          "We have worked with leading businesses in Ajman, UAE across retail, real estate, healthcare, education, and e-commerce. Each industry has different user expectations, workflows, and compliance needs, and we design digital platforms tailored to those differences- not one-size-fits-all solutions. "
         }
       />
       <CommonClientTestimonials />
