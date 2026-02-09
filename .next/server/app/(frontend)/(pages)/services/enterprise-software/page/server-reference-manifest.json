@@ -1,0 +1,20 @@
+{
+  "node": {
+    "408bd0156bfeaddba797f48e526424e3a166594906": {
+      "workers": {
+        "app/(frontend)/(pages)/services/enterprise-software/page": {
+          "moduleId": 43513,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/services/enterprise-software/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

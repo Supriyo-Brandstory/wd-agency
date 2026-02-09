@@ -1,0 +1,35 @@
+{
+  "node": {
+    "408bd0156bfeaddba797f48e526424e3a166594906": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": 94552,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "603b796158b21db6a63dcd229ce91a576974c7947e": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": 94552,
+          "async": false,
+          "exportedName": "getPaginatedBlogsByCategory",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/blog/page": "action-browser"
+      },
+      "exportedName": "getPaginatedBlogsByCategory",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,65 @@
+{
+  "node": {
+    "70cdf9e2d17f5ad6f8e1fcf010508d7642716810f0": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "createBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "createBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "78979e2717d162c42b8e1b1c24b63efae5ad3d1884": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "updateBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "updateBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "4054d08be0578efef37b523ca26b604b72b4857236": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "deleteBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "deleteBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    },
+    "009921b986efb269981e3789d340d9edcde3844ff8": {
+      "workers": {
+        "app/admin/dashboard/blog-category/page": {
+          "moduleId": 53751,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/blog-category/page": "action-browser"
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}
