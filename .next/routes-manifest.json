@@ -548,6 +548,12 @@
       "namedRegex": "^/saas\\-website\\-design(?:/)?$"
     },
     {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
       "page": "/services/branding",
       "regex": "^/services/branding(?:/)?$",
       "routeKeys": {},
@@ -642,6 +648,12 @@
       "regex": "^/sports\\-website\\-design(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/sports\\-website\\-design(?:/)?$"
+    },
+    {
+      "page": "/technologies",
+      "regex": "^/technologies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/technologies(?:/)?$"
     },
     {
       "page": "/technology-web-development",

@@ -1,6 +1,6 @@
 {
   "node": {
-    "408bd0156bfeaddba797f48e526424e3a166594906": {
+    "40d610dece0986c01f3bd8d4aeb4b731c36960c66a": {
       "workers": {
         "app/(frontend)/(pages)/cybersecurity-website-design/page": {
           "moduleId": 53486,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00f9d9401d0ce092e37e03bbef3f89d4c46d0bad64": {
+    "0022f828c4783481b798289eac2d8e0d14e8f208c4": {
       "workers": {
         "app/(frontend)/(pages)/cybersecurity-website-design/page": {
           "moduleId": 53486,
@@ -30,7 +30,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00c362944ca2aefaf6201de75dba2835e44cd1b3af": {
+    "00c9d18f16d99e7db037c4efff89aac5d308e04f92": {
       "workers": {
         "app/(frontend)/(pages)/cybersecurity-website-design/page": {
           "moduleId": 53486,

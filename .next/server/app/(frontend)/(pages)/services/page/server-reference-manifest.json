@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40d610dece0986c01f3bd8d4aeb4b731c36960c66a": {
+      "workers": {
+        "app/(frontend)/(pages)/services/page": {
+          "moduleId": 81025,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/services/page": "action-browser"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}
