@@ -77,9 +77,17 @@ export default function Header() {
 
         {/* Services Mega Menu */}
         <div className={styles.dropdown}>
-          <button onClick={() => toggleMobileDropdown("services")}>
+          <Link
+            href="/services"
+            onClick={(e) => {
+              if (window.innerWidth <= 768) {
+                e.preventDefault();
+                toggleMobileDropdown("services");
+              }
+            }}
+          >
             Services ▾
-          </button>
+          </Link>
           <div
             className={`${styles.dropdownMenu2} ${
               activeDropdown === "services" ? styles.mobiledropdownActive : ""
@@ -100,9 +108,17 @@ export default function Header() {
 
         {/* Technology Dropdown */}
         <div className={styles.dropdown}>
-          <button onClick={() => toggleMobileDropdown("tech")}>
+          <Link
+            href="/technologies"
+            onClick={(e) => {
+              if (window.innerWidth <= 768) {
+                e.preventDefault();
+                toggleMobileDropdown("tech");
+              }
+            }}
+          >
             Technology ▾
-          </button>
+          </Link>
           <div
             className={`${styles.dropdownMenu} ${
               activeDropdown === "tech" ? styles.mobiledropdownActive : ""
