@@ -1,6 +1,6 @@
 {
   "node": {
-    "006718b70a2a9662c6fec44706157f7d55c20962f1": {
+    "00a2478f76a92c904edaf340673eaf5c8fdc0d81a2": {
       "workers": {
         "app/(frontend)/(pages)/services/website-migration-service/page": {
           "moduleId": 50516,
@@ -15,22 +15,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4001b1a536ff87fea67df82f82423014e378b71985": {
-      "workers": {
-        "app/(frontend)/(pages)/services/website-migration-service/page": {
-          "moduleId": 50516,
-          "async": false,
-          "exportedName": "createSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/services/website-migration-service/page": "rsc"
-      },
-      "exportedName": "createSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "408b6ec5c7c65e5cd4bd23a4b0cc0d3465fed0b59c": {
+    "403907c2ca644ec664b37097774a72508120effd31": {
       "workers": {
         "app/(frontend)/(pages)/services/website-migration-service/page": {
           "moduleId": 50516,
@@ -45,7 +30,22 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "6085e3b52bf8ac536bfc0f1b591ab804df94674f66": {
+    "40c9db27212e4d0bce01f7e3d12f917989f14d050d": {
+      "workers": {
+        "app/(frontend)/(pages)/services/website-migration-service/page": {
+          "moduleId": 50516,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/services/website-migration-service/page": "rsc"
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "604bc1eb216c62e1a899c54d19a6080befd0d3436b": {
       "workers": {
         "app/(frontend)/(pages)/services/website-migration-service/page": {
           "moduleId": 50516,
@@ -60,7 +60,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7fd610dece0986c01f3bd8d4aeb4b731c36960c66a": {
+    "7f2344f36090e324d61a022e6d3bd85c33d74c1f61": {
       "workers": {
         "app/(frontend)/(pages)/services/website-migration-service/page": {
           "moduleId": 50516,

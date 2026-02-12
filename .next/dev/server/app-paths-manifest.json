@@ -1,8 +1,0 @@
-{
-  "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/admin/dashboard/page": "app/admin/dashboard/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/api/admin/login/route": "app/api/admin/login/route.js",
-  "/api/admin/logout/route": "app/api/admin/logout/route.js"
-}

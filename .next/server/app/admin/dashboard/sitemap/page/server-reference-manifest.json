@@ -1,6 +1,6 @@
 {
   "node": {
-    "000013109045af181278f5ae46f35e933b6cbfd322": {
+    "009f2bd7677a1abc7f6833d98e2a5e17f010630762": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 44521,
@@ -15,7 +15,7 @@
       "exportedName": "getSitemap",
       "filename": "src/app/admin/dashboard/sitemap/actions.js"
     },
-    "4000876e484c204432451471653f7b21adcdbfd375": {
+    "40fed03356e8abd8dfef641190b5b004f84bd63b8d": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 44521,
