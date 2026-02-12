@@ -1,3 +1,5 @@
+import { headers } from "next/headers";
+import { getSeoDataByPageUrl } from "../admin/dashboard/seo/actions";
 import "./globals.scss";
 import "./globals.css";
 import Header from "./component/partials/Header";
@@ -5,12 +7,36 @@ import Footer from "./component/partials/Footer";
 import Script from 'next/script'; // Import the Script component
 import SeoMetadata from './SeoMetadata';
 
+import { SEO_DEFAULTS } from "@/lib/seo-defaults";
+
+export async function generateMetadata() {
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "/";
+
+  let seoData = null;
+  try {
+    seoData = await getSeoDataByPageUrl(pathname);
+  } catch (error) {
+    console.error("Failed to fetch SEO data:", error);
+  }
+
+  const title = (seoData?.title?.trim()) || SEO_DEFAULTS.title;
+  const description = (seoData?.description?.trim()) || SEO_DEFAULTS.description;
+
+  return {
+    title,
+    description,
+    verification: {
+      google: "Sqic4jq1KYYPLx4_l5xWdFBG3ormalt-u2eAb3BdSak",
+    },
+  };
+}
+
 export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="Sqic4jq1KYYPLx4_l5xWdFBG3ormalt-u2eAb3BdSak" />
         <SeoMetadata />
       </head>
       <body className="antialiased" suppressHydrationWarning={true}>

@@ -1,9 +1,20 @@
 "use server";
 import { PrismaClient } from '@prisma/client';
+import { cache } from 'react';
 import db from '../../../../../prisma/db';
 import { verifyAdmin } from "@/lib/auth";
 
-
+export const getSeoDataByPageUrl = cache(async (pageurl) => {
+  try {
+    const seoData = await db.seo.findFirst({
+      where: { pageurl: pageurl },
+    });
+    return seoData;
+  } catch (error) {
+    console.error('Error fetching SEO data by page URL:', error);
+    throw new Error('Failed to fetch SEO data by page URL');
+  }
+});
 
 export async function getSeoData() {
   try {
@@ -16,17 +27,6 @@ export async function getSeoData() {
   }
 }
 
-export async function getSeoDataByPageUrl(pageurl) {
-  try {
-    const seoData = await db.seo.findFirst({
-      where: { pageurl: pageurl },
-    });
-    return seoData;
-  } catch (error) {
-    console.error('Error fetching SEO data by page URL:', error);
-    throw new Error('Failed to fetch SEO data by page URL');
-  }
-}
 
 export async function createSeoData(data) {
   await verifyAdmin();

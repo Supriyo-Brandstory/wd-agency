@@ -1,6 +1,66 @@
 {
   "node": {
-    "40d610dece0986c01f3bd8d4aeb4b731c36960c66a": {
+    "006718b70a2a9662c6fec44706157f7d55c20962f1": {
+      "workers": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": {
+          "moduleId": 44082,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc"
+      },
+      "exportedName": "getSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "4001b1a536ff87fea67df82f82423014e378b71985": {
+      "workers": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": {
+          "moduleId": 44082,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc"
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "408b6ec5c7c65e5cd4bd23a4b0cc0d3465fed0b59c": {
+      "workers": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": {
+          "moduleId": 44082,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc"
+      },
+      "exportedName": "deleteSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "6085e3b52bf8ac536bfc0f1b591ab804df94674f66": {
+      "workers": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": {
+          "moduleId": 44082,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc"
+      },
+      "exportedName": "updateSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "7fd610dece0986c01f3bd8d4aeb4b731c36960c66a": {
       "workers": {
         "app/(frontend)/(pages)/chiropractor-website-design/page": {
           "moduleId": 44082,
@@ -10,7 +70,7 @@
         }
       },
       "layer": {
-        "app/(frontend)/(pages)/chiropractor-website-design/page": "action-browser"
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc"
       },
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"

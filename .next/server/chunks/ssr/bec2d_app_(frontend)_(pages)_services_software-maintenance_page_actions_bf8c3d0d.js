@@ -1,0 +1,3 @@
+module.exports=[60567,a=>{"use strict";var b=a.i(14195);a.s([],1541),a.i(1541),a.s(["006718b70a2a9662c6fec44706157f7d55c20962f1",()=>b.getSeoData,"4001b1a536ff87fea67df82f82423014e378b71985",()=>b.createSeoData,"408b6ec5c7c65e5cd4bd23a4b0cc0d3465fed0b59c",()=>b.deleteSeoData,"6085e3b52bf8ac536bfc0f1b591ab804df94674f66",()=>b.updateSeoData,"7fd610dece0986c01f3bd8d4aeb4b731c36960c66a",()=>b.getSeoDataByPageUrl],60567)}];
+
+//# sourceMappingURL=bec2d_app_%28frontend%29_%28pages%29_services_software-maintenance_page_actions_bf8c3d0d.js.map

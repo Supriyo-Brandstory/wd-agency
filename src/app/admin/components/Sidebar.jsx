@@ -25,14 +25,6 @@ const Sidebar = () => {
     { href: "/admin/dashboard/template", label: "Templates", icon: "💎" },
   ];
 
-  const handleLogout = async () => {
-    const response = await fetch("/api/admin/logout");
-    if (response.ok) {
-      router.push("/admin");
-    } else {
-      alert("Logout failed");
-    }
-  };
   const logoutLink = { href: "/api/admin/logout", label: "Logout", icon: "🚪" };
 
   return (

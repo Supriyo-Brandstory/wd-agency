@@ -1,0 +1,128 @@
+/* [project]/src/app/(frontend)/assets/style/common/CommonCostBreakdown.module.css [app-client] (css) */
+.CommonCostBreakdown-module__YFR4nq__costBreakdown {
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 60px #000c;
+}
+
+.CommonCostBreakdown-module__YFR4nq__chart {
+  -webkit-overflow-scrolling: touch;
+  background: #000;
+  border-radius: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  overflow-x: auto;
+}
+
+.CommonCostBreakdown-module__YFR4nq__grid {
+  background: linear-gradient(135deg, #ffffff0f, #ffffff05);
+  border: 1px solid #ffffff14;
+  border-radius: 14px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 22px;
+  transition: all .35s;
+  display: grid;
+}
+
+.CommonCostBreakdown-module__YFR4nq__grid:first-child {
+  background: #111;
+  border: 1px solid #ffffff26;
+  box-shadow: inset 0 -1px #ffffff1a;
+}
+
+.CommonCostBreakdown-module__YFR4nq__grid:not(:first-child):hover {
+  background: linear-gradient(135deg, #ffffff1f, #ffffff0a);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px #000000b3;
+}
+
+.CommonCostBreakdown-module__YFR4nq__grid > * {
+  color: #eaeaea;
+  padding: 0 12px;
+}
+
+.CommonCostBreakdown-module__YFR4nq__grid > :not(:last-child) {
+  border-right: 1px solid #ffffff14;
+}
+
+.CommonCostBreakdown-module__YFR4nq__price {
+  color: #fff;
+  background: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  border-radius: 30px;
+  padding: 8px 14px;
+  display: inline-block;
+}
+
+.CommonCostBreakdown-module__YFR4nq__scrollHint {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .CommonCostBreakdown-module__YFR4nq__scrollHint {
+    color: #fff9;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    animation: 2s infinite CommonCostBreakdown-module__YFR4nq__pulse;
+    display: flex;
+  }
+
+  @keyframes CommonCostBreakdown-module__YFR4nq__pulse {
+    0% {
+      opacity: .6;
+      transform: translateX(0);
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateX(5px);
+    }
+
+    100% {
+      opacity: .6;
+      transform: translateX(0);
+    }
+  }
+
+  .CommonCostBreakdown-module__YFR4nq__chart {
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    overflow-x: auto;
+  }
+
+  .CommonCostBreakdown-module__YFR4nq__grid {
+    border-bottom: 1px solid #ffffff14;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 200px);
+    min-width: fit-content;
+    margin-bottom: 8px;
+  }
+
+  .CommonCostBreakdown-module__YFR4nq__grid > * {
+    white-space: normal;
+    word-break: break-word;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .CommonCostBreakdown-module__YFR4nq__grid > :not(:last-child) {
+    border-right: 1px solid #ffffff14;
+  }
+
+  .CommonCostBreakdown-module__YFR4nq__price {
+    white-space: nowrap;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_CommonCostBreakdown_module_css_bad6b30c._.single.css.map*/
