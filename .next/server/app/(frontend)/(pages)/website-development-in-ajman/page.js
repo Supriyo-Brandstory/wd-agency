@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/website-development-in-ajman/page.js")
-R.c("server/chunks/ssr/src_app_(frontend)_6476fca9._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_891c5710._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__04aa92ea._.js")
 R.c("server/chunks/ssr/_f9c9d36f._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")

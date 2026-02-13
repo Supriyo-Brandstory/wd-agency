@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/website-development-in-fujairah/page.js")
 R.c("server/chunks/ssr/_03082466._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__6779b210._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f322b5c6._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_compiled_@opentelemetry_api_index_d03d2993.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_cc94c707._.js")

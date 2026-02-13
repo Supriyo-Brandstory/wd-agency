@@ -1,3 +1,3 @@
-module.exports=[66102,a=>{"use strict";var b=a.i(14195);a.s([],77391),a.i(77391),a.s(["00a2478f76a92c904edaf340673eaf5c8fdc0d81a2",()=>b.getSeoData,"403907c2ca644ec664b37097774a72508120effd31",()=>b.deleteSeoData,"40c9db27212e4d0bce01f7e3d12f917989f14d050d",()=>b.createSeoData,"604bc1eb216c62e1a899c54d19a6080befd0d3436b",()=>b.updateSeoData,"7f2344f36090e324d61a022e6d3bd85c33d74c1f61",()=>b.getSeoDataByPageUrl],66102)}];
+module.exports=[66102,a=>{"use strict";var b=a.i(14195);a.s([],77391),a.i(77391),a.s(["007179538347ca1a9d82d4e4cbc9a0f940a56d1d8f",()=>b.getSeoData,"4017958aaed05b32da289b1ad3787ba2f228189dba",()=>b.deleteSeoData,"40bc03285efff970269e2dfa32a7e5b1470028a204",()=>b.createSeoData,"60e1f7165dea7e84746074875fd1da3777469178d8",()=>b.updateSeoData,"7f238d776e49fb6947ba8b0ebe653edad340e81911",()=>b.getSeoDataByPageUrl],66102)}];
 
 //# sourceMappingURL=3e585_%28frontend%29_%28pages%29_platforms_shopify-website-development_page_actions_cfe00692.js.map
