@@ -1,0 +1,46 @@
+/* [project]/src/app/(frontend)/assets/style/home/faqSection.module.css [app-client] (css) */
+.faqSection-module__JxFMyG__faqContainer {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.faqSection-module__JxFMyG__faqCard {
+  background: var(--color-gray);
+  border-radius: 10px;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.faqSection-module__JxFMyG__faqHeader {
+  cursor: pointer;
+  text-align: start;
+  background: none;
+  border: none;
+  outline: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+}
+
+.faqSection-module__JxFMyG__faqContent {
+  padding: 0 20px 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .faqSection-module__JxFMyG__faqHeader {
+    font-size: 20px;
+  }
+
+  .faqSection-module__JxFMyG__faqContent {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_home_faqSection_module_css_bad6b30c._.single.css.map*/

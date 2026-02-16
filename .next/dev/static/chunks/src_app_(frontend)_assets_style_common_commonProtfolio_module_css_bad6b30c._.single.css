@@ -1,0 +1,390 @@
+/* [project]/src/app/(frontend)/assets/style/common/commonProtfolio.module.css [app-client] (css) */
+.commonProtfolio-module__CyAHRq__CommonProtfolio {
+  background: linear-gradient(#0a0a0a 0%, #1a1a2e 100%);
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.commonProtfolio-module__CyAHRq__CommonProtfolio:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle at 20%, #6366f11a 0%, #0000 50%);
+  position: absolute;
+  inset: 0;
+}
+
+.commonProtfolio-module__CyAHRq__sliderContainer {
+  max-width: 1200px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.commonProtfolio-module__CyAHRq__slideWrapper {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.commonProtfolio-module__CyAHRq__portfolioSlide {
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px #00000080;
+}
+
+.commonProtfolio-module__CyAHRq__imageContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.commonProtfolio-module__CyAHRq__portfolioImage {
+  object-fit: cover;
+  object-position: top;
+}
+
+.commonProtfolio-module__CyAHRq__overlay {
+  z-index: 1;
+  background: linear-gradient(#0000000d 0%, #0006 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.commonProtfolio-module__CyAHRq__contentBox {
+  z-index: 2;
+  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(#0000 0%, #000000e6 50%);
+  padding: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.commonProtfolio-module__CyAHRq__logoWrapper {
+  margin-bottom: 24px;
+}
+
+.commonProtfolio-module__CyAHRq__logo {
+  object-fit: contain;
+  filter: brightness(0) invert();
+  max-width: 200px;
+  max-height: 80px;
+  width: auto !important;
+  height: auto !important;
+}
+
+.commonProtfolio-module__CyAHRq__textContent {
+  margin-bottom: 24px;
+}
+
+.commonProtfolio-module__CyAHRq__textContent h3 {
+  color: #fff;
+  letter-spacing: -.02em;
+  margin-bottom: 6px;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.commonProtfolio-module__CyAHRq__category {
+  color: #ffffffb3;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn {
+  color: #fff;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-radius: 10px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 20px -5px #6366f166;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn:before {
+  content: "";
+  opacity: 0;
+  background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  transition: opacity .3s;
+  position: absolute;
+  inset: 0;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 35px -5px #6366f199;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn:hover:before {
+  opacity: 1;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn span, .commonProtfolio-module__CyAHRq__caseStudyBtn svg {
+  z-index: 1;
+  position: relative;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn svg {
+  transition: transform .3s;
+}
+
+.commonProtfolio-module__CyAHRq__caseStudyBtn:hover svg {
+  transform: translateX(4px);
+}
+
+.commonProtfolio-module__CyAHRq__navButton {
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  background: #ffffff1a;
+  border: 1px solid #fff3;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.commonProtfolio-module__CyAHRq__navButton:hover {
+  background: #fff3;
+  border-color: #fff6;
+  transform: translateY(-50%)scale(1.1);
+}
+
+.commonProtfolio-module__CyAHRq__navButton:active {
+  transform: translateY(-50%)scale(.95);
+}
+
+.commonProtfolio-module__CyAHRq__prevButton {
+  left: 40px;
+}
+
+.commonProtfolio-module__CyAHRq__nextButton {
+  right: 40px;
+}
+
+.commonProtfolio-module__CyAHRq__dotContainer {
+  z-index: 10;
+  gap: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.commonProtfolio-module__CyAHRq__dot {
+  cursor: pointer;
+  background: #ffffff4d;
+  border: 2px solid #0000;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.commonProtfolio-module__CyAHRq__dot:hover {
+  background: #ffffff80;
+  transform: scale(1.2);
+}
+
+.commonProtfolio-module__CyAHRq__activeDot {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-color: #ffffff80;
+  border-radius: 6px;
+  width: 32px;
+}
+
+.commonProtfolio-module__CyAHRq__progressBar {
+  transform-origin: 0;
+  z-index: 10;
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  border-radius: 2px 2px 0 0;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .commonProtfolio-module__CyAHRq__sliderContainer {
+    height: 480px;
+  }
+
+  .commonProtfolio-module__CyAHRq__contentBox {
+    padding: 40px;
+  }
+
+  .commonProtfolio-module__CyAHRq__textContent h3 {
+    font-size: 1.5rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__category {
+    font-size: .8125rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__caseStudyBtn {
+    padding: 11px 22px;
+    font-size: .8125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .commonProtfolio-module__CyAHRq__CommonProtfolio {
+    padding: 60px 0;
+  }
+
+  .commonProtfolio-module__CyAHRq__sliderContainer {
+    height: 400px;
+    margin: 0 20px;
+  }
+
+  .commonProtfolio-module__CyAHRq__portfolioSlide {
+    border-radius: 16px;
+  }
+
+  .commonProtfolio-module__CyAHRq__contentBox {
+    padding: 24px 20px 80px;
+  }
+
+  .commonProtfolio-module__CyAHRq__logoWrapper {
+    margin-bottom: 16px;
+  }
+
+  .commonProtfolio-module__CyAHRq__logo {
+    max-width: 150px;
+    max-height: 60px;
+  }
+
+  .commonProtfolio-module__CyAHRq__textContent {
+    margin-bottom: 16px;
+  }
+
+  .commonProtfolio-module__CyAHRq__textContent h3 {
+    font-size: 1.25rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__category {
+    font-size: .75rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__caseStudyBtn {
+    padding: 10px 20px;
+    font-size: .75rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__navButton {
+    width: 44px;
+    height: 44px;
+  }
+
+  .commonProtfolio-module__CyAHRq__prevButton {
+    left: 20px;
+  }
+
+  .commonProtfolio-module__CyAHRq__nextButton {
+    right: 20px;
+  }
+
+  .commonProtfolio-module__CyAHRq__dotContainer {
+    gap: 8px;
+    bottom: 20px;
+  }
+
+  .commonProtfolio-module__CyAHRq__dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .commonProtfolio-module__CyAHRq__activeDot {
+    width: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .commonProtfolio-module__CyAHRq__sliderContainer {
+    height: 350px;
+    margin: 20px 20px 0;
+  }
+
+  .commonProtfolio-module__CyAHRq__contentBox {
+    padding: 20px 16px 50px;
+  }
+
+  .commonProtfolio-module__CyAHRq__textContent {
+    margin-bottom: 12px;
+  }
+
+  .commonProtfolio-module__CyAHRq__textContent h3 {
+    font-size: 1.125rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__category {
+    font-size: .6875rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__caseStudyBtn {
+    gap: 8px;
+    padding: 9px 18px;
+    font-size: .6875rem;
+  }
+
+  .commonProtfolio-module__CyAHRq__navButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .commonProtfolio-module__CyAHRq__navButton svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .commonProtfolio-module__CyAHRq__prevButton {
+    left: 16px;
+  }
+
+  .commonProtfolio-module__CyAHRq__nextButton {
+    right: 16px;
+  }
+
+  .commonProtfolio-module__CyAHRq__dotContainer {
+    bottom: 40px;
+  }
+
+  .commonProtfolio-module__CyAHRq__dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .commonProtfolio-module__CyAHRq__activeDot {
+    width: 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_%28frontend%29_assets_style_common_commonProtfolio_module_css_bad6b30c._.single.css.map*/

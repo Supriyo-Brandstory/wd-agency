@@ -162,7 +162,7 @@ const SpecializedWebServices = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Web Design Services in Dubai, UAE
+            A Decade of Web Design Expertise, <br></br>Driven by Innovation
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -170,12 +170,10 @@ const SpecializedWebServices = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            As a leading web design agency in Dubai, we create high-performing
-            websites that turn visitors into customers. We craft strategic
-            digital experiences that drive measurable business growth. With
-            transparent processes, on-time delivery, and proven results across
-            hundreds of UAE projects, we're the partner you need to elevate your
-            online presence.
+            Since 2014, we've delivered 750+ high-performance websites that don't just 
+            look exceptional- they convert. Our experience is built on pushing boundaries,
+             adopting cutting-edge AI & web technologies, and engineering digital platforms
+              that drive measurable business growth.
           </motion.p>
         </div>
 

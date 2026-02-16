@@ -879,9 +879,9 @@ const IndustryGrid = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            We extend our Website Development expertise across a diverse range
-            of industries, tailoring strategies to meet the unique demands and
-            opportunities each sector presents.
+            From luxury brands to enterprise solutions, we master the art of building high-performance
+             websites across every major sector- tailoring strategies to meet the unique demands and
+              opportunities each sector presents.
           </motion.p>
         </div>
 

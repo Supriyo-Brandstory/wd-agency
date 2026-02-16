@@ -25,15 +25,15 @@ export default function Banner({ text1, text2, text3 }) {
               href="/contact-us"
               className={`fw-600 fs-22 ${styles.primary}`}
             >
-              Enquiry Now
+              Get Started
             </Link>
-            {/* <Link
+            <Link
               href="/case-studies"
               className={`fw-600 fs-22 ${styles.secondary}`}
             >
-              See Portfolio
-            </Link> */}
-            <button
+              View Portfolio
+            </Link> 
+            {/* <button
               onClick={() => setIsVideoOpen(true)}
               className={`fw-600 fs-22 ${styles.videoLink}`}
             >
@@ -49,7 +49,7 @@ export default function Banner({ text1, text2, text3 }) {
                 </svg>
               </span>
               Watch Video
-            </button>
+            </button> */}
           </div>
         </div>
       </section>

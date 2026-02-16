@@ -68,7 +68,7 @@ const ClientSection = () => {
   return (
     <section className="client-section">
       <div className="container-fluid">
-        <h2 className="section-title text-center mb-5">Our Valuable Clients</h2>
+        <h2 className="section-title text-center mb-5">Powered 300+ Brands with Future-Ready Tech.</h2>
 
         {/* Row 1 - Scrolling Left */}
         <div className="mb-5">

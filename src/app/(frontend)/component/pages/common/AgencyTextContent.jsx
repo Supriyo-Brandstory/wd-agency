@@ -14,14 +14,14 @@ const AgencyTextContent = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <motion.h1
+          <motion.h2
             className={styles.mainTitle}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
             Architects of Digital Dominance: WD Agency
-          </motion.h1>
+          </motion.h2>
         </div>
 
         <div className={styles.textContent}>
@@ -60,248 +60,86 @@ const AgencyTextContent = () => {
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 style={{ overflow: "hidden" }}
               >
-                <h2>Redefining the Digital Landscape in the UAE</h2>
+                <h2>Why Your UAE Business Needs a Professional Website</h2>
+                <h3>Dubai’s Digital Economy Demands Strong Presence</h3>
                 <p>
-                  The digital marketplace in the UAE is unlike any other. It is
-                  a fusion of global luxury standards and rapid technological
-                  adoption. To succeed here, your brand needs more than a
-                  template; it needs a digital identity that commands respect.
+                  The UAE is leading digital transformation through government initiatives
+                   that promote smart solutions and seamless online experiences. A professional
+                    website is no longer optional; it is a critical business asset essential for 
+                    competitiveness and growth.
                 </p>
+                <h3>Capitalize on UAE's Growing E-Commerce Market</h3>
                 <p>
-                  At WD Agency, we understand the nuances of this region. We
-                  know that a consumer in Downtown Dubai interacts with a
-                  website differently than a user in Ras Al Khaimah or a B2B
-                  client in Abu Dhabi. We leverage this local insight to craft
-                  bespoke digital experiences. As a leading website design
-                  agency in UAE, our goal is to propel your business forward,
-                  turning passive visitors into active partners and customers.
+                  The Middle East's online retail sector is expanding rapidly, with Dubai at its 
+                  forefront. A strategically developed website enables you to capture this demand, 
+                  reaching customers throughout the UAE and internationally, available 24/7 without 
+                  geographic restrictions.
                 </p>
+                <h3>Establish Credibility in Competitive Landscape</h3>
                 <p>
-                  We don't just "build sites." We build relationships, trust,
-                  and reputations. In an era of fleeting attention spans, we
-                  create platforms that hold attention, deepen engagement, and
-                  drive the metrics that matter most to your bottom line.
+                  In Dubai's dynamic market, first impressions are formed online. A professional website 
+                  conveys expertise, displays your portfolio, and highlights client successes, distinguishing
+                   established businesses from competitors.
                 </p>
+                <h3>Secure B2B Growth Opportunities</h3>
+                <p>Business decision-makers conduct online research before engaging. A well-crafted website 
+                  serves as a continuous demonstration of your capabilities, attracting potential partners, 
+                  investors, and enterprise clients who can significantly advance your business.</p>
 
-                <h2>Our Core Philosophy: Intelligence Over Aesthetics</h2>
+                <h2>How We Deliver a High-Performance Digital Platform</h2>
+                <h3>Phase 1: Discovery & Strategic Foundation</h3>
                 <p>
-                  Many agencies make the mistake of prioritizing "pretty" over
-                  "profitable." At WD Agency, we believe that true design
-                  excellence lies in the balance between visual impact and
-                  functional intelligence. A beautiful site that confuses the
-                  user is a failure. A functional site that looks outdated is a
-                  missed opportunity.
+                  We begin by thoroughly examining what distinguishes your business. Through collaborative
+                   discussions, we identify your goals, challenges, target audience, and competitive positioning.
                 </p>
-                <p>Our philosophy is built on three pillars:</p>
+                <p>What We Do:</p>
+                <li>In-depth consultations to align on business objectives, brand identity, and success criteria</li>
+                <li>Audience analysis to understand customer needs and online behavior.</li>
+                <li>Competitor review to identify differentiation opportunities.</li>
 
-                <h3>1. User-Centric Architecture</h3>
+                <h3>Phase 2: Blueprint & Strategy</h3>
                 <p>
-                  We design for humans, not just screens. Every pixel we place
-                  is backed by an understanding of user psychology. We map out
-                  customer journeys to ensure that the path from "landing" to
-                  "conversion" is intuitive and friction-free. We anticipate
-                  what your user needs before they even click, creating a <a href="https://websitedevelopmentagency.ae/blog/how-website-design-directly-impacts-your-conversion-rates">seamless flow</a> that guides them toward the Call to Action (CTA)
-                  naturally.
+                  With gathered insights, we create a structured plan that converts concepts into an 
+                  executable development strategy. Every element is purposeful and aligned with your objectives.
                 </p>
+                <p>What we do:</p>
+                <li>Site architecture and navigation design for intuitive user journeys and conversions.</li>
+                <li>Content strategy outlining text, visuals, video, and interactive components. </li>
+                <li>Technical specifications, including platform, integrations, hosting, and security.</li>
+                <li>Defined timeline with milestones and deliverables for full transparency.</li>
 
-                <h3>2. Data-Driven Innovation</h3>
+                <h3>Phase 3: Design & User Experience</h3>
                 <p>
-                  We do not rely on guesswork. As a modern web design agency in
-                  Dubai, we utilize data analytics, heatmaps, and user behavior
-                  tracking to inform our design decisions. We understand why
-                  users bounce, where they linger, and what makes them click.
-                  This scientific approach allows us to lay a foundation for
-                  digital innovation that is measurable and effective.
+                  Strategy integrates with creative execution to produce visual experiences that engage users 
+                  and guide them toward your goals. What we do:
                 </p>
+                <li>Wireframe creation focused on usability and flow.</li>
+                <li>High-fidelity mockups incorporating your brand elements for accurate preview.</li>
+                <li>Iterative reviews and refinements based on your feedback.</li>
+                <li>Mobile-first design optimized for all devices.</li>
+              
 
-                <h3>3. Future-Proof Engineering</h3>
+                <h3>Phase 4: Development & Quality Assurance</h3>
                 <p>
-                  The web is evolving rapidly. We build disruptive products
-                  using clean, scalable code that ensures your website grows as
-                  your business grows. We don't just solve today's problems; we
-                  anticipate tomorrow's opportunities, ensuring your digital
-                  investment remains relevant for years to come.
+                  Our developers convert approved designs into secure, high-speed websites through precise coding and thorough validation. What we do:
                 </p>
+                <li>Custom implementation of all features and functionalities.</li>
+                <li>Professional integration of content and media.</li>
+                <li>Multi-device, multi-browser testing to resolve issues preemptively.</li>
+                <li>Performance enhancements for fast loading and optimal efficiency.</li>
 
-                <h2>A Comprehensive Suite of Web Design Services</h2>
+                
+                <h3>Phase 5: Launch & Ongoing Optimization</h3>
                 <p>
-                  We offer a holistic approach to digital transformation.
-                  Whether you are looking to revamp an existing site or build a
-                  massive platform from scratch, WD Agency provides end-to-end
-                  solutions.
+                  Launch marks the start of ongoing value. We manage a seamless rollout and provide continuous support to maximize impact. What we do:
                 </p>
+                <li>Final verification, security checks, and coordinated launch.</li>
+                <li>Initial SEO implementation for improved visibility and organic reach.</li>
+                <li>Analytics configuration to track user behavior and guide enhancements.</li>
+                <li>Post-launch training, maintenance, and strategic optimization.</li>
+                
 
-                <h3>Custom Website Design & Development</h3>
-                <p>
-                  Your business is unique, and your website should be too. We
-                  reject the "cookie-cutter" approach. Our team creates bespoke
-                  designs that reflect your specific brand identity.
-                </p>
-                <ul>
-                  <li>
-                    <strong>Visual Identity:</strong> We select color palettes,
-                    typography, and imagery that evoke the right emotional
-                    response from your specific sector.
-                  </li>
-                  <li>
-                    <strong>Bespoke Coding:</strong> We hand-code our solutions
-                    to ensure they are lightweight, fast, and secure, avoiding
-                    the bloat of pre-made themes.
-                  </li>
-                </ul>
-
-                <h3>Responsive & Mobile-First Design</h3>
-                <p>
-                  With the vast majority of UAE internet traffic coming from
-                  mobile devices, we adopt a "Mobile-First" methodology. We
-                  ensure your site creates an immersive experience on a
-                  smartphone, remains functional on a tablet, and expands
-                  beautifully on a desktop. As a top-rated website design agency
-                  in UAE, we ensure consistency across every device and browser.
-                </p>
-
-                <h3>SEO-Integrated Development</h3>
-                <p>
-                  Most agencies treat <a href="https://websitedevelopmentagency.ae/blog/seo-friendly-web-development-building-websites-that-rank">SEO (Search Engine Optimization)</a> as an
-                  afterthought. At WD Agency, it is part of the blueprint. We
-                  build websites that Google loves.
-                </p>
-                <ul>
-                  <li>
-                    <strong>On-Page SEO:</strong> We structure your headers,
-                    meta tags, and content hierarchy to maximize search
-                    visibility.
-                  </li>
-                  <li>
-                    <strong>Technical SEO:</strong> We optimize site speed, fix
-                    crawl errors, and implement schema markup to help you rank
-                    for competitive keywords like web design agencies in Dubai.
-                  </li>
-                </ul>
-
-                <h3>E-Commerce Solutions</h3>
-                <p>
-                  We turn browsers into buyers. Our e-commerce designs are
-                  focused on maximizing Revenue Per User (RPU). We streamline
-                  checkout processes, design persuasive product pages, and
-                  integrate secure payment gateways to ensure a smooth shopping
-                  experience.
-                </p>
-
-                <h3>UI/UX Design Strategy</h3>
-                <p>
-                  This is the art of performance. Our <a href="https://websitedevelopmentagency.ae/services/ui-ux-design">UI UX experts</a> conduct
-                  rigorous research to simplify complex processes. We remove the
-                  clutter and focus on the essential elements that strengthen
-                  your brand message and transform user interest into action.
-                </p>
-
-                <h2>The WD Agency Process: From Concept to Conversion</h2>
-                <p>
-                  Transparency is the cornerstone of our operations. We follow a
-                  diligent, proven process to ensure that we not only meet but
-                  exceed your expectations.
-                </p>
-                <ul>
-                  <li>
-                    <strong>Phase 1: Discovery & Immersion.</strong> We start by
-                    listening. We dive deep into your industry, analyzing your
-                    competitors and identifying promising opportunities.
-                  </li>
-                  <li>
-                    <strong>Phase 2: Strategic Planning & Sitemapping.</strong>{" "}
-                    We create a blueprint of success, developing detailed
-                    sitemaps that outline the content structure.
-                  </li>
-                  <li>
-                    <strong>Phase 3: Visual Prototyping.</strong> Our creative
-                    designers bring the concept to life with high-fidelity
-                    mockups.
-                  </li>
-                  <li>
-                    <strong>Phase 4: Agile Development.</strong> Our developers
-                    take over, turning designs into clean, scalable code working
-                    in agile sprints.
-                  </li>
-                  <li>
-                    <strong>Phase 5: Rigorous Testing (QA).</strong> We are
-                    perfectionists. We test your site across multiple devices,
-                    browsers, and operating systems.
-                  </li>
-                  <li>
-                    <strong>Phase 6: Launch & Optimization.</strong> Going live
-                    is just the beginning. We monitor performance and make
-                    real-time adjustments.
-                  </li>
-                </ul>
-
-                <h2>Solutions for Every Scale</h2>
-                <h3>For Small & Medium Enterprises (SMEs)</h3>
-                <p>
-                  We offer affordable, high-impact packages designed to give <a href="https://websitedevelopmentagency.ae/blog/small-business-website-design-uae-your-complete-guide">startups and SMEs</a> instant credibility. We help you punch above
-                  your weight, giving you a professional sheen that rivals
-                  larger competitors.
-                </p>
-                <h3>For Large Enterprises & Corporations</h3>
-                <p>
-                  We have the infrastructure and expertise to handle complex,
-                  large-scale projects, delivering enterprise-grade security,
-                  scalability, and integration.
-                </p>
-
-                <h2>Why WD Agency is the Preferred Choice in Dubai</h2>
-                <ul>
-                  <li>
-                    <strong>Unmatched Technical Expertise:</strong> Experts in
-                    HTML5, CSS3, JavaScript, <a href="https://websitedevelopmentagency.ae/platforms/react-js-website-development">ReactJS</a>, <a href="https://websitedevelopmentagency.ae/platforms/php-website-development">PHP</a>, <a href="https://websitedevelopmentagency.ae/platforms/nodejs-website-development">NodeJS</a>, Python, 
-                    and various CMS platforms like <a href="https://websitedevelopmentagency.ae/platforms/wordpress-website-development">WordPress</a> and <a href="https://websitedevelopmentagency.ae/platforms/shopify-website-development">Shopify</a>. We combine this technical prowess with a "little magic"- the creative spark that makes a website memorable.
-                  </li>
-                  <li>
-                    <strong>A Proven Track Record:</strong> A history of
-                    excellence facilitating <a href="https://websitedevelopmentagency.ae/case-studies">growth for our clients</a>.
-                  </li>
-                  <li>
-                    <strong>Radical Transparency:</strong> No hidden fees,
-                    strict adherence to schedules.
-                  </li>
-                  <li>
-                    <strong>Continuous Support:</strong> 24/7 post-launch
-                    support and specialized maintenance.
-                  </li>
-                </ul>
-
-                <h2>The Elements of Our Design Success</h2>
-                <ul>
-                  <li>
-                    <strong>Strategic CTA Placement:</strong> Funneling user
-                    paths brilliantly.
-                  </li>
-                  <li>
-                    <strong>Optimized Visuals:</strong> Using SVG and compressed
-                    images for speed.
-                  </li>
-                  <li>
-                    <strong>Intelligent Typography:</strong> Fonts that are
-                    readable and on-brand.
-                  </li>
-                  <li>
-                    <strong>Clutter-Free Layouts:</strong> Embracing white
-                    space.
-                  </li>
-                  <li>
-                    <strong>Catchy Graphic Design:</strong> Icons and banners
-                    that enhance UX.
-                  </li>
-                </ul>
-
-                <h2>Empowering Your Business with Digital Automation</h2>
-                <p>
-                  We go beyond design by implementing digital automation tools
-                  like CRM Integration and Google Ads infrastructure to solve
-                  key business challenges.
-                </p>
-
-                <h2>Partner with the Best Web Design Agency in Dubai</h2>
+                <h2>Best Website Development Agency in Dubai, UAE</h2>
                 <p>
                   Your website is your legacy in the digital world. It is the
                   first thing a potential client sees, and often the last thing

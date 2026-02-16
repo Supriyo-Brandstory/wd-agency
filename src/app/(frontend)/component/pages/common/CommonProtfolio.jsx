@@ -16,7 +16,7 @@ import leruPartners from "@/app/(frontend)/assets/images/casestudies/leru-partne
 
 const CommonProtfolio = ({
   heding = "Our Website Design Portfolio",
-  desc = "We have worked with 500+ clients across Dubai and the United Arab Emirates. See our extensive website design and development portfolio here.",
+  desc = "Built to Perform, Designed to Impress. From startups to global brands, we've delivered 750+ high-impact websites for businesses across Dubai and the UAE. See our work in action.",
   protfoliodata = [
     {
       id: "01",
