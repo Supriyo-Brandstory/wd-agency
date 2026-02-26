@@ -1,6 +1,6 @@
 {
   "node": {
-    "00404060b55866baef4611a98617bf7d25651463ed": {
+    "003f1b8b92a7a7f8d665c74d40c554e1509f064e7c": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 10088,
@@ -15,22 +15,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "405a858c7a103555f9d76c4b82d8887f31970e32cb": {
-      "workers": {
-        "app/(frontend)/(pages)/technologies/page": {
-          "moduleId": 10088,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/technologies/page": "rsc"
-      },
-      "exportedName": "deleteSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "40e493d74a415df5e3750f9257e7ee21d4cffae7a1": {
+    "4074f4b1c4c947b4d811c180e0c617a0a1495fecca": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 10088,
@@ -45,7 +30,22 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60911a6104b6bdf5391e1f921302eb3e94e6c616a0": {
+    "4097edfc85eaab6d744faa10aaedcd20b87a6cc6eb": {
+      "workers": {
+        "app/(frontend)/(pages)/technologies/page": {
+          "moduleId": 10088,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/technologies/page": "rsc"
+      },
+      "exportedName": "deleteSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "60e302814dfe7d9e31f8268c42b060c86718dc5364": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 10088,
@@ -60,7 +60,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f5764538448e8e78ca386fad255ce69cea8db6461": {
+    "7f2293d01984efc455157252c882d90377cc3b22c7": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 10088,

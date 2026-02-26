@@ -1,3 +1,3 @@
-module.exports=[29270,a=>{"use strict";var b=a.i(14195);a.s([],2744),a.i(2744),a.s(["00404060b55866baef4611a98617bf7d25651463ed",()=>b.getSeoData,"405a858c7a103555f9d76c4b82d8887f31970e32cb",()=>b.deleteSeoData,"40e493d74a415df5e3750f9257e7ee21d4cffae7a1",()=>b.createSeoData,"60911a6104b6bdf5391e1f921302eb3e94e6c616a0",()=>b.updateSeoData,"7f5764538448e8e78ca386fad255ce69cea8db6461",()=>b.getSeoDataByPageUrl],29270)}];
+module.exports=[29270,a=>{"use strict";var b=a.i(14195);a.s([],2744),a.i(2744),a.s(["003f1b8b92a7a7f8d665c74d40c554e1509f064e7c",()=>b.getSeoData,"4074f4b1c4c947b4d811c180e0c617a0a1495fecca",()=>b.createSeoData,"4097edfc85eaab6d744faa10aaedcd20b87a6cc6eb",()=>b.deleteSeoData,"60e302814dfe7d9e31f8268c42b060c86718dc5364",()=>b.updateSeoData,"7f2293d01984efc455157252c882d90377cc3b22c7",()=>b.getSeoDataByPageUrl],29270)}];
 
 //# sourceMappingURL=bec2d_app_%28frontend%29_%28pages%29_services_legacy-modernization_page_actions_5952e8e9.js.map

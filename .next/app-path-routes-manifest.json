@@ -83,6 +83,7 @@
   "/(frontend)/(pages)/services/static-website-development/page": "/services/static-website-development",
   "/(frontend)/(pages)/services/ui-ux-design/page": "/services/ui-ux-design",
   "/(frontend)/(pages)/services/website-migration-service/page": "/services/website-migration-service",
+  "/(frontend)/(pages)/services/website-redesign/page": "/services/website-redesign",
   "/(frontend)/(pages)/services/wireframing-prototyping/page": "/services/wireframing-prototyping",
   "/(frontend)/(pages)/small-business-website-design/page": "/small-business-website-design",
   "/(frontend)/(pages)/sports-website-design/page": "/sports-website-design",

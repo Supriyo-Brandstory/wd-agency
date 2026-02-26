@@ -626,6 +626,12 @@
       "namedRegex": "^/services/website\\-migration\\-service(?:/)?$"
     },
     {
+      "page": "/services/website-redesign",
+      "regex": "^/services/website\\-redesign(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/website\\-redesign(?:/)?$"
+    },
+    {
       "page": "/services/wireframing-prototyping",
       "regex": "^/services/wireframing\\-prototyping(?:/)?$",
       "routeKeys": {},

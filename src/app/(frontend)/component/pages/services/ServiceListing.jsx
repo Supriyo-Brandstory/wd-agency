@@ -16,6 +16,7 @@ import maintenanceImg from "@/app/(frontend)/assets/images/software-maintenance/
 import staticImg from "@/app/(frontend)/assets/images/static-website-development/banner.webp";
 import migrationImg from "@/app/(frontend)/assets/images/website-migration-service/banner.webp";
 import wireframingImg from "@/app/(frontend)/assets/images/wireframing-prototyping/wireframing-banner.webp";
+import redesignImg from "@/app/(frontend)/assets/images/specializedservices/6.webp";
 
 const servicesData = [
   {
@@ -107,6 +108,13 @@ const servicesData = [
     desc: "Seamless and secure website migration services with zero downtime, ensuring your digital assets are safely transitioned.",
     img: migrationImg,
     link: "/services/website-migration-service",
+    btnname: "Explore Service",
+  },
+  {
+    title: "Website Redesign",
+    desc: "Transforming your outdated website into a modern, high-performing digital asset with enhanced UX and performance.",
+    img: redesignImg,
+    link: "/services/website-redesign",
     btnname: "Explore Service",
   },
 ];

@@ -15,6 +15,7 @@ const servicesData = [
         href: "/services/wireframing-prototyping",
       },
       { title: "Branding", href: "/services/branding" },
+      { title: "Website Redesign", href: "/services/website-redesign" },
     ],
   },
   {

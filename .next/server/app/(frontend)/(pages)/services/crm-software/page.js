@@ -1,6 +1,6 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/services/crm-software/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ad3c026f._.js")
-R.c("server/chunks/ssr/src_app_(frontend)_bfe01e10._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c0ec86fe._.js")
+R.c("server/chunks/ssr/src_app_(frontend)_33a135db._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/_787255ac._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")
