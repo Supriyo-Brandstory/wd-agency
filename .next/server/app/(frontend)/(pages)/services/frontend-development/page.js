@@ -14,5 +14,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/bec2d_app_(frontend)_(pages)_services_frontend-development_page_actions_d572bd02.js")
-R.m(27807)
-module.exports=R.m(27807).exports
+R.m(827807)
+module.exports=R.m(827807).exports

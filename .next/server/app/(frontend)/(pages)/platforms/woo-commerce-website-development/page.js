@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/ffd45_(pages)_platforms_woo-commerce-website-development_page_actions_234209ca.js")
-R.m(90831)
-module.exports=R.m(90831).exports
+R.m(290831)
+module.exports=R.m(290831).exports

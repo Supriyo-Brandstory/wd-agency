@@ -1,3 +1,3 @@
-module.exports=[75774,a=>{"use strict";var b=a.i(14195);a.s([],3368),a.i(3368),a.s(["003f1b8b92a7a7f8d665c74d40c554e1509f064e7c",()=>b.getSeoData,"4074f4b1c4c947b4d811c180e0c617a0a1495fecca",()=>b.createSeoData,"4097edfc85eaab6d744faa10aaedcd20b87a6cc6eb",()=>b.deleteSeoData,"60e302814dfe7d9e31f8268c42b060c86718dc5364",()=>b.updateSeoData,"7f2293d01984efc455157252c882d90377cc3b22c7",()=>b.getSeoDataByPageUrl],75774)}];
+module.exports=[275774,a=>{"use strict";var b=a.i(814195);a.s([],903368),a.i(903368),a.s(["008a351c22c31d6da7b734e097f118b67737a52862",()=>b.getSeoData,"4042ffed3867cab319997b328fd8995c8c37fc9504",()=>b.deleteSeoData,"40db04a36cc49c209ea3ae24743854004912d7ac95",()=>b.createSeoData,"60afa63173f5cf3388a6091ff123020618b62a31d4",()=>b.updateSeoData,"7fabe748edf8c5bc92474a3211ef4cbe0015ed974b",()=>b.getSeoDataByPageUrl],275774)}];
 
 //# sourceMappingURL=ce889_server_app_%28frontend%29_%28pages%29_case-studies_equence_page_actions_a2e301e2.js.map

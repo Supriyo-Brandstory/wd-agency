@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/3e585_(frontend)_(pages)_platforms_laravel-website-development_page_actions_8a2b2ed5.js")
-R.m(46030)
-module.exports=R.m(46030).exports
+R.m(146030)
+module.exports=R.m(146030).exports

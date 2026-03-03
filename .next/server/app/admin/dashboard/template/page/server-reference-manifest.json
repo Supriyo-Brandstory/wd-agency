@@ -1,9 +1,9 @@
 {
   "node": {
-    "4098181ed2bac01af55482781ad2395545856a15ec": {
+    "4021b1cbb0d11026ccdb38b1899f01a71d016d51ae": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 47443,
+          "moduleId": 747443,
           "async": false,
           "exportedName": "createTemplate",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -15,10 +15,10 @@
       "exportedName": "createTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4040ab0611bd3ae06413e11bfc022ef8445bb0b58b": {
+    "402bf80d35116c0886d2a16e90f7f5967d670dbc7e": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 47443,
+          "moduleId": 747443,
           "async": false,
           "exportedName": "updateTemplate",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -30,10 +30,10 @@
       "exportedName": "updateTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "40d08b5fc3d4ddcd20407c25c542034211a98eb95c": {
+    "4066fdc22c2754e0aef0cd1912093d006a99095244": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 47443,
+          "moduleId": 747443,
           "async": false,
           "exportedName": "deleteTemplate",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -45,10 +45,10 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00760088b0e7eaeb322681fd0a00a26599bf9cbe4e": {
+    "0006382b63954b7117074b256f825c802ad3121e68": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 47443,
+          "moduleId": 747443,
           "async": false,
           "exportedName": "getAllTemplatesAdmin",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -60,10 +60,10 @@
       "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "001a45e3597043df116559c38a454c03590f8fca0a": {
+    "00a9c61cb3afd969b58908ac46e99967cfb58e7bfc": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 47443,
+          "moduleId": 747443,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"

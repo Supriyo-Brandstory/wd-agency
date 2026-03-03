@@ -1,9 +1,9 @@
 {
   "node": {
-    "003f1b8b92a7a7f8d665c74d40c554e1509f064e7c": {
+    "008a351c22c31d6da7b734e097f118b67737a52862": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
           "async": false,
           "exportedName": "getSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -15,25 +15,10 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4074f4b1c4c947b4d811c180e0c617a0a1495fecca": {
+    "4042ffed3867cab319997b328fd8995c8c37fc9504": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
-          "async": false,
-          "exportedName": "createSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/telecom-website-design/page": "rsc"
-      },
-      "exportedName": "createSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "4097edfc85eaab6d744faa10aaedcd20b87a6cc6eb": {
-      "workers": {
-        "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
           "async": false,
           "exportedName": "deleteSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -45,10 +30,25 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60e302814dfe7d9e31f8268c42b060c86718dc5364": {
+    "40db04a36cc49c209ea3ae24743854004912d7ac95": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/telecom-website-design/page": "rsc"
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "60afa63173f5cf3388a6091ff123020618b62a31d4": {
+      "workers": {
+        "app/(frontend)/(pages)/telecom-website-design/page": {
+          "moduleId": 339518,
           "async": false,
           "exportedName": "updateSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -60,10 +60,10 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f2293d01984efc455157252c882d90377cc3b22c7": {
+    "7fabe748edf8c5bc92474a3211ef4cbe0015ed974b": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -75,10 +75,10 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00321d8959e48b26efddb2e6f350ad1404d6babc10": {
+    "001b1d37a677f6b658994057d59c119700f5808630": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
           "async": false,
           "exportedName": "getTemplates",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -90,10 +90,10 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "001a45e3597043df116559c38a454c03590f8fca0a": {
+    "00a9c61cb3afd969b58908ac46e99967cfb58e7bfc": {
       "workers": {
         "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 39518,
+          "moduleId": 339518,
           "async": false,
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"

@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/3e585_(frontend)_(pages)_website-development-in-ras-al-khaimah_page_actions_50545176.js")
-R.m(12216)
-module.exports=R.m(12216).exports
+R.m(212216)
+module.exports=R.m(212216).exports

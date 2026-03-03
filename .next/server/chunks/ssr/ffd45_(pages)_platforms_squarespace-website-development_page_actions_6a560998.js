@@ -1,0 +1,3 @@
+module.exports=[984590,a=>{"use strict";var b=a.i(814195);a.s([],927258),a.i(927258),a.s(["008a351c22c31d6da7b734e097f118b67737a52862",()=>b.getSeoData,"4042ffed3867cab319997b328fd8995c8c37fc9504",()=>b.deleteSeoData,"40db04a36cc49c209ea3ae24743854004912d7ac95",()=>b.createSeoData,"60afa63173f5cf3388a6091ff123020618b62a31d4",()=>b.updateSeoData,"7fabe748edf8c5bc92474a3211ef4cbe0015ed974b",()=>b.getSeoDataByPageUrl],984590)}];
+
+//# sourceMappingURL=ffd45_%28pages%29_platforms_squarespace-website-development_page_actions_6a560998.js.map

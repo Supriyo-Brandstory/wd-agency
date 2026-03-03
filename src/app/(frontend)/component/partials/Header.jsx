@@ -128,29 +128,44 @@ export default function Header() {
             <Link href="/platforms/php-website-development">
               <span className={styles.iconhiden}>➤</span> PHP
             </Link>
-            <Link href="/platforms/woo-commerce-website-development">
-              <span className={styles.iconhiden}>➤</span> W-commerce
+            <Link href="/platforms/laravel-website-development">
+              <span className={styles.iconhiden}>➤</span> Laravel
             </Link>
             <Link href="/platforms/wordpress-website-development">
               <span className={styles.iconhiden}>➤</span> WordPress
             </Link>
-            <Link href="/platforms/react-js-website-development">
-              <span className={styles.iconhiden}>➤</span> ReactJS
+            <Link href="/platforms/woo-commerce-website-development">
+              <span className={styles.iconhiden}>➤</span> W-commerce
             </Link>
             <Link href="/platforms/shopify-website-development">
               <span className={styles.iconhiden}>➤</span> Shopify
             </Link>
-            <Link href="/platforms/nodejs-website-development">
-              <span className={styles.iconhiden}>➤</span> NodeJS
+            <Link href="/platforms/magento-website-development">
+              <span className={styles.iconhiden}>➤</span> Magento
             </Link>
-            <Link href="/platforms/laravel-website-development">
-              <span className={styles.iconhiden}>➤</span> Laravel
-            </Link>
-            <Link href="/platforms/angular-website-development">
-              <span className={styles.iconhiden}>➤</span> Angular
+            <Link href="/platforms/opencart-website-development">
+              <span className={styles.iconhiden}>➤</span> OpenCart
             </Link>
             <Link href="/platforms/drupal-website-development">
               <span className={styles.iconhiden}>➤</span> Drupal
+            </Link>
+            <Link href="/platforms/squarespace-website-development">
+              <span className={styles.iconhiden}>➤</span> Squarespace
+            </Link>
+            <Link href="/platforms/react-js-website-development">
+              <span className={styles.iconhiden}>➤</span> ReactJS
+            </Link>
+            <Link href="/platforms/nextjs-website-development">
+              <span className={styles.iconhiden}>➤</span> NextJS
+            </Link>
+            <Link href="/platforms/vuejs-website-development">
+              <span className={styles.iconhiden}>➤</span> VueJS
+            </Link>
+            <Link href="/platforms/nodejs-website-development">
+              <span className={styles.iconhiden}>➤</span> NodeJS
+            </Link>
+            <Link href="/platforms/angular-website-development">
+              <span className={styles.iconhiden}>➤</span> Angular
             </Link>
           </div>
         </div>

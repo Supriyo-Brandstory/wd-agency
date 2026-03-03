@@ -464,10 +464,28 @@
       "namedRegex": "^/platforms/laravel\\-website\\-development(?:/)?$"
     },
     {
+      "page": "/platforms/magento-website-development",
+      "regex": "^/platforms/magento\\-website\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/platforms/magento\\-website\\-development(?:/)?$"
+    },
+    {
+      "page": "/platforms/nextjs-website-development",
+      "regex": "^/platforms/nextjs\\-website\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/platforms/nextjs\\-website\\-development(?:/)?$"
+    },
+    {
       "page": "/platforms/nodejs-website-development",
       "regex": "^/platforms/nodejs\\-website\\-development(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/platforms/nodejs\\-website\\-development(?:/)?$"
+    },
+    {
+      "page": "/platforms/opencart-website-development",
+      "regex": "^/platforms/opencart\\-website\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/platforms/opencart\\-website\\-development(?:/)?$"
     },
     {
       "page": "/platforms/php-website-development",
@@ -486,6 +504,18 @@
       "regex": "^/platforms/shopify\\-website\\-development(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/platforms/shopify\\-website\\-development(?:/)?$"
+    },
+    {
+      "page": "/platforms/squarespace-website-development",
+      "regex": "^/platforms/squarespace\\-website\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/platforms/squarespace\\-website\\-development(?:/)?$"
+    },
+    {
+      "page": "/platforms/vuejs-website-development",
+      "regex": "^/platforms/vuejs\\-website\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/platforms/vuejs\\-website\\-development(?:/)?$"
     },
     {
       "page": "/platforms/woo-commerce-website-development",

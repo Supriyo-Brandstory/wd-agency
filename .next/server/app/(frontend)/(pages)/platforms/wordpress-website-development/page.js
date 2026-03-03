@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(frontend)/(pages)/platforms/wordpress-website-development/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__3864641a._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1881d8da._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_4b63a0e1._.js")
 R.c("server/chunks/ssr/_542ba7b3._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b5368b3a._.js")
@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/ffd45_(pages)_platforms_wordpress-website-development_page_actions_dcd16c55.js")
-R.m(82262)
-module.exports=R.m(82262).exports
+R.m(382262)
+module.exports=R.m(382262).exports

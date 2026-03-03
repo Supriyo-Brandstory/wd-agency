@@ -1,0 +1,80 @@
+{
+  "node": {
+    "008a351c22c31d6da7b734e097f118b67737a52862": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc"
+      },
+      "exportedName": "getSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "4042ffed3867cab319997b328fd8995c8c37fc9504": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc"
+      },
+      "exportedName": "deleteSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "40db04a36cc49c209ea3ae24743854004912d7ac95": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc"
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "60afa63173f5cf3388a6091ff123020618b62a31d4": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc"
+      },
+      "exportedName": "updateSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "7fabe748edf8c5bc92474a3211ef4cbe0015ed974b": {
+      "workers": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc"
+      },
+      "exportedName": "getSeoDataByPageUrl",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

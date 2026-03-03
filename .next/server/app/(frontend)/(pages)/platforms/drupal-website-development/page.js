@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/3e585_(frontend)_(pages)_platforms_drupal-website-development_page_actions_479170b0.js")
-R.m(83238)
-module.exports=R.m(83238).exports
+R.m(783238)
+module.exports=R.m(783238).exports

@@ -1,9 +1,9 @@
 {
   "node": {
-    "40c873a6bd3bb043e2fa31136dc21987cd8f2c2af7": {
+    "402f98de0a3fdb535017964894a1f6581f56625d98": {
       "workers": {
         "app/admin/dashboard/blog/page": {
-          "moduleId": 37645,
+          "moduleId": 337645,
           "async": false,
           "exportedName": "createBlog",
           "filename": "src/app/admin/dashboard/blog/actions.js"
@@ -15,10 +15,10 @@
       "exportedName": "createBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "40c79d027d864a0389a61aff5c90dbf6254dc98e9c": {
+    "4029da41a5fee1007dfcd7e3aa9c820ed30dc4e106": {
       "workers": {
         "app/admin/dashboard/blog/page": {
-          "moduleId": 37645,
+          "moduleId": 337645,
           "async": false,
           "exportedName": "updateBlog",
           "filename": "src/app/admin/dashboard/blog/actions.js"
@@ -30,10 +30,10 @@
       "exportedName": "updateBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "405e464e4a6f9a439a70a944dd8316907f0eeae510": {
+    "40fef94daf01dfa6ac578cb5bd43a1b5c0e3e7b088": {
       "workers": {
         "app/admin/dashboard/blog/page": {
-          "moduleId": 37645,
+          "moduleId": 337645,
           "async": false,
           "exportedName": "deleteBlog",
           "filename": "src/app/admin/dashboard/blog/actions.js"
@@ -45,10 +45,10 @@
       "exportedName": "deleteBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "00772a0c2e6f818bc1d41e7a6d218f1b8b6be103c0": {
+    "00ef50ae7db80bb30093798d4fe5f27082e3d74705": {
       "workers": {
         "app/admin/dashboard/blog/page": {
-          "moduleId": 37645,
+          "moduleId": 337645,
           "async": false,
           "exportedName": "getBlogs",
           "filename": "src/app/admin/dashboard/blog/actions.js"
@@ -60,10 +60,10 @@
       "exportedName": "getBlogs",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "00aa321563cec75098aa8d841ac59e32fadaaab36a": {
+    "007c117aab77329ddd2790c124c580d321ca5bc893": {
       "workers": {
         "app/admin/dashboard/blog/page": {
-          "moduleId": 37645,
+          "moduleId": 337645,
           "async": false,
           "exportedName": "getBlogCategories",
           "filename": "src/app/admin/dashboard/blog-category/actions.js"

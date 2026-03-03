@@ -13,5 +13,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/[root-of-the-server]__86f7dd1e._.js")
 R.c("server/chunks/ssr/_b49a3009._.js")
 R.c("server/chunks/ssr/ce889_server_app_(frontend)_(pages)_case-studies_crystal-plaza_page_actions_ac0808bd.js")
-R.m(77549)
-module.exports=R.m(77549).exports
+R.m(477549)
+module.exports=R.m(477549).exports
