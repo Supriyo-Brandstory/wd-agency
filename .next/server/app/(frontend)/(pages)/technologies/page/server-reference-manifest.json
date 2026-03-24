@@ -1,6 +1,6 @@
 {
   "node": {
-    "008a351c22c31d6da7b734e097f118b67737a52862": {
+    "006c05d158303b8ada3539c390c26da310143e2355": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 510088,
@@ -15,7 +15,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4042ffed3867cab319997b328fd8995c8c37fc9504": {
+    "407056a5f8edbd13043070cde250b9ed6526f6d37e": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 510088,
@@ -30,7 +30,7 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40db04a36cc49c209ea3ae24743854004912d7ac95": {
+    "40f4e665434aa07c27670b3f76360e0a01ac878696": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 510088,
@@ -45,7 +45,7 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60afa63173f5cf3388a6091ff123020618b62a31d4": {
+    "6067e449e40a6563c3472ca7e8bff250e4cbe2fe0d": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 510088,
@@ -60,7 +60,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7fabe748edf8c5bc92474a3211ef4cbe0015ed974b": {
+    "7fe27f7e6365db7e6d82284fb9771fc9d2d0026565": {
       "workers": {
         "app/(frontend)/(pages)/technologies/page": {
           "moduleId": 510088,

@@ -1,5 +1,6 @@
 {
   "/(frontend)/(pages)/(home)/page": "/",
+  "/(frontend)/(pages)/[slug]/page": "/[slug]",
   "/(frontend)/(pages)/about-us/page": "/about-us",
   "/(frontend)/(pages)/accountant-website-development/page": "/accountant-website-development",
   "/(frontend)/(pages)/architect-website-design/page": "/architect-website-design",
@@ -113,6 +114,7 @@
   "/_not-found/page": "/_not-found",
   "/admin/dashboard/blog-category/page": "/admin/dashboard/blog-category",
   "/admin/dashboard/blog/page": "/admin/dashboard/blog",
+  "/admin/dashboard/custom-page/page": "/admin/dashboard/custom-page",
   "/admin/dashboard/enquiry/page": "/admin/dashboard/enquiry",
   "/admin/dashboard/page": "/admin/dashboard",
   "/admin/dashboard/seo/page": "/admin/dashboard/seo",

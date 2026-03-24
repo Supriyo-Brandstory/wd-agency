@@ -1,21 +1,6 @@
 {
   "node": {
-    "0006382b63954b7117074b256f825c802ad3121e68": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "getAllTemplatesAdmin",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "layer": {
-        "app/demo-live/[slug]/page": "rsc"
-      },
-      "exportedName": "getAllTemplatesAdmin",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "001b1d37a677f6b658994057d59c119700f5808630": {
+    "00bf5500a5567693526e7f236785bda741b7fd6a6f": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -30,52 +15,22 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4021b1cbb0d11026ccdb38b1899f01a71d016d51ae": {
+    "00d0114aef33d5bb9815309e0015c287e0c528b34f": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
           "async": false,
-          "exportedName": "createTemplate",
+          "exportedName": "getAllTemplatesAdmin",
           "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
       "layer": {
         "app/demo-live/[slug]/page": "rsc"
       },
-      "exportedName": "createTemplate",
+      "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "402bf80d35116c0886d2a16e90f7f5967d670dbc7e": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "updateTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "layer": {
-        "app/demo-live/[slug]/page": "rsc"
-      },
-      "exportedName": "updateTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "4045afc31749a9489d1679d709592581832b357c75": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "getTemplatesByCategory",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "layer": {
-        "app/demo-live/[slug]/page": "rsc"
-      },
-      "exportedName": "getTemplatesByCategory",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "4049dea361343a7778814e7061187190bfec5ef2b9": {
+    "4020350ae6701f45f721eebddf9aff3b2cb192f4f9": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -90,7 +45,7 @@
       "exportedName": "getTemplateBySlug",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4066fdc22c2754e0aef0cd1912093d006a99095244": {
+    "4061b03c4777d49a95e19a18d4569fc5900f04dbac": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -105,7 +60,52 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "702989f28ad24a604ce776f35dda53bf2053e87987": {
+    "40b1315c25d48c05c2ab9f456c7bcd25bcfc7336a3": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "updateTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40b57c3347532e62c20cfc98a28742cf310199668d": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "getTemplatesByCategory",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "getTemplatesByCategory",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40fe794f35bce9e0b086ed056c752dc45c5564b257": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "layer": {
+        "app/demo-live/[slug]/page": "rsc"
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "708a622de1f030552c6da8c36d605036265e9b7886": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,

@@ -1,0 +1,125 @@
+{
+  "node": {
+    "405aa44c48856f502ba2ea9bd81c04b66a01544fe5": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "createCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "createCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40278d55be7c9674faacd01a5611ca4ac8abf2cf76": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "updateCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "updateCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "4015dbeb2773e60316d5e31783f254e64a2dfa3be6": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "deleteCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "001e8b8967c4ac70f5b5149492b1b31fc58411a8f4": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCustomPages",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "getCustomPages",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "00bdb881d464367b7d719d48d9b07e79c7a0963e78": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCssFiles",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "getCssFiles",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "406defb5b4318796783cf85f7e55ab4bf10a847ced": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCssContent",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "getCssContent",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "60636ce1053d5907dad3438a969ca84eeb278df5dc": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "saveCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "saveCssFile",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "404014d43ee118fc9fb483b639603fcf3ebe341ffb": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "exportedName": "deleteCssFile",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    }
+  },
+  "edge": {}
+}

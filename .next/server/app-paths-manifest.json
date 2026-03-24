@@ -1,5 +1,6 @@
 {
   "/(frontend)/(pages)/(home)/page": "app/(frontend)/(pages)/(home)/page.js",
+  "/(frontend)/(pages)/[slug]/page": "app/(frontend)/(pages)/[slug]/page.js",
   "/(frontend)/(pages)/about-us/page": "app/(frontend)/(pages)/about-us/page.js",
   "/(frontend)/(pages)/accountant-website-development/page": "app/(frontend)/(pages)/accountant-website-development/page.js",
   "/(frontend)/(pages)/architect-website-design/page": "app/(frontend)/(pages)/architect-website-design/page.js",
@@ -113,6 +114,7 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/admin/dashboard/blog-category/page": "app/admin/dashboard/blog-category/page.js",
   "/admin/dashboard/blog/page": "app/admin/dashboard/blog/page.js",
+  "/admin/dashboard/custom-page/page": "app/admin/dashboard/custom-page/page.js",
   "/admin/dashboard/enquiry/page": "app/admin/dashboard/enquiry/page.js",
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
   "/admin/dashboard/seo/page": "app/admin/dashboard/seo/page.js",

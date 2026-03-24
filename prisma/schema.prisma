@@ -94,3 +94,12 @@ model Template {
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 }
+model CustomPage {
+  id        Int      @id @default(autoincrement())
+  title     String
+  slug      String   @unique
+  content   String   @db.LongText
+  cssFile   String?  // Path or name of the CSS file to include
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

@@ -98,6 +98,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/dashboard/custom-page": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/custom-page",
+      "dataRoute": "/admin/dashboard/custom-page.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard/enquiry": {
       "experimentalBypassFor": [
         {
@@ -270,8 +294,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "444df9e28f00f0e9ac8698100ff92763",
-    "previewModeSigningKey": "eac31aca507308698e33bdaa6dc228c4d7eee2a009ce8acaf351a3b6f533e9f7",
-    "previewModeEncryptionKey": "c1b4b0620da0aaf16be38fadd1d6037b7cbd18a6421af72c32d9cce41f5caab2"
+    "previewModeId": "51ef8b0ead1011a1b4d7a7053d871cb5",
+    "previewModeSigningKey": "7bbd7615da7ba39eb49ba7f682a53f418fed945f703b1d8bf0aff622b4cdc062",
+    "previewModeEncryptionKey": "11919a501899b0dd5eb3f2164050a3bc8ca197ff05ebc38aa273a6427a73829e"
   }
 }

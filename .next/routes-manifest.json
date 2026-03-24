@@ -52,6 +52,14 @@
         "nxtPslug": "nxtPslug"
       },
       "namedRegex": "^/website\\-templates/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[slug]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -108,6 +116,12 @@
       "regex": "^/admin/dashboard/blog\\-category(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/blog\\-category(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/custom-page",
+      "regex": "^/admin/dashboard/custom\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/custom\\-page(?:/)?$"
     },
     {
       "page": "/admin/dashboard/enquiry",

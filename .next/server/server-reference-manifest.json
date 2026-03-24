@@ -1,9 +1,15 @@
 {
   "node": {
-    "008a351c22c31d6da7b734e097f118b67737a52862": {
+    "006c05d158303b8ada3539c390c26da310143e2355": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
           "async": false,
           "exportedName": "getSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -671,6 +677,7 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
         "app/(frontend)/(pages)/about-us/page": "rsc",
         "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
         "app/(frontend)/(pages)/architect-website-design/page": "rsc",
@@ -785,10 +792,16 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoData"
     },
-    "4042ffed3867cab319997b328fd8995c8c37fc9504": {
+    "407056a5f8edbd13043070cde250b9ed6526f6d37e": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
           "async": false,
           "exportedName": "deleteSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -1456,6 +1469,7 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
         "app/(frontend)/(pages)/about-us/page": "rsc",
         "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
         "app/(frontend)/(pages)/architect-website-design/page": "rsc",
@@ -1570,10 +1584,16 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "deleteSeoData"
     },
-    "40db04a36cc49c209ea3ae24743854004912d7ac95": {
+    "40f4e665434aa07c27670b3f76360e0a01ac878696": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
           "async": false,
           "exportedName": "createSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -2241,6 +2261,7 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
         "app/(frontend)/(pages)/about-us/page": "rsc",
         "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
         "app/(frontend)/(pages)/architect-website-design/page": "rsc",
@@ -2355,10 +2376,16 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "createSeoData"
     },
-    "60afa63173f5cf3388a6091ff123020618b62a31d4": {
+    "6067e449e40a6563c3472ca7e8bff250e4cbe2fe0d": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
           "async": false,
           "exportedName": "updateSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -3026,6 +3053,7 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
         "app/(frontend)/(pages)/about-us/page": "rsc",
         "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
         "app/(frontend)/(pages)/architect-website-design/page": "rsc",
@@ -3140,10 +3168,16 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "updateSeoData"
     },
-    "7fabe748edf8c5bc92474a3211ef4cbe0015ed974b": {
+    "7fe27f7e6365db7e6d82284fb9771fc9d2d0026565": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
+          "async": false,
+          "exportedName": "getSeoDataByPageUrl",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
           "async": false,
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
@@ -3805,6 +3839,7 @@
       },
       "layer": {
         "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
         "app/(frontend)/(pages)/about-us/page": "rsc",
         "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
         "app/(frontend)/(pages)/architect-website-design/page": "rsc",
@@ -3918,7 +3953,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
     },
-    "001b1d37a677f6b658994057d59c119700f5808630": {
+    "00bf5500a5567693526e7f236785bda741b7fd6a6f": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4255,7 +4290,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplates"
     },
-    "00a9c61cb3afd969b58908ac46e99967cfb58e7bfc": {
+    "002a7ab47abc632ebab915d2b084e78a362bc6f97d": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4613,7 +4648,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "getTemplateCategories"
     },
-    "60a992754474dce916659574adb20aa76a8efd282b": {
+    "60e83e449c54794713296a1b1e75c3424bc04bafb3": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4642,7 +4677,198 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getLatestBlogs"
     },
-    "00ef50ae7db80bb30093798d4fe5f27082e3d74705": {
+    "001e8b8967c4ac70f5b5149492b1b31fc58411a8f4": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "getCustomPages",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCustomPages",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "getCustomPages"
+    },
+    "00bdb881d464367b7d719d48d9b07e79c7a0963e78": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "getCssFiles",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCssFiles",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "getCssFiles"
+    },
+    "4015dbeb2773e60316d5e31783f254e64a2dfa3be6": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "deleteCustomPage"
+    },
+    "40237d48335cb1c151282647b1e5d71c4d431c88ef": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "getCustomPageBySlug",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "getCustomPageBySlug"
+    },
+    "40278d55be7c9674faacd01a5611ca4ac8abf2cf76": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "updateCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "updateCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "updateCustomPage"
+    },
+    "404014d43ee118fc9fb483b639603fcf3ebe341ffb": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "deleteCssFile"
+    },
+    "405aa44c48856f502ba2ea9bd81c04b66a01544fe5": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "createCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "createCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "createCustomPage"
+    },
+    "406defb5b4318796783cf85f7e55ab4bf10a847ced": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "getCssContent",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "getCssContent",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "getCssContent"
+    },
+    "60636ce1053d5907dad3438a969ca84eeb278df5dc": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "saveCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 672532,
+          "async": false,
+          "exportedName": "saveCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "saveCssFile"
+    },
+    "00d07aa6b41e0c5bdad173b8264940d07e252ecd87": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
           "moduleId": 434665,
@@ -4664,7 +4890,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogs"
     },
-    "60fbab7bbb144b7c379b0919caa03dcf76628438c0": {
+    "60dc7d6e0fff2177c5fab89425690ff6259edd27b9": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
           "moduleId": 994552,
@@ -4679,7 +4905,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getPaginatedBlogsByCategory"
     },
-    "40136fceca16309ba4ee07c1c78fc84d12713aa069": {
+    "40caa31d8f6068fd72b6b3d88c825619c1b1bd11e6": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4694,7 +4920,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogBySlug"
     },
-    "40d0ac3600426845c8d43de6b9cda65889ab925399": {
+    "40db1eeb56f74597e0cea5116d27bc5de7d12959b2": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4758,7 +4984,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "createEnquiry"
     },
-    "60d6d5dd7ab9c25e563fa33c5ff04d856dffbf144d": {
+    "609869dc40734ec9d2a809b9096221b8818f43fb40": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4780,7 +5006,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "getEnquiries"
     },
-    "4011f501a1e9403c91c603d025e469da5f35c93cdf": {
+    "40f94d9d147a849d6ddb9af7b53de210c5f64ba2bf": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4802,7 +5028,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "deleteEnquiry"
     },
-    "4049dea361343a7778814e7061187190bfec5ef2b9": {
+    "4020350ae6701f45f721eebddf9aff3b2cb192f4f9": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 844164,
@@ -4824,7 +5050,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplateBySlug"
     },
-    "702989f28ad24a604ce776f35dda53bf2053e87987": {
+    "708a622de1f030552c6da8c36d605036265e9b7886": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/[slug]/page": {
           "moduleId": 911423,
@@ -4853,7 +5079,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplatesPaginated"
     },
-    "402f98de0a3fdb535017964894a1f6581f56625d98": {
+    "40871a9af6132fb84c168312d7851374b8d29fd898": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -4868,7 +5094,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "createBlog"
     },
-    "4029da41a5fee1007dfcd7e3aa9c820ed30dc4e106": {
+    "4001a6e714146688b598059d0b49de90d5441569a7": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -4883,7 +5109,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "updateBlog"
     },
-    "40fef94daf01dfa6ac578cb5bd43a1b5c0e3e7b088": {
+    "408b61bfd9d18defa8f22f29b876c5b0ad47f3184d": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -4898,7 +5124,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "deleteBlog"
     },
-    "007c117aab77329ddd2790c124c580d321ca5bc893": {
+    "000621b49e4989ebccc6ad756053ce0c3c7206f028": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -4920,7 +5146,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "getBlogCategories"
     },
-    "7084638c48a9ad909ad635beac879c186c323dca92": {
+    "70d52a8394b0aed2b660b009ef080e29597a81308b": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -4935,7 +5161,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "createBlogCategory"
     },
-    "788499619ba6ce059642baf8ae09004a9e65188173": {
+    "78e65b9b9b676739671a8d057b246b0c133ecdd1c6": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -4950,7 +5176,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "updateBlogCategory"
     },
-    "4094251a32c45c573c24f819fb7312258d67b4debc": {
+    "40989c2d6f0f71bb5c102d42d17ddee4e148722d16": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -4965,7 +5191,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "deleteBlogCategory"
     },
-    "007cea5313a30d19ef13a6432245a08b0f46552053": {
+    "00dd2b3b8660248007210d7fe9d1c95e097604afff": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 144521,
@@ -4980,7 +5206,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "getSitemap"
     },
-    "40780c713b7eaca8770303c7839a998bbcab9b1f3e": {
+    "40fb880b8942a2e2abfe86327cc49dd99e81923fdd": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 144521,
@@ -4995,7 +5221,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "updateSitemap"
     },
-    "4021b1cbb0d11026ccdb38b1899f01a71d016d51ae": {
+    "40fe794f35bce9e0b086ed056c752dc45c5564b257": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5017,7 +5243,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "createTemplate"
     },
-    "402bf80d35116c0886d2a16e90f7f5967d670dbc7e": {
+    "40b1315c25d48c05c2ab9f456c7bcd25bcfc7336a3": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5039,7 +5265,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "updateTemplate"
     },
-    "4066fdc22c2754e0aef0cd1912093d006a99095244": {
+    "4061b03c4777d49a95e19a18d4569fc5900f04dbac": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5061,7 +5287,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "deleteTemplate"
     },
-    "0006382b63954b7117074b256f825c802ad3121e68": {
+    "00d0114aef33d5bb9815309e0015c287e0c528b34f": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5083,7 +5309,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getAllTemplatesAdmin"
     },
-    "6046bc2eaa50ebbcc06c1645d7a6b8e7c5e2af22dd": {
+    "60f214d410ca0ec58df6748fd3cf93172d4628350a": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5098,7 +5324,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "createTemplateCategory"
     },
-    "70d32f83ebdbdec2e120367f46c303f57f6b05f2da": {
+    "705443ba8bb36a33dfbd4025425ac1a24f690a436c": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5113,7 +5339,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "updateTemplateCategory"
     },
-    "401f5053a48e1cc40780dbad33fd26b1d892cc9f68": {
+    "406d21ee22cd27e5dc84d7b18c5bdff0110ff50d62": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5128,7 +5354,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "deleteTemplateCategory"
     },
-    "4045afc31749a9489d1679d709592581832b357c75": {
+    "40b57c3347532e62c20cfc98a28742cf310199668d": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -5145,5 +5371,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "NklcZ0dW6J/HGCctEKZOeG4y9aNcJ/AeCXJ9qTmKJ8E="
+  "encryptionKey": "WUHc3SbFWp2gSKkxHXndJOunZ3CBRs7dX1G3VaYRkkY="
 }

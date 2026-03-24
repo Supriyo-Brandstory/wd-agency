@@ -23,6 +23,7 @@ const Sidebar = () => {
       icon: "🏢",
     },
     { href: "/admin/dashboard/template", label: "Templates", icon: "💎" },
+    { href: "/admin/dashboard/custom-page", label: "Custom Pages", icon: "📄" },
   ];
 
   const logoutLink = { href: "/api/admin/logout", label: "Logout", icon: "🚪" };
