@@ -36,6 +36,7 @@ export default async function DynamicCustomPage({ params }) {
         className="custom-page-content"
         dangerouslySetInnerHTML={{ __html: page.content }}
       />
+      {/* {page.content} */}
     </>
   );
 }

@@ -24,12 +24,16 @@ const Sidebar = () => {
     },
     { href: "/admin/dashboard/template", label: "Templates", icon: "💎" },
     { href: "/admin/dashboard/custom-page", label: "Custom Pages", icon: "📄" },
+    { href: "/admin/dashboard/media", label: "Media Manager", icon: "📁" },
   ];
 
   const logoutLink = { href: "/api/admin/logout", label: "Logout", icon: "🚪" };
 
   return (
-    <div className="w-64 bg-gradient-to-b from-indigo-900 to-indigo-800 text-white flex flex-col shadow-xl">
+    <div
+      id="admin-sidebar"
+      className="w-64 bg-gradient-to-b from-indigo-900 to-indigo-800 text-white flex flex-col shadow-xl"
+    >
       <div className="p-6 border-b border-indigo-700 flex items-center">
         <div className="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-3">
           <span className="text-black font-bold text-sm">WD</span>

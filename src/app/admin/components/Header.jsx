@@ -6,7 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200 px-6 py-4 flex items-center justify-between">
+    <header
+      id="admin-header"
+      className="bg-white shadow-sm border-b border-gray-200 px-6 py-4 flex items-center justify-between"
+    >
       <div className="flex items-center">
         <h1 className="text-xl font-semibold text-gray-900">Dashboard</h1>
       </div>

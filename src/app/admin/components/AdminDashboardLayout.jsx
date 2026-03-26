@@ -1,10 +1,8 @@
 "use client";
-import Sidebar from './Sidebar';
-import Header from './Header';
-
+import Sidebar from "./Sidebar";
+import Header from "./Header";
 
 export default function AdminDashboardLayout({ children }) {
-
   return (
     <div className="flex h-screen bg-gray-50">
       <Sidebar />
