@@ -1,6 +1,6 @@
 {
   "node": {
-    "403cb429281a3d3c902d44dd6f975504f2f5d18f1b": {
+    "407e5a1425039420dca8f091aad982f6e215ebe25f": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -9,13 +9,10 @@
           "filename": "src/app/admin/dashboard/media/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/media/page": "action-browser"
-      },
       "exportedName": "getMedia",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "60853c530cec7afde31301cdc25d46826f11f51b6c": {
+    "60ccdf1514156144a2c27570e01b6e62e1f2dbeb1b": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -24,13 +21,10 @@
           "filename": "src/app/admin/dashboard/media/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/media/page": "action-browser"
-      },
       "exportedName": "createFolder",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "406de8446f367aa55043db7798c47cdf2577be5c46": {
+    "4089bcfbe527238941959b6f049c9b016a4c1fed1c": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -39,13 +33,10 @@
           "filename": "src/app/admin/dashboard/media/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/media/page": "action-browser"
-      },
       "exportedName": "deleteMedia",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "40a103e1bc0e463703529445c2cfa559f96c1f2807": {
+    "40b411ff162d65f10e89e5c63c72cd9ec1fd6bfbb7": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -53,9 +44,6 @@
           "exportedName": "uploadFiles",
           "filename": "src/app/admin/dashboard/media/actions.js"
         }
-      },
-      "layer": {
-        "app/admin/dashboard/media/page": "action-browser"
       },
       "exportedName": "uploadFiles",
       "filename": "src/app/admin/dashboard/media/actions.js"

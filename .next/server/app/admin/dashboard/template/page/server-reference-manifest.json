@@ -1,6 +1,6 @@
 {
   "node": {
-    "40d4f45642bf86e3de4c18c227b912bb5cefe4d0ce": {
+    "401629c9ed4b30ae109a227afa51c9b57ea6f27292": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -9,13 +9,10 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template/page": "action-browser"
-      },
       "exportedName": "createTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "403a928426c8943623fe9dcaad60ba4a0acf3642c1": {
+    "402b2a35d47140acb27296c1c14c54e725e1e44875": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -24,13 +21,10 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template/page": "action-browser"
-      },
       "exportedName": "updateTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "40e3f835c104107c7a9d776300c5e8af7c18a7d30b": {
+    "4006218d99ce7cf6aca5f7e53eb01586c535214686": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -39,13 +33,10 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template/page": "action-browser"
-      },
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "0015d047f8c7c24287d5d64c8976adb7ad7c3e9b89": {
+    "00bf2a4afc4de31cbaf78f9315e62a7f9c8e27d1bd": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -54,13 +45,10 @@
           "filename": "src/app/admin/dashboard/template/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template/page": "action-browser"
-      },
       "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "001d75811ce83658c81c2d4e2ca11f8db1f74d3072": {
+    "00ef2fb03ff08e3403f1b1e834f203e97dc35ff7c5": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -68,9 +56,6 @@
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
-      },
-      "layer": {
-        "app/admin/dashboard/template/page": "action-browser"
       },
       "exportedName": "getTemplateCategories",
       "filename": "src/app/admin/dashboard/template-category/actions.js"

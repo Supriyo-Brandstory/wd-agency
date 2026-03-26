@@ -1,6 +1,6 @@
 {
   "node": {
-    "40966b04fa296598b19898a3f1249413c55cfe1e57": {
+    "408d21126590c41f4266327ba4f77a5d5976e0edb6": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -9,13 +9,10 @@
           "filename": "src/app/admin/dashboard/blog/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/blog/page": "action-browser"
-      },
       "exportedName": "createBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "40593b49368d8735a2be5b63366642cb6b344665b7": {
+    "40f4188c20a8cc86e0204120d716ac061412c39b4b": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -24,13 +21,10 @@
           "filename": "src/app/admin/dashboard/blog/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/blog/page": "action-browser"
-      },
       "exportedName": "updateBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "40f35a747d3958ef21ddee829bae97ee71502ea69b": {
+    "400d0293e8e629b0da30d7ec2caefaf4394594a6ab": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -39,13 +33,10 @@
           "filename": "src/app/admin/dashboard/blog/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/blog/page": "action-browser"
-      },
       "exportedName": "deleteBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "00cb9acd25d3c12972cb2456a470a113eb540cef04": {
+    "0078d5f835e5f5457774ee65eb81057ab4ac8f6a67": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -54,13 +45,10 @@
           "filename": "src/app/admin/dashboard/blog/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/blog/page": "action-browser"
-      },
       "exportedName": "getBlogs",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "005c0bab455b595abd07dbb992e4ac9856e69e2dbc": {
+    "004cca7e77eccb7127fc14e6e70c1e4b03763d67bc": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -68,9 +56,6 @@
           "exportedName": "getBlogCategories",
           "filename": "src/app/admin/dashboard/blog-category/actions.js"
         }
-      },
-      "layer": {
-        "app/admin/dashboard/blog/page": "action-browser"
       },
       "exportedName": "getBlogCategories",
       "filename": "src/app/admin/dashboard/blog-category/actions.js"

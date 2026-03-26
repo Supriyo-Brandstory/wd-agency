@@ -1,6 +1,6 @@
 {
   "node": {
-    "60db2021660d0b745704a107d8c2e1af977a072270": {
+    "60c612e6119f98d836127e297fab577a1a43506234": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -9,13 +9,10 @@
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template-category/page": "action-browser"
-      },
       "exportedName": "createTemplateCategory",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "70f8c3498c063471274daab349e63834e263a7c6ff": {
+    "704807154457849a440a75c58620b08645a8d700da": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -24,13 +21,10 @@
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template-category/page": "action-browser"
-      },
       "exportedName": "updateTemplateCategory",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "4013afe890c6c9604cab0fd2e1904f6b2cc3cbdda6": {
+    "401c6f1c6069f5d32357c374927aa7782572047cdb": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -39,13 +33,10 @@
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
       },
-      "layer": {
-        "app/admin/dashboard/template-category/page": "action-browser"
-      },
       "exportedName": "deleteTemplateCategory",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "001d75811ce83658c81c2d4e2ca11f8db1f74d3072": {
+    "00ef2fb03ff08e3403f1b1e834f203e97dc35ff7c5": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -53,9 +44,6 @@
           "exportedName": "getTemplateCategories",
           "filename": "src/app/admin/dashboard/template-category/actions.js"
         }
-      },
-      "layer": {
-        "app/admin/dashboard/template-category/page": "action-browser"
       },
       "exportedName": "getTemplateCategories",
       "filename": "src/app/admin/dashboard/template-category/actions.js"

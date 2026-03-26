@@ -1,6 +1,6 @@
 {
   "node": {
-    "0094255dbc89b54be9204fa0a1402224611a87b3a9": {
+    "00449ad3e402f87144a1d5af286d3c32c8701cbc05": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": 122060,
@@ -9,13 +9,10 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "layer": {
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc"
-      },
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40ee0f96908a9d924dd02590fa93896514299f5d31": {
+    "402f412f5e2de94a4e6c50ed59fe308b01f1c999ae": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": 122060,
@@ -24,13 +21,10 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "layer": {
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc"
-      },
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40ee28318cdba3a967dcddbff5c99f62a7b9eee3fe": {
+    "40bd5bf580b3860f0e956be1076de7afb77721ca2f": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": 122060,
@@ -39,13 +33,10 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "layer": {
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc"
-      },
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60650783883cf5dfaea6c432461d5104a93ff30a88": {
+    "60d320deff5f3d06f109a8445bb033e0880350a57b": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": 122060,
@@ -54,13 +45,10 @@
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "layer": {
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc"
-      },
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f448ff94253ab30651b6144a24f404da176118264": {
+    "7fd0653f4944e0d912cbe3501fbb091796f841bfae": {
       "workers": {
         "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
           "moduleId": 122060,
@@ -68,9 +56,6 @@
           "exportedName": "getSeoDataByPageUrl",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc"
       },
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"

@@ -1,3 +1,0 @@
-module.exports=[664347,a=>{"use strict";var b=a.i(814195);a.s([],987051),a.i(987051),a.s(["0094255dbc89b54be9204fa0a1402224611a87b3a9",()=>b.getSeoData,"40ee0f96908a9d924dd02590fa93896514299f5d31",()=>b.deleteSeoData,"40ee28318cdba3a967dcddbff5c99f62a7b9eee3fe",()=>b.createSeoData,"60650783883cf5dfaea6c432461d5104a93ff30a88",()=>b.updateSeoData,"7f448ff94253ab30651b6144a24f404da176118264",()=>b.getSeoDataByPageUrl],664347)}];
-
-//# sourceMappingURL=bec2d_app_%28frontend%29_%28pages%29_accountant-website-development_page_actions_b59f1bfd.js.map
