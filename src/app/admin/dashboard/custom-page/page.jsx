@@ -446,13 +446,29 @@ export default function CustomPageAdmin() {
             placeholder="style.css"
             value={currentCssName}
             onChange={(e) => setCurrentCssName(e.target.value)}
-            className="w-full mb-4 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 py-3 px-4 font-mono"
+            className="w-full mb-5 border-slate-300 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none rounded-xl py-3 px-5 font-mono transition-all shadow-sm bg-white"
           />
-          <textarea
-            className="w-full h-[500px] border-gray-200 rounded-xl p-4 font-mono text-sm mb-6 focus:ring-2 focus:ring-indigo-500"
-            value={cssContent}
-            onChange={(e) => setCssContent(e.target.value)}
-          />
+          <div className="border border-gray-200 rounded-xl overflow-hidden mb-6 focus-within:border-indigo-500 transition-shadow">
+            <Editor
+              height="500px"
+              defaultLanguage="css"
+              value={cssContent}
+              theme="vs-dark"
+              onChange={(value) => setCssContent(value || "")}
+              options={{
+                minimap: { enabled: false },
+                fontSize: 14,
+                lineNumbers: "on",
+                scrollBeyondLastLine: false,
+                automaticLayout: true,
+                suggest: true,
+                formatOnPaste: true,
+                formatOnType: true,
+                wordWrap: "on",
+                padding: { top: 20 },
+              }}
+            />
+          </div>
           <div className="flex gap-3">
             <button
               onClick={async () => {
@@ -489,7 +505,7 @@ export default function CustomPageAdmin() {
                   setTitle(e.target.value);
                   if (!selectedId) setSlug(generateSlug(e.target.value));
                 }}
-                className="border-gray-200 rounded-xl px-4 py-2.5 w-full focus:ring-2 focus:ring-indigo-500 font-medium transition-all"
+                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-medium transition-all shadow-sm bg-white"
               />
             </div>
             <div>
@@ -501,7 +517,7 @@ export default function CustomPageAdmin() {
                 placeholder="page-url"
                 value={slug}
                 onChange={(e) => setSlug(generateSlug(e.target.value))}
-                className="border-gray-200 rounded-xl px-4 py-2.5 w-full focus:ring-2 focus:ring-indigo-500 font-mono text-sm transition-all bg-gray-50/50"
+                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-mono text-sm transition-all shadow-sm bg-gray-50/30"
               />
             </div>
             <div>
@@ -511,7 +527,7 @@ export default function CustomPageAdmin() {
               <select
                 value={cssFile}
                 onChange={(e) => setCssFile(e.target.value)}
-                className="border-gray-200 rounded-xl px-4 py-2.5 w-full focus:ring-2 focus:ring-indigo-500 font-medium transition-all cursor-pointer"
+                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-medium transition-all shadow-sm bg-white cursor-pointer appearance-none"
               >
                 <option value="">Default styling</option>
                 {cssFiles.map((file) => (
