@@ -1,6 +1,6 @@
 {
   "node": {
-    "006c05d158303b8ada3539c390c26da310143e2355": {
+    "00ec895c0b5ed4b39d35b3fe21ec4c13a0d2445245": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -792,799 +792,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoData"
     },
-    "407056a5f8edbd13043070cde250b9ed6526f6d37e": {
-      "workers": {
-        "app/(frontend)/(pages)/(home)/page": {
-          "moduleId": 713315,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/about-us/page": {
-          "moduleId": 539020,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/accountant-website-development/page": {
-          "moduleId": 664347,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/architect-website-design/page": {
-          "moduleId": 928487,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/author/madhavan-a/page": {
-          "moduleId": 434665,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/automotive-website-development/page": {
-          "moduleId": 514131,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/aviation-website-design/page": {
-          "moduleId": 249491,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/bank-website-design/page": {
-          "moduleId": 378868,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 546265,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/blog/page": {
-          "moduleId": 994552,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/cover-b-website/page": {
-          "moduleId": 333204,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
-          "moduleId": 122060,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/equence/page": {
-          "moduleId": 275774,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/ferns-estates/page": {
-          "moduleId": 128681,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/kshemavana/page": {
-          "moduleId": 701802,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/leru-partners/page": {
-          "moduleId": 308530,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/leru-remote/page": {
-          "moduleId": 618351,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/page": {
-          "moduleId": 558784,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/travelex/page": {
-          "moduleId": 281300,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": {
-          "moduleId": 247026,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/chiropractor-website-design/page": {
-          "moduleId": 644082,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/cleaning-website-design/page": {
-          "moduleId": 92742,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/construction-website-design/page": {
-          "moduleId": 422566,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/contact-us/page": {
-          "moduleId": 455536,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/corporate-web-development/page": {
-          "moduleId": 282124,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/cost-calculator/page": {
-          "moduleId": 527156,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/crypto-website-design/page": {
-          "moduleId": 725409,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/cybersecurity-website-design/page": {
-          "moduleId": 853486,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/demo-template/[slug]/page": {
-          "moduleId": 844164,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/e-commerce-web-development/page": {
-          "moduleId": 971128,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/education-website-design/page": {
-          "moduleId": 804818,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/electrician-website-design/page": {
-          "moduleId": 849011,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/energy-website-design/page": {
-          "moduleId": 944589,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/enterprise-website-design/page": {
-          "moduleId": 928984,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/entertainment-website-design/page": {
-          "moduleId": 309309,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/events-website-design/page": {
-          "moduleId": 202258,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
-          "moduleId": 972780,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/finance-advisory-website-design/page": {
-          "moduleId": 795113,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/finance-website-design/page": {
-          "moduleId": 490011,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/fitness-website-design/page": {
-          "moduleId": 221287,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/food-website-design/page": {
-          "moduleId": 358962,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/government-website-design/page": {
-          "moduleId": 44093,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/healthcare-web-development/page": {
-          "moduleId": 265911,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/hotel-website-design/page": {
-          "moduleId": 736831,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/hvac-website-design/page": {
-          "moduleId": 747606,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/insurance-website-design/page": {
-          "moduleId": 370092,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/interior-website-design/page": {
-          "moduleId": 723314,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/law-website-design/page": {
-          "moduleId": 293955,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/logistics-website-design/page": {
-          "moduleId": 945868,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/luxury-website-design/page": {
-          "moduleId": 616645,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/manufacturing-website-design/page": {
-          "moduleId": 801257,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/moving-company-website-design/page": {
-          "moduleId": 207089,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/pharma-website-design/page": {
-          "moduleId": 994356,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/plastic-surgery-website-design/page": {
-          "moduleId": 866184,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/angular-website-development/page": {
-          "moduleId": 201205,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/drupal-website-development/page": {
-          "moduleId": 439361,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/laravel-website-development/page": {
-          "moduleId": 297518,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/magento-website-development/page": {
-          "moduleId": 18948,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/nextjs-website-development/page": {
-          "moduleId": 752613,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": {
-          "moduleId": 885931,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/opencart-website-development/page": {
-          "moduleId": 858841,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/php-website-development/page": {
-          "moduleId": 170629,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/react-js-website-development/page": {
-          "moduleId": 271534,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
-          "moduleId": 66102,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/squarespace-website-development/page": {
-          "moduleId": 984590,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
-          "moduleId": 509798,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": {
-          "moduleId": 941772,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": {
-          "moduleId": 908803,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/plumbing-website-design/page": {
-          "moduleId": 333826,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/portfolio-web-development/page": {
-          "moduleId": 370574,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/privacy-policy/page": {
-          "moduleId": 88636,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/real-estate-web-development/page": {
-          "moduleId": 437220,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/recruitment-website-design/page": {
-          "moduleId": 87898,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/retail-website-design/page": {
-          "moduleId": 204470,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/roofing-website-design/page": {
-          "moduleId": 579744,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/saas-website-design/page": {
-          "moduleId": 675351,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/branding/page": {
-          "moduleId": 316626,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/cloud-applications/page": {
-          "moduleId": 198467,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/crm-software/page": {
-          "moduleId": 716135,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/dynamic-website-development/page": {
-          "moduleId": 501126,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/enterprise-software/page": {
-          "moduleId": 843513,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/frontend-development/page": {
-          "moduleId": 104523,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/full-stack-development/page": {
-          "moduleId": 241963,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/legacy-modernization/page": {
-          "moduleId": 429270,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/page": {
-          "moduleId": 281025,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/software-maintenance/page": {
-          "moduleId": 760567,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/static-website-development/page": {
-          "moduleId": 528334,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/ui-ux-design/page": {
-          "moduleId": 114871,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/website-migration-service/page": {
-          "moduleId": 850516,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/website-redesign/page": {
-          "moduleId": 394539,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/services/wireframing-prototyping/page": {
-          "moduleId": 713745,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/small-business-website-design/page": {
-          "moduleId": 710301,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/sports-website-design/page": {
-          "moduleId": 737064,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/technologies/page": {
-          "moduleId": 510088,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/technology-web-development/page": {
-          "moduleId": 552425,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/telecom-website-design/page": {
-          "moduleId": 339518,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/terms-and-conditions/page": {
-          "moduleId": 815111,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/therapist-website-design/page": {
-          "moduleId": 120247,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/travel-web-development/page": {
-          "moduleId": 577876,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/wealth-management-website-design/page": {
-          "moduleId": 533704,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": {
-          "moduleId": 145247,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-ajman/page": {
-          "moduleId": 448697,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-al-ain/page": {
-          "moduleId": 548972,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-fujairah/page": {
-          "moduleId": 50563,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": {
-          "moduleId": 297954,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-sharjah/page": {
-          "moduleId": 630090,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": {
-          "moduleId": 908004,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-templates/[slug]/page": {
-          "moduleId": 911423,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/website-templates/page": {
-          "moduleId": 444844,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/(frontend)/(pages)/yachting-website-design/page": {
-          "moduleId": 697629,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        },
-        "app/admin/dashboard/seo/page": {
-          "moduleId": 114,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/(home)/page": "rsc",
-        "app/(frontend)/(pages)/[slug]/page": "rsc",
-        "app/(frontend)/(pages)/about-us/page": "rsc",
-        "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
-        "app/(frontend)/(pages)/architect-website-design/page": "rsc",
-        "app/(frontend)/(pages)/author/madhavan-a/page": "rsc",
-        "app/(frontend)/(pages)/automotive-website-development/page": "rsc",
-        "app/(frontend)/(pages)/aviation-website-design/page": "rsc",
-        "app/(frontend)/(pages)/bank-website-design/page": "rsc",
-        "app/(frontend)/(pages)/blog/[slug]/page": "rsc",
-        "app/(frontend)/(pages)/blog/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/cover-b-website/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/equence/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/ferns-estates/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/kshemavana/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/leru-partners/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/leru-remote/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/travelex/page": "rsc",
-        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": "rsc",
-        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc",
-        "app/(frontend)/(pages)/cleaning-website-design/page": "rsc",
-        "app/(frontend)/(pages)/construction-website-design/page": "rsc",
-        "app/(frontend)/(pages)/contact-us/page": "rsc",
-        "app/(frontend)/(pages)/corporate-web-development/page": "rsc",
-        "app/(frontend)/(pages)/cost-calculator/page": "rsc",
-        "app/(frontend)/(pages)/crypto-website-design/page": "rsc",
-        "app/(frontend)/(pages)/cybersecurity-website-design/page": "rsc",
-        "app/(frontend)/(pages)/demo-template/[slug]/page": "rsc",
-        "app/(frontend)/(pages)/e-commerce-web-development/page": "rsc",
-        "app/(frontend)/(pages)/education-website-design/page": "rsc",
-        "app/(frontend)/(pages)/electrician-website-design/page": "rsc",
-        "app/(frontend)/(pages)/energy-website-design/page": "rsc",
-        "app/(frontend)/(pages)/enterprise-website-design/page": "rsc",
-        "app/(frontend)/(pages)/entertainment-website-design/page": "rsc",
-        "app/(frontend)/(pages)/events-website-design/page": "rsc",
-        "app/(frontend)/(pages)/expert-dentist-website-development/page": "rsc",
-        "app/(frontend)/(pages)/finance-advisory-website-design/page": "rsc",
-        "app/(frontend)/(pages)/finance-website-design/page": "rsc",
-        "app/(frontend)/(pages)/fitness-website-design/page": "rsc",
-        "app/(frontend)/(pages)/food-website-design/page": "rsc",
-        "app/(frontend)/(pages)/government-website-design/page": "rsc",
-        "app/(frontend)/(pages)/healthcare-web-development/page": "rsc",
-        "app/(frontend)/(pages)/hotel-website-design/page": "rsc",
-        "app/(frontend)/(pages)/hvac-website-design/page": "rsc",
-        "app/(frontend)/(pages)/insurance-website-design/page": "rsc",
-        "app/(frontend)/(pages)/interior-website-design/page": "rsc",
-        "app/(frontend)/(pages)/law-website-design/page": "rsc",
-        "app/(frontend)/(pages)/logistics-website-design/page": "rsc",
-        "app/(frontend)/(pages)/luxury-website-design/page": "rsc",
-        "app/(frontend)/(pages)/manufacturing-website-design/page": "rsc",
-        "app/(frontend)/(pages)/moving-company-website-design/page": "rsc",
-        "app/(frontend)/(pages)/pharma-website-design/page": "rsc",
-        "app/(frontend)/(pages)/plastic-surgery-website-design/page": "rsc",
-        "app/(frontend)/(pages)/platforms/angular-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/drupal-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/laravel-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/magento-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/nextjs-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/opencart-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/php-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/react-js-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/shopify-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/squarespace-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": "rsc",
-        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": "rsc",
-        "app/(frontend)/(pages)/plumbing-website-design/page": "rsc",
-        "app/(frontend)/(pages)/portfolio-web-development/page": "rsc",
-        "app/(frontend)/(pages)/privacy-policy/page": "rsc",
-        "app/(frontend)/(pages)/real-estate-web-development/page": "rsc",
-        "app/(frontend)/(pages)/recruitment-website-design/page": "rsc",
-        "app/(frontend)/(pages)/retail-website-design/page": "rsc",
-        "app/(frontend)/(pages)/roofing-website-design/page": "rsc",
-        "app/(frontend)/(pages)/saas-website-design/page": "rsc",
-        "app/(frontend)/(pages)/services/branding/page": "rsc",
-        "app/(frontend)/(pages)/services/cloud-applications/page": "rsc",
-        "app/(frontend)/(pages)/services/crm-software/page": "rsc",
-        "app/(frontend)/(pages)/services/dynamic-website-development/page": "rsc",
-        "app/(frontend)/(pages)/services/enterprise-software/page": "rsc",
-        "app/(frontend)/(pages)/services/frontend-development/page": "rsc",
-        "app/(frontend)/(pages)/services/full-stack-development/page": "rsc",
-        "app/(frontend)/(pages)/services/legacy-modernization/page": "rsc",
-        "app/(frontend)/(pages)/services/page": "rsc",
-        "app/(frontend)/(pages)/services/software-maintenance/page": "rsc",
-        "app/(frontend)/(pages)/services/static-website-development/page": "rsc",
-        "app/(frontend)/(pages)/services/ui-ux-design/page": "rsc",
-        "app/(frontend)/(pages)/services/website-migration-service/page": "rsc",
-        "app/(frontend)/(pages)/services/website-redesign/page": "rsc",
-        "app/(frontend)/(pages)/services/wireframing-prototyping/page": "rsc",
-        "app/(frontend)/(pages)/small-business-website-design/page": "rsc",
-        "app/(frontend)/(pages)/sports-website-design/page": "rsc",
-        "app/(frontend)/(pages)/technologies/page": "rsc",
-        "app/(frontend)/(pages)/technology-web-development/page": "rsc",
-        "app/(frontend)/(pages)/telecom-website-design/page": "rsc",
-        "app/(frontend)/(pages)/terms-and-conditions/page": "rsc",
-        "app/(frontend)/(pages)/therapist-website-design/page": "rsc",
-        "app/(frontend)/(pages)/travel-web-development/page": "rsc",
-        "app/(frontend)/(pages)/wealth-management-website-design/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-ajman/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-al-ain/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-fujairah/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-sharjah/page": "rsc",
-        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": "rsc",
-        "app/(frontend)/(pages)/website-templates/[slug]/page": "rsc",
-        "app/(frontend)/(pages)/website-templates/page": "rsc",
-        "app/(frontend)/(pages)/yachting-website-design/page": "rsc",
-        "app/admin/dashboard/seo/page": "action-browser"
-      },
-      "filename": "src/app/admin/dashboard/seo/actions.js",
-      "exportedName": "deleteSeoData"
-    },
-    "40f4e665434aa07c27670b3f76360e0a01ac878696": {
+    "4051135f038fc46cc7b07ab53d208c13c0c2366205": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -2376,7 +1584,799 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "createSeoData"
     },
-    "6067e449e40a6563c3472ca7e8bff250e4cbe2fe0d": {
+    "40c7d3e4c4f51aaa68775c5c6cb0911e723b4fe4ab": {
+      "workers": {
+        "app/(frontend)/(pages)/(home)/page": {
+          "moduleId": 713315,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/about-us/page": {
+          "moduleId": 539020,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/accountant-website-development/page": {
+          "moduleId": 664347,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/architect-website-design/page": {
+          "moduleId": 928487,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/author/madhavan-a/page": {
+          "moduleId": 434665,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/automotive-website-development/page": {
+          "moduleId": 514131,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/aviation-website-design/page": {
+          "moduleId": 249491,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/bank-website-design/page": {
+          "moduleId": 378868,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 546265,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/blog/page": {
+          "moduleId": 994552,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": {
+          "moduleId": 333204,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": {
+          "moduleId": 122060,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/equence/page": {
+          "moduleId": 275774,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/ferns-estates/page": {
+          "moduleId": 128681,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/kshemavana/page": {
+          "moduleId": 701802,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/leru-partners/page": {
+          "moduleId": 308530,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/leru-remote/page": {
+          "moduleId": 618351,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/page": {
+          "moduleId": 558784,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/travelex/page": {
+          "moduleId": 281300,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": {
+          "moduleId": 247026,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/chiropractor-website-design/page": {
+          "moduleId": 644082,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/cleaning-website-design/page": {
+          "moduleId": 92742,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/construction-website-design/page": {
+          "moduleId": 422566,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/contact-us/page": {
+          "moduleId": 455536,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/corporate-web-development/page": {
+          "moduleId": 282124,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/cost-calculator/page": {
+          "moduleId": 527156,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/crypto-website-design/page": {
+          "moduleId": 725409,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/cybersecurity-website-design/page": {
+          "moduleId": 853486,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/demo-template/[slug]/page": {
+          "moduleId": 844164,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/e-commerce-web-development/page": {
+          "moduleId": 971128,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/education-website-design/page": {
+          "moduleId": 804818,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/electrician-website-design/page": {
+          "moduleId": 849011,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/energy-website-design/page": {
+          "moduleId": 944589,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/enterprise-website-design/page": {
+          "moduleId": 928984,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/entertainment-website-design/page": {
+          "moduleId": 309309,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/events-website-design/page": {
+          "moduleId": 202258,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": {
+          "moduleId": 972780,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": {
+          "moduleId": 795113,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/finance-website-design/page": {
+          "moduleId": 490011,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/fitness-website-design/page": {
+          "moduleId": 221287,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/food-website-design/page": {
+          "moduleId": 358962,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/government-website-design/page": {
+          "moduleId": 44093,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/healthcare-web-development/page": {
+          "moduleId": 265911,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/hotel-website-design/page": {
+          "moduleId": 736831,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/hvac-website-design/page": {
+          "moduleId": 747606,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/insurance-website-design/page": {
+          "moduleId": 370092,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/interior-website-design/page": {
+          "moduleId": 723314,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/law-website-design/page": {
+          "moduleId": 293955,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/logistics-website-design/page": {
+          "moduleId": 945868,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/luxury-website-design/page": {
+          "moduleId": 616645,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/manufacturing-website-design/page": {
+          "moduleId": 801257,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/moving-company-website-design/page": {
+          "moduleId": 207089,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/pharma-website-design/page": {
+          "moduleId": 994356,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/plastic-surgery-website-design/page": {
+          "moduleId": 866184,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/angular-website-development/page": {
+          "moduleId": 201205,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/drupal-website-development/page": {
+          "moduleId": 439361,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/laravel-website-development/page": {
+          "moduleId": 297518,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/magento-website-development/page": {
+          "moduleId": 18948,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/nextjs-website-development/page": {
+          "moduleId": 752613,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": {
+          "moduleId": 885931,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/opencart-website-development/page": {
+          "moduleId": 858841,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/php-website-development/page": {
+          "moduleId": 170629,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/react-js-website-development/page": {
+          "moduleId": 271534,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
+          "moduleId": 66102,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/squarespace-website-development/page": {
+          "moduleId": 984590,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": {
+          "moduleId": 509798,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": {
+          "moduleId": 941772,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": {
+          "moduleId": 908803,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/plumbing-website-design/page": {
+          "moduleId": 333826,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/portfolio-web-development/page": {
+          "moduleId": 370574,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/privacy-policy/page": {
+          "moduleId": 88636,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 437220,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/recruitment-website-design/page": {
+          "moduleId": 87898,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/retail-website-design/page": {
+          "moduleId": 204470,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/roofing-website-design/page": {
+          "moduleId": 579744,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/saas-website-design/page": {
+          "moduleId": 675351,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/branding/page": {
+          "moduleId": 316626,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/cloud-applications/page": {
+          "moduleId": 198467,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/crm-software/page": {
+          "moduleId": 716135,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/dynamic-website-development/page": {
+          "moduleId": 501126,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/enterprise-software/page": {
+          "moduleId": 843513,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/frontend-development/page": {
+          "moduleId": 104523,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/full-stack-development/page": {
+          "moduleId": 241963,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/legacy-modernization/page": {
+          "moduleId": 429270,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/page": {
+          "moduleId": 281025,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/software-maintenance/page": {
+          "moduleId": 760567,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/static-website-development/page": {
+          "moduleId": 528334,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/ui-ux-design/page": {
+          "moduleId": 114871,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/website-migration-service/page": {
+          "moduleId": 850516,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/website-redesign/page": {
+          "moduleId": 394539,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/services/wireframing-prototyping/page": {
+          "moduleId": 713745,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/small-business-website-design/page": {
+          "moduleId": 710301,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/sports-website-design/page": {
+          "moduleId": 737064,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/technologies/page": {
+          "moduleId": 510088,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/technology-web-development/page": {
+          "moduleId": 552425,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/telecom-website-design/page": {
+          "moduleId": 339518,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/terms-and-conditions/page": {
+          "moduleId": 815111,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/therapist-website-design/page": {
+          "moduleId": 120247,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/travel-web-development/page": {
+          "moduleId": 577876,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/wealth-management-website-design/page": {
+          "moduleId": 533704,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": {
+          "moduleId": 145247,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-ajman/page": {
+          "moduleId": 448697,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-al-ain/page": {
+          "moduleId": 548972,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-fujairah/page": {
+          "moduleId": 50563,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": {
+          "moduleId": 297954,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": {
+          "moduleId": 630090,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": {
+          "moduleId": 908004,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/[slug]/page": {
+          "moduleId": 911423,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/website-templates/page": {
+          "moduleId": 444844,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/(frontend)/(pages)/yachting-website-design/page": {
+          "moduleId": 697629,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        },
+        "app/admin/dashboard/seo/page": {
+          "moduleId": 114,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/(home)/page": "rsc",
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/(frontend)/(pages)/about-us/page": "rsc",
+        "app/(frontend)/(pages)/accountant-website-development/page": "rsc",
+        "app/(frontend)/(pages)/architect-website-design/page": "rsc",
+        "app/(frontend)/(pages)/author/madhavan-a/page": "rsc",
+        "app/(frontend)/(pages)/automotive-website-development/page": "rsc",
+        "app/(frontend)/(pages)/aviation-website-design/page": "rsc",
+        "app/(frontend)/(pages)/bank-website-design/page": "rsc",
+        "app/(frontend)/(pages)/blog/[slug]/page": "rsc",
+        "app/(frontend)/(pages)/blog/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/cover-b-website/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/crystal-plaza/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/equence/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/ferns-estates/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/kshemavana/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/leru-partners/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/leru-remote/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/travelex/page": "rsc",
+        "app/(frontend)/(pages)/case-studies/varsha-logistics/page": "rsc",
+        "app/(frontend)/(pages)/chiropractor-website-design/page": "rsc",
+        "app/(frontend)/(pages)/cleaning-website-design/page": "rsc",
+        "app/(frontend)/(pages)/construction-website-design/page": "rsc",
+        "app/(frontend)/(pages)/contact-us/page": "rsc",
+        "app/(frontend)/(pages)/corporate-web-development/page": "rsc",
+        "app/(frontend)/(pages)/cost-calculator/page": "rsc",
+        "app/(frontend)/(pages)/crypto-website-design/page": "rsc",
+        "app/(frontend)/(pages)/cybersecurity-website-design/page": "rsc",
+        "app/(frontend)/(pages)/demo-template/[slug]/page": "rsc",
+        "app/(frontend)/(pages)/e-commerce-web-development/page": "rsc",
+        "app/(frontend)/(pages)/education-website-design/page": "rsc",
+        "app/(frontend)/(pages)/electrician-website-design/page": "rsc",
+        "app/(frontend)/(pages)/energy-website-design/page": "rsc",
+        "app/(frontend)/(pages)/enterprise-website-design/page": "rsc",
+        "app/(frontend)/(pages)/entertainment-website-design/page": "rsc",
+        "app/(frontend)/(pages)/events-website-design/page": "rsc",
+        "app/(frontend)/(pages)/expert-dentist-website-development/page": "rsc",
+        "app/(frontend)/(pages)/finance-advisory-website-design/page": "rsc",
+        "app/(frontend)/(pages)/finance-website-design/page": "rsc",
+        "app/(frontend)/(pages)/fitness-website-design/page": "rsc",
+        "app/(frontend)/(pages)/food-website-design/page": "rsc",
+        "app/(frontend)/(pages)/government-website-design/page": "rsc",
+        "app/(frontend)/(pages)/healthcare-web-development/page": "rsc",
+        "app/(frontend)/(pages)/hotel-website-design/page": "rsc",
+        "app/(frontend)/(pages)/hvac-website-design/page": "rsc",
+        "app/(frontend)/(pages)/insurance-website-design/page": "rsc",
+        "app/(frontend)/(pages)/interior-website-design/page": "rsc",
+        "app/(frontend)/(pages)/law-website-design/page": "rsc",
+        "app/(frontend)/(pages)/logistics-website-design/page": "rsc",
+        "app/(frontend)/(pages)/luxury-website-design/page": "rsc",
+        "app/(frontend)/(pages)/manufacturing-website-design/page": "rsc",
+        "app/(frontend)/(pages)/moving-company-website-design/page": "rsc",
+        "app/(frontend)/(pages)/pharma-website-design/page": "rsc",
+        "app/(frontend)/(pages)/plastic-surgery-website-design/page": "rsc",
+        "app/(frontend)/(pages)/platforms/angular-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/drupal-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/laravel-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/magento-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/nextjs-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/nodejs-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/opencart-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/php-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/react-js-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/shopify-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/squarespace-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/vuejs-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/woo-commerce-website-development/page": "rsc",
+        "app/(frontend)/(pages)/platforms/wordpress-website-development/page": "rsc",
+        "app/(frontend)/(pages)/plumbing-website-design/page": "rsc",
+        "app/(frontend)/(pages)/portfolio-web-development/page": "rsc",
+        "app/(frontend)/(pages)/privacy-policy/page": "rsc",
+        "app/(frontend)/(pages)/real-estate-web-development/page": "rsc",
+        "app/(frontend)/(pages)/recruitment-website-design/page": "rsc",
+        "app/(frontend)/(pages)/retail-website-design/page": "rsc",
+        "app/(frontend)/(pages)/roofing-website-design/page": "rsc",
+        "app/(frontend)/(pages)/saas-website-design/page": "rsc",
+        "app/(frontend)/(pages)/services/branding/page": "rsc",
+        "app/(frontend)/(pages)/services/cloud-applications/page": "rsc",
+        "app/(frontend)/(pages)/services/crm-software/page": "rsc",
+        "app/(frontend)/(pages)/services/dynamic-website-development/page": "rsc",
+        "app/(frontend)/(pages)/services/enterprise-software/page": "rsc",
+        "app/(frontend)/(pages)/services/frontend-development/page": "rsc",
+        "app/(frontend)/(pages)/services/full-stack-development/page": "rsc",
+        "app/(frontend)/(pages)/services/legacy-modernization/page": "rsc",
+        "app/(frontend)/(pages)/services/page": "rsc",
+        "app/(frontend)/(pages)/services/software-maintenance/page": "rsc",
+        "app/(frontend)/(pages)/services/static-website-development/page": "rsc",
+        "app/(frontend)/(pages)/services/ui-ux-design/page": "rsc",
+        "app/(frontend)/(pages)/services/website-migration-service/page": "rsc",
+        "app/(frontend)/(pages)/services/website-redesign/page": "rsc",
+        "app/(frontend)/(pages)/services/wireframing-prototyping/page": "rsc",
+        "app/(frontend)/(pages)/small-business-website-design/page": "rsc",
+        "app/(frontend)/(pages)/sports-website-design/page": "rsc",
+        "app/(frontend)/(pages)/technologies/page": "rsc",
+        "app/(frontend)/(pages)/technology-web-development/page": "rsc",
+        "app/(frontend)/(pages)/telecom-website-design/page": "rsc",
+        "app/(frontend)/(pages)/terms-and-conditions/page": "rsc",
+        "app/(frontend)/(pages)/therapist-website-design/page": "rsc",
+        "app/(frontend)/(pages)/travel-web-development/page": "rsc",
+        "app/(frontend)/(pages)/wealth-management-website-design/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-abu-dhabi/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-ajman/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-al-ain/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-fujairah/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-ras-al-khaimah/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-sharjah/page": "rsc",
+        "app/(frontend)/(pages)/website-development-in-umm-al-quwain/page": "rsc",
+        "app/(frontend)/(pages)/website-templates/[slug]/page": "rsc",
+        "app/(frontend)/(pages)/website-templates/page": "rsc",
+        "app/(frontend)/(pages)/yachting-website-design/page": "rsc",
+        "app/admin/dashboard/seo/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/seo/actions.js",
+      "exportedName": "deleteSeoData"
+    },
+    "603ebbfff2314da6ac5b5744f73f50ed013e071ad1": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -3168,7 +3168,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "updateSeoData"
     },
-    "7fe27f7e6365db7e6d82284fb9771fc9d2d0026565": {
+    "7fcf8e7dfe84f1a6ca11e9aef90c30cc8c524b47ad": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -3953,7 +3953,7 @@
       "filename": "src/app/admin/dashboard/seo/actions.js",
       "exportedName": "getSeoDataByPageUrl"
     },
-    "00bf5500a5567693526e7f236785bda741b7fd6a6f": {
+    "00cdd602f35c6434786fbd0993b31d66a2d4545dc0": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4290,7 +4290,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplates"
     },
-    "002a7ab47abc632ebab915d2b084e78a362bc6f97d": {
+    "00e92283a305c10f80afbe334879b2199272c58f44": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4648,7 +4648,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "getTemplateCategories"
     },
-    "60e83e449c54794713296a1b1e75c3424bc04bafb3": {
+    "60906a4cebe31716d9457c7e61fe96e2880df6806d": {
       "workers": {
         "app/(frontend)/(pages)/(home)/page": {
           "moduleId": 713315,
@@ -4677,29 +4677,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getLatestBlogs"
     },
-    "001e8b8967c4ac70f5b5149492b1b31fc58411a8f4": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "getCustomPages",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        },
-        "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
-          "async": false,
-          "exportedName": "getCustomPages",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/[slug]/page": "rsc",
-        "app/admin/dashboard/custom-page/page": "action-browser"
-      },
-      "filename": "src/app/admin/dashboard/custom-page/actions.js",
-      "exportedName": "getCustomPages"
-    },
-    "00bdb881d464367b7d719d48d9b07e79c7a0963e78": {
+    "00a2e171bd2e6d232885f1a8c27f0214d641040246": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4708,7 +4686,7 @@
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
           "exportedName": "getCssFiles",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
@@ -4721,18 +4699,18 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "getCssFiles"
     },
-    "4015dbeb2773e60316d5e31783f254e64a2dfa3be6": {
+    "00b8712a0b0476ecf03d6d59c322597b1dda512482": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
           "async": false,
-          "exportedName": "deleteCustomPage",
+          "exportedName": "getCustomPages",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
-          "exportedName": "deleteCustomPage",
+          "exportedName": "getCustomPages",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         }
       },
@@ -4741,9 +4719,31 @@
         "app/admin/dashboard/custom-page/page": "action-browser"
       },
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
-      "exportedName": "deleteCustomPage"
+      "exportedName": "getCustomPages"
     },
-    "40237d48335cb1c151282647b1e5d71c4d431c88ef": {
+    "4012c69d2204ce1644fd7b3e4ec9f8f4acc4142dc2": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "deleteCssFile"
+    },
+    "405476a11c75bf1468d944f6682b7ef034badf38f9": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4758,7 +4758,29 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "getCustomPageBySlug"
     },
-    "40278d55be7c9674faacd01a5611ca4ac8abf2cf76": {
+    "40732ce897d12421d24f5888ffabd73844375e44dc": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        },
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "layer": {
+        "app/(frontend)/(pages)/[slug]/page": "rsc",
+        "app/admin/dashboard/custom-page/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/custom-page/actions.js",
+      "exportedName": "deleteCustomPage"
+    },
+    "4077bcc2096d19bf4338122139003e2ffae51e5af9": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4767,7 +4789,7 @@
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
           "exportedName": "updateCustomPage",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
@@ -4780,29 +4802,7 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "updateCustomPage"
     },
-    "404014d43ee118fc9fb483b639603fcf3ebe341ffb": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "deleteCssFile",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        },
-        "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
-          "async": false,
-          "exportedName": "deleteCssFile",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "layer": {
-        "app/(frontend)/(pages)/[slug]/page": "rsc",
-        "app/admin/dashboard/custom-page/page": "action-browser"
-      },
-      "filename": "src/app/admin/dashboard/custom-page/actions.js",
-      "exportedName": "deleteCssFile"
-    },
-    "405aa44c48856f502ba2ea9bd81c04b66a01544fe5": {
+    "4078393b242ecfc8cf094c5059add61f44e5f69f42": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4811,7 +4811,7 @@
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
           "exportedName": "createCustomPage",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
@@ -4824,7 +4824,7 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "createCustomPage"
     },
-    "406defb5b4318796783cf85f7e55ab4bf10a847ced": {
+    "4090d8628981cb04326e2438cc790b456eaef108d6": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4833,7 +4833,7 @@
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
           "exportedName": "getCssContent",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
@@ -4846,7 +4846,7 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "getCssContent"
     },
-    "60636ce1053d5907dad3438a969ca84eeb278df5dc": {
+    "60be5feae46fc09831f294b17e1844fd0ef61b5763": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -4855,7 +4855,7 @@
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         },
         "app/admin/dashboard/custom-page/page": {
-          "moduleId": 672532,
+          "moduleId": 539381,
           "async": false,
           "exportedName": "saveCssFile",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
@@ -4868,7 +4868,7 @@
       "filename": "src/app/admin/dashboard/custom-page/actions.js",
       "exportedName": "saveCssFile"
     },
-    "00d07aa6b41e0c5bdad173b8264940d07e252ecd87": {
+    "00c7c70b260c39cc879caeeebbc01f0b9c1890a6da": {
       "workers": {
         "app/(frontend)/(pages)/author/madhavan-a/page": {
           "moduleId": 434665,
@@ -4890,7 +4890,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogs"
     },
-    "60dc7d6e0fff2177c5fab89425690ff6259edd27b9": {
+    "60787900126ee946a8e5de9fed82ca5cdcc46c6097": {
       "workers": {
         "app/(frontend)/(pages)/blog/page": {
           "moduleId": 994552,
@@ -4905,7 +4905,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getPaginatedBlogsByCategory"
     },
-    "40caa31d8f6068fd72b6b3d88c825619c1b1bd11e6": {
+    "405526b11dfef70fd06cbfc31c936d56696f22aec2": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4920,7 +4920,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "getBlogBySlug"
     },
-    "40db1eeb56f74597e0cea5116d27bc5de7d12959b2": {
+    "40fc9771790cffea7b79ad906a238c02649c43e24d": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -4984,7 +4984,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "createEnquiry"
     },
-    "609869dc40734ec9d2a809b9096221b8818f43fb40": {
+    "6052b00ef6d0c3c97bf4d6ce18b2529a7c7e65845b": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -5006,7 +5006,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "getEnquiries"
     },
-    "40f94d9d147a849d6ddb9af7b53de210c5f64ba2bf": {
+    "408992e6ce6f4cc4606250601a427439e6bec00d5b": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -5028,7 +5028,7 @@
       "filename": "src/app/admin/dashboard/enquiry/action.js",
       "exportedName": "deleteEnquiry"
     },
-    "4020350ae6701f45f721eebddf9aff3b2cb192f4f9": {
+    "4035d64a6cfd2923fab394643c94dcb5bcb1b407ef": {
       "workers": {
         "app/(frontend)/(pages)/demo-template/[slug]/page": {
           "moduleId": 844164,
@@ -5050,7 +5050,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplateBySlug"
     },
-    "708a622de1f030552c6da8c36d605036265e9b7886": {
+    "70a159719b34f8bd06a294715a60a9ac82d3f55fb2": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/[slug]/page": {
           "moduleId": 911423,
@@ -5079,7 +5079,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getTemplatesPaginated"
     },
-    "40871a9af6132fb84c168312d7851374b8d29fd898": {
+    "408e93cc153dbc97c0bbe8bd89431a3b2d1606c8be": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -5094,7 +5094,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "createBlog"
     },
-    "4001a6e714146688b598059d0b49de90d5441569a7": {
+    "4058011fe0d1509409ec0a2c160ed097e540db37a8": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -5109,7 +5109,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "updateBlog"
     },
-    "408b61bfd9d18defa8f22f29b876c5b0ad47f3184d": {
+    "402c09808c2e375633fc04bd65121647362d96ee10": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 337645,
@@ -5124,7 +5124,7 @@
       "filename": "src/app/admin/dashboard/blog/actions.js",
       "exportedName": "deleteBlog"
     },
-    "000621b49e4989ebccc6ad756053ce0c3c7206f028": {
+    "00af07494f01fad25b58ad09cdb62dd74061463505": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -5146,7 +5146,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "getBlogCategories"
     },
-    "70d52a8394b0aed2b660b009ef080e29597a81308b": {
+    "70788a0c4fe2da332f4db4f8223172db9c7ffdf13c": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -5161,7 +5161,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "createBlogCategory"
     },
-    "78e65b9b9b676739671a8d057b246b0c133ecdd1c6": {
+    "78f12716a46653ad7c101942c126c35c8026943363": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -5176,7 +5176,7 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "updateBlogCategory"
     },
-    "40989c2d6f0f71bb5c102d42d17ddee4e148722d16": {
+    "40220c9b2103944a78b0a15450fa0905861041c56c": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -5191,7 +5191,81 @@
       "filename": "src/app/admin/dashboard/blog-category/actions.js",
       "exportedName": "deleteBlogCategory"
     },
-    "00dd2b3b8660248007210d7fe9d1c95e097604afff": {
+    "4058924fadd1141db47871341edfe8d526f4514fb1": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "getMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        },
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "getMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser",
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/media/actions.js",
+      "exportedName": "getMedia"
+    },
+    "404965720c3cde7feb20885c734fd52698592e935a": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "uploadFiles",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        },
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "uploadFiles",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/custom-page/page": "action-browser",
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/media/actions.js",
+      "exportedName": "uploadFiles"
+    },
+    "60f68083c562d1c184b3395daae5176abdf14206b1": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "createFolder",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/media/actions.js",
+      "exportedName": "createFolder"
+    },
+    "40abe41ff5825632c97bc3b311df62d7c9cb6e58b8": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "deleteMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "filename": "src/app/admin/dashboard/media/actions.js",
+      "exportedName": "deleteMedia"
+    },
+    "00cb4857013bcc9694910049b7f820f5f663e3391e": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 144521,
@@ -5206,7 +5280,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "getSitemap"
     },
-    "40fb880b8942a2e2abfe86327cc49dd99e81923fdd": {
+    "409f4aa3c3471899e961bc417c56a502ed9ce1f924": {
       "workers": {
         "app/admin/dashboard/sitemap/page": {
           "moduleId": 144521,
@@ -5221,7 +5295,7 @@
       "filename": "src/app/admin/dashboard/sitemap/actions.js",
       "exportedName": "updateSitemap"
     },
-    "40fe794f35bce9e0b086ed056c752dc45c5564b257": {
+    "40877c94c1f8e4e96b6f57822ac91119ee3ddab9ad": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5243,7 +5317,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "createTemplate"
     },
-    "40b1315c25d48c05c2ab9f456c7bcd25bcfc7336a3": {
+    "4045c4de91fdfacca5f896444cd349d3660f92e55e": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5265,7 +5339,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "updateTemplate"
     },
-    "4061b03c4777d49a95e19a18d4569fc5900f04dbac": {
+    "40a0863defe6e4b3351cf6ef87404e1f5db8f3663b": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5287,7 +5361,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "deleteTemplate"
     },
-    "00d0114aef33d5bb9815309e0015c287e0c528b34f": {
+    "000b66729321c9a5b6daf10dbb2f3dc3bef23f065d": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -5309,7 +5383,7 @@
       "filename": "src/app/admin/dashboard/template/actions.js",
       "exportedName": "getAllTemplatesAdmin"
     },
-    "60f214d410ca0ec58df6748fd3cf93172d4628350a": {
+    "6019825deecdec68e601a72ac5cc78770f6c622da4": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5324,7 +5398,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "createTemplateCategory"
     },
-    "705443ba8bb36a33dfbd4025425ac1a24f690a436c": {
+    "707d1ff454af17a440cf4291547732cac47a6da648": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5339,7 +5413,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "updateTemplateCategory"
     },
-    "406d21ee22cd27e5dc84d7b18c5bdff0110ff50d62": {
+    "40b265e12f5dc381b78805fafffcf2be04112331ff": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -5354,7 +5428,7 @@
       "filename": "src/app/admin/dashboard/template-category/actions.js",
       "exportedName": "deleteTemplateCategory"
     },
-    "40b57c3347532e62c20cfc98a28742cf310199668d": {
+    "402a6fa35e8005591d39f881c4d551e0f4241c1b6c": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -5371,5 +5445,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "WUHc3SbFWp2gSKkxHXndJOunZ3CBRs7dX1G3VaYRkkY="
+  "encryptionKey": "igBR9khcTCdmzYX3UxgPaXx5LUNfk199rABQJCUg5n4="
 }

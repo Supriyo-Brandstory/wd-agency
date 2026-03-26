@@ -1,0 +1,65 @@
+{
+  "node": {
+    "4058924fadd1141db47871341edfe8d526f4514fb1": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "getMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "exportedName": "getMedia",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "60f68083c562d1c184b3395daae5176abdf14206b1": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "createFolder",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "exportedName": "createFolder",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "40abe41ff5825632c97bc3b311df62d7c9cb6e58b8": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "deleteMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "exportedName": "deleteMedia",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "404965720c3cde7feb20885c734fd52698592e935a": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "uploadFiles",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/media/page": "action-browser"
+      },
+      "exportedName": "uploadFiles",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    }
+  },
+  "edge": {}
+}

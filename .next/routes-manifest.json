@@ -124,10 +124,22 @@
       "namedRegex": "^/admin/dashboard/custom\\-page(?:/)?$"
     },
     {
+      "page": "/admin/dashboard/custom-page/preview",
+      "regex": "^/admin/dashboard/custom\\-page/preview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/custom\\-page/preview(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard/enquiry",
       "regex": "^/admin/dashboard/enquiry(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/enquiry(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/media",
+      "regex": "^/admin/dashboard/media(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/media(?:/)?$"
     },
     {
       "page": "/admin/dashboard/seo",
