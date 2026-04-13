@@ -1,6 +1,6 @@
 {
   "node": {
-    "407e5a1425039420dca8f091aad982f6e215ebe25f": {
+    "40acc2293858af453ce484d35fd955c28c199fceb1": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -12,7 +12,7 @@
       "exportedName": "getMedia",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "60ccdf1514156144a2c27570e01b6e62e1f2dbeb1b": {
+    "60929202e01004db366a2490a216df724768ce5ddf": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -24,7 +24,7 @@
       "exportedName": "createFolder",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "4089bcfbe527238941959b6f049c9b016a4c1fed1c": {
+    "4063f08899aa7ab74a9b286b5ceb2513c67692180a": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,
@@ -36,7 +36,7 @@
       "exportedName": "deleteMedia",
       "filename": "src/app/admin/dashboard/media/actions.js"
     },
-    "40b411ff162d65f10e89e5c63c72cd9ec1fd6bfbb7": {
+    "40224e24a400281851039b2c3028dda82c958e653f": {
       "workers": {
         "app/admin/dashboard/media/page": {
           "moduleId": 871680,

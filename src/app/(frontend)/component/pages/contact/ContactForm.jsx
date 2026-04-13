@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "@/app/(frontend)/assets/style/contact/contactForm.module.css";
 import { createEnquiry } from "@/app/admin/dashboard/enquiry/action";
+import { sendToMondayCRM } from "@/lib/monday_crm";
 
 export default function ContactForm() {
   const [fullName, setFullName] = useState("");
@@ -40,6 +41,9 @@ export default function ContactForm() {
     const result = await createEnquiry(data);
 
     if (result.success) {
+      // Send data to Monday CRM
+      await sendToMondayCRM(data);
+
       setSuccessMessage("Enquiry submitted successfully!");
       setFullName("");
       setEmailAddress("");
@@ -138,9 +142,25 @@ export default function ContactForm() {
                 onChange={(e) => setProjectBudget(e.target.value)}
               >
                 <option value="">Select budget range</option>
-                <option value="10k-25k">$10,000 - $25,000</option>
-                <option value="25k-50k">$25,000 - $50,000</option>
-                <option value="50k+">$50,000+</option>
+                <option value="AED 3000 - AED 5000">
+                  AED 3000 - AED 5000{" "}
+                </option>
+                <option value="AED 5000 - AED 10000">
+                  AED 5000 - AED 10000
+                </option>
+                <option value="AED 10000 - AED 15000">
+                  AED 10000 - AED 15000
+                </option>
+                <option value="AED 15000 - AED 20000">
+                  AED 15000 - AED 20000
+                </option>
+                <option value="AED 20000 - AED 25000">
+                  AED 20000 - AED 25000
+                </option>
+                <option value="AED 25000 - AED 50000">
+                  AED 25000 - AED 50000{" "}
+                </option>
+                <option value="AED 50000+">AED 50000+ </option>
               </select>
             </div>
           </div>

@@ -1,6 +1,6 @@
 {
   "node": {
-    "60ae2729c6897d3e275a6fa838e3b0dc443203ecb7": {
+    "60823ee508a87f533348a8e8ebbc06d6d6c462f96c": {
       "workers": {
         "app/admin/dashboard/enquiry/page": {
           "moduleId": 883179,
@@ -12,7 +12,7 @@
       "exportedName": "getEnquiries",
       "filename": "src/app/admin/dashboard/enquiry/action.js"
     },
-    "40741779697f28062f6b1981b84df7f76e9577f78e": {
+    "4016add942ad62ac8e99cc7f92d44e1df8c14c4a4d": {
       "workers": {
         "app/admin/dashboard/enquiry/page": {
           "moduleId": 883179,

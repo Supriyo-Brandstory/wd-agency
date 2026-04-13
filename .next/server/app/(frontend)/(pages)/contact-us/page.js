@@ -11,6 +11,6 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-e
 R.c("server/chunks/ssr/node_modules_0cmo722._.js")
 R.c("server/chunks/ssr/_0xz4xe.._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__04lsbdn._.js")
-R.c("server/chunks/ssr/_0wimtk9._.js")
+R.c("server/chunks/ssr/_0w-jjn2._.js")
 R.m(729625)
 module.exports=R.m(729625).exports

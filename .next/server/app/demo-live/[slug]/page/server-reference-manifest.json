@@ -1,18 +1,6 @@
 {
   "node": {
-    "00bf2a4afc4de31cbaf78f9315e62a7f9c8e27d1bd": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "getAllTemplatesAdmin",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "getAllTemplatesAdmin",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "00ec2284fccf751bd82c998737319f048e2bdc2b48": {
+    "00028f1791663832c280bebc59ae810b0d7487d281": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -24,7 +12,19 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4006218d99ce7cf6aca5f7e53eb01586c535214686": {
+    "00ffe7307824d9f11dbf08b61f5a69cdb2027a57d0": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "getAllTemplatesAdmin",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "getAllTemplatesAdmin",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "406bd0794d28094d05225105325c183912a02a5db6": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -36,7 +36,7 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "401448bb29f3a12ef379aff5e3a3b664cfc6713b3c": {
+    "40b2b835e148af344c9824f5a997946b896f475f5d": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -48,31 +48,7 @@
       "exportedName": "getTemplateBySlug",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "401629c9ed4b30ae109a227afa51c9b57ea6f27292": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "createTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "createTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "402b2a35d47140acb27296c1c14c54e725e1e44875": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "updateTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "updateTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40ec2fbfc6fa072e2fc8bc8e28709e6c9a0811d19f": {
+    "40bbbaca5d6bd9b237563d15398dbd640e146821c2": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -84,7 +60,31 @@
       "exportedName": "getTemplatesByCategory",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "70c2886c8f45547a7fe49d328234eafd6dfa3dd7ef": {
+    "40d2aaa3bde1c8a7d2d9fbdbb6b26189ad94771da4": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "updateTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40ecd90696427a7829e5215b53256fb38af234f626": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "70a4424a08dcd82aee8f8acb2c75f62311300c774a": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
