@@ -25,8 +25,8 @@ export async function sendToMondayCRM(data) {
             phone_mm141pxr: {
                 phone: data.phoneNumber || "",
             },
-            // Text column (Company Name / SPOC)
-            text_mm14r7a8: data.companyName || "",
+            // Text column (Company SPOC)
+            text_mm14r7a8: data.fullName || "",
 
             // Dropdown column: Service
             dropdown_mm14wkvb: {
@@ -60,9 +60,10 @@ export async function sendToMondayCRM(data) {
         const variables = {
             boardId: boardId,
             groupId: groupId,
-            itemName: data.fullName || "New Enquiry",
+            itemName: data.companyName || data.fullName || "New Enquiry",
             columnValues: JSON.stringify(columnValues)
         };
+
 
         const response = await fetch("https://api.monday.com/v2", {
             method: "POST",
