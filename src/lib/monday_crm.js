@@ -1,38 +1,47 @@
 "use server";
+
 export async function sendToMondayCRM(data) {
     try {
         const apiToken = process.env.MONDAY_API_KEY;
 
-        const boardId = 5026985125;
+        // Board and Group IDs
+        const boardId = "5026985125";
         const groupId = "topics";
+
         const serviceMap = {
             web: "Web Development",
             app: "App Development",
             software: "Software Development"
         };
 
-        const budgetMap = {
-            "10k-25k": "AED 10000 - AED 25000",
-            "25k-50k": "AED 25000 - AED 50000",
-            "50k+": "AED 50000+"
-        };
-
+        // Monday CRM requires specific object structures for different column types
         const columnValues = {
+            // Email column
             email_mm1491ef: {
                 email: data.emailAddress,
                 text: data.emailAddress,
             },
+            // Phone column
             phone_mm141pxr: {
-                phone: data.phoneNumber,
-                countryShortName: "AE" // Set a default or keep blank
+                phone: data.phoneNumber || "",
             },
-            text_mm14r7a8: data.companyName,
+            // Text column (Company Name / SPOC)
+            text_mm14r7a8: data.companyName || "",
 
-            // dropdown_mm14w9p6: data.serviceInterestedIn,
-            dropdown_mm14wkvb: { labels: [serviceMap[data.serviceInterestedIn]] },
-            long_text_mm14f104: data.projectDetails,
-            // dropdown_mm1492bh: budgetMap[data.projectBudget] ,
-            dropdown_mm1492bh: { labels: [data.projectBudget] },
+            // Dropdown column: Service
+            dropdown_mm14wkvb: {
+                labels: [serviceMap[data.serviceInterestedIn] || "Web Development"]
+            },
+            
+            // Long Text column: Message
+            long_text_mm14f104: {
+                text: data.projectDetails || ""
+            },
+            
+            // Dropdown column: Budget Range
+            dropdown_mm1492bh: {
+                labels: [data.projectBudget || ""]
+            },
         };
 
         const query = `
@@ -51,7 +60,7 @@ export async function sendToMondayCRM(data) {
         const variables = {
             boardId: boardId,
             groupId: groupId,
-            itemName: data.fullName,
+            itemName: data.fullName || "New Enquiry",
             columnValues: JSON.stringify(columnValues)
         };
 
@@ -64,8 +73,8 @@ export async function sendToMondayCRM(data) {
             body: JSON.stringify({ query, variables }),
         });
 
-        let result;
         const responseText = await response.text();
+        let result;
         try {
             result = JSON.parse(responseText);
         } catch (e) {
@@ -73,18 +82,19 @@ export async function sendToMondayCRM(data) {
             return false;
         }
 
-        console.log("Full push data: ", JSON.stringify(data, null, 2));
-        console.log("Column Values sent to Monday: ", JSON.stringify(columnValues, null, 2));
-        console.log(" Custom Monday  Response: " + JSON.stringify(result, null, 2));
+        // Logging for debugging (visible in server logs)
+        console.log("Monday CRM Push - Data:", JSON.stringify(columnValues, null, 2));
+        console.log("Monday CRM Push - Response:", JSON.stringify(result, null, 2));
+
         if (result.errors) {
-            console.error(result.errors);
+            console.error("Monday CRM API Errors:", JSON.stringify(result.errors, null, 2));
             return false;
         }
 
-        return true;
+        return result.data && result.data.create_item ? true : false;
 
     } catch (error) {
-        console.error("Monday API error:", error);
+        console.error("Monday API Catch Error:", error);
         return false;
     }
 }

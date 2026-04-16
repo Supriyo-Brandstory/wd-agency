@@ -1,6 +1,6 @@
 {
   "node": {
-    "00028f1791663832c280bebc59ae810b0d7487d281": {
+    "00055e4ec90a2096a23f481bc9509b7105ef322a07": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -12,7 +12,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00ffe7307824d9f11dbf08b61f5a69cdb2027a57d0": {
+    "0049fa23e44b4a500c05bdc33947b1552a00889b04": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -24,43 +24,7 @@
       "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "406bd0794d28094d05225105325c183912a02a5db6": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "deleteTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "deleteTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40b2b835e148af344c9824f5a997946b896f475f5d": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "getTemplateBySlug",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "getTemplateBySlug",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40bbbaca5d6bd9b237563d15398dbd640e146821c2": {
-      "workers": {
-        "app/demo-live/[slug]/page": {
-          "moduleId": 836941,
-          "async": false,
-          "exportedName": "getTemplatesByCategory",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "getTemplatesByCategory",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40d2aaa3bde1c8a7d2d9fbdbb6b26189ad94771da4": {
+    "4034e8f6d1d7d268e893f673aa8c274d1e6b369c97": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -72,7 +36,31 @@
       "exportedName": "updateTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "40ecd90696427a7829e5215b53256fb38af234f626": {
+    "4062a147be5c712ea231ddf3e22f4ae468ef82373c": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "getTemplateBySlug",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "getTemplateBySlug",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40698675eab27cb5ea245a3071a5f8366af43f79a9": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "deleteTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "40b48f43bf57ba06dbe8b49021b002a2c64ce229a0": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,
@@ -84,7 +72,19 @@
       "exportedName": "createTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "70a4424a08dcd82aee8f8acb2c75f62311300c774a": {
+    "40ded8e5d613a7f030ba4b526be090bbd6e769db8f": {
+      "workers": {
+        "app/demo-live/[slug]/page": {
+          "moduleId": 836941,
+          "async": false,
+          "exportedName": "getTemplatesByCategory",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "getTemplatesByCategory",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "70aba5733441c19351e86d9aa982a5161ac3d0a3a7": {
       "workers": {
         "app/demo-live/[slug]/page": {
           "moduleId": 836941,

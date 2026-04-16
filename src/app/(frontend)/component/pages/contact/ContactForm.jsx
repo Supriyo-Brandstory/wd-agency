@@ -142,25 +142,26 @@ export default function ContactForm() {
                 onChange={(e) => setProjectBudget(e.target.value)}
               >
                 <option value="">Select budget range</option>
-                <option value="AED 3000 - AED 5000">
-                  AED 3000 - AED 5000{" "}
+                <option value="AED 3000 – AED 5000">
+                  AED 3000 – AED 5000
                 </option>
-                <option value="AED 5000 - AED 10000">
-                  AED 5000 - AED 10000
+                <option value="AED 5000 – AED 10000">
+                  AED 5000 – AED 10000
                 </option>
-                <option value="AED 10000 - AED 15000">
-                  AED 10000 - AED 15000
+                <option value="AED 10000 – AED 15000">
+                  AED 10000 – AED 15000
                 </option>
-                <option value="AED 15000 - AED 20000">
-                  AED 15000 - AED 20000
+                <option value="AED 15000 – AED 20000">
+                  AED 15000 – AED 20000
                 </option>
                 <option value="AED 20000 - AED 25000">
                   AED 20000 - AED 25000
                 </option>
                 <option value="AED 25000 - AED 50000">
-                  AED 25000 - AED 50000{" "}
+                  AED 25000 - AED 50000
                 </option>
-                <option value="AED 50000+">AED 50000+ </option>
+                <option value="AED 50000+">AED 50000+</option>
+
               </select>
             </div>
           </div>
