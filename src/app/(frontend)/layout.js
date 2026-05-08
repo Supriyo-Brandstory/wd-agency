@@ -52,6 +52,7 @@ export default function RootLayout({ children }) {
 
         <Header />
         <main style={{ flex: '1 0 auto' }} >{children}</main>
+        <meta name="facebook-domain-verification" content="ku4vpemsgqg8nuv8k1igcm2jgqkgkt" />
         <Footer />
 
         {/* Google Tag Manager script using next/script */}
