@@ -1,6 +1,6 @@
 {
   "node": {
-    "00790a38441d28a9ed5063e6c594e558824e6bc63f": {
+    "00af1a44882daeae1f74e8dec839cec5bf05a8fe79": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,
@@ -12,7 +12,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4019e5959c5688ba21d1329b7f9eaf8e6e122e077a": {
+    "4061fce71f0cafad0c2c83c4192bd7e5a50bfdb9d0": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,
@@ -24,7 +24,7 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40b0ff77e428d1ccaff4c192252485a9134674df4b": {
+    "40ab64e1360addd0018c27763524692a6af02c58de": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,
@@ -36,7 +36,7 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60e5bf15d6e6ebb7f1f1b95a5ac8b15efae427079e": {
+    "60dbc4590bcaf5ce94786c2bebb89c2ec151321016": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,
@@ -48,7 +48,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7febb83b2853029eca60b66c6ead040a87e77665aa": {
+    "7f33798de86803c90757386aac31abb517c3379292": {
       "workers": {
         "app/(frontend)/(pages)/platforms/shopify-website-development/page": {
           "moduleId": 66102,

@@ -1,6 +1,6 @@
 {
   "node": {
-    "00790a38441d28a9ed5063e6c594e558824e6bc63f": {
+    "00af1a44882daeae1f74e8dec839cec5bf05a8fe79": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -12,7 +12,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4019e5959c5688ba21d1329b7f9eaf8e6e122e077a": {
+    "4061fce71f0cafad0c2c83c4192bd7e5a50bfdb9d0": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -24,7 +24,7 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40b0ff77e428d1ccaff4c192252485a9134674df4b": {
+    "40ab64e1360addd0018c27763524692a6af02c58de": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -36,7 +36,7 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60e5bf15d6e6ebb7f1f1b95a5ac8b15efae427079e": {
+    "60dbc4590bcaf5ce94786c2bebb89c2ec151321016": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -48,7 +48,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7febb83b2853029eca60b66c6ead040a87e77665aa": {
+    "7f33798de86803c90757386aac31abb517c3379292": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -60,19 +60,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "001f34decef77c594e4f4908b7f71c7505bc23bf94": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "getCustomPages",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "exportedName": "getCustomPages",
-      "filename": "src/app/admin/dashboard/custom-page/actions.js"
-    },
-    "00bdb3158cb188fa9c85e3ac8313a6c2c47a134afe": {
+    "0064f94d3b725c650744069a0b4887bc1bec4f3d11": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -84,43 +72,19 @@
       "exportedName": "getCssFiles",
       "filename": "src/app/admin/dashboard/custom-page/actions.js"
     },
-    "400750a4bfaad39207d5e3135c3d719eca092d848b": {
+    "00d7c5d49b303fd56e551f0b7758297d5baacdf946": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
           "async": false,
-          "exportedName": "deleteCustomPage",
+          "exportedName": "getCustomPages",
           "filename": "src/app/admin/dashboard/custom-page/actions.js"
         }
       },
-      "exportedName": "deleteCustomPage",
+      "exportedName": "getCustomPages",
       "filename": "src/app/admin/dashboard/custom-page/actions.js"
     },
-    "404e4a96f00f095e226281e529f45b7a3839a0fe27": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "getCustomPageBySlug",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "exportedName": "getCustomPageBySlug",
-      "filename": "src/app/admin/dashboard/custom-page/actions.js"
-    },
-    "4094363b9249a3655bf62a905d28784ff2d7a515f0": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "deleteCssFile",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "exportedName": "deleteCssFile",
-      "filename": "src/app/admin/dashboard/custom-page/actions.js"
-    },
-    "40cfd76f382e3bbd782771f9ff63f854a8d0c5ec1f": {
+    "401caacf6b4748f37c0b5f2b8beea5216f7fe6b3b0": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -132,19 +96,7 @@
       "exportedName": "updateCustomPage",
       "filename": "src/app/admin/dashboard/custom-page/actions.js"
     },
-    "40e97f728f462a60bc5aac6d0dd73c7b2cf2f73938": {
-      "workers": {
-        "app/(frontend)/(pages)/[slug]/page": {
-          "moduleId": 908127,
-          "async": false,
-          "exportedName": "createCustomPage",
-          "filename": "src/app/admin/dashboard/custom-page/actions.js"
-        }
-      },
-      "exportedName": "createCustomPage",
-      "filename": "src/app/admin/dashboard/custom-page/actions.js"
-    },
-    "40eb2fac77b5d25e9fd50ac0952e9a2bd9fec2241c": {
+    "403bf1e7dcbe038b63086bfc630db33e02a63ddeb4": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
@@ -156,7 +108,55 @@
       "exportedName": "getCssContent",
       "filename": "src/app/admin/dashboard/custom-page/actions.js"
     },
-    "600e48cb9f7b1bf05487b7cb81d061c3b66db6e7f7": {
+    "40a7fb572bc694e04c93a3da745a0e13ec0840080e": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "deleteCssFile",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40b9ddd719713b526066908b58747b43946eff6931": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "deleteCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40f03b0e56d79ad5bacdc317ced66baa423516e5b9": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "getCustomPageBySlug",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "getCustomPageBySlug",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40f710a532068fa7dacf0e577b52f894733ed5a44c": {
+      "workers": {
+        "app/(frontend)/(pages)/[slug]/page": {
+          "moduleId": 908127,
+          "async": false,
+          "exportedName": "createCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "createCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "607834da6d8baae19dc57db94e47c125576cb45f78": {
       "workers": {
         "app/(frontend)/(pages)/[slug]/page": {
           "moduleId": 908127,
