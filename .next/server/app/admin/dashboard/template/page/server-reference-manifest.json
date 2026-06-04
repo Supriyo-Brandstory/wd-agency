@@ -1,6 +1,6 @@
 {
   "node": {
-    "40018d41cb40ee0e221d550fe3f402b4c6667c3255": {
+    "40e420b7f8bfa27d59a444db24fe412f7ccfcb13c2": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -12,7 +12,7 @@
       "exportedName": "createTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4077f59b2f3f1f756f9df3384c85e76bf92484aea0": {
+    "403d5cb52fc000d5ef02d4e0cd142cbbe0918e8874": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -24,7 +24,7 @@
       "exportedName": "updateTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "4065b9c3a82a46a57efc523f149fad6b995f37fb3d": {
+    "40301a8f2d2cc08d1a7d5a490950ff7ed287e635bb": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -36,7 +36,7 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00f4711a7e827023abd1f0b7ef35b8b222645d779b": {
+    "00b13c1eba4ce524952b436c66334b62d29127e1a5": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,
@@ -48,7 +48,7 @@
       "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "0059bd3250c381d29537b78a72c335d2bbd3863a32": {
+    "00e3b4d4887fc7bab234f8d5f01c60c2fe04e0eb71": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 747443,

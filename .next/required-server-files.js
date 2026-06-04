@@ -104,7 +104,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/supriyokumardey/Herd/office/websitedevelopmentagency",
+    "outputFileTracingRoot": "/Users/user/Herd/office/websitedevelopmentagency",
     "allowedDevOrigins": [
       "192.168.0.105",
       "localhost:3000"
@@ -311,11 +311,11 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/Users/supriyokumardey/Herd/office/websitedevelopmentagency"
+      "root": "/Users/user/Herd/office/websitedevelopmentagency"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/supriyokumardey/Herd/office/websitedevelopmentagency",
+  "appDir": "/Users/user/Herd/office/websitedevelopmentagency",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

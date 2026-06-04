@@ -1,3 +1,3 @@
-module.exports=[514131,a=>{"use strict";var b=a.i(814195);a.s([],327040),a.i(327040),a.s(["00abbd276150508a11016928a117f7f6b7d2d4c8d5",()=>b.getSeoData,"4024e1ccef897350daa2e32b9924623f4097773055",()=>b.createSeoData,"40db6fba00d33fbbcefcea794cf7007c027584bd03",()=>b.deleteSeoData,"60ecdd16487d282bc75a2df70f20f059d0f533059b",()=>b.updateSeoData,"7f957a6b4419d810c30eacf87b94d14416c01ca709",()=>b.getSeoDataByPageUrl],514131)}];
+module.exports=[514131,a=>{"use strict";var b=a.i(814195);a.s([],327040),a.i(327040),a.s(["00790a38441d28a9ed5063e6c594e558824e6bc63f",()=>b.getSeoData,"4019e5959c5688ba21d1329b7f9eaf8e6e122e077a",()=>b.createSeoData,"40b0ff77e428d1ccaff4c192252485a9134674df4b",()=>b.deleteSeoData,"60e5bf15d6e6ebb7f1f1b95a5ac8b15efae427079e",()=>b.updateSeoData,"7febb83b2853029eca60b66c6ead040a87e77665aa",()=>b.getSeoDataByPageUrl],514131)}];
 
 //# sourceMappingURL=0wuz_app_%28frontend%29_%28pages%29_automotive-website-development_page_actions_0bc-xxz.js.map

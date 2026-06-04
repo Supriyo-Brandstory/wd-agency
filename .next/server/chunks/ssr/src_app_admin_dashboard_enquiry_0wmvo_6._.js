@@ -1,3 +1,0 @@
-module.exports=[295733,973264,a=>{"use strict";var b=a.i(405050);let c=(0,b.createServerReference)("605a2514cc6f972d1f9c91d43aedd3f7cdb7e535e2",b.callServer,void 0,b.findSourceMapURL,"getEnquiries");a.s(["getEnquiries",0,c],295733);let d=(0,b.createServerReference)("4074c8c3d51c5c7fff370492e007351680a59c072d",b.callServer,void 0,b.findSourceMapURL,"deleteEnquiry");a.s(["deleteEnquiry",0,d],973264)},453416,a=>{"use strict";a.s([],319543),a.i(319543);var b=a.i(600865);a.i(295733),a.i(973264),a.s(["createEnquiry",()=>b.createEnquiry],453416)}];
-
-//# sourceMappingURL=src_app_admin_dashboard_enquiry_0wmvo_6._.js.map
