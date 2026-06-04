@@ -1,3 +1,3 @@
-module.exports=[297518,a=>{"use strict";var b=a.i(814195);a.s([],540951),a.i(540951),a.s(["00af1a44882daeae1f74e8dec839cec5bf05a8fe79",()=>b.getSeoData,"4061fce71f0cafad0c2c83c4192bd7e5a50bfdb9d0",()=>b.createSeoData,"40ab64e1360addd0018c27763524692a6af02c58de",()=>b.deleteSeoData,"60dbc4590bcaf5ce94786c2bebb89c2ec151321016",()=>b.updateSeoData,"7f33798de86803c90757386aac31abb517c3379292",()=>b.getSeoDataByPageUrl],297518)}];
+module.exports=[297518,a=>{"use strict";var b=a.i(814195);a.s([],540951),a.i(540951),a.s(["00ae74060414592fda3a9cc10de0ea8b1f25f3450c",()=>b.getSeoData,"4092e762e2eeb80aec3367cd46fa5b51878b873b4c",()=>b.createSeoData,"40ca36b65e451608e8179f4114b361f62bbb83402a",()=>b.deleteSeoData,"60a3d250afae760b70a7a13bcae01b2a98177e91cf",()=>b.updateSeoData,"7f1fb929decc963c85916a18659a55b8d409ffc7b2",()=>b.getSeoDataByPageUrl],297518)}];
 
 //# sourceMappingURL=0ash_%28frontend%29_%28pages%29_platforms_laravel-website-development_page_actions_0ntjktn.js.map
