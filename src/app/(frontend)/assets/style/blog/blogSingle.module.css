@@ -272,6 +272,11 @@
     margin-left: 50px;
   }
 
+  ul li {
+    margin-bottom: var(--size-10) !important;
+    /* spacing between items */
+  }
+
   table {
     width: 100%;
     margin: 25px 0;
@@ -500,7 +505,8 @@
     padding: 40px 0;
     min-height: auto;
     margin-bottom: 20px;
-    background-color: #0b3d2c !important; /* solid green background for mobile */
+    background-color: #0b3d2c !important;
+    /* solid green background for mobile */
     border-radius: 20px;
   }
 
@@ -564,7 +570,8 @@
   }
 
   .content ul {
-    margin-left: 20px; /* Reduce indentation for lists on mobile */
+    margin-left: 20px;
+    /* Reduce indentation for lists on mobile */
   }
 
   .content table {
@@ -814,10 +821,4 @@
   100% {
     background-position: 200% 0;
   }
-}
-
-
-.content ul li {
-  margin-bottom: var(--size-10);
-  /* spacing between items */
 }
