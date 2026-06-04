@@ -609,13 +609,13 @@
 
   .content table th,
   .content table td {
-    min-width: 140px;
+    min-width: 200px;
     white-space: normal;
   }
 
   .content table th:first-child,
   .content table td:first-child {
-    min-width: 60px;
+    min-width: 200px;
   }
 
   .summaryBox {
