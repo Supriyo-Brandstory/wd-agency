@@ -1,0 +1,125 @@
+{
+  "node": {
+    "40fb774dddfb858120b0ef6ee2da958e42e55c6785": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "createCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "createCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "404bf6af7d41f286d84a23c3b1c0b1dfacae0caba1": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "updateCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "updateCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "4085c35b047d6b00fcc9bba62b5d9c53e1d19c7336": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "deleteCustomPage",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "deleteCustomPage",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "000481048d9956e0ec3deec29005d0ef9691677763": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "getCustomPages",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "getCustomPages",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "007500a93828788b40460511fafe3076d1e4dbb838": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "getCssFiles",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "getCssFiles",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "4008bf6e0ff97ed8e1479cb0ca277f7e4052d700a1": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "getCssContent",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "getCssContent",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "60e366a00ee08ee7b40acb6d70dd3afebed81bc0dd": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "saveCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "saveCssFile",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40468b96701bb06041ffdb60d1821b9d6cb828c856": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "deleteCssFile",
+          "filename": "src/app/admin/dashboard/custom-page/actions.js"
+        }
+      },
+      "exportedName": "deleteCssFile",
+      "filename": "src/app/admin/dashboard/custom-page/actions.js"
+    },
+    "40c808893dd5202513c7de5524a5dd035667d49324": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "getMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "getMedia",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "40bcb520b4f8d96b1c41c8da9193f20f4ae0708a94": {
+      "workers": {
+        "app/admin/dashboard/custom-page/page": {
+          "moduleId": 539381,
+          "async": false,
+          "exportedName": "uploadFiles",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "uploadFiles",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    }
+  },
+  "edge": {}
+}

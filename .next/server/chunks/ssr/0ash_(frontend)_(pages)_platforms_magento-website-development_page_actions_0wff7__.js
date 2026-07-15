@@ -1,0 +1,3 @@
+module.exports=[18948,a=>{"use strict";var b=a.i(814195);a.s([],18423),a.i(18423),a.s(["003d93b8e17bb515aa6ceb0cfa556a8c37d7945224",()=>b.getSeoData,"40986953e05ef67a746b805f04b42745b65ade027c",()=>b.deleteSeoData,"40ac9bfb89b65782cf9713283b40a126565e0bc5cd",()=>b.createSeoData,"60008c6756fcf005d8371eb57d8f8c209e6b03fa7e",()=>b.updateSeoData,"7f0376a2505b8af2ff1866f346a7529884ddf603a8",()=>b.getSeoDataByPageUrl],18948)}];
+
+//# sourceMappingURL=0ash_%28frontend%29_%28pages%29_platforms_magento-website-development_page_actions_0wff7__.js.map

@@ -1,0 +1,65 @@
+{
+  "node": {
+    "40a0a2731c331330797f26d8a9e9b9872db62d0f96": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 337645,
+          "async": false,
+          "exportedName": "createBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "exportedName": "createBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "40f76bf3a5f08a6b2b57932a01bd9223d5283d668e": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 337645,
+          "async": false,
+          "exportedName": "updateBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "exportedName": "updateBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "4066b6347a17ef6ab911b7eed79f0310338baa37e7": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 337645,
+          "async": false,
+          "exportedName": "deleteBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "exportedName": "deleteBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "001f4a4ae24594c0705d56cc5557f924f014adf448": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 337645,
+          "async": false,
+          "exportedName": "getBlogs",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "exportedName": "getBlogs",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "0064b482ea7abc1d0200a556d991f3709f2d71740c": {
+      "workers": {
+        "app/admin/dashboard/blog/page": {
+          "moduleId": 337645,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}
