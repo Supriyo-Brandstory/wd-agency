@@ -1,3 +1,3 @@
-module.exports=[18948,a=>{"use strict";var b=a.i(814195);a.s([],18423),a.i(18423),a.s(["0057f270a7d0b007954b4e72f618051952baa84f34",()=>b.getSeoData,"40c94c06653277f7288f9b60a403256a3e0f1e2ccf",()=>b.createSeoData,"40d7fec4bf85bbc44e9e8ab93d34c0d805cc6b5056",()=>b.deleteSeoData,"60430028b390ed53f42e0af9f3587a363cc17708a7",()=>b.updateSeoData,"7fa6cf983bd63cb1167037be8d48111b8940c50f21",()=>b.getSeoDataByPageUrl],18948)}];
+module.exports=[18948,a=>{"use strict";var b=a.i(814195);a.s([],18423),a.i(18423),a.s(["00bc6e529303091998409bae805b78f8523b1dab3b",()=>b.getSeoData,"409f8df7da3214e41997d18fbbf5e7b9a60901a145",()=>b.createSeoData,"40da1dbfd3094a76d295d32db01b3477d4d731654b",()=>b.deleteSeoData,"602ec9451d2a67ac3fc3215a9d6f4904a4767659b0",()=>b.updateSeoData,"7f1179f2ff06c777ea775710d065130e18407dd050",()=>b.getSeoDataByPageUrl],18948)}];
 
 //# sourceMappingURL=0ash_%28frontend%29_%28pages%29_platforms_magento-website-development_page_actions_0wff7__.js.map

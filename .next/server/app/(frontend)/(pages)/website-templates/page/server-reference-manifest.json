@@ -1,6 +1,6 @@
 {
   "node": {
-    "0057f270a7d0b007954b4e72f618051952baa84f34": {
+    "00bc6e529303091998409bae805b78f8523b1dab3b": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -12,7 +12,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40c94c06653277f7288f9b60a403256a3e0f1e2ccf": {
+    "409f8df7da3214e41997d18fbbf5e7b9a60901a145": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -24,7 +24,7 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40d7fec4bf85bbc44e9e8ab93d34c0d805cc6b5056": {
+    "40da1dbfd3094a76d295d32db01b3477d4d731654b": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -36,7 +36,7 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60430028b390ed53f42e0af9f3587a363cc17708a7": {
+    "602ec9451d2a67ac3fc3215a9d6f4904a4767659b0": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -48,7 +48,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7fa6cf983bd63cb1167037be8d48111b8940c50f21": {
+    "7f1179f2ff06c777ea775710d065130e18407dd050": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -60,7 +60,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "70e5d75c7f8afb71af3d8e9bd54b15f34eacbd1186": {
+    "703e59b86b2214b506de2c17b55a82d686f7aef960": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,
@@ -72,7 +72,7 @@
       "exportedName": "getTemplatesPaginated",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "00b43bb8b94924822a8d81ef76789953eb2e7b79c1": {
+    "00cff0b7506b77a0277babafc947f198ca3386de1b": {
       "workers": {
         "app/(frontend)/(pages)/website-templates/page": {
           "moduleId": 444844,

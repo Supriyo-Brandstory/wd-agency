@@ -1,6 +1,6 @@
 {
   "node": {
-    "7092a8a4f88d64c4d584f6a598ce8e2b519a0d219f": {
+    "70bd09658ae73578c6c82e4ca160b8109bbbf619eb": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -12,7 +12,7 @@
       "exportedName": "createBlogCategory",
       "filename": "src/app/admin/dashboard/blog-category/actions.js"
     },
-    "7881cc6375a7ad80924e8373fe56d0748f04a2b383": {
+    "789bd7ff036244adf5b3b38f4ce25270a4f556c8fe": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -24,7 +24,7 @@
       "exportedName": "updateBlogCategory",
       "filename": "src/app/admin/dashboard/blog-category/actions.js"
     },
-    "40af9935a2fee2d44e7af39ac53dce40113cf6fa52": {
+    "402e4eab9c3fb447548ab4c431dc3ea39860802c44": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
@@ -36,7 +36,7 @@
       "exportedName": "deleteBlogCategory",
       "filename": "src/app/admin/dashboard/blog-category/actions.js"
     },
-    "0064c45573d6a49f5773fde408bc304801c61d9204": {
+    "00f0eb348081a64e4fc2169e3b3bf03d83af0c19b4": {
       "workers": {
         "app/admin/dashboard/blog-category/page": {
           "moduleId": 153751,
