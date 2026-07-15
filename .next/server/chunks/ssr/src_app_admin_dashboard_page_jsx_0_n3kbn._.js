@@ -1,3 +1,0 @@
-module.exports=[152856,a=>{"use strict";var b=a.i(187924),c=a.i(50944);a.s(["default",0,()=>((0,c.useRouter)(),(0,b.jsxs)("div",{className:"container mx-auto py-8",children:[(0,b.jsx)("h1",{className:"text-2xl font-bold mb-4",children:"Admin Dashboard"}),(0,b.jsx)("p",{className:"text-gray-700",children:"Welcome to the admin dashboard!"})]}))])}];
-
-//# sourceMappingURL=src_app_admin_dashboard_page_jsx_0_n3kbn._.js.map

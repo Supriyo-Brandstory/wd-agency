@@ -1,3 +1,0 @@
-module.exports=[297518,a=>{"use strict";var b=a.i(814195);a.s([],540951),a.i(540951),a.s(["00710be8e2510b06905c341aff09b49c724856a19d",()=>b.getSeoData,"400ecbed42af8be9019f495c0cb48a5cd7105ba2d1",()=>b.createSeoData,"40ae6670503859a238a756ce026ccbf01a8caeaee0",()=>b.deleteSeoData,"6063fa3aec76763f6f6f7ee1fc59234978984d4a4a",()=>b.updateSeoData,"7fe4ac89a9c4b2c5c36829cc7e42d4923357cbdfbb",()=>b.getSeoDataByPageUrl],297518)}];
-
-//# sourceMappingURL=0ash_%28frontend%29_%28pages%29_platforms_laravel-website-development_page_actions_0ntjktn.js.map
