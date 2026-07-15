@@ -1718,14 +1718,14 @@
     ]
   },
   {
-    "route": "/case-studies/travelex",
-    "firstLoadUncompressedJsBytes": 723975,
+    "route": "/blog/[slug]",
+    "firstLoadUncompressedJsBytes": 724065,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0pmq3dmqh0cfo.js",
       ".next/static/chunks/176vqrz~29ea3.js",
       ".next/static/chunks/0i.l9589uvx0j.js",
       ".next/static/chunks/0lxhr7opqcxlh.js",
-      ".next/static/chunks/0-scxp8301vme.js",
+      ".next/static/chunks/11-235mwwyvaz.js",
       ".next/static/chunks/0m97bbjp.vgzu.js",
       ".next/static/chunks/0~k6u5_j-9bf2.js",
       ".next/static/chunks/0wztq0~ikx4no.js",
@@ -1736,14 +1736,14 @@
     ]
   },
   {
-    "route": "/blog/[slug]",
-    "firstLoadUncompressedJsBytes": 723894,
+    "route": "/case-studies/travelex",
+    "firstLoadUncompressedJsBytes": 723975,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0pmq3dmqh0cfo.js",
       ".next/static/chunks/176vqrz~29ea3.js",
       ".next/static/chunks/0i.l9589uvx0j.js",
       ".next/static/chunks/0lxhr7opqcxlh.js",
-      ".next/static/chunks/07tpcjkxn3whq.js",
+      ".next/static/chunks/0-scxp8301vme.js",
       ".next/static/chunks/0m97bbjp.vgzu.js",
       ".next/static/chunks/0~k6u5_j-9bf2.js",
       ".next/static/chunks/0wztq0~ikx4no.js",

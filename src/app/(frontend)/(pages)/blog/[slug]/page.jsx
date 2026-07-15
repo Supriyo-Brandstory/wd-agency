@@ -135,6 +135,15 @@ export default function BlogDetail({ params }) {
           };
         });
 
+        // Wrap tables in responsive wrapper
+        const tables = Array.from(tempDiv.querySelectorAll("table"));
+        tables.forEach((table) => {
+          const wrapper = document.createElement("div");
+          wrapper.className = "blog-table-wrapper";
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        });
+
         fetchedBlog.content = tempDiv.innerHTML;
         setToc(tocData);
         setBlog(fetchedBlog);

@@ -279,16 +279,20 @@
     /* spacing between items */
   }
 
-  table {
-    display: block;
+  :global(.blog-table-wrapper) {
     width: 100%;
-    margin: 25px 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    border-radius: 8px;
+    max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin: 25px 0;
+    border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
 
     th {
       background-color: rgba(255, 255, 255, 0.05);
@@ -643,12 +647,16 @@
     /* Reduce indentation for lists on mobile */
   }
 
-  .content table {
-    display: block;
+  :global(.blog-table-wrapper) {
     width: 100%;
     max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin: 15px 0;
+  }
+
+  .content table {
+    width: 100%;
   }
 
   .content table th,
