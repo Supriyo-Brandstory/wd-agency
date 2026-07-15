@@ -1,6 +1,6 @@
 {
   "node": {
-    "003d93b8e17bb515aa6ceb0cfa556a8c37d7945224": {
+    "002dc87f9ae900b84c88a1e30a92d34661316aa973": {
       "workers": {
         "app/(frontend)/(pages)/privacy-policy/page": {
           "moduleId": 88636,
@@ -12,19 +12,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "40986953e05ef67a746b805f04b42745b65ade027c": {
-      "workers": {
-        "app/(frontend)/(pages)/privacy-policy/page": {
-          "moduleId": 88636,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "exportedName": "deleteSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "40ac9bfb89b65782cf9713283b40a126565e0bc5cd": {
+    "40a56aa0b16e3c9ff0d0775d9e885c641de7f1ef0b": {
       "workers": {
         "app/(frontend)/(pages)/privacy-policy/page": {
           "moduleId": 88636,
@@ -36,7 +24,19 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "60008c6756fcf005d8371eb57d8f8c209e6b03fa7e": {
+    "40d18dd43493714d5993288137eec7e682e01bcdcf": {
+      "workers": {
+        "app/(frontend)/(pages)/privacy-policy/page": {
+          "moduleId": 88636,
+          "async": false,
+          "exportedName": "deleteSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "deleteSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "60d948028eed8283777e15138799cd74e3cdc435df": {
       "workers": {
         "app/(frontend)/(pages)/privacy-policy/page": {
           "moduleId": 88636,
@@ -48,7 +48,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f0376a2505b8af2ff1866f346a7529884ddf603a8": {
+    "7fe42d34b3fc24bee6af799f934ff93cea84abd91a": {
       "workers": {
         "app/(frontend)/(pages)/privacy-policy/page": {
           "moduleId": 88636,

@@ -1,3 +1,0 @@
-module.exports=[118661,600776,a=>{"use strict";var b=a.i(405050);let c=(0,b.createServerReference)("60ea4c77cf5e3f3c1904ebb1fdb0bc27c9077fdc22",b.callServer,void 0,b.findSourceMapURL,"getEnquiries");a.s(["getEnquiries",0,c],118661);let d=(0,b.createServerReference)("40860dd2fdcaa297a2b302747ccb3b7e5ea9ad525b",b.callServer,void 0,b.findSourceMapURL,"deleteEnquiry");a.s(["deleteEnquiry",0,d],600776)},453416,a=>{"use strict";a.s([],319543),a.i(319543);var b=a.i(892078);a.i(118661),a.i(600776),a.s(["createEnquiry",()=>b.createEnquiry],453416)}];
-
-//# sourceMappingURL=src_app_admin_dashboard_enquiry_05sgdwi._.js.map
