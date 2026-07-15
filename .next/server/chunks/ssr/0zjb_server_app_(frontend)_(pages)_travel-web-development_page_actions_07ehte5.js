@@ -1,3 +1,3 @@
-module.exports=[577876,a=>{"use strict";var b=a.i(814195);a.s([],531746),a.i(531746),a.s(["00bc6e529303091998409bae805b78f8523b1dab3b",()=>b.getSeoData,"409f8df7da3214e41997d18fbbf5e7b9a60901a145",()=>b.createSeoData,"40da1dbfd3094a76d295d32db01b3477d4d731654b",()=>b.deleteSeoData,"602ec9451d2a67ac3fc3215a9d6f4904a4767659b0",()=>b.updateSeoData,"7f1179f2ff06c777ea775710d065130e18407dd050",()=>b.getSeoDataByPageUrl],577876)}];
+module.exports=[577876,a=>{"use strict";var b=a.i(814195);a.s([],531746),a.i(531746),a.s(["00710be8e2510b06905c341aff09b49c724856a19d",()=>b.getSeoData,"400ecbed42af8be9019f495c0cb48a5cd7105ba2d1",()=>b.createSeoData,"40ae6670503859a238a756ce026ccbf01a8caeaee0",()=>b.deleteSeoData,"6063fa3aec76763f6f6f7ee1fc59234978984d4a4a",()=>b.updateSeoData,"7fe4ac89a9c4b2c5c36829cc7e42d4923357cbdfbb",()=>b.getSeoDataByPageUrl],577876)}];
 
 //# sourceMappingURL=0zjb_server_app_%28frontend%29_%28pages%29_travel-web-development_page_actions_07ehte5.js.map
