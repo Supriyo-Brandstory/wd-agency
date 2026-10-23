@@ -1,0 +1,20 @@
+module.exports=[463021,(a,b,c)=>{b.exports=a.x("@prisma/client-2c3a283f134fdcb6",()=>require("@prisma/client-2c3a283f134fdcb6"))},271518,a=>{"use strict";let b;b=new(a.i(463021)).PrismaClient,a.s(["default",0,b])},522734,(a,b,c)=>{b.exports=a.x("fs",()=>require("fs"))},839983,a=>{"use strict";var b=a.i(522734),c=a.i(814747),d=a.i(271518);function e(){let a=process.env.NEXT_PUBLIC_SITE_URL||process.env.SITE_URL;return a?a.trim().replace(/\/+$/,""):"https://websitedevelopmentagency.ae"}function f(a){let b=a.replace(/^\/+|\/+$/g,"").replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return RegExp(`[ \\t]*<url>(?:(?!<\\/url>)[\\s\\S])*?<loc>[^<]*?\\/${b}\\/?<\\/loc>(?:(?!<\\/url>)[\\s\\S])*?<\\/url>\\s*`,"i")}async function g(){let a=await d.default.sitemap.findFirst({orderBy:{updatedAt:"desc"}});if(a&&a.content&&a.content.trim())return a.content.trim();let f=c.default.join(process.cwd(),"public/sitemap.xml.bak"),g=c.default.join(process.cwd(),"public/sitemap.xml"),h="";if(b.default.existsSync(f))h=b.default.readFileSync(f,"utf8").trim();else if(b.default.existsSync(g))h=b.default.readFileSync(g,"utf8").trim();else{let a;a=e(),h=`<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>${a}/</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <priority>1.00</priority>
+  </url>
+</urlset>`}return a?await d.default.sitemap.update({where:{id:a.id},data:{content:h}}):await d.default.sitemap.create({data:{content:h}}),h}async function h(b){let c=b.trim(),e=await d.default.sitemap.findFirst();e?await d.default.sitemap.update({where:{id:e.id},data:{content:c}}):await d.default.sitemap.create({data:{content:c}});try{let{revalidatePath:b}=await a.A(506728);b("/sitemap.xml")}catch(a){}return c}async function i(a,b=null){if(!a)return!1;let c=e(),d=a.replace(/^\/+|\/+$/g,""),j=`${c}/${d}`,k=new Date().toISOString(),l=await g();if(b){let a=b.replace(/^\/+|\/+$/g,"");if(a&&a!==d){let b=f(a);l=l.replace(b,"\n")}}let m=f(d),n=`  <url>
+    <loc>${j}</loc>
+    <lastmod>${k}</lastmod>
+    <priority>0.80</priority>
+  </url>
+`;return l=m.test(l)?l.replace(m,n):l.includes("</urlset>")?l.replace("</urlset>",`${n}</urlset>`):`${l}
+${n}`,await h(l),!0}async function j(a){if(!a)return!1;let b=a.replace(/^\/+|\/+$/g,""),c=await g(),d=f(b);return!!d.test(c)&&(c=c.replace(d,"\n"),await h(c),!0)}a.s(["addOrUpdateUrlInSitemap",0,i,"getOrInitSitemapContent",0,g,"removeUrlFromSitemap",0,j,"saveSitemapContent",0,h])},144521,a=>{"use strict";var b=a.i(137936),c=a.i(271518),d=a.i(783591),e=a.i(839983);async function f(){try{let a=await (0,e.getOrInitSitemapContent)();return await c.default.sitemap.findFirst({orderBy:{updatedAt:"desc"}})||{content:a}}catch(a){throw console.error("Error fetching Sitemap data:",a),Error("Failed to fetch Sitemap data")}}async function g(a){await (0,d.verifyAdmin)();try{return await (0,e.saveSitemapContent)(a),await c.default.sitemap.findFirst({orderBy:{updatedAt:"desc"}})}catch(a){throw console.error("Error updating Sitemap data:",a),Error("Failed to update Sitemap data")}}(0,a.i(713095).ensureServerEntryExports)([f,g]),(0,b.registerServerReference)(f,"004ea0cb9d72f2b4294097df0a5736021d9649addf",null),(0,b.registerServerReference)(g,"4066259888533e350ad2e6403e50340aff4b680ba1",null),a.s([],290059),a.i(290059),a.s(["004ea0cb9d72f2b4294097df0a5736021d9649addf",0,f,"4066259888533e350ad2e6403e50340aff4b680ba1",0,g],144521)},506728,a=>{a.v(b=>Promise.all(["server/chunks/ssr/node_modules_next_0lm0mhz._.js"].map(b=>a.l(b))).then(()=>b(118558)))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__02kf8u5._.js.map

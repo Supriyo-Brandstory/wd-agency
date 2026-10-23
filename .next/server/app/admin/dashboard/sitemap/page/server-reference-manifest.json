@@ -1,0 +1,29 @@
+{
+  "node": {
+    "004ea0cb9d72f2b4294097df0a5736021d9649addf": {
+      "workers": {
+        "app/admin/dashboard/sitemap/page": {
+          "moduleId": 144521,
+          "async": false,
+          "exportedName": "getSitemap",
+          "filename": "src/app/admin/dashboard/sitemap/actions.js"
+        }
+      },
+      "exportedName": "getSitemap",
+      "filename": "src/app/admin/dashboard/sitemap/actions.js"
+    },
+    "4066259888533e350ad2e6403e50340aff4b680ba1": {
+      "workers": {
+        "app/admin/dashboard/sitemap/page": {
+          "moduleId": 144521,
+          "async": false,
+          "exportedName": "updateSitemap",
+          "filename": "src/app/admin/dashboard/sitemap/actions.js"
+        }
+      },
+      "exportedName": "updateSitemap",
+      "filename": "src/app/admin/dashboard/sitemap/actions.js"
+    }
+  },
+  "edge": {}
+}

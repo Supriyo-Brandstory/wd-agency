@@ -1,0 +1,65 @@
+{
+  "node": {
+    "401d8641a2abac9c27834ee878a12f8167e1bdf448": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 747443,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "4009617ce4d85f853d8ab1093f5515f4ebe1b44c99": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 747443,
+          "async": false,
+          "exportedName": "updateTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "updateTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "405fd9088c4f623efdb8d59c35f1b50cdaf4d4858e": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 747443,
+          "async": false,
+          "exportedName": "deleteTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "deleteTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "009a56f86b3984ecce21e59721692158cf3406b5c5": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 747443,
+          "async": false,
+          "exportedName": "getAllTemplatesAdmin",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "getAllTemplatesAdmin",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "00b14c9f32b57711aeea9313dd1251c6e0345e1158": {
+      "workers": {
+        "app/admin/dashboard/template/page": {
+          "moduleId": 747443,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

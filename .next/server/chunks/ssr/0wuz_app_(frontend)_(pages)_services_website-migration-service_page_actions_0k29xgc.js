@@ -1,0 +1,3 @@
+module.exports=[850516,a=>{"use strict";var b=a.i(814195);a.s([],905756),a.i(905756),a.s(["00ebca1945d46539b8c8447e7077822d2aaa401039",()=>b.getSeoData,"400881207aeffc837b39cb130a8bb443cb31e1da06",()=>b.deleteSeoData,"404583c3fea201fb093397245567898971cd5f5cbe",()=>b.createSeoData,"60a915b504f10d3b99f5d1349c90f0df26ba5d88f8",()=>b.updateSeoData,"7f136b36fe1b61254dd1e4b7b01f3e7966909c6229",()=>b.getSeoDataByPageUrl],850516)}];
+
+//# sourceMappingURL=0wuz_app_%28frontend%29_%28pages%29_services_website-migration-service_page_actions_0k29xgc.js.map

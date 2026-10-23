@@ -1,0 +1,53 @@
+{
+  "node": {
+    "40c8c8b4ccaecd2dd8c95feb061de44cee0461b629": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "getMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "getMedia",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "60157914864eec6c689e28a63a0709afab3ecdd40e": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "createFolder",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "createFolder",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "400d74c43c0a3e12703a1dc64b5487c2674417c5e9": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "deleteMedia",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "deleteMedia",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    },
+    "4048dad3acb8e1197f346316faae46e1568922621e": {
+      "workers": {
+        "app/admin/dashboard/media/page": {
+          "moduleId": 871680,
+          "async": false,
+          "exportedName": "uploadFiles",
+          "filename": "src/app/admin/dashboard/media/actions.js"
+        }
+      },
+      "exportedName": "uploadFiles",
+      "filename": "src/app/admin/dashboard/media/actions.js"
+    }
+  },
+  "edge": {}
+}
