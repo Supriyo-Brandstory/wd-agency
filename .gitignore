@@ -19,7 +19,8 @@ next.js
 
 # production
 /build
-# /.next
+/.next
+.next/
 
 # misc
 .DS_Store

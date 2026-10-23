@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import { getCustomPageBySlug } from "../../../admin/dashboard/custom-page/actions";
+import { getSeoDataByPageUrl } from "../../../admin/dashboard/seo/actions";
+import CustomPageRenderer from "./CustomPageRenderer";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -7,8 +9,16 @@ export async function generateMetadata({ params }) {
 
   if (!page) return {};
 
+  let seoData = null;
+  try {
+    seoData = await getSeoDataByPageUrl(`/${slug}`);
+  } catch (e) {
+    // ignore
+  }
+
   return {
-    title: page.title,
+    title: seoData?.title?.trim() || page.title,
+    description: seoData?.description?.trim() || undefined,
   };
 }
 
@@ -32,11 +42,7 @@ export default async function DynamicCustomPage({ params }) {
           }
         />
       )}
-      <div
-        className="custom-page-content"
-        dangerouslySetInnerHTML={{ __html: page.content }}
-      />
-      {/* {page.content} */}
+      <CustomPageRenderer content={page.content} />
     </>
   );
 }

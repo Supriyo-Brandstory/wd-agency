@@ -1,3 +1,0 @@
-module.exports=[514131,a=>{"use strict";var b=a.i(814195);a.s([],327040),a.i(327040),a.s(["002dc87f9ae900b84c88a1e30a92d34661316aa973",()=>b.getSeoData,"40a56aa0b16e3c9ff0d0775d9e885c641de7f1ef0b",()=>b.createSeoData,"40d18dd43493714d5993288137eec7e682e01bcdcf",()=>b.deleteSeoData,"60d948028eed8283777e15138799cd74e3cdc435df",()=>b.updateSeoData,"7fe42d34b3fc24bee6af799f934ff93cea84abd91a",()=>b.getSeoDataByPageUrl],514131)}];
-
-//# sourceMappingURL=0wuz_app_%28frontend%29_%28pages%29_automotive-website-development_page_actions_0bc-xxz.js.map
