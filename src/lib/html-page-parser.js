@@ -126,38 +126,52 @@ export function parseHtmlTemplate(rawHtml, fallbackSlug = "") {
 
   const finalSlug = extractedSlug || sanitizeSlug(fallbackSlug) || `page-${Date.now()}`;
 
-  // 5. Extract JSON-LD and Schema Scripts in Head
-  let script = "";
-  const schemaMatches = [
-    ...(headContent.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi) || []),
-  ];
-
-  if (schemaMatches.length > 0) {
-    const jsonContents = schemaMatches
-      .map((m) => m[1].trim())
-      .filter(Boolean);
-
-    if (jsonContents.length === 1) {
-      script = jsonContents[0];
-    } else if (jsonContents.length > 1) {
-      // Merge multiple JSON objects/arrays if valid JSON, otherwise combine script tags
-      try {
-        const merged = jsonContents.flatMap((c) => {
-          const parsed = JSON.parse(c);
-          return Array.isArray(parsed) ? parsed : [parsed];
-        });
-        script = JSON.stringify(merged, null, 2);
-      } catch {
-        script = schemaMatches.map((m) => m[0]).join("\n");
-      }
-    }
-  }
-
-  // 6. Extract <style> contents from Head
+  // 5. Extract <style> contents from Head (to save as separate CSS file)
   const styleMatches = [
     ...(headContent.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/gi) || []),
   ];
   const combinedCss = styleMatches.map((m) => m[1].trim()).join("\n\n");
+
+  // 6. Build the raw Head Script / Metadata for Seo.script
+  // Preserves full wrapped tags as present in the template:
+  // - <link rel="canonical" ...>
+  // - Google Fonts / preconnect / stylesheet <link> tags
+  // - Any custom <meta> tags
+  // - Fully wrapped <script type="application/ld+json">...</script>
+  // - Custom scripts
+  let headRemainder = headContent;
+
+  // Remove title
+  headRemainder = headRemainder.replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi, "");
+  // Remove meta description
+  headRemainder = headRemainder.replace(/<meta\s+[^>]*name=["']description["'][^>]*\/?>/gi, "");
+  headRemainder = headRemainder.replace(/<meta\s+[^>]*content=["'][^"']*["'][^>]*name=["']description["'][^>]*\/?>/gi, "");
+  // Remove meta charset
+  headRemainder = headRemainder.replace(/<meta\s+[^>]*charset=[^>]*\/?>/gi, "");
+  // Remove meta viewport
+  headRemainder = headRemainder.replace(/<meta\s+[^>]*name=["']viewport["'][^>]*\/?>/gi, "");
+  // Remove style tags (stored in custom page CSS)
+  headRemainder = headRemainder.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "");
+
+  let script = headRemainder.trim();
+
+  // If canonical link wasn't in head, add it
+  if (!/<link\b[^>]*rel=["']canonical["']/i.test(script)) {
+    const siteUrl = "https://websitedevelopmentagency.ae";
+    const canonicalUrl = canonical || `${siteUrl}/${finalSlug}/`;
+    script = `<link rel="canonical" href="${canonicalUrl}">\n\n${script}`.trim();
+  }
+
+  // If application/ld+json was outside <head>, ensure it is included
+  if (!/<script\b[^>]*type=["']application\/ld\+json["']/i.test(script)) {
+    const schemaMatches = [
+      ...(rawHtml.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi) || []),
+    ];
+    if (schemaMatches.length > 0) {
+      const schemas = schemaMatches.map((m) => m[0].trim()).join("\n\n");
+      script = script ? `${script}\n\n${schemas}` : schemas;
+    }
+  }
 
   // 7. Extract external font & CSS links from Head (e.g. Google Fonts)
   const linkMatches = [
