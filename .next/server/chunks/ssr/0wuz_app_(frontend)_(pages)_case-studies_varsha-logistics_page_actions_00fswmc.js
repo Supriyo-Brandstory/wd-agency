@@ -1,3 +1,3 @@
-module.exports=[247026,a=>{"use strict";var b=a.i(814195);a.s([],90879),a.i(90879),a.s(["006ec76d8640782c430d2f08f59348be1935a2b72a",()=>b.getSeoData,"408afdcc2e29523cf5185d8d8e9863221cb0413f03",()=>b.deleteSeoData,"40d6839363102de6fab0f8b6f689051bd93d73d508",()=>b.createSeoData,"6078db147795648ec543675656b5df4a2b9e1f6168",()=>b.updateSeoData,"7fc375eb39c0af9c1071dc45548ddb6c292bce8cd5",()=>b.getSeoDataByPageUrl],247026)}];
+module.exports=[247026,a=>{"use strict";var b=a.i(814195);a.s([],90879),a.i(90879),a.s(["403adb4587b33f6336f398b6b4bbf52fcb2414b18b",()=>b.deleteSeoData,"4046c54b2162f9a0006721ec1fa5583c7d1b338565",()=>b.createSeoData,"600c9944983bd992b60361bd4f40193edffaef2264",()=>b.getSeoData,"602dca9715f54b92f9865debcc4eb328cb1fa93c16",()=>b.updateSeoData,"7fa80220960cccc7db68676726732effe60d0a98dd",()=>b.getSeoDataByPageUrl],247026)}];
 
 //# sourceMappingURL=0wuz_app_%28frontend%29_%28pages%29_case-studies_varsha-logistics_page_actions_00fswmc.js.map

@@ -224,9 +224,23 @@ export async function getTemplates() {
     }
 }
 
-export async function getAllTemplatesAdmin() {
+export async function getAllTemplatesAdmin(page = null, limit = 10) {
     await verifyAdmin();
     try {
+        if (page !== null && page !== undefined) {
+            const skip = (page - 1) * limit;
+            const [templates, total] = await Promise.all([
+                db.template.findMany({
+                    skip,
+                    take: limit,
+                    include: { category: true },
+                    orderBy: { id: "desc" },
+                }),
+                db.template.count(),
+            ]);
+            return { templates, total };
+        }
+
         return await db.template.findMany({
             include: { category: true },
             orderBy: { id: "desc" },

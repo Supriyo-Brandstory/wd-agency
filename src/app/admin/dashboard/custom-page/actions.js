@@ -493,8 +493,21 @@ export async function bulkUploadPages(formData) {
 }
 
 // ✅ Get all Custom Pages
-export async function getCustomPages() {
+export async function getCustomPages(page = null, limit = 10) {
   try {
+    if (page !== null && page !== undefined) {
+      const skip = (page - 1) * limit;
+      const [pages, total] = await Promise.all([
+        db.customPage.findMany({
+          skip,
+          take: limit,
+          orderBy: { id: "desc" },
+        }),
+        db.customPage.count(),
+      ]);
+      return { pages, total };
+    }
+
     const pages = await db.customPage.findMany({
       orderBy: { id: "desc" },
     });

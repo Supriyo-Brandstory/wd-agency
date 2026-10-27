@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { getMedia, createFolder, deleteMedia, uploadFiles } from "./actions";
+import Pagination from "@/app/admin/components/Pagination";
 
 export default function MediaPage() {
     const [path, setPath] = useState("");
@@ -10,6 +11,8 @@ export default function MediaPage() {
     const [newFolderName, setNewFolderName] = useState("");
     const [showFolderForm, setShowFolderForm] = useState(false);
     const [uploading, setUploading] = useState(false);
+    const [page, setPage] = useState(1);
+    const limit = 24;
 
     const fetchMedia = useCallback(async (currentPath) => {
         setLoading(true);
@@ -29,6 +32,7 @@ export default function MediaPage() {
 
     const handleNavigate = (subPath) => {
         setPath(subPath);
+        setPage(1);
     };
 
     const handleCreateFolder = async (e) => {
@@ -51,6 +55,9 @@ export default function MediaPage() {
         try {
             await deleteMedia(itemPath);
             fetchMedia(path);
+            if (items.length - 1 <= (page - 1) * limit && page > 1) {
+                setPage(page - 1);
+            }
         } catch (error) {
             alert("Error deleting item");
         }
@@ -188,7 +195,7 @@ export default function MediaPage() {
                                 <p className="text-gray-500 font-medium">This folder is empty</p>
                             </div>
                         ) : (
-                            items.sort((a, b) => (b.isDirectory === a.isDirectory ? 0 : b.isDirectory ? 1 : -1)).map((item) => (
+                            items.slice((page - 1) * limit, page * limit).map((item) => (
                                 <div key={item.path} className="bg-white rounded-xl shadow-sm hover:shadow-xl border border-gray-200 overflow-hidden group transition-all duration-300 transform hover:-translate-y-1 relative">
                                     <div className="aspect-square flex items-center justify-center bg-gray-50 group-hover:bg-indigo-50 transition-colors">
                                         {item.isDirectory ? (
@@ -225,7 +232,7 @@ export default function MediaPage() {
                                     </div>
                                     <div className="p-3 border-t border-gray-100">
                                         <p className="text-sm font-semibold text-gray-800 truncate" title={item.name}>
-                                            {item.name}
+                                             {item.name}
                                         </p>
                                         <div className="flex justify-between items-center mt-2">
                                             <p className="text-xs text-gray-400">
@@ -244,6 +251,17 @@ export default function MediaPage() {
                             ))
                         )}
                     </div>
+                )}
+
+                {!loading && items.length > 0 && (
+                    <Pagination
+                        currentPage={page}
+                        totalPages={Math.ceil(items.length / limit)}
+                        totalItems={items.length}
+                        pageSize={limit}
+                        onPageChange={setPage}
+                        className="mt-8 rounded-xl border border-gray-100 shadow-sm"
+                    />
                 )}
             </div>
             

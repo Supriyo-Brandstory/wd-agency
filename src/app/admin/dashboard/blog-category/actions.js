@@ -50,6 +50,18 @@ export async function deleteBlogCategory(id) {
   return blogCategory;
 }
 
-export async function getBlogCategories() {
+export async function getBlogCategories(page = null, limit = 10) {
+  if (page !== null && page !== undefined) {
+    const skip = (page - 1) * limit;
+    const [categories, total] = await Promise.all([
+      db.blogCategory.findMany({
+        skip,
+        take: limit,
+        orderBy: { id: "desc" },
+      }),
+      db.blogCategory.count(),
+    ]);
+    return { categories, total };
+  }
   return await db.blogCategory.findMany({ orderBy: { id: "desc" } });
 }

@@ -9,6 +9,7 @@ import {
   getAllTemplatesAdmin,
 } from "./actions";
 import { getTemplateCategories } from "../template-category/actions";
+import Pagination from "@/app/admin/components/Pagination";
 
 const SunEditor = dynamic(() => import("suneditor-react"), { ssr: false });
 import "suneditor/dist/css/suneditor.min.css";
@@ -16,6 +17,9 @@ import "suneditor/dist/css/suneditor.min.css";
 export default function TemplatePage() {
   const [templates, setTemplates] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
 
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
@@ -32,17 +36,28 @@ export default function TemplatePage() {
   const [isVisible, setIsVisible] = useState(true);
   const [showInAllTemplates, setShowInAllTemplates] = useState(false);
 
+  const fetchTemplates = async (targetPage = page) => {
+    const data = await getAllTemplatesAdmin(targetPage, limit);
+    if (data && data.templates) {
+      setTemplates(data.templates);
+      setTotal(data.total);
+    } else {
+      setTemplates(Array.isArray(data) ? data : []);
+      setTotal(Array.isArray(data) ? data.length : 0);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      const [tData, cData] = await Promise.all([
-        getAllTemplatesAdmin(),
-        getTemplateCategories(),
-      ]);
-      setTemplates(tData);
+    const fetchCats = async () => {
+      const cData = await getTemplateCategories();
       setCategories(cData);
     };
-    fetchData();
+    fetchCats();
   }, []);
+
+  useEffect(() => {
+    fetchTemplates(page);
+  }, [page]);
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
@@ -78,8 +93,8 @@ export default function TemplatePage() {
 
     try {
       await createTemplate(formData);
-      const data = await getAllTemplatesAdmin();
-      setTemplates(data);
+      setPage(1);
+      await fetchTemplates(1);
       resetForm();
     } catch (error) {
       console.error("Error creating template:", error);
@@ -107,8 +122,7 @@ export default function TemplatePage() {
 
     try {
       await updateTemplate(formData);
-      const data = await getAllTemplatesAdmin();
-      setTemplates(data);
+      await fetchTemplates(page);
       resetForm();
     } catch (error) {
       console.error("Error updating template:", error);
@@ -121,8 +135,11 @@ export default function TemplatePage() {
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this template?")) {
       await deleteTemplate(id);
-      const data = await getAllTemplatesAdmin();
-      setTemplates(data);
+      if (templates.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await fetchTemplates(page);
+      }
     }
   };
 
@@ -396,7 +413,7 @@ export default function TemplatePage() {
                   key={template.id}
                   className="hover:bg-gray-50 transition-colors"
                 >
-                  <td className="p-4 text-gray-500">{index + 1}</td>
+                  <td className="p-4 text-gray-500">{(page - 1) * limit + index + 1}</td>
                   <td className="p-4">
                     <img
                       src={template.image}
@@ -455,7 +472,7 @@ export default function TemplatePage() {
                       </button>
                       <button
                         onClick={() => handleDelete(template.id)}
-                        className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold transition-all"
+                        className="bg-red-500 hover:bg-red-700 text-white px-3 py-1 rounded text-xs font-semibold transition-all"
                       >
                         Delete
                       </button>
@@ -475,6 +492,13 @@ export default function TemplatePage() {
             )}
           </tbody>
         </table>
+        <Pagination
+          currentPage={page}
+          totalPages={Math.ceil(total / limit)}
+          totalItems={total}
+          pageSize={limit}
+          onPageChange={setPage}
+        />
       </div>
     </div>
   );

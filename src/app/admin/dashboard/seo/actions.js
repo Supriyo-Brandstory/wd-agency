@@ -16,11 +16,25 @@ export const getSeoDataByPageUrl = cache(async (pageurl) => {
   }
 });
 
-export async function getSeoData() {
+export async function getSeoData(page = 1, limit = 10) {
   try {
-    const seoData = await db.seo.findMany();
-    // console.log('seoData', seoData);
-    return seoData;
+    if (page === null) {
+      return await db.seo.findMany({
+        orderBy: { id: "desc" },
+      });
+    }
+
+    const skip = (page - 1) * limit;
+    const [seoData, total] = await Promise.all([
+      db.seo.findMany({
+        skip,
+        take: limit,
+        orderBy: { id: "desc" },
+      }),
+      db.seo.count(),
+    ]);
+
+    return { seoData, total };
   } catch (error) {
     console.error('Error fetching SEO data:', error);
     throw new Error('Failed to fetch SEO data');

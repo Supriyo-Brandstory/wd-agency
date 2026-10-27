@@ -35,6 +35,13 @@ export async function getMedia(subPath = "") {
             };
         }));
 
+        media.sort((a, b) => {
+            if (a.isDirectory && !b.isDirectory) return -1;
+            if (!a.isDirectory && b.isDirectory) return 1;
+            if (a.isDirectory && b.isDirectory) return a.name.localeCompare(b.name);
+            return new Date(b.updatedAt) - new Date(a.updatedAt);
+        });
+
         return media;
     } catch (error) {
         console.error("Error reading media:", error);

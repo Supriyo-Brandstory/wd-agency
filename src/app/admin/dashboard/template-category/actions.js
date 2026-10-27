@@ -50,6 +50,18 @@ export async function deleteTemplateCategory(id) {
     return templateCategory;
 }
 
-export async function getTemplateCategories() {
+export async function getTemplateCategories(page = null, limit = 10) {
+    if (page !== null && page !== undefined) {
+        const skip = (page - 1) * limit;
+        const [categories, total] = await Promise.all([
+            db.templateCategory.findMany({
+                skip,
+                take: limit,
+                orderBy: { id: "desc" },
+            }),
+            db.templateCategory.count(),
+        ]);
+        return { categories, total };
+    }
     return await db.templateCategory.findMany({ orderBy: { id: "desc" } });
 }

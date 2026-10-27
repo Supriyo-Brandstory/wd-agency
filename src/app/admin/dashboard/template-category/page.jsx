@@ -7,6 +7,7 @@ import {
   deleteTemplateCategory,
   getTemplateCategories,
 } from "./actions";
+import Pagination from "@/app/admin/components/Pagination";
 
 export default function TemplateCategoryPage() {
   const [categories, setCategories] = useState([]);
@@ -14,15 +15,24 @@ export default function TemplateCategoryPage() {
   const [slug, setSlug] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
+
+  const fetchCategories = async (targetPage = page) => {
+    const data = await getTemplateCategories(targetPage, limit);
+    if (data && data.categories) {
+      setCategories(data.categories);
+      setTotal(data.total);
+    } else {
+      setCategories(Array.isArray(data) ? data : []);
+      setTotal(Array.isArray(data) ? data.length : 0);
+    }
+  };
 
   useEffect(() => {
-    fetchCategories();
-  }, []);
-
-  const fetchCategories = async () => {
-    const data = await getTemplateCategories();
-    setCategories(data);
-  };
+    fetchCategories(page);
+  }, [page]);
 
   const generateSlug = (text) => {
     return text
@@ -82,7 +92,11 @@ export default function TemplateCategoryPage() {
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this category?")) {
       await deleteTemplateCategory(id);
-      await fetchCategories();
+      if (categories.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await fetchCategories(page);
+      }
     }
   };
 
@@ -184,7 +198,7 @@ export default function TemplateCategoryPage() {
                     key={category.id}
                     className="border-b hover:bg-gray-50 transition"
                   >
-                    <td className="p-3">{index + 1}</td>
+                    <td className="p-3">{(page - 1) * limit + index + 1}</td>
                     <td className="p-3 font-medium">{category.name}</td>
                     <td className="p-3 text-gray-600">{category.slug}</td>
                     <td className="p-3 text-right space-x-2">
@@ -215,6 +229,13 @@ export default function TemplateCategoryPage() {
               )}
             </tbody>
           </table>
+          <Pagination
+            currentPage={page}
+            totalPages={Math.ceil(total / limit)}
+            totalItems={total}
+            pageSize={limit}
+            onPageChange={setPage}
+          />
         </div>
       </div>
     </div>

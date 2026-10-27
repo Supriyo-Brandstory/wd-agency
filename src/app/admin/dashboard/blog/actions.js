@@ -182,9 +182,23 @@ export async function deleteBlog(id) {
   }
 }
 
-// ✅ Get all blogs with category data
-export async function getBlogs() {
+// ✅ Get blogs (paginated if page is provided, or all blogs if page is null)
+export async function getBlogs(page = null, limit = 10) {
   try {
+    if (page !== null && page !== undefined) {
+      const skip = (page - 1) * limit;
+      const [blogs, total] = await Promise.all([
+        db.blog.findMany({
+          skip,
+          take: limit,
+          include: { category: true },
+          orderBy: { id: "desc" },
+        }),
+        db.blog.count(),
+      ]);
+      return { blogs, total };
+    }
+
     const blogs = await db.blog.findMany({
       include: { category: true },
       orderBy: { id: "desc" },

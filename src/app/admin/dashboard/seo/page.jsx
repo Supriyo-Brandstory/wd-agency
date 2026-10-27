@@ -7,6 +7,7 @@ import {
   updateSeoData,
   deleteSeoData,
 } from "./actions";
+import Pagination from "@/app/admin/components/Pagination";
 
 export default function SeoPage() {
   const [seoData, setSeoData] = useState([]);
@@ -18,17 +19,21 @@ export default function SeoPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showForm, setShowForm] = useState(false); // 👈 NEW toggle for form visibility
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
 
   useEffect(() => {
-    loadSeoData();
-  }, []);
+    loadSeoData(page);
+  }, [page]);
 
-  async function loadSeoData() {
+  async function loadSeoData(targetPage = page) {
     try {
       setLoading(true);
       setError("");
-      const data = await getSeoData();
-      setSeoData(data);
+      const result = await getSeoData(targetPage, limit);
+      setSeoData(result.seoData || []);
+      setTotal(result.total || 0);
     } catch (err) {
       setError("Failed to load SEO data");
       console.error(err);
@@ -87,7 +92,11 @@ export default function SeoPage() {
       setLoading(true);
       setError("");
       await deleteSeoData(id);
-      await loadSeoData();
+      if (seoData.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await loadSeoData(page);
+      }
     } catch (err) {
       setError("Failed to delete SEO data");
       console.error(err);
@@ -321,6 +330,13 @@ export default function SeoPage() {
                     ))}
                   </tbody>
                 </table>
+                <Pagination
+                  currentPage={page}
+                  totalPages={Math.ceil(total / limit)}
+                  totalItems={total}
+                  pageSize={limit}
+                  onPageChange={setPage}
+                />
               </div>
             )}
           </div>

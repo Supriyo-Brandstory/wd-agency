@@ -13,6 +13,7 @@ import {
   bulkUploadPages,
 } from "./actions";
 import { getMedia, uploadFiles } from "../media/actions";
+import Pagination from "@/app/admin/components/Pagination";
 import Editor from "@monaco-editor/react";
 
 // --- Media Picker Component ---
@@ -160,6 +161,9 @@ export default function CustomPageAdmin() {
   const [cssContent, setCssContent] = useState("");
   const [showCssForm, setShowCssForm] = useState(false);
   const [view, setView] = useState("pages");
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
 
   // Bulk Upload state
   const [showBulkModal, setShowBulkModal] = useState(false);
@@ -232,8 +236,8 @@ export default function CustomPageAdmin() {
   }, [activeTab, content, refreshInlineIcons]);
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetchData(page);
+  }, [page]);
 
   // ── Live Preview DOM side-effects ──
   useEffect(() => {
@@ -279,9 +283,18 @@ export default function CustomPageAdmin() {
     setActiveTab("edit");
   };
 
-  const fetchData = async () => {
-    const [pData, cData] = await Promise.all([getCustomPages(), getCssFiles()]);
-    setPages(pData);
+  const fetchData = async (targetPage = page) => {
+    const [pData, cData] = await Promise.all([
+      getCustomPages(targetPage, limit),
+      getCssFiles(),
+    ]);
+    if (pData && pData.pages) {
+      setPages(pData.pages);
+      setTotal(pData.total);
+    } else {
+      setPages(Array.isArray(pData) ? pData : []);
+      setTotal(Array.isArray(pData) ? pData.length : 0);
+    }
     setCssFiles(cData);
   };
 
@@ -300,7 +313,8 @@ export default function CustomPageAdmin() {
     formData.append("content", content);
     formData.append("cssFile", cssFile);
     await createCustomPage(formData);
-    fetchData();
+    setPage(1);
+    await fetchData(1);
     resetPageForm();
   };
 
@@ -313,7 +327,7 @@ export default function CustomPageAdmin() {
     formData.append("content", content);
     formData.append("cssFile", cssFile);
     await updateCustomPage(formData);
-    fetchData();
+    await fetchData(page);
     resetPageForm();
   };
 
@@ -403,7 +417,8 @@ export default function CustomPageAdmin() {
 
       const result = await bulkUploadPages(formData);
       setBulkResult(result);
-      fetchData();
+      setPage(1);
+      await fetchData(1);
     } catch (err) {
       console.error(err);
       setBulkError(err.message || "Failed to complete bulk upload");
@@ -1074,7 +1089,11 @@ export default function CustomPageAdmin() {
                             )
                           ) {
                             await deleteCustomPage(page.id);
-                            fetchData();
+                            if (pages.length === 1 && page > 1) {
+                              setPage(page - 1);
+                            } else {
+                              fetchData(page);
+                            }
                           }
                         }}
                         className="text-red-500 hover:text-red-700 font-semibold text-xs bg-red-50 hover:bg-red-100 px-2.5 py-1 rounded-lg transition cursor-pointer"
@@ -1120,6 +1139,15 @@ export default function CustomPageAdmin() {
                 ))}
           </tbody>
         </table>
+        {view === "pages" && (
+          <Pagination
+            currentPage={page}
+            totalPages={Math.ceil(total / limit)}
+            totalItems={total}
+            pageSize={limit}
+            onPageChange={setPage}
+          />
+        )}
         {(view === "pages" ? pages : cssFiles).length === 0 && (
           <div className="p-12 text-center text-gray-400 font-medium">
             <span className="text-3xl block mb-2">📄</span>

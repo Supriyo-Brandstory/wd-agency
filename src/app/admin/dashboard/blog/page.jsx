@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { createBlog, updateBlog, deleteBlog, getBlogs } from "./actions";
 import { getBlogCategories } from "../blog-category/actions";
+import Pagination from "@/app/admin/components/Pagination";
 // ✅ Dynamically import SunEditor (Next.js SSR-safe)
 const SunEditor = dynamic(() => import("suneditor-react"), { ssr: false });
 import "suneditor/dist/css/suneditor.min.css";
@@ -11,6 +12,9 @@ import "suneditor/dist/css/suneditor.min.css";
 export default function BlogPage() {
   const [blogs, setBlogs] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
 
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
@@ -24,17 +28,28 @@ export default function BlogPage() {
   const [showForm, setShowForm] = useState(false);
   const [isCodeView, setIsCodeView] = useState(false); // ✅ Code view toggle
 
+  const fetchBlogs = async (targetPage = page) => {
+    const data = await getBlogs(targetPage, limit);
+    if (data && data.blogs) {
+      setBlogs(data.blogs);
+      setTotal(data.total);
+    } else {
+      setBlogs(Array.isArray(data) ? data : []);
+      setTotal(Array.isArray(data) ? data.length : 0);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      const [blogsData, categoriesData] = await Promise.all([
-        getBlogs(),
-        getBlogCategories(),
-      ]);
-      setBlogs(blogsData);
+    const fetchCats = async () => {
+      const categoriesData = await getBlogCategories();
       setCategories(categoriesData);
     };
-    fetchData();
+    fetchCats();
   }, []);
+
+  useEffect(() => {
+    fetchBlogs(page);
+  }, [page]);
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
@@ -72,8 +87,8 @@ export default function BlogPage() {
     formData.append("image", image);
 
     await createBlog(formData);
-    const data = await getBlogs();
-    setBlogs(data);
+    setPage(1);
+    await fetchBlogs(1);
     resetForm();
   };
 
@@ -100,16 +115,18 @@ export default function BlogPage() {
     if (image) formData.append("image", image);
 
     await updateBlog(formData);
-    const data = await getBlogs();
-    setBlogs(data);
+    await fetchBlogs(page);
     resetForm();
   };
 
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this blog?")) {
       await deleteBlog(id);
-      const data = await getBlogs();
-      setBlogs(data);
+      if (blogs.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await fetchBlogs(page);
+      }
     }
   };
 
@@ -312,7 +329,7 @@ export default function BlogPage() {
             {blogs.length > 0 ? (
               blogs.map((blog, index) => (
                 <tr key={blog.id} className="border-b hover:bg-gray-50">
-                  <td className="p-3">{index + 1}</td>
+                  <td className="p-3">{(page - 1) * limit + index + 1}</td>
                   <td className="p-3">
                     {blog.image ? (
                       <img
@@ -367,6 +384,13 @@ export default function BlogPage() {
             )}
           </tbody>
         </table>
+        <Pagination
+          currentPage={page}
+          totalPages={Math.ceil(total / limit)}
+          totalItems={total}
+          pageSize={limit}
+          onPageChange={setPage}
+        />
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import {
   deleteBlogCategory,
   getBlogCategories,
 } from "./actions";
+import Pagination from "@/app/admin/components/Pagination";
 
 export default function BlogCategoryPage() {
   const [categories, setCategories] = useState([]);
@@ -15,15 +16,24 @@ export default function BlogCategoryPage() {
   const [description, setDescription] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [showForm, setShowForm] = useState(false);
+  const [page, setPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 10;
+
+  const fetchCategories = async (targetPage = page) => {
+    const result = await getBlogCategories(targetPage, limit);
+    if (result && result.categories) {
+      setCategories(result.categories);
+      setTotal(result.total);
+    } else {
+      setCategories(Array.isArray(result) ? result : []);
+      setTotal(Array.isArray(result) ? result.length : 0);
+    }
+  };
 
   useEffect(() => {
-    fetchCategories();
-  }, []);
-
-  const fetchCategories = async () => {
-    const data = await getBlogCategories();
-    setCategories(data);
-  };
+    fetchCategories(page);
+  }, [page]);
 
   const generateSlug = (text) => {
     return text
@@ -83,7 +93,11 @@ export default function BlogCategoryPage() {
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this category?")) {
       await deleteBlogCategory(id);
-      await fetchCategories();
+      if (categories.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await fetchCategories(page);
+      }
     }
   };
 
@@ -190,7 +204,7 @@ export default function BlogCategoryPage() {
               {categories.length > 0 ? (
                 categories.map((category, index) => (
                   <tr key={category.id} className="border-b hover:bg-gray-50 transition">
-                    <td className="p-3">{index + 1}</td>
+                    <td className="p-3">{(page - 1) * limit + index + 1}</td>
                     <td className="p-3 font-medium">{category.name}</td>
                     <td className="p-3 text-gray-600">{category.slug}</td>
                     <td className="p-3 text-gray-600 max-w-sm truncate">{category.description}</td>
@@ -219,6 +233,13 @@ export default function BlogCategoryPage() {
               )}
             </tbody>
           </table>
+          <Pagination
+            currentPage={page}
+            totalPages={Math.ceil(total / limit)}
+            totalItems={total}
+            pageSize={limit}
+            onPageChange={setPage}
+          />
         </div>
       </div>
     </div>

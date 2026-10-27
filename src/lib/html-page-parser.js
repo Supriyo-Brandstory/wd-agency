@@ -83,17 +83,17 @@ export function parseHtmlTemplate(rawHtml, fallbackSlug = "") {
   let description = "";
   const descMatch =
     (headContent || rawHtml).match(
-      /<meta\s+[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/i
+      /<meta\s+[^>]*name=["']description["'][^>]*content=(["'])([\s\S]*?)\1/i
     ) ||
     (headContent || rawHtml).match(
-      /<meta\s+[^>]*content=["']([^"']*)["'][^>]*name=["']description["']/i
+      /<meta\s+[^>]*content=(["'])([\s\S]*?)\1[^>]*name=["']description["']/i
     ) ||
     (headContent || rawHtml).match(
-      /<meta\s+[^>]*property=["']og:description["'][^>]*content=["']([^"']*)["']/i
+      /<meta\s+[^>]*property=["']og:description["'][^>]*content=(["'])([\s\S]*?)\1/i
     );
 
-  if (descMatch && descMatch[1]) {
-    description = decodeHtmlEntities(descMatch[1].trim());
+  if (descMatch && descMatch[2]) {
+    description = decodeHtmlEntities(descMatch[2].trim());
   }
 
   // 4. Extract Canonical Link & Extract Slug
@@ -101,14 +101,14 @@ export function parseHtmlTemplate(rawHtml, fallbackSlug = "") {
   let extractedSlug = "";
   const canonicalMatch =
     (headContent || rawHtml).match(
-      /<link\s+[^>]*rel=["']canonical["'][^>]*href=["']([^"']*)["']/i
+      /<link\s+[^>]*rel=["']canonical["'][^>]*href=(["'])([\s\S]*?)\1/i
     ) ||
     (headContent || rawHtml).match(
-      /<link\s+[^>]*href=["']([^"']*)["'][^>]*rel=["']canonical["']/i
+      /<link\s+[^>]*href=(["'])([\s\S]*?)\1[^>]*rel=["']canonical["']/i
     );
 
-  if (canonicalMatch && canonicalMatch[1]) {
-    canonical = canonicalMatch[1].trim();
+  if (canonicalMatch && canonicalMatch[2]) {
+    canonical = canonicalMatch[2].trim();
     try {
       const parsedUrl = new URL(canonical);
       const pathname = parsedUrl.pathname.replace(/^\/+|\/+$/g, "");

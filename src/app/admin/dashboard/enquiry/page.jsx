@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { getEnquiries, deleteEnquiry } from "./action";
+import Pagination from "@/app/admin/components/Pagination";
 
 export default function EnquiryPage() {
   const [enquiries, setEnquiries] = useState([]);
@@ -11,21 +12,26 @@ export default function EnquiryPage() {
   const [total, setTotal] = useState(0);
   const limit = 10;
 
+  async function loadEnquiries(targetPage = page) {
+    setLoading(true);
+    const { enquiries, total } = await getEnquiries(targetPage, limit);
+    setEnquiries(enquiries || []);
+    setTotal(total || 0);
+    setLoading(false);
+  }
+
   useEffect(() => {
-    async function loadEnquiries() {
-      setLoading(true);
-      const { enquiries, total } = await getEnquiries(page, limit);
-      setEnquiries(enquiries);
-      setTotal(total);
-      setLoading(false);
-    }
-    loadEnquiries();
+    loadEnquiries(page);
   }, [page]);
 
   const handleDelete = async (id) => {
     if (confirm("Are you sure you want to delete this enquiry?")) {
       await deleteEnquiry(id);
-      setEnquiries(enquiries.filter((enq) => enq.id !== id));
+      if (enquiries.length === 1 && page > 1) {
+        setPage(page - 1);
+      } else {
+        await loadEnquiries(page);
+      }
     }
   };
 
@@ -124,27 +130,13 @@ export default function EnquiryPage() {
           </table>
 
           {/* Pagination */}
-          <div className="flex justify-between items-center p-4">
-            <p className="text-sm text-gray-600">
-              Page {page} of {totalPages}
-            </p>
-            <div className="flex gap-2">
-              <button
-                disabled={page === 1}
-                onClick={() => setPage(page - 1)}
-                className="px-3 py-1 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
-              >
-                Prev
-              </button>
-              <button
-                disabled={page === totalPages}
-                onClick={() => setPage(page + 1)}
-                className="px-3 py-1 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
-              >
-                Next
-              </button>
-            </div>
-          </div>
+          <Pagination
+            currentPage={page}
+            totalPages={totalPages}
+            totalItems={total}
+            pageSize={limit}
+            onPageChange={setPage}
+          />
         </div>
       ) : (
         <p className="text-gray-600">No enquiries found.</p>
