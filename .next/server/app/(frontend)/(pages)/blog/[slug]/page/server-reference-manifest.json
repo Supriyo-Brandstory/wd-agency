@@ -1,30 +1,6 @@
 {
   "node": {
-    "40171a213ab51bd81f0d73270a46d78824ea67a282": {
-      "workers": {
-        "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 546265,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "exportedName": "deleteSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "4056c5ab7216b5a9ddf7a7a3ace51b0e443ab311f3": {
-      "workers": {
-        "app/(frontend)/(pages)/blog/[slug]/page": {
-          "moduleId": 546265,
-          "async": false,
-          "exportedName": "createSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "exportedName": "createSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "40e82f850719e55b79ce56264769b8a822455fc376": {
+    "404e2d05f4bb14079693b6aa0840b9c5becbbff6a2": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -36,19 +12,31 @@
       "exportedName": "getSeoById",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "604feb6d24b5ddecb3e9afbf2427d0c009b5344e2c": {
+    "40a185bb5320047920ff11ca73691a63e718de41aa": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
           "async": false,
-          "exportedName": "getSeoData",
+          "exportedName": "deleteSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "exportedName": "getSeoData",
+      "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "608cc8a8d33c09994319d0468bed0860b25849ff3c": {
+    "40b2c29cd63d875c43da5042715b358a0bfcd770df": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 546265,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "601bf3a79ecaf0437d459acb938992aaf9cc30f634": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -60,7 +48,19 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f2b7e95753bf6c6008f8b567758661e58bd3c5817": {
+    "6079664bc0b649fa9fd375233c3737fd7f0977bd0e": {
+      "workers": {
+        "app/(frontend)/(pages)/blog/[slug]/page": {
+          "moduleId": 546265,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "getSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "7ff89e436dfabca0bc4adaa108750b7eff58a6dc1f": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -72,7 +72,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4077945297cb8649a13deb8e6394fe04345b076124": {
+    "40618289716eb2a944c50bb7c032a6cca6dd50c9a9": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -84,7 +84,7 @@
       "exportedName": "getBlogBySlug",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "40137dafdb78088a5676a2c7e0d171366fe08336fe": {
+    "40fef73585abed50396ef60f8dd7fd2ba3658e3e5d": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -96,7 +96,7 @@
       "exportedName": "createEnquiry",
       "filename": "src/app/admin/dashboard/enquiry/action.js"
     },
-    "60b4c86e9a926f6b970fc8304a2c4e30ba7f90bf69": {
+    "60131bc44ed4ae9e26e98fd03a7bb259e58d6162b2": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,
@@ -108,7 +108,7 @@
       "exportedName": "getEnquiries",
       "filename": "src/app/admin/dashboard/enquiry/action.js"
     },
-    "40ebdd3aeedfb479561be927a4102f8845fa2f4613": {
+    "4013351133bab066681c4697e3dc9e9c7794627b9a": {
       "workers": {
         "app/(frontend)/(pages)/blog/[slug]/page": {
           "moduleId": 546265,

@@ -1,6 +1,6 @@
 {
   "node": {
-    "70d3dc038204ac94a2581556ec10c319d4e98d031f": {
+    "7022bd44f96aeb44b8217cae4074dda0590758d84e": {
       "workers": {
         "app/admin/dashboard/blog-category/create/page": {
           "moduleId": 651239,

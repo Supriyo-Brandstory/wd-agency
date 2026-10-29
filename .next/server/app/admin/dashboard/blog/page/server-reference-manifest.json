@@ -1,6 +1,6 @@
 {
   "node": {
-    "403d033efc4aa2d6368a325e4e9d09999c5cb30e2a": {
+    "40f8113891994cb0eca45f25ff8194df5458e858e5": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 670038,
@@ -12,7 +12,7 @@
       "exportedName": "deleteBlog",
       "filename": "src/app/admin/dashboard/blog/actions.js"
     },
-    "60fde263089002c839a5dd71e37e9b341f13bdf8c7": {
+    "609914693fbdc73cac19c8f85d5feb16783fc07e0a": {
       "workers": {
         "app/admin/dashboard/blog/page": {
           "moduleId": 670038,

@@ -1,6 +1,6 @@
 {
   "node": {
-    "60adee63317585fed1ebaaa359d793fb79ed48c153": {
+    "6002cd54ad77e54f66d740f9ee7d8f6f4298e5aa81": {
       "workers": {
         "app/admin/dashboard/template-category/create/page": {
           "moduleId": 910705,

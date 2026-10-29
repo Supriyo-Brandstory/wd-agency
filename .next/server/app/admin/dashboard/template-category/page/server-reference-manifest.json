@@ -1,6 +1,6 @@
 {
   "node": {
-    "400889dc0dfe458a7d6475d0ea549d5a8e5872d9eb": {
+    "4060e964edfaa16e229bea9f430232f1ac1645733e": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -12,7 +12,7 @@
       "exportedName": "deleteTemplateCategory",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "6080b3a6fde174e90a768ffd420be5a1df9687d4de": {
+    "60e88817830a5bf6dad5c63353fb4a99c12d7142e7": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,

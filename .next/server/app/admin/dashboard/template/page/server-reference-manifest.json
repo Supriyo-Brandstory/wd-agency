@@ -1,6 +1,6 @@
 {
   "node": {
-    "40e2c85907a9874d7f19703fc965d32b11b5445120": {
+    "4016fd63adb779c595fcd793ff72e6fa5e2bb55ddc": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 343055,
@@ -12,7 +12,7 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "6021ba161786c0a2c8b7ad62eb4a19e12803334e4b": {
+    "600aec55d52c89595c120c0eb5ecc72fd5a266d4a8": {
       "workers": {
         "app/admin/dashboard/template/page": {
           "moduleId": 343055,

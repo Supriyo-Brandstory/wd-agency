@@ -1,30 +1,6 @@
 {
   "node": {
-    "40171a213ab51bd81f0d73270a46d78824ea67a282": {
-      "workers": {
-        "app/(frontend)/(pages)/services/full-stack-development/page": {
-          "moduleId": 241963,
-          "async": false,
-          "exportedName": "deleteSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "exportedName": "deleteSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "4056c5ab7216b5a9ddf7a7a3ace51b0e443ab311f3": {
-      "workers": {
-        "app/(frontend)/(pages)/services/full-stack-development/page": {
-          "moduleId": 241963,
-          "async": false,
-          "exportedName": "createSeoData",
-          "filename": "src/app/admin/dashboard/seo/actions.js"
-        }
-      },
-      "exportedName": "createSeoData",
-      "filename": "src/app/admin/dashboard/seo/actions.js"
-    },
-    "40e82f850719e55b79ce56264769b8a822455fc376": {
+    "404e2d05f4bb14079693b6aa0840b9c5becbbff6a2": {
       "workers": {
         "app/(frontend)/(pages)/services/full-stack-development/page": {
           "moduleId": 241963,
@@ -36,19 +12,31 @@
       "exportedName": "getSeoById",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "604feb6d24b5ddecb3e9afbf2427d0c009b5344e2c": {
+    "40a185bb5320047920ff11ca73691a63e718de41aa": {
       "workers": {
         "app/(frontend)/(pages)/services/full-stack-development/page": {
           "moduleId": 241963,
           "async": false,
-          "exportedName": "getSeoData",
+          "exportedName": "deleteSeoData",
           "filename": "src/app/admin/dashboard/seo/actions.js"
         }
       },
-      "exportedName": "getSeoData",
+      "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "608cc8a8d33c09994319d0468bed0860b25849ff3c": {
+    "40b2c29cd63d875c43da5042715b358a0bfcd770df": {
+      "workers": {
+        "app/(frontend)/(pages)/services/full-stack-development/page": {
+          "moduleId": 241963,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "601bf3a79ecaf0437d459acb938992aaf9cc30f634": {
       "workers": {
         "app/(frontend)/(pages)/services/full-stack-development/page": {
           "moduleId": 241963,
@@ -60,7 +48,19 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7f2b7e95753bf6c6008f8b567758661e58bd3c5817": {
+    "6079664bc0b649fa9fd375233c3737fd7f0977bd0e": {
+      "workers": {
+        "app/(frontend)/(pages)/services/full-stack-development/page": {
+          "moduleId": 241963,
+          "async": false,
+          "exportedName": "getSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "getSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "7ff89e436dfabca0bc4adaa108750b7eff58a6dc1f": {
       "workers": {
         "app/(frontend)/(pages)/services/full-stack-development/page": {
           "moduleId": 241963,
