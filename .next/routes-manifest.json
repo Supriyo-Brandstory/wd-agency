@@ -23,6 +23,54 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/admin/dashboard/blog/edit/[id]",
+      "regex": "^/admin/dashboard/blog/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/blog/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/blog-category/edit/[id]",
+      "regex": "^/admin/dashboard/blog\\-category/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/blog\\-category/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/custom-page/edit/[id]",
+      "regex": "^/admin/dashboard/custom\\-page/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/custom\\-page/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/seo/edit/[id]",
+      "regex": "^/admin/dashboard/seo/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/seo/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/template/edit/[id]",
+      "regex": "^/admin/dashboard/template/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/template/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/template-category/edit/[id]",
+      "regex": "^/admin/dashboard/template\\-category/edit/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/dashboard/template\\-category/edit/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/blog/[slug]",
       "regex": "^/blog/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -113,16 +161,34 @@
       "namedRegex": "^/admin/dashboard/blog(?:/)?$"
     },
     {
+      "page": "/admin/dashboard/blog/create",
+      "regex": "^/admin/dashboard/blog/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/blog/create(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard/blog-category",
       "regex": "^/admin/dashboard/blog\\-category(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/blog\\-category(?:/)?$"
     },
     {
+      "page": "/admin/dashboard/blog-category/create",
+      "regex": "^/admin/dashboard/blog\\-category/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/blog\\-category/create(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard/custom-page",
       "regex": "^/admin/dashboard/custom\\-page(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/custom\\-page(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/custom-page/create",
+      "regex": "^/admin/dashboard/custom\\-page/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/custom\\-page/create(?:/)?$"
     },
     {
       "page": "/admin/dashboard/custom-page/preview",
@@ -149,6 +215,12 @@
       "namedRegex": "^/admin/dashboard/seo(?:/)?$"
     },
     {
+      "page": "/admin/dashboard/seo/create",
+      "regex": "^/admin/dashboard/seo/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/seo/create(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard/sitemap",
       "regex": "^/admin/dashboard/sitemap(?:/)?$",
       "routeKeys": {},
@@ -161,10 +233,22 @@
       "namedRegex": "^/admin/dashboard/template(?:/)?$"
     },
     {
+      "page": "/admin/dashboard/template/create",
+      "regex": "^/admin/dashboard/template/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/template/create(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard/template-category",
       "regex": "^/admin/dashboard/template\\-category(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard/template\\-category(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard/template-category/create",
+      "regex": "^/admin/dashboard/template\\-category/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard/template\\-category/create(?:/)?$"
     },
     {
       "page": "/api/admin/download-sample-template",

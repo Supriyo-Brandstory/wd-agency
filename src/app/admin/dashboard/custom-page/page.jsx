@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef, useLayoutEffect } from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 import {
-  createCustomPage,
-  updateCustomPage,
   deleteCustomPage,
   getCustomPages,
   getCssFiles,
@@ -12,150 +11,11 @@ import {
   deleteCssFile,
   bulkUploadPages,
 } from "./actions";
-import { getMedia, uploadFiles } from "../media/actions";
 import Pagination from "@/app/admin/components/Pagination";
 import Editor from "@monaco-editor/react";
 
-// --- Media Picker Component ---
-const MediaPicker = ({ isOpen, onClose, onSelect }) => {
-  const [path, setPath] = useState("");
-  const [items, setItems] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [uploading, setUploading] = useState(false);
-
-  const fetchItems = useCallback(async (currentPath) => {
-    setLoading(true);
-    const data = await getMedia(currentPath);
-    setItems(data);
-    setLoading(false);
-  }, []);
-
-  useEffect(() => {
-    if (isOpen) fetchItems(path);
-  }, [isOpen, path, fetchItems]);
-
-  const handleUpload = async (e) => {
-    const files = Array.from(e.target.files);
-    if (files.length === 0) return;
-    setUploading(true);
-    const formData = new FormData();
-    formData.append("path", path);
-    files.forEach((f) => formData.append("files", f));
-    await uploadFiles(formData);
-    fetchItems(path);
-    setUploading(false);
-  };
-
-  if (!isOpen) return null;
-
-  return (
-    <div className="fixed inset-0 z-[500] bg-black/70 backdrop-blur-md flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl w-full max-w-4xl h-[80vh] flex flex-col shadow-2xl overflow-hidden border border-gray-200">
-        <div className="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50/50">
-          <div className="flex items-center gap-3">
-            <h2 className="text-xl font-bold text-gray-800">Choose Media</h2>
-            <div className="flex gap-1 text-sm text-gray-500">
-              <button
-                onClick={() => setPath("")}
-                className="hover:text-blue-600"
-              >
-                uploads
-              </button>
-              {path
-                .split("/")
-                .filter(Boolean)
-                .map((p, i) => (
-                  <span key={p}>
-                    {" "}
-                    /{" "}
-                    <button
-                      onClick={() =>
-                        setPath(
-                          path
-                            .split("/")
-                            .slice(0, i + 1)
-                            .join("/")
-                        )
-                      }
-                      className="hover:text-blue-600"
-                    >
-                      {p}
-                    </button>
-                  </span>
-                ))}
-            </div>
-          </div>
-          <div className="flex gap-2">
-            <label className="cursor-pointer bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm transition-all shadow-sm">
-              {uploading ? "..." : "Upload"}
-              <input
-                type="file"
-                multiple
-                className="hidden"
-                onChange={handleUpload}
-                disabled={uploading}
-              />
-            </label>
-            <button
-              onClick={onClose}
-              className="text-gray-400 hover:text-gray-600 text-2xl font-light"
-            >
-              &times;
-            </button>
-          </div>
-        </div>
-        <div className="flex-1 p-6 overflow-y-auto bg-gray-50">
-          {loading ? (
-            <div className="flex justify-center py-20">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-4">
-              {items.map((item) => (
-                <div
-                  key={item.path}
-                  className="bg-white rounded-xl border border-gray-200 p-2 hover:border-blue-400 cursor-pointer transition-all hover:shadow-md group"
-                  onClick={() =>
-                    item.isDirectory ? setPath(item.path) : onSelect(item.url)
-                  }
-                >
-                  <div className="aspect-square flex items-center justify-center bg-gray-50 rounded-lg overflow-hidden mb-2">
-                    {item.isDirectory ? (
-                      <span className="text-4xl text-yellow-500">📁</span>
-                    ) : (
-                      <img
-                        src={item.url}
-                        alt={item.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      />
-                    )}
-                  </div>
-                  <p
-                    className="text-xs font-medium truncate text-center text-gray-700"
-                    title={item.name}
-                  >
-                    {item.name}
-                  </p>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-};
-
 export default function CustomPageAdmin() {
   const [pages, setPages] = useState([]);
-  const [title, setTitle] = useState("");
-  const [slug, setSlug] = useState("");
-  const [content, setContent] = useState("");
-  const [cssFile, setCssFile] = useState("");
-  const [selectedId, setSelectedId] = useState(null);
-  const [showPageForm, setShowPageForm] = useState(false);
-  const [activeTab, setActiveTab] = useState("edit");
-
   const [cssFiles, setCssFiles] = useState([]);
   const [currentCssName, setCurrentCssName] = useState("");
   const [cssContent, setCssContent] = useState("");
@@ -164,6 +24,7 @@ export default function CustomPageAdmin() {
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
   const limit = 10;
+  const [loading, setLoading] = useState(true);
 
   // Bulk Upload state
   const [showBulkModal, setShowBulkModal] = useState(false);
@@ -173,230 +34,31 @@ export default function CustomPageAdmin() {
   const [bulkResult, setBulkResult] = useState(null);
   const [isDragOver, setIsDragOver] = useState(false);
 
-  const [isPickerOpen, setIsPickerOpen] = useState(false);
-  const [pickerMode, setPickerMode] = useState("insert"); // "insert" or "update"
-  const [isFullscreen, setIsFullscreen] = useState(false);
-  const iframeRef = useRef(null);
-  const inlinePreviewRef = useRef(null);
-  const inlineTargetRef = useRef(null);
-  const [inlineIcons, setInlineIcons] = useState([]);
-
-  // Refresh positions for inline preview icons
-  const refreshInlineIcons = useCallback(() => {
-    if (!inlinePreviewRef.current || activeTab !== "preview" || isFullscreen) {
-      setInlineIcons([]);
-      return;
-    }
-    const containerRect = inlinePreviewRef.current.getBoundingClientRect();
-    const items = [];
-    const elements = inlinePreviewRef.current.querySelectorAll(
-      "img, [style*='background-image'], [style*='background:']"
-    );
-
-    elements.forEach((el, idx) => {
-      const rect = el.getBoundingClientRect();
-      if (rect.width > 10 && rect.height > 10) {
-        items.push({
-          id: `inline-${idx}`,
-          el: el,
-          type: el.tagName === "IMG" ? "IMAGE" : "BG",
-          top: rect.top - containerRect.top,
-          left: rect.left - containerRect.left,
-        });
+  const fetchData = async (targetPage = page) => {
+    setLoading(true);
+    try {
+      const [pData, cData] = await Promise.all([
+        getCustomPages(targetPage, limit),
+        getCssFiles(),
+      ]);
+      if (pData && pData.pages) {
+        setPages(pData.pages);
+        setTotal(pData.total);
+      } else {
+        setPages(Array.isArray(pData) ? pData : []);
+        setTotal(Array.isArray(pData) ? pData.length : 0);
       }
-    });
-    setInlineIcons(items);
-  }, [activeTab, isFullscreen]);
-
-  useEffect(() => {
-    if (activeTab === "preview") {
-      refreshInlineIcons();
-
-      const handleInlineClick = (e) => {
-        const targetImg = e.target.closest("img");
-        if (targetImg && !e.target.closest(".inline-edit-btn")) {
-          e.preventDefault();
-          e.stopPropagation();
-          openInlinePicker(targetImg);
-        }
-      };
-
-      const el = inlinePreviewRef.current;
-      if (el) el.addEventListener("click", handleInlineClick, true);
-
-      window.addEventListener("scroll", refreshInlineIcons, true);
-      window.addEventListener("resize", refreshInlineIcons);
-
-      return () => {
-        if (el) el.removeEventListener("click", handleInlineClick, true);
-        window.removeEventListener("scroll", refreshInlineIcons, true);
-        window.removeEventListener("resize", refreshInlineIcons);
-      };
+      setCssFiles(cData || []);
+    } catch (err) {
+      console.error("Failed to load custom pages data:", err);
+    } finally {
+      setLoading(false);
     }
-  }, [activeTab, content, refreshInlineIcons]);
+  };
 
   useEffect(() => {
     fetchData(page);
   }, [page]);
-
-  // ── Live Preview DOM side-effects ──
-  useEffect(() => {
-    if (isFullscreen) {
-      document.body.classList.add("preview-active");
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.classList.remove("preview-active");
-      document.body.style.overflow = "";
-    }
-
-    return () => {
-      document.body.classList.remove("preview-active");
-      document.body.style.overflow = "";
-    };
-  }, [isFullscreen]);
-
-  const handleMessage = useCallback((e) => {
-    if (e.data?.type === "UPDATE_CONTENT") {
-      setContent(e.data.content || "");
-      localStorage.setItem("customPagePreviewContent", e.data.content || "");
-    }
-    if (e.data?.type === "OPEN_MEDIA_PICKER") {
-      setPickerMode("update");
-      setIsPickerOpen(true);
-    }
-  }, []);
-
-  useEffect(() => {
-    window.addEventListener("message", handleMessage);
-    return () => window.removeEventListener("message", handleMessage);
-  }, [handleMessage]);
-
-  const openPreview = () => {
-    localStorage.setItem("customPagePreviewContent", content);
-    localStorage.setItem("customPagePreviewCss", cssFile);
-    setActiveTab("preview");
-    setIsFullscreen(true);
-  };
-
-  const closePreview = () => {
-    setIsFullscreen(false);
-    setActiveTab("edit");
-  };
-
-  const fetchData = async (targetPage = page) => {
-    const [pData, cData] = await Promise.all([
-      getCustomPages(targetPage, limit),
-      getCssFiles(),
-    ]);
-    if (pData && pData.pages) {
-      setPages(pData.pages);
-      setTotal(pData.total);
-    } else {
-      setPages(Array.isArray(pData) ? pData : []);
-      setTotal(Array.isArray(pData) ? pData.length : 0);
-    }
-    setCssFiles(cData);
-  };
-
-  const generateSlug = (text) =>
-    text
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, "-")
-      .replace(/[^a-z0-9-]/g, "");
-
-  const handlePageCreate = async () => {
-    if (!title || !slug || !content) return alert("All fields are required!");
-    const formData = new FormData();
-    formData.append("title", title);
-    formData.append("slug", slug);
-    formData.append("content", content);
-    formData.append("cssFile", cssFile);
-    await createCustomPage(formData);
-    setPage(1);
-    await fetchData(1);
-    resetPageForm();
-  };
-
-  const handlePageUpdate = async () => {
-    if (!selectedId) return;
-    const formData = new FormData();
-    formData.append("id", selectedId);
-    formData.append("title", title);
-    formData.append("slug", slug);
-    formData.append("content", content);
-    formData.append("cssFile", cssFile);
-    await updateCustomPage(formData);
-    await fetchData(page);
-    resetPageForm();
-  };
-
-  const resetPageForm = () => {
-    setTitle("");
-    setSlug("");
-    setContent("");
-    setCssFile("");
-    setSelectedId(null);
-    setShowPageForm(false);
-    setActiveTab("edit");
-    setIsFullscreen(false);
-  };
-
-  const handleImageSelect = (url) => {
-    if (!url) return;
-    if (inlineTargetRef.current) {
-      const el = inlineTargetRef.current;
-      if (el.tagName === "IMG") {
-        el.src = url;
-        el.setAttribute("src", url);
-      } else {
-        el.style.backgroundImage = `url("${url}")`;
-      }
-      const updatedHtml = inlinePreviewRef.current.innerHTML;
-      if (updatedHtml !== content) {
-        setContent(updatedHtml);
-        localStorage.setItem("customPagePreviewContent", updatedHtml);
-      }
-      inlineTargetRef.current = null;
-      setTimeout(refreshInlineIcons, 100);
-    } else if (pickerMode === "update" && iframeRef.current) {
-      iframeRef.current.contentWindow.postMessage(
-        { type: "IMAGE_SELECTED", url },
-        "*"
-      );
-    } else {
-      setContent((prev) => {
-        const newC = prev + `\n<img src="${url}" alt="" />`;
-        localStorage.setItem("customPagePreviewContent", newC);
-        return newC;
-      });
-    }
-    setIsPickerOpen(false);
-  };
-
-  const openInlinePicker = (el) => {
-    inlineTargetRef.current = el;
-    setPickerMode("update");
-    setIsPickerOpen(true);
-  };
-
-  const handleInlineInput = useCallback(() => {
-    if (!inlinePreviewRef.current) return;
-    const currentHtml = inlinePreviewRef.current.innerHTML;
-    if (currentHtml !== content) {
-      setContent(currentHtml);
-      localStorage.setItem("customPagePreviewContent", currentHtml);
-    }
-    refreshInlineIcons();
-  }, [content, refreshInlineIcons]);
-
-  // Sync content from state to DOM only when externally changed
-  useLayoutEffect(() => {
-    if (inlinePreviewRef.current && content !== inlinePreviewRef.current.innerHTML) {
-      inlinePreviewRef.current.innerHTML = content;
-      refreshInlineIcons();
-    }
-  }, [content, refreshInlineIcons]);
 
   // Handle Bulk Upload submission
   const handleBulkSubmit = async () => {
@@ -429,23 +91,6 @@ export default function CustomPageAdmin() {
 
   return (
     <div className="p-6 max-w-7xl mx-auto min-h-screen bg-gray-50/50">
-      {isFullscreen && (
-        <div className="fixed inset-0 z-[400] flex flex-col bg-black animate-fadeIn">
-          <button
-            onClick={closePreview}
-            className="absolute top-4 right-5 z-[410] bg-white/10 hover:bg-white/20 text-white px-5 py-2 rounded-full font-bold shadow-2xl transition-all backdrop-blur-xl border border-white/20 flex items-center gap-2 text-sm"
-          >
-            x Close Preview
-          </button>
-          <iframe
-            ref={iframeRef}
-            src="/admin/dashboard/custom-page/preview"
-            className="w-full flex-1 border-0"
-            title="Live Preview"
-          />
-        </div>
-      )}
-
       {/* Top Header & View Controls */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
         <div>
@@ -460,47 +105,46 @@ export default function CustomPageAdmin() {
           <button
             onClick={() => {
               setView(view === "pages" ? "css" : "pages");
-              setShowPageForm(false);
               setShowCssForm(false);
             }}
             className="bg-white text-gray-700 border border-gray-200 hover:border-gray-300 px-3.5 py-2 rounded-xl transition hover:bg-gray-50 font-semibold text-xs shadow-sm flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
           >
-            <span>{view === "pages" ? "💼" : "📄"}</span>
+            <span>{view === "pages" ? "🎨" : "📄"}</span>
             <span>{view === "pages" ? "CSS Manager" : "Page Manager"}</span>
           </button>
 
-          {view === "pages" && (
+          {view === "pages" ? (
+            <>
+              <button
+                onClick={() => {
+                  setShowBulkModal(true);
+                  setBulkResult(null);
+                  setBulkError("");
+                  setBulkFiles([]);
+                }}
+                className="bg-emerald-600 hover:bg-emerald-700 text-white px-3.5 py-2 rounded-xl transition shadow-sm hover:shadow font-semibold text-xs flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+              >
+                <span>📦</span>
+                <span>Bulk Upload</span>
+              </button>
+
+              <Link
+                href="/admin/dashboard/custom-page/create"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-3.5 py-2 rounded-xl transition shadow-sm hover:shadow font-semibold text-xs flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+              >
+                <span>➕</span>
+                <span>Create Page</span>
+              </Link>
+            </>
+          ) : (
             <button
-              onClick={() => {
-                setShowBulkModal(true);
-                setBulkResult(null);
-                setBulkError("");
-                setBulkFiles([]);
-              }}
-              className="bg-emerald-600 hover:bg-emerald-700 text-white px-3.5 py-2 rounded-xl transition shadow-sm hover:shadow font-semibold text-xs flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+              onClick={() => setShowCssForm(!showCssForm)}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white px-3.5 py-2 rounded-xl transition shadow-sm hover:shadow font-semibold text-xs flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
             >
-              <span>📦</span>
-              <span>Bulk Upload</span>
+              <span>{showCssForm ? "✖" : "➕"}</span>
+              <span>{showCssForm ? "Close" : "Create CSS"}</span>
             </button>
           )}
-
-          <button
-            onClick={() =>
-              view === "pages"
-                ? setShowPageForm(!showPageForm)
-                : setShowCssForm(!showCssForm)
-            }
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-3.5 py-2 rounded-xl transition shadow-sm hover:shadow font-semibold text-xs flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
-          >
-            <span>{showPageForm || showCssForm ? "✖" : "➕"}</span>
-            <span>
-              {showPageForm || showCssForm
-                ? "Close"
-                : view === "pages"
-                  ? "Create Page"
-                  : "Create CSS"}
-            </span>
-          </button>
         </div>
       </div>
 
@@ -552,160 +196,6 @@ export default function CustomPageAdmin() {
             >
               Cancel
             </button>
-          </div>
-        </div>
-      )}
-
-      {/* Create / Edit Page Form */}
-      {view === "pages" && showPageForm && (
-        <div className="bg-white rounded-2xl shadow-2xl mb-12 border border-gray-100 overflow-hidden animate-slideUp">
-          <div className="bg-gray-50 p-6 border-b border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div>
-              <label className="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1.5">
-                Page Title
-              </label>
-              <input
-                type="text"
-                placeholder="Landing Page 1"
-                value={title}
-                onChange={(e) => {
-                  setTitle(e.target.value);
-                  if (!selectedId) setSlug(generateSlug(e.target.value));
-                }}
-                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-medium transition-all shadow-sm bg-white"
-              />
-            </div>
-            <div>
-              <label className="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1.5">
-                Slug (URL)
-              </label>
-              <input
-                type="text"
-                placeholder="page-url"
-                value={slug}
-                onChange={(e) => setSlug(generateSlug(e.target.value))}
-                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-mono text-sm transition-all shadow-sm bg-gray-50/30"
-              />
-            </div>
-            <div>
-              <label className="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1.5">
-                Link CSS File
-              </label>
-              <select
-                value={cssFile}
-                onChange={(e) => setCssFile(e.target.value)}
-                className="border-slate-300 rounded-xl px-4 py-3 w-full focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none font-medium transition-all shadow-sm bg-white"
-              >
-                <option value="">None (Inline Styles Only)</option>
-                {cssFiles.map((f) => (
-                  <option key={f} value={f}>
-                    {f}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div className="flex border-b border-gray-100 bg-white px-6">
-            <button
-              onClick={() => setActiveTab("edit")}
-              className={`py-4 px-6 font-bold text-sm border-b-2 transition-all flex items-center gap-2 ${
-                activeTab === "edit"
-                  ? "border-indigo-600 text-indigo-600"
-                  : "border-transparent text-gray-400 hover:text-gray-600"
-              }`}
-            >
-              <span>✏️</span> Code Editor
-            </button>
-            <button
-              onClick={() => setActiveTab("preview")}
-              className={`py-4 px-6 font-bold text-sm border-b-2 transition-all flex items-center gap-2 ${
-                activeTab === "preview"
-                  ? "border-indigo-600 text-indigo-600"
-                  : "border-transparent text-gray-400 hover:text-gray-600"
-              }`}
-            >
-              <span>👁️</span> Visual Editor
-            </button>
-            <button
-              onClick={openPreview}
-              className="py-4 px-6 font-bold text-sm border-b-2 border-transparent text-gray-400 hover:text-indigo-600 transition-all flex items-center gap-2 ml-auto"
-            >
-              <span>🚀</span> Fullscreen Preview
-            </button>
-          </div>
-
-          <div className="p-8">
-            {activeTab === "edit" ? (
-              <div className="border border-gray-200 rounded-2xl overflow-hidden focus-within:border-indigo-500 transition-all shadow-inner">
-                <Editor
-                  height="600px"
-                  defaultLanguage="html"
-                  value={content}
-                  theme="vs-dark"
-                  onChange={(val) => setContent(val || "")}
-                  options={{
-                    minimap: { enabled: false },
-                    fontSize: 14,
-                    lineNumbers: "on",
-                    scrollBeyondLastLine: false,
-                    automaticLayout: true,
-                    wordWrap: "on",
-                    padding: { top: 20 },
-                  }}
-                />
-              </div>
-            ) : (
-              <div className="relative border border-gray-200 rounded-2xl p-6 bg-white min-h-[500px]">
-                {cssFile && (
-                  <link
-                    rel="stylesheet"
-                    href={`/uploads/css/${cssFile}`}
-                  />
-                )}
-                <div
-                  ref={inlinePreviewRef}
-                  contentEditable
-                  suppressContentEditableWarning
-                  onInput={handleInlineInput}
-                  className="p-8 max-w-none cursor-text min-h-[600px] custom-page-content outline-none focus:ring-1 focus:ring-indigo-500/30"
-                />
-                {inlineIcons.map((icon) => (
-                  <button
-                    key={icon.id}
-                    onClick={() => openInlinePicker(icon.el)}
-                    style={{
-                      top: `${icon.top + 10}px`,
-                      left: `${icon.left + 10}px`,
-                    }}
-                    className="absolute z-20 bg-indigo-600 text-white rounded-full p-2 shadow-lg hover:scale-110 transition-transform"
-                    title="Change Media"
-                  >
-                    🖼️
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className="bg-gray-50 p-6 border-t border-gray-100 flex justify-between items-center">
-            <span className="text-xs text-gray-400">
-              💡 Tip: Saving automatically registers the page in Sitemap and SEO metadata.
-            </span>
-            <div className="flex gap-3">
-              <button
-                onClick={resetPageForm}
-                className="px-6 py-2.5 rounded-xl text-gray-500 font-bold hover:bg-gray-200 transition"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={selectedId ? handlePageUpdate : handlePageCreate}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-2.5 rounded-xl font-bold transition shadow-lg shadow-indigo-100"
-              >
-                {selectedId ? "Update Page" : "Publish Page"}
-              </button>
-            </div>
           </div>
         </div>
       )}
@@ -848,262 +338,256 @@ export default function CustomPageAdmin() {
 
                     <div className="p-4 bg-blue-50/60 border border-blue-100 rounded-2xl">
                       <div className="flex items-center gap-2 text-blue-800 font-bold text-sm mb-1">
-                        <span>🔍</span> SEO &amp; Schema Extraction
+                        <span>⚡</span> Auto Title &amp; Slug Extraction
                       </div>
                       <p className="text-xs text-blue-900/80 leading-relaxed">
-                        Extracts <code className="font-mono">&lt;title&gt;</code>, <code className="font-mono">&lt;meta description&gt;</code>, and <code className="font-mono">&lt;script type="application/ld+json"&gt;</code> schema into the database.
+                        Detects <code className="font-mono">&lt;title&gt;</code> tags and converts filenames like <code className="font-mono">web-design.html</code> into clean, URL-friendly routes like <code className="font-mono">/web-design</code> with duplicate collision handling.
                       </p>
                     </div>
 
                     <div className="p-4 bg-purple-50/60 border border-purple-100 rounded-2xl">
                       <div className="flex items-center gap-2 text-purple-800 font-bold text-sm mb-1">
-                        <span>🌐</span> XML Sitemap Auto-Sync
+                        <span>🔍</span> SEO &amp; Sitemap Registration
                       </div>
                       <p className="text-xs text-purple-900/80 leading-relaxed">
-                        Instantly registers the page in <code className="font-mono">/sitemap.xml</code> with accurate URL, priority, and lastmod timestamp. Updates or removes when edited or deleted.
+                        Extracts meta descriptions, keywords, OpenGraph tags, and canonical tags into the centralized SEO manager, and updates <code className="font-mono">/sitemap.xml</code> with zero manual steps.
                       </p>
                     </div>
 
                     <div className="p-4 bg-amber-50/60 border border-amber-100 rounded-2xl">
                       <div className="flex items-center gap-2 text-amber-800 font-bold text-sm mb-1">
-                        <span>🎨</span> CSS &amp; Font Extraction
+                        <span>🎨</span> CSS &amp; Inline Script Retention
                       </div>
                       <p className="text-xs text-amber-900/80 leading-relaxed">
-                        Extracts <code className="font-mono">&lt;style&gt;</code> blocks into CSS Manager stylesheets and preserves external Google Fonts links so styles render 100% true to design.
+                        Preserves <code className="font-mono">&lt;style&gt;</code> blocks, custom classes, animations, and scripts so your uploaded HTML renders faithfully.
                       </p>
                     </div>
                   </div>
                 </>
               ) : (
-                /* Result View */
-                <div className="space-y-6">
-                  <div className="p-6 bg-emerald-50 border border-emerald-200 rounded-3xl text-center">
-                    <div className="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center text-3xl mx-auto mb-3 shadow-md shadow-emerald-200">
-                      ✓
+                /* Results screen */
+                <div className="space-y-4">
+                  <div className="p-5 bg-emerald-50 border border-emerald-200 rounded-2xl flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-2xl shrink-0">
+                      ✅
                     </div>
-                    <h3 className="text-xl font-extrabold text-emerald-900">
-                      Bulk Upload Successful!
-                    </h3>
-                    <p className="text-sm text-emerald-700 mt-1">
-                      Processed <strong>{bulkResult.totalPages}</strong> custom page(s) and extracted{" "}
-                      <strong>{bulkResult.imagesExtracted}</strong> image asset(s).
-                    </p>
+                    <div>
+                      <h4 className="font-bold text-emerald-900 text-base">
+                        Bulk Processing Complete!
+                      </h4>
+                      <p className="text-xs text-emerald-700 mt-0.5">
+                        Processed {bulkResult.summary?.totalFiles || 0} file(s) &bull;{" "}
+                        {bulkResult.summary?.createdCount || 0} created &bull;{" "}
+                        {bulkResult.summary?.updatedCount || 0} updated &bull;{" "}
+                        {bulkResult.summary?.imagesCount || 0} images mapped
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="border border-gray-100 rounded-2xl overflow-hidden shadow-sm bg-white">
-                    <div className="p-4 bg-gray-50/60 border-b border-gray-100 font-bold text-xs text-gray-500 uppercase tracking-wider">
-                      Processed Pages
-                    </div>
-                    <div className="divide-y divide-gray-100 max-h-72 overflow-y-auto">
-                      {bulkResult.pages?.map((p, idx) => (
-                        <div key={idx} className="p-4 flex items-center justify-between gap-4">
-                          <div className="min-w-0">
-                            <h4 className="font-bold text-sm text-gray-800 truncate">
-                              {p.title}
-                            </h4>
-                            <div className="flex flex-wrap items-center gap-2 mt-1">
-                              <span className="font-mono text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">
-                                /{p.slug}
-                              </span>
-                              <span className="text-[10px] bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded font-bold">
-                                🌐 Sitemap Synced
-                              </span>
-                              {p.hasSeo && (
-                                <span className="text-[10px] bg-blue-50 text-blue-700 px-2 py-0.5 rounded font-bold">
-                                  🔍 SEO Ready
-                                </span>
-                              )}
-                              {p.hasScript && (
-                                <span className="text-[10px] bg-purple-50 text-purple-700 px-2 py-0.5 rounded font-bold">
-                                  📜 Schema Synced
-                                </span>
-                              )}
-                              {p.hasCss && (
-                                <span className="text-[10px] bg-amber-50 text-amber-700 px-2 py-0.5 rounded font-bold">
-                                  🎨 CSS Linked
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                          <a
-                            href={`/${p.slug}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-indigo-50 hover:bg-indigo-100 text-indigo-700 px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1 shrink-0"
-                          >
-                            View Live ↗
-                          </a>
+                  <div className="border border-gray-200 rounded-2xl overflow-hidden divide-y divide-gray-100 max-h-80 overflow-y-auto">
+                    {bulkResult.results?.map((res, i) => (
+                      <div
+                        key={i}
+                        className={`p-3.5 flex items-center justify-between text-xs ${
+                          res.status === "created"
+                            ? "bg-white"
+                            : res.status === "updated"
+                              ? "bg-blue-50/30"
+                              : "bg-red-50/30"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 truncate max-w-[70%]">
+                          <span>
+                            {res.status === "created"
+                              ? "🟢"
+                              : res.status === "updated"
+                                ? "🔵"
+                                : "🔴"}
+                          </span>
+                          <span className="font-bold text-gray-800 truncate">
+                            {res.title || res.fileName}
+                          </span>
+                          {res.slug && (
+                            <span className="font-mono text-gray-400 text-[11px]">
+                              /{res.slug}
+                            </span>
+                          )}
                         </div>
-                      ))}
-                    </div>
+                        <div className="flex items-center gap-2">
+                          {res.imagesCount !== undefined && (
+                            <span className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded font-mono">
+                              {res.imagesCount} imgs
+                            </span>
+                          )}
+                          {res.status === "failed" ? (
+                            <span className="text-red-600 font-medium">
+                              {res.error || "Failed"}
+                            </span>
+                          ) : (
+                            <a
+                              href={`/${res.slug}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-indigo-600 hover:underline font-bold"
+                            >
+                              Open Page ↗
+                            </a>
+                          )}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
             </div>
 
             {/* Modal Footer */}
-            <div className="p-6 border-t border-gray-100 bg-gray-50/60 flex justify-end gap-3">
-              {!bulkResult ? (
-                <>
-                  <button
-                    onClick={() => setShowBulkModal(false)}
-                    disabled={bulkUploading}
-                    className="px-6 py-2.5 rounded-xl text-gray-500 font-bold hover:bg-gray-200 transition text-sm disabled:opacity-50"
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    onClick={handleBulkSubmit}
-                    disabled={bulkUploading || bulkFiles.length === 0}
-                    className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-2.5 rounded-xl font-bold transition shadow-lg shadow-emerald-100 text-sm flex items-center gap-2 disabled:opacity-50"
-                  >
-                    {bulkUploading ? (
-                      <>
-                        <div className="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></div>
-                        Processing ZIP &amp; Syncing...
-                      </>
-                    ) : (
-                      <>
-                        <span>🚀</span> Upload &amp; Sync Pages
-                      </>
-                    )}
-                  </button>
-                </>
-              ) : (
-                <>
-                  <button
-                    onClick={() => {
-                      setBulkResult(null);
-                      setBulkFiles([]);
-                      setBulkError("");
-                    }}
-                    className="px-6 py-2.5 rounded-xl text-gray-600 font-bold hover:bg-gray-200 transition text-sm"
-                  >
-                    Upload Another Batch
-                  </button>
-                  <button
-                    onClick={() => {
-                      setShowBulkModal(false);
-                      setBulkResult(null);
-                      setBulkFiles([]);
-                    }}
-                    className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-2.5 rounded-xl font-bold transition text-sm shadow-md shadow-emerald-100"
-                  >
-                    Done &amp; Close
-                  </button>
-                </>
+            <div className="p-4 border-t border-gray-100 flex justify-end gap-3 bg-gray-50/50">
+              <button
+                type="button"
+                onClick={() => setShowBulkModal(false)}
+                className="px-5 py-2.5 rounded-xl border border-gray-200 text-gray-600 font-bold hover:bg-gray-100 transition text-xs"
+              >
+                {bulkResult ? "Done" : "Cancel"}
+              </button>
+              {!bulkResult && (
+                <button
+                  type="button"
+                  onClick={handleBulkSubmit}
+                  disabled={bulkUploading || bulkFiles.length === 0}
+                  className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white font-bold text-xs px-6 py-2.5 rounded-xl transition shadow-md shadow-emerald-100 flex items-center gap-2"
+                >
+                  {bulkUploading ? (
+                    <>
+                      <div className="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                      <span>Extracting &amp; Syncing...</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>🚀</span>
+                      <span>
+                        Upload &amp; Process {bulkFiles.length > 0 ? `(${bulkFiles.length})` : ""}
+                      </span>
+                    </>
+                  )}
+                </button>
               )}
             </div>
           </div>
         </div>
       )}
 
-      {/* Custom Pages & CSS Files Table */}
+      {/* Pages / CSS Table */}
       <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
-        <table className="w-full text-left border-collapse">
-          <thead>
-            <tr className="bg-gray-50/80 border-b border-gray-100 text-xs font-bold text-gray-500 uppercase tracking-wider">
-              <th className="p-4 px-6">ID</th>
-              <th className="p-4">Title &amp; Created</th>
-              <th className="p-4">Slug &amp; Sitemap URL</th>
-              <th className="p-4">SEO &amp; Styles</th>
-              <th className="p-4 text-right pr-8">Actions</th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-gray-50">
-            {view === "pages"
-              ? pages.map((page) => (
-                  <tr
-                    key={page.id}
-                    className="hover:bg-gray-50/50 transition-all group"
-                  >
-                    <td className="p-4 px-6 text-gray-400 font-mono text-xs">
-                      #{page.id}
-                    </td>
-                    <td className="p-4">
-                      <div className="font-bold text-gray-800">
-                        {page.title}
-                      </div>
-                      <div className="text-[10px] text-gray-400 mt-0.5">
-                        {new Date(page.createdAt).toLocaleDateString()}
-                      </div>
-                    </td>
-                    <td className="p-4 whitespace-nowrap min-w-[180px]">
-                      <div className="flex items-center gap-2">
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="bg-gray-50 text-gray-600 font-bold text-xs uppercase tracking-wider border-b border-gray-100">
+                <th className="p-4 px-6">{view === "pages" ? "#" : "Type"}</th>
+                <th className="p-4">{view === "pages" ? "Page Title" : "File Name"}</th>
+                <th className="p-4">{view === "pages" ? "Slug / URL" : "Path"}</th>
+                <th className="p-4">{view === "pages" ? "Styles & SEO" : "Status"}</th>
+                <th className="p-4 text-right pr-6">Actions</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {loading ? (
+                <tr>
+                  <td colSpan="5" className="p-8 text-center text-gray-400">
+                    Loading {view === "pages" ? "pages" : "CSS files"}...
+                  </td>
+                </tr>
+              ) : view === "pages" ? (
+                pages.length > 0 ? (
+                  pages.map((p, index) => (
+                    <tr
+                      key={p.id}
+                      className="hover:bg-indigo-50/20 transition-all group"
+                    >
+                      <td className="p-4 px-6 font-mono text-xs text-gray-400">
+                        {(page - 1) * limit + index + 1}
+                      </td>
+                      <td className="p-4 font-bold text-gray-800">
+                        <Link
+                          href={`/admin/dashboard/custom-page/edit/${p.id}`}
+                          className="hover:text-indigo-600 transition"
+                        >
+                          {p.title}
+                        </Link>
+                      </td>
+                      <td className="p-4 text-xs font-mono text-gray-500">
                         <a
-                          href={`/${page.slug}`}
+                          href={`/${p.slug}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="font-mono text-xs text-indigo-600 font-semibold hover:underline"
+                          className="text-indigo-600 hover:underline"
                         >
-                          /{page.slug} ↗
+                          /{p.slug}
                         </a>
-                      </div>
-                      <div className="flex items-center gap-1 mt-1 text-[10px] text-emerald-600 font-medium">
-                        <span>🌐</span> In XML Sitemap
-                      </div>
-                    </td>
-                    <td className="p-4 whitespace-nowrap min-w-[200px]">
-                      <div className="flex flex-wrap items-center gap-1.5">
-                        <span
-                          className={`text-[10px] px-2 py-0.5 rounded-md font-bold ${
-                            page.cssFile
-                              ? "bg-blue-50 text-blue-600 border border-blue-100"
-                              : "bg-gray-100 text-gray-400"
-                          }`}
+                      </td>
+                      <td className="p-4">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span
+                            className={`text-[10px] px-2 py-0.5 rounded-md font-bold ${
+                              p.cssFile
+                                ? "bg-blue-50 text-blue-600 border border-blue-100"
+                                : "bg-gray-100 text-gray-400"
+                            }`}
+                          >
+                            {p.cssFile ? `🎨 ${p.cssFile}` : "Inline CSS"}
+                          </span>
+                          <span className="text-[10px] px-2 py-0.5 rounded-md font-bold bg-purple-50 text-purple-600 border border-purple-100">
+                            🔍 SEO Synced
+                          </span>
+                        </div>
+                      </td>
+                      <td className="p-4 text-right space-x-1.5 pr-6 whitespace-nowrap">
+                        <a
+                          href={`/${p.slug}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-600 hover:text-indigo-600 font-semibold text-xs bg-gray-100 hover:bg-gray-200 px-2.5 py-1 rounded-lg inline-block transition"
                         >
-                          {page.cssFile ? `🎨 ${page.cssFile}` : "Inline CSS"}
-                        </span>
-                        <span className="text-[10px] px-2 py-0.5 rounded-md font-bold bg-purple-50 text-purple-600 border border-purple-100">
-                          🔍 SEO Synced
-                        </span>
-                      </div>
-                    </td>
-                    <td className="p-4 text-right space-x-1.5 pr-6 whitespace-nowrap">
-                      <a
-                        href={`/${page.slug}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-indigo-600 font-semibold text-xs bg-gray-100 hover:bg-gray-200 px-2.5 py-1 rounded-lg inline-block transition"
-                      >
-                        View
-                      </a>
-                      <button
-                        onClick={() => {
-                          setSelectedId(page.id);
-                          setTitle(page.title);
-                          setSlug(page.slug);
-                          setContent(page.content);
-                          setCssFile(page.cssFile || "");
-                          setShowPageForm(true);
-                        }}
-                        className="text-indigo-600 hover:text-indigo-800 font-semibold text-xs bg-indigo-50 hover:bg-indigo-100 px-2.5 py-1 rounded-lg transition cursor-pointer"
-                      >
-                        Edit
-                      </button>
-                      <button
-                        onClick={async () => {
-                          if (
-                            confirm(
-                              `Delete page "/${page.slug}"?\n\nThis will automatically remove this page from /sitemap.xml and delete its SEO metadata.`
-                            )
-                          ) {
-                            await deleteCustomPage(page.id);
-                            if (pages.length === 1 && page > 1) {
-                              setPage(page - 1);
-                            } else {
-                              fetchData(page);
+                          View ↗
+                        </a>
+                        <Link
+                          href={`/admin/dashboard/custom-page/edit/${p.id}`}
+                          className="text-indigo-600 hover:text-indigo-800 font-semibold text-xs bg-indigo-50 hover:bg-indigo-100 px-2.5 py-1 rounded-lg transition inline-block cursor-pointer"
+                        >
+                          Edit
+                        </Link>
+                        <button
+                          onClick={async () => {
+                            if (
+                              confirm(
+                                `Delete page "/${p.slug}"?\n\nThis will automatically remove this page from /sitemap.xml and delete its SEO metadata.`
+                              )
+                            ) {
+                              await deleteCustomPage(p.id);
+                              if (pages.length === 1 && page > 1) {
+                                setPage(page - 1);
+                              } else {
+                                fetchData(page);
+                              }
                             }
-                          }
-                        }}
-                        className="text-red-500 hover:text-red-700 font-semibold text-xs bg-red-50 hover:bg-red-100 px-2.5 py-1 rounded-lg transition cursor-pointer"
-                      >
-                        Delete
-                      </button>
+                          }}
+                          className="text-red-500 hover:text-red-700 font-semibold text-xs bg-red-50 hover:bg-red-100 px-2.5 py-1 rounded-lg transition cursor-pointer"
+                        >
+                          Delete
+                        </button>
+                      </td>
+                    </tr>
+                  ))
+                ) : (
+                  <tr>
+                    <td colSpan="5" className="p-12 text-center text-gray-400 font-medium">
+                      <span className="text-3xl block mb-2">📄</span>
+                      No custom pages found. Click "Bulk Upload" or "Create Page" to get started!
                     </td>
                   </tr>
-                ))
-              : cssFiles.map((file) => (
+                )
+              ) : cssFiles.length > 0 ? (
+                cssFiles.map((file) => (
                   <tr key={file} className="hover:bg-gray-50 transition-all">
                     <td className="p-4 px-6 text-gray-400 font-mono text-xs">
                       CSS
@@ -1136,9 +620,18 @@ export default function CustomPageAdmin() {
                       </button>
                     </td>
                   </tr>
-                ))}
-          </tbody>
-        </table>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="5" className="p-12 text-center text-gray-400 font-medium">
+                    <span className="text-3xl block mb-2">🎨</span>
+                    No CSS files found. Click "Create CSS" to add one!
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
         {view === "pages" && (
           <Pagination
             currentPage={page}
@@ -1148,46 +641,7 @@ export default function CustomPageAdmin() {
             onPageChange={setPage}
           />
         )}
-        {(view === "pages" ? pages : cssFiles).length === 0 && (
-          <div className="p-12 text-center text-gray-400 font-medium">
-            <span className="text-3xl block mb-2">📄</span>
-            No {view === "pages" ? "custom pages" : "CSS files"} found. Click "Bulk Page Upload" or "Create Page" to get started!
-          </div>
-        )}
       </div>
-
-      <MediaPicker
-        isOpen={isPickerOpen}
-        onClose={() => setIsPickerOpen(false)}
-        onSelect={handleImageSelect}
-      />
-
-      <style jsx>{`
-        @keyframes slideUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-        .animate-slideUp {
-          animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .animate-fadeIn {
-          animation: fadeIn 0.3s ease-out;
-        }
-      `}</style>
     </div>
   );
 }

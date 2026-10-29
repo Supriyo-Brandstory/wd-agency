@@ -65,3 +65,14 @@ export async function getTemplateCategories(page = null, limit = 10) {
     }
     return await db.templateCategory.findMany({ orderBy: { id: "desc" } });
 }
+
+export async function getTemplateCategoryById(id) {
+    try {
+        return await db.templateCategory.findUnique({
+            where: { id: Number(id) },
+        });
+    } catch (error) {
+        console.error("Error fetching template category by ID:", error);
+        throw new Error("Failed to fetch template category by ID");
+    }
+}

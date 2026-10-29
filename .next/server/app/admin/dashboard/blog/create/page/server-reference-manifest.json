@@ -1,0 +1,29 @@
+{
+  "node": {
+    "405bbe6883d8db72b7516a28c198a7668684345c89": {
+      "workers": {
+        "app/admin/dashboard/blog/create/page": {
+          "moduleId": 322632,
+          "async": false,
+          "exportedName": "createBlog",
+          "filename": "src/app/admin/dashboard/blog/actions.js"
+        }
+      },
+      "exportedName": "createBlog",
+      "filename": "src/app/admin/dashboard/blog/actions.js"
+    },
+    "6007f35ba4e350da02ab1027d007a05a3604c9475e": {
+      "workers": {
+        "app/admin/dashboard/blog/create/page": {
+          "moduleId": 322632,
+          "async": false,
+          "exportedName": "getBlogCategories",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "exportedName": "getBlogCategories",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}

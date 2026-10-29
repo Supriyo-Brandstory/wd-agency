@@ -1,0 +1,29 @@
+{
+  "node": {
+    "40d4b4491bd4fde2dc338c4b38c2319775d536d7dc": {
+      "workers": {
+        "app/admin/dashboard/template/create/page": {
+          "moduleId": 644720,
+          "async": false,
+          "exportedName": "createTemplate",
+          "filename": "src/app/admin/dashboard/template/actions.js"
+        }
+      },
+      "exportedName": "createTemplate",
+      "filename": "src/app/admin/dashboard/template/actions.js"
+    },
+    "6080b3a6fde174e90a768ffd420be5a1df9687d4de": {
+      "workers": {
+        "app/admin/dashboard/template/create/page": {
+          "moduleId": 644720,
+          "async": false,
+          "exportedName": "getTemplateCategories",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "exportedName": "getTemplateCategories",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

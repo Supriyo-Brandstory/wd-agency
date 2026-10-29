@@ -2,1633 +2,1523 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
-    <title>The Definitive Enterprise Web Development Guide Dubai 2026 | High-Performance Engineering</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Master enterprise web development in Dubai, UAE. Comprehensive architectural guide covering headless systems, sub-second edge speeds, bilingual RTL engineering, TDRA compliance, and custom scalable platforms.">
-    <link rel="canonical" href="https://websitedevelopmentagency.ae/enterprise-web-development-dubai-guide/">
-
-    <!-- Google Fonts (Exact Match with Home Page Layout System) -->
+        content="WD Agency builds fast, scalable, conversion-focused websites for ambitious businesses in Dubai and across the UAE.">
+    <title>Website Development Agency Dubai | WD Agency</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
 
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Enterprise Custom Web Development Services in Dubai",
-        "provider": {
-          "@type": "Organization",
-          "name": "Website Development Agency",
-          "url": "https://websitedevelopmentagency.ae",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Downtown Dubai & Business Bay",
-            "addressLocality": "Dubai",
-            "addressRegion": "Dubai",
-            "addressCountry": "AE"
-          }
-        },
-        "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "UAE", "GCC"],
-        "description": "Full-lifecycle enterprise web engineering, headless CMS architecture, bespoke web portal development, and high-conversion digital experiences tailored for Dubai and the GCC market."
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Why do modern businesses in Dubai need custom web architecture instead of templates?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Dubai is one of the world's most competitive digital economies. Off-the-shelf templates carry bloated code, slow server response times, vulnerability backdoors, and rigid design limitations. Custom engineering delivers sub-second load times, tailor-made user journeys, seamless ERP/CRM integrations, and superior technical SEO rankings that templates simply cannot match."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does your agency guarantee sub-second page speeds in the UAE?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We deploy edge-rendered architectures using Next.js and React with server-side generation (SSG) and incremental static regeneration (ISR), combined with Cloudflare regional Edge CDN nodes in Dubai and UAE, image optimization pipelines (WebP/AVIF), and zero third-party blocking scripts."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How is bilingual (Arabic & English) support engineered?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We build native bi-directional design systems. Arabic is rendered with native Right-to-Left (RTL) typography, adjusted padding, flipped directional queues, and culturally localized UI elements, paired with correct hreflang tags for Google UAE indexing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What security compliance standards do your web applications adhere to?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "All platforms follow OWASP Top 10 security standards, UAE TDRA & DESC data handling best practices, strict Content Security Policies (CSP), automated SSL/TLS encryption, database encryption at rest (AES-256), and enterprise Cloudflare Web Application Firewall (WAF) protection."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the typical investment range and timeline for an enterprise custom website in Dubai?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "High-impact custom marketing platforms and landing funnels launch in 2 to 3 weeks. Comprehensive enterprise portals, headless eCommerce, and multi-tenant SaaS applications range from 4 to 8 weeks. We provide milestone-based pricing with transparent scope documentation and zero hidden maintenance fees."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can your team integrate with our existing ERP, CRM, and UAE payment gateways?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We possess deep experience integrating with Salesforce, HubSpot, Zoho, SAP, Microsoft Dynamics, and UAE payment gateways including Network International, Telr, Stripe, Checkout.com, and Apple Pay."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide post-launch support and Service Level Agreements (SLA)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, we offer guaranteed 24/7/365 uptime monitoring, sub-1-hour emergency response SLAs, automated weekly security patches, continuous performance optimizations, and dedicated account management under our Annual Maintenance Contracts (AMC)."
-            }
-          }
-        ]
-      }
-    ]
-    </script>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0A0B0F;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-    <link rel="stylesheet" href="https://websitedevelopmentagency.ae/uploads/css/ai-template-1.css">
+        /* All styles are scoped to this template. */
+        .wd-landing-page {
+            --wd-bg: #0A0B0F;
+            --wd-panel: #11131A;
+            --wd-panel-2: #171923;
+            --wd-text: #F7F7FB;
+            --wd-muted: #A8A9B8;
+            --wd-pink: #E83E8C;
+            --wd-violet: #855BFF;
+            --wd-line: rgba(255, 255, 255, .12);
+            --wd-radius: 22px;
+            background: var(--wd-bg);
+            color: var(--wd-text);
+            font-family: Inter, "Hanken Grotesk", Arial, sans-serif;
+            line-height: 1.65;
+            overflow: hidden;
+            isolation: isolate;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
+        .wd-landing-page * {
+            box-sizing: border-box;
+        }
+
+        .wd-landing-page img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .wd-landing-page a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .wd-landing-page button,
+        .wd-landing-page input,
+        .wd-landing-page textarea {
+            font: inherit;
+        }
+
+        .wd-landing-page .wd-container {
+            width: 100%;
+            max-width: 87%;
+            margin-inline: auto;
+        }
+
+        .wd-landing-page .wd-section {
+            padding: 96px 0;
+            position: relative;
+        }
+
+        .wd-landing-page .wd-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            margin: 0 0 18px;
+            color: #F3A0C8;
+            font-size: .78rem;
+            font-weight: 800;
+            letter-spacing: .15em;
+            text-transform: uppercase;
+        }
+
+        .wd-landing-page .wd-eyebrow::before {
+            content: "";
+            width: 24px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--wd-pink), var(--wd-violet));
+        }
+
+        .wd-landing-page h1,
+        .wd-landing-page h2,
+        .wd-landing-page h3,
+        .wd-landing-page p {
+            margin-top: 0;
+        }
+
+        .wd-landing-page p,
+        .wd-landing-page li,
+        .wd-landing-page span:not(.wd-gradient-text):not(.wd-mini-lines span):not(.wd-dashboard-foot span):not(h1 span):not(h2 span):not(h3 span):not(h4 span) {
+            font-size: 16px;
+            line-height: 1.65;
+        }
+
+        .wd-landing-page h1 {
+            line-height: 1.12;
+            letter-spacing: -.04em;
+            max-width: 760px;
+            margin-bottom: 24px;
+        }
+
+        .wd-landing-page h2 {
+            margin-bottom: 20px;
+        }
+
+        .wd-landing-page h3 {
+            margin-bottom: 12px;
+        }
+
+        .wd-landing-page .wd-gradient-text {
+            background: linear-gradient(100deg, #fff 0%, #F39AC5 48%, #A996FF 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .wd-landing-page .wd-lead {
+            color: var(--wd-muted);
+            font-size: 16px;
+            max-width: 700px;
+        }
+
+        .wd-landing-page .wd-section-head {
+            margin-bottom: 42px;
+        }
+
+        .wd-landing-page .wd-section-head p {
+            color: var(--wd-muted);
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .wd-landing-page .wd-btn-row {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+        }
+
+        .wd-landing-page .wd-btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            min-height: 52px;
+            padding: 13px 22px;
+            border: 1px solid transparent;
+            border-radius: 999px;
+            font-weight: 800;
+            transition: transform .25s ease, border-color .25s ease, background .25s ease;
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .wd-landing-page .wd-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .wd-landing-page .wd-btn-primary {
+            color: #fff;
+            background: linear-gradient(110deg, var(--wd-pink), var(--wd-violet));
+            box-shadow: 0 10px 35px rgba(232, 62, 140, .18);
+        }
+
+        .wd-landing-page .wd-btn-secondary {
+            border-color: var(--wd-line);
+            background: rgba(255, 255, 255, .035);
+        }
+
+        .wd-landing-page .wd-hero {
+            padding: 100px 0 74px;
+            position: relative;
+            background: radial-gradient(ellipse at 78% 24%, rgba(133, 91, 255, .18), transparent 35%),
+                radial-gradient(ellipse at 15% 65%, rgba(232, 62, 140, .12), transparent 33%);
+        }
+
+        .wd-landing-page .wd-hero-grid {
+            display: grid;
+            grid-template-columns: 1.04fr .96fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .wd-landing-page .wd-hero-copy {
+            position: relative;
+            z-index: 1;
+        }
+
+        .wd-landing-page .wd-hero-copy .wd-lead {
+            max-width: 620px;
+        }
+
+        .wd-landing-page .wd-proof-line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-top: 28px;
+            color: #D5D5E0;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-proof-line span {
+            display: inline-flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-proof-line span::before {
+            content: "✓";
+            color: #F39AC5;
+            font-weight: 900;
+        }
+
+        .wd-landing-page .wd-visual {
+            min-height: 460px;
+            border: 1px solid rgba(255, 255, 255, .14);
+            border-radius: 28px;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(145deg, rgba(255, 255, 255, .09), rgba(255, 255, 255, .018));
+            box-shadow: 0 30px 100px rgba(0, 0, 0, .3);
+        }
+
+        .wd-landing-page .wd-visual::before,
+        .wd-landing-page .wd-visual::after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(1px);
+            pointer-events: none;
+        }
+
+        .wd-landing-page .wd-visual::before {
+            width: 240px;
+            height: 240px;
+            background: rgba(232, 62, 140, .25);
+            top: 55px;
+            right: -70px;
+        }
+
+        .wd-landing-page .wd-visual::after {
+            width: 260px;
+            height: 260px;
+            background: rgba(133, 91, 255, .24);
+            bottom: -90px;
+            left: -50px;
+        }
+
+        .wd-landing-page .wd-browser {
+            position: relative;
+            z-index: 1;
+            border: 1px solid rgba(255, 255, 255, .16);
+            border-radius: 18px;
+            overflow: hidden;
+            background: #0E1017;
+            transform: rotate(-2deg);
+        }
+
+        .wd-landing-page .wd-browser-bar {
+            display: flex;
+            gap: 6px;
+            padding: 13px 15px;
+            border-bottom: 1px solid var(--wd-line);
+        }
+
+        .wd-landing-page .wd-browser-bar i {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #555766;
+        }
+
+        .wd-landing-page .wd-browser-body {
+            padding: 26px;
+        }
+
+        .wd-landing-page .wd-mini-label {
+            color: #EAA4C8;
+            font-size: .65rem;
+            letter-spacing: .14em;
+            font-weight: 800;
+        }
+
+        .wd-landing-page .wd-mini-title {
+            font-size: clamp(1.45rem, 3vw, 2.35rem);
+            line-height: 1.08;
+            letter-spacing: -.05em;
+            font-weight: 850;
+            margin: 10px 0 14px;
+            max-width: 340px;
+        }
+
+        .wd-landing-page .wd-mini-lines {
+            display: grid;
+            gap: 7px;
+            margin: 18px 0;
+        }
+
+        .wd-landing-page .wd-mini-lines span {
+            height: 5px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, .12);
+        }
+
+        .wd-landing-page .wd-mini-lines span:nth-child(1) {
+            width: 94%;
+        }
+
+        .wd-landing-page .wd-mini-lines span:nth-child(2) {
+            width: 77%;
+        }
+
+        .wd-landing-page .wd-mini-lines span:nth-child(3) {
+            width: 59%;
+        }
+
+        .wd-landing-page .wd-mini-cta {
+            width: 105px;
+            height: 27px;
+            border-radius: 7px;
+            background: linear-gradient(90deg, var(--wd-pink), var(--wd-violet));
+        }
+
+        .wd-landing-page .wd-mini-panels {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        .wd-landing-page .wd-mini-panels div {
+            min-height: 82px;
+            border-radius: 10px;
+            border: 1px solid var(--wd-line);
+            background: linear-gradient(135deg, rgba(232, 62, 140, .12), rgba(133, 91, 255, .12));
+        }
+
+        .wd-landing-page .wd-float-card {
+            position: absolute;
+            z-index: 2;
+            right: 8px;
+            bottom: 26px;
+            padding: 15px 18px;
+            max-width: 180px;
+            border: 1px solid var(--wd-line);
+            border-radius: 16px;
+            background: #171923;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, .28);
+        }
+
+        .wd-landing-page .wd-float-card strong {
+            display: block;
+            font-size: 1.4rem;
+        }
+
+        .wd-landing-page .wd-float-card small {
+            color: var(--wd-muted);
+        }
+
+        .wd-landing-page .wd-stats {
+            border-block: 1px solid var(--wd-line);
+            background: rgba(255, 255, 255, .018);
+        }
+
+        .wd-landing-page .wd-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .wd-landing-page .wd-stat {
+            padding: 28px 22px;
+            border-right: 1px solid var(--wd-line);
+        }
+
+        .wd-landing-page .wd-stat:first-child {
+            padding-left: 0;
+        }
+
+        .wd-landing-page .wd-stat:last-child {
+            border-right: 0;
+        }
+
+        .wd-landing-page .wd-stat strong {
+            display: block;
+            font-size: clamp(1.7rem, 3vw, 2.6rem);
+            line-height: 1.1;
+            letter-spacing: -.05em;
+        }
+
+        .wd-landing-page .wd-stat span {
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .wd-landing-page .wd-copy p {
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-check-list {
+            display: grid;
+            gap: 13px;
+            padding: 0;
+            margin: 25px 0 0;
+            list-style: none;
+        }
+
+        .wd-landing-page .wd-check-list li {
+            display: flex;
+            gap: 12px;
+            color: #E3E3EB;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-check-list li::before {
+            content: "↗";
+            color: #F08DBB;
+            font-weight: 900;
+        }
+
+        .wd-landing-page .wd-art-panel {
+            min-height: 390px;
+            position: relative;
+            padding: 28px;
+            overflow: hidden;
+            border-radius: var(--wd-radius);
+            background: linear-gradient(135deg, rgba(232, 62, 140, .14), rgba(133, 91, 255, .15)), var(--wd-panel);
+            border: 1px solid var(--wd-line);
+        }
+
+        .wd-landing-page .wd-art-panel .wd-art-orbit {
+            position: absolute;
+            width: 270px;
+            height: 270px;
+            border: 1px solid rgba(255, 255, 255, .22);
+            border-radius: 50%;
+            right: 6%;
+            top: 13%;
+        }
+
+        .wd-landing-page .wd-art-panel .wd-art-orbit::before,
+        .wd-landing-page .wd-art-panel .wd-art-orbit::after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .wd-landing-page .wd-art-panel .wd-art-orbit::before {
+            inset: 30px;
+            border: 1px dashed rgba(255, 255, 255, .2);
+        }
+
+        .wd-landing-page .wd-art-panel .wd-art-orbit::after {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, var(--wd-pink), var(--wd-violet));
+            top: 55px;
+            left: 90px;
+            box-shadow: 0 0 70px rgba(232, 62, 140, .35);
+        }
+
+        .wd-landing-page .wd-art-tag {
+            position: absolute;
+            padding: 12px 15px;
+            border-radius: 12px;
+            background: rgba(10, 11, 15, .78);
+            border: 1px solid var(--wd-line);
+            backdrop-filter: blur(8px);
+            font-weight: 750;
+        }
+
+        .wd-landing-page .wd-art-tag.one {
+            top: 28px;
+            left: 24px;
+        }
+
+        .wd-landing-page .wd-art-tag.two {
+            bottom: 35px;
+            left: 40px;
+        }
+
+        .wd-landing-page .wd-art-tag.three {
+            bottom: 65px;
+            right: 20px;
+        }
+
+        .wd-landing-page .wd-services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .wd-landing-page .wd-service-card {
+            padding: 27px;
+            min-height: 250px;
+            border: 1px solid var(--wd-line);
+            border-radius: 18px;
+            background: linear-gradient(145deg, rgba(255, 255, 255, .045), rgba(255, 255, 255, .012));
+            transition: transform .25s ease, border-color .25s ease;
+        }
+
+        .wd-landing-page .wd-service-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(232, 62, 140, .55);
+        }
+
+        .wd-landing-page .wd-icon {
+            display: grid;
+            place-items: center;
+            width: 47px;
+            height: 47px;
+            border-radius: 14px;
+            margin-bottom: 24px;
+            color: white;
+            font-size: 1.2rem;
+            background: linear-gradient(135deg, rgba(232, 62, 140, .28), rgba(133, 91, 255, .3));
+            border: 1px solid rgba(255, 255, 255, .1);
+        }
+
+        .wd-landing-page .wd-service-card p {
+            color: var(--wd-muted);
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        .wd-landing-page .wd-service-card a {
+            display: inline-block;
+            margin-top: 18px;
+            color: #F39AC5;
+            font-size: 16px;
+            font-weight: 800;
+        }
+
+        .wd-landing-page .wd-band {
+            background: #101119;
+            border-block: 1px solid rgba(255, 255, 255, .07);
+        }
+
+        .wd-landing-page .wd-process {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            margin-top: 38px;
+        }
+
+        .wd-landing-page .wd-step {
+            position: relative;
+            padding: 25px 24px 20px 0;
+        }
+
+        .wd-landing-page .wd-step:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 42px;
+            left: 58px;
+            right: 12px;
+            height: 1px;
+            background: linear-gradient(90deg, var(--wd-pink), rgba(133, 91, 255, .12));
+        }
+
+        .wd-landing-page .wd-step-number {
+            width: 42px;
+            height: 42px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            border: 1px solid rgba(232, 62, 140, .6);
+            background: #171923;
+            color: #F5A0C8;
+            font-weight: 850;
+            margin-bottom: 26px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .wd-landing-page .wd-step p {
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-feature {
+            border: 1px solid var(--wd-line);
+            border-radius: 26px;
+            overflow: hidden;
+            background: #12131B;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .wd-landing-page .wd-feature-copy {
+            padding: clamp(28px, 5vw, 58px);
+        }
+
+        .wd-landing-page .wd-feature-copy p {
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-feature-visual {
+            min-height: 360px;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at 50% 50%, rgba(133, 91, 255, .25), transparent 50%), linear-gradient(135deg, rgba(232, 62, 140, .15), rgba(133, 91, 255, .1));
+        }
+
+        .wd-landing-page .wd-dashboard {
+            width: 100%;
+            max-width: 390px;
+            padding: 20px;
+            border-radius: 18px;
+            background: #0B0C12;
+            border: 1px solid var(--wd-line);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .3);
+        }
+
+        .wd-landing-page .wd-dashboard-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            color: #DCDDFF;
+            font-size: .8rem;
+        }
+
+        .wd-landing-page .wd-bars {
+            height: 130px;
+            display: flex;
+            align-items: end;
+            gap: 9px;
+            padding: 12px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, .03);
+        }
+
+        .wd-landing-page .wd-bars i {
+            flex: 1;
+            border-radius: 5px 5px 2px 2px;
+            background: linear-gradient(180deg, var(--wd-pink), var(--wd-violet));
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(1) {
+            height: 32%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(2) {
+            height: 48%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(3) {
+            height: 40%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(4) {
+            height: 66%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(5) {
+            height: 59%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(6) {
+            height: 82%;
+        }
+
+        .wd-landing-page .wd-bars i:nth-child(7) {
+            height: 96%;
+        }
+
+        .wd-landing-page .wd-dashboard-foot {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .wd-landing-page .wd-dashboard-foot span {
+            flex: 1;
+            height: 35px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, .06);
+        }
+
+        .wd-landing-page .wd-industry-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .wd-landing-page .wd-industry {
+            padding: 20px;
+            min-height: 110px;
+            border: 1px solid var(--wd-line);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, .025);
+        }
+
+        .wd-landing-page .wd-industry span {
+            color: #F39AC5;
+            font-size: 1.15rem;
+        }
+
+        .wd-landing-page .wd-industry strong {
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-compare-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--wd-line);
+            border-radius: 18px;
+        }
+
+        .wd-landing-page .wd-compare {
+            width: 100%;
+            min-width: 620px;
+            border-collapse: collapse;
+        }
+
+        .wd-landing-page .wd-compare th,
+        .wd-landing-page .wd-compare td {
+            padding: 18px 22px;
+            text-align: left;
+            border-bottom: 1px solid var(--wd-line);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-compare th {
+            background: rgba(133, 91, 255, .12);
+            color: #F5C0DB;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-compare td {
+            color: #D6D6E1;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-compare tr:last-child td {
+            border-bottom: 0;
+        }
+
+        .wd-landing-page .wd-faq-grid {
+            display: grid;
+            grid-template-columns: .75fr 1.25fr;
+            gap: 55px;
+            align-items: start;
+        }
+
+        .wd-landing-page .wd-faq-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .wd-landing-page .wd-faq-item {
+            border: 1px solid var(--wd-line);
+            border-radius: 14px;
+            background: rgba(255, 255, 255, .025);
+            overflow: hidden;
+        }
+
+        .wd-landing-page .wd-faq-item summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 20px 52px 20px 20px;
+            font-weight: 800;
+            position: relative;
+        }
+
+        .wd-landing-page .wd-faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .wd-landing-page .wd-faq-item summary::after {
+            content: "+";
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 1.5rem;
+            color: #F39AC5;
+        }
+
+        .wd-landing-page .wd-faq-item[open] summary::after {
+            content: "−";
+        }
+
+        .wd-landing-page .wd-faq-answer,
+        .wd-landing-page .wd-faq-answer p {
+            padding: 0 20px 20px;
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-final-cta {
+            padding: clamp(35px, 7vw, 78px);
+            border-radius: 28px;
+            border: 1px solid rgba(255, 255, 255, .16);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            background: radial-gradient(ellipse at 20% 20%, rgba(232, 62, 140, .2), transparent 45%), radial-gradient(ellipse at 85% 80%, rgba(133, 91, 255, .25), transparent 40%), #12131B;
+        }
+
+        .wd-landing-page .wd-final-cta h2 {
+            max-width: 780px;
+            margin-inline: auto;
+        }
+
+        .wd-landing-page .wd-final-cta p {
+            max-width: 650px;
+            margin: 0 auto;
+            color: var(--wd-muted);
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-final-cta .wd-btn-row {
+            justify-content: center;
+        }
+
+        .wd-landing-page .wd-small-note {
+            margin-top: 18px;
+            color: #8F90A0;
+            font-size: 16px;
+        }
+
+        .wd-landing-page .wd-reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .6s ease, transform .6s ease;
+        }
+
+        .wd-landing-page .wd-reveal.wd-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .wd-landing-page *,
+            .wd-landing-page *::before,
+            .wd-landing-page *::after {
+                scroll-behavior: auto !important;
+                animation: none !important;
+                transition: none !important;
+            }
+
+            .wd-landing-page .wd-reveal {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        @media (max-width: 900px) {
+
+            .wd-landing-page .wd-hero-grid,
+            .wd-landing-page .wd-two-col,
+            .wd-landing-page .wd-feature,
+            .wd-landing-page .wd-faq-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .wd-landing-page .wd-hero {
+                padding-top: 75px;
+            }
+
+            .wd-landing-page .wd-visual {
+                min-height: 400px;
+            }
+
+            .wd-landing-page .wd-services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .wd-landing-page .wd-industry-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .wd-landing-page .wd-process {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 18px;
+            }
+
+            .wd-landing-page .wd-step:not(:last-child)::after {
+                display: none;
+            }
+
+            .wd-landing-page .wd-stat {
+                padding-inline: 14px;
+            }
+
+            .wd-landing-page .wd-stat:first-child {
+                padding-left: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .wd-landing-page .wd-container {
+                width: 100%;
+            }
+
+            .wd-landing-page .wd-section {
+                padding: 68px 0;
+            }
+
+            .wd-landing-page .wd-hero {
+                padding: 64px 0 50px;
+            }
+
+
+
+            .wd-landing-page .wd-btn-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .wd-landing-page .wd-btn {
+                width: 100%;
+            }
+
+            .wd-landing-page .wd-visual {
+                min-height: 340px;
+                padding: 14px;
+            }
+
+            .wd-landing-page .wd-browser-body {
+                padding: 19px;
+            }
+
+            .wd-landing-page .wd-float-card {
+                right: 8px;
+                bottom: 12px;
+            }
+
+            .wd-landing-page .wd-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .wd-landing-page .wd-stat {
+                border-bottom: 1px solid var(--wd-line);
+                padding: 20px 12px;
+            }
+
+            .wd-landing-page .wd-stat:nth-child(2) {
+                border-right: 0;
+            }
+
+            .wd-landing-page .wd-stat:nth-child(3),
+            .wd-landing-page .wd-stat:nth-child(4) {
+                border-bottom: 0;
+            }
+
+            .wd-landing-page .wd-services-grid,
+            .wd-landing-page .wd-process {
+                grid-template-columns: 1fr;
+            }
+
+            .wd-landing-page .wd-service-card {
+                min-height: auto;
+            }
+
+            .wd-landing-page .wd-art-panel {
+                min-height: 320px;
+            }
+
+            .wd-landing-page .wd-art-panel .wd-art-orbit {
+                width: 220px;
+                height: 220px;
+                right: 5%;
+                top: 15%;
+            }
+
+            .wd-landing-page .wd-art-panel .wd-art-orbit::after {
+                top: 45px;
+                left: 65px;
+            }
+
+            .wd-landing-page .wd-art-tag.three {
+                right: 10px;
+                bottom: 30px;
+            }
+
+            .wd-landing-page .wd-industry-list {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .wd-landing-page .wd-industry {
+                padding: 15px;
+                min-height: 100px;
+            }
+
+            .wd-landing-page .wd-feature-visual {
+                min-height: 280px;
+                padding: 20px;
+            }
+
+            .wd-landing-page .wd-final-cta {
+                border-radius: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
-    <!-- Hero Banner Section -->
-    <section class="hero-banner">
-        <div class="page-container">
-            <div class="hero-content-center">
-                <div class="badge-pill">
-                    <span class="badge-dot"></span>
-                    Dubai's Premier Custom Web Engineering Agency
+    <main class="wd-landing-page">
+        <!-- 1. Hero -->
+        <section class="wd-hero">
+            <div class="wd-container wd-hero-grid">
+                <div class="wd-hero-copy">
+                    <p class="wd-eyebrow">Website Development · Dubai, UAE</p>
+                    <h1>Websites built to <span class="wd-gradient-text">move your business forward.</span></h1>
+                    <p class="wd-lead">Your website should do more than look good. WD Agency creates strategic,
+                        high-performing digital experiences that help businesses earn trust, explain their value, and
+                        turn visitors into customers.</p>
+                    <div class="wd-btn-row">
+                        <a class="wd-btn wd-btn-primary" href="#wd-contact">Discuss Your Project <span
+                                aria-hidden="true">↗</span></a>
+                        <a class="wd-btn wd-btn-secondary" href="#wd-services">Explore Our Services <span
+                                aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="wd-proof-line">
+                        <span>Responsive-first design</span><span>SEO-ready foundations</span><span>Built around your
+                            goals</span>
+                    </div>
                 </div>
-
-                <h1>
-                    Engineering The Next Generation of in Dubai.
-                </h1>
-
-                <p class="hero-lead">
-                    An exhaustive architectural guide to enterprise web engineering, headless digital portals, and
-                    conversion-optimized web applications. Purpose-built for UAE corporations, luxury conglomerates, and
-                    high-growth ventures.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#market-landscape" class="btn-primary">
-                        Explore Technical Blueprint
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                    <a href="#engineering-process" class="btn-secondary">
-                        Engineering Process
-                    </a>
-                </div>
-
-                <!-- 4 Performance Metric Counters -->
-                <div class="hero-counters-grid">
-                    <div class="counter-card">
-                        <div class="counter-number">&lt; 0.4s</div>
-                        <div class="counter-label">Core TTFB &amp; Edge Latency</div>
+                <div class="wd-visual" aria-label="Abstract website interface illustration">
+                    <div class="wd-browser">
+                        <div class="wd-browser-bar"><i></i><i></i><i></i></div>
+                        <div class="wd-browser-body">
+                            <span class="wd-mini-label">DIGITAL EXPERIENCE / 01</span>
+                            <div class="wd-mini-title">Make your next big move online.</div>
+                            <div class="wd-mini-lines"><span></span><span></span><span></span></div>
+                            <div class="wd-mini-cta"></div>
+                            <div class="wd-mini-panels">
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="counter-card">
-                        <div class="counter-number">99.8%</div>
-                        <div class="counter-label">Lighthouse Performance</div>
-                    </div>
-                    <div class="counter-card">
-                        <div class="counter-number">12+ Yrs</div>
-                        <div class="counter-label">UAE Enterprise Experience</div>
-                    </div>
-                    <div class="counter-card">
-                        <div class="counter-number">100%</div>
-                        <div class="counter-label">Native RTL &amp; LTR Fidelity</div>
-                    </div>
+                    <div class="wd-float-card"><strong>Built with purpose</strong><small>Design · Technology ·
+                            Growth</small></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SECTION 1: Dubai Digital Market Landscape -->
-    <section class="content-section bordered" id="market-landscape">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Market Reality &bull; UAE 2026</div>
-                <h2>The High Cost of Legacy Templates in Dubai's Digital Economy</h2>
-                <p>
-                    Why forward-thinking enterprises across Dubai, Abu Dhabi, and the GCC are abandoning monolithic
-                    templates in favor of custom, headless, and edge-rendered web platforms.
-                </p>
+        <!-- 2. Stats / value bar -->
+        <section class="wd-stats" aria-label="Our approach">
+            <div class="wd-container wd-stats-grid">
+                <div class="wd-stat"><strong>01</strong><span>Strategy before pixels</span></div>
+                <div class="wd-stat"><strong>02</strong><span>Mobile-first experiences</span></div>
+                <div class="wd-stat"><strong>03</strong><span>Performance-conscious build</span></div>
+                <div class="wd-stat"><strong>04</strong><span>Support beyond launch</span></div>
             </div>
+        </section>
 
-            <div class="grid-2-col" style="align-items: stretch; margin-bottom: 40px;">
-                <div class="content-card-lg">
-                    <h3
-                        style="color: #f87171; font-size: 22px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2.5">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="15" y1="9" x2="9" y2="15"></line>
-                            <line x1="9" y1="9" x2="15" y2="15"></line>
-                        </svg>
-                        The Pitfalls of Traditional Templates
-                    </h3>
-                    <p style="font-size: 16px; line-height: 1.75; margin-bottom: 18px;">
-                        Pre-fabricated themes carry tens of unneeded plugins, render-blocking scripts, and redundant CSS
-                        stylesheets. In testing across 100 Dubai websites, generic themes averaged <strong>4.8
-                            seconds</strong> on mobile 4G networks—costing businesses up to <strong>53% of incoming paid
-                            ad clicks</strong> before the first pixel rendered.
-                    </p>
-                    <ul style="list-style: none; padding: 0; font-size: 16px; color: var(--text-body);">
-                        <li style="margin-bottom: 10px;">❌ Frequent plugin conflicts and broken updates</li>
-                        <li style="margin-bottom: 10px;">❌ Vulnerability exploits due to outdated open-source plugins
-                        </li>
-                        <li style="margin-bottom: 10px;">❌ Forced layouts that fail to properly support Arabic
-                            typography</li>
+        <!-- 3. Intro -->
+        <section class="wd-section">
+            <div class="wd-container wd-two-col">
+                <div class="wd-copy wd-reveal">
+                    <p class="wd-eyebrow">A smarter digital foundation</p>
+                    <h2>More than a website. <span class="wd-gradient-text">A better way to grow.</span></h2>
+                    <p>A strong website brings your brand, message, and customer journey together. It helps people
+                        understand what you do, why it matters, and what they should do next—without friction or
+                        confusion.</p>
+                    <p>We combine thoughtful user experience, purposeful design, and dependable development to create
+                        websites that are useful for real people and practical for your team to manage.</p>
+                    <ul class="wd-check-list">
+                        <li>Clear messaging and intuitive navigation</li>
+                        <li>Flexible layouts for every screen size</li>
+                        <li>Technical foundations that support search visibility</li>
+                        <li>Conversion paths aligned with business goals</li>
                     </ul>
                 </div>
-
-                <div class="content-card-lg">
-                    <h3
-                        style="color: #e83e8c; font-size: 22px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2.5">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="16 12 12 8 8 12"></polyline>
-                            <line x1="12" y1="16" x2="12" y2="8"></line>
-                        </svg>
-                        The Custom Engineering Advantage
-                    </h3>
-                    <p style="font-size: 16px; line-height: 1.75; margin-bottom: 18px;">
-                        Custom-engineered platforms load only the exact code required for each view. Leveraging modern
-                        micro-frontends, edge computing, and tailored API layers, your application achieves
-                        <strong>sub-400ms load times</strong>, razor-sharp Arabic/English layouts, and impenetrable
-                        security posture.
-                    </p>
-                    <ul style="list-style: none; padding: 0; font-size: 16px; color: var(--text-highlight);">
-                        <li style="margin-bottom: 10px;">✅ Instant page transitions with zero layout shift (CLS: 0.0)
-                        </li>
-                        <li style="margin-bottom: 10px;">✅ Complete design uniqueness aligned with your brand identity
-                        </li>
-                        <li style="margin-bottom: 10px;">✅ Seamless 2-way sync with ERP, CRM, and localized payments
-                        </li>
-                    </ul>
+                <div class="wd-art-panel wd-reveal" aria-label="Abstract digital strategy illustration">
+                    <div class="wd-art-orbit"></div>
+                    <div class="wd-art-tag one">Strategy first</div>
+                    <div class="wd-art-tag two">Designed for people</div>
+                    <div class="wd-art-tag three">Ready to scale ↗</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SECTION 2: 6 Architectural Pillars -->
-    <section class="content-section bordered" id="core-capabilities">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Engineering Modules</div>
-                <h2>Six Architectural Pillars of Enterprise Web Platforms</h2>
-                <p>
-                    Every web application we deliver is engineered across six core technical competencies to deliver
-                    continuous uptime, blistering speed, and commercial conversions.
-                </p>
+        <!-- 4. Services -->
+        <section class="wd-section wd-band" id="wd-services">
+            <div class="wd-container">
+                <div class="wd-section-head wd-reveal">
+                    <p class="wd-eyebrow">What we build</p>
+                    <h2>Digital solutions for your <span class="wd-gradient-text">next stage.</span></h2>
+                    <p>Choose the right starting point for your business. Each solution is shaped around your audience,
+                        objectives, content, and future plans.</p>
+                </div>
+                <div class="wd-services-grid">
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">✳</div>
+                        <h3>Business Website Development</h3>
+                        <p>Build a confident online presence with a clear structure, purposeful pages, and a
+                            professional experience that represents your brand.</p><a href="#wd-contact">Discuss your
+                            website ↗</a>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">◈</div>
+                        <h3>E-commerce Development</h3>
+                        <p>Create a smoother shopping journey with considered product pages, intuitive browsing, and a
+                            checkout experience designed to reduce friction.</p><a href="#wd-contact">Plan your store
+                            ↗</a>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">⌘</div>
+                        <h3>Custom Web Development</h3>
+                        <p>Turn complex requirements into tailored web solutions, from custom functionality to
+                            integrations that fit the way your business operates.</p><a href="#wd-contact">Explore
+                            custom builds ↗</a>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">▧</div>
+                        <h3>Landing Pages</h3>
+                        <p>Give campaigns a focused destination with compelling content hierarchy, clear calls to
+                            action, and a consistent message from ad to page.</p><a href="#wd-contact">Create a landing
+                            page ↗</a>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">↗</div>
+                        <h3>Website Redesign</h3>
+                        <p>Refresh an outdated experience with improved usability, stronger content structure,
+                            responsive layouts, and a more contemporary visual system.</p><a href="#wd-contact">Improve
+                            your website ↗</a>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">⚙</div>
+                        <h3>CMS & Website Maintenance</h3>
+                        <p>Make content updates easier and keep your website maintainable with practical CMS workflows,
+                            fixes, improvements, and ongoing care.</p><a href="#wd-contact">Talk about support ↗</a>
+                    </article>
+                </div>
             </div>
+        </section>
 
-            <div class="pillars-grid">
-                <!-- Pillar 1 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                            <polyline points="2 17 12 22 22 17"></polyline>
-                            <polyline points="2 12 12 17 22 12"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Headless &amp; Jamstack Architecture</h3>
-                    <p>Decoupled frontend rendering powered by Next.js and React, connected via GraphQL and REST to
-                        modular content backends.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Instant Edge Caching globally</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Omnichannel API content syndication</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Zero database attack vector on client</li>
-                    </ul>
+        <!-- 5. Why WD Agency -->
+        <section class="wd-section">
+            <div class="wd-container wd-two-col">
+                <div class="wd-art-panel wd-reveal" aria-label="Abstract user experience illustration">
+                    <div class="wd-art-orbit"></div>
+                    <div class="wd-art-tag one">Useful by design</div>
+                    <div class="wd-art-tag two">Fast to understand</div>
+                    <div class="wd-art-tag three">Built to evolve</div>
                 </div>
-
-                <!-- Pillar 2 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon"
-                        style="background: rgba(139, 92, 246, 0.12); border-color: rgba(139, 92, 246, 0.35); color: #c084fc;">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
-                            <line x1="4" y1="22" x2="4" y2="15"></line>
-                        </svg>
-                    </div>
-                    <h3>Native Arabic &amp; English RTL Systems</h3>
-                    <p>Meticulously crafted bi-directional typography, micro-interactions, and visual balance customized
-                        specifically for Gulf audiences.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Perfect Arabic ligature typography</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Automated layout mirroring with Logical CSS</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Correct Hreflang indexing for Google UAE</li>
-                    </ul>
-                </div>
-
-                <!-- Pillar 3 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon"
-                        style="background: rgb(232 63 139 / 9%); border-color: rgba(16, 185, 129, 0.35); color: #e83e8c;">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="9" cy="21" r="1"></circle>
-                            <circle cx="20" cy="21" r="1"></circle>
-                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                        </svg>
-                    </div>
-                    <h3>High-Volume Commerce &amp; Checkouts</h3>
-                    <p>Frictionless multi-currency checkouts engineered for maximum average order value (AOV) and
-                        instantaneous transaction completion.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Integrated UAE Gateways (Network, Telr, Stripe)</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> 1-Click Apple Pay &amp; Tabby/Tamara BNPL</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Automated ERP stock &amp; tax invoicing</li>
-                    </ul>
-                </div>
-
-                <!-- Pillar 4 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon"
-                        style="background: rgba(245, 158, 11, 0.12); border-color: rgba(245, 158, 11, 0.35); color: #fbbf24;">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <h3>TDRA &amp; Cloud Security Standards</h3>
-                    <p>Enterprise data encryption, regular vulnerability assessments, and DDoS defense configured to
-                        protect customer telemetry.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Zero Trust authentication &amp; RBAC</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Cloudflare Enterprise WAF protection</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Automated daily encrypted cloud backups</li>
-                    </ul>
-                </div>
-
-                <!-- Pillar 5 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon"
-                        style="background: rgba(6, 182, 212, 0.12); border-color: rgba(6, 182, 212, 0.35); color: #22d3ee;">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="2" y1="12" x2="22" y2="12"></line>
-                            <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3>Technical SEO &amp; Rich Schema Graph</h3>
-                    <p>Clean HTML semantic hierarchies, dynamic XML sitemaps, JSON-LD Schema markup, and Core Web Vitals
-                        green scores.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> First-party Canonical indexing sync</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Pre-rendered metadata for social cards</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Automatic Google Discover readiness</li>
-                    </ul>
-                </div>
-
-                <!-- Pillar 6 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon"
-                        style="background: rgba(236, 72, 153, 0.12); border-color: rgba(236, 72, 153, 0.35); color: #f472b6;">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Custom CRM, ERP &amp; API Integration</h3>
-                    <p>Bespoke middleware webhooks and synchronization pipelines connecting your web presence directly
-                        to your operational back-office.</p>
-                    <ul class="pillar-bullets">
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Real-time lead ingestion into HubSpot/Zoho</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Custom inventory and booking reconciliation</li>
-                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="3">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg> Automated WhatsApp notifications &amp; SMS</li>
+                <div class="wd-copy wd-reveal">
+                    <p class="wd-eyebrow">Why WD Agency</p>
+                    <h2>Every decision has a <span class="wd-gradient-text">reason.</span></h2>
+                    <p>Good digital work is not about adding more effects or filling every space. It is about making the
+                        important things easier to find, understand, and act on.</p>
+                    <ul class="wd-check-list">
+                        <li><strong>Business-led planning:</strong>&nbsp; pages are organised around what your visitors
+                            need.</li>
+                        <li><strong>Consistent brand experience:</strong>&nbsp; visual choices support your identity
+                            instead of distracting from it.</li>
+                        <li><strong>Responsive by default:</strong>&nbsp; layouts adapt to mobile, tablet, laptop, and
+                            large screens.</li>
+                        <li><strong>Maintainable development:</strong>&nbsp; clean structure makes future updates more
+                            manageable.</li>
+                        <li><strong>Search-friendly foundations:</strong>&nbsp; semantic content, sensible page
+                            structure, and performance awareness.</li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 1: Interactive ROI & Total Cost of Ownership (TCO) Calculator Matrix -->
-    <section class="content-section bordered" id="section-roi-calculator">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Commercial Feasibility</div>
-                <h2>Interactive ROI &amp; Total Cost of Ownership (TCO) Matrix</h2>
-                <p>
-                    Evaluate how investing in custom web architecture directly impacts your bottom line, customer
-                    acquisition costs (CAC), and operational scalability over a 36-month horizon.
-                </p>
-            </div>
-
-            <div class="grid-2-col" style="align-items: stretch;">
-                <div class="content-card-lg"
-                    style="display: flex; flex-direction: column; justify-content: space-between;">
-                    <div>
-                        <div
-                            style="font-size: 16px; font-weight: 800; color: #fbbf24; text-transform: uppercase; margin-bottom: 10px;">
-                            The Hidden Waste of Templates</div>
-                        <h3 style="font-size: 24px; color: #ffffff; margin-bottom: 16px;">What Slow Sites Cost in the
-                            UAE</h3>
-                        <p style="font-size: 16px; line-height: 1.75; margin-bottom: 20px;">
-                            For a business spending AED 50,000 monthly on Google and Meta Ads, a 3-second load delay
-                            leads to an immediate <strong>38% drop in form conversions</strong>. Over 3 years, that
-                            equates to over <strong>AED 684,000</strong> in squandered ad spend alone.
-                        </p>
-                    </div>
-                    <div
-                        style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: var(--radius-md); padding: 22px;">
-                        <div style="font-size: 16px; font-weight: 800; color: #f87171; margin-bottom: 6px;">Average
-                            3-Year Template Loss:</div>
-                        <div style="font-size: 32px; font-weight: 900; color: #ffffff; font-family: var(--font-title);">
-                            - AED 684,000+</div>
-                        <div style="font-size: 16px; color: #cbd5e1; margin-top: 4px;">Loss in bounced ad traffic,
-                            plugin maintenance, and lost enterprise leads.</div>
-                    </div>
+        <!-- 6. Process -->
+        <section class="wd-section wd-band">
+            <div class="wd-container">
+                <div class="wd-section-head wd-reveal">
+                    <p class="wd-eyebrow">How we work</p>
+                    <h2>A clear process from <span class="wd-gradient-text">first idea to launch.</span></h2>
+                    <p>You should always know what is happening, why it matters, and what comes next. Our process keeps
+                        decisions visible and progress purposeful.</p>
                 </div>
-
-                <div class="content-card-lg"
-                    style="display: flex; flex-direction: column; justify-content: space-between;">
-                    <div>
-                        <div
-                            style="font-size: 16px; font-weight: 800; color: #e83e8c; text-transform: uppercase; margin-bottom: 10px;">
-                            The Custom Architecture Return</div>
-                        <h3 style="font-size: 24px; color: #ffffff; margin-bottom: 16px;">Measurable Commercial Returns
-                        </h3>
-                        <p style="font-size: 16px; line-height: 1.75; margin-bottom: 20px;">
-                            By achieving sub-400ms page load speeds and intuitive localized user journeys, our clients
-                            experience an average <strong>+64% increase in organic lead inquiries</strong> and a
-                            <strong>28% reduction in Customer Acquisition Cost (CAC)</strong> within the first 90 days
-                            of deployment.
-                        </p>
-                    </div>
-                    <div
-                        style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: var(--radius-md); padding: 22px;">
-                        <div style="font-size: 16px; font-weight: 800; color: #e83e8c; margin-bottom: 6px;">Client
-                            Projected 3-Year Net Gain:</div>
-                        <div style="font-size: 32px; font-weight: 900; color: #ffffff; font-family: var(--font-title);">
-                            + 340% ROI</div>
-                        <div style="font-size: 16px; color: #cbd5e1; margin-top: 4px;">Higher conversion rates, lower
-                            server overhead, and dominant SEO positions.</div>
-                    </div>
+                <div class="wd-process">
+                    <article class="wd-step wd-reveal">
+                        <div class="wd-step-number">01</div>
+                        <h3>Discover</h3>
+                        <p>We learn about your business, audience, competitors, goals, content, and technical
+                            requirements before defining the project direction.</p>
+                    </article>
+                    <article class="wd-step wd-reveal">
+                        <div class="wd-step-number">02</div>
+                        <h3>Design</h3>
+                        <p>We shape the page structure, user journey, visual direction, and responsive layouts so the
+                            experience feels clear and cohesive.</p>
+                    </article>
+                    <article class="wd-step wd-reveal">
+                        <div class="wd-step-number">03</div>
+                        <h3>Develop</h3>
+                        <p>We turn approved designs into a functional website, integrating the required content
+                            management and business features.</p>
+                    </article>
+                    <article class="wd-step wd-reveal">
+                        <div class="wd-step-number">04</div>
+                        <h3>Test & launch</h3>
+                        <p>We review key screens, links, forms, responsiveness, and technical basics before launch and
+                            handover.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 2: Cloud Infrastructure & Regional Edge Architecture -->
-    <section class="content-section bordered" id="section-edge-cloud">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Cloud Topology</div>
-                <h2>Regional UAE Edge Infrastructure &amp; Zero Latency</h2>
-                <p>
-                    How our regional cloud deployment topology in Dubai and the GCC eliminates network hops,
-                    guaranteeing rapid content delivery to users in Dubai, Abu Dhabi, Riyadh, and Doha.
-                </p>
-            </div>
-
-            <div class="grid-3-col">
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 14px;">⚡</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">Dubai Local Edge Points of
-                        Presence</h3>
-                    <p style="font-size: 16px; color: var(--text-body); line-height: 1.7;">
-                        Assets and server-rendered HTML payloads are cached directly in regional Dubai and UAE data
-                        centers, cutting round-trip latency to less than <strong>25 milliseconds</strong> for domestic
-                        visitors.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 14px;">🛡️</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">Automatic Multi-Zone Failover</h3>
-                    <p style="font-size: 16px; color: var(--text-body); line-height: 1.7;">
-                        Redundant availability zones across AWS Middle East (UAE me-central-1) guarantee that your web
-                        applications remain online 24/7/365 with automated health checking and zero downtime.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 14px;">📦</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">Brotli &amp; AVIF Auto-Compression
-                    </h3>
-                    <p style="font-size: 16px; color: var(--text-body); line-height: 1.7;">
-                        Modern asset compression pipelines automatically compress assets by up to <strong>78%</strong>
-                        over standard Gzip, saving mobile bandwidth for users traveling across the Gulf region.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Table 1: UAE Cloud Edge Architecture & Latency Benchmark Matrix -->
-            <div style="margin-top: 40px;">
-                <div class="table-header-flex">
-                    <div>
-                        <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 6px;">UAE Cloud Edge Architecture
-                            &amp; Latency Matrix</h3>
-                        <p style="font-size: 16px; color: var(--text-muted);">Real-world response metrics benchmarked
-                            across UAE regional telecom carriers (e&amp; / du).</p>
-                    </div>
-                    <span class="badge-table-blue">Verified via RTT Synthetic Edge Testing</span>
-                </div>
-
-                <div class="comparison-table-wrap">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th style="width: 25%;">Infrastructure Provider</th>
-                                <th style="width: 20%;">Domestic Latency (UAE)</th>
-                                <th style="width: 20%;">Data Sovereignty</th>
-                                <th style="width: 15%;">Uptime SLA</th>
-                                <th style="width: 20%;">Optimal Workload</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">Cloudflare Dubai Edge PoP</div>
-                                    <div class="feature-cell-sub">Global CDN with DXB Tier 3 Interconnect</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">&lt; 12ms Average</span>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">DESC Tier-Aligned</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">100% Edge SLA</strong>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Static Assets, SSR Cache &amp; WAF
-                                    Defense</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">AWS UAE (me-central-1)</div>
-                                    <div class="feature-cell-sub">Three In-Country Availability Zones</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">&lt; 18ms Average</span>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">UAE Law 45 Compliant</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">99.99% Multi-AZ</strong>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Next.js Node Core &amp;
-                                    Microservices</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">Microsoft Azure UAE North</div>
-                                    <div class="feature-cell-sub">Dubai Enterprise Data Center Hub</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-purple">&lt; 22ms Average</span>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Gov &amp; Banking Certified</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">99.95% Zone-Redundant</strong>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Enterprise Dynamics &amp; SAP
-                                    Systems</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">Generic US / EU Hosting</div>
-                                    <div class="feature-cell-sub">Unoptimized Shared / Cheap VPS</div>
-                                </td>
-                                <td>
-                                    <span class="badge-generic">180ms - 275ms Lag</span>
-                                </td>
-                                <td>
-                                    <span class="badge-generic">Non-Compliant Off-Shore</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #f87171; font-size: 16px;">99.0% Unreliable</strong>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-muted);">Basic Hobby Sites Only</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- NEW SECTION 3: Microservices vs Monolithic Enterprise Breakdown -->
-    <section class="content-section bordered" id="section-microservices">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">System Architecture</div>
-                <h2>Decoupled Microservices vs. Monolithic Web Portals</h2>
-                <p>
-                    Discover why decoupling your customer-facing web interface from backend business logic creates a
-                    future-proof foundation capable of scaling indefinitely without system refactoring.
-                </p>
-            </div>
-
-            <div class="content-card-lg" style="margin-bottom: 30px;">
-                <div class="grid-2-col" style="gap: 32px;">
-                    <div>
-                        <h3 style="font-size: 24px; color: #ff70b0; margin-bottom: 14px;">The Microservices Paradigm
-                        </h3>
-                        <p style="font-size: 16px; line-height: 1.75; margin-bottom: 18px;">
-                            In a decoupled architecture, your frontend UI runs as an independent high-speed application
-                            that communicates with your CMS, payment engines, and internal CRM via secure GraphQL and
-                            REST APIs. Updating your product catalog or changing payment gateways never risks breaking
-                            the customer-facing interface.
-                        </p>
-                        <ul style="list-style: none; padding: 0; font-size: 16px;">
-                            <li style="margin-bottom: 8px;">🔹 Independent CI/CD deployment pipelines</li>
-                            <li style="margin-bottom: 8px;">🔹 Zero risk of entire platform collapse during high traffic
-                            </li>
-                            <li style="margin-bottom: 8px;">🔹 Frontend developers can deploy UI revamps in minutes</li>
+        <!-- 7. Featured capability -->
+        <section class="wd-section">
+            <div class="wd-container">
+                <div class="wd-feature wd-reveal">
+                    <div class="wd-feature-copy">
+                        <p class="wd-eyebrow">Built for real-world use</p>
+                        <h2>Performance is part of the <span class="wd-gradient-text">experience.</span></h2>
+                        <p>A website that feels slow or confusing can interrupt a customer's journey. We consider page
+                            weight, layout stability, responsive behaviour, and clear interaction patterns throughout
+                            the build.</p>
+                        <p>Actual performance depends on content, hosting, integrations, and third-party scripts, so we
+                            test the finished implementation rather than promise an arbitrary score.</p>
+                        <ul class="wd-check-list">
+                            <li>Responsive image and asset planning</li>
+                            <li>Semantic HTML and accessible controls</li>
+                            <li>Thoughtful loading and interaction behaviour</li>
                         </ul>
                     </div>
-
-                    <div>
-                        <h3 style="font-size: 24px; color: #f87171; margin-bottom: 14px;">The Monolithic Bottleneck</h3>
-                        <p style="font-size: 16px; line-height: 1.75; margin-bottom: 18px;">
-                            Traditional monolithic CMS platforms couple the database, administrative panel, and
-                            user-facing HTML templates into a single codebase. A single database query delay or plugin
-                            error brings down the entire website, resulting in critical revenue losses.
-                        </p>
-                        <ul style="list-style: none; padding: 0; font-size: 16px; color: var(--text-muted);">
-                            <li style="margin-bottom: 8px;">❌ Heavy server CPU spikes during concurrent traffic surges
-                            </li>
-                            <li style="margin-bottom: 8px;">❌ Database locks that freeze checkouts and lead forms</li>
-                            <li style="margin-bottom: 8px;">❌ Inflexible upgrades requiring complete website rebuilds
-                            </li>
-                        </ul>
+                    <div class="wd-feature-visual">
+                        <div class="wd-dashboard">
+                            <div class="wd-dashboard-top"><strong>Experience overview</strong><span>● Live
+                                    concept</span></div>
+                            <div class="wd-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                            </div>
+                            <div class="wd-dashboard-foot"><span></span><span></span><span></span></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 4: Bilingual Arabic/English RTL Engineering Blueprint -->
-    <section class="content-section bordered" id="section-bilingual-blueprint">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Localization Science</div>
-                <h2>The Bilingual RTL/LTR Engineering Blueprint for UAE</h2>
-                <p>
-                    Engineering truly bilingual web portals in the UAE requires far more than automated translation. It
-                    demands native bi-directional typography, logical layout mirroring, and cultural UX adaptation.
-                </p>
-            </div>
-
-            <div class="grid-3-col">
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">1. CSS Logical Properties</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Instead of hardcoded <code>margin-left</code> or <code>float: left</code>, our code uses
-                        standard CSS Logical Properties (<code>margin-inline-start</code>, <code>inset-inline</code>).
-                        The browser mirrors the entire application seamlessly based on the active <code>dir="rtl"</code>
-                        attribute without duplicate CSS sheets.
-                    </p>
+        <!-- 8. Industries -->
+        <section class="wd-section wd-band">
+            <div class="wd-container">
+                <div class="wd-section-head wd-reveal">
+                    <p class="wd-eyebrow">Who we help</p>
+                    <h2>Web experiences for <span class="wd-gradient-text">different ambitions.</span></h2>
+                    <p>Every industry has its own audience expectations. We adapt content structure, key journeys, and
+                        functionality to the way your customers make decisions.</p>
                 </div>
-
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">2. Arabic Font Metrics</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Arabic scripts feature taller ascenders and deep descenders. We calibrate line-heights, baseline
-                        vertical alignments, and kerning specifically for modern Arabic typography, eliminating awkward
-                        line overlaps on mobile devices.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">3. Cultural Icon Reversal</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Back buttons, forward indicators, breadcrumbs, and timeline indicators must flip horizontally,
-                        while media playback controls, phone numbers, and brand trademarks must remain in standard
-                        direction. Our systems manage this logic automatically.
-                    </p>
+                <div class="wd-industry-list">
+                    <div class="wd-industry wd-reveal"><span>01 /</span><strong>Professional Services</strong></div>
+                    <div class="wd-industry wd-reveal"><span>02 /</span><strong>Real Estate</strong></div>
+                    <div class="wd-industry wd-reveal"><span>03 /</span><strong>Retail & E-commerce</strong></div>
+                    <div class="wd-industry wd-reveal"><span>04 /</span><strong>Healthcare</strong></div>
+                    <div class="wd-industry wd-reveal"><span>05 /</span><strong>Education</strong></div>
+                    <div class="wd-industry wd-reveal"><span>06 /</span><strong>Hospitality</strong></div>
+                    <div class="wd-industry wd-reveal"><span>07 /</span><strong>Technology & SaaS</strong></div>
+                    <div class="wd-industry wd-reveal"><span>08 /</span><strong>Startups & SMEs</strong></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 5: Core Web Vitals & Real-Time Performance Lab -->
-    <section class="content-section bordered" id="section-web-vitals">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Performance Benchmarking</div>
-                <h2>Google Core Web Vitals Optimization Lab</h2>
-                <p>
-                    Every millisecond counts. Review our actual production metrics and performance benchmarks validated
-                    under Google's Lighthouse and Chrome User Experience Report (CrUX).
-                </p>
-            </div>
-
-            <div class="grid-3-col">
-                <div class="content-card-lg">
-                    <div
-                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-                        <span style="font-size: 16px; font-weight: 800; color: #ffffff;">LCP (Largest Contentful
-                            Paint)</span>
-                        <span style="font-size: 18px; font-weight: 900; color: #e83e8c;">0.65s</span>
-                    </div>
-                    <div class="meter-container">
-                        <div class="meter-fill"></div>
-                    </div>
-                    <p style="font-size: 16px; color: var(--text-muted); margin-top: 12px;">
-                        Google's threshold for a "Good" rating is 2.5s. Our custom architecture renders in less than
-                        0.7s, delivering an instant visual impression.
-                    </p>
+        <!-- 9. Technology -->
+        <section class="wd-section">
+            <div class="wd-container wd-two-col">
+                <div class="wd-copy wd-reveal">
+                    <p class="wd-eyebrow">Technology that fits</p>
+                    <h2>The right stack for the <span class="wd-gradient-text">right job.</span></h2>
+                    <p>Technology should support the project—not complicate it. We consider content editing,
+                        integrations, future changes, security requirements, and the team's day-to-day workflow when
+                        choosing an approach.</p>
+                    <p>Depending on the brief, a project may use a CMS, a modern frontend framework, an e-commerce
+                        platform, or custom functionality. The final stack should match your actual requirements and
+                        maintenance plan.</p>
                 </div>
-
-                <div class="content-card-lg">
-                    <div
-                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-                        <span style="font-size: 16px; font-weight: 800; color: #ffffff;">INP (Interaction to Next
-                            Paint)</span>
-                        <span style="font-size: 18px; font-weight: 900; color: #e83e8c;">24ms</span>
-                    </div>
-                    <div class="meter-container">
-                        <div class="meter-fill" style="width: 96%;"></div>
-                    </div>
-                    <p style="font-size: 16px; color: var(--text-muted); margin-top: 12px;">
-                        Google allows up to 200ms. Our lightweight JavaScript hydration responds in just 24ms, providing
-                        instantaneous tactile feedback.
-                    </p>
-                </div>
-
-                <div class="content-card-lg">
-                    <div
-                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-                        <span style="font-size: 16px; font-weight: 800; color: #ffffff;">CLS (Cumulative Layout
-                            Shift)</span>
-                        <span style="font-size: 18px; font-weight: 900; color: #e83e8c;">0.00</span>
-                    </div>
-                    <div class="meter-container">
-                        <div class="meter-fill" style="width: 100%;"></div>
-                    </div>
-                    <p style="font-size: 16px; color: var(--text-muted); margin-top: 12px;">
-                        Zero unexpected content jumping or jarring visual movement while images and fonts finish loading
-                        in the background.
-                    </p>
+                <div class="wd-services-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));">
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">W</div>
+                        <h3>WordPress & CMS</h3>
+                        <p>For teams that need practical content publishing and manageable page updates.</p>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">N</div>
+                        <h3>Next.js</h3>
+                        <p>For custom digital experiences with flexible rendering and component-based development.</p>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">S</div>
+                        <h3>Shopify & E-commerce</h3>
+                        <p>For product catalogues, online stores, and connected shopping workflows.</p>
+                    </article>
+                    <article class="wd-service-card wd-reveal">
+                        <div class="wd-icon">⌘</div>
+                        <h3>Custom Integrations</h3>
+                        <p>For forms, CRM connections, APIs, and business-specific requirements.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 6: UAE Regulatory Compliance & TDRA Standards -->
-    <section class="content-section bordered" id="section-tdra-compliance">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Legal &amp; Privacy Mandates</div>
-                <h2>UAE TDRA Compliance &amp; Federal Data Sovereignty</h2>
-                <p>
-                    Ensuring strict adherence to UAE Federal Decree-Law No. 45 on Personal Data Protection (PDPL), Dubai
-                    Electronic Security Center (DESC) guidelines, and regional consent frameworks.
-                </p>
-            </div>
-
-            <div class="grid-2-col" style="gap: 24px;">
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">Data Residency &amp; Sovereignty
-                    </h3>
-                    <p style="font-size: 16px; line-height: 1.75; color: var(--text-body);">
-                        For government entities, healthcare clinics, and financial institutions in the UAE, user
-                        telemetry and sensitive transaction data must be stored within national borders. We configure
-                        data persistence using AWS Middle East (UAE) regions and localized encrypted databases.
-                    </p>
+        <!-- 10. Comparison -->
+        <section class="wd-section wd-band">
+            <div class="wd-container">
+                <div class="wd-section-head wd-reveal">
+                    <p class="wd-eyebrow">A considered investment</p>
+                    <h2>What a well-built website <span class="wd-gradient-text">should deliver.</span></h2>
+                    <p>Use this checklist to evaluate whether your current website supports your business—or whether it
+                        is creating unnecessary friction.</p>
                 </div>
-
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">First-Party Cookie Consent</h3>
-                    <p style="font-size: 16px; line-height: 1.75; color: var(--text-body);">
-                        Bilingual cookie consent management systems that comply with global GDPR and UAE PDPL without
-                        loading third-party tracking scripts that slow down page performance or expose client visitor
-                        data to unauthorized brokers.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- NEW SECTION 7: Enterprise eCommerce & Omnichannel Infrastructure -->
-    <section class="content-section bordered" id="section-ecommerce">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Commerce Engineering</div>
-                <h2>High-Volume eCommerce &amp; Omnichannel Checkouts</h2>
-                <p>
-                    From headless Shopify Plus architecture to custom multi-vendor marketplaces, we engineer resilient
-                    online shopping experiences with localized payment gateways and instant mobile checkout.
-                </p>
-            </div>
-
-            <div class="grid-3-col">
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">Regional Payment Gateways</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Native direct integration with Network International (N-Genius), Telr, Stripe UAE, Checkout.com,
-                        and CyberSource with support for 3D Secure 2.0 and automated tokenized refunds.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">BNPL (Tabby &amp; Tamara)</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Pre-integrated Buy Now Pay Later widgets embedded at product and cart levels to significantly
-                        raise Average Order Value (AOV) across the UAE and Saudi Arabia markets.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">ERP &amp; POS Inventory Sync</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Sub-second inventory synchronization between online storefronts and physical Dubai warehouse
-                        systems using webhooks with automated low-stock safety buffers.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Table 2: UAE Enterprise Payment Gateway & BNPL Integration Comparison -->
-            <div style="margin-top: 40px;">
-                <div class="table-header-flex">
-                    <div>
-                        <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 6px;">UAE Enterprise Payment Gateway
-                            &amp; Checkout Architecture</h3>
-                        <p style="font-size: 16px; color: var(--text-muted);">Direct technical comparison of UAE
-                            merchant acquiring engines and digital wallet integrations.</p>
-                    </div>
-                    <span class="badge-table-amber">UAE Central Bank &amp; PCI-DSS Level 1 Ready</span>
-                </div>
-
-                <div class="comparison-table-wrap">
-                    <table class="comparison-table">
+                <div class="wd-compare-wrap wd-reveal">
+                    <table class="wd-compare">
                         <thead>
                             <tr>
-                                <th style="width: 25%;">Payment Engine</th>
-                                <th style="width: 22%;">Local Payment Methods</th>
-                                <th style="width: 20%;">Security &amp; 3DS Protocol</th>
-                                <th style="width: 15%;">Settlement (UAE)</th>
-                                <th style="width: 18%;">Conversion Impact</th>
+                                <th>Area</th>
+                                <th>Common problem</th>
+                                <th>Better approach</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-                                    <div class="feature-cell-title">Network International (N-Genius)</div>
-                                    <div class="feature-cell-sub">UAE Direct Tier-1 Bank Acquirer</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Visa / MC / Apple Pay / mada</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">3DS 2.2 Frictionless</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Zero
-                                        biometric drop-off</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">T+1 Local Bank</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #e83e8c; font-size: 16px;">+28% UAE Checkout</strong>
-                                </td>
+                                <td>First impression</td>
+                                <td>Unclear headline and competing messages</td>
+                                <td>Focused value proposition and clear next step</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <div class="feature-cell-title">Stripe UAE (Custom Elements)</div>
-                                    <div class="feature-cell-sub">Headless Embedded Form SDK</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Cards, Apple Pay, Google Pay</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Stripe Radar Machine
-                                        Learning</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Automated
-                                        fraud rule engine</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-purple">T+2 Business Days</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #e83e8c; font-size: 16px;">+22% Global Sales</strong>
-                                </td>
+                                <td>Navigation</td>
+                                <td>Visitors struggle to find important information</td>
+                                <td>Logical information architecture and labels</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <div class="feature-cell-title">Tabby &amp; Tamara (BNPL)</div>
-                                    <div class="feature-cell-sub">Split in 4 Interest-Free Installments</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-amber">Direct GCC Mobile ID Sync</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Instant Credit Risk
-                                        Verification</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Merchant
-                                        paid 100% upfront</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">Guaranteed Weekly</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #e83e8c; font-size: 16px;">+42% Average Order (AOV)</strong>
-                                </td>
+                                <td>Mobile experience</td>
+                                <td>Small text, awkward spacing, horizontal overflow</td>
+                                <td>Responsive layouts tested at real breakpoints</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <div class="feature-cell-title">Telr &amp; Checkout.com</div>
-                                    <div class="feature-cell-sub">Pan-MENA Multi-Currency Processing</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-purple">AED, SAR, KWD, BHD, OMR, USD</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Tokenized Stored
-                                        Credentials</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">One-click
-                                        repeat checkouts</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-purple">T+2 Working Days</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #e83e8c; font-size: 16px;">+19% GCC Expansion</strong>
-                                </td>
+                                <td>Content</td>
+                                <td>Generic copy that does not answer buyer questions</td>
+                                <td>Specific, useful content aligned with search intent</td>
+                            </tr>
+                            <tr>
+                                <td>Maintenance</td>
+                                <td>Routine updates require unnecessary developer effort</td>
+                                <td>Appropriate CMS and documented workflows</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 8: Custom Web App Security, Penetration Testing & Zero-Trust Defense -->
-    <section class="content-section bordered" id="section-zero-trust">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Cyber Defense</div>
-                <h2>Zero-Trust Security &amp; Continuous Threat Shielding</h2>
-                <p>
-                    Protect your brand reputation, customer credentials, and commercial data with our defense-in-depth
-                    cybersecurity protocols baked into every line of code.
-                </p>
-            </div>
-
-            <div class="grid-4-col">
-                <div class="content-card-md" style="padding: 24px 20px;">
-                    <h4 style="font-size: 19px; color: #ffffff; margin-bottom: 8px;">OWASP Top 10</h4>
-                    <p style="font-size: 16px; color: var(--text-muted); line-height: 1.65;">Automated prevention of SQL
-                        injections, cross-site scripting (XSS), and insecure direct object references (IDOR).</p>
+        <!-- 11. Content and SEO -->
+        <section class="wd-section">
+            <div class="wd-container wd-two-col">
+                <div class="wd-copy wd-reveal">
+                    <p class="wd-eyebrow">Content & search foundations</p>
+                    <h2>Make every page easier to <span class="wd-gradient-text">understand.</span></h2>
+                    <p>Search-friendly websites begin with useful information and a clear structure. We help organise
+                        pages so visitors can scan the content, understand the offer, and move naturally toward the next
+                        step.</p>
+                    <ul class="wd-check-list">
+                        <li>One clear primary heading and logical subheadings</li>
+                        <li>Descriptive page titles and meta description fields</li>
+                        <li>Relevant internal links and clear URL structures</li>
+                        <li>Accessible text, image alternatives, and link labels</li>
+                        <li>Content that answers real customer questions</li>
+                    </ul>
+                    <p style="margin-top:22px;">SEO results depend on competition, content quality, authority, and many
+                        other factors. These foundations support visibility but do not guarantee rankings.</p>
                 </div>
-
-                <div class="content-card-md" style="padding: 24px 20px;">
-                    <h4 style="font-size: 19px; color: #ffffff; margin-bottom: 8px;">Cloudflare WAF</h4>
-                    <p style="font-size: 16px; color: var(--text-muted); line-height: 1.65;">Layer 7 application
-                        firewall blocking bad bots, scrapers, and volumetric DDoS attacks before they touch your server.
-                    </p>
-                </div>
-
-                <div class="content-card-md" style="padding: 24px 20px;">
-                    <h4 style="font-size: 19px; color: #ffffff; margin-bottom: 8px;">AES-256 Encryption</h4>
-                    <p style="font-size: 16px; color: var(--text-muted); line-height: 1.65;">All customer records,
-                        inquiries, and authentication credentials encrypted in transit (TLS 1.3) and at rest (AES-256).
-                    </p>
-                </div>
-
-                <div class="content-card-md" style="padding: 24px 20px;">
-                    <h4 style="font-size: 19px; color: #ffffff; margin-bottom: 8px;">Pen-Testing QA</h4>
-                    <p style="font-size: 16px; color: var(--text-muted); line-height: 1.65;">Pre-launch ethical hacking
-                        and third-party penetration audits certifying code integrity before going live.</p>
+                <div class="wd-art-panel wd-reveal">
+                    <div class="wd-art-orbit"></div>
+                    <div class="wd-art-tag one">Useful content</div>
+                    <div class="wd-art-tag two">Clear hierarchy</div>
+                    <div class="wd-art-tag three">Connected pages ↗</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- NEW SECTION 9: Client Success Stories & Enterprise Digital Transformations -->
-    <section class="content-section bordered" id="section-case-studies">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Commercial Impact</div>
-                <h2>Proven Digital Transformation Case Studies</h2>
-                <p>
-                    Real-world outcomes delivered for leading UAE enterprises, government contractors, and luxury brands
-                    in Dubai.
-                </p>
+        <!-- 12. FAQ -->
+        <section class="wd-section wd-band" id="wd-faq">
+            <div class="wd-container wd-faq-grid">
+                <div class="wd-section-head wd-reveal">
+                    <p class="wd-eyebrow">Frequently asked questions</p>
+                    <h2>Before we <span class="wd-gradient-text">get started.</span></h2>
+                    <p>Here are answers to common questions about planning, building, and maintaining a business
+                        website.</p>
+                    <a class="wd-btn wd-btn-secondary" href="#wd-contact">Ask us a question ↗</a>
+                </div>
+                <div class="wd-faq-list wd-reveal">
+                    <details class="wd-faq-item">
+                        <summary>How long does website development take?</summary>
+                        <div class="wd-faq-answer">The timeline depends on page count, design complexity, content
+                            readiness, integrations, and feedback cycles. Once we understand your requirements, we can
+                            outline realistic milestones for your project.</div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>Will my website work on mobile devices?</summary>
+                        <div class="wd-faq-answer">Yes. Responsive behaviour is part of the design and development
+                            process. Layouts should adapt to mobile, tablet, laptop, and larger screens, with key
+                            interactions tested across relevant breakpoints.</div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>Can I update the website content myself?</summary>
+                        <div class="wd-faq-answer">Yes, where a content management system is included. We can structure
+                            editable content areas around your team's needs and provide guidance for routine updates.
+                        </div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>Will the website be SEO-friendly?</summary>
+                        <div class="wd-faq-answer">We can implement technical and on-page foundations such as semantic
+                            headings, metadata support, responsive layouts, crawlable links, and performance-conscious
+                            assets. Search rankings are not guaranteed and require ongoing work.</div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>Can you redesign an existing website?</summary>
+                        <div class="wd-faq-answer">Yes. A redesign can address usability, visual consistency, content
+                            hierarchy, mobile issues, and maintainability. We first review the current site and identify
+                            what should be improved or preserved.</div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>Do you connect websites with CRM or third-party tools?</summary>
+                        <div class="wd-faq-answer">Integrations can be planned based on the available API, data flow,
+                            permissions, and your business requirements. We confirm the scope and dependencies before
+                            implementation.</div>
+                    </details>
+                    <details class="wd-faq-item">
+                        <summary>How much does a business website cost in Dubai?</summary>
+                        <div class="wd-faq-answer">Pricing depends on the number of pages, design requirements,
+                            functionality, integrations, content, and ongoing support. Share your goals and scope to
+                            receive a project-specific estimate.</div>
+                    </details>
+                </div>
             </div>
+        </section>
 
-            <div class="grid-3-col">
-                <div class="content-card-lg">
-                    <div
-                        style="font-size: 16px; font-weight: 800; color: #ff70b0; text-transform: uppercase; margin-bottom: 8px;">
-                        Luxury Real Estate &bull; Downtown Dubai</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">+184% Lead Generation Increase
-                    </h3>
-                    <p style="font-size: 16px; line-height: 1.7; margin-bottom: 18px;">
-                        Migrated an established developer from an outdated WordPress setup to a custom Next.js portal
-                        with interactive 3D floorplan filtering and automated CRM WhatsApp routing.
-                    </p>
-                    <div
-                        style="border-top: 1px solid var(--border-subtle); padding-top: 14px; font-size: 16px; color: #e83e8c; font-weight: 700;">
-                        Outcome: Page speed improved from 4.2s to 0.4s; organic SEO rankings surged across 45 target
-                        keywords.
+        <!-- 13. Final CTA / contact anchor -->
+        <section class="wd-section" id="wd-contact">
+            <div class="wd-container">
+                <div class="wd-final-cta wd-reveal">
+                    <p class="wd-eyebrow">Your next step starts here</p>
+                    <h2>Ready to build a website that works as hard as <span class="wd-gradient-text">your
+                            business?</span></h2>
+                    <p>Tell us what you are building, what is not working today, and where you want to go next. We will
+                        help you define a practical way forward.</p>
+                    <div class="wd-btn-row">
+                        <!-- Replace these links with your real contact/quote URLs. -->
+                        <a class="wd-btn wd-btn-primary" href="/contact/">Start a Project <span
+                                aria-hidden="true">↗</span></a>
+                        <a class="wd-btn wd-btn-secondary" href="mailto:hello@websitedevelopmentagency.ae">Email Our
+                            Team <span aria-hidden="true">↗</span></a>
                     </div>
-                </div>
-
-                <div class="content-card-lg">
-                    <div
-                        style="font-size: 16px; font-weight: 800; color: #AC5FEA; text-transform: uppercase; margin-bottom: 8px;">
-                        Healthcare Group &bull; Dubai Healthcare City</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">DHA Patient Portal &amp; 0.2s
-                        Booking</h3>
-                    <p style="font-size: 16px; line-height: 1.7; margin-bottom: 18px;">
-                        Engineered a fully encrypted patient appointment system supporting 14 medical departments with
-                        real-time SMS confirmations and doctor schedule synchronizations.
-                    </p>
-                    <div
-                        style="border-top: 1px solid var(--border-subtle); padding-top: 14px; font-size: 16px; color: #e83e8c; font-weight: 700;">
-                        Outcome: Patient no-shows reduced by 32%; booking completion rate climbed from 41% to 88%.
-                    </div>
-                </div>
-
-                <div class="content-card-lg">
-                    <div
-                        style="font-size: 16px; font-weight: 800; color: #f59e0b; text-transform: uppercase; margin-bottom: 8px;">
-                        B2B Logistics &bull; JAFZA Freezone</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 12px;">Automated Global Freight
-                        Quotations</h3>
-                    <p style="font-size: 16px; line-height: 1.7; margin-bottom: 18px;">
-                        Created a bespoke logistics calculation platform connecting live shipping rates with automated
-                        PDF invoice generation and multi-currency payment collection.
-                    </p>
-                    <div
-                        style="border-top: 1px solid var(--border-subtle); padding-top: 14px; font-size: 16px; color: #e83e8c; font-weight: 700;">
-                        Outcome: Sales team quote turnaround reduced from 4 hours to 10 seconds; sales volume increased
-                        by 210%.
-                    </div>
+                    <p class="wd-small-note">Website strategy · Design · Development · Ongoing improvement</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- NEW SECTION 10: 24/7 SLA, Cloud AMC & Continuous Maintenance Engineering -->
-    <section class="content-section bordered" id="section-sla-amc">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Post-Launch Continuity</div>
-                <h2>24/7 SLA, Annual Maintenance (AMC) &amp; Cloud Support</h2>
-                <p>
-                    A launch is just the beginning. Our dedicated DevOps and technical maintenance engineers keep your
-                    platform secure, up to date, and operating at peak efficiency around the clock.
-                </p>
-            </div>
+    <script>
+        (function () {
+            const root = document.querySelector('.wd-landing-page');
+            if (!root) return;
 
-            <div class="grid-3-col">
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 12px;">⏱️</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">&lt; 15-Minute Response SLA</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Direct hotline and Slack/Teams channel directly with senior engineering architects for immediate
-                        resolution of critical priority tickets.
-                    </p>
-                </div>
+            // Reveal content when it enters the viewport. Respect reduced-motion preferences.
+            const revealItems = root.querySelectorAll('.wd-reveal');
+            if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('wd-visible');
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.12 });
+                revealItems.forEach((item) => observer.observe(item));
+            } else {
+                revealItems.forEach((item) => item.classList.add('wd-visible'));
+            }
 
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 12px;">🔄</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">Weekly Code &amp; Security Audits
-                    </h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Continuous automated dependency vulnerability patching, SSL rotations, and monthly performance
-                        regressions profiling.
-                    </p>
-                </div>
-
-                <div class="content-card-md">
-                    <div style="font-size: 28px; margin-bottom: 12px;">📈</div>
-                    <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 10px;">Iterative Feature Sprints</h3>
-                    <p style="font-size: 16px; line-height: 1.7;">
-                        Dedicated developer hours allocated monthly to build new landing pages, integrate emerging
-                        marketing pixels, and optimize conversion funnels.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 11: Benchmark Comparison Matrix -->
-    <section class="content-section bordered" id="comparison-matrix">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Engineering Benchmark</div>
-                <h2>Custom Architecture vs. Standard Agency Templates</h2>
-                <p>
-                    Compare the commercial and operational impact of enterprise custom web development versus
-                    off-the-shelf WordPress themes and low-cost freelancer solutions.
-                </p>
-            </div>
-
-            <div class="comparison-table-wrap">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th style="width: 35%;">Evaluation Dimension</th>
-                            <th style="width: 35%; color: #ff70b0; background: rgba(232, 62, 140, 0.08);">Website
-                                Development Agency (Custom)</th>
-                            <th style="width: 30%; color: #94a3b8;">Standard Template Agencies</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="feature-cell-title">Time to First Byte (TTFB) &amp; Page Speed</div>
-                                <div class="feature-cell-sub">Speed measured on 4G/5G mobile connections in Dubai</div>
-                            </td>
-                            <td>
-                                <span class="badge-our-agency">0.3s - 0.7s Average</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Edge-rendered
-                                    with Cloudflare UAE PoP</div>
-                            </td>
-                            <td>
-                                <span class="badge-generic">3.5s - 6.2s Average</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Bloated theme
-                                    CSS &amp; 30+ plugins</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="feature-cell-title">Bilingual Arabic &amp; English Execution</div>
-                                <div class="feature-cell-sub">Layout symmetry and cultural design standards</div>
-                            </td>
-                            <td>
-                                <span class="badge-our-agency">Native Mirrored RTL Architecture</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Independently
-                                    optimized typography &amp; visuals</div>
-                            </td>
-                            <td>
-                                <span class="badge-generic">Auto-Translated Plugin Flips</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Broken
-                                    alignments, text overflows</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="feature-cell-title">Google Core Web Vitals Status</div>
-                                <div class="feature-cell-sub">LCP, INP, and CLS scores required for top SEO rankings
-                                </div>
-                            </td>
-                            <td>
-                                <span class="badge-our-agency">100% Green Scores Guaranteed</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Zero cumulative
-                                    layout shift</div>
-                            </td>
-                            <td>
-                                <span class="badge-generic">Frequent Yellow / Red Fails</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Fails Google
-                                    page experience criteria</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="feature-cell-title">Security &amp; Vulnerability Shielding</div>
-                                <div class="feature-cell-sub">Protection against database injection, bots, and DDoS
-                                </div>
-                            </td>
-                            <td>
-                                <span class="badge-our-agency">Hardened Zero-Trust Defense</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">OWASP Level 2,
-                                    Headless isolation</div>
-                            </td>
-                            <td>
-                                <span class="badge-generic">Exposed Admin &amp; Plugin Holes</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Vulnerable to
-                                    automated brute-force attacks</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="feature-cell-title">CRM &amp; Third-Party API Scalability</div>
-                                <div class="feature-cell-sub">ERP, WhatsApp, payment gateways, and booking engines</div>
-                            </td>
-                            <td>
-                                <span class="badge-our-agency">Infinite Bespoke Integration</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Direct webhook
-                                    pipelines and microservices</div>
-                            </td>
-                            <td>
-                                <span class="badge-generic">Restricted to Paid Zapier/Plugins</span>
-                                <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Frequent sync
-                                    dropouts and rate limits</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 12: Sector Expertise Grid -->
-    <section class="content-section bordered" id="industry-solutions">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Sector Expertise</div>
-                <h2>Specialized Digital Solutions for UAE Industries</h2>
-                <p>
-                    We tailor our development architecture to match the unique customer acquisition journeys and
-                    compliance mandates of Dubai's key economic sectors.
-                </p>
-            </div>
-
-            <div class="industries-grid">
-                <!-- Industry 1 -->
-                <div class="industry-card">
-                    <div class="industry-tag">Real Estate &bull; Developers &amp; Agencies</div>
-                    <h4>Luxury Property Showcase Portals</h4>
-                    <p>High-resolution property search engines, interactive master-plan floorplans, 3D virtual
-                        walkthrough embeds, and instant WhatsApp inquiry capture with automated CRM lead attribution.
-                    </p>
-                </div>
-
-                <!-- Industry 2 -->
-                <div class="industry-card">
-                    <div class="industry-tag">Healthcare &bull; Clinics &amp; Hospitals</div>
-                    <h4>DHA-Compliant Medical Portals</h4>
-                    <p>Doctor directory filtering, real-time consultation appointment booking, patient portal logins,
-                        and bilingual health education libraries engineered with high patient data security.</p>
-                </div>
-
-                <!-- Industry 3 -->
-                <div class="industry-card">
-                    <div class="industry-tag">FinTech &bull; Investment &amp; Banking</div>
-                    <h4>Financial Web Platforms &amp; Calculators</h4>
-                    <p>High-security portals with mortgage and ROI calculators, live market data feeds, KYC document
-                        submission workflows, and enterprise-grade data encryption.</p>
-                </div>
-
-                <!-- Industry 4 -->
-                <div class="industry-card">
-                    <div class="industry-tag">Hospitality &bull; Hotels &amp; Dining</div>
-                    <h4>Direct Reservation &amp; Dining Engines</h4>
-                    <p>Commission-free direct booking engines, multilingual banquet inquiry workflows, dynamic rate
-                        parity showcases, and POS integration for high-revenue hospitality groups.</p>
-                </div>
-
-                <!-- Industry 5 -->
-                <div class="industry-card">
-                    <div class="industry-tag">Logistics &bull; Free Zone &amp; Trade</div>
-                    <h4>Supply Chain &amp; Cargo Portals</h4>
-                    <p>B2B portal architecture featuring real-time container shipment tracking, automated freight quote
-                        calculators, and multi-branch client dashboard portals.</p>
-                </div>
-
-                <!-- Industry 6 -->
-                <div class="industry-card">
-                    <div class="industry-tag">Retail &bull; Luxury &amp; D2C</div>
-                    <h4>Headless Omnichannel Stores</h4>
-                    <p>Next-generation eCommerce stores delivering sub-second product page transitions, personalized
-                        product bundles, seamless return portals, and GCC-wide delivery tracking.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 13: 5-Phase Precision Delivery Framework -->
-    <section class="content-section bordered" id="engineering-process">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Development Methodology</div>
-                <h2>Our 5-Phase Precision Delivery Framework</h2>
-                <p>
-                    A battle-tested agile engineering methodology that eliminates scope creep, guarantees milestone
-                    delivery, and keeps your executive team fully informed.
-                </p>
-            </div>
-
-            <div class="stepper-flow">
-                <div class="step-block">
-                    <span class="step-num-badge">Phase 01</span>
-                    <h4>Technical Scoping</h4>
-                    <p>User persona mapping, information architecture, competitor benchmarking, tech stack selection,
-                        and database schema planning.</p>
-                </div>
-
-                <div class="step-block">
-                    <span class="step-num-badge">Phase 02</span>
-                    <h4>UI/UX Prototyping</h4>
-                    <p>Figma wireframing, high-fidelity visual design, responsive layouts for all viewports, and
-                        interactive customer journey validation.</p>
-                </div>
-
-                <div class="step-block">
-                    <span class="step-num-badge">Phase 03</span>
-                    <h4>Full-Stack Coding</h4>
-                    <p>Clean, modular TypeScript/Next.js and Node.js/Laravel development, API integration, and
-                        continuous integration (CI/CD) pipelines.</p>
-                </div>
-
-                <div class="step-block">
-                    <span class="step-num-badge">Phase 04</span>
-                    <h4>Rigorous QA Testing</h4>
-                    <p>Cross-browser testing, mobile device lab verification, Core Web Vitals profiling, security
-                        audits, and load testing.</p>
-                </div>
-
-                <div class="step-block">
-                    <span class="step-num-badge">Phase 05</span>
-                    <h4>Deployment &amp; Growth</h4>
-                    <p>Zero-downtime DNS cutover, technical SEO submission to Google UAE Search Console, analytics
-                        instrumentation, and 24/7 SLA monitoring.</p>
-                </div>
-            </div>
-
-            <!-- Table 3: 5-Phase Project Sprint Milestones & Technical Artifacts Matrix -->
-            <div style="margin-top: 40px;">
-                <div class="table-header-flex">
-                    <div>
-                        <h3 style="font-size: 22px; color: #ffffff; margin-bottom: 6px;">Enterprise Sprint Schedule
-                            &amp; Deliverables Matrix</h3>
-                        <p style="font-size: 16px; color: var(--text-muted);">Exact sprint breakdown, architectural
-                            deliverables, and stakeholder quality gates for every phase.</p>
-                    </div>
-                    <span class="badge-table-purple">Agile Scrum &bull; 2-Week Sprints</span>
-                </div>
-
-                <div class="comparison-table-wrap">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th style="width: 22%;">Phase &amp; Sprint Focus</th>
-                                <th style="width: 15%;">Duration</th>
-                                <th style="width: 28%;">Technical Deliverables</th>
-                                <th style="width: 18%;">Security &amp; QA Gate</th>
-                                <th style="width: 17%;">Executive Sign-Off</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">01. Discovery &amp; Arch</div>
-                                    <div class="feature-cell-sub">Systems Blueprint</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Weeks 1 &ndash; 2</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">SAD &amp; ERD Schema</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">API
-                                        contracts &amp; cloud architecture map</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">NDA &amp; TDRA Audit</span>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Technical Charter</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">02. Design Systems</div>
-                                    <div class="feature-cell-sub">UX &amp; High-Fidelity UI</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Weeks 3 &ndash; 4</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Figma Tokens &amp;
-                                        Prototypes</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Mirrored
-                                        Arabic/English component library</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-purple">WCAG 2.1 AA Review</span>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Design System Sign-off</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">03. Full-Stack Sprints</div>
-                                    <div class="feature-cell-sub">Microservices Core</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Weeks 5 &ndash; 8</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Decoupled Next.js Engine</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">
-                                        GraphQL/REST API, headless CMS &amp; ERP sync</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">SonarQube 0 Bug Gate</span>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Staging Demo Release</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">04. Pen-Testing &amp; QA</div>
-                                    <div class="feature-cell-sub">Speed &amp; Vulnerabilities</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-blue">Weeks 9 &ndash; 10</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Lighthouse 95+
-                                        Certification</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Pen-test
-                                        audit report &amp; 10,000 CCU stress test</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">OWASP Top 10 Cleared</span>
-                                </td>
-                                <td style="font-size: 16px; color: var(--text-body);">Security Clearance</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="feature-cell-title">05. Production Launch</div>
-                                    <div class="feature-cell-sub">Zero-Downtime Live</div>
-                                </td>
-                                <td>
-                                    <span class="badge-table-amber">Week 11 &ndash; AMC</span>
-                                </td>
-                                <td>
-                                    <strong style="color: #ffffff; font-size: 16px;">Edge CDN Live Cutover</strong>
-                                    <div style="font-size: 16px; color: var(--text-muted); margin-top: 4px;">Search
-                                        Console indexing &amp; real-time telemetry</div>
-                                </td>
-                                <td>
-                                    <span class="badge-our-agency">99.99% SLA Activated</span>
-                                </td>
-                                <td style="font-size: 16px; color: #e83e8c; font-weight: 700;">Final Handover</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 14: Comprehensive FAQ Accordion -->
-    <section class="content-section bordered" id="faq-accordion">
-        <div class="page-container">
-            <div class="section-header-left">
-                <div class="badge-pill" style="margin-bottom: 10px;">Common Inquiries</div>
-                <h2>Frequently Asked Questions</h2>
-                <p>
-                    Straightforward answers regarding our technical stack, timelines, pricing, and ongoing support for
-                    Dubai enterprises.
-                </p>
-            </div>
-
-            <div class="faq-accordion-box">
-                <!-- FAQ 1 -->
-                <details class="faq-panel" open>
-                    <summary class="faq-header">
-                        <span>Why do modern businesses in Dubai need custom web architecture instead of
-                            templates?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        Dubai is one of the world's most competitive digital economies. Off-the-shelf templates carry
-                        bloated code, slow server response times, vulnerability backdoors, and rigid design limitations.
-                        Custom engineering delivers sub-second load times, tailor-made user journeys, seamless ERP/CRM
-                        integrations, and superior technical SEO rankings that templates simply cannot match.
-                    </div>
-                </details>
-
-                <!-- FAQ 2 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>How does your agency guarantee sub-second page speeds in the UAE?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        We deploy edge-rendered architectures using Next.js and React with server-side generation (SSG)
-                        and incremental static regeneration (ISR), combined with Cloudflare regional Edge CDN nodes in
-                        Dubai and UAE, image optimization pipelines (WebP/AVIF), and zero third-party blocking scripts.
-                    </div>
-                </details>
-
-                <!-- FAQ 3 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>How is bilingual (Arabic &amp; English) support engineered?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        We build native bi-directional design systems. Arabic is rendered with native Right-to-Left
-                        (RTL) typography, adjusted padding, flipped directional queues, and culturally localized UI
-                        elements, paired with correct hreflang tags for Google UAE indexing.
-                    </div>
-                </details>
-
-                <!-- FAQ 4 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>What security compliance standards do your web applications adhere to?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        All platforms follow OWASP Top 10 security standards, UAE TDRA &amp; DESC data handling best
-                        practices, strict Content Security Policies (CSP), automated SSL/TLS encryption, database
-                        encryption at rest (AES-256), and enterprise Cloudflare Web Application Firewall (WAF)
-                        protection.
-                    </div>
-                </details>
-
-                <!-- FAQ 5 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>What is the typical investment range and timeline for an enterprise custom website in
-                            Dubai?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        High-impact custom marketing platforms and landing funnels launch in 2 to 3 weeks. Comprehensive
-                        enterprise portals, headless eCommerce, and multi-tenant SaaS applications range from 4 to 8
-                        weeks. We provide milestone-based pricing with transparent scope documentation and zero hidden
-                        maintenance fees.
-                    </div>
-                </details>
-
-                <!-- FAQ 6 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>Can your team integrate with our existing ERP, CRM, and UAE payment gateways?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        Yes. We possess deep experience integrating with Salesforce, HubSpot, Zoho, SAP, Microsoft
-                        Dynamics, and UAE payment gateways including Network International, Telr, Stripe, Checkout.com,
-                        and Apple Pay.
-                    </div>
-                </details>
-
-                <!-- FAQ 7 -->
-                <details class="faq-panel">
-                    <summary class="faq-header">
-                        <span>Do you provide post-launch support and Service Level Agreements (SLA)?</span>
-                        <span class="faq-toggle-btn">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </span>
-                    </summary>
-                    <div class="faq-content">
-                        Yes, we offer guaranteed 24/7/365 uptime monitoring, sub-1-hour emergency response SLAs,
-                        automated weekly security patches, continuous performance optimizations, and dedicated account
-                        management under our Annual Maintenance Contracts (AMC).
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
+            // Keep the FAQ focused: opening one answer closes the others.
+            const faqItems = root.querySelectorAll('.wd-faq-item');
+            faqItems.forEach((item) => {
+                item.addEventListener('toggle', () => {
+                    if (item.open) {
+                        faqItems.forEach((other) => {
+                            if (other !== item) other.open = false;
+                        });
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
 
 </html>

@@ -530,6 +530,19 @@ export async function getCustomPageBySlug(slug) {
   }
 }
 
+export async function getCustomPageById(id) {
+  await verifyAdmin();
+  try {
+    const page = await db.customPage.findUnique({
+      where: { id: Number(id) },
+    });
+    return page;
+  } catch (error) {
+    console.error("Error fetching custom page by id:", error);
+    return null;
+  }
+}
+
 // ✅ Get all CSS files
 export async function getCssFiles() {
   await verifyAdmin();

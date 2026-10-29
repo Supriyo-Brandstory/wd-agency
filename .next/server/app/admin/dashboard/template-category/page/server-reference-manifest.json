@@ -1,30 +1,6 @@
 {
   "node": {
-    "603d6b47e5049a80953d87eef23073417443b98670": {
-      "workers": {
-        "app/admin/dashboard/template-category/page": {
-          "moduleId": 435704,
-          "async": false,
-          "exportedName": "createTemplateCategory",
-          "filename": "src/app/admin/dashboard/template-category/actions.js"
-        }
-      },
-      "exportedName": "createTemplateCategory",
-      "filename": "src/app/admin/dashboard/template-category/actions.js"
-    },
-    "709ce2e6a8c540db54fc9089ac8721ab166e343ffe": {
-      "workers": {
-        "app/admin/dashboard/template-category/page": {
-          "moduleId": 435704,
-          "async": false,
-          "exportedName": "updateTemplateCategory",
-          "filename": "src/app/admin/dashboard/template-category/actions.js"
-        }
-      },
-      "exportedName": "updateTemplateCategory",
-      "filename": "src/app/admin/dashboard/template-category/actions.js"
-    },
-    "40272a8931844c1877ea8e33b5d2412d69c7d2c511": {
+    "400889dc0dfe458a7d6475d0ea549d5a8e5872d9eb": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,
@@ -36,7 +12,7 @@
       "exportedName": "deleteTemplateCategory",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "606ae6e122d9d75917f42b221309a0cc6b53a68d9c": {
+    "6080b3a6fde174e90a768ffd420be5a1df9687d4de": {
       "workers": {
         "app/admin/dashboard/template-category/page": {
           "moduleId": 435704,

@@ -122,6 +122,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/dashboard/blog/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/blog/create",
+      "dataRoute": "/admin/dashboard/blog/create.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard/blog-category": {
       "experimentalBypassFor": [
         {
@@ -146,6 +170,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/dashboard/blog-category/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/blog-category/create",
+      "dataRoute": "/admin/dashboard/blog-category/create.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard/custom-page": {
       "experimentalBypassFor": [
         {
@@ -161,6 +209,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/dashboard/custom-page",
       "dataRoute": "/admin/dashboard/custom-page.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/dashboard/custom-page/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/custom-page/create",
+      "dataRoute": "/admin/dashboard/custom-page/create.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -266,6 +338,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/dashboard/seo/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/seo/create",
+      "dataRoute": "/admin/dashboard/seo/create.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard/sitemap": {
       "experimentalBypassFor": [
         {
@@ -314,6 +410,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/dashboard/template/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/template/create",
+      "dataRoute": "/admin/dashboard/template/create.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard/template-category": {
       "experimentalBypassFor": [
         {
@@ -337,13 +457,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/admin/dashboard/template-category/create": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/dashboard/template-category/create",
+      "dataRoute": "/admin/dashboard/template-category/create.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7131550e7177b60ff0cb62c750e05af1",
-    "previewModeSigningKey": "5f491d35bb4a086b87794ebed6f36eedeecdb1cbfefd1690d204dd2322256ae3",
-    "previewModeEncryptionKey": "d6c5ec5d6bc21e4765adadb6d0f102a51753515b09ceecf084b0d227820df503"
+    "previewModeId": "85e747e7e67761e910aff1b99236e2cf",
+    "previewModeSigningKey": "a91a9c6e9eaa172c649983cdb409213281bd34f33d2141ae8997f41c33d882af",
+    "previewModeEncryptionKey": "7a2adabdab71e6c6242ad857ac345d0d6add5c67e5d116698127ce44a7a852f3"
   }
 }

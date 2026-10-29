@@ -263,6 +263,19 @@ export async function getTemplateBySlug(slug) {
     }
 }
 
+export async function getTemplateById(id) {
+    await verifyAdmin();
+    try {
+        return await db.template.findUnique({
+            where: { id: Number(id) },
+            include: { category: true },
+        });
+    } catch (error) {
+        console.error("Error fetching template by ID:", error);
+        throw new Error("Failed to fetch template by ID");
+    }
+}
+
 export async function getTemplatesByCategory(categoryId) {
     try {
         return await db.template.findMany({

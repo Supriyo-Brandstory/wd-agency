@@ -65,3 +65,14 @@ export async function getBlogCategories(page = null, limit = 10) {
   }
   return await db.blogCategory.findMany({ orderBy: { id: "desc" } });
 }
+
+export async function getBlogCategoryById(id) {
+  try {
+    return await db.blogCategory.findUnique({
+      where: { id: Number(id) },
+    });
+  } catch (error) {
+    console.error("Error fetching blog category by ID:", error);
+    throw new Error("Failed to fetch blog category by ID");
+  }
+}

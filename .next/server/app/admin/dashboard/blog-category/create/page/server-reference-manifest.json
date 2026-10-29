@@ -1,0 +1,17 @@
+{
+  "node": {
+    "70d3dc038204ac94a2581556ec10c319d4e98d031f": {
+      "workers": {
+        "app/admin/dashboard/blog-category/create/page": {
+          "moduleId": 651239,
+          "async": false,
+          "exportedName": "createBlogCategory",
+          "filename": "src/app/admin/dashboard/blog-category/actions.js"
+        }
+      },
+      "exportedName": "createBlogCategory",
+      "filename": "src/app/admin/dashboard/blog-category/actions.js"
+    }
+  },
+  "edge": {}
+}

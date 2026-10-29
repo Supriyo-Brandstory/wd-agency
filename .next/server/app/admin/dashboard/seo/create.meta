@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/dashboard/layout,_N_T_/admin/dashboard/seo/layout,_N_T_/admin/dashboard/seo/create/layout,_N_T_/admin/dashboard/seo/create/page,_N_T_/admin/dashboard/seo/create"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/dashboard/seo/create/__PAGE__",
+    "/admin/dashboard/seo/create",
+    "/admin/dashboard/seo",
+    "/admin/dashboard",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

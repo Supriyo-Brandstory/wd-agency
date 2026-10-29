@@ -1,6 +1,6 @@
 {
   "node": {
-    "403adb4587b33f6336f398b6b4bbf52fcb2414b18b": {
+    "40171a213ab51bd81f0d73270a46d78824ea67a282": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -12,7 +12,7 @@
       "exportedName": "deleteSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "4046c54b2162f9a0006721ec1fa5583c7d1b338565": {
+    "4056c5ab7216b5a9ddf7a7a3ace51b0e443ab311f3": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -24,7 +24,19 @@
       "exportedName": "createSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "600c9944983bd992b60361bd4f40193edffaef2264": {
+    "40e82f850719e55b79ce56264769b8a822455fc376": {
+      "workers": {
+        "app/(frontend)/(pages)/real-estate-web-development/page": {
+          "moduleId": 437220,
+          "async": false,
+          "exportedName": "getSeoById",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "getSeoById",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "604feb6d24b5ddecb3e9afbf2427d0c009b5344e2c": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -36,7 +48,7 @@
       "exportedName": "getSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "602dca9715f54b92f9865debcc4eb328cb1fa93c16": {
+    "608cc8a8d33c09994319d0468bed0860b25849ff3c": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -48,7 +60,7 @@
       "exportedName": "updateSeoData",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "7fa80220960cccc7db68676726732effe60d0a98dd": {
+    "7f2b7e95753bf6c6008f8b567758661e58bd3c5817": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -60,7 +72,7 @@
       "exportedName": "getSeoDataByPageUrl",
       "filename": "src/app/admin/dashboard/seo/actions.js"
     },
-    "00038e3288d1eeec21d267d9eb6dbc2a34882b32fa": {
+    "00af6032e647cb24781c8983dc2f0dcb87814fb9f7": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -72,7 +84,7 @@
       "exportedName": "getTemplates",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "606ae6e122d9d75917f42b221309a0cc6b53a68d9c": {
+    "6080b3a6fde174e90a768ffd420be5a1df9687d4de": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,
@@ -84,7 +96,7 @@
       "exportedName": "getTemplateCategories",
       "filename": "src/app/admin/dashboard/template-category/actions.js"
     },
-    "6042680141a3f45d3fa6eec4b6f26b49ec6af14491": {
+    "608708b1d60608d55d46629984acaba477255427aa": {
       "workers": {
         "app/(frontend)/(pages)/real-estate-web-development/page": {
           "moduleId": 437220,

@@ -1,0 +1,17 @@
+{
+  "node": {
+    "60adee63317585fed1ebaaa359d793fb79ed48c153": {
+      "workers": {
+        "app/admin/dashboard/template-category/create/page": {
+          "moduleId": 910705,
+          "async": false,
+          "exportedName": "createTemplateCategory",
+          "filename": "src/app/admin/dashboard/template-category/actions.js"
+        }
+      },
+      "exportedName": "createTemplateCategory",
+      "filename": "src/app/admin/dashboard/template-category/actions.js"
+    }
+  },
+  "edge": {}
+}

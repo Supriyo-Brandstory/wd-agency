@@ -1,0 +1,29 @@
+{
+  "node": {
+    "40e82f850719e55b79ce56264769b8a822455fc376": {
+      "workers": {
+        "app/admin/dashboard/seo/edit/[id]/page": {
+          "moduleId": 492295,
+          "async": false,
+          "exportedName": "getSeoById",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "getSeoById",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    },
+    "608cc8a8d33c09994319d0468bed0860b25849ff3c": {
+      "workers": {
+        "app/admin/dashboard/seo/edit/[id]/page": {
+          "moduleId": 492295,
+          "async": false,
+          "exportedName": "updateSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "updateSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

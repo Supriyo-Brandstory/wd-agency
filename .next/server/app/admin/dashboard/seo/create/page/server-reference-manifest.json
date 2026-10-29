@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4056c5ab7216b5a9ddf7a7a3ace51b0e443ab311f3": {
+      "workers": {
+        "app/admin/dashboard/seo/create/page": {
+          "moduleId": 424446,
+          "async": false,
+          "exportedName": "createSeoData",
+          "filename": "src/app/admin/dashboard/seo/actions.js"
+        }
+      },
+      "exportedName": "createSeoData",
+      "filename": "src/app/admin/dashboard/seo/actions.js"
+    }
+  },
+  "edge": {}
+}

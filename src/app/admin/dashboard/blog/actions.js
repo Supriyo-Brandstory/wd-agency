@@ -278,6 +278,21 @@ export async function getBlogBySlug(slug) {
   }
 }
 
+export async function getBlogById(id) {
+  try {
+    const blog = await db.blog.findUnique({
+      where: { id: parseInt(id) },
+      include: {
+        category: true,
+      },
+    });
+    return blog;
+  } catch (error) {
+    console.error("❌ Error fetching blog by ID:", error);
+    throw new Error(`Failed to fetch blog by ID: ${error.message}`);
+  }
+}
+
 // ✅ Get latest blogs for slider (optional category filter)
 export async function getLatestBlogs(category = null, limit = 10) {
   try {

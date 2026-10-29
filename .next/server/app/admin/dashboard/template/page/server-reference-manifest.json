@@ -1,33 +1,9 @@
 {
   "node": {
-    "402bb28d86b1f5d908dd8c9cb6c271a3e46b18e38a": {
+    "40e2c85907a9874d7f19703fc965d32b11b5445120": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 747443,
-          "async": false,
-          "exportedName": "createTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "createTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40d152b5bca5643f7c7d9762adc1304d2d855b7d98": {
-      "workers": {
-        "app/admin/dashboard/template/page": {
-          "moduleId": 747443,
-          "async": false,
-          "exportedName": "updateTemplate",
-          "filename": "src/app/admin/dashboard/template/actions.js"
-        }
-      },
-      "exportedName": "updateTemplate",
-      "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "40882cf931b5b82affc29439ffdf6fa32c27f76973": {
-      "workers": {
-        "app/admin/dashboard/template/page": {
-          "moduleId": 747443,
+          "moduleId": 343055,
           "async": false,
           "exportedName": "deleteTemplate",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -36,10 +12,10 @@
       "exportedName": "deleteTemplate",
       "filename": "src/app/admin/dashboard/template/actions.js"
     },
-    "6012d7ab8ae171d006c1a1bafde767e8ce704d81fc": {
+    "6021ba161786c0a2c8b7ad62eb4a19e12803334e4b": {
       "workers": {
         "app/admin/dashboard/template/page": {
-          "moduleId": 747443,
+          "moduleId": 343055,
           "async": false,
           "exportedName": "getAllTemplatesAdmin",
           "filename": "src/app/admin/dashboard/template/actions.js"
@@ -47,18 +23,6 @@
       },
       "exportedName": "getAllTemplatesAdmin",
       "filename": "src/app/admin/dashboard/template/actions.js"
-    },
-    "606ae6e122d9d75917f42b221309a0cc6b53a68d9c": {
-      "workers": {
-        "app/admin/dashboard/template/page": {
-          "moduleId": 747443,
-          "async": false,
-          "exportedName": "getTemplateCategories",
-          "filename": "src/app/admin/dashboard/template-category/actions.js"
-        }
-      },
-      "exportedName": "getTemplateCategories",
-      "filename": "src/app/admin/dashboard/template-category/actions.js"
     }
   },
   "edge": {}

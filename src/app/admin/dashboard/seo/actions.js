@@ -79,3 +79,16 @@ export async function deleteSeoData(id) {
     throw new Error('Failed to delete SEO data');
   }
 }
+
+export async function getSeoById(id) {
+  await verifyAdmin();
+  try {
+    const seo = await db.seo.findUnique({
+      where: { id: Number(id) },
+    });
+    return seo;
+  } catch (error) {
+    console.error('Error fetching SEO by ID:', error);
+    throw new Error('Failed to fetch SEO by ID');
+  }
+}
